@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "丝路随行 · 十国背包计划",
+  "short_name": "丝路随行",
+  "description": "2027年暑假57天十国逐日路线、地图、预算、备忘与离线票夹",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f6f8",
+  "theme_color": "#087f7a",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
