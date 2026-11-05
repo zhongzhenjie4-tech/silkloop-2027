@@ -64,7 +64,7 @@
   function mount(target,options={}){
     const el=typeof target==='string'?document.querySelector(target):target;if(!el)return null;mounted.set(el,options);
     const isOpen=unlocked(),editable=isOpen&&loaded,s=visible(),day=options.day||{},total=totals(),defaultDate=day.date||'2027-07-11',rows=s.records.slice().reverse();
-    const publicInfo='<p class="minor">公开预算草案21750元含579元应急；航空、住宿、机场交通未落实，草案不代表旅行能够封顶。实付由本人手填人民币折算，不自动获取汇率。</p>';
+    const publicInfo='<p class="minor">原预算草案21750元含579元应急；其中住宿仅3860元。具名住宿方案48晚按5160–9095元留额，总额对应约23050–26985元，比22000元目标至少高1050元；这些仍非2027报价，需要继续取舍，不能视为已封顶。实付由本人手填人民币折算，不自动获取汇率。</p>';
     if(!editable){
       el.innerHTML='<section class="planning-panel" aria-label="公开预算草案"><div class="day-highlights"><strong>'+amount(total.planned)+' 公开预算草案</strong></div>'+publicInfo+'<div class="planning-budget">'+defaults.map(c=>'<p>'+E(c.label)+'：'+amount(c.amount)+'</p>').join('')+'</div><p class="minor" role="status">'+E(isOpen?'正在读取本机加密预算……':'个人预算与实付记录已锁定。解锁后才能查看、编辑和迁移旧记录。')+'</p><button type="button" class="soft-button" data-guide="private">'+(isOpen?'打开本机私密区':'解锁本机私密区')+'</button><p class="planning-notice minor" role="status" aria-live="polite">'+E(notice)+'</p></section>';
       el.onchange=null;el.onsubmit=null;el.onclick=null;if(isOpen&&!loading)ensureLoaded().catch(()=>{});return {key:KEY,totals:total};

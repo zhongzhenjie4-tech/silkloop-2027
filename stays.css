@@ -1,0 +1,52 @@
+.stay-overview{margin:16px 0;border:1px solid #bedbd6;border-radius:11px;background:#fff;overflow:hidden;font-size:13px;line-height:1.8;min-width:0}
+.stay-overview>summary{cursor:pointer;padding:14px 16px;background:var(--light,#e8f4f1);list-style:none;min-height:78px}
+.stay-overview>summary::-webkit-details-marker{display:none}
+.stay-overview>summary:after{content:"展开住宿条件 ＋";display:block;color:var(--teal,#087f7a);font-size:11px;margin-top:7px}
+.stay-overview[open]>summary:after{content:"收起住宿条件 −"}
+.stay-summary-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.stay-summary-title{font-weight:700;color:var(--teal,#087f7a)}
+.stay-summary-name{font-weight:650;display:block;margin:6px 0 2px;overflow-wrap:anywhere;line-height:1.65}
+.stay-overview summary small,.stay-city>summary small,.stay-audit-item>summary small{display:block;font-size:11px;color:var(--muted,#637c88);font-weight:400;line-height:1.7;margin-top:4px}
+.stay-tag{display:inline-block;color:var(--teal,#087f7a);background:#e8f4f1;border:1px solid #bad9d2;border-radius:4px;padding:1px 7px;font-size:10px;line-height:1.8;font-weight:500;white-space:normal}
+.stay-candidate{padding:15px 16px;min-width:0;border-bottom:1px solid var(--line,#dce6eb)}
+.stay-candidate-top h4{font-size:15px;line-height:1.7;margin:7px 0 3px;overflow-wrap:anywhere;color:var(--ink,#183342)}
+.stay-price{font-size:13px;color:var(--teal,#087f7a);font-weight:650;margin:8px 0 5px!important;overflow-wrap:anywhere}
+.stay-price small{font-size:10px;font-weight:400}
+.stay-unit,.stay-address,.stay-boundary{font-size:11px;color:var(--muted,#637c88);line-height:1.8;overflow-wrap:anywhere}
+.stay-address{margin:7px 0 10px!important}
+.stay-why{font-size:12px;line-height:1.9;margin:12px 0!important;overflow-wrap:anywhere}
+.stay-actions{display:flex;gap:8px;flex-wrap:wrap;margin:11px 0;min-width:0}
+.stay-actions .soft-button{font-size:11px;min-height:40px;padding:8px 11px;max-width:100%;white-space:normal;text-align:left}
+.stay-overview>.stay-actions,.stay-overview>.stay-boundary,.stay-overview>p{margin:12px 16px}
+.stay-candidate h5{font-size:12px;margin:13px 0 6px;color:var(--ink,#183342)}
+.stay-checklist,.stay-checks ul{padding-left:18px;margin:6px 0;font-size:12px;line-height:1.9}
+.stay-checklist li,.stay-checks li{margin:5px 0;overflow-wrap:anywhere}
+.stay-checks,.stay-sources{font-size:11px;border-top:1px solid var(--line,#dce6eb);padding:9px 0 0!important;margin-top:12px}
+.stay-checks summary,.stay-sources summary{cursor:pointer;color:var(--teal,#087f7a);font-size:11px;font-weight:550!important}
+.stay-sources ul{padding-left:17px;font-size:11px}
+.stay-sources li{margin:6px 0;overflow-wrap:anywhere}
+.stay-sources a{font-size:11px;overflow-wrap:anywhere}
+.stay-sources small{display:block;font-size:10px;color:var(--muted,#637c88);margin-top:2px}
+.stay-critical,.stay-budget-warning{background:#fff8e8;border-left:3px solid var(--gold,#e7ba56);padding:11px 13px;font-size:12px;line-height:1.9;overflow-wrap:anywhere}
+.stay-budget-warning{border-radius:0 7px 7px 0;margin:16px 0}
+.stay-budget-warning strong{font-size:14px;color:#725321}
+.stay-budget-warning p{font-size:12px;margin:7px 0!important}
+.stay-city-list{margin-top:16px}
+.stay-city,.stay-audit-item{margin:10px 0;background:#fff;border:1px solid var(--line,#dce6eb);border-radius:8px;padding:0!important;overflow:hidden}
+.stay-city>summary,.stay-audit-item>summary{padding:12px 14px;font-size:13px;font-weight:650;background:#f3f8f8;cursor:pointer;overflow-wrap:anywhere;line-height:1.8}
+.stay-audit-item>p,.stay-audit-item>.stay-sources{margin:12px 15px;font-size:12px;overflow-wrap:anywhere}
+.stay-city .stay-candidate:last-child{border-bottom:0}
+.stay-no-backup{padding:0 16px 12px;font-size:11px;color:var(--muted,#637c88)}
+.stay-table-wrap{overflow-x:auto;max-width:100%;margin:14px 0;-webkit-overflow-scrolling:touch}
+.stay-table-wrap table{min-width:480px;margin:0!important;font-size:11px!important;width:100%;border-collapse:collapse}
+.stay-table-wrap td,.stay-table-wrap th{min-width:0!important;text-align:left;border:1px solid var(--line,#dce6eb);padding:8px;vertical-align:top}
+.stay-table-wrap th{background:var(--light,#e8f4f1)}
+.stay-audit-intro{border-bottom:1px solid var(--line,#dce6eb);padding-bottom:10px;margin-bottom:16px}
+.stay-text-button{font-size:12px;color:var(--teal,#087f7a);text-decoration:underline;text-underline-offset:3px;min-height:36px;padding:4px 8px}
+.stay-transport>summary{min-height:60px}
+.stay-transport>summary:after{content:"查看住宿计数条件 ＋"}
+.stay-transport[open]>summary:after{content:"收起 −"}
+.stay-transport>p{font-size:12px}
+@media(max-width:400px){.stay-overview>summary,.stay-candidate{padding:12px}.stay-summary-name{font-size:13px}.stay-price{font-size:12px}.stay-actions{gap:6px}.stay-actions .soft-button{font-size:11px;padding:8px 10px}.stay-summary-top{gap:6px}.stay-overview>.stay-actions,.stay-overview>.stay-boundary,.stay-overview>p{margin:10px 12px}.stay-city>summary,.stay-audit-item>summary{padding:11px 12px}}
+@media print{.stay-overview>summary:after{content:""}.stay-overview,.stay-city{break-inside:avoid}.stay-overview>*{display:block!important}.stay-actions{display:none!important}}
+.transport-overview>summary:after{content:"展开班次与来源 ＋"}.transport-overview[open]>summary:after{content:"收起班次与来源 −"}.transport-brief{padding:14px 16px;border-bottom:1px solid #e0ebe9;overflow-wrap:anywhere}.transport-overview>p,.transport-overview>button{margin:12px 16px}.transport-reference{margin:20px 0;padding:16px;background:#f5faf9;border:1px solid #d7e7e3;border-radius:10px;overflow-wrap:anywhere}
