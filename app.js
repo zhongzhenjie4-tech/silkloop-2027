@@ -113,6 +113,7 @@
   function ensureSelection(){const list=currentPlaces();if(!list.some(p=>p.id===selectedPlace))selectedPlace=list[0]?.id||'';}
   function renderMapUI(){
     ensureSelection();
+    if($('#dining-map-list'))$('#dining-map-list').innerHTML=window.TripDining?.mapHTML(day())||'';
     $('#map-title').textContent=day().label;
     const cities=[...new Set(day().places.map(id=>D.places[id].city))];
     $('#city-tabs').innerHTML=cities.map(c=>`<button class="chip" data-city="${E(c)}" aria-pressed="${city===c}">${E(c)}</button>`).join('');

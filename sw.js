@@ -1,5 +1,5 @@
-const CACHE='silkloop-2027-v9';
-const SHELL=['./','./index.html','./app.css?v=9','./postcards.css?v=9','./postcards.js?v=9','./postcards-reference.md','./stays.js?v=9','./stays.css?v=9','./trip-tools.js?v=9','./app.js?v=9','./data.js?v=9','./private-vault.js?v=9','./preparation.js?v=9','./flight-watch.js?v=9','./planning.js?v=9','./food.js?v=9','./fruit.js?v=9','./toilets.js?v=9','./manifest.webmanifest','./icon-192.png','./icon-512.png','./vendor/leaflet.js','./vendor/leaflet.css'];
+const CACHE='silkloop-2027-v10';
+const SHELL=['./','./dining.css?v=10','./dining-data.js?v=10','./dining.js?v=10','./dining-reference.md','./index.html','./app.css?v=10','./postcards.css?v=10','./postcards.js?v=10','./postcards-reference.md','./stays.js?v=10','./stays.css?v=10','./trip-tools.js?v=10','./app.js?v=10','./data.js?v=10','./private-vault.js?v=10','./preparation.js?v=10','./flight-watch.js?v=10','./planning.js?v=10','./food.js?v=10','./fruit.js?v=10','./toilets.js?v=10','./manifest.webmanifest','./icon-192.png','./icon-512.png','./vendor/leaflet.js','./vendor/leaflet.css'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('silkloop-2027-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{

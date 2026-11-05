@@ -760,6 +760,10 @@ body[data-view="map"] #map-view{display:block}
 </style>
   
   
+  <style>.dining-card{padding:16px;margin:12px 0;background:#fff;border:1px solid #d5e3df;border-radius:15px;overflow-wrap:anywhere}.dining-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.dining-top b{white-space:nowrap;color:#316b60}.dining-card h4{font-size:18px;line-height:1.45;margin:10px 0}.dining-card p{margin:8px 0;line-height:1.7}.dining-address,.dining-small{color:#627775;font-size:13px;line-height:1.7}.dining-evidence,.dining-backup{margin:12px 0;font-size:14px}.dining-evidence summary,.dining-backup summary{cursor:pointer;color:#317c70;line-height:1.7}.dining-sources a{display:inline-block;margin:4px 0}.dining-slot{font-weight:700;color:#316b60;margin:18px 0 2px}.dining-route{padding:10px 12px;border-left:3px solid #d9ad53;background:#fbf7ec;line-height:1.75;font-size:14px}.dining-budget{padding:14px;background:#eaf4f0;border-radius:12px;line-height:1.9;font-size:14px}.dining-city{padding:12px 0;border-bottom:1px solid #d5e3df}.dining-city>summary{font-weight:700;cursor:pointer;line-height:1.7}.dining-map{padding:20px;background:white;border-radius:16px;margin:16px 0}.dining-map>div{padding:14px 0;border-top:1px solid #e1e9e7;overflow-wrap:anywhere}.dining-map>div p{font-size:13px;color:#627775}.dining-evidence table{font-size:12px;min-width:620px}.dining-evidence{overflow-x:auto}.dining-overview .food-links{margin-bottom:8px}@media(max-width:420px){.dining-card{padding:13px}.dining-card h4{font-size:17px}.dining-top{flex-wrap:wrap}.dining-overview .soft-button{max-width:100%;white-space:normal}.dining-map .soft-button{margin:4px 3px 0 0}}
+</style>
+  
+  
   
   
   
@@ -790,6 +794,7 @@ body[data-view="map"] #map-view{display:block}
       <p class="map-caption" id="map-caption">连线仅示意游览顺序；实际道路与换乘请看导航。</p>
       <div class="place-strip" id="place-strip" aria-label="选择地点"></div>
       <div id="place-card" class="place-card"></div>
+      <div id="dining-map-list"></div>
     </section>
     <section id="vault-view" class="vault-view" aria-label="离线票夹"></section>
     <section id="notes-view" class="notes-view" aria-label="备忘与清单"></section>
@@ -18306,6 +18311,2176 @@ window.TRIP_DATA = {
 })();
 
 </script>
+<script>window.TRIP_DINING_DATA = {
+  "checked": "2026-11-05",
+  "restaurants": [
+    {
+      "id": "yining-jiang-jianmian",
+      "city": "伊宁",
+      "name": "疆·见面伊犁味道（斯大林街三巷店）",
+      "address": "伊宁市斯大林街三巷14号",
+      "mapQuery": "疆 见面 伊犁味道 斯大林街三巷14号 伊宁市",
+      "days": [
+        3
+      ],
+      "dishes": [
+        "先问一人份碎肉/羊腿抓饭或丁丁炒面价，二选一；仍饿再加一串烤肉"
+      ],
+      "budgetCny": [
+        35,
+        60
+      ],
+      "menuEvidence": "未取得2026单菜价；伊犁州政府2024旅游页列人均45元，仅作历史店铺资料。预算为单人一餐食物留量，饮水/饮料另计。",
+      "hours": "2024官方旅游页曾列08:00–22:30，2027出发前重核",
+      "sources": [
+        {
+          "title": "伊犁州政府：吃遍伊犁美食（具名店、地址与历史人均）",
+          "url": "https://www.xjyl.gov.cn/xjylz/c112874/202407/de55c45ba97a4afbbfc67c18c6272ecf.shtml"
+        }
+      ],
+      "cautions": [
+        "先完成D3次日国际客运核验；从实际住宿/报到点导航，单程绕行超过15分钟就用回住宿路线上的简餐。",
+        "不能声称25–35元已包抓饭、烤串、冰淇淋三样；不要默认有可用插座或强冷气。"
+      ],
+      "verified": "政府旅游页面确认店名、地址与菜品方向；现价、当前营业、2027存续和设施未保证。"
+    },
+    {
+      "id": "yining-gulandam",
+      "city": "伊宁",
+      "name": "古兰丹姆百年手工冰淇淋（六星街店）",
+      "address": "伊宁市六星街黎光街四巷，东正教堂斜对面",
+      "mapQuery": "古兰丹姆 百年手工冰淇淋 六星街 黎光街四巷 伊宁",
+      "days": [
+        3
+      ],
+      "dishes": [
+        "可选一小份原味手工冰淇淋；先看杯型标价"
+      ],
+      "budgetCny": [
+        15,
+        30
+      ],
+      "menuEvidence": "不是正餐预算；2024伊犁州政府旅游页列人均25元，未取得2026单杯价。冰淇淋属额外零食，不与正餐重复计入。",
+      "hours": "2024旅游页列09:00–次日03:00；仅历史参考，2027重核",
+      "sources": [
+        {
+          "title": "伊犁州政府旅游页：古兰丹姆冰激凌店",
+          "url": "https://www.xjyl.gov.cn/xjylz/c112874/202407/de55c45ba97a4afbbfc67c18c6272ecf.shtml"
+        }
+      ],
+      "cautions": [
+        "仅住宿六星街且已经顺路时可选；排队超过10分钟跳过。",
+        "手持甜品前收好相机，吃完清洁手；不是无酒精饮料的替代报价。"
+      ],
+      "verified": "具名店与六星街位置有政府旅游来源；当年价格、营业和食品供应待重核。"
+    },
+    {
+      "id": "almaty-qaganat-gogol39",
+      "city": "阿拉木图",
+      "name": "Qaganat（Зенкова / Gogol 39分店）",
+      "address": "Алматы, улица Гоголя, 39",
+      "mapQuery": "Qaganat Гоголя 39 Алматы",
+      "days": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "dishes": [
+        "看当天价签选一份抓饭或热荤配主食；汤/熟蔬菜按预算加，不默认全套"
+      ],
+      "budgetCny": [
+        25,
+        45
+      ],
+      "menuEvidence": "未取得39号店独立现价；Wolt名为Qaganat Гоголя的网页实际是86号店，不能把86号菜单价贴到39号。预算为单人食物留量，饮水和Kompot另计。",
+      "hours": "Qaganat官网当前地址表列该店24/7；2027重核",
+      "sources": [
+        {
+          "title": "Qaganat官方分店表：Gogol39与24/7",
+          "url": "https://qaganat24.kz/contacts"
+        },
+        {
+          "title": "Qaganat官方配送页：Зенкова对应Gogol39",
+          "url": "https://qaganat24.kz/deliveryandpayment"
+        }
+      ],
+      "cautions": [
+        "选作潘菲洛夫公园/绿巴扎动线内的具名平价店；D4仅实际下车/住宿顺路且仍营业时用。",
+        "Google评分未独立核实，不展示旧稿星级/评价量；冷气、插座可用性未保证。",
+        "与Dostyk108、Gogol86均为不同分店。"
+      ],
+      "verified": "官网确认具名地址和当前营业参考；菜单现价待到店看价签。"
+    },
+    {
+      "id": "almaty-qaganat-dostyk108",
+      "city": "阿拉木图",
+      "name": "Qaganat（Dostyk 108分店）",
+      "address": "Алматы, проспект Достык, 108",
+      "mapQuery": "Qaganat Достык 108 Алматы",
+      "days": [
+        5,
+        6
+      ],
+      "dishes": [
+        "自选一份热主菜和主食；可用红菜汤或饺子替换，不将马肉面当作保证供应"
+      ],
+      "budgetCny": [
+        25,
+        45
+      ],
+      "menuEvidence": "本店Wolt外送菜单当前红菜汤有1130/1390 KZT不同份型、饺子1890/2300 KZT；外送价不等于堂食，配菜/饮料另算。稿中2370 KZT马肉面可在Astana Dostyk店菜单查到，未在此阿拉木图108店当前页面找到，不能串店。",
+      "hours": "Qaganat官网当前列24/7；2027重核",
+      "sources": [
+        {
+          "title": "Qaganat官方分店表：Dostyk108",
+          "url": "https://qaganat24.kz/contacts"
+        },
+        {
+          "title": "本店商户Wolt菜单（外送价）",
+          "url": "https://wolt.com/ru/kaz/almaty/restaurant/qaganat-dostyk"
+        }
+      ],
+      "cautions": [
+        "D5从Kok-Tobe下站返市区时作为晚餐候选，仍以实际导航路程判断，不称就在缆车门口。",
+        "不能使用红菜汤600 KZT旧稿价；插座和强冷气未核。",
+        "预算是单人一餐食物留量，饮水/特色饮料另计。"
+      ],
+      "verified": "官网地址及当前营业参考确认，商户外送菜单价格可查；堂食实价/2027价待核。"
+    },
+    {
+      "id": "almaty-navat-dostyk48",
+      "city": "阿拉木图",
+      "name": "NAVAT（Dostyk 48分店）",
+      "address": "Алматы, Dostyk Avenue 48",
+      "mapQuery": "NAVAT Dostyk Avenue 48 Almaty",
+      "days": [
+        5,
+        7
+      ],
+      "dishes": [
+        "改善餐可点一份lagman或当地面食；若要马肉面先问单人份、当日价和是否售罄"
+      ],
+      "budgetCny": [
+        45,
+        75
+      ],
+      "menuEvidence": "官网挂有Chaihana Menu（Google Drive PDF）；本次只读到链接，未可靠提取现价，不照录旧价。单人一餐食物规划留量，饮水、茶壶和服务费现场核。",
+      "hours": "官方分店页10:00–00:00；2027重核",
+      "sources": [
+        {
+          "title": "NAVAT官方Dostyk48分店、时段及菜单入口",
+          "url": "https://eng.navat.kz/almatymenu"
+        },
+        {
+          "title": "NAVAT官方联系方式",
+          "url": "https://eng.navat.kz/contacts"
+        }
+      ],
+      "cautions": [
+        "放作Qaganat外的改善餐备选，不强制两家都吃。",
+        "D7赶火车前不远途追店；餐费超过当餐留量则改食堂。",
+        "官网未证明每桌都有插座，不把充电作为可依赖安排。"
+      ],
+      "verified": "官网确认地址、营业参考和菜单入口；单菜现价、当前空调/插座和Google评分未核。"
+    },
+    {
+      "id": "tashkent-beshqozon-glinka",
+      "city": "塔什干",
+      "name": "Besh Qozon（Glinka 41A分店）",
+      "address": "Ташкент, ул. Глинки, 41А",
+      "mapQuery": "Besh Qozon Glinka 41A Tashkent",
+      "days": [
+        8,
+        13
+      ],
+      "dishes": [
+        "婚礼抓饭单人份；看套餐实际包含内容后再决定是否另加Achichuk、蛋或马肠，避免重复加价"
+      ],
+      "budgetCny": [
+        35,
+        55
+      ],
+      "menuEvidence": "官网网络点单现列婚礼抓饭一份53000 UZS、0.7份51000 UZS、单人婚礼抓饭套餐70000 UZS（另有Set1为78000）。只证明网站点单价，不保证分店堂食同价；饮水/饮料另计。",
+      "hours": "官网分店页未提供可靠具体营业时段；不照录09:00–00:00",
+      "sources": [
+        {
+          "title": "Besh Qozon官方分店表（Glinka41A、电视塔Iftihor1为不同店）",
+          "url": "https://beshqozon.uz/en/branches"
+        },
+        {
+          "title": "Besh Qozon官方网络菜单现价",
+          "url": "https://beshqozon.uz/en/menu"
+        }
+      ],
+      "cautions": [
+        "D8 14:30–15:15午餐优先考察此分店与实际DRIMIN入住点路线；不为拍大锅绕到北侧电视塔店。",
+        "D13仅当返塔什干后已确认晚间仍有餐且顺路时备选；抓饭不保证晚到仍有。",
+        "拍摄厨房须先问店员，不因公开明档就默认可以进入操作区。"
+      ],
+      "verified": "官网确认分店、菜单类型和网站标价；2027营业/堂食同价/套餐细项待重核。"
+    },
+    {
+      "id": "bukhara-old-bukhara",
+      "city": "布哈拉",
+      "name": "Old Bukhara（布哈拉老城店）",
+      "address": "Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3",
+      "mapQuery": "Old Bukhara Restaurant Bukhara Samarkand Street 3",
+      "days": [
+        9,
+        10
+      ],
+      "dishes": [
+        "一人份抓饭或热汤配馕；想吃烤串先问一串克数与起点量"
+      ],
+      "budgetCny": [
+        30,
+        55
+      ],
+      "menuEvidence": "本次官网old-bukhara.uz返回502；未取得现价菜单，旧稿50000–70000 UZS不可当2026核定价。人民币仅单人食物规划留量，水、饮料及服务费另看。",
+      "hours": "具体全日时段未可靠核实；Yandex当前显示当日23:00关门，2027再核",
+      "sources": [
+        {
+          "title": "Old Bukhara具名地图地点、地址及店铺官网链接（地图补证）",
+          "url": "https://yandex.com/maps/org/old_bukhara/228705593501/"
+        },
+        {
+          "title": "商户官网（本次读取失败，不能作为已读菜单证据）",
+          "url": "https://old-bukhara.uz/"
+        },
+        {
+          "title": "布哈拉Old Bukhara商业名录地址交叉核对",
+          "url": "https://www.goldenpages.uz/en/company/?Id=100387"
+        }
+      ],
+      "cautions": [
+        "用于D9/D10返水池片区晚餐，不为吃网红店单独绕远。",
+        "排队或预计出餐超过20分钟改Afsona前先看实际距离和价格，不默认两店相邻。",
+        "不要串到美国NewJersey同名餐厅或塔什干Sergeli的同名Telegram账号。"
+      ],
+      "verified": "两份地图/商业名录确认布哈拉此店；地址存在旧/新街名差异，导航按店名和具体地图点核门头。Google评分、强冷气/插座及现价未核。"
+    },
+    {
+      "id": "bukhara-afsona",
+      "city": "布哈拉",
+      "name": "Afsona Bukhara（Murod Avliyo 4分店）",
+      "address": "Бухара, улица Мурод Авлиё, 4（以集团官网门店地址为准）",
+      "mapQuery": "Afsona Bukhara Murod Avliyo 4",
+      "days": [
+        9,
+        10
+      ],
+      "dishes": [
+        "先看菜单选一份抓饭、热汤或烤肉主食组合；作为改善餐，别默认是便宜食堂"
+      ],
+      "budgetCny": [
+        50,
+        85
+      ],
+      "menuEvidence": "ABNMB集团官网确认布哈拉分店，但未提供可读现价；不使用30,000 UZS饺子汤等未经核定值。单人一餐食物留量，饮水、特色饮品和服务费另计。",
+      "hours": "未取得官方分店营业时段，2027重核",
+      "sources": [
+        {
+          "title": "ABNMB集团官网：Afsona Bukhara地址和电话",
+          "url": "https://www.abnmbgroup.com/restaurants-boulangerie"
+        },
+        {
+          "title": "ABNMB官方新闻：布哈拉新分店",
+          "url": "https://www.abnmbgroup.com/news"
+        }
+      ],
+      "cautions": [
+        "官网确有布哈拉分店，不应误说Afsona只有塔什干。",
+        "地理/目录有Bakhouddin Naqshband20等地址差异；出发前按官方电话+998935551075核具体入口，不凭连锁总名称导航。",
+        "中午只在确认室内空调正常后选作避暑正餐；插座可用性未核。",
+        "可与Old Bukhara二选一；不把¥50–85当每日固定两餐成本。"
+      ],
+      "verified": "集团官网确认具名分店；价格、当前入口、营业、强冷气与插座未锁定。"
+    },
+    {
+      "id": "samarkand-shokhrukh-nur",
+      "city": "撒马尔罕",
+      "name": "Shokhrukh Nur（So'zangaron街店）",
+      "address": "Samarkand, So'zangaron ko'chasi 40（Yandex）；GoldenPages同电话列Suzangaranskaya6，门牌有冲突",
+      "mapQuery": "Shokhrukh Nur Sozangaron Samarkand +998937316666",
+      "days": [
+        11,
+        12,
+        13
+      ],
+      "dishes": [
+        "羊肉串先点一串，再配汤或一份lagman；用叉勺进餐，留意串上油脂"
+      ],
+      "budgetCny": [
+        30,
+        55
+      ],
+      "menuEvidence": "未取得可核实经营者现价菜单；地图均价不是菜单报价，不照录45000–65000 UZS已核实套餐。预算只含一人食物，饮水/饮料另计。",
+      "hours": "地图与商业名录时段不同，不写死；先电话/地图核实当晚营业",
+      "sources": [
+        {
+          "title": "Shokhrukh Nur具名地图地点、So'zangaron40及电话",
+          "url": "https://yandex.com/maps/org/shokhrukh_nur/29928612335/"
+        },
+        {
+          "title": "GoldenPages同名同电话：Suzangaranskaya6（地址差异补证）",
+          "url": "https://www.goldenpages.uz/en/company/?Id=117325"
+        }
+      ],
+      "cautions": [
+        "雷吉斯坦周边候选，按准确店名+电话核门头；不能把门牌40或6写成完全无冲突的已确认事实。",
+        "没有可靠证据要求避开周五；不要把礼拜日等同餐厅闭店。",
+        "若地址仍无法确认或导航绕行超过15分钟，选Karimbek仅在本就去新城时；否则留在现有路线买明码热食。"
+      ],
+      "verified": "两来源有同店名同电话，但门牌冲突；属于具名候选，不是地址完全确认的主推荐。Google评分与现价未核。",
+      "planRole": "备选：出发前先核对门牌和入口"
+    },
+    {
+      "id": "samarkand-karimbek",
+      "city": "撒马尔罕",
+      "name": "Karimbek（Gagarin 194店）",
+      "address": "Samarkand, Gagarin Street 194",
+      "mapQuery": "Restaurant Karimbek Gagarin 194 Samarkand",
+      "days": [
+        11,
+        12
+      ],
+      "dishes": [
+        "看QR菜单选一份当地面食或烤肉配主食；先问服务费及一人份"
+      ],
+      "budgetCny": [
+        40,
+        70
+      ],
+      "menuEvidence": "经营者QR菜单页搜索索引确认Karimbek/Gagarin194，但页面为动态内容未读到价格；只给食物预算留量，不把旧稿价格套用本店。",
+      "hours": "未取得经营者可靠时段，2027重核",
+      "sources": [
+        {
+          "title": "Karimbek经营者QR菜单入口（有具名地址，价格未读出）",
+          "url": "https://oddmenu.com/ru/p/bek/cl6vxwq6a6057587xnvkvfbisr9"
+        },
+        {
+          "title": "具名地图地址交叉核对",
+          "url": "https://yandex.com/maps/org/karimbek/234049585658/"
+        }
+      ],
+      "cautions": [
+        "在新城Gagarin街，不是雷吉斯坦/比比哈努姆门口；仅在实际住宿或办事路线经过时作为备选。",
+        "不为了吃这家增加专程往返车费；D13赶铁路不排此店。",
+        "空调、插座及2027堂食现价未保证。"
+      ],
+      "verified": "具名QR菜单入口与地图均指向Gagarin194；菜单实价/营业待核，地理上不作为老城默认主餐。"
+    },
+    {
+      "id": "samarkand-emirhan",
+      "city": "撒马尔罕",
+      "name": "Emirhan Restaurant（Mahmudjanov 1/18店）",
+      "address": "1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）",
+      "mapQuery": "Emirhan Restaurant Ahrorqul Mahmudjonov 1/18 Samarkand",
+      "days": [
+        11,
+        12
+      ],
+      "planRole": "雷吉斯坦附近主餐厅候选：地址较明确，先看菜单控单餐上限",
+      "dishes": [
+        "先看当日菜单，选择一份当地热主食（抓饭/lagman如有供应）或热汤配馕；不为景观位额外点酒水、多道菜或甜品"
+      ],
+      "budgetCny": [
+        50,
+        85
+      ],
+      "menuEvidence": "未取得可独立读取的经营者现价菜单。Yandex平均账单80000–140000 UZS只是平台均价，不是单菜报价；人民币50–85仅为一次单人食物留量，饮水/特色饮料、服务费另核。若单人正餐超留量，改已核入口的Shokhrukh或超市便餐，不承诺此店是低价食堂。",
+      "hours": "2026撒马尔罕国际论坛官方指南列每日11:00–23:00；2027出发前重核",
+      "sources": [
+        {
+          "title": "2026撒马尔罕国际论坛官方指南：Emirhan地址、电话、营业参考",
+          "url": "https://samarkand-guide.dfca.uz/"
+        },
+        {
+          "title": "Emirhan具名地图点：相同1/18门牌和电话补证",
+          "url": "https://yandex.com/maps/org/emirhan/226087137785/"
+        },
+        {
+          "title": "经营者Instagram入口（本次页面未能读取，不冒充菜单证据）",
+          "url": "https://www.instagram.com/emirhan.restaurant/"
+        }
+      ],
+      "cautions": [
+        "适合D11/D12雷吉斯坦动线午晚餐，实际步行从参观出口导航，不把200米直线距离当步行耗时。",
+        "有景观餐厅属性，不是已核廉价国民食堂；先看含税、服务费后的一人总价。",
+        "只进有空位的普通座位；排队+出餐预计超过20分钟就放弃，不为屋顶景观位排长队。",
+        "官方指南与地图同列电话+998888916000；Google星级/评价数、冷气强度与可用插座未独立核验。"
+      ],
+      "verified": "2026官方活动指南与地图均指向Mahmudjanov1/18和同电话，地址比Shokhrukh门牌冲突更明确；菜单实价与设施不作保证。"
+    },
+    {
+      "id": "firuze-baku",
+      "city": "巴库",
+      "name": "Firuzə Restaurant · 喷泉广场店",
+      "address": "Tərlan Əliyarbəyov 14, Bakı 1005",
+      "mapQuery": "Firuze Restaurant Tarlan Aliyarbeyov 14 Baku",
+      "days": [
+        14,
+        15
+      ],
+      "rowIds": [
+        "d14v2-10",
+        "d15v2-12"
+      ],
+      "dishes": "一人先点葡萄叶卷Dolma或Düşbərə汤＋一份主食；两种重肉主菜不必叠加。无酒精饮料另点瓶装水/茶。",
+      "budgetCny": [
+        50,
+        80
+      ],
+      "menuEvidence": "官网确认菜单以AZN计价，菜单是图片；本次未读到可引用的单品金额。原稿9AZN葡萄叶卷、10AZN肉串不能作为已核价。人民币区间为单人一餐食物留量，饮料另计。",
+      "hours": "官网现示每日12:00–01:00；2027再核，不作早餐店。",
+      "sources": [
+        {
+          "title": "Firuzə官网：分店地址、营业与菜单入口",
+          "url": "https://firuzerestoran.az/en/"
+        }
+      ],
+      "cautions": [
+        "从老城/海滨到喷泉广场后再吃；D15若一日团晚返便取消，不绕路追店。",
+        "官网可证免费Wi-Fi，不能由此推断插座可用、强冷气或避免宰客保证。",
+        "等位超过15–20分钟改Dolma；先核服务费、面包及桌面小菜。"
+      ],
+      "verified": "2026-11-05核到官网地址及营业；未独立读取Google实时评价数量，2027菜单和营业须重核。"
+    },
+    {
+      "id": "dolma-baku",
+      "city": "巴库",
+      "name": "Dolma Restaurant · 喷泉广场店",
+      "address": "8 M. Rasulzade St., Sabail District, Baku",
+      "mapQuery": "Dolma Restaurant 8 Mammadamin Rasulzade Baku",
+      "days": [
+        16
+      ],
+      "rowIds": [
+        "d16v2-08"
+      ],
+      "dishes": "Düşbərə小水饺汤或葡萄叶卷＋单人主食，菜量足再加面包；茶/梨汽水另计。",
+      "budgetCny": [
+        50,
+        85
+      ],
+      "menuEvidence": "官网菜单明确账单另加10%服务费；动态菜品未返回可核金额，不能沿用原稿28/38元当实价。区间是单人食物规划并留服务费，饮品另计。",
+      "hours": "官网未取得可靠营业时段；D16建议12:40–13:30就餐，出门前核开门。",
+      "sources": [
+        {
+          "title": "Dolma官网：喷泉广场8号地址",
+          "url": "https://dolmarestaurant.az/en/"
+        },
+        {
+          "title": "Dolma官方菜单：另加10%服务费",
+          "url": "https://dolmarestaurant.az/en/menu/"
+        }
+      ],
+      "cautions": [
+        "D16希尔万沙宫结束后往喷泉广场再回住宿，按实际青旅位置核步行；不是宫门口店。",
+        "13:30前离店，保留原午休与夜车核验；等位超过15分钟换Firuzə或现成简餐。",
+        "空调、可借插座、Google评分数量未实证。"
+      ],
+      "verified": "地址与10%服务费有第一方来源，菜单单品和营业未核；2027重核。"
+    },
+    {
+      "id": "maspindzelo-oldtown",
+      "city": "第比利斯",
+      "name": "Maspindzelo · Gorgasali老城店",
+      "address": "7 Vakhtang Gorgasali Street, Tbilisi",
+      "mapQuery": "Maspindzelo 7 Gorgasali Tbilisi",
+      "days": [
+        17,
+        18
+      ],
+      "rowIds": [
+        "d17v2-11",
+        "d18v2-12"
+      ],
+      "dishes": "先点5个肉汤包Khinkali，问最低起点数；可改一份罐炖豆。核桃茄子卷和奶酪饼可选其一，不要全部叠加。用餐前收相机，汤包可请店员提供餐具。",
+      "budgetCny": [
+        40,
+        75
+      ],
+      "menuEvidence": "官方电子菜单嵌入数据：肉Khinkali 2.45GEL/个、核桃茄子19GEL、罐炖豆21GEL、Imeretian奶酪饼24GEL。以5只汤包计12.25GEL，尚未加饮品/可能服务费。核查2026-11-05；未显示生效日，不保证2027价。",
+      "hours": "集团门店页现列09:00–02:00、周五六24h；电子菜单时间字段却写10:30–12:00，第一方互有冲突，须电话重核。",
+      "sources": [
+        {
+          "title": "MGroup官方门店列表与营业",
+          "url": "https://mgroup.ge/en/places/"
+        },
+        {
+          "title": "Maspindzelo官方电子菜单、Gorgasali7地址",
+          "url": "https://menu.mgroup.ge/maspindzelo"
+        }
+      ],
+      "cautions": [
+        "D17老城/Narikala结束后先在此吃，再过桥回Avlabari；调整原晚餐文字，不新增跨城。",
+        "D18团返城很晚则不赶此店，原返城休息优先。",
+        "原稿Pasanauri Rustaveli46在地图平台有关闭冲突；Mafshalia Aghmashenebeli137离D17老城动线远，均不列为默认顺路店。",
+        "空调强度、插座权限与Google评分数量未核。"
+      ],
+      "verified": "集团第一方菜单确认具名老城门店与菜价；电子菜单时段异常已标出。"
+    },
+    {
+      "id": "tun-lahmajo-yerevan",
+      "city": "埃里温",
+      "name": "Tun Lahmajo · Teryan街店",
+      "address": "23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）",
+      "mapQuery": "Tun Lahmajo Teryan 23 Yerevan",
+      "days": [
+        19,
+        20,
+        21
+      ],
+      "rowIds": [
+        "d19v2-10",
+        "d20v2-12",
+        "d21v2-11"
+      ],
+      "dishes": "先点1–2张Lahmajo肉末薄饼，配一份熟蔬菜或汤；Tan咸酸奶饮另计。按菜单核一张大小，不默认点多人烤肉拼盘。",
+      "budgetCny": [
+        25,
+        55
+      ],
+      "menuEvidence": "市官方旅游页证实店与地址，OddMenu链接可打开但未取得菜价正文；原稿500–800AMD和凌晨4点不能当本次已核。食物区间为规划，饮品与服务费看现场菜单。",
+      "hours": "营业时间未取得第一方可靠证明；D19约20:00、D20约17:00、D21须18:00前吃完，均先电话确认。",
+      "sources": [
+        {
+          "title": "埃里温市官方旅游页：TunLahmajo位于23Teryan",
+          "url": "https://visityerevan.am/restaurants/details/259/en/"
+        },
+        {
+          "title": "店家电子菜单入口（本次正文未读到）",
+          "url": "https://oddmenu.com/p/tun-lahmajo/cm82saduv679166u5uuw1ydn33u"
+        }
+      ],
+      "cautions": [
+        "D19从Cascade返回共和国广场途中可经Teryan吃，不再另跑远店。",
+        "D21早睡18:30不变，17点前开始点餐；若排队就打包或换附近快餐。",
+        "官方旅游页23号与部分地图25号不一致，导航用完整店名；联系电话+37410538717。",
+        "冷气、插座和Google评分未核。"
+      ],
+      "verified": "官方城市旅游机构确认店名和23号地址；未读取实时完整菜单/店方时段。"
+    },
+    {
+      "id": "lahmajun-gaidz",
+      "city": "埃里温",
+      "name": "Lahmajun Gaidz · Tumanyan9/9（午餐备选）",
+      "address": "Tumanyan Street 9/9, Yerevan",
+      "mapQuery": "Lahmajun Gaidz Tumanyan 9 9 Yerevan",
+      "days": [
+        21
+      ],
+      "rowIds": [
+        "d21v2-07"
+      ],
+      "dishes": "一张Lahmajun先点，不够再加；酸奶饮另计。只作D21返回城后的快速午餐备选。",
+      "budgetCny": [
+        20,
+        40
+      ],
+      "menuEvidence": "官方Facebook被拦截，未核到1500AMD套餐或现行单价；地址由地图条目交叉确认。原稿套餐不视为报价。",
+      "hours": "第三方现列周一至六11:00–18:30、周日休，但本次未获店方直接确认；只作待重核午餐候选，不安排D19晚餐。",
+      "sources": [
+        {
+          "title": "店家官方Facebook（本次受限）",
+          "url": "https://www.facebook.com/LahmajunGaidz"
+        },
+        {
+          "title": "Yandex具名门店及9/9地址",
+          "url": "https://yandex.com/maps/org/lahmajun_gaidz/146367931818/"
+        }
+      ],
+      "cautions": [
+        "D21半日KhorVirap回城若晚，直接TunLahmajo或住宿附近简餐，不为小店压缩午休与Matenadaran。",
+        "本店无可证强冷气或充电保证；等位15分钟即放弃。"
+      ],
+      "verified": "具名候选保留，证据弱于TunLahmajo；官方页受限，菜单与营业须重核。"
+    },
+    {
+      "id": "zeljo-sarajevo",
+      "city": "萨拉热窝",
+      "name": "Ćevabdžinica Željo · Kundurdžiluk19",
+      "address": "Kundurdžiluk 19, Baščaršija, Sarajevo",
+      "mapQuery": "Cevabdzinica Zeljo Kundurdziluk 19 Sarajevo",
+      "days": [
+        34,
+        35
+      ],
+      "rowIds": [
+        "d34v2-08",
+        "d35v2-13"
+      ],
+      "dishes": "小份5根Ćevapi配Somun，先问Kajmak奶油和酸奶是否另收费；有刀叉可摊在盘中吃，不必手抓。",
+      "budgetCny": [
+        30,
+        50
+      ],
+      "menuEvidence": "旅游局确认Kundurdžiluk门店；本次未取得可靠现行数字菜单，原稿5根28元、10根45元未作为实价。",
+      "hours": "未取得店方营业表；D34约19:00或D35约20:00前先查当天营业。",
+      "sources": [
+        {
+          "title": "萨拉热窝旅游局：Željo位于Kundurdžiluk",
+          "url": "https://www.visitsarajevo.ba/bs/listings/zeljo/"
+        },
+        {
+          "title": "Sarajevo Navigator：Kundurdžiluk19地址",
+          "url": "https://www.sarajevonavigator.ba/en/place/776"
+        }
+      ],
+      "cautions": [
+        "D34Sebilj附近晚餐可步行进入老城；D35黄堡下来再吃。",
+        "排队超过15分钟改Bravadžiluk21的Petica；不要把任意同名Željo店当成本店。",
+        "冷气与插座均未核，不能当稳定充电站。"
+      ],
+      "verified": "官方旅游局确认店及街道，19号用地方导航交叉；菜价与时段未实证。"
+    },
+    {
+      "id": "petica-sarajevo",
+      "city": "萨拉热窝",
+      "name": "Ferhatović Petica · Bravadžiluk21",
+      "address": "Bravadžiluk 21, 71000 Sarajevo",
+      "mapQuery": "Petica Ferhatovic Bravadziluk 21 Sarajevo",
+      "days": [
+        34,
+        35
+      ],
+      "rowIds": [
+        "d35v2-06",
+        "d34v2-08"
+      ],
+      "dishes": "Ćevapčići petica小份5根配Somun，先一份；饮水或酸奶另计。",
+      "budgetCny": [
+        30,
+        50
+      ],
+      "menuEvidence": "Ferhatović官方在线菜单小份Ćevapčići petica7.00BAM、Ćevapčići14.00BAM；页面为在线订餐，堂食份量/价格须现场核。不要把14BAM再次当小份。",
+      "hours": "官网Petica现列周一12:00–21:00；周二至六08:00–23:00；周日12:00–21:00。注意不是FAN分店的时段。",
+      "sources": [
+        {
+          "title": "Ferhatović官网：Petica地址、营业与在线菜单",
+          "url": "https://ferhatovic.ba/"
+        }
+      ],
+      "cautions": [
+        "D35周六11:30老城午餐窗可用，距原老城参观方向近；等位超15分钟改Željo。",
+        "同官网另有FAN Čizmedžiluk1，不能把FAN周日休息套到Petica。",
+        "预算只含单人食物；酸奶、Kajmak及饮水另核。"
+      ],
+      "verified": "第一方具名门店、时段、订餐菜价可证；2027重核。"
+    },
+    {
+      "id": "tima-irma-mostar",
+      "city": "莫斯塔尔",
+      "name": "Tima–Irma · 老桥西岸店",
+      "address": "Onešćukova bb, 88000 Mostar",
+      "mapQuery": "National restaurant Tima Irma Onescukova Mostar",
+      "days": [
+        36
+      ],
+      "rowIds": [
+        "d36v2-07"
+      ],
+      "dishes": "小份Ćevapi或单人烤鸡＋熟蔬菜，避免一人点大混合肉盘；饮水另计。",
+      "budgetCny": [
+        35,
+        60
+      ],
+      "menuEvidence": "官网证明老城店地址与烧烤品类，未提供可核数值价表；原稿未给本店单品实价，不能按28元套入。",
+      "hours": "官网未列可核营业表；D36周日12:15前先看当天开门，未开就用自带简餐，别拖到回程前。",
+      "sources": [
+        {
+          "title": "Tima–Irma官网：Onešćukova地址与菜品",
+          "url": "https://www.cevabdzinica-tima.com/"
+        }
+      ],
+      "cautions": [
+        "D36老桥参观后在西岸老城午餐，预留步行与排队；不是为了餐馆去另一城区。",
+        "等位超过15–20分钟放弃；17:00开始去返程站的边界不变。",
+        "室内冷气、插座未核，不能保证这里适合长时间午休。"
+      ],
+      "verified": "官网具名地址与品类可证；价格、星期日营业和冷气待核。"
+    },
+    {
+      "id": "bucko-francuska",
+      "city": "贝尔格莱德",
+      "name": "Pizza Bucko · Francuska18店",
+      "address": "Francuska 18, Beograd Stari Grad",
+      "mapQuery": "Pizza Bucko Francuska 18 Belgrade",
+      "days": [
+        38,
+        40
+      ],
+      "rowIds": [
+        "d38v2-06",
+        "d40v2-07"
+      ],
+      "dishes": "一片披萨＋一份50g沙拉浇料，不够再添；牛肉/鸡肉馅料按当日柜台确认。用纸托和餐巾，吃前收相机。",
+      "budgetCny": [
+        15,
+        30
+      ],
+      "menuEvidence": "官网现价：单片150RSD、每份50g附加配料60RSD、整张6片900RSD；一片加一份配料合210RSD，饮料另计。网页未标生效日期，2027须重核。",
+      "hours": "官网门店周日至周四07:00–00:00，周五六07:00–01:00；不等于全年24h。",
+      "sources": [
+        {
+          "title": "PizzaBucko官网：Francuska18、价格及营业",
+          "url": "https://bucko.pizza/"
+        }
+      ],
+      "cautions": [
+        "D38国家博物馆后沿Francuska街去指定分店；加步行10–15分钟规划余量，12:30前买到再回宿午休。",
+        "偏窗口快餐，不能承诺堂食冷气和插座；不能因价格便宜把它安排为午休空间。",
+        "本店与Bor市Wolt同名Bucko不是同一地址，不套用其菜单。"
+      ],
+      "verified": "第一方分店、现示价与营业可读；无Google实时评价核验。"
+    },
+    {
+      "id": "walter-dorcol",
+      "city": "贝尔格莱德",
+      "name": "Walter · Dorćol店",
+      "address": "Strahinjića Bana 57, Belgrade",
+      "mapQuery": "Walter Sarajevski Cevap Strahinjica Bana 57 Belgrade",
+      "days": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "rowIds": [
+        "d37v2-08",
+        "d38v2-13",
+        "d39v2-13",
+        "d40v2-12"
+      ],
+      "dishes": "5根Ćevapi小份配半张饼，或一份汤配主食；不够再加。官网确认5根125g/10根250g，不要把两者混为同价。",
+      "budgetCny": [
+        35,
+        60
+      ],
+      "menuEvidence": "官网把塞尔维亚菜单分Central/Commercial/Regional/Tourist/Airport多档，本次未取得本分店对应价，不能全连锁统一报45元；人民币是单人食物规划，饮品另计。",
+      "hours": "官方分店页未给可靠营业时间；各日晚餐前核开门，D40须18:30前结束。",
+      "sources": [
+        {
+          "title": "Walter官方Dorćol店地址",
+          "url": "https://walter.rs/portfolio/walter-dorcol-beograd/"
+        },
+        {
+          "title": "Walter官方产品份量",
+          "url": "https://walter.rs/en/home/"
+        },
+        {
+          "title": "Walter官方分区菜单入口",
+          "url": "https://walter.rs/en/menu-2/"
+        }
+      ],
+      "cautions": [
+        "从共和国广场/步行街向Dorćol有步行绕行，按实际青旅位置选用，不把它写作米哈伊洛大公街店。",
+        "D37长巴士晚到或D40早睡日不排队，必要时打包。",
+        "室内店不自动保证座位旁有插座；实时评分与冷气未核。"
+      ],
+      "verified": "官网确认具体分店与产品份量；价格须匹配分店菜单档。"
+    },
+    {
+      "id": "walter-zemun-centar",
+      "city": "泽蒙",
+      "name": "Walter · Zemun centar店",
+      "address": "Magistralni trg 18, Zemun, Belgrade",
+      "mapQuery": "Walter Zemun centar Magistralni trg 18",
+      "days": [
+        39
+      ],
+      "rowIds": [
+        "d39v2-07"
+      ],
+      "dishes": "5根Ćevapi或一人肉饼；饮水/酸奶单独看价。午餐后再去河岸，不需要为了正餐返回贝尔格莱德中心。",
+      "budgetCny": [
+        35,
+        60
+      ],
+      "menuEvidence": "同品牌多档价表，Zemun centar当前单品价未取得；不能直接套Dorćol、机场或外卖其他店价。",
+      "hours": "官方分店页未列可靠时段；D39建议12:00–12:45就餐，先核当日营业。",
+      "sources": [
+        {
+          "title": "Walter官方Zemuncentar：Magistralni trg18",
+          "url": "https://walter.rs/en/portfolio/walter-zemun-beograd-2/"
+        },
+        {
+          "title": "Walter分区菜单入口",
+          "url": "https://walter.rs/en/menu-2/"
+        }
+      ],
+      "cautions": [
+        "从Gardoš下坡往老城广场，再回多瑙河岸，顺序可小调；该店不是Gospodska3。",
+        "若午餐后想吃Ferdinand，甜点另计不当第二份正餐；没有饿就跳过。",
+        "空调强度、充电和当日等位未验证。"
+      ],
+      "verified": "官方具名分店与18号地址已证实，菜价和营业待核。"
+    },
+    {
+      "id": "ferdinand-zemun",
+      "city": "泽蒙",
+      "name": "Ferdinand Knedle · Zemun店（甜点备选）",
+      "address": "Bežanijska 46, Zemun, Belgrade",
+      "mapQuery": "Ferdinand Knedle Bezanijska 46 Zemun",
+      "days": [
+        39
+      ],
+      "rowIds": [
+        "d39v2-07"
+      ],
+      "dishes": "一颗李子甜团子Šljiva，或开心果口味；当甜点加停，不替代含蔬菜与蛋白质的午餐。",
+      "budgetCny": [
+        17,
+        28
+      ],
+      "menuEvidence": "官网贝尔格莱德在线店价：李子250RSD/颗、开心果340RSD/颗；未证实Zemun堂食完全同价。官网特殊纯素/无麸质订购有至少5颗及提前一天条件，现场普通单颗供应另问。",
+      "hours": "本次未取得Zemun分店明确可靠时段；不要把官网动态显示的市区自营店11:00–01:30套到它。",
+      "sources": [
+        {
+          "title": "Ferdinand官网：Zemun Bežanijska46位置",
+          "url": "https://ferdinandknedle.com/"
+        },
+        {
+          "title": "Ferdinand官方在线甜团子价目",
+          "url": "https://www.ferdinandknedle.com/sr/shop/bg/slatke-knedle/"
+        }
+      ],
+      "cautions": [
+        "泽蒙确有分店，但Bežanijska46不能称为去Gardoš塔必经；用导航核往返绕行，超过15分钟就放弃。",
+        "若想保河岸午休与14:00返市区，把它留为可选而非必做餐。",
+        "Google评分/评价数、强冷气与插座均未实证。"
+      ],
+      "verified": "官方证实泽蒙分店真实存在及地址，在线产品价不是保证到店价。"
+    },
+    {
+      "id": "goreme-ravioli",
+      "city": "格雷梅",
+      "name": "Turkish Ravioli Restaurant · Aydınlı Sokak店",
+      "address": "Aydınlı Mahallesi, Aydınlı Sokak No:1, Göreme 50180",
+      "mapQuery": "Turkish Ravioli Restaurant Aydınlı Sokak No 1 Goreme",
+      "days": [
+        22,
+        23,
+        24
+      ],
+      "dishes": "一份Mantı酸奶肉馅小饺子，或鸡肉陶盘饭；用叉勺。特色饮品Ayran另点。",
+      "budgetCny": [
+        95,
+        150
+      ],
+      "menuEvidence": "2026-11-05官网电子菜单可读：当日汤200 TRY、Mantı800 TRY、鸡肉陶盘饭700 TRY、牛肉瓦罐1350 TRY；Ayran75 TRY另计。均为网页显示价，未载明确生效日，2027须重核。",
+      "hours": "官网主站列每日11:00–22:30；2027复核。",
+      "sources": [
+        {
+          "title": "餐厅官网地址与营业参考",
+          "url": "https://turkishravioli.com/"
+        },
+        {
+          "title": "餐厅现行电子菜单",
+          "url": "https://menu.turkishravioli.com/tr"
+        }
+      ],
+      "cautions": [
+        "属体验餐，价格明显高于普通食堂，不安排每顿吃。",
+        "空调、可用插座及服务费未核，不承诺。",
+        "D24绿线团餐未订，不能把此店或瓦罐肉当免费团餐。"
+      ],
+      "verified": "官网具名地址、菜单和营业参考已取得；预算为单人餐食规划额，饮品另计。"
+    },
+    {
+      "id": "goreme-pide-house",
+      "city": "格雷梅",
+      "name": "Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店",
+      "address": "Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180",
+      "mapQuery": "Cappadocia Pide House Restaurant Hakki Pasa Meydani 16 Goreme",
+      "days": [
+        22,
+        23,
+        24
+      ],
+      "dishes": "先看价点一份Pide土耳其长船披萨，或扁豆汤加主食；Ayran另计。",
+      "budgetCny": [
+        45,
+        90
+      ],
+      "menuEvidence": "未取得可靠现行原币菜单，不照搬Gemini人民币实价。",
+      "hours": "店家管理的Tripadvisor资料列每日10:00–次日00:00，仅营业参考。",
+      "sources": [
+        {
+          "title": "店家管理的餐厅资料：地址与电话",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g297983-d3246770-Reviews-Cappadocia_Pide_House_Restaurant-Goreme_Nevsehir_Province_Cappadocia.html"
+        },
+        {
+          "title": "店家Facebook入口",
+          "url": "https://www.facebook.com/Cappadocia-Pide-House-Restaurant-207422646134569/"
+        }
+      ],
+      "cautions": [
+        "地址可作具名候选；现价、空调、插座须到店确认。",
+        "不要混成同城另一家Cappadocia Pide Salonu。",
+        "Pide有油，用刀叉或餐巾纸，吃前收相机。"
+      ],
+      "verified": "具名地址与店家管理资料已取得，菜单现价未核；适合作预算备选。"
+    },
+    {
+      "id": "antalya-piyazci-ahmet",
+      "city": "安塔利亚",
+      "name": "Piyazcı Ahmet · Altındağ店",
+      "address": "Altındağ Mahallesi, 166 Sokak No:29/A, Muratpaşa, Antalya",
+      "mapQuery": "Piyazcı Ahmet Altındağ 166 Sokak 29 A Antalya",
+      "days": [
+        25,
+        26
+      ],
+      "dishes": "安塔利亚芝麻酱白豆沙拉Tahinli Piyaz＋一份Şiş Köfte烤肉丸；先问小份与总价，用叉勺。",
+      "budgetCny": [
+        45,
+        80
+      ],
+      "menuEvidence": "官网菜单确认Piyaz、烤肉丸和南瓜甜点；未取得数字价格。",
+      "hours": "未取得可核实营业时段。",
+      "sources": [
+        {
+          "title": "餐厅官网联系地址",
+          "url": "https://piyazciahmet.com.tr/iletisim/"
+        },
+        {
+          "title": "餐厅官网菜单",
+          "url": "https://piyazciahmet.com.tr/menu/"
+        }
+      ],
+      "cautions": [
+        "在Altındağ，不能写成罗马港旁；D25若体力允许，先用导航核真实绕行，远则不专程。",
+        "空调和插座未核，不用作已保证的午休场所。"
+      ],
+      "verified": "官网地址及菜品可核；单人餐食预算非报价，饮品另计。"
+    },
+    {
+      "id": "kas-bilokma",
+      "city": "Kaş",
+      "name": "Bi'Lokma Restaurant · Uğur Mumcu Caddesi店",
+      "address": "Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya",
+      "mapQuery": "Bi Lokma Restaurant Uğur Mumcu Caddesi 21 Kaş",
+      "days": [
+        26,
+        27,
+        28
+      ],
+      "dishes": "Ev Mantısı酸奶小饺子或Etli Yaprak Sarma肉馅葡萄叶卷，选一份主食即可；Ayran或柠檬水另计。",
+      "budgetCny": [
+        55,
+        100
+      ],
+      "menuEvidence": "官网索引可确认Mantı、Sarma、烤鱼等菜名，价格未取得；不引用旧土耳其低价。",
+      "hours": "官网有营业栏目但当前抓取未得到可靠具体时段。",
+      "sources": [
+        {
+          "title": "Bi'Lokma餐厅官网",
+          "url": "https://www.bilokma.com.tr/"
+        },
+        {
+          "title": "Bi'Lokma联系地址",
+          "url": "https://www.bilokma.com.tr/iletisim"
+        },
+        {
+          "title": "补充分店街名核对",
+          "url": "https://www.kocaelilife.com/kas-lezzet-duraklari/"
+        }
+      ],
+      "cautions": [
+        "旧资料另有Hükümet Caddesi花园店，不混用地址；导航锁Uğur Mumcu21号候选并核营业。",
+        "D27船餐只有预订产品明确包含才可免去午餐外支出，不能保证菜单。",
+        "D28午餐后须按原时段取包转费特希耶，不为此店延迟出发。",
+        "空调及插座未核。"
+      ],
+      "verified": "官网搜索索引及补充地址资料可核到21号店，官网直接打开超时；现价和营业仍待核。"
+    },
+    {
+      "id": "istanbul-buyruk",
+      "city": "伊斯坦布尔",
+      "name": "Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店",
+      "address": "Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112",
+      "mapQuery": "Buyruk Esnaf Lokantası Hoca Paşa Sokak 12 Sirkeci Istanbul",
+      "days": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "dishes": "看明码柜台选一份Kuru Fasulye白豆炖菜＋Pilav米饭，或一份鸡肉饭；按需要加汤，不默认面包无限。",
+      "budgetCny": [
+        30,
+        60
+      ],
+      "menuEvidence": "官网菜单网页列扁豆汤30 TRY、白豆75 TRY、米饭60 TRY、鸡肉饭150 TRY、Ayran35 TRY；网页未载明确生效日，价格偏低，作为官网挂牌记录而非2027实价。",
+      "hours": "官网列10:00–23:00，2027到店前复核。",
+      "sources": [
+        {
+          "title": "Buyruk官网菜单、地址与服务时间",
+          "url": "https://www.sirkecilokanta.com.tr/sirkeci-lokanta-menu/"
+        }
+      ],
+      "cautions": [
+        "只适合Sirkeci/老城回宿方向，不能称Beşiktaş或Balat午餐顺路。",
+        "未核Google评分/评价数、强空调及插座，不复制Gemini认证。",
+        "点单前再问今日牌价及是否另收服务费。"
+      ],
+      "verified": "官网地址、营业和历史/未注明生效日挂牌菜单已取得；餐食预算与报价分列，饮水另计。"
+    },
+    {
+      "id": "istanbul-ciya",
+      "city": "伊斯坦布尔",
+      "name": "Çiya Sofrası · Kadıköy Güneşlibahçe店",
+      "address": "Caferağa, Güneşlibahçe Sokak No:43, Kadıköy, İstanbul 34710",
+      "mapQuery": "Çiya Sofrası Güneşlibahçe Sokak 43 Kadıköy Istanbul",
+      "days": [
+        33
+      ],
+      "dishes": "选一份当日安纳托利亚炖菜＋米饭；看柜台计价，先问每份/按重量。可用叉勺。",
+      "budgetCny": [
+        65,
+        120
+      ],
+      "menuEvidence": "官网确认Kadıköy鱼市内多家Çiya相邻，未取得可核现行数字菜单。",
+      "hours": "营业时段未取得一手证据。",
+      "sources": [
+        {
+          "title": "Çiya官网介绍",
+          "url": "https://www.ciya.com.tr/"
+        },
+        {
+          "title": "店家管理的Çiya Sofrası地址资料",
+          "url": "https://www.tripadvisor.com.tr/Restaurant_Review-g293974-d776065-Reviews-Ciya_Sofrasi-Istanbul.html"
+        }
+      ],
+      "cautions": [
+        "是体验升级备选，预算高于工匠食堂。",
+        "认准Sofrası与43号，附近还有Çiya Kebap，不能只导航Çiya。",
+        "D33只在原Kadıköy市场段内吃，若当日行程改动则不跨海专程。",
+        "插座空调及评分数量未核。"
+      ],
+      "verified": "官网确认鱼市位置与餐厅品牌，门牌由店家管理资料补充，现价未核。"
+    },
+    {
+      "id": "hurghada-starfish",
+      "city": "赫尔格达",
+      "name": "Star Fish Restaurant · Sheraton Street主店",
+      "address": "Sheraton Street, opposite Wahib Stores, Hurghada",
+      "mapQuery": "Star Fish Restaurant Sheraton Street Wahib Stores Hurghada",
+      "days": [
+        41,
+        42,
+        43
+      ],
+      "dishes": "先问海鲜汤价格，或问一份带米饭的鱼排/小鱼固定套餐；整鱼称重先核每公斤价、重量和加工费。",
+      "budgetCny": [
+        45,
+        90
+      ],
+      "menuEvidence": "官方店址与海鲜菜单入口可查，未取得可核实当前价单；不照搬20元海鲜浓汤。",
+      "hours": "未取得官方具体营业时间。",
+      "sources": [
+        {
+          "title": "Star Fish官方分店表",
+          "url": "https://starfish-restaurants.com/branches/"
+        },
+        {
+          "title": "Star Fish官网菜单入口",
+          "url": "https://starfish-restaurants.com/"
+        }
+      ],
+      "cautions": [
+        "锁定Sheraton街主店，不导航到Sahl Hasheesh或酒店内分店。",
+        "官方酒店内Neverland/Beach Albatros/Citadel/Serenity店须经主店提前联系，不作为自由步入替代。",
+        "海鲜用刀叉，剥虾后洗手再拿相机。",
+        "价格、空调、插座未核；一次体验即可，不用作天天低价餐。"
+      ],
+      "verified": "官网分店位置明确；预算仅单人餐食规划，饮料另计。"
+    },
+    {
+      "id": "luxor-alsahaby",
+      "city": "卢克索",
+      "name": "Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店",
+      "address": "Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor",
+      "mapQuery": "Al Sahaby Lane Restaurant Nefertiti Hotel Al Sahaby Street Luxor",
+      "days": [
+        44,
+        45,
+        46
+      ],
+      "dishes": "扁豆汤＋鸡肉Freekeh小麦陶锅/鸡肉饭选一；若预算紧只点一份主食。Karkadeh洛神花饮另计。",
+      "budgetCny": [
+        40,
+        65
+      ],
+      "menuEvidence": "官网电子菜单：扁豆汤80 EGP、鸡肉Freekeh陶锅350 EGP、半鸡380 EGP、米饭50 EGP；Karkadeh70 EGP、水25/50 EGP另计。网页读取日2026-11-05，2027复核。",
+      "hours": "官网要求联系团队确认服务时间，未锁具体营业时段。",
+      "sources": [
+        {
+          "title": "Al-Sahaby餐厅官方位置和屋顶环境",
+          "url": "https://www.nefertitihotel.com/al-sahaby-lane-restaurant"
+        },
+        {
+          "title": "Al-Sahaby官方菜单",
+          "url": "https://www.nefertitihotel.com/our-menu"
+        }
+      ],
+      "cautions": [
+        "明确是屋顶露台，不能当成已核强空调午休餐厅。优先D44/D45晚餐，午间要冷气就回实际青旅。",
+        "餐厅有楼梯/露台环境，先问阴凉室内是否可用；不保证座位或插座。",
+        "D46赶火车前别为景观餐耽误取包。"
+      ],
+      "verified": "官方地址、菜单原币价格和露台性质已核。"
+    },
+    {
+      "id": "aswan-makka",
+      "city": "阿斯旺",
+      "name": "Makka / Mekka Restaurant · Abtal El Tahrir店",
+      "address": "143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）",
+      "mapQuery": "Makka Restaurant 143 Abtal El Tahrir Aswan",
+      "days": [
+        46,
+        47,
+        48
+      ],
+      "dishes": "一份烤鸡配米饭，先问单人份与配菜总价；汤、沙拉是否包含现场确认。",
+      "budgetCny": [
+        25,
+        50
+      ],
+      "menuEvidence": "未取得店家一手现行菜单，价、税与服务费均待核。",
+      "hours": "未取得官方营业时间。",
+      "sources": [
+        {
+          "title": "埃及Yellow Pages具名店址与电话",
+          "url": "https://yellowpages.com.eg/en/profile/mekka-restaurant/289144"
+        },
+        {
+          "title": "Tripadvisor地址交叉核对（非店家已认证）",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g294204-d1963061-Reviews-Makka_Restaurant-Aswan_Aswan_Governorate_Nile_River_Valley.html"
+        }
+      ],
+      "cautions": [
+        "这是有限核实候选，位置由目录交叉确认；不标为官方已核价或强空调。",
+        "先问清是否有正在开放的空调室内区。",
+        "D48早晚餐须不晚于原取包/报到时限，逾时就外带。"
+      ],
+      "verified": "仅店名、143号地址和电话可交叉核对；价格、营业、餐厅空调/插座无一手证据。"
+    },
+    {
+      "id": "cairo-abou-tarek",
+      "city": "开罗",
+      "name": "Koshary Abou Tarek · Shamblion市中心总店",
+      "address": "16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站",
+      "mapQuery": "Koshary Abou Tarek 16 Maarouf Champillion Downtown Cairo",
+      "days": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "dishes": "一份小/中碗Koshary扁豆米饭通心粉；辣酱和蒜醋单独放，先少量。用勺吃，饮料另计。",
+      "budgetCny": [
+        15,
+        30
+      ],
+      "menuEvidence": "官网分店页可核16 Maarouf总店，未取得当前官方65 EGP报价；Gemini65 EGP只是未证现价，不能锁定。",
+      "hours": "未取得可核一手营业时间。",
+      "sources": [
+        {
+          "title": "Abou Tarek官方联系与分店",
+          "url": "https://www.koshary-aboutarek.com/en/contact-us"
+        },
+        {
+          "title": "Abou Tarek官方入口",
+          "url": "https://www.koshary-aboutarek.com/en"
+        }
+      ],
+      "cautions": [
+        "只在开罗Downtown回宿方向复用，不能称吉萨金字塔/GEM门口顺路。",
+        "D51午餐优先馆内，不能为本店中途退出GEM。",
+        "D49夜巴后不为了网红店额外赶路。",
+        "Google评分数量、空调、插座未核。"
+      ],
+      "verified": "官方索引中的具名分店地址已核，实时菜单未取得；2027价与营业重核。"
+    },
+    {
+      "id": "dubai-aroos-deira",
+      "city": "迪拜",
+      "name": "Aroos Damascus · Al Muraqqabat / Deira店",
+      "address": "Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai",
+      "mapQuery": "Aroos Damascus Green Palace Hotel Al Muraqqabat Deira Dubai",
+      "days": [
+        53,
+        55
+      ],
+      "dishes": "单份鸡肉Shawarma或小份烤鸡饭；先问配菜份量和单人价。特色无酒精饮品单独核价。",
+      "budgetCny": [
+        35,
+        70
+      ],
+      "menuEvidence": "官网菜单页暂无数字菜单（No posts found），不把Gemini48元鸡肉拼盘当现价。",
+      "hours": "官方分店表列Al Muraqqabat 07:00–次日04:00，2027复核。",
+      "sources": [
+        {
+          "title": "Aroos官方分店地址和营业",
+          "url": "https://aroosdamascus.ae/locations/"
+        },
+        {
+          "title": "Aroos官方菜单入口",
+          "url": "https://aroosdamascus.ae/menu/"
+        },
+        {
+          "title": "迪拜旅游局分店地址",
+          "url": "https://www.visitdubai.com/en/restaurants/aroos-damascus"
+        }
+      ],
+      "cautions": [
+        "D53仅在实际青旅住Deira且顺路时用，不把Creek/Bur Dubai等同Deira。",
+        "D55若全日在Dubai Mall不为本店绕行；留作回Deira住宿晚餐替代。",
+        "冷气与插座仍需问店，外部评分不复制。",
+        "卷饼需上手，先收相机，用餐巾纸。"
+      ],
+      "verified": "官方具体分店及时间可核，价格未核。"
+    },
+    {
+      "id": "dubai-almallah-satwa",
+      "city": "迪拜",
+      "name": "Al Mallah Dhiyafah · Satwa / Al Hudaiba店",
+      "address": "Al Dhiyafa Road / 2nd December Street, Al Hudaiba, Dubai",
+      "mapQuery": "Al Mallah Dhiyafah Al Hudaiba 2nd December Street Dubai",
+      "days": [
+        53,
+        55
+      ],
+      "dishes": "预算吃法选单份鸡肉Shawarma；改善餐可选官网半鸡餐或混烤餐。鲜榨牛油果饮另计，不默认每天点。",
+      "budgetCny": [
+        30,
+        85
+      ],
+      "menuEvidence": "官网列半鸡餐40 AED、3串混烤餐40 AED、早餐套餐27 AED；官网未给当前单卷9 AED证据。区间下端仅单卷餐规划、上端是套餐规划，饮品另计。",
+      "hours": "官网列周六–周四07:00–次日02:00，周五09:00–次日02:00；不是24小时。",
+      "sources": [
+        {
+          "title": "Al Mallah官方菜单与营业参考",
+          "url": "https://www.almallahuae.com/"
+        },
+        {
+          "title": "分店地址补充核对",
+          "url": "https://www.emirates-online.net/English/item/al-mallah-dhiyafah"
+        }
+      ],
+      "cautions": [
+        "Satwa分店不在Dubai Mall/Deira步行动线上，不为其增加专门打车。",
+        "官网强调临街座位，不保证强空调；先询室内席位和插座。",
+        "9 AED卷饼和2 AED Karak尚未获得该店一手价格，不作为锁价。"
+      ],
+      "verified": "官方菜价及营业可核，街址由目录补充；仅留顺路条件备选。"
+    },
+    {
+      "id": "dubai-mall-albaik",
+      "city": "迪拜",
+      "name": "ALBAIK · Dubai Mall Second Floor店",
+      "address": "Dubai Mall, Second Floor food court；靠P7 Cinema Parking",
+      "mapQuery": "ALBAIK Dubai Mall Second Floor Food Court P7 Cinema Parking",
+      "days": [
+        55
+      ],
+      "dishes": "选一份单人鸡肉餐/鸡块餐，优先按柜台套餐牌点，不额外叠多份小吃；用叉子或吃后洗手。",
+      "budgetCny": [
+        25,
+        45
+      ],
+      "menuEvidence": "商场官方页确认分店及菜单入口，但挂出的旧PDF非2026新价；不拿旧菜单锁2027金额。",
+      "hours": "门店当前具体时间未独立核实，不能简单以商场时间替代。",
+      "sources": [
+        {
+          "title": "Dubai Mall官方ALBAIK分店与楼层",
+          "url": "https://thedubaimall.com/en/shop/albaik"
+        },
+        {
+          "title": "Emaar Malls官方店铺",
+          "url": "https://www.emaarmalls.ae/malls-shop-details/dubai-mall/albaik/"
+        }
+      ],
+      "cautions": [
+        "D55午餐可直接替换商场区域餐，排队超过15–20分钟就换同层具名连锁店，不跨城觅食。",
+        "不从搜索广告进入不明ALBAIK优惠支付站。",
+        "美食广场室内可休息，但空位和插座不保证；水另计。"
+      ],
+      "verified": "官方二层分店、影院P7方向已核，当前数字菜单未核。"
+    },
+    {
+      "id": "abu-dhabi-museum-cafe",
+      "city": "阿布扎比",
+      "name": "Museum Café · Louvre Abu Dhabi馆内店",
+      "address": "Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi",
+      "mapQuery": "Museum Cafe Louvre Abu Dhabi Saadiyat Island",
+      "days": [
+        54
+      ],
+      "dishes": "先看Grab & Go柜台的单份三明治/沙拉或轻食，不点酒；可直接把D54卢浮宫前午餐安排在此。",
+      "budgetCny": [
+        90,
+        140
+      ],
+      "menuEvidence": "官方确认Grab & Go及餐厅存在；当前可核菜单入口未取得明确新价，预算是馆内餐规划额，不能当平价食堂。",
+      "hours": "官网列周一–四10:00–19:00（末点18:15），周五–日10:00–21:00（末点20:00）。D54为周四，2027复核。",
+      "sources": [
+        {
+          "title": "Louvre官方Museum Café与营业",
+          "url": "https://www.louvreabudhabi.ae/en/visit/museum-cafe"
+        }
+      ],
+      "cautions": [
+        "位于卢浮宫，不是大清真寺地下商城。",
+        "若先检票才能进餐厅，应把检票前移，不先吃再重复检票；准入以馆方规则为准。",
+        "馆内价可能高，预算紧改清真寺Souq Al Jami McDonald's，须先吃后移动并调整时段。",
+        "不能把餐费算入博物馆门票。"
+      ],
+      "verified": "官方位置、轻食产品类型和营业可核，餐价未核；饮品另计。"
+    },
+    {
+      "id": "abu-dhabi-souq-mcd",
+      "city": "阿布扎比",
+      "name": "McDonald's / McCafé · Souq Al Jami清真寺游客中心店",
+      "address": "Souq Al Jami food court, Sheikh Zayed Grand Mosque Visitor Centre, Al Maqtaa, Abu Dhabi",
+      "mapQuery": "McDonald's McCafe Souq Al Jami Sheikh Zayed Grand Mosque Abu Dhabi",
+      "days": [
+        54
+      ],
+      "dishes": "在离开大清真寺前吃一份单人鸡肉汉堡餐或简餐；餐后再乘车到卢浮宫。",
+      "budgetCny": [
+        35,
+        60
+      ],
+      "menuEvidence": "麦当劳UAE官方McCafé门店表明确列Souq Al Jami, Abu Dhabi；未取得该分店数字菜单，按现场套餐牌。",
+      "hours": "未取得该分店官方营业时间；不套用另一家Abu Dhabi Mall的时间。",
+      "sources": [
+        {
+          "title": "麦当劳UAE官方McCafé门店表",
+          "url": "https://www.mcdonalds.com/ae/en-ae/mccafe-restaurants.html"
+        },
+        {
+          "title": "大清真寺官方Souq Al Jami设施",
+          "url": "https://www.szgmc.gov.ae/en/worshippers/en-v-souq-al-jami"
+        }
+      ],
+      "cautions": [
+        "此为D54省钱替代，必须把午餐移到11:30左右再前往卢浮宫，不能12:15已到卢浮宫又返回此店。",
+        "是明确具名的便利补给店，不冒充当地必吃菜。",
+        "空调商城环境可选，但座位/充电插座不保证。"
+      ],
+      "verified": "品牌官方门店表与清真寺官方设施交叉核对；菜单、时段待核。"
+    },
+    {
+      "id": "istanbul-hayvore",
+      "city": "伊斯坦布尔",
+      "name": "Hayvore · Beyoğlu Turnacıbaşı店",
+      "address": "İstiklal Caddesi, Turnacıbaşı Sokak No:4, Beyoğlu, İstanbul",
+      "mapQuery": "Hayvore Turnacıbaşı Sokak 4 Beyoğlu Istanbul",
+      "days": [
+        31
+      ],
+      "dishes": "黑海家常食堂：一份Kuru Fasulye白豆炖菜＋米饭，或一份当日肉/蔬菜炖菜。先看当日套餐价；用勺叉。",
+      "budgetCny": [
+        45,
+        85
+      ],
+      "menuEvidence": "官网链接到QRDOS菜单，可核白豆米饭套餐、扁豆汤、羽衣甘蓝卷等，当前页面未显示数字价格；按现场明码。",
+      "hours": "未取得可核具体营业时段，D31晚餐前复核是否仍供餐。",
+      "sources": [
+        {
+          "title": "Hayvore官方具体地址",
+          "url": "https://www.hayvore.com.tr/iletisim/"
+        },
+        {
+          "title": "Hayvore官方链接的餐厅菜单",
+          "url": "https://qrdos.tr/hayvore"
+        },
+        {
+          "title": "Hayvore官网与菜单入口",
+          "url": "https://www.hayvore.com.tr/"
+        }
+      ],
+      "cautions": [
+        "D31独立大街晚餐顺路，不用于Beşiktaş午餐硬折返。",
+        "不要误选Galataport另一店。",
+        "菜单与份量当日变化，空调及插座未核。"
+      ],
+      "verified": "官方Beyoğlu4号店地址及菜单入口可核，现价未核；饮水另计。"
+    },
+    {
+      "id": "istanbul-forno-balat",
+      "city": "伊斯坦布尔",
+      "name": "Forno Balat · Fener Kireçhane店",
+      "address": "Balat Mahallesi, Fener Kireçhane Sokak No:13/A, Fatih, İstanbul",
+      "mapQuery": "Forno Balat Fener Kireçhane Sokak 13 A Istanbul",
+      "days": [
+        32
+      ],
+      "dishes": "一份Lahmacun肉末薄饼或Pide＋按需要加扁豆汤；单人不点整桌早餐。饮品Ayran另计。",
+      "budgetCny": [
+        45,
+        85
+      ],
+      "menuEvidence": "官网列扁豆汤、Lahmacun、各类Pide及Ayran等，当前文字页没有数字价，先看柜台/菜单图。",
+      "hours": "具体营业时段未取得；官网说明自助早餐仅周六日，D32周三不套用。",
+      "sources": [
+        {
+          "title": "Forno Balat官网菜单与地图入口",
+          "url": "https://fornobalat.com/?lang=en"
+        },
+        {
+          "title": "官方地图对应13/A门牌的导航交叉",
+          "url": "https://www.waze.com/live-map/directions/tr/i%CC%87stanbul/forno-balat%2C-i%CC%87stanbul-un-en-i%CC%87yi-kahvalti%2C-lahmacun-ve-pizza-and-pide-mekanlari%2C-sizinle%21?to=place.ChIJHYfN0gK6yhQRdbNODSVaZHg"
+        }
+      ],
+      "cautions": [
+        "替换D32 Balat午餐，可就地吃，不为午餐返回Sirkeci。",
+        "Lahmacun可请切块用刀叉，或餐巾纸包着拿，先收相机。",
+        "室内空调和插座未核，饭后仍保留回宿/阴凉处休息安排。"
+      ],
+      "verified": "官网在Balat、菜单品类和地图入口可核，具体门牌由地图交叉；现价待核。"
+    },
+    {
+      "id": "istanbul-kanaat-uskudar",
+      "city": "伊斯坦布尔",
+      "name": "Kanaat Lokantası · Üsküdar Selmani Pak总店",
+      "address": "Sultantepe Mahallesi, Selmani Pak Caddesi No:9, Üsküdar, İstanbul 34674",
+      "mapQuery": "Kanaat Lokantası Selmani Pak Caddesi 9 Üsküdar Istanbul",
+      "days": [
+        33
+      ],
+      "dishes": "预算选一份蔬菜/豆类家常菜＋米饭，或汤＋一份主食；先问小份和总价，避开同时点烤肉甜品整套。",
+      "budgetCny": [
+        50,
+        90
+      ],
+      "menuEvidence": "官网确认每日家常热菜、橄榄油冷菜与甜品，提供菜单入口；现行数字菜单未取得，不能称最便宜店。",
+      "hours": "官网列07:00–22:30，2027重核；官方明确只在Üsküdar此地址经营。",
+      "sources": [
+        {
+          "title": "Kanaat官方地址、时间与菜单入口",
+          "url": "https://www.kanaatlokantasi.com.tr/"
+        },
+        {
+          "title": "Kanaat官方总店说明",
+          "url": "https://www.kanaatlokantasi.com.tr/hakkimizda"
+        }
+      ],
+      "cautions": [
+        "放D33Üsküdar中心经过时，去Salacak之前吃或返码头时吃，不写成Salacak海边店。",
+        "是就地家常餐备选，未证最低价；若超预算少点一道，不能靠ISIC自动打折。",
+        "空调和插座未核。"
+      ],
+      "verified": "一手9号总店、品类与营业可核，价格待核；单人餐食预算饮料另计。"
+    },
+    {
+      "id": "antalya-cancan",
+      "city": "安塔利亚",
+      "name": "Can Can Pide & Yemek Salonu · Arık Caddesi店",
+      "address": "Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100",
+      "mapQuery": "Can Can Pide Yemek Salonu Arık Caddesi 4 A Antalya",
+      "days": [
+        25,
+        26
+      ],
+      "dishes": "省钱组合：一份Kıymalı Pide肉末船饼，或白豆炖菜＋米饭；需要时加扁豆汤。用刀叉，Ayran另计。",
+      "budgetCny": [
+        35,
+        65
+      ],
+      "menuEvidence": "餐厅电子菜单读取2026-11-05：扁豆汤110 TRY、白豆180 TRY、米饭110 TRY、肉末Pide280 TRY、肉末薄饼160 TRY、Ayran60 TRY。网页无明确生效日，2027复核。",
+      "hours": "餐厅电子菜单列10:00–23:30，周日休；D25周三、D26周四按现规则可用但须2027重核。",
+      "sources": [
+        {
+          "title": "Can Can餐厅电子菜单与时间",
+          "url": "https://www.cancanpideyemek.com/"
+        },
+        {
+          "title": "门牌交叉核对",
+          "url": "https://antalyacityguide.com/mekan/can-can-pide-ve-yemek-salonu/"
+        }
+      ],
+      "cautions": [
+        "比AltındağPiyazcıAhmet更适合Kaleiçi东侧的行程，仍按实际住宿出口核步行。",
+        "D25用午/晚餐候选，D26只在去汽车站前窗口够时吃，不压报到余量。",
+        "空调和插座未核，不把店家站列出的Google分数冒充独立实时Google核验。"
+      ],
+      "verified": "具名店与电子菜单原币价、营业可核，门牌由目录补充；饮品另计。"
+    },
+    {
+      "id": "kas-kasim-homefood",
+      "city": "Kaş",
+      "name": "Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店",
+      "address": "Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580",
+      "mapQuery": "Kaşım Restaurant Ev Yemekleri Hükümet Caddesi 12 Kaş",
+      "days": [
+        26,
+        27,
+        28
+      ],
+      "dishes": "家常热菜柜台选一份豆类/蔬菜炖菜＋米饭，或一份当日肉菜；问小份与份量，不按自助随取误结账。",
+      "budgetCny": [
+        35,
+        65
+      ],
+      "menuEvidence": "店家管理的餐厅资料确认家常锅菜、蔬菜、卷菜等品类；未取得现行原币菜单价格。",
+      "hours": "未取得可靠具体时间；管理资料出现00:00–23:59占位式时间，不能据此称24h。",
+      "sources": [
+        {
+          "title": "Kaşım店家管理资料：地址、品类与电话",
+          "url": "https://www.tripadvisor.com.tr/Restaurant_Review-g297965-d2216878-Reviews-KasIm_Restaurant-Kas_Turkish_Mediterranean_Coast.html"
+        },
+        {
+          "title": "12号地址交叉核对",
+          "url": "https://tr.restaurantguru.com/Kasim-Ev-Yemekleri-Kas-2"
+        }
+      ],
+      "cautions": [
+        "Gemini的Özlem Lokantası在Kaş未能核到匹配店，搜索结果指向Bergama/İzmir或Kumluca，不应直接导入。改为已核12号Kaşım具名候选。",
+        "价格、营业、空调插座均待核，不能保证比BiLokma便宜，区间是预算选择。",
+        "D28留足取包和上Ağullu接驳时段，排队超15分钟换外带。"
+      ],
+      "verified": "店家管理资料可核12号地址、电话及菜品类型，未取得官方现价；饮水另计。"
+    },
+    {
+      "id": "istanbul-karadeniz-besiktas",
+      "city": "伊斯坦布尔",
+      "name": "Tarihi Karadeniz Döner · Beşiktaş Köyiçi6店",
+      "address": "Sinanpaşa, Köyiçi Caddesi No:6, Beşiktaş, İstanbul",
+      "mapQuery": "Tarihi Karadeniz Doner Asim Usta Koyici Caddesi 6 Besiktas Istanbul",
+      "days": [
+        31
+      ],
+      "dishes": "单人点70g小面包夹Döner，或100g Dürüm；配水即可。先问份量，不默认150g大份。",
+      "budgetCny": [
+        60,
+        100
+      ],
+      "menuEvidence": "官网标注2026-10-10更新；菜单图人工查看：70g四分之一面包360TRY、70g三明治380TRY、80g半面包400TRY、100g卷饼500TRY、100g肉配饭580TRY、汤120TRY；水30TRY/Ayran60TRY另计。2027重核。",
+      "hours": "官网未列可靠开门/售罄时间；D31午餐前查营业，排队超过15分钟改自备简餐，不等售罄。",
+      "sources": [
+        {
+          "title": "餐厅官网：6号地址与2026-10-10价表更新",
+          "url": "https://tarihikaradenizdonerasimusta.com/"
+        },
+        {
+          "title": "官网菜单原图：份量与原币价",
+          "url": "https://tarihikaradenizdonerasimusta.com/kcalgorsel.png"
+        }
+      ],
+      "cautions": [
+        "D31从多尔玛巴赫切往Beşiktaş中心方向吃，不回Sirkeci再折返。",
+        "店小且可能排队，不保证空调座位、充电或午睡；正午休息回住宿/其他已确认室内空间。",
+        "人民币是单餐食物留量，未按固定汇率冒充2027报价。"
+      ],
+      "verified": "一手店址及标2026-10-10的菜单图已核；营业、当日供餐和2027价待核。"
+    }
+  ],
+  "meals": [
+    {
+      "day": 3,
+      "rowId": "d3v2-09",
+      "meal": "晚餐",
+      "shop": "yining-jiang-jianmian",
+      "backup": null,
+      "note": "办完国际班车核验后再吃；先取干粮。六星街冰淇淋另作可选，不为甜品晚睡。"
+    },
+    {
+      "day": 4,
+      "rowId": "d4v2-09",
+      "meal": "晚餐",
+      "shop": "almaty-qaganat-gogol39",
+      "backup": null,
+      "note": "仅在实际下车、入住后仍来得及时执行；晚到就用途中已备简餐，不跨城找店。"
+    },
+    {
+      "day": 5,
+      "rowId": "d5v2-07",
+      "meal": "午餐",
+      "shop": "almaty-qaganat-gogol39",
+      "backup": null,
+      "note": "从绿巴扎/公园方向前往Gogol39；市场只作采购，不再重复吃一顿早午餐。"
+    },
+    {
+      "day": 5,
+      "rowId": "d5v2-12",
+      "meal": "晚餐",
+      "shop": "almaty-qaganat-dostyk108",
+      "backup": "almaty-navat-dostyk48",
+      "note": "Kok-Tobe下山后按Dostyk108分店导航；NAVAT48是改善伙食备选，不能把两家价格相加。"
+    },
+    {
+      "day": 6,
+      "rowId": "d6v2-10",
+      "meal": "晚餐",
+      "shop": "almaty-qaganat-gogol39",
+      "backup": null,
+      "note": "峡谷团返城后再吃，洗衣与睡眠优先；团晚到则打包一份，不再排队。"
+    },
+    {
+      "day": 7,
+      "rowId": "d7v2-03",
+      "meal": "午餐",
+      "shop": "almaty-qaganat-gogol39",
+      "backup": null,
+      "note": "11:30–12:10内解决，留时间买国际卧铺简餐；12:10仍未出餐就取消堂食。"
+    },
+    {
+      "day": 8,
+      "rowId": "d8v2-04",
+      "meal": "午餐",
+      "shop": "tashkent-beshqozon-glinka",
+      "backup": null,
+      "note": "DRIMIN寄包后选Glinka41A分店，不跑电视塔总店。14:30–15:15包含前往和用餐，导航/等位不合就删哈斯特伊玛目，保住宿与休息。"
+    },
+    {
+      "day": 9,
+      "rowId": "d9v2-06",
+      "meal": "午餐",
+      "shop": "bukhara-old-bukhara",
+      "backup": "bukhara-afsona",
+      "note": "入住寄包后吃一份正餐，再回室内午休；单店不能保证冷气或允许充电。"
+    },
+    {
+      "day": 9,
+      "rowId": "d9v2-10",
+      "meal": "晚餐",
+      "shop": "bukhara-old-bukhara",
+      "backup": null,
+      "note": "Lyabi-Hauz/卡扬参观结束后步行按门店导航，不专程找第二家；不把露台作为冷气休息。"
+    },
+    {
+      "day": 10,
+      "rowId": "d10v2-09",
+      "meal": "午餐",
+      "shop": "bukhara-afsona",
+      "backup": "bukhara-old-bukhara",
+      "note": "午餐后回住处长午休；Afsona餐价留量较高，超预算改Old Bukhara，不默认强冷气或插座。"
+    },
+    {
+      "day": 10,
+      "rowId": "d10v2-14",
+      "meal": "晚餐",
+      "shop": "bukhara-old-bukhara",
+      "backup": null,
+      "note": "巴扎结束后按店名回老城吃；现场先看服务费与份量，饭后核火车。"
+    },
+    {
+      "day": 11,
+      "rowId": "d11v2-06",
+      "meal": "午餐",
+      "shop": "samarkand-emirhan",
+      "backup": null,
+      "note": "放主包后从老城向Mahmudjanov1/18店导航；午餐和午休不被参观挤掉。此店是具名正餐，不能当廉价食堂。"
+    },
+    {
+      "day": 12,
+      "rowId": "d12v2-12",
+      "meal": "晚餐",
+      "shop": "samarkand-emirhan",
+      "backup": "samarkand-shokhrukh-nur",
+      "note": "雷吉斯坦补外观后按具体店名导航；Shokhrukh Nur只在当日地图与门牌核对一致时作便宜备选。"
+    },
+    {
+      "day": 13,
+      "rowId": "d13v2-10",
+      "meal": "晚餐",
+      "shop": "tashkent-beshqozon-glinka",
+      "backup": null,
+      "note": "到塔什干先办登记；仍选Glinka41A而非电视塔总店，若从住宿往返不能在20:30前结束，就用已备简餐，不影响次日航班。"
+    },
+    {
+      "day": 14,
+      "rowId": "d14v2-10",
+      "meal": "晚餐",
+      "shop": "firuze-baku",
+      "backup": null,
+      "note": "海滨短走后去喷泉广场店；不要把机场晚到日排成餐厅打卡，延误先保入住休息。"
+    },
+    {
+      "day": 15,
+      "rowId": "d15v2-12",
+      "meal": "晚餐",
+      "shop": "firuze-baku",
+      "backup": null,
+      "note": "高地公园返回后再去，点汤或一份主食即可，不叠加多份肉菜。"
+    },
+    {
+      "day": 16,
+      "rowId": "d16v2-08",
+      "meal": "午餐",
+      "shop": "dolma-baku",
+      "backup": "firuze-baku",
+      "note": "老城结束后去喷泉广场Rasulzade8店；账单另有10%服务费。晚上为夜车备餐，不重复远行吃第二家。"
+    },
+    {
+      "day": 17,
+      "rowId": "d17v2-11",
+      "meal": "晚餐",
+      "shop": "maspindzelo-oldtown",
+      "backup": null,
+      "note": "老城/Narikala下山后先到Gorgasali7吃，再返回住处；原17:45–19:15窗口含步行与吃饭。"
+    },
+    {
+      "day": 18,
+      "rowId": "d18v2-12",
+      "meal": "晚餐",
+      "shop": "maspindzelo-oldtown",
+      "backup": null,
+      "note": "仅团车返第比利斯后且仍营业、交通允许时去；21:00后返城直接用随身简餐回宿，不再追店。"
+    },
+    {
+      "day": 19,
+      "rowId": "d19v2-10",
+      "meal": "晚餐",
+      "shop": "tun-lahmajo-yerevan",
+      "backup": null,
+      "note": "Cascade往共和国广场方向经Teryan街；跨境晚到则取消Cascade，先登记吃饭。"
+    },
+    {
+      "day": 20,
+      "rowId": "d20v2-12",
+      "meal": "晚餐",
+      "shop": "tun-lahmajo-yerevan",
+      "backup": null,
+      "note": "Garni/Geghard返城后执行；午餐由沿途停靠/自带安排，不把城内店硬排到山区。"
+    },
+    {
+      "day": 21,
+      "rowId": "d21v2-07",
+      "meal": "午餐",
+      "shop": "tun-lahmajo-yerevan",
+      "backup": "lahmajun-gaidz",
+      "note": "11:30–12:20午餐，随后午休；Gaidz只作先查营业的午餐备选，不依赖未经核实的1500AMD套餐。"
+    },
+    {
+      "day": 22,
+      "rowId": "d22v2-09",
+      "meal": "晚餐",
+      "shop": "goreme-pide-house",
+      "backup": null,
+      "note": "航班转机后只在格雷梅镇吃一顿简餐，不为瓦罐肉拖到晚睡。"
+    },
+    {
+      "day": 23,
+      "rowId": "d23v2-07",
+      "meal": "午餐",
+      "shop": "goreme-pide-house",
+      "backup": "goreme-ravioli",
+      "note": "露天博物馆回镇后吃Pide/汤；Turkish Ravioli是价位较高的体验备选，不能算平价餐。"
+    },
+    {
+      "day": 23,
+      "rowId": "d23v2-13",
+      "meal": "晚餐",
+      "shop": "goreme-pide-house",
+      "backup": null,
+      "note": "峡谷返镇后吃，留出洗衣取件和早睡；超时则打包。"
+    },
+    {
+      "day": 24,
+      "rowId": "d24v2-08",
+      "meal": "晚餐",
+      "shop": "goreme-pide-house",
+      "backup": null,
+      "note": "绿线返镇后，先在19:30前解决晚餐并取包；若团晚到，已备干粮直接去汽车站，不挤检票。"
+    },
+    {
+      "day": 25,
+      "rowId": "d25v2-07",
+      "meal": "午餐",
+      "shop": "antalya-cancan",
+      "backup": null,
+      "note": "老港结束后到Arık街具名店；用餐后回Flaneur休息，不把餐厅当免费午睡场所。"
+    },
+    {
+      "day": 25,
+      "rowId": "d25v2-13",
+      "meal": "晚餐",
+      "shop": "antalya-cancan",
+      "backup": "antalya-piyazci-ahmet",
+      "note": "回老城后用餐；Piyazcı Ahmet Altındağ店只作愿意额外移动的体验备选。"
+    },
+    {
+      "day": 26,
+      "rowId": "d26v2-09",
+      "meal": "晚餐",
+      "shop": "kas-kasim-homefood",
+      "backup": "kas-bilokma",
+      "note": "古剧场夕色后回老镇，用家常菜小份；Bi’Lokma作较高预算备选。"
+    },
+    {
+      "day": 27,
+      "rowId": "d27v2-11",
+      "meal": "晚餐",
+      "shop": "kas-bilokma",
+      "backup": "kas-kasim-homefood",
+      "note": "船返Kaş、洗澡后去UğurMumcu21现址，不去旧Hükümet店址；想省钱改Kaşım家常菜。"
+    },
+    {
+      "day": 28,
+      "rowId": "d28v2-04",
+      "meal": "午餐",
+      "shop": "kas-kasim-homefood",
+      "backup": null,
+      "note": "11:00–11:40先吃，12:00前取包；不把甜品或第二家等位挤进转车余量。"
+    },
+    {
+      "day": 29,
+      "rowId": "d29v2-04",
+      "meal": "午餐",
+      "shop": "istanbul-buyruk",
+      "backup": null,
+      "note": "先到Cheers寄包，按体力赴HocaPaşa12店，步行与堂食共用12:00–13:00；夜巴疲劳时打包回宿。"
+    },
+    {
+      "day": 29,
+      "rowId": "d29v2-09",
+      "meal": "晚餐",
+      "shop": "istanbul-buyruk",
+      "backup": null,
+      "note": "从滨水回老城途中在Sirkeci吃，吃完回宿，不额外跑亚洲岸。"
+    },
+    {
+      "day": 30,
+      "rowId": "d30v2-07",
+      "meal": "午餐",
+      "shop": "istanbul-buyruk",
+      "backup": null,
+      "note": "托宫上午参观后午餐。Sultanahmet→HocaPaşa需另计步行；13:30仍未吃完就缩短下午圣索菲亚外观，不挤喝水。"
+    },
+    {
+      "day": 30,
+      "rowId": "d30v2-14",
+      "meal": "晚餐",
+      "shop": "istanbul-buyruk",
+      "backup": null,
+      "note": "Eminönü晚霞后经Sirkeci回老城用餐；顺便邮局仅在柜台已确认营业时执行。"
+    },
+    {
+      "day": 31,
+      "rowId": "d31v2-07",
+      "meal": "午餐",
+      "shop": "istanbul-karadeniz-besiktas",
+      "backup": null,
+      "note": "多尔玛巴赫切结束后留在Beşiktaş的Köyiçi6店午餐，不返回Sirkeci吃再折返；午间可能排队，只买小份。"
+    },
+    {
+      "day": 31,
+      "rowId": "d31v2-13",
+      "meal": "晚餐",
+      "shop": "istanbul-hayvore",
+      "backup": null,
+      "note": "独立大街逛完到Turnacıbaşı4店，再回老城；问清按盘/按份收费和配菜。"
+    },
+    {
+      "day": 32,
+      "rowId": "d32v2-06",
+      "meal": "午餐",
+      "shop": "istanbul-forno-balat",
+      "backup": null,
+      "note": "Fener/Balat街区内就餐，不在午间跨区回Sirkeci；午休回住宿另留实际路程。"
+    },
+    {
+      "day": 32,
+      "rowId": "d32v2-13",
+      "meal": "晚餐",
+      "shop": "istanbul-buyruk",
+      "backup": null,
+      "note": "香料市场结束后到HocaPaşa12店吃，再回老城。"
+    },
+    {
+      "day": 33,
+      "rowId": "d33v2-07",
+      "meal": "午餐",
+      "shop": "istanbul-ciya",
+      "backup": null,
+      "note": "从Moda返回Kadıköy市集边吃；把这段12:15–13:30用作移动和午餐，午休可延后，预算高于食堂。"
+    },
+    {
+      "day": 33,
+      "rowId": "d33v2-13",
+      "meal": "晚餐",
+      "shop": "istanbul-kanaat-uskudar",
+      "backup": null,
+      "note": "Kuzguncuk返Üsküdar中心，17:30–18:15在SelmaniPak9先吃，18:15–20:00按体力去Salacak看日落；不是Salacak海边店，不折返Kadıköy。"
+    },
+    {
+      "day": 34,
+      "rowId": "d34v2-08",
+      "meal": "晚餐",
+      "shop": "zeljo-sarajevo",
+      "backup": "petica-sarajevo",
+      "note": "入住后顺老城步行到Kundurdžiluk19；18:15那顿仅作必要小食，不再重复点一份正餐。"
+    },
+    {
+      "day": 35,
+      "rowId": "d35v2-06",
+      "meal": "午餐",
+      "shop": "petica-sarajevo",
+      "backup": "zeljo-sarajevo",
+      "note": "老城上午参观后11:30就餐；菜单7BAM是小份在线订餐记录，堂食看牌价。"
+    },
+    {
+      "day": 35,
+      "rowId": "d35v2-13",
+      "meal": "晚餐",
+      "shop": "zeljo-sarajevo",
+      "backup": "petica-sarajevo",
+      "note": "黄堡下山后老城就餐，20:30前结束返宿，留明早往莫斯塔尔的睡眠。"
+    },
+    {
+      "day": 36,
+      "rowId": "d36v2-07",
+      "meal": "午餐",
+      "shop": "tima-irma-mostar",
+      "backup": null,
+      "note": "老桥西岸Onešćukova店；12:15–13:00内点一人小份烤肉，别默认多人混烤盘。"
+    },
+    {
+      "day": 37,
+      "rowId": "d37v2-08",
+      "meal": "晚餐",
+      "shop": "walter-dorcol",
+      "backup": null,
+      "note": "跨境到贝城入住后选Dorćol57分店；晚到则打包，取消附加夜逛。"
+    },
+    {
+      "day": 38,
+      "rowId": "d38v2-06",
+      "meal": "午餐",
+      "shop": "bucko-francuska",
+      "backup": null,
+      "note": "国家博物馆出来去Francuska18，不把其他分店菜单套到此店；排队超过10分钟取消。"
+    },
+    {
+      "day": 38,
+      "rowId": "d38v2-13",
+      "meal": "晚餐",
+      "shop": "walter-dorcol",
+      "backup": null,
+      "note": "取洗衣前后用餐，半份烤肉配面包即可；饮料另计。"
+    },
+    {
+      "day": 39,
+      "rowId": "d39v2-07",
+      "meal": "午餐",
+      "shop": "walter-zemun-centar",
+      "backup": null,
+      "note": "Gardoš下坡到Magistralni trg18，吃后回河岸；Ferdinand Bežanijska46只作额外甜点，不是必经或替代完整正餐。"
+    },
+    {
+      "day": 39,
+      "rowId": "d39v2-13",
+      "meal": "晚餐",
+      "shop": "walter-dorcol",
+      "backup": null,
+      "note": "回贝城中心后吃Dorćol店，避免一日两顿烤肉可改汤/蔬菜或厨房简餐。"
+    },
+    {
+      "day": 40,
+      "rowId": "d40v2-07",
+      "meal": "午餐",
+      "shop": "bucko-francuska",
+      "backup": null,
+      "note": "参观主馆后回中心才去此店；不为披萨跨区来回赶馆。"
+    },
+    {
+      "day": 40,
+      "rowId": "d40v2-12",
+      "meal": "晚餐",
+      "shop": "walter-dorcol",
+      "backup": null,
+      "note": "17:30早晚餐，18:30前回宿收包早睡；不依赖夜宵店。"
+    },
+    {
+      "day": 41,
+      "rowId": "d41v2-08",
+      "meal": "晚餐",
+      "shop": "hurghada-starfish",
+      "backup": null,
+      "note": "Marina傍晚短走后去Sheraton Street主店；按重量海鲜先确认含烹饪费的总价。"
+    },
+    {
+      "day": 42,
+      "rowId": "d42v2-11",
+      "meal": "晚餐",
+      "shop": "hurghada-starfish",
+      "backup": null,
+      "note": "从ElDahar回Marina方向后再吃；不误去另一同名分店。预算紧可选择午餐便携食物，晚上仅点一人主食。"
+    },
+    {
+      "day": 44,
+      "rowId": "d44v2-09",
+      "meal": "晚餐",
+      "shop": "luxor-alsahaby",
+      "backup": null,
+      "note": "卢克索神庙傍晚参观后再上酒店屋顶吃；屋顶露台不能代替午间空调休息。"
+    },
+    {
+      "day": 45,
+      "rowId": "d45v2-13",
+      "meal": "晚餐",
+      "shop": "luxor-alsahaby",
+      "backup": null,
+      "note": "东岸傍晚再用餐；午间回住处降温，不能把这家露台写成已核强空调。"
+    },
+    {
+      "day": 46,
+      "rowId": "d46v2-11",
+      "meal": "晚餐",
+      "shop": "aswan-makka",
+      "backup": null,
+      "note": "入住GoInn后赴东岸AbtalElTahrir143候选店，先看营业和完整价单；无菜单或不营业就买已标价热食，不付未问价套餐。"
+    },
+    {
+      "day": 47,
+      "rowId": "d47v2-08",
+      "meal": "午餐",
+      "shop": "aswan-makka",
+      "backup": null,
+      "note": "阿布辛贝返回后按实际返城时间就餐；强空调未核，若不够凉爽，打包回已确认空调住处。"
+    },
+    {
+      "day": 48,
+      "rowId": "d48v2-08",
+      "meal": "午餐",
+      "shop": "aswan-makka",
+      "backup": null,
+      "note": "11:30–12:10结束，午睡和17:00候选夜巴优先；下午早晚餐用已备食品，不重复跑市中心。"
+    },
+    {
+      "day": 49,
+      "rowId": "d49v2-06",
+      "meal": "午餐",
+      "shop": "cairo-abou-tarek",
+      "backup": null,
+      "note": "夜巴到开罗先寄包补觉，再到16Maarouf市中心总店；不要追未经核实的65EGP价格。"
+    },
+    {
+      "day": 50,
+      "rowId": "d50v2-14",
+      "meal": "晚餐",
+      "shop": "cairo-abou-tarek",
+      "backup": null,
+      "note": "吉萨行程已返回市区后再去；不把市中心店塞进金字塔午餐而往返折腾。"
+    },
+    {
+      "day": 51,
+      "rowId": "d51v2-11",
+      "meal": "晚餐",
+      "shop": "cairo-abou-tarek",
+      "backup": null,
+      "note": "GEM参观完回开罗市区后用餐；GEM午餐留在馆内允许区域，不能午间专程回总店。"
+    },
+    {
+      "day": 52,
+      "rowId": "d52v2-07",
+      "meal": "午餐",
+      "shop": "cairo-abou-tarek",
+      "backup": null,
+      "note": "萨卡拉/NMEC白天分支已回市中心后才去，若迟返用随身简餐，优先离埃打包与SPX交通。"
+    },
+    {
+      "day": 53,
+      "rowId": "d53v2-09",
+      "meal": "晚餐",
+      "shop": "dubai-aroos-deira",
+      "backup": "dubai-almallah-satwa",
+      "note": "傍晚迪拜湾短走后，只有实时交通允许19:30前结束才去Deira；AlJaddaf酒店往返另计路程，晚到先用已备简餐。"
+    },
+    {
+      "day": 54,
+      "rowId": "d54v2-09",
+      "meal": "午餐",
+      "shop": "abu-dhabi-museum-cafe",
+      "backup": "abu-dhabi-souq-mcd",
+      "note": "按原12:15已到卢浮宫的动线在馆内吃。省钱备选须改成11:30–12:00在清真寺Souq麦当劳吃、12:00–13:00移动、13:15检票；不能从卢浮宫折返清真寺吃饭。"
+    },
+    {
+      "day": 55,
+      "rowId": "d55v2-09",
+      "meal": "午餐",
+      "shop": "dubai-mall-albaik",
+      "backup": null,
+      "note": "DubaiMall二层美食区，靠P7CinemaParking；15分钟内队伍无望则用自备简餐，不为网红炸鸡排长队。"
+    },
+    {
+      "day": 55,
+      "rowId": "d55v2-13",
+      "meal": "晚餐",
+      "shop": "dubai-mall-albaik",
+      "backup": null,
+      "note": "仍在DubaiMall内选小份，19:15必须离开返AlJaddaf取包，不临时去Satwa、Deira打卡。若不想重复炸鸡，用下午已采购的便携简餐。"
+    }
+  ],
+  "optionalShops": [
+    "yining-gulandam",
+    "almaty-navat-dostyk48",
+    "samarkand-karimbek",
+    "ferdinand-zemun",
+    "dubai-almallah-satwa"
+  ],
+  "corrections": [
+    "不照录未复核的Google评分、评论数量、强冷气、插座、免费面包或固定出餐速度。具名门店、菜单、营业分别标证据。",
+    "菜单保留原币与取得日期；官网未写生效日、外送/在线订餐价格均不能当2027堂食报价。人民币区间只是单人一餐食物留量，饮水饮品另计。",
+    "Besh Qozon取Glinka41A店；官网抓饭一份53,000UZS、单人套餐70,000UZS。Qaganat阿斯塔纳与阿拉木图分店的2370KZT马肉面不能串用。",
+    "D31留Beşiktaş吃午餐，D32留Balat，D33按Kadıköy/Salacak分开；D55留DubaiMall，不把Satwa/Deira写成步行必经。",
+    "D24绿线、D27Kekova、D43红海是三顿候选团餐。仅订单明确写含餐时替代当餐预算；不保证瓦罐牛肉、海鱼或某种自助餐。",
+    "没有核到通用ISIC餐饮折扣；所有餐费按不打折规划。学生身份不自动带来餐厅优惠。",
+    "Khinkali不强制徒手，先拍照收好相机，再按习惯或请店员给餐具用餐。随身纸巾、洗手与相机收纳比只筛刀叉菜更实用。",
+    "不将散装格瓦斯标成已核0酒精。要求严格不含酒精时看瓶身标识；特色饮品单独点单，不默认每餐必买。",
+    "不加冰也不能保证街头鲜榨饮料安全；水源、清洁和保存同样重要。优先封口瓶装饮水与现做热食。"
+  ],
+  "budgetApplied": false
+};
+</script>
+<script>(()=>{
+ 'use strict';
+ const D=window.TRIP_DATA,F=window.TripFood,data=window.TRIP_DINING_DATA;
+ if(!D||!F||!data)return;
+ const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const shops=Object.fromEntries(data.restaurants.map(r=>[r.id,r]));
+ const mealsByRow=Object.fromEntries(data.meals.map(m=>[m.rowId,m]));
+ const nav=s=>'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(s.mapQuery);
+ const range=v=>'¥'+v.join('–');
+ const short=s=>s.name.replace(/（[^）]*）/g,'').replace(/ · /g,' · ');
+ const dayMeals=day=>data.meals.filter(m=>m.day===Number(day.id.slice(3)));
+ const getRow=m=>D.days[m.day-1].rows.find(r=>r.id===m.rowId);
+ const base={summary:F.summary,details:F.details,overview:F.overview};
+ const pantry={china:[[8,12],[15,25],[20,30],[6,10]],kazakhstan:[[8,15],[18,28],[20,30],[7,12]],uzbekistan:[[7,12],[18,28],[20,30],[7,12]],azerbaijan:[[10,16],[20,30],[25,35],[7,12]],georgia:[[8,12],[18,28],[20,30],[7,12]],armenia:[[8,12],[15,25],[20,30],[7,12]],turkey:[[12,20],[25,40],[30,45],[10,18]],bosnia:[[10,18],[20,30],[25,35],[8,14]],serbia:[[10,18],[20,30],[25,35],[8,14]],egypt:[[6,12],[15,25],[20,30],[8,16]],uae:[[12,20],[25,40],[30,45],[10,20]]};
+ function dailyBudget(day){const r=F.region(day),v=(pantry[r.id]||pantry.china).map(x=>[...x]);for(const m of dayMeals(day))v[m.meal==='午餐'?1:2]=[...shops[m.shop].budgetCny];return {breakfast:v[0],lunch:v[1],dinner:v[2],water:v[3],total:[0,1].map(i=>v.reduce((sum,p)=>sum+p[i],0))};}
+ const totals=[0,1].map(i=>D.days.reduce((sum,d)=>sum+dailyBudget(d).total[i],0));
+ function sourcesHTML(s){return s.sources.map(x=>'<a href="'+E(x.url)+'" target="_blank" rel="noopener noreferrer">'+E(x.title)+' ↗</a>').join(' · ');}
+ function restaurantHTML(s,{compact=false}={}){return '<article class="dining-card" data-dining-shop="'+E(s.id)+'"><div class="dining-top"><span class="food-tag">'+E(s.city)+' · '+(s.planRole?'先核再选':'具体分店参考')+'</span><b>'+E(range(s.budgetCny))+'</b></div><h4>'+E(s.name)+'</h4><p class="dining-address">'+E(s.address)+'</p><p><b>点单：</b>'+E(Array.isArray(s.dishes)?s.dishes.join('；'):s.dishes)+'</p><div class="food-links"><a class="soft-button" href="'+E(nav(s))+'" target="_blank" rel="noopener noreferrer">导航到这家店 ↗</a></div><details class="dining-evidence" '+(!compact?'open':'')+'><summary>菜单原币价、营业与来源</summary><p>'+E(s.menuEvidence)+'</p><p><b>营业参考：</b>'+E(s.hours||'尚未取得可靠时段，出发前复核')+'</p><p>'+E(s.verified)+'</p><ul>'+s.cautions.map(x=>'<li>'+E(x)+'</li>').join('')+'</ul><p class="dining-sources">'+sourcesHTML(s)+'</p></details></article>';}
+ function mealHTML(m,compact=true){const s=shops[m.shop],r=getRow(m);return '<section class="dining-meal"><p class="dining-slot">'+E(m.meal)+' · '+E(r.time)+'</p>'+restaurantHTML(s,{compact})+'<p class="dining-route">'+E(m.note)+'</p>'+(m.backup?'<details class="dining-backup"><summary>备用：'+E(shops[m.backup].name)+'</summary>'+restaurantHTML(shops[m.backup],{compact:true})+'</details>':'')+'</section>';}
+ function budgetHTML(day){const b=dailyBudget(day);return '<p class="dining-budget"><b>本日餐饮参考 '+range(b.total)+'</b><br>早餐 '+range(b.breakfast)+' · 午餐 '+range(b.lunch)+' · 晚餐 '+range(b.dinner)+' · 饮水/饮品 '+range(b.water)+'。选择主推荐时的规划留量，未安排的餐用自备/厨房简餐；不是已核实总价。</p>';}
+ function dayHTML(day){const list=dayMeals(day);if(!list.length)return base.overview(day);return '<details class="food-overview dining-overview"><summary>今天吃什么 · 具体餐厅、点单与导航</summary><p class="dining-small">早餐优先已订住宿含早（先核订单），否则面包/熟蛋/酸奶。未列的午晚餐用自备、厨房或当日团单；不默认含餐。</p>'+list.map(m=>mealHTML(m,true)+'<button class="soft-button" data-food-row="'+E(m.rowId)+'">打开这段用餐安排</button>').join('')+budgetHTML(day)+'<p class="dining-small">一般等位＋出餐超过15–20分钟就取消堂食；赶车按该段截止时间更早放弃。店址与菜单核实于'+E(data.checked)+'，2027营业、价格和供餐须再核；冷气和充电均不保证。</p><button data-guide="food" class="soft-button">全部具体餐厅与核查记录</button></details>';}
+ function mapHTML(day){const list=dayMeals(day);if(!list.length)return '';return '<section class="dining-map"><h3>今天的餐厅导航</h3><p class="dining-small">按具名分店和地址打开实时导航；先确认当天营业。</p>'+list.map(m=>{const s=shops[m.shop];return '<div><b>'+E(m.meal)+' · '+E(s.name)+'</b><p>'+E(s.address)+'</p><a class="soft-button" target="_blank" rel="noopener noreferrer" href="'+E(nav(s))+'">导航到这家店 ↗</a><button class="soft-button" data-food-row="'+E(m.rowId)+'">看用餐安排</button></div>';}).join('')+'</section>';}
+ function guideHTML(){return '<h2>具体餐厅 · 三餐与饮水</h2><p>'+data.restaurants.length+'家明确分店，'+data.meals.length+'段午晚餐已放进原时段。核实 '+E(data.checked)+'；均为推荐，未订餐。地址、菜价与营业的证据分别写在店卡里。</p><a class="soft-button" href="data:text/markdown;charset=utf-8;base64,IyDkuJ3ot6/pmo/ooYwgwrcg5YW35L2T6aSQ5Y6F5LiO6YCQ6aSQ5a6J5o6SCgrmoLjlrp7vvJoyMDI2LTExLTA144CC5oyJNTflpKk3LzEx4oCUOS816Lev57q/44CC5Z2H5Li65o6o6I2Q77yM5pyq6aKE6K6i44CC5L+d55WZ5pei5pyJ5Lu75Yqh5ZKM5pe26Ze077yM6aSQ6LS55LiN6Ieq5Yqo6KaG55uW5Y6fMzM0MOWFg+iNieahiOOAggoKIyMg5pys5qyh57qg6ZSZCgotIOS4jeeFp+W9leacquWkjeaguOeahEdvb2dsZeivhOWIhuOAgeivhOiuuuaVsOmHj+OAgeW8uuWGt+awlOOAgeaPkuW6p+OAgeWFjei0uemdouWMheaIluWbuuWumuWHuumkkOmAn+W6puOAguWFt+WQjemXqOW6l+OAgeiPnOWNleOAgeiQpeS4muWIhuWIq+agh+ivgeaNruOAggotIOiPnOWNleS/neeVmeWOn+W4geS4juWPluW+l+aXpeacn++8m+WumOe9keacquWGmeeUn+aViOaXpeOAgeWklumAgS/lnKjnur/orqLppJDku7fmoLzlnYfkuI3og73lvZMyMDI35aCC6aOf5oql5Lu344CC5Lq65rCR5biB5Yy66Ze05Y+q5piv5Y2V5Lq65LiA6aSQ6aOf54mp55WZ6YeP77yM6aWu5rC06aWu5ZOB5Y+m6K6h44CCCi0gQmVzaCBRb3pvbuWPlkdsaW5rYTQxQeW6l++8m+WumOe9keaKk+mlreS4gOS7vTUzLDAwMFVaU+OAgeWNleS6uuWll+mkkDcwLDAwMFVaU+OAglFhZ2FuYXTpmL/mlq/loZTnurPkuI7pmL/mi4nmnKjlm77liIblupfnmoQyMzcwS1pU6ams6IKJ6Z2i5LiN6IO95Liy55So44CCCi0gRDMx55WZQmXFn2lrdGHFn+WQg+WNiOmkkO+8jEQzMueVmUJhbGF077yMRDMz5oyJS2FkxLFrw7Z5L1NhbGFjYWvliIblvIDvvJtENTXnlZlEdWJhaU1hbGzvvIzkuI3miopTYXR3YS9EZWlyYeWGmeaIkOatpeihjOW/hee7j+OAggotIEQyNOe7v+e6v+OAgUQyN0tla292YeOAgUQ0M+e6oua1t+aYr+S4iemhv+WAmemAieWboumkkOOAguS7heiuouWNleaYjuehruWGmeWQq+mkkOaXtuabv+S7o+W9k+mkkOmihOeul++8m+S4jeS/neivgeeTpue9kOeJm+iCieOAgea1t+mxvOaIluafkOenjeiHquWKqemkkOOAggotIOayoeacieaguOWIsOmAmueUqElTSUPppJDppa7mipjmiaPvvJvmiYDmnInppJDotLnmjInkuI3miZPmipjop4TliJLjgILlrabnlJ/ouqvku73kuI3oh6rliqjluKbmnaXppJDljoXkvJjmg6DjgIIKLSBLaGlua2FsaeS4jeW8uuWItuW+kuaJi++8jOWFiOaLjeeFp+aUtuWlveebuOacuu+8jOWGjeaMieS5oOaDr+aIluivt+W6l+WRmOe7memkkOWFt+eUqOmkkOOAgumaj+i6q+e6uOW3vuOAgea0l+aJi+S4juebuOacuuaUtue6s+avlOWPquetm+WIgOWPieiPnOabtOWunueUqOOAggotIOS4jeWwhuaVo+ijheagvOeTpuaWr+agh+aIkOW3suaguDDphZLnsr7jgILopoHmsYLkuKXmoLzkuI3lkKvphZLnsr7ml7bnnIvnk7bouqvmoIfor4bvvJvnibnoibLppa7lk4HljZXni6zngrnljZXvvIzkuI3pu5jorqTmr4/ppJDlv4XkubDjgIIKLSDkuI3liqDlhrDkuZ/kuI3og73kv53or4HooZflpLTpspzmpqjppa7mlpnlronlhajvvJvmsLTmupDjgIHmuIXmtIHlkozkv53lrZjlkIzmoLfph43opoHjgILkvJjlhYjlsIHlj6Pnk7boo4Xppa7msLTkuI7njrDlgZrng63po5/jgIIKCiMjIOmAkOmkkOaJp+ihjOihqAoKfOWkqXzml6XmnJ985Y6f5pe25q61fOmkkOWIq3zlhbfkvZPliIblupd85Y2V5Lq66aOf54mp6KeE5YiSfOWKqOe6v+S4juWPluiIjXwKfC0tLXwtLS18LS0tfC0tLXwtLS18LS0tfC0tLXwKfEQzfDIwMjctMDctMTN8MTc6MzDigJMyMDowMHzmmZrppJB8W+eWhsK36KeB6Z2i5LyK54qB5ZGz6YGT77yI5pav5aSn5p6X6KGX5LiJ5be35bqX77yJXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj0lRTclOTYlODYlMjAlRTglQTclODElRTklOUQlQTIlMjAlRTQlQkMlOEElRTclOEElODElRTUlOTElQjMlRTklODElOTMlMjAlRTYlOTYlQUYlRTUlQTQlQTclRTYlOUUlOTclRTglQTElOTclRTQlQjglODklRTUlQjclQjcxNCVFNSU4RiVCNyUyMCVFNCVCQyU4QSVFNSVBRSU4MSVFNSVCOCU4Mil8wqUzNeKAkzYwfOWKnuWujOWbvemZheePrei9puaguOmqjOWQjuWGjeWQg++8m+WFiOWPluW5sueyruOAguWFreaYn+ihl+WGsOa3h+a3i+WPpuS9nOWPr+mAie+8jOS4jeS4uueUnOWTgeaZmuedoeOAgnwKfEQ0fDIwMjctMDctMTR8MjA6MDDigJMyMTowMCDlk4jlm73ml7bpl7R85pma6aSQfFtRYWdhbmF077yI0JfQtdC90LrQvtCy0LAgLyBHb2dvbCAzOeWIhuW6l++8iV0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249UWFnYW5hdCUyMCVEMCU5MyVEMCVCRSVEMCVCMyVEMCVCRSVEMCVCQiVEMSU4RiUyMDM5JTIwJUQwJTkwJUQwJUJCJUQwJUJDJUQwJUIwJUQxJTgyJUQxJThCKXzCpTI14oCTNDV85LuF5Zyo5a6e6ZmF5LiL6L2m44CB5YWl5L2P5ZCO5LuN5p2l5b6X5Y+K5pe25omn6KGM77yb5pma5Yiw5bCx55So6YCU5Lit5bey5aSH566A6aSQ77yM5LiN6Leo5Z+O5om+5bqX44CCfAp8RDV8MjAyNy0wNy0xNXwxMTozMO+9njEyOjMwfOWNiOmkkHxbUWFnYW5hdO+8iNCX0LXQvdC60L7QstCwIC8gR29nb2wgMznliIblupfvvIldKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVFhZ2FuYXQlMjAlRDAlOTMlRDAlQkUlRDAlQjMlRDAlQkUlRDAlQkIlRDElOEYlMjAzOSUyMCVEMCU5MCVEMCVCQiVEMCVCQyVEMCVCMCVEMSU4MiVEMSU4Qil8wqUyNeKAkzQ1fOS7jue7v+W3tOaJji/lhazlm63mlrnlkJHliY3lvoBHb2dvbDM577yb5biC5Zy65Y+q5L2c6YeH6LSt77yM5LiN5YaN6YeN5aSN5ZCD5LiA6aG/5pep5Y2I6aSQ44CCfAp8RDV8MjAyNy0wNy0xNXwxOTowMO+9njIwOjAwfOaZmumkkHxbUWFnYW5hdO+8iERvc3R5ayAxMDjliIblupfvvIldKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVFhZ2FuYXQlMjAlRDAlOTQlRDAlQkUlRDElODElRDElODIlRDElOEIlRDAlQkElMjAxMDglMjAlRDAlOTAlRDAlQkIlRDAlQkMlRDAlQjAlRDElODIlRDElOEIpfMKlMjXigJM0NXxLb2stVG9iZeS4i+WxseWQjuaMiURvc3R5azEwOOWIhuW6l+WvvOiIqu+8m05BVkFUNDjmmK/mlLnlloTkvJnpo5/lpIfpgInvvIzkuI3og73miorkuKTlrrbku7fmoLznm7jliqDjgIIg5aSH6YCJ77yaTkFWQVTvvIhEb3N0eWsgNDjliIblupfvvInjgIJ8CnxENnwyMDI3LTA3LTE2fDE4OjMw4oCTMjA6MDB85pma6aSQfFtRYWdhbmF077yI0JfQtdC90LrQvtCy0LAgLyBHb2dvbCAzOeWIhuW6l++8iV0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249UWFnYW5hdCUyMCVEMCU5MyVEMCVCRSVEMCVCMyVEMCVCRSVEMCVCQiVEMSU4RiUyMDM5JTIwJUQwJTkwJUQwJUJCJUQwJUJDJUQwJUIwJUQxJTgyJUQxJThCKXzCpTI14oCTNDV85bOh6LC35Zui6L+U5Z+O5ZCO5YaN5ZCD77yM5rSX6KGj5LiO552h55yg5LyY5YWI77yb5Zui5pma5Yiw5YiZ5omT5YyF5LiA5Lu977yM5LiN5YaN5o6S6Zif44CCfAp8RDd8MjAyNy0wNy0xN3wxMTozMOKAkzEyOjMwfOWNiOmkkHxbUWFnYW5hdO+8iNCX0LXQvdC60L7QstCwIC8gR29nb2wgMznliIblupfvvIldKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVFhZ2FuYXQlMjAlRDAlOTMlRDAlQkUlRDAlQjMlRDAlQkUlRDAlQkIlRDElOEYlMjAzOSUyMCVEMCU5MCVEMCVCQiVEMCVCQyVEMCVCMCVEMSU4MiVEMSU4Qil8wqUyNeKAkzQ1fDExOjMw4oCTMTI6MTDlhoXop6PlhrPvvIznlZnml7bpl7TkubDlm73pmYXljafpk7rnroDppJDvvJsxMjoxMOS7jeacquWHuumkkOWwseWPlua2iOWggumjn+OAgnwKfEQ4fDIwMjctMDctMTh8MTQ6MzDigJMxNToxNXzljYjppJB8W0Jlc2ggUW96b27vvIhHbGlua2EgNDFB5YiG5bqX77yJXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1CZXNoJTIwUW96b24lMjBHbGlua2ElMjA0MUElMjBUYXNoa2VudCl8wqUzNeKAkzU1fERSSU1JTuWvhOWMheWQjumAiUdsaW5rYTQxQeWIhuW6l++8jOS4jei3keeUteinhuWhlOaAu+W6l+OAgjE0OjMw4oCTMTU6MTXljIXlkKvliY3lvoDlkoznlKjppJDvvIzlr7zoiKov562J5L2N5LiN5ZCI5bCx5Yig5ZOI5pav54m55LyK546b55uu77yM5L+d5L2P5a6/5LiO5LyR5oGv44CCfAp8RDl8MjAyNy0wNy0xOXwxMjozMOKAkzE2OjMwfOWNiOmkkHxbT2xkIEJ1a2hhcmHvvIjluIPlk4jmi4nogIHln47lupfvvIldKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPU9sZCUyMEJ1a2hhcmElMjBSZXN0YXVyYW50JTIwQnVraGFyYSUyMFNhbWFya2FuZCUyMFN0cmVldCUyMDMpfMKlMzDigJM1NXzlhaXkvY/lr4TljIXlkI7lkIPkuIDku73mraPppJDvvIzlho3lm57lrqTlhoXljYjkvJHvvJvljZXlupfkuI3og73kv53or4HlhrfmsJTmiJblhYHorrjlhYXnlLXjgIIg5aSH6YCJ77yaQWZzb25hIEJ1a2hhcmHvvIhNdXJvZCBBdmxpeW8gNOWIhuW6l++8ieOAgnwKfEQ5fDIwMjctMDctMTl8MTg6NDXigJMyMTowMHzmmZrppJB8W09sZCBCdWtoYXJh77yI5biD5ZOI5ouJ6ICB5Z+O5bqX77yJXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1PbGQlMjBCdWtoYXJhJTIwUmVzdGF1cmFudCUyMEJ1a2hhcmElMjBTYW1hcmthbmQlMjBTdHJlZXQlMjAzKXzCpTMw4oCTNTV8THlhYmktSGF1ei/ljaHmiazlj4Lop4Lnu5PmnZ/lkI7mraXooYzmjInpl6jlupflr7zoiKrvvIzkuI3kuJPnqIvmib7nrKzkuozlrrbvvJvkuI3miorpnLLlj7DkvZzkuLrlhrfmsJTkvJHmga/jgIJ8CnxEMTB8MjAyNy0wNy0yMHwxMjoxNe+9njE1OjQ1fOWNiOmkkHxbQWZzb25hIEJ1a2hhcmHvvIhNdXJvZCBBdmxpeW8gNOWIhuW6l++8iV0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QWZzb25hJTIwQnVraGFyYSUyME11cm9kJTIwQXZsaXlvJTIwNCl8wqU1MOKAkzg1fOWNiOmkkOWQjuWbnuS9j+WkhOmVv+WNiOS8ke+8m0Fmc29uYemkkOS7t+eVmemHj+i+g+mrmO+8jOi2hemihOeul+aUuU9sZCBCdWtoYXJh77yM5LiN6buY6K6k5by65Ya35rCU5oiW5o+S5bqn44CCIOWkh+mAie+8mk9sZCBCdWtoYXJh77yI5biD5ZOI5ouJ6ICB5Z+O5bqX77yJ44CCfAp8RDEwfDIwMjctMDctMjB8MTg6MzDvvZ4yMTowMHzmmZrppJB8W09sZCBCdWtoYXJh77yI5biD5ZOI5ouJ6ICB5Z+O5bqX77yJXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1PbGQlMjBCdWtoYXJhJTIwUmVzdGF1cmFudCUyMEJ1a2hhcmElMjBTYW1hcmthbmQlMjBTdHJlZXQlMjAzKXzCpTMw4oCTNTV85be05omO57uT5p2f5ZCO5oyJ5bqX5ZCN5Zue6ICB5Z+O5ZCD77yb546w5Zy65YWI55yL5pyN5Yqh6LS55LiO5Lu96YeP77yM6aWt5ZCO5qC454Gr6L2m44CCfAp8RDExfDIwMjctMDctMjF8MTE6NDXigJMxNDozMHzljYjppJB8W0VtaXJoYW4gUmVzdGF1cmFudO+8iE1haG11ZGphbm92IDEvMTjlupfvvIldKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUVtaXJoYW4lMjBSZXN0YXVyYW50JTIwQWhyb3JxdWwlMjBNYWhtdWRqb25vdiUyMDElMkYxOCUyMFNhbWFya2FuZCl8wqU1MOKAkzg1fOaUvuS4u+WMheWQjuS7juiAgeWfjuWQkU1haG11ZGphbm92MS8xOOW6l+WvvOiIqu+8m+WNiOmkkOWSjOWNiOS8keS4jeiiq+WPguinguaMpOaOieOAguatpOW6l+aYr+WFt+WQjeato+mkkO+8jOS4jeiDveW9k+W7ieS7t+mjn+WgguOAgnwKfEQxMnwyMDI3LTA3LTIyfDE3OjAw772eMTg6MzB85pma6aSQfFtFbWlyaGFuIFJlc3RhdXJhbnTvvIhNYWhtdWRqYW5vdiAxLzE45bqX77yJXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1FbWlyaGFuJTIwUmVzdGF1cmFudCUyMEFocm9ycXVsJTIwTWFobXVkam9ub3YlMjAxJTJGMTglMjBTYW1hcmthbmQpfMKlNTDigJM4NXzpm7flkInmlq/lnabooaXlpJbop4LlkI7mjInlhbfkvZPlupflkI3lr7zoiKrvvJtTaG9raHJ1a2ggTnVy5Y+q5Zyo5b2T5pel5Zyw5Zu+5LiO6Zeo54mM5qC45a+55LiA6Ie05pe25L2c5L6/5a6c5aSH6YCJ44CCIOWkh+mAie+8mlNob2tocnVraCBOdXLvvIhTbyd6YW5nYXJvbuihl+W6l++8ieOAgnwKfEQxM3wyMDI3LTA3LTIzfDE5OjAw4oCTMjA6MzB85pma6aSQfFtCZXNoIFFvem9u77yIR2xpbmthIDQxQeWIhuW6l++8iV0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QmVzaCUyMFFvem9uJTIwR2xpbmthJTIwNDFBJTIwVGFzaGtlbnQpfMKlMzXigJM1NXzliLDloZTku4DlubLlhYjlip7nmbvorrDvvJvku43pgIlHbGlua2E0MUHogIzpnZ7nlLXop4bloZTmgLvlupfvvIzoi6Xku47kvY/lrr/lvoDov5TkuI3og73lnKgyMDozMOWJjee7k+adn++8jOWwseeUqOW3suWkh+eugOmkkO+8jOS4jeW9seWTjeasoeaXpeiIquePreOAgnwKfEQxNHwyMDI3LTA3LTI0fDE5OjEw4oCTMjE6MDB85pma6aSQfFtGaXJ1esmZIFJlc3RhdXJhbnQgwrcg5Za35rOJ5bm/5Zy65bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1GaXJ1emUlMjBSZXN0YXVyYW50JTIwVGFybGFuJTIwQWxpeWFyYmV5b3YlMjAxNCUyMEJha3UpfMKlNTDigJM4MHzmtbfmu6jnn63otbDlkI7ljrvllrfms4nlub/lnLrlupfvvJvkuI3opoHmiormnLrlnLrmmZrliLDml6XmjpLmiJDppJDljoXmiZPljaHvvIzlu7bor6/lhYjkv53lhaXkvY/kvJHmga/jgIJ8CnxEMTV8MjAyNy0wNy0yNXwxODozMOKAkzIxOjMwfOaZmumkkHxbRmlydXrJmSBSZXN0YXVyYW50IMK3IOWWt+azieW5v+WcuuW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249RmlydXplJTIwUmVzdGF1cmFudCUyMFRhcmxhbiUyMEFsaXlhcmJleW92JTIwMTQlMjBCYWt1KXzCpTUw4oCTODB86auY5Zyw5YWs5Zut6L+U5Zue5ZCO5YaN5Y6777yM54K55rGk5oiW5LiA5Lu95Li76aOf5Y2z5Y+v77yM5LiN5Y+g5Yqg5aSa5Lu96IKJ6I+c44CCfAp8RDE2fDIwMjctMDctMjZ8MTI6NDDvvZ4xNDowMHzljYjppJB8W0RvbG1hIFJlc3RhdXJhbnQgwrcg5Za35rOJ5bm/5Zy65bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1Eb2xtYSUyMFJlc3RhdXJhbnQlMjA4JTIwTWFtbWFkYW1pbiUyMFJhc3VsemFkZSUyMEJha3UpfMKlNTDigJM4NXzogIHln47nu5PmnZ/lkI7ljrvllrfms4nlub/lnLpSYXN1bHphZGU45bqX77yb6LSm5Y2V5Y+m5pyJMTAl5pyN5Yqh6LS544CC5pma5LiK5Li65aSc6L2m5aSH6aSQ77yM5LiN6YeN5aSN6L+c6KGM5ZCD56ys5LqM5a6244CCIOWkh+mAie+8mkZpcnV6yZkgUmVzdGF1cmFudCDCtyDllrfms4nlub/lnLrlupfjgIJ8CnxEMTd8MjAyNy0wNy0yN3wxNzo0NeKAkzE5OjE1fOaZmumkkHxbTWFzcGluZHplbG8gwrcgR29yZ2FzYWxp6ICB5Z+O5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1NYXNwaW5kemVsbyUyMDclMjBHb3JnYXNhbGklMjBUYmlsaXNpKXzCpTQw4oCTNzV86ICB5Z+OL05hcmlrYWxh5LiL5bGx5ZCO5YWI5YiwR29yZ2FzYWxpN+WQg++8jOWGjei/lOWbnuS9j+WkhO+8m+WOnzE3OjQ14oCTMTk6MTXnqpflj6PlkKvmraXooYzkuI7lkIPppa3jgIJ8CnxEMTh8MjAyNy0wNy0yOHwxNjowMOKAkzIxOjMwIOWQq+i/lOWfjuaZmumkkHzmmZrppJB8W01hc3BpbmR6ZWxvIMK3IEdvcmdhc2FsaeiAgeWfjuW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249TWFzcGluZHplbG8lMjA3JTIwR29yZ2FzYWxpJTIwVGJpbGlzaSl8wqU0MOKAkzc1fOS7heWboui9pui/lOesrOavlOWIqeaWr+WQjuS4lOS7jeiQpeS4muOAgeS6pOmAmuWFgeiuuOaXtuWOu++8mzIxOjAw5ZCO6L+U5Z+O55u05o6l55So6ZqP6Lqr566A6aSQ5Zue5a6/77yM5LiN5YaN6L+95bqX44CCfAp8RDE5fDIwMjctMDctMjl8MTk6MTXigJMyMTozMHzmmZrppJB8W1R1biBMYWhtYWpvIMK3IFRlcnlhbuihl+W6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249VHVuJTIwTGFobWFqbyUyMFRlcnlhbiUyMDIzJTIwWWVyZXZhbil8wqUyNeKAkzU1fENhc2NhZGXlvoDlhbHlkozlm73lub/lnLrmlrnlkJHnu49UZXJ5YW7ooZfvvJvot6jlooPmmZrliLDliJnlj5bmtohDYXNjYWRl77yM5YWI55m76K6w5ZCD6aWt44CCfAp8RDIwfDIwMjctMDctMzB8MTY6MzDigJMyMTowMHzmmZrppJB8W1R1biBMYWhtYWpvIMK3IFRlcnlhbuihl+W6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249VHVuJTIwTGFobWFqbyUyMFRlcnlhbiUyMDIzJTIwWWVyZXZhbil8wqUyNeKAkzU1fEdhcm5pL0dlZ2hhcmTov5Tln47lkI7miafooYzvvJvljYjppJDnlLHmsr/pgJTlgZzpnaAv6Ieq5bim5a6J5o6S77yM5LiN5oqK5Z+O5YaF5bqX56Gs5o6S5Yiw5bGx5Yy644CCfAp8RDIxfDIwMjctMDctMzF8MTE6MzDvvZ4xMzozMHzljYjppJB8W1R1biBMYWhtYWpvIMK3IFRlcnlhbuihl+W6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249VHVuJTIwTGFobWFqbyUyMFRlcnlhbiUyMDIzJTIwWWVyZXZhbil8wqUyNeKAkzU1fDExOjMw4oCTMTI6MjDljYjppJDvvIzpmo/lkI7ljYjkvJHvvJtHYWlkeuWPquS9nOWFiOafpeiQpeS4mueahOWNiOmkkOWkh+mAie+8jOS4jeS+nei1luacque7j+aguOWunueahDE1MDBBTUTlpZfppJDjgIIg5aSH6YCJ77yaTGFobWFqdW4gR2FpZHogwrcgVHVtYW55YW45LznvvIjljYjppJDlpIfpgInvvInjgIJ8CnxEMjJ8MjAyNy0wOC0wMXwxNzozMOKAkzE5OjAwfOaZmumkkHxbQ2FwcGFkb2NpYSBQaWRlIEhvdXNlICYgUmVzdGF1cmFudCDCtyBIYWtrxLEgUGHFn2EgTWV5ZGFuxLHlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUNhcHBhZG9jaWElMjBQaWRlJTIwSG91c2UlMjBSZXN0YXVyYW50JTIwSGFra2klMjBQYXNhJTIwTWV5ZGFuaSUyMDE2JTIwR29yZW1lKXzCpTQ14oCTOTB86Iiq54+t6L2s5py65ZCO5Y+q5Zyo5qC86Zu35qKF6ZWH5ZCD5LiA6aG/566A6aSQ77yM5LiN5Li655Om572Q6IKJ5ouW5Yiw5pma552h44CCfAp8RDIzfDIwMjctMDgtMDJ8MTE6MzDigJMxMjozMCDlu7rorq585Y2I6aSQfFtDYXBwYWRvY2lhIFBpZGUgSG91c2UgJiBSZXN0YXVyYW50IMK3IEhha2vEsSBQYcWfYSBNZXlkYW7EseW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249Q2FwcGFkb2NpYSUyMFBpZGUlMjBIb3VzZSUyMFJlc3RhdXJhbnQlMjBIYWtraSUyMFBhc2ElMjBNZXlkYW5pJTIwMTYlMjBHb3JlbWUpfMKlNDXigJM5MHzpnLLlpKnljZrnianppoblm57plYflkI7lkINQaWRlL+axpO+8m1R1cmtpc2ggUmF2aW9saeaYr+S7t+S9jei+g+mrmOeahOS9k+mqjOWkh+mAie+8jOS4jeiDveeul+W5s+S7t+mkkOOAgiDlpIfpgInvvJpUdXJraXNoIFJhdmlvbGkgUmVzdGF1cmFudCDCtyBBeWTEsW5sxLEgU29rYWvlupfjgIJ8CnxEMjN8MjAyNy0wOC0wMnwxOTozMOKAkzIwOjE1IOW7uuiurnzmmZrppJB8W0NhcHBhZG9jaWEgUGlkZSBIb3VzZSAmIFJlc3RhdXJhbnQgwrcgSGFra8SxIFBhxZ9hIE1leWRhbsSx5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1DYXBwYWRvY2lhJTIwUGlkZSUyMEhvdXNlJTIwUmVzdGF1cmFudCUyMEhha2tpJTIwUGFzYSUyME1leWRhbmklMjAxNiUyMEdvcmVtZSl8wqU0NeKAkzkwfOWzoeiwt+i/lOmVh+WQjuWQg++8jOeVmeWHuua0l+iho+WPluS7tuWSjOaXqeedoe+8m+i2heaXtuWImeaJk+WMheOAgnwKfEQyNHwyMDI3LTA4LTAzfDE2OjAw4oCTMjE6MzB85pma6aSQfFtDYXBwYWRvY2lhIFBpZGUgSG91c2UgJiBSZXN0YXVyYW50IMK3IEhha2vEsSBQYcWfYSBNZXlkYW7EseW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249Q2FwcGFkb2NpYSUyMFBpZGUlMjBIb3VzZSUyMFJlc3RhdXJhbnQlMjBIYWtraSUyMFBhc2ElMjBNZXlkYW5pJTIwMTYlMjBHb3JlbWUpfMKlNDXigJM5MHznu7/nur/ov5TplYflkI7vvIzlhYjlnKgxOTozMOWJjeino+WGs+aZmumkkOW5tuWPluWMhe+8m+iLpeWbouaZmuWIsO+8jOW3suWkh+W5sueyruebtOaOpeWOu+axvei9puerme+8jOS4jeaMpOajgOelqOOAgnwKfEQyNXwyMDI3LTA4LTA0fDExOjAw4oCTMTI6MDB85Y2I6aSQfFtDYW4gQ2FuIFBpZGUgJiBZZW1layBTYWxvbnUgwrcgQXLEsWsgQ2FkZGVzaeW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249Q2FuJTIwQ2FuJTIwUGlkZSUyMFllbWVrJTIwU2Fsb251JTIwQXIlQzQlQjFrJTIwQ2FkZGVzaSUyMDQlMjBBJTIwQW50YWx5YSl8wqUzNeKAkzY1fOiAgea4r+e7k+adn+WQjuWIsEFyxLFr6KGX5YW35ZCN5bqX77yb55So6aSQ5ZCO5ZueRmxhbmV1cuS8keaBr++8jOS4jeaKiumkkOWOheW9k+WFjei0ueWNiOedoeWcuuaJgOOAgnwKfEQyNXwyMDI3LTA4LTA0fDE5OjAw4oCTMjA6MDB85pma6aSQfFtDYW4gQ2FuIFBpZGUgJiBZZW1layBTYWxvbnUgwrcgQXLEsWsgQ2FkZGVzaeW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249Q2FuJTIwQ2FuJTIwUGlkZSUyMFllbWVrJTIwU2Fsb251JTIwQXIlQzQlQjFrJTIwQ2FkZGVzaSUyMDQlMjBBJTIwQW50YWx5YSl8wqUzNeKAkzY1fOWbnuiAgeWfjuWQjueUqOmkkO+8m1BpeWF6Y8SxIEFobWV0IEFsdMSxbmRhxJ/lupflj6rkvZzmhL/mhI/pop3lpJbnp7vliqjnmoTkvZPpqozlpIfpgInjgIIg5aSH6YCJ77yaUGl5YXpjxLEgQWhtZXQgwrcgQWx0xLFuZGHEn+W6l+OAgnwKfEQyNnwyMDI3LTA4LTA1fDE5OjA14oCTMjA6MDV85pma6aSQfFtLYcWfxLFtIFJlc3RhdXJhbnQgRXYgWWVtZWtsZXJpIMK3IEjDvGvDvG1ldCBDYWRkZXNp5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1LYSVDNSU5RiVDNCVCMW0lMjBSZXN0YXVyYW50JTIwRXYlMjBZZW1la2xlcmklMjBIJUMzJUJDayVDMyVCQ21ldCUyMENhZGRlc2klMjAxMiUyMEthJUM1JTlGKXzCpTM14oCTNjV85Y+k5Ymn5Zy65aSV6Imy5ZCO5Zue6ICB6ZWH77yM55So5a625bi46I+c5bCP5Lu977ybQmnigJlMb2ttYeS9nOi+g+mrmOmihOeul+Wkh+mAieOAgiDlpIfpgInvvJpCaSdMb2ttYSBSZXN0YXVyYW50IMK3IFXEn3VyIE11bWN1IENhZGRlc2nlupfjgIJ8CnxEMjd8MjAyNy0wOC0wNnwxOToxNeKAkzIwOjE1IOW7uuiurnzmmZrppJB8W0JpJ0xva21hIFJlc3RhdXJhbnQgwrcgVcSfdXIgTXVtY3UgQ2FkZGVzaeW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QmklMjBMb2ttYSUyMFJlc3RhdXJhbnQlMjBVJUM0JTlGdXIlMjBNdW1jdSUyMENhZGRlc2klMjAyMSUyMEthJUM1JTlGKXzCpTU14oCTMTAwfOiIuei/lEthxZ/jgIHmtJfmvqHlkI7ljrtVxJ91ck11bWN1MjHnjrDlnYDvvIzkuI3ljrvml6dIw7xrw7xtZXTlupflnYDvvJvmg7PnnIHpkrHmlLlLYcWfxLFt5a625bi46I+c44CCIOWkh+mAie+8mkthxZ/EsW0gUmVzdGF1cmFudCBFdiBZZW1la2xlcmkgwrcgSMO8a8O8bWV0IENhZGRlc2nlupfjgIJ8CnxEMjh8MjAyNy0wOC0wN3wxMTowMOKAkzEyOjAwfOWNiOmkkHxbS2HFn8SxbSBSZXN0YXVyYW50IEV2IFllbWVrbGVyaSDCtyBIw7xrw7xtZXQgQ2FkZGVzaeW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249S2ElQzUlOUYlQzQlQjFtJTIwUmVzdGF1cmFudCUyMEV2JTIwWWVtZWtsZXJpJTIwSCVDMyVCQ2slQzMlQkNtZXQlMjBDYWRkZXNpJTIwMTIlMjBLYSVDNSU5Ril8wqUzNeKAkzY1fDExOjAw4oCTMTE6NDDlhYjlkIPvvIwxMjowMOWJjeWPluWMhe+8m+S4jeaKiueUnOWTgeaIluesrOS6jOWutuetieS9jeaMpOi/m+i9rOi9puS9memHj+OAgnwKfEQyOXwyMDI3LTA4LTA4fDEyOjAw4oCTMTM6MDB85Y2I6aSQfFtCdXlydWsgRXNuYWYgTG9rYW50YXPEsSDCtyBTaXJrZWNpIEhvY2EgUGHFn2HlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUJ1eXJ1ayUyMEVzbmFmJTIwTG9rYW50YXMlQzQlQjElMjBIb2NhJTIwUGElQzUlOUZhJTIwU29rYWslMjAxMiUyMFNpcmtlY2klMjBJc3RhbmJ1bCl8wqUzMOKAkzYwfOWFiOWIsENoZWVyc+WvhOWMhe+8jOaMieS9k+WKm+i1tEhvY2FQYcWfYTEy5bqX77yM5q2l6KGM5LiO5aCC6aOf5YWx55SoMTI6MDDigJMxMzowMO+8m+WknOW3tOeWsuWKs+aXtuaJk+WMheWbnuWuv+OAgnwKfEQyOXwyMDI3LTA4LTA4fDE5OjAw4oCTMjA6MDB85pma6aSQfFtCdXlydWsgRXNuYWYgTG9rYW50YXPEsSDCtyBTaXJrZWNpIEhvY2EgUGHFn2HlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUJ1eXJ1ayUyMEVzbmFmJTIwTG9rYW50YXMlQzQlQjElMjBIb2NhJTIwUGElQzUlOUZhJTIwU29rYWslMjAxMiUyMFNpcmtlY2klMjBJc3RhbmJ1bCl8wqUzMOKAkzYwfOS7jua7qOawtOWbnuiAgeWfjumAlOS4reWcqFNpcmtlY2nlkIPvvIzlkIPlrozlm57lrr/vvIzkuI3pop3lpJbot5HkuprmtLLlsrjjgIJ8CnxEMzB8MjAyNy0wOC0wOXwxMjo0NeKAkzEzOjMwIOW7uuiurnzljYjppJB8W0J1eXJ1ayBFc25hZiBMb2thbnRhc8SxIMK3IFNpcmtlY2kgSG9jYSBQYcWfYeW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QnV5cnVrJTIwRXNuYWYlMjBMb2thbnRhcyVDNCVCMSUyMEhvY2ElMjBQYSVDNSU5RmElMjBTb2thayUyMDEyJTIwU2lya2VjaSUyMElzdGFuYnVsKXzCpTMw4oCTNjB85omY5a6r5LiK5Y2I5Y+C6KeC5ZCO5Y2I6aSQ44CCU3VsdGFuYWhtZXTihpJIb2NhUGHFn2HpnIDlj6borqHmraXooYzvvJsxMzozMOS7jeacquWQg+WujOWwsee8qeefreS4i+WNiOWco+e0ouiPsuS6muWkluingu+8jOS4jeaMpOWWneawtOOAgnwKfEQzMHwyMDI3LTA4LTA5fDE5OjAw4oCTMjA6MDAg5bu66K6ufOaZmumkkHxbQnV5cnVrIEVzbmFmIExva2FudGFzxLEgwrcgU2lya2VjaSBIb2NhIFBhxZ9h5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1CdXlydWslMjBFc25hZiUyMExva2FudGFzJUM0JUIxJTIwSG9jYSUyMFBhJUM1JTlGYSUyMFNva2FrJTIwMTIlMjBTaXJrZWNpJTIwSXN0YW5idWwpfMKlMzDigJM2MHxFbWluw7Zuw7zmmZrpnJ7lkI7nu49TaXJrZWNp5Zue6ICB5Z+O55So6aSQ77yb6aG65L6/6YKu5bGA5LuF5Zyo5p+c5Y+w5bey56Gu6K6k6JCl5Lia5pe25omn6KGM44CCfAp8RDMxfDIwMjctMDgtMTB8MTI6MTXigJMxMzozMCDlu7rorq585Y2I6aSQfFtUYXJpaGkgS2FyYWRlbml6IETDtm5lciDCtyBCZcWfaWt0YcWfIEvDtnlpw6dpNuW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249VGFyaWhpJTIwS2FyYWRlbml6JTIwRG9uZXIlMjBBc2ltJTIwVXN0YSUyMEtveWljaSUyMENhZGRlc2klMjA2JTIwQmVzaWt0YXMlMjBJc3RhbmJ1bCl8wqU2MOKAkzEwMHzlpJrlsJTnjpvlt7TotavliIfnu5PmnZ/lkI7nlZnlnKhCZcWfaWt0YcWf55qES8O2eWnDp2k25bqX5Y2I6aSQ77yM5LiN6L+U5ZueU2lya2VjaeWQg+WGjeaKmOi/lO+8m+WNiOmXtOWPr+iDveaOkumYn++8jOWPquS5sOWwj+S7veOAgnwKfEQzMXwyMDI3LTA4LTEwfDE4OjMw4oCTMTk6MzAg5bu66K6ufOaZmumkkHxbSGF5dm9yZSDCtyBCZXlvxJ9sdSBUdXJuYWPEsWJhxZ/EseW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249SGF5dm9yZSUyMFR1cm5hYyVDNCVCMWJhJUM1JTlGJUM0JUIxJTIwU29rYWslMjA0JTIwQmV5byVDNCU5Rmx1JTIwSXN0YW5idWwpfMKlNDXigJM4NXzni6znq4vlpKfooZfpgJvlrozliLBUdXJuYWPEsWJhxZ/EsTTlupfvvIzlho3lm57ogIHln47vvJvpl67muIXmjInnm5gv5oyJ5Lu95pS26LS55ZKM6YWN6I+c44CCfAp8RDMyfDIwMjctMDgtMTF8MTE6NDXigJMxMzowMCDlu7rorq585Y2I6aSQfFtGb3JubyBCYWxhdCDCtyBGZW5lciBLaXJlw6doYW5l5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1Gb3JubyUyMEJhbGF0JTIwRmVuZXIlMjBLaXJlJUMzJUE3aGFuZSUyMFNva2FrJTIwMTMlMjBBJTIwSXN0YW5idWwpfMKlNDXigJM4NXxGZW5lci9CYWxhdOihl+WMuuWGheWwsemkkO+8jOS4jeWcqOWNiOmXtOi3qOWMuuWbnlNpcmtlY2nvvJvljYjkvJHlm57kvY/lrr/lj6bnlZnlrp7pmYXot6/nqIvjgIJ8CnxEMzJ8MjAyNy0wOC0xMXwxODoxNeKAkzE5OjMwIOW7uuiurnzmmZrppJB8W0J1eXJ1ayBFc25hZiBMb2thbnRhc8SxIMK3IFNpcmtlY2kgSG9jYSBQYcWfYeW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QnV5cnVrJTIwRXNuYWYlMjBMb2thbnRhcyVDNCVCMSUyMEhvY2ElMjBQYSVDNSU5RmElMjBTb2thayUyMDEyJTIwU2lya2VjaSUyMElzdGFuYnVsKXzCpTMw4oCTNjB86aaZ5paZ5biC5Zy657uT5p2f5ZCO5YiwSG9jYVBhxZ9hMTLlupflkIPvvIzlho3lm57ogIHln47jgIJ8CnxEMzN8MjAyNy0wOC0xMnwxMjoxNeKAkzEzOjMwIOW7uuiurnzljYjppJB8W8OHaXlhIFNvZnJhc8SxIMK3IEthZMSxa8O2eSBHw7xuZcWfbGliYWjDp2XlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPSVDMyU4N2l5YSUyMFNvZnJhcyVDNCVCMSUyMEclQzMlQkNuZSVDNSU5RmxpYmFoJUMzJUE3ZSUyMFNva2FrJTIwNDMlMjBLYWQlQzQlQjFrJUMzJUI2eSUyMElzdGFuYnVsKXzCpTY14oCTMTIwfOS7jk1vZGHov5Tlm55LYWTEsWvDtnnluILpm4bovrnlkIPvvJvmiorov5nmrrUxMjoxNeKAkzEzOjMw55So5L2c56e75Yqo5ZKM5Y2I6aSQ77yM5Y2I5LyR5Y+v5bu25ZCO77yM6aKE566X6auY5LqO6aOf5aCC44CCfAp8RDMzfDIwMjctMDgtMTJ8MTc6MzDigJMyMDowMHzmmZrppJB8W0thbmFhdCBMb2thbnRhc8SxIMK3IMOcc2vDvGRhciBTZWxtYW5pIFBha+aAu+W6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249S2FuYWF0JTIwTG9rYW50YXMlQzQlQjElMjBTZWxtYW5pJTIwUGFrJTIwQ2FkZGVzaSUyMDklMjAlQzMlOUNzayVDMyVCQ2RhciUyMElzdGFuYnVsKXzCpTUw4oCTOTB8S3V6Z3VuY3Vr6L+Uw5xza8O8ZGFy5Lit5b+D77yMMTc6MzDigJMxODoxNeWcqFNlbG1hbmlQYWs55YWI5ZCD77yMMTg6MTXigJMyMDowMOaMieS9k+WKm+WOu1NhbGFjYWvnnIvml6XokL3vvJvkuI3mmK9TYWxhY2Fr5rW36L655bqX77yM5LiN5oqY6L+US2FkxLFrw7Z544CCfAp8RDM0fDIwMjctMDgtMTN8MTk6MDDigJMyMDowMHzmmZrppJB8W8SGZXZhYmTFvmluaWNhIMW9ZWxqbyDCtyBLdW5kdXJkxb5pbHVrMTldKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUNldmFiZHppbmljYSUyMFplbGpvJTIwS3VuZHVyZHppbHVrJTIwMTklMjBTYXJhamV2byl8wqUzMOKAkzUwfOWFpeS9j+WQjumhuuiAgeWfjuatpeihjOWIsEt1bmR1cmTFvmlsdWsxOe+8mzE4OjE16YKj6aG/5LuF5L2c5b+F6KaB5bCP6aOf77yM5LiN5YaN6YeN5aSN54K55LiA5Lu95q2j6aSQ44CCIOWkh+mAie+8mkZlcmhhdG92acSHIFBldGljYSDCtyBCcmF2YWTFvmlsdWsyMeOAgnwKfEQzNXwyMDI3LTA4LTE0fDExOjMw4oCTMTI6MTUg5bu66K6ufOWNiOmkkHxbRmVyaGF0b3ZpxIcgUGV0aWNhIMK3IEJyYXZhZMW+aWx1azIxXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1QZXRpY2ElMjBGZXJoYXRvdmljJTIwQnJhdmFkemlsdWslMjAyMSUyMFNhcmFqZXZvKXzCpTMw4oCTNTB86ICB5Z+O5LiK5Y2I5Y+C6KeC5ZCOMTE6MzDlsLHppJDvvJvoj5zljZU3QkFN5piv5bCP5Lu95Zyo57q/6K6i6aSQ6K6w5b2V77yM5aCC6aOf55yL54mM5Lu344CCIOWkh+mAie+8msSGZXZhYmTFvmluaWNhIMW9ZWxqbyDCtyBLdW5kdXJkxb5pbHVrMTnjgIJ8CnxEMzV8MjAyNy0wOC0xNHwxOTo0NeKAkzIwOjMwfOaZmumkkHxbxIZldmFiZMW+aW5pY2Egxb1lbGpvIMK3IEt1bmR1cmTFvmlsdWsxOV0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249Q2V2YWJkemluaWNhJTIwWmVsam8lMjBLdW5kdXJkemlsdWslMjAxOSUyMFNhcmFqZXZvKXzCpTMw4oCTNTB86buE5aCh5LiL5bGx5ZCO6ICB5Z+O5bCx6aSQ77yMMjA6MzDliY3nu5PmnZ/ov5Tlrr/vvIznlZnmmI7ml6nlvoDojqvmlq/loZTlsJTnmoTnnaHnnKDjgIIg5aSH6YCJ77yaRmVyaGF0b3ZpxIcgUGV0aWNhIMK3IEJyYXZhZMW+aWx1azIx44CCfAp8RDM2fDIwMjctMDgtMTV8MTI6MTXigJMxMzozMHzljYjppJB8W1RpbWHigJNJcm1hIMK3IOiAgeahpeilv+WyuOW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249TmF0aW9uYWwlMjByZXN0YXVyYW50JTIwVGltYSUyMElybWElMjBPbmVzY3Vrb3ZhJTIwTW9zdGFyKXzCpTM14oCTNjB86ICB5qGl6KW/5bK4T25lxaHEh3Vrb3Zh5bqX77ybMTI6MTXigJMxMzowMOWGheeCueS4gOS6uuWwj+S7veeDpOiCie+8jOWIq+m7mOiupOWkmuS6uua3t+eDpOebmOOAgnwKfEQzN3wyMDI3LTA4LTE2fDE3OjAw4oCTMTg6MDB85pma6aSQfFtXYWx0ZXIgwrcgRG9yxIdvbOW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249V2FsdGVyJTIwU2FyYWpldnNraSUyMENldmFwJTIwU3RyYWhpbmppY2ElMjBCYW5hJTIwNTclMjBCZWxncmFkZSl8wqUzNeKAkzYwfOi3qOWig+WIsOi0neWfjuWFpeS9j+WQjumAiURvcsSHb2w1N+WIhuW6l++8m+aZmuWIsOWImeaJk+WMhe+8jOWPlua2iOmZhOWKoOWknOmAm+OAgnwKfEQzOHwyMDI3LTA4LTE3fDEyOjAw4oCTMTI6MzAg5bu66K6ufOWNiOmkkHxbUGl6emEgQnVja28gwrcgRnJhbmN1c2thMTjlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVBpenphJTIwQnVja28lMjBGcmFuY3Vza2ElMjAxOCUyMEJlbGdyYWRlKXzCpTE14oCTMzB85Zu95a625Y2a54mp6aaG5Ye65p2l5Y67RnJhbmN1c2thMTjvvIzkuI3miorlhbbku5bliIblupfoj5zljZXlpZfliLDmraTlupfvvJvmjpLpmJ/otoXov4cxMOWIhumSn+WPlua2iOOAgnwKfEQzOHwyMDI3LTA4LTE3fDE4OjMw4oCTMjA6MDAg5bu66K6ufOaZmumkkHxbV2FsdGVyIMK3IERvcsSHb2zlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVdhbHRlciUyMFNhcmFqZXZza2klMjBDZXZhcCUyMFN0cmFoaW5qaWNhJTIwQmFuYSUyMDU3JTIwQmVsZ3JhZGUpfMKlMzXigJM2MHzlj5bmtJfooaPliY3lkI7nlKjppJDvvIzljYrku73ng6TogonphY3pnaLljIXljbPlj6/vvJvppa7mlpnlj6borqHjgIJ8CnxEMzl8MjAyNy0wOC0xOHwxMjowMOKAkzEzOjE1IOW7uuiurnzljYjppJB8W1dhbHRlciDCtyBaZW11biBjZW50YXLlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVdhbHRlciUyMFplbXVuJTIwY2VudGFyJTIwTWFnaXN0cmFsbmklMjB0cmclMjAxOCl8wqUzNeKAkzYwfEdhcmRvxaHkuIvlnaHliLBNYWdpc3RyYWxuaSB0cmcxOO+8jOWQg+WQjuWbnuays+WyuO+8m0ZlcmRpbmFuZCBCZcW+YW5panNrYTQ25Y+q5L2c6aKd5aSW55Sc54K577yM5LiN5piv5b+F57uP5oiW5pu/5Luj5a6M5pW05q2j6aSQ44CCfAp8RDM5fDIwMjctMDgtMTh8MTg6MTXigJMxOToxNSDlu7rorq585pma6aSQfFtXYWx0ZXIgwrcgRG9yxIdvbOW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249V2FsdGVyJTIwU2FyYWpldnNraSUyMENldmFwJTIwU3RyYWhpbmppY2ElMjBCYW5hJTIwNTclMjBCZWxncmFkZSl8wqUzNeKAkzYwfOWbnui0neWfjuS4reW/g+WQjuWQg0RvcsSHb2zlupfvvIzpgb/lhY3kuIDml6XkuKTpob/ng6Togonlj6/mlLnmsaQv6JSs6I+c5oiW5Y6o5oi/566A6aSQ44CCfAp8RDQwfDIwMjctMDgtMTl8MTI6NDXigJMxNDowMCDlu7rorq585Y2I6aSQfFtQaXp6YSBCdWNrbyDCtyBGcmFuY3Vza2ExOOW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249UGl6emElMjBCdWNrbyUyMEZyYW5jdXNrYSUyMDE4JTIwQmVsZ3JhZGUpfMKlMTXigJMzMHzlj4Lop4LkuLvppoblkI7lm57kuK3lv4PmiY3ljrvmraTlupfvvJvkuI3kuLrmiqvokKjot6jljLrmnaXlm57otbbppobjgIJ8CnxENDB8MjAyNy0wOC0xOXwxNzozMOKAkzE4OjMwIOW7uuiurnzmmZrppJB8W1dhbHRlciDCtyBEb3LEh29s5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1XYWx0ZXIlMjBTYXJhamV2c2tpJTIwQ2V2YXAlMjBTdHJhaGluamljYSUyMEJhbmElMjA1NyUyMEJlbGdyYWRlKXzCpTM14oCTNjB8MTc6MzDml6nmmZrppJDvvIwxODozMOWJjeWbnuWuv+aUtuWMheaXqeedoe+8m+S4jeS+nei1luWknOWuteW6l+OAgnwKfEQ0MXwyMDI3LTA4LTIwfDE4OjMw4oCTMTk6MzB85pma6aSQfFtTdGFyIEZpc2ggUmVzdGF1cmFudCDCtyBTaGVyYXRvbiBTdHJlZXTkuLvlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVN0YXIlMjBGaXNoJTIwUmVzdGF1cmFudCUyMFNoZXJhdG9uJTIwU3RyZWV0JTIwV2FoaWIlMjBTdG9yZXMlMjBIdXJnaGFkYSl8wqU0NeKAkzkwfE1hcmluYeWCjeaZmuefrei1sOWQjuWOu1NoZXJhdG9uIFN0cmVldOS4u+W6l++8m+aMiemHjemHj+a1t+mynOWFiOehruiupOWQq+eDuemlqui0ueeahOaAu+S7t+OAgnwKfEQ0MnwyMDI3LTA4LTIxfDE4OjE14oCTMTk6MTV85pma6aSQfFtTdGFyIEZpc2ggUmVzdGF1cmFudCDCtyBTaGVyYXRvbiBTdHJlZXTkuLvlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVN0YXIlMjBGaXNoJTIwUmVzdGF1cmFudCUyMFNoZXJhdG9uJTIwU3RyZWV0JTIwV2FoaWIlMjBTdG9yZXMlMjBIdXJnaGFkYSl8wqU0NeKAkzkwfOS7jkVsRGFoYXLlm55NYXJpbmHmlrnlkJHlkI7lho3lkIPvvJvkuI3or6/ljrvlj6bkuIDlkIzlkI3liIblupfjgILpooTnrpfntKflj6/pgInmi6nljYjppJDkvr/mkLrpo5/nianvvIzmmZrkuIrku4XngrnkuIDkurrkuLvpo5/jgIJ8CnxENDR8MjAyNy0wOC0yM3wxODozMOKAkzE5OjMwfOaZmumkkHxbQWwtU2FoYWJ5IExhbmUgUmVzdGF1cmFudCDCtyBOZWZlcnRpdGkgSG90ZWzlsYvpobblupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUFsJTIwU2FoYWJ5JTIwTGFuZSUyMFJlc3RhdXJhbnQlMjBOZWZlcnRpdGklMjBIb3RlbCUyMEFsJTIwU2FoYWJ5JTIwU3RyZWV0JTIwTHV4b3IpfMKlNDDigJM2NXzljaLlhYvntKLnpZ7lupnlgo3mmZrlj4Lop4LlkI7lho3kuIrphZLlupflsYvpobblkIPvvJvlsYvpobbpnLLlj7DkuI3og73ku6Pmm7/ljYjpl7TnqbrosIPkvJHmga/jgIJ8CnxENDV8MjAyNy0wOC0yNHwxODoxNeKAkzE5OjE1fOaZmumkkHxbQWwtU2FoYWJ5IExhbmUgUmVzdGF1cmFudCDCtyBOZWZlcnRpdGkgSG90ZWzlsYvpobblupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUFsJTIwU2FoYWJ5JTIwTGFuZSUyMFJlc3RhdXJhbnQlMjBOZWZlcnRpdGklMjBIb3RlbCUyMEFsJTIwU2FoYWJ5JTIwU3RyZWV0JTIwTHV4b3IpfMKlNDDigJM2NXzkuJzlsrjlgo3mmZrlho3nlKjppJDvvJvljYjpl7Tlm57kvY/lpITpmY3muKnvvIzkuI3og73miorov5nlrrbpnLLlj7DlhpnmiJDlt7LmoLjlvLrnqbrosIPjgIJ8CnxENDZ8MjAyNy0wOC0yNXwxODowMOKAkzE5OjAwfOaZmumkkHxbTWFra2EgLyBNZWtrYSBSZXN0YXVyYW50IMK3IEFidGFsIEVsIFRhaHJpcuW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249TWFra2ElMjBSZXN0YXVyYW50JTIwMTQzJTIwQWJ0YWwlMjBFbCUyMFRhaHJpciUyMEFzd2FuKXzCpTI14oCTNTB85YWl5L2PR29Jbm7lkI7otbTkuJzlsrhBYnRhbEVsVGFocmlyMTQz5YCZ6YCJ5bqX77yM5YWI55yL6JCl5Lia5ZKM5a6M5pW05Lu35Y2V77yb5peg6I+c5Y2V5oiW5LiN6JCl5Lia5bCx5Lmw5bey5qCH5Lu354Ot6aOf77yM5LiN5LuY5pyq6Zeu5Lu35aWX6aSQ44CCfAp8RDQ3fDIwMjctMDgtMjZ8MTQ6MDDigJMxNTowMOaIlui/lOWfjuWQjnzljYjppJB8W01ha2thIC8gTWVra2EgUmVzdGF1cmFudCDCtyBBYnRhbCBFbCBUYWhyaXLlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPU1ha2thJTIwUmVzdGF1cmFudCUyMDE0MyUyMEFidGFsJTIwRWwlMjBUYWhyaXIlMjBBc3dhbil8wqUyNeKAkzUwfOmYv+W4g+i+m+i0nei/lOWbnuWQjuaMieWunumZhei/lOWfjuaXtumXtOWwsemkkO+8m+W8uuepuuiwg+acquaguO+8jOiLpeS4jeWkn+WHieeIve+8jOaJk+WMheWbnuW3suehruiupOepuuiwg+S9j+WkhOOAgnwKfEQ0OHwyMDI3LTA4LTI3fDExOjMw4oCTMTI6MzB85Y2I6aSQfFtNYWtrYSAvIE1la2thIFJlc3RhdXJhbnQgwrcgQWJ0YWwgRWwgVGFocmly5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1NYWtrYSUyMFJlc3RhdXJhbnQlMjAxNDMlMjBBYnRhbCUyMEVsJTIwVGFocmlyJTIwQXN3YW4pfMKlMjXigJM1MHwxMTozMOKAkzEyOjEw57uT5p2f77yM5Y2I552h5ZKMMTc6MDDlgJnpgInlpJzlt7TkvJjlhYjvvJvkuIvljYjml6nmmZrppJDnlKjlt7LlpIfpo5/lk4HvvIzkuI3ph43lpI3ot5HluILkuK3lv4PjgIJ8CnxENDl8MjAyNy0wOC0yOHwxMjowMOKAkzEzOjAwfOWNiOmkkHxbS29zaGFyeSBBYm91IFRhcmVrIMK3IFNoYW1ibGlvbuW4guS4reW/g+aAu+W6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249S29zaGFyeSUyMEFib3UlMjBUYXJlayUyMDE2JTIwTWFhcm91ZiUyMENoYW1waWxsaW9uJTIwRG93bnRvd24lMjBDYWlybyl8wqUxNeKAkzMwfOWknOW3tOWIsOW8gOe9l+WFiOWvhOWMheihpeinie+8jOWGjeWIsDE2TWFhcm91ZuW4guS4reW/g+aAu+W6l++8m+S4jeimgei/veacque7j+aguOWunueahDY1RUdQ5Lu35qC844CCfAp8RDUwfDIwMjctMDgtMjl8MTg6MzDigJMxOTozMHzmmZrppJB8W0tvc2hhcnkgQWJvdSBUYXJlayDCtyBTaGFtYmxpb27luILkuK3lv4PmgLvlupddKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUtvc2hhcnklMjBBYm91JTIwVGFyZWslMjAxNiUyME1hYXJvdWYlMjBDaGFtcGlsbGlvbiUyMERvd250b3duJTIwQ2Fpcm8pfMKlMTXigJMzMHzlkInokKjooYznqIvlt7Lov5Tlm57luILljLrlkI7lho3ljrvvvJvkuI3miorluILkuK3lv4PlupfloZ7ov5vph5HlrZfloZTljYjppJDogIzlvoDov5Tmipjohb7jgIJ8CnxENTF8MjAyNy0wOC0zMHwxODowMOKAkzE5OjAwfOaZmumkkHxbS29zaGFyeSBBYm91IFRhcmVrIMK3IFNoYW1ibGlvbuW4guS4reW/g+aAu+W6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249S29zaGFyeSUyMEFib3UlMjBUYXJlayUyMDE2JTIwTWFhcm91ZiUyMENoYW1waWxsaW9uJTIwRG93bnRvd24lMjBDYWlybyl8wqUxNeKAkzMwfEdFTeWPguinguWujOWbnuW8gOe9l+W4guWMuuWQjueUqOmkkO+8m0dFTeWNiOmkkOeVmeWcqOmmhuWGheWFgeiuuOWMuuWfn++8jOS4jeiDveWNiOmXtOS4k+eoi+WbnuaAu+W6l+OAgnwKfEQ1MnwyMDI3LTA4LTMxfDEyOjMw4oCTMTM6MzB85Y2I6aSQfFtLb3NoYXJ5IEFib3UgVGFyZWsgwrcgU2hhbWJsaW9u5biC5Lit5b+D5oC75bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1Lb3NoYXJ5JTIwQWJvdSUyMFRhcmVrJTIwMTYlMjBNYWFyb3VmJTIwQ2hhbXBpbGxpb24lMjBEb3dudG93biUyMENhaXJvKXzCpTE14oCTMzB86JCo5Y2h5ouJL05NRUPnmb3lpKnliIbmlK/lt7Llm57luILkuK3lv4PlkI7miY3ljrvvvIzoi6Xov5/ov5TnlKjpmo/ouqvnroDppJDvvIzkvJjlhYjnprvln4PmiZPljIXkuI5TUFjkuqTpgJrjgIJ8CnxENTN8MjAyNy0wOS0wMXwxODozMOKAkzE5OjMwfOaZmumkkHxbQXJvb3MgRGFtYXNjdXMgwrcgQWwgTXVyYXFxYWJhdCAvIERlaXJh5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1Bcm9vcyUyMERhbWFzY3VzJTIwR3JlZW4lMjBQYWxhY2UlMjBIb3RlbCUyMEFsJTIwTXVyYXFxYWJhdCUyMERlaXJhJTIwRHViYWkpfMKlMzXigJM3MHzlgo3mmZrov6rmi5zmub7nn63otbDlkI7vvIzlj6rmnInlrp7ml7bkuqTpgJrlhYHorrgxOTozMOWJjee7k+adn+aJjeWOu0RlaXJh77ybQWxKYWRkYWbphZLlupflvoDov5Tlj6borqHot6/nqIvvvIzmmZrliLDlhYjnlKjlt7LlpIfnroDppJDjgIIg5aSH6YCJ77yaQWwgTWFsbGFoIERoaXlhZmFoIMK3IFNhdHdhIC8gQWwgSHVkYWliYeW6l+OAgnwKfEQ1NHwyMDI3LTA5LTAyfDEyOjE14oCTMTM6MTXlu7rorq585Y2I6aSQfFtNdXNldW0gQ2Fmw6kgwrcgTG91dnJlIEFidSBEaGFiaemmhuWGheW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249TXVzZXVtJTIwQ2FmZSUyMExvdXZyZSUyMEFidSUyMERoYWJpJTIwU2FhZGl5YXQlMjBJc2xhbmQpfMKlOTDigJMxNDB85oyJ5Y6fMTI6MTXlt7LliLDljaLmta7lrqvnmoTliqjnur/lnKjppoblhoXlkIPjgILnnIHpkrHlpIfpgInpobvmlLnmiJAxMTozMOKAkzEyOjAw5Zyo5riF55yf5a+6U291cem6puW9k+WKs+WQg+OAgTEyOjAw4oCTMTM6MDDnp7vliqjjgIExMzoxNeajgOelqO+8m+S4jeiDveS7juWNoua1ruWuq+aKmOi/lOa4heecn+WvuuWQg+mlreOAgiDlpIfpgInvvJpNY0RvbmFsZCdzIC8gTWNDYWbDqSDCtyBTb3VxIEFsIEphbWnmuIXnnJ/lr7rmuLjlrqLkuK3lv4PlupfjgIJ8CnxENTV8MjAyNy0wOS0wM3wxMjoxNeKAkzEzOjE1fOWNiOmkkHxbQUxCQUlLIMK3IER1YmFpIE1hbGwgU2Vjb25kIEZsb29y5bqXXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1BTEJBSUslMjBEdWJhaSUyME1hbGwlMjBTZWNvbmQlMjBGbG9vciUyMEZvb2QlMjBDb3VydCUyMFA3JTIwQ2luZW1hJTIwUGFya2luZyl8wqUyNeKAkzQ1fER1YmFpTWFsbOS6jOWxgue+jumjn+WMuu+8jOmdoFA3Q2luZW1hUGFya2luZ++8mzE15YiG6ZKf5YaF6Zif5LyN5peg5pyb5YiZ55So6Ieq5aSH566A6aSQ77yM5LiN5Li6572R57qi54K46bih5o6S6ZW/6Zif44CCfAp8RDU1fDIwMjctMDktMDN8MTg6MTXigJMxOToxNXzmmZrppJB8W0FMQkFJSyDCtyBEdWJhaSBNYWxsIFNlY29uZCBGbG9vcuW6l10oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QUxCQUlLJTIwRHViYWklMjBNYWxsJTIwU2Vjb25kJTIwRmxvb3IlMjBGb29kJTIwQ291cnQlMjBQNyUyMENpbmVtYSUyMFBhcmtpbmcpfMKlMjXigJM0NXzku43lnKhEdWJhaU1hbGzlhoXpgInlsI/ku73vvIwxOToxNeW/hemhu+emu+W8gOi/lEFsSmFkZGFm5Y+W5YyF77yM5LiN5Li05pe25Y67U2F0d2HjgIFEZWlyYeaJk+WNoeOAguiLpeS4jeaDs+mHjeWkjeeCuOm4oe+8jOeUqOS4i+WNiOW3sumHh+i0reeahOS+v+aQuueugOmkkOOAgnwKCiMjIOmXqOW6l+OAgeiPnOWNleS4juivgeaNrgoKIyMjIOS8iuWugSDCtyDnlobCt+ingemdouS8iueKgeWRs+mBk++8iOaWr+Wkp+ael+ihl+S4ieW3t+W6l++8iQoKLSDlnLDlnYDvvJrkvIrlroHluILmlq/lpKfmnpfooZfkuInlt7cxNOWPtwotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPSVFNyU5NiU4NiUyMCVFOCVBNyU4MSVFOSU5RCVBMiUyMCVFNCVCQyU4QSVFNyU4QSU4MSVFNSU5MSVCMyVFOSU4MSU5MyUyMCVFNiU5NiVBRiVFNSVBNCVBNyVFNiU5RSU5NyVFOCVBMSU5NyVFNCVCOCU4OSVFNSVCNyVCNzE0JUU1JThGJUI3JTIwJUU0JUJDJThBJUU1JUFFJTgxJUU1JUI4JTgyKQotIOeCueWNle+8muWFiOmXruS4gOS6uuS7veeijuiCiS/nvorohb/mipPppa3miJbkuIHkuIHngpLpnaLku7fvvIzkuozpgInkuIDvvJvku43ppb/lho3liqDkuIDkuLLng6TogokKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTM14oCTNjDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrmnKrlj5blvpcyMDI25Y2V6I+c5Lu377yb5LyK54qB5bee5pS/5bqcMjAyNOaXhea4uOmhteWIl+S6uuWdhzQ15YWD77yM5LuF5L2c5Y6G5Y+y5bqX6ZO66LWE5paZ44CC6aKE566X5Li65Y2V5Lq65LiA6aSQ6aOf54mp55WZ6YeP77yM6aWu5rC0L+mlruaWmeWPpuiuoeOAggotIOiQpeS4mu+8mjIwMjTlrpjmlrnml4XmuLjpobXmm77liJcwODowMOKAkzIyOjMw77yMMjAyN+WHuuWPkeWJjemHjeaguAotIOaguOWunui+ueeVjO+8muaUv+W6nOaXhea4uOmhtemdouehruiupOW6l+WQjeOAgeWcsOWdgOS4juiPnOWTgeaWueWQke+8m+eOsOS7t+OAgeW9k+WJjeiQpeS4muOAgTIwMjflrZjnu63lkozorr7mlr3mnKrkv53or4HjgIIKLSDlhYjlrozmiJBEM+asoeaXpeWbvemZheWuoui/kOaguOmqjO+8m+S7juWunumZheS9j+Wuvy/miqXliLDngrnlr7zoiKrvvIzljZXnqIvnu5XooYzotoXov4cxNeWIhumSn+WwseeUqOWbnuS9j+Wuv+i3r+e6v+S4iueahOeugOmkkOOAggotIOS4jeiDveWjsOensDI14oCTMzXlhYPlt7LljIXmipPppa3jgIHng6TkuLLjgIHlhrDmt4fmt4vkuInmoLfvvJvkuI3opoHpu5jorqTmnInlj6/nlKjmj5LluqfmiJblvLrlhrfmsJTjgIIKLSDmnaXmupDvvJpb5LyK54qB5bee5pS/5bqc77ya5ZCD6YGN5LyK54qB576O6aOf77yI5YW35ZCN5bqX44CB5Zyw5Z2A5LiO5Y6G5Y+y5Lq65Z2H77yJXShodHRwczovL3d3dy54anlsLmdvdi5jbi94anlsei9jMTEyODc0LzIwMjQwNy9kZTU1YzQ1YmE5N2E0YWZiYmZjNjdjMThjNjI3MmVjZi5zaHRtbCkKCiMjIyDkvIrlroEgwrcg5Y+k5YWw5Li55aeG55m+5bm05omL5bel5Yaw5reH5reL77yI5YWt5pif6KGX5bqX77yJCgotIOWcsOWdgO+8muS8iuWugeW4guWFreaYn+ihl+m7juWFieihl+Wbm+W3t++8jOS4nOato+aVmeWgguaWnOWvuemdogotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPSVFNSU4RiVBNCVFNSU4NSVCMCVFNCVCOCVCOSVFNSVBNyU4NiUyMCVFNyU5OSVCRSVFNSVCOSVCNCVFNiU4OSU4QiVFNSVCNyVBNSVFNSU4NiVCMCVFNiVCNyU4NyVFNiVCNyU4QiUyMCVFNSU4NSVBRCVFNiU5OCU5RiVFOCVBMSU5NyUyMCVFOSVCQiU4RSVFNSU4NSU4OSVFOCVBMSU5NyVFNSU5QiU5QiVFNSVCNyVCNyUyMCVFNCVCQyU4QSVFNSVBRSU4MSkKLSDngrnljZXvvJrlj6/pgInkuIDlsI/ku73ljp/lkbPmiYvlt6XlhrDmt4fmt4vvvJvlhYjnnIvmna/lnovmoIfku7cKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTE14oCTMzDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrkuI3mmK/mraPppJDpooTnrpfvvJsyMDI05LyK54qB5bee5pS/5bqc5peF5ri46aG15YiX5Lq65Z2HMjXlhYPvvIzmnKrlj5blvpcyMDI25Y2V5p2v5Lu344CC5Yaw5reH5reL5bGe6aKd5aSW6Zu26aOf77yM5LiN5LiO5q2j6aSQ6YeN5aSN6K6h5YWl44CCCi0g6JCl5Lia77yaMjAyNOaXhea4uOmhteWIlzA5OjAw4oCT5qyh5pelMDM6MDDvvJvku4Xljoblj7Llj4LogIPvvIwyMDI36YeN5qC4Ci0g5qC45a6e6L6555WM77ya5YW35ZCN5bqX5LiO5YWt5pif6KGX5L2N572u5pyJ5pS/5bqc5peF5ri45p2l5rqQ77yb5b2T5bm05Lu35qC844CB6JCl5Lia5ZKM6aOf5ZOB5L6b5bqU5b6F6YeN5qC444CCCi0g5LuF5L2P5a6/5YWt5pif6KGX5LiU5bey57uP6aG66Lev5pe25Y+v6YCJ77yb5o6S6Zif6LaF6L+HMTDliIbpkp/ot7Pov4fjgIIKLSDmiYvmjIHnlJzlk4HliY3mlLblpb3nm7jmnLrvvIzlkIPlrozmuIXmtIHmiYvvvJvkuI3mmK/ml6DphZLnsr7ppa7mlpnnmoTmm7/ku6PmiqXku7fjgIIKLSDmnaXmupDvvJpb5LyK54qB5bee5pS/5bqc5peF5ri46aG177ya5Y+k5YWw5Li55aeG5Yaw5r+A5YeM5bqXXShodHRwczovL3d3dy54anlsLmdvdi5jbi94anlsei9jMTEyODc0LzIwMjQwNy9kZTU1YzQ1YmE5N2E0YWZiYmZjNjdjMThjNjI3MmVjZi5zaHRtbCkKCiMjIyDpmL/mi4nmnKjlm74gwrcgUWFnYW5hdO+8iNCX0LXQvdC60L7QstCwIC8gR29nb2wgMznliIblupfvvIkKCi0g5Zyw5Z2A77ya0JDQu9C80LDRgtGLLCDRg9C70LjRhtCwINCT0L7Qs9C+0LvRjywgMzkKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1RYWdhbmF0JTIwJUQwJTkzJUQwJUJFJUQwJUIzJUQwJUJFJUQwJUJCJUQxJThGJTIwMzklMjAlRDAlOTAlRDAlQkIlRDAlQkMlRDAlQjAlRDElODIlRDElOEIpCi0g54K55Y2V77ya55yL5b2T5aSp5Lu3562+6YCJ5LiA5Lu95oqT6aWt5oiW54Ot6I2k6YWN5Li76aOf77yb5rGkL+eGn+iUrOiPnOaMiemihOeul+WKoO+8jOS4jem7mOiupOWFqOWllwotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMjXigJM0Ne+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muacquWPluW+lzM55Y+35bqX54us56uL546w5Lu377ybV29sdOWQjeS4ulFhZ2FuYXQg0JPQvtCz0L7Qu9GP55qE572R6aG15a6e6ZmF5pivODblj7flupfvvIzkuI3og73mioo4NuWPt+iPnOWNleS7t+i0tOWIsDM55Y+344CC6aKE566X5Li65Y2V5Lq66aOf54mp55WZ6YeP77yM6aWu5rC05ZKMS29tcG905Y+m6K6h44CCCi0g6JCl5Lia77yaUWFnYW5hdOWumOe9keW9k+WJjeWcsOWdgOihqOWIl+ivpeW6lzI0LzfvvJsyMDI36YeN5qC4Ci0g5qC45a6e6L6555WM77ya5a6Y572R56Gu6K6k5YW35ZCN5Zyw5Z2A5ZKM5b2T5YmN6JCl5Lia5Y+C6ICD77yb6I+c5Y2V546w5Lu35b6F5Yiw5bqX55yL5Lu3562+44CCCi0g6YCJ5L2c5r2Y6I+y5rSb5aSr5YWs5ZutL+e7v+W3tOaJjuWKqOe6v+WGheeahOWFt+WQjeW5s+S7t+W6l++8m0Q05LuF5a6e6ZmF5LiL6L2mL+S9j+Wuv+mhuui3r+S4lOS7jeiQpeS4muaXtueUqOOAggotIEdvb2dsZeivhOWIhuacqueLrOeri+aguOWunu+8jOS4jeWxleekuuaXp+eov+aYn+e6py/or4Tku7fph4/vvJvlhrfmsJTjgIHmj5Lluqflj6/nlKjmgKfmnKrkv53or4HjgIIKLSDkuI5Eb3N0eWsxMDjjgIFHb2dvbDg25Z2H5Li65LiN5ZCM5YiG5bqX44CCCi0g5p2l5rqQ77yaW1FhZ2FuYXTlrpjmlrnliIblupfooajvvJpHb2dvbDM55LiOMjQvN10oaHR0cHM6Ly9xYWdhbmF0MjQua3ovY29udGFjdHMp77ybW1FhZ2FuYXTlrpjmlrnphY3pgIHpobXvvJrQl9C10L3QutC+0LLQsOWvueW6lEdvZ29sMzldKGh0dHBzOi8vcWFnYW5hdDI0Lmt6L2RlbGl2ZXJ5YW5kcGF5bWVudCkKCiMjIyDpmL/mi4nmnKjlm74gwrcgUWFnYW5hdO+8iERvc3R5ayAxMDjliIblupfvvIkKCi0g5Zyw5Z2A77ya0JDQu9C80LDRgtGLLCDQv9GA0L7RgdC/0LXQutGCINCU0L7RgdGC0YvQuiwgMTA4Ci0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249UWFnYW5hdCUyMCVEMCU5NCVEMCVCRSVEMSU4MSVEMSU4MiVEMSU4QiVEMCVCQSUyMDEwOCUyMCVEMCU5MCVEMCVCQiVEMCVCQyVEMCVCMCVEMSU4MiVEMSU4QikKLSDngrnljZXvvJroh6rpgInkuIDku73ng63kuLvoj5zlkozkuLvpo5/vvJvlj6/nlKjnuqLoj5zmsaTmiJbppbrlrZDmm7/mjaLvvIzkuI3lsIbpqazogonpnaLlvZPkvZzkv53or4HkvpvlupQKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTI14oCTNDXvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrmnKzlupdXb2x05aSW6YCB6I+c5Y2V5b2T5YmN57qi6I+c5rGk5pyJMTEzMC8xMzkwIEtaVOS4jeWQjOS7veWei+OAgemluuWtkDE4OTAvMjMwMCBLWlTvvJvlpJbpgIHku7fkuI3nrYnkuo7loILpo5/vvIzphY3oj5wv6aWu5paZ5Y+m566X44CC56i/5LitMjM3MCBLWlTpqazogonpnaLlj6/lnKhBc3RhbmEgRG9zdHlr5bqX6I+c5Y2V5p+l5Yiw77yM5pyq5Zyo5q2k6Zi/5ouJ5pyo5Zu+MTA45bqX5b2T5YmN6aG16Z2i5om+5Yiw77yM5LiN6IO95Liy5bqX44CCCi0g6JCl5Lia77yaUWFnYW5hdOWumOe9keW9k+WJjeWIlzI0LzfvvJsyMDI36YeN5qC4Ci0g5qC45a6e6L6555WM77ya5a6Y572R5Zyw5Z2A5Y+K5b2T5YmN6JCl5Lia5Y+C6ICD56Gu6K6k77yM5ZWG5oi35aSW6YCB6I+c5Y2V5Lu35qC85Y+v5p+l77yb5aCC6aOf5a6e5Lu3LzIwMjfku7flvoXmoLjjgIIKLSBENeS7jktvay1Ub2Jl5LiL56uZ6L+U5biC5Yy65pe25L2c5Li65pma6aSQ5YCZ6YCJ77yM5LuN5Lul5a6e6ZmF5a+86Iiq6Lev56iL5Yik5pat77yM5LiN56ew5bCx5Zyo57yG6L2m6Zeo5Y+j44CCCi0g5LiN6IO95L2/55So57qi6I+c5rGkNjAwIEtaVOaXp+eov+S7t++8m+aPkuW6p+WSjOW8uuWGt+awlOacquaguOOAggotIOmihOeul+aYr+WNleS6uuS4gOmkkOmjn+eJqeeVmemHj++8jOmlruawtC/nibnoibLppa7mlpnlj6borqHjgIIKLSDmnaXmupDvvJpbUWFnYW5hdOWumOaWueWIhuW6l+ihqO+8mkRvc3R5azEwOF0oaHR0cHM6Ly9xYWdhbmF0MjQua3ovY29udGFjdHMp77ybW+acrOW6l+WVhuaIt1dvbHToj5zljZXvvIjlpJbpgIHku7fvvIldKGh0dHBzOi8vd29sdC5jb20vcnUva2F6L2FsbWF0eS9yZXN0YXVyYW50L3FhZ2FuYXQtZG9zdHlrKQoKIyMjIOmYv+aLieacqOWbviDCtyBOQVZBVO+8iERvc3R5ayA0OOWIhuW6l++8iQoKLSDlnLDlnYDvvJrQkNC70LzQsNGC0YssIERvc3R5ayBBdmVudWUgNDgKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1OQVZBVCUyMERvc3R5ayUyMEF2ZW51ZSUyMDQ4JTIwQWxtYXR5KQotIOeCueWNle+8muaUueWWhOmkkOWPr+eCueS4gOS7vWxhZ21hbuaIluW9k+WcsOmdoumjn++8m+iLpeimgemprOiCiemdouWFiOmXruWNleS6uuS7veOAgeW9k+aXpeS7t+WSjOaYr+WQpuWUrue9hAotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlNDXigJM3Ne+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keaMguaciUNoYWloYW5hIE1lbnXvvIhHb29nbGUgRHJpdmUgUERG77yJ77yb5pys5qyh5Y+q6K+75Yiw6ZO+5o6l77yM5pyq5Y+v6Z2g5o+Q5Y+W546w5Lu377yM5LiN54Wn5b2V5pen5Lu344CC5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS55WZ6YeP77yM6aWu5rC044CB6Iy25aO25ZKM5pyN5Yqh6LS5546w5Zy65qC444CCCi0g6JCl5Lia77ya5a6Y5pa55YiG5bqX6aG1MTA6MDDigJMwMDowMO+8mzIwMjfph43moLgKLSDmoLjlrp7ovrnnlYzvvJrlrpjnvZHnoa7orqTlnLDlnYDjgIHokKXkuJrlj4LogIPlkozoj5zljZXlhaXlj6PvvJvljZXoj5znjrDku7fjgIHlvZPliY3nqbrosIMv5o+S5bqn5ZKMR29vZ2xl6K+E5YiG5pyq5qC444CCCi0g5pS+5L2cUWFnYW5hdOWklueahOaUueWWhOmkkOWkh+mAie+8jOS4jeW8uuWItuS4pOWutumDveWQg+OAggotIEQ36LW254Gr6L2m5YmN5LiN6L+c6YCU6L+95bqX77yb6aSQ6LS56LaF6L+H5b2T6aSQ55WZ6YeP5YiZ5pS56aOf5aCC44CCCi0g5a6Y572R5pyq6K+B5piO5q+P5qGM6YO95pyJ5o+S5bqn77yM5LiN5oqK5YWF55S15L2c5Li65Y+v5L6d6LWW5a6J5o6S44CCCi0g5p2l5rqQ77yaW05BVkFU5a6Y5pa5RG9zdHlrNDjliIblupfjgIHml7bmrrXlj4roj5zljZXlhaXlj6NdKGh0dHBzOi8vZW5nLm5hdmF0Lmt6L2FsbWF0eW1lbnUp77ybW05BVkFU5a6Y5pa56IGU57O75pa55byPXShodHRwczovL2VuZy5uYXZhdC5rei9jb250YWN0cykKCiMjIyDloZTku4DlubIgwrcgQmVzaCBRb3pvbu+8iEdsaW5rYSA0MUHliIblupfvvIkKCi0g5Zyw5Z2A77ya0KLQsNGI0LrQtdC90YIsINGD0LsuINCT0LvQuNC90LrQuCwgNDHQkAotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUJlc2glMjBRb3pvbiUyMEdsaW5rYSUyMDQxQSUyMFRhc2hrZW50KQotIOeCueWNle+8muWpmuekvOaKk+mlreWNleS6uuS7ve+8m+eci+Wll+mkkOWunumZheWMheWQq+WGheWuueWQjuWGjeWGs+WumuaYr+WQpuWPpuWKoEFjaGljaHVr44CB6JuL5oiW6ams6IKg77yM6YG/5YWN6YeN5aSN5Yqg5Lu3Ci0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqUzNeKAkzU177yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5a6Y572R572R57uc54K55Y2V546w5YiX5ama56S85oqT6aWt5LiA5Lu9NTMwMDAgVVpT44CBMC435Lu9NTEwMDAgVVpT44CB5Y2V5Lq65ama56S85oqT6aWt5aWX6aSQNzAwMDAgVVpT77yI5Y+m5pyJU2V0MeS4ujc4MDAw77yJ44CC5Y+q6K+B5piO572R56uZ54K55Y2V5Lu377yM5LiN5L+d6K+B5YiG5bqX5aCC6aOf5ZCM5Lu377yb6aWu5rC0L+mlruaWmeWPpuiuoeOAggotIOiQpeS4mu+8muWumOe9keWIhuW6l+mhteacquaPkOS+m+WPr+mdoOWFt+S9k+iQpeS4muaXtuaute+8m+S4jeeFp+W9lTA5OjAw4oCTMDA6MDAKLSDmoLjlrp7ovrnnlYzvvJrlrpjnvZHnoa7orqTliIblupfjgIHoj5zljZXnsbvlnovlkoznvZHnq5nmoIfku7fvvJsyMDI36JCl5LiaL+Wggumjn+WQjOS7ty/lpZfppJDnu4bpobnlvoXph43moLjjgIIKLSBEOCAxNDozMOKAkzE1OjE15Y2I6aSQ5LyY5YWI6ICD5a+f5q2k5YiG5bqX5LiO5a6e6ZmFRFJJTUlO5YWl5L2P54K56Lev57q/77yb5LiN5Li65ouN5aSn6ZSF57uV5Yiw5YyX5L6n55S16KeG5aGU5bqX44CCCi0gRDEz5LuF5b2T6L+U5aGU5LuA5bmy5ZCO5bey56Gu6K6k5pma6Ze05LuN5pyJ6aSQ5LiU6aG66Lev5pe25aSH6YCJ77yb5oqT6aWt5LiN5L+d6K+B5pma5Yiw5LuN5pyJ44CCCi0g5ouN5pGE5Y6o5oi/6aG75YWI6Zeu5bqX5ZGY77yM5LiN5Zug5YWs5byA5piO5qGj5bCx6buY6K6k5Y+v5Lul6L+b5YWl5pON5L2c5Yy644CCCi0g5p2l5rqQ77yaW0Jlc2ggUW96b27lrpjmlrnliIblupfooajvvIhHbGlua2E0MUHjgIHnlLXop4bloZRJZnRpaG9yMeS4uuS4jeWQjOW6l++8iV0oaHR0cHM6Ly9iZXNocW96b24udXovZW4vYnJhbmNoZXMp77ybW0Jlc2ggUW96b27lrpjmlrnnvZHnu5zoj5zljZXnjrDku7ddKGh0dHBzOi8vYmVzaHFvem9uLnV6L2VuL21lbnUpCgojIyMg5biD5ZOI5ouJIMK3IE9sZCBCdWtoYXJh77yI5biD5ZOI5ouJ6ICB5Z+O5bqX77yJCgotIOWcsOWdgO+8mkJ1a2hhcmEsIFNhbWFya2FuZCBTdHJlZXQgM++8m+W9k+WJjVlhbmRleOWQjOS4gOWcsOeCueS6puagh011c3Rha2lsbGlrIFN0cmVldCAzCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249T2xkJTIwQnVraGFyYSUyMFJlc3RhdXJhbnQlMjBCdWtoYXJhJTIwU2FtYXJrYW5kJTIwU3RyZWV0JTIwMykKLSDngrnljZXvvJrkuIDkurrku73mipPppa3miJbng63msaTphY3pppXvvJvmg7PlkIPng6TkuLLlhYjpl67kuIDkuLLlhYvmlbDkuI7otbfngrnph48KLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTMw4oCTNTXvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrmnKzmrKHlrpjnvZFvbGQtYnVraGFyYS51eui/lOWbnjUwMu+8m+acquWPluW+l+eOsOS7t+iPnOWNle+8jOaXp+eovzUwMDAw4oCTNzAwMDAgVVpT5LiN5Y+v5b2TMjAyNuaguOWumuS7t+OAguS6uuawkeW4geS7heWNleS6uumjn+eJqeinhOWIkueVmemHj++8jOawtOOAgemlruaWmeWPiuacjeWKoei0ueWPpueci+OAggotIOiQpeS4mu+8muWFt+S9k+WFqOaXpeaXtuauteacquWPr+mdoOaguOWunu+8m1lhbmRleOW9k+WJjeaYvuekuuW9k+aXpTIzOjAw5YWz6Zeo77yMMjAyN+WGjeaguAotIOaguOWunui+ueeVjO+8muS4pOS7veWcsOWbvi/llYbkuJrlkI3lvZXnoa7orqTluIPlk4jmi4nmraTlupfvvJvlnLDlnYDlrZjlnKjml6cv5paw6KGX5ZCN5beu5byC77yM5a+86Iiq5oyJ5bqX5ZCN5ZKM5YW35L2T5Zyw5Zu+54K55qC46Zeo5aS044CCR29vZ2xl6K+E5YiG44CB5by65Ya35rCUL+aPkuW6p+WPiueOsOS7t+acquaguOOAggotIOeUqOS6jkQ5L0QxMOi/lOawtOaxoOeJh+WMuuaZmumkkO+8jOS4jeS4uuWQg+e9kee6ouW6l+WNleeLrOe7lei/nOOAggotIOaOkumYn+aIlumihOiuoeWHuumkkOi2hei/hzIw5YiG6ZKf5pS5QWZzb25h5YmN5YWI55yL5a6e6ZmF6Led56a75ZKM5Lu35qC877yM5LiN6buY6K6k5Lik5bqX55u46YK744CCCi0g5LiN6KaB5Liy5Yiw576O5Zu9TmV3SmVyc2V55ZCM5ZCN6aSQ5Y6F5oiW5aGU5LuA5bmyU2VyZ2VsaeeahOWQjOWQjVRlbGVncmFt6LSm5Y+344CCCi0g5p2l5rqQ77yaW09sZCBCdWtoYXJh5YW35ZCN5Zyw5Zu+5Zyw54K544CB5Zyw5Z2A5Y+K5bqX6ZO65a6Y572R6ZO+5o6l77yI5Zyw5Zu+6KGl6K+B77yJXShodHRwczovL3lhbmRleC5jb20vbWFwcy9vcmcvb2xkX2J1a2hhcmEvMjI4NzA1NTkzNTAxLynvvJtb5ZWG5oi35a6Y572R77yI5pys5qyh6K+75Y+W5aSx6LSl77yM5LiN6IO95L2c5Li65bey6K+76I+c5Y2V6K+B5o2u77yJXShodHRwczovL29sZC1idWtoYXJhLnV6LynvvJtb5biD5ZOI5ouJT2xkIEJ1a2hhcmHllYbkuJrlkI3lvZXlnLDlnYDkuqTlj4nmoLjlr7ldKGh0dHBzOi8vd3d3LmdvbGRlbnBhZ2VzLnV6L2VuL2NvbXBhbnkvP0lkPTEwMDM4NykKCiMjIyDluIPlk4jmi4kgwrcgQWZzb25hIEJ1a2hhcmHvvIhNdXJvZCBBdmxpeW8gNOWIhuW6l++8iQoKLSDlnLDlnYDvvJrQkdGD0YXQsNGA0LAsINGD0LvQuNGG0LAg0JzRg9GA0L7QtCDQkNCy0LvQuNGRLCA077yI5Lul6ZuG5Zui5a6Y572R6Zeo5bqX5Zyw5Z2A5Li65YeG77yJCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QWZzb25hJTIwQnVraGFyYSUyME11cm9kJTIwQXZsaXlvJTIwNCkKLSDngrnljZXvvJrlhYjnnIvoj5zljZXpgInkuIDku73mipPppa3jgIHng63msaTmiJbng6TogonkuLvpo5/nu4TlkIjvvJvkvZzkuLrmlLnlloTppJDvvIzliKvpu5jorqTmmK/kvr/lrpzpo5/loIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTUw4oCTODXvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJpBQk5NQumbhuWbouWumOe9keehruiupOW4g+WTiOaLieWIhuW6l++8jOS9huacquaPkOS+m+WPr+ivu+eOsOS7t++8m+S4jeS9v+eUqDMwLDAwMCBVWlPppbrlrZDmsaTnrYnmnKrnu4/moLjlrprlgLzjgILljZXkurrkuIDppJDpo5/niannlZnph4/vvIzppa7msLTjgIHnibnoibLppa7lk4HlkozmnI3liqHotLnlj6borqHjgIIKLSDokKXkuJrvvJrmnKrlj5blvpflrpjmlrnliIblupfokKXkuJrml7bmrrXvvIwyMDI36YeN5qC4Ci0g5qC45a6e6L6555WM77ya6ZuG5Zui5a6Y572R56Gu6K6k5YW35ZCN5YiG5bqX77yb5Lu35qC844CB5b2T5YmN5YWl5Y+j44CB6JCl5Lia44CB5by65Ya35rCU5LiO5o+S5bqn5pyq6ZSB5a6a44CCCi0g5a6Y572R56Gu5pyJ5biD5ZOI5ouJ5YiG5bqX77yM5LiN5bqU6K+v6K+0QWZzb25h5Y+q5pyJ5aGU5LuA5bmy44CCCi0g5Zyw55CGL+ebruW9leaciUJha2hvdWRkaW4gTmFxc2hiYW5kMjDnrYnlnLDlnYDlt67lvILvvJvlh7rlj5HliY3mjInlrpjmlrnnlLXor50rOTk4OTM1NTUxMDc15qC45YW35L2T5YWl5Y+j77yM5LiN5Yet6L+e6ZSB5oC75ZCN56ew5a+86Iiq44CCCi0g5Lit5Y2I5Y+q5Zyo56Gu6K6k5a6k5YaF56m66LCD5q2j5bi45ZCO6YCJ5L2c6YG/5pqR5q2j6aSQ77yb5o+S5bqn5Y+v55So5oCn5pyq5qC444CCCi0g5Y+v5LiOT2xkIEJ1a2hhcmHkuozpgInkuIDvvJvkuI3miorCpTUw4oCTODXlvZPmr4/ml6Xlm7rlrprkuKTppJDmiJDmnKzjgIIKLSDmnaXmupDvvJpbQUJOTULpm4blm6LlrpjnvZHvvJpBZnNvbmEgQnVraGFyYeWcsOWdgOWSjOeUteivnV0oaHR0cHM6Ly93d3cuYWJubWJncm91cC5jb20vcmVzdGF1cmFudHMtYm91bGFuZ2VyaWUp77ybW0FCTk1C5a6Y5pa55paw6Ze777ya5biD5ZOI5ouJ5paw5YiG5bqXXShodHRwczovL3d3dy5hYm5tYmdyb3VwLmNvbS9uZXdzKQoKIyMjIOaSkumprOWwlOe9lSDCtyBTaG9raHJ1a2ggTnVy77yIU28nemFuZ2Fyb27ooZflupfvvIkKCi0g5Zyw5Z2A77yaU2FtYXJrYW5kLCBTbyd6YW5nYXJvbiBrbydjaGFzaSA0MO+8iFlhbmRleO+8ie+8m0dvbGRlblBhZ2Vz5ZCM55S16K+d5YiXU3V6YW5nYXJhbnNrYXlhNu+8jOmXqOeJjOacieWGsueqgQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVNob2tocnVraCUyME51ciUyMFNvemFuZ2Fyb24lMjBTYW1hcmthbmQlMjAlMkI5OTg5MzczMTY2NjYpCi0g54K55Y2V77ya576K6IKJ5Liy5YWI54K55LiA5Liy77yM5YaN6YWN5rGk5oiW5LiA5Lu9bGFnbWFu77yb55So5Y+J5Yu66L+b6aSQ77yM55WZ5oSP5Liy5LiK5rK56ISCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqUzMOKAkzU177yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5pyq5Y+W5b6X5Y+v5qC45a6e57uP6JCl6ICF546w5Lu36I+c5Y2V77yb5Zyw5Zu+5Z2H5Lu35LiN5piv6I+c5Y2V5oql5Lu377yM5LiN54Wn5b2VNDUwMDDigJM2NTAwMCBVWlPlt7LmoLjlrp7lpZfppJDjgILpooTnrpflj6rlkKvkuIDkurrpo5/nianvvIzppa7msLQv6aWu5paZ5Y+m6K6h44CCCi0g6JCl5Lia77ya5Zyw5Zu+5LiO5ZWG5Lia5ZCN5b2V5pe25q615LiN5ZCM77yM5LiN5YaZ5q2777yb5YWI55S16K+dL+WcsOWbvuaguOWunuW9k+aZmuiQpeS4mgotIOaguOWunui+ueeVjO+8muS4pOadpea6kOacieWQjOW6l+WQjeWQjOeUteivne+8jOS9humXqOeJjOWGsueqge+8m+WxnuS6juWFt+WQjeWAmemAie+8jOS4jeaYr+WcsOWdgOWujOWFqOehruiupOeahOS4u+aOqOiNkOOAgkdvb2dsZeivhOWIhuS4jueOsOS7t+acquaguOOAggotIOmbt+WQieaWr+WdpuWRqOi+ueWAmemAie+8jOaMieWHhuehruW6l+WQjSvnlLXor53moLjpl6jlpLTvvJvkuI3og73miorpl6jniYw0MOaIljblhpnmiJDlrozlhajml6DlhrLnqoHnmoTlt7Lnoa7orqTkuovlrp7jgIIKLSDmsqHmnInlj6/pnaDor4Hmja7opoHmsYLpgb/lvIDlkajkupTvvJvkuI3opoHmiornpLzmi5zml6XnrYnlkIzppJDljoXpl63lupfjgIIKLSDoi6XlnLDlnYDku43ml6Dms5Xnoa7orqTmiJblr7zoiKrnu5XooYzotoXov4cxNeWIhumSn++8jOmAiUthcmltYmVr5LuF5Zyo5pys5bCx5Y675paw5Z+O5pe277yb5ZCm5YiZ55WZ5Zyo546w5pyJ6Lev57q/5Lmw5piO56CB54Ot6aOf44CCCi0g5p2l5rqQ77yaW1Nob2tocnVraCBOdXLlhbflkI3lnLDlm77lnLDngrnjgIFTbyd6YW5nYXJvbjQw5Y+K55S16K+dXShodHRwczovL3lhbmRleC5jb20vbWFwcy9vcmcvc2hva2hydWtoX251ci8yOTkyODYxMjMzNS8p77ybW0dvbGRlblBhZ2Vz5ZCM5ZCN5ZCM55S16K+d77yaU3V6YW5nYXJhbnNrYXlhNu+8iOWcsOWdgOW3ruW8guihpeivge+8iV0oaHR0cHM6Ly93d3cuZ29sZGVucGFnZXMudXovZW4vY29tcGFueS8/SWQ9MTE3MzI1KQoKIyMjIOaSkumprOWwlOe9lSDCtyBLYXJpbWJla++8iEdhZ2FyaW4gMTk05bqX77yJCgotIOWcsOWdgO+8mlNhbWFya2FuZCwgR2FnYXJpbiBTdHJlZXQgMTk0Ci0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249UmVzdGF1cmFudCUyMEthcmltYmVrJTIwR2FnYXJpbiUyMDE5NCUyMFNhbWFya2FuZCkKLSDngrnljZXvvJrnnItRUuiPnOWNlemAieS4gOS7veW9k+WcsOmdoumjn+aIlueDpOiCiemFjeS4u+mjn++8m+WFiOmXruacjeWKoei0ueWPiuS4gOS6uuS7vQotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlNDDigJM3MO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8mue7j+iQpeiAhVFS6I+c5Y2V6aG15pCc57Si57Si5byV56Gu6K6kS2FyaW1iZWsvR2FnYXJpbjE5NO+8jOS9humhtemdouS4uuWKqOaAgeWGheWuueacquivu+WIsOS7t+agvO+8m+WPque7memjn+eJqemihOeul+eVmemHj++8jOS4jeaKiuaXp+eov+S7t+agvOWll+eUqOacrOW6l+OAggotIOiQpeS4mu+8muacquWPluW+l+e7j+iQpeiAheWPr+mdoOaXtuaute+8jDIwMjfph43moLgKLSDmoLjlrp7ovrnnlYzvvJrlhbflkI1RUuiPnOWNleWFpeWPo+S4juWcsOWbvuWdh+aMh+WQkUdhZ2FyaW4xOTTvvJvoj5zljZXlrp7ku7cv6JCl5Lia5b6F5qC477yM5Zyw55CG5LiK5LiN5L2c5Li66ICB5Z+O6buY6K6k5Li76aSQ44CCCi0g5Zyo5paw5Z+OR2FnYXJpbuihl++8jOS4jeaYr+mbt+WQieaWr+Wdpi/mr5Tmr5Tlk4jliqrlp4bpl6jlj6PvvJvku4XlnKjlrp7pmYXkvY/lrr/miJblip7kuovot6/nur/nu4/ov4fml7bkvZzkuLrlpIfpgInjgIIKLSDkuI3kuLrkuoblkIPov5nlrrblop7liqDkuJPnqIvlvoDov5TovabotLnvvJtEMTPotbbpk4Hot6/kuI3mjpLmraTlupfjgIIKLSDnqbrosIPjgIHmj5Lluqflj4oyMDI35aCC6aOf546w5Lu35pyq5L+d6K+B44CCCi0g5p2l5rqQ77yaW0thcmltYmVr57uP6JCl6ICFUVLoj5zljZXlhaXlj6PvvIjmnInlhbflkI3lnLDlnYDvvIzku7fmoLzmnKror7vlh7rvvIldKGh0dHBzOi8vb2RkbWVudS5jb20vcnUvcC9iZWsvY2w2dnh3cTZhNjA1NzU4N3hudmt2ZmJpc3I5Ke+8m1vlhbflkI3lnLDlm77lnLDlnYDkuqTlj4nmoLjlr7ldKGh0dHBzOi8veWFuZGV4LmNvbS9tYXBzL29yZy9rYXJpbWJlay8yMzQwNDk1ODU2NTgvKQoKIyMjIOaSkumprOWwlOe9lSDCtyBFbWlyaGFuIFJlc3RhdXJhbnTvvIhNYWhtdWRqYW5vdiAxLzE45bqX77yJCgotIOWcsOWdgO+8mjEvMTggQWtocmFya3VsYSBNYWhtdWRqYW5vdiBTdHJlZXQsIFNhbWFya2FuZO+8iOWcsOWbvuaLvOWGmUFocm9ycXVsIE1haG11ZGpvbm92IGtvyrtjaGFzae+8iQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUVtaXJoYW4lMjBSZXN0YXVyYW50JTIwQWhyb3JxdWwlMjBNYWhtdWRqb25vdiUyMDElMkYxOCUyMFNhbWFya2FuZCkKLSDngrnljZXvvJrlhYjnnIvlvZPml6Xoj5zljZXvvIzpgInmi6nkuIDku73lvZPlnLDng63kuLvpo5/vvIjmipPppa0vbGFnbWFu5aaC5pyJ5L6b5bqU77yJ5oiW54Ot5rGk6YWN6aaV77yb5LiN5Li65pmv6KeC5L2N6aKd5aSW54K56YWS5rC044CB5aSa6YGT6I+c5oiW55Sc5ZOBCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqU1MOKAkzg177yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5pyq5Y+W5b6X5Y+v54us56uL6K+75Y+W55qE57uP6JCl6ICF546w5Lu36I+c5Y2V44CCWWFuZGV45bmz5Z2H6LSm5Y2VODAwMDDigJMxNDAwMDAgVVpT5Y+q5piv5bmz5Y+w5Z2H5Lu377yM5LiN5piv5Y2V6I+c5oql5Lu377yb5Lq65rCR5biBNTDigJM4NeS7heS4uuS4gOasoeWNleS6uumjn+eJqeeVmemHj++8jOmlruawtC/nibnoibLppa7mlpnjgIHmnI3liqHotLnlj6bmoLjjgILoi6XljZXkurrmraPppJDotoXnlZnph4/vvIzmlLnlt7LmoLjlhaXlj6PnmoRTaG9raHJ1a2jmiJbotoXluILkvr/ppJDvvIzkuI3mib/or7rmraTlupfmmK/kvY7ku7fpo5/loILjgIIKLSDokKXkuJrvvJoyMDI25pKS6ams5bCU572V5Zu96ZmF6K665Z2b5a6Y5pa55oyH5Y2X5YiX5q+P5pelMTE6MDDigJMyMzowMO+8mzIwMjflh7rlj5HliY3ph43moLgKLSDmoLjlrp7ovrnnlYzvvJoyMDI25a6Y5pa55rS75Yqo5oyH5Y2X5LiO5Zyw5Zu+5Z2H5oyH5ZCRTWFobXVkamFub3YxLzE45ZKM5ZCM55S16K+d77yM5Zyw5Z2A5q+UU2hva2hydWto6Zeo54mM5Yay56qB5pu05piO56Gu77yb6I+c5Y2V5a6e5Lu35LiO6K6+5pa95LiN5L2c5L+d6K+B44CCCi0g6YCC5ZCIRDExL0QxMumbt+WQieaWr+WdpuWKqOe6v+WNiOaZmumkkO+8jOWunumZheatpeihjOS7juWPguinguWHuuWPo+WvvOiIqu+8jOS4jeaKijIwMOexs+ebtOe6v+i3neemu+W9k+atpeihjOiAl+aXtuOAggotIOacieaZr+ingumkkOWOheWxnuaAp++8jOS4jeaYr+W3suaguOW7ieS7t+Wbveawkemjn+Wggu+8m+WFiOeci+WQq+eojuOAgeacjeWKoei0ueWQjueahOS4gOS6uuaAu+S7t+OAggotIOWPqui/m+acieepuuS9jeeahOaZrumAmuW6p+S9je+8m+aOkumYnyvlh7rppJDpooTorqHotoXov4cyMOWIhumSn+WwseaUvuW8g++8jOS4jeS4uuWxi+mhtuaZr+inguS9jeaOkumVv+mYn+OAggotIOWumOaWueaMh+WNl+S4juWcsOWbvuWQjOWIl+eUteivnSs5OTg4ODg5MTYwMDDvvJtHb29nbGXmmJ/nuqcv6K+E5Lu35pWw44CB5Ya35rCU5by65bqm5LiO5Y+v55So5o+S5bqn5pyq54us56uL5qC46aqM44CCCi0g5p2l5rqQ77yaWzIwMjbmkpLpqazlsJTnvZXlm73pmYXorrrlnZvlrpjmlrnmjIfljZfvvJpFbWlyaGFu5Zyw5Z2A44CB55S16K+d44CB6JCl5Lia5Y+C6ICDXShodHRwczovL3NhbWFya2FuZC1ndWlkZS5kZmNhLnV6LynvvJtbRW1pcmhhbuWFt+WQjeWcsOWbvueCue+8muebuOWQjDEvMTjpl6jniYzlkoznlLXor53ooaXor4FdKGh0dHBzOi8veWFuZGV4LmNvbS9tYXBzL29yZy9lbWlyaGFuLzIyNjA4NzEzNzc4NS8p77ybW+e7j+iQpeiAhUluc3RhZ3JhbeWFpeWPo++8iOacrOasoemhtemdouacquiDveivu+WPlu+8jOS4jeWGkuWFheiPnOWNleivgeaNru+8iV0oaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9lbWlyaGFuLnJlc3RhdXJhbnQvKQoKIyMjIOW3tOW6kyDCtyBGaXJ1esmZIFJlc3RhdXJhbnQgwrcg5Za35rOJ5bm/5Zy65bqXCgotIOWcsOWdgO+8mlTJmXJsYW4gxo9saXlhcmLJmXlvdiAxNCwgQmFrxLEgMTAwNQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUZpcnV6ZSUyMFJlc3RhdXJhbnQlMjBUYXJsYW4lMjBBbGl5YXJiZXlvdiUyMDE0JTIwQmFrdSkKLSDngrnljZXvvJrkuIDkurrlhYjngrnokaHokITlj7bljbdEb2xtYeaIlkTDvMWfYsmZcsmZ5rGk77yL5LiA5Lu95Li76aOf77yb5Lik56eN6YeN6IKJ5Li76I+c5LiN5b+F5Y+g5Yqg44CC5peg6YWS57K+6aWu5paZ5Y+m54K555O26KOF5rC0L+iMtuOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlNTDigJM4MO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keehruiupOiPnOWNleS7pUFaTuiuoeS7t++8jOiPnOWNleaYr+WbvueJh++8m+acrOasoeacquivu+WIsOWPr+W8leeUqOeahOWNleWTgemHkemineOAguWOn+eovzlBWk7okaHokITlj7bljbfjgIExMEFaTuiCieS4suS4jeiDveS9nOS4uuW3suaguOS7t+OAguS6uuawkeW4geWMuumXtOS4uuWNleS6uuS4gOmkkOmjn+eJqeeVmemHj++8jOmlruaWmeWPpuiuoeOAggotIOiQpeS4mu+8muWumOe9keeOsOekuuavj+aXpTEyOjAw4oCTMDE6MDDvvJsyMDI35YaN5qC477yM5LiN5L2c5pep6aSQ5bqX44CCCi0g5qC45a6e6L6555WM77yaMjAyNi0xMS0wNeaguOWIsOWumOe9keWcsOWdgOWPiuiQpeS4mu+8m+acqueLrOeri+ivu+WPlkdvb2dsZeWunuaXtuivhOS7t+aVsOmHj++8jDIwMjfoj5zljZXlkozokKXkuJrpobvph43moLjjgIIKLSDku47ogIHln44v5rW35ruo5Yiw5Za35rOJ5bm/5Zy65ZCO5YaN5ZCD77ybRDE16Iul5LiA5pel5Zui5pma6L+U5L6/5Y+W5raI77yM5LiN57uV6Lev6L+95bqX44CCCi0g5a6Y572R5Y+v6K+B5YWN6LS5V2ktRmnvvIzkuI3og73nlLHmraTmjqjmlq3mj5Lluqflj6/nlKjjgIHlvLrlhrfmsJTmiJbpgb/lhY3lrrDlrqLkv53or4HjgIIKLSDnrYnkvY3otoXov4cxNeKAkzIw5YiG6ZKf5pS5RG9sbWHvvJvlhYjmoLjmnI3liqHotLnjgIHpnaLljIXlj4rmoYzpnaLlsI/oj5zjgIIKLSDmnaXmupDvvJpbRmlydXrJmeWumOe9ke+8muWIhuW6l+WcsOWdgOOAgeiQpeS4muS4juiPnOWNleWFpeWPo10oaHR0cHM6Ly9maXJ1emVyZXN0b3Jhbi5hei9lbi8pCgojIyMg5be05bqTIMK3IERvbG1hIFJlc3RhdXJhbnQgwrcg5Za35rOJ5bm/5Zy65bqXCgotIOWcsOWdgO+8mjggTS4gUmFzdWx6YWRlIFN0LiwgU2FiYWlsIERpc3RyaWN0LCBCYWt1Ci0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249RG9sbWElMjBSZXN0YXVyYW50JTIwOCUyME1hbW1hZGFtaW4lMjBSYXN1bHphZGUlMjBCYWt1KQotIOeCueWNle+8mkTDvMWfYsmZcsmZ5bCP5rC06aW65rGk5oiW6JGh6JCE5Y+25Y2377yL5Y2V5Lq65Li76aOf77yM6I+c6YeP6Laz5YaN5Yqg6Z2i5YyF77yb6Iy2L+aiqOaxveawtOWPpuiuoeOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlNTDigJM4Ne+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keiPnOWNleaYjuehrui0puWNleWPpuWKoDEwJeacjeWKoei0ue+8m+WKqOaAgeiPnOWTgeacqui/lOWbnuWPr+aguOmHkemine+8jOS4jeiDveayv+eUqOWOn+eovzI4LzM45YWD5b2T5a6e5Lu344CC5Yy66Ze05piv5Y2V5Lq66aOf54mp6KeE5YiS5bm255WZ5pyN5Yqh6LS577yM6aWu5ZOB5Y+m6K6h44CCCi0g6JCl5Lia77ya5a6Y572R5pyq5Y+W5b6X5Y+v6Z2g6JCl5Lia5pe25q6177ybRDE25bu66K6uMTI6NDDigJMxMzozMOWwsemkkO+8jOWHuumXqOWJjeaguOW8gOmXqOOAggotIOaguOWunui+ueeVjO+8muWcsOWdgOS4jjEwJeacjeWKoei0ueacieesrOS4gOaWueadpea6kO+8jOiPnOWNleWNleWTgeWSjOiQpeS4muacquaguO+8mzIwMjfph43moLjjgIIKLSBEMTbluIzlsJTkuIfmspnlrqvnu5PmnZ/lkI7lvoDllrfms4nlub/lnLrlho3lm57kvY/lrr/vvIzmjInlrp7pmYXpnZLml4XkvY3nva7moLjmraXooYzvvJvkuI3mmK/lrqvpl6jlj6PlupfjgIIKLSAxMzozMOWJjeemu+W6l++8jOS/neeVmeWOn+WNiOS8keS4juWknOi9puaguOmqjO+8m+etieS9jei2hei/hzE15YiG6ZKf5o2iRmlydXrJmeaIlueOsOaIkOeugOmkkOOAggotIOepuuiwg+OAgeWPr+WAn+aPkuW6p+OAgUdvb2dsZeivhOWIhuaVsOmHj+acquWunuivgeOAggotIOadpea6kO+8mltEb2xtYeWumOe9ke+8muWWt+azieW5v+Wcujjlj7flnLDlnYBdKGh0dHBzOi8vZG9sbWFyZXN0YXVyYW50LmF6L2VuLynvvJtbRG9sbWHlrpjmlrnoj5zljZXvvJrlj6bliqAxMCXmnI3liqHotLldKGh0dHBzOi8vZG9sbWFyZXN0YXVyYW50LmF6L2VuL21lbnUvKQoKIyMjIOesrOavlOWIqeaWryDCtyBNYXNwaW5kemVsbyDCtyBHb3JnYXNhbGnogIHln47lupcKCi0g5Zyw5Z2A77yaNyBWYWtodGFuZyBHb3JnYXNhbGkgU3RyZWV0LCBUYmlsaXNpCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249TWFzcGluZHplbG8lMjA3JTIwR29yZ2FzYWxpJTIwVGJpbGlzaSkKLSDngrnljZXvvJrlhYjngrk15Liq6IKJ5rGk5YyFS2hpbmthbGnvvIzpl67mnIDkvY7otbfngrnmlbDvvJvlj6/mlLnkuIDku73nvZDngpbosYbjgILmoLjmoYPojITlrZDljbflkozlpbbpharppbzlj6/pgInlhbbkuIDvvIzkuI3opoHlhajpg6jlj6DliqDjgILnlKjppJDliY3mlLbnm7jmnLrvvIzmsaTljIXlj6/or7flupflkZjmj5DkvpvppJDlhbfjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTQw4oCTNzXvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjmlrnnlLXlrZDoj5zljZXltYzlhaXmlbDmja7vvJrogolLaGlua2FsaSAyLjQ1R0VML+S4quOAgeaguOahg+iMhOWtkDE5R0VM44CB572Q54KW6LGGMjFHRUzjgIFJbWVyZXRpYW7lpbbpharppbwyNEdFTOOAguS7pTXlj6rmsaTljIXorqExMi4yNUdFTO+8jOWwmuacquWKoOmlruWTgS/lj6/og73mnI3liqHotLnjgILmoLjmn6UyMDI2LTExLTA177yb5pyq5pi+56S655Sf5pWI5pel77yM5LiN5L+d6K+BMjAyN+S7t+OAggotIOiQpeS4mu+8mumbhuWboumXqOW6l+mhteeOsOWIlzA5OjAw4oCTMDI6MDDjgIHlkajkupTlha0yNGjvvJvnlLXlrZDoj5zljZXml7bpl7TlrZfmrrXljbTlhpkxMDozMOKAkzEyOjAw77yM56ys5LiA5pa55LqS5pyJ5Yay56qB77yM6aG755S16K+d6YeN5qC444CCCi0g5qC45a6e6L6555WM77ya6ZuG5Zui56ys5LiA5pa56I+c5Y2V56Gu6K6k5YW35ZCN6ICB5Z+O6Zeo5bqX5LiO6I+c5Lu377yb55S15a2Q6I+c5Y2V5pe25q615byC5bi45bey5qCH5Ye644CCCi0gRDE36ICB5Z+OL05hcmlrYWxh57uT5p2f5ZCO5YWI5Zyo5q2k5ZCD77yM5YaN6L+H5qGl5ZueQXZsYWJhcmnvvJvosIPmlbTljp/mmZrppJDmloflrZfvvIzkuI3mlrDlop7ot6jln47jgIIKLSBEMTjlm6Lov5Tln47lvojmmZrliJnkuI3otbbmraTlupfvvIzljp/ov5Tln47kvJHmga/kvJjlhYjjgIIKLSDljp/nqL9QYXNhbmF1cmkgUnVzdGF2ZWxpNDblnKjlnLDlm77lubPlj7DmnInlhbPpl63lhrLnqoHvvJtNYWZzaGFsaWEgQWdobWFzaGVuZWJlbGkxMzfnprtEMTfogIHln47liqjnur/ov5zvvIzlnYfkuI3liJfkuLrpu5jorqTpobrot6/lupfjgIIKLSDnqbrosIPlvLrluqbjgIHmj5LluqfmnYPpmZDkuI5Hb29nbGXor4TliIbmlbDph4/mnKrmoLjjgIIKLSDmnaXmupDvvJpbTUdyb3Vw5a6Y5pa56Zeo5bqX5YiX6KGo5LiO6JCl5LiaXShodHRwczovL21ncm91cC5nZS9lbi9wbGFjZXMvKe+8m1tNYXNwaW5kemVsb+WumOaWueeUteWtkOiPnOWNleOAgUdvcmdhc2FsaTflnLDlnYBdKGh0dHBzOi8vbWVudS5tZ3JvdXAuZ2UvbWFzcGluZHplbG8pCgojIyMg5Z+D6YeM5ripIMK3IFR1biBMYWhtYWpvIMK3IFRlcnlhbuihl+W6lwoKLSDlnLDlnYDvvJoyMyBUZXJ5YW4gU3RyZWV0LCBZZXJldmFu77yI5Zyw5Zu+5Lqm6KeBMjXlj7fvvIzmjInlupflkI3kuI7nlLXor53moLjlhaXlj6PvvIkKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1UdW4lMjBMYWhtYWpvJTIwVGVyeWFuJTIwMjMlMjBZZXJldmFuKQotIOeCueWNle+8muWFiOeCuTHigJMy5bygTGFobWFqb+iCieacq+iWhOmlvO+8jOmFjeS4gOS7veeGn+iUrOiPnOaIluaxpO+8m1RhbuWSuOmFuOWltumlruWPpuiuoeOAguaMieiPnOWNleaguOS4gOW8oOWkp+Wwj++8jOS4jem7mOiupOeCueWkmuS6uueDpOiCieaLvOebmOOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMjXigJM1Ne+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muW4guWumOaWueaXhea4uOmhteivgeWunuW6l+S4juWcsOWdgO+8jE9kZE1lbnXpk77mjqXlj6/miZPlvIDkvYbmnKrlj5blvpfoj5zku7fmraPmlofvvJvljp/nqL81MDDigJM4MDBBTUTlkozlh4zmmag054K55LiN6IO95b2T5pys5qyh5bey5qC444CC6aOf54mp5Yy66Ze05Li66KeE5YiS77yM6aWu5ZOB5LiO5pyN5Yqh6LS555yL546w5Zy66I+c5Y2V44CCCi0g6JCl5Lia77ya6JCl5Lia5pe26Ze05pyq5Y+W5b6X56ys5LiA5pa55Y+v6Z2g6K+B5piO77ybRDE557qmMjA6MDDjgIFEMjDnuqYxNzowMOOAgUQyMemhuzE4OjAw5YmN5ZCD5a6M77yM5Z2H5YWI55S16K+d56Gu6K6k44CCCi0g5qC45a6e6L6555WM77ya5a6Y5pa55Z+O5biC5peF5ri45py65p6E56Gu6K6k5bqX5ZCN5ZKMMjPlj7flnLDlnYDvvJvmnKror7vlj5blrp7ml7blrozmlbToj5zljZUv5bqX5pa55pe25q6144CCCi0gRDE55LuOQ2FzY2FkZei/lOWbnuWFseWSjOWbveW5v+WcuumAlOS4reWPr+e7j1RlcnlhbuWQg++8jOS4jeWGjeWPpui3kei/nOW6l+OAggotIEQyMeaXqeedoTE4OjMw5LiN5Y+Y77yMMTfngrnliY3lvIDlp4vngrnppJDvvJvoi6XmjpLpmJ/lsLHmiZPljIXmiJbmjaLpmYTov5Hlv6vppJDjgIIKLSDlrpjmlrnml4XmuLjpobUyM+WPt+S4jumDqOWIhuWcsOWbvjI15Y+35LiN5LiA6Ie077yM5a+86Iiq55So5a6M5pW05bqX5ZCN77yb6IGU57O755S16K+dKzM3NDEwNTM4NzE344CCCi0g5Ya35rCU44CB5o+S5bqn5ZKMR29vZ2xl6K+E5YiG5pyq5qC444CCCi0g5p2l5rqQ77yaW+Wfg+mHjOa4qeW4guWumOaWueaXhea4uOmhte+8mlR1bkxhaG1ham/kvY3kuo4yM1Rlcnlhbl0oaHR0cHM6Ly92aXNpdHllcmV2YW4uYW0vcmVzdGF1cmFudHMvZGV0YWlscy8yNTkvZW4vKe+8m1vlupflrrbnlLXlrZDoj5zljZXlhaXlj6PvvIjmnKzmrKHmraPmlofmnKror7vliLDvvIldKGh0dHBzOi8vb2RkbWVudS5jb20vcC90dW4tbGFobWFqby9jbTgyc2FkdXY2NzkxNjZ1NXV1dzF5ZG4zM3UpCgojIyMg5Z+D6YeM5ripIMK3IExhaG1hanVuIEdhaWR6IMK3IFR1bWFueWFuOS8577yI5Y2I6aSQ5aSH6YCJ77yJCgotIOWcsOWdgO+8mlR1bWFueWFuIFN0cmVldCA5LzksIFllcmV2YW4KLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1MYWhtYWp1biUyMEdhaWR6JTIwVHVtYW55YW4lMjA5JTIwOSUyMFllcmV2YW4pCi0g54K55Y2V77ya5LiA5bygTGFobWFqdW7lhYjngrnvvIzkuI3lpJ/lho3liqDvvJvphbjlpbbppa7lj6borqHjgILlj6rkvZxEMjHov5Tlm57ln47lkI7nmoTlv6vpgJ/ljYjppJDlpIfpgInjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTIw4oCTNDDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjmlrlGYWNlYm9va+iiq+aLpuaIqu+8jOacquaguOWIsDE1MDBBTUTlpZfppJDmiJbnjrDooYzljZXku7fvvJvlnLDlnYDnlLHlnLDlm77mnaHnm67kuqTlj4nnoa7orqTjgILljp/nqL/lpZfppJDkuI3op4bkuLrmiqXku7fjgIIKLSDokKXkuJrvvJrnrKzkuInmlrnnjrDliJflkajkuIDoh7Plha0xMTowMOKAkzE4OjMw44CB5ZGo5pel5LyR77yM5L2G5pys5qyh5pyq6I635bqX5pa555u05o6l56Gu6K6k77yb5Y+q5L2c5b6F6YeN5qC45Y2I6aSQ5YCZ6YCJ77yM5LiN5a6J5o6SRDE55pma6aSQ44CCCi0g5qC45a6e6L6555WM77ya5YW35ZCN5YCZ6YCJ5L+d55WZ77yM6K+B5o2u5byx5LqOVHVuTGFobWFqb++8m+WumOaWuemhteWPl+mZkO+8jOiPnOWNleS4juiQpeS4mumhu+mHjeaguOOAggotIEQyMeWNiuaXpUtob3JWaXJhcOWbnuWfjuiLpeaZmu+8jOebtOaOpVR1bkxhaG1ham/miJbkvY/lrr/pmYTov5HnroDppJDvvIzkuI3kuLrlsI/lupfljovnvKnljYjkvJHkuI5NYXRlbmFkYXJhbuOAggotIOacrOW6l+aXoOWPr+ivgeW8uuWGt+awlOaIluWFheeUteS/neivge+8m+etieS9jTE15YiG6ZKf5Y2z5pS+5byD44CCCi0g5p2l5rqQ77yaW+W6l+WutuWumOaWuUZhY2Vib29r77yI5pys5qyh5Y+X6ZmQ77yJXShodHRwczovL3d3dy5mYWNlYm9vay5jb20vTGFobWFqdW5HYWlkeinvvJtbWWFuZGV45YW35ZCN6Zeo5bqX5Y+KOS855Zyw5Z2AXShodHRwczovL3lhbmRleC5jb20vbWFwcy9vcmcvbGFobWFqdW5fZ2FpZHovMTQ2MzY3OTMxODE4LykKCiMjIyDokKjmi4nng63nqp0gwrcgxIZldmFiZMW+aW5pY2Egxb1lbGpvIMK3IEt1bmR1cmTFvmlsdWsxOQoKLSDlnLDlnYDvvJpLdW5kdXJkxb5pbHVrIDE5LCBCYcWhxI1hcsWhaWphLCBTYXJhamV2bwotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUNldmFiZHppbmljYSUyMFplbGpvJTIwS3VuZHVyZHppbHVrJTIwMTklMjBTYXJhamV2bykKLSDngrnljZXvvJrlsI/ku7015qC5xIZldmFwaemFjVNvbXVu77yM5YWI6ZeuS2FqbWFr5aW25rK55ZKM6YW45aW25piv5ZCm5Y+m5pS26LS577yb5pyJ5YiA5Y+J5Y+v5pGK5Zyo55uY5Lit5ZCD77yM5LiN5b+F5omL5oqT44CCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqUzMOKAkzUw77yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5peF5ri45bGA56Gu6K6kS3VuZHVyZMW+aWx1a+mXqOW6l++8m+acrOasoeacquWPluW+l+WPr+mdoOeOsOihjOaVsOWtl+iPnOWNle+8jOWOn+eovzXmoLkyOOWFg+OAgTEw5qC5NDXlhYPmnKrkvZzkuLrlrp7ku7fjgIIKLSDokKXkuJrvvJrmnKrlj5blvpflupfmlrnokKXkuJrooajvvJtEMzTnuqYxOTowMOaIlkQzNee6pjIwOjAw5YmN5YWI5p+l5b2T5aSp6JCl5Lia44CCCi0g5qC45a6e6L6555WM77ya5a6Y5pa55peF5ri45bGA56Gu6K6k5bqX5Y+K6KGX6YGT77yMMTnlj7fnlKjlnLDmlrnlr7zoiKrkuqTlj4nvvJvoj5zku7fkuI7ml7bmrrXmnKrlrp7or4HjgIIKLSBEMzRTZWJpbGrpmYTov5HmmZrppJDlj6/mraXooYzov5vlhaXogIHln47vvJtEMzXpu4TloKHkuIvmnaXlho3lkIPjgIIKLSDmjpLpmJ/otoXov4cxNeWIhumSn+aUuUJyYXZhZMW+aWx1azIx55qEUGV0aWNh77yb5LiN6KaB5oqK5Lu75oSP5ZCM5ZCNxb1lbGpv5bqX5b2T5oiQ5pys5bqX44CCCi0g5Ya35rCU5LiO5o+S5bqn5Z2H5pyq5qC477yM5LiN6IO95b2T56iz5a6a5YWF55S156uZ44CCCi0g5p2l5rqQ77yaW+iQqOaLieeDreeqneaXhea4uOWxgO+8msW9ZWxqb+S9jeS6jkt1bmR1cmTFvmlsdWtdKGh0dHBzOi8vd3d3LnZpc2l0c2FyYWpldm8uYmEvYnMvbGlzdGluZ3MvemVsam8vKe+8m1tTYXJhamV2byBOYXZpZ2F0b3LvvJpLdW5kdXJkxb5pbHVrMTnlnLDlnYBdKGh0dHBzOi8vd3d3LnNhcmFqZXZvbmF2aWdhdG9yLmJhL2VuL3BsYWNlLzc3NikKCiMjIyDokKjmi4nng63nqp0gwrcgRmVyaGF0b3ZpxIcgUGV0aWNhIMK3IEJyYXZhZMW+aWx1azIxCgotIOWcsOWdgO+8mkJyYXZhZMW+aWx1ayAyMSwgNzEwMDAgU2FyYWpldm8KLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1QZXRpY2ElMjBGZXJoYXRvdmljJTIwQnJhdmFkemlsdWslMjAyMSUyMFNhcmFqZXZvKQotIOeCueWNle+8msSGZXZhcMSNacSHaSBwZXRpY2HlsI/ku7015qC56YWNU29tdW7vvIzlhYjkuIDku73vvJvppa7msLTmiJbphbjlpbblj6borqHjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTMw4oCTNTDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJpGZXJoYXRvdmnEh+WumOaWueWcqOe6v+iPnOWNleWwj+S7vcSGZXZhcMSNacSHaSBwZXRpY2E3LjAwQkFN44CBxIZldmFwxI1pxIdpMTQuMDBCQU3vvJvpobXpnaLkuLrlnKjnur/orqLppJDvvIzloILpo5/ku73ph48v5Lu35qC86aG7546w5Zy65qC444CC5LiN6KaB5oqKMTRCQU3lho3mrKHlvZPlsI/ku73jgIIKLSDokKXkuJrvvJrlrpjnvZFQZXRpY2HnjrDliJflkajkuIAxMjowMOKAkzIxOjAw77yb5ZGo5LqM6Iez5YWtMDg6MDDigJMyMzowMO+8m+WRqOaXpTEyOjAw4oCTMjE6MDDjgILms6jmhI/kuI3mmK9GQU7liIblupfnmoTml7bmrrXjgIIKLSDmoLjlrp7ovrnnlYzvvJrnrKzkuIDmlrnlhbflkI3pl6jlupfjgIHml7bmrrXjgIHorqLppJDoj5zku7flj6/or4HvvJsyMDI36YeN5qC444CCCi0gRDM15ZGo5YWtMTE6MzDogIHln47ljYjppJDnqpflj6/nlKjvvIzot53ljp/ogIHln47lj4Lop4LmlrnlkJHov5HvvJvnrYnkvY3otoUxNeWIhumSn+aUucW9ZWxqb+OAggotIOWQjOWumOe9keWPpuaciUZBTiDEjGl6bWVkxb5pbHVrMe+8jOS4jeiDveaKikZBTuWRqOaXpeS8keaBr+Wll+WIsFBldGljYeOAggotIOmihOeul+WPquWQq+WNleS6uumjn+eJqe+8m+mFuOWltuOAgUtham1ha+WPiumlruawtOWPpuaguOOAggotIOadpea6kO+8mltGZXJoYXRvdmnEh+WumOe9ke+8mlBldGljYeWcsOWdgOOAgeiQpeS4muS4juWcqOe6v+iPnOWNlV0oaHR0cHM6Ly9mZXJoYXRvdmljLmJhLykKCiMjIyDojqvmlq/loZTlsJQgwrcgVGltYeKAk0lybWEgwrcg6ICB5qGl6KW/5bK45bqXCgotIOWcsOWdgO+8mk9uZcWhxId1a292YSBiYiwgODgwMDAgTW9zdGFyCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249TmF0aW9uYWwlMjByZXN0YXVyYW50JTIwVGltYSUyMElybWElMjBPbmVzY3Vrb3ZhJTIwTW9zdGFyKQotIOeCueWNle+8muWwj+S7vcSGZXZhcGnmiJbljZXkurrng6TpuKHvvIvnhp/olKzoj5zvvIzpgb/lhY3kuIDkurrngrnlpKfmt7flkIjogonnm5jvvJvppa7msLTlj6borqHjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTM14oCTNjDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjnvZHor4HmmI7ogIHln47lupflnLDlnYDkuI7ng6fng6Tlk4HnsbvvvIzmnKrmj5Dkvpvlj6/moLjmlbDlgLzku7fooajvvJvljp/nqL/mnKrnu5nmnKzlupfljZXlk4Hlrp7ku7fvvIzkuI3og73mjIkyOOWFg+Wll+WFpeOAggotIOiQpeS4mu+8muWumOe9keacquWIl+WPr+aguOiQpeS4muihqO+8m0QzNuWRqOaXpTEyOjE15YmN5YWI55yL5b2T5aSp5byA6Zeo77yM5pyq5byA5bCx55So6Ieq5bim566A6aSQ77yM5Yir5ouW5Yiw5Zue56iL5YmN44CCCi0g5qC45a6e6L6555WM77ya5a6Y572R5YW35ZCN5Zyw5Z2A5LiO5ZOB57G75Y+v6K+B77yb5Lu35qC844CB5pif5pyf5pel6JCl5Lia5ZKM5Ya35rCU5b6F5qC444CCCi0gRDM26ICB5qGl5Y+C6KeC5ZCO5Zyo6KW/5bK46ICB5Z+O5Y2I6aSQ77yM6aKE55WZ5q2l6KGM5LiO5o6S6Zif77yb5LiN5piv5Li65LqG6aSQ6aaG5Y675Y+m5LiA5Z+O5Yy644CCCi0g562J5L2N6LaF6L+HMTXigJMyMOWIhumSn+aUvuW8g++8mzE3OjAw5byA5aeL5Y676L+U56iL56uZ55qE6L6555WM5LiN5Y+Y44CCCi0g5a6k5YaF5Ya35rCU44CB5o+S5bqn5pyq5qC477yM5LiN6IO95L+d6K+B6L+Z6YeM6YCC5ZCI6ZW/5pe26Ze05Y2I5LyR44CCCi0g5p2l5rqQ77yaW1RpbWHigJNJcm1h5a6Y572R77yaT25lxaHEh3Vrb3Zh5Zyw5Z2A5LiO6I+c5ZOBXShodHRwczovL3d3dy5jZXZhYmR6aW5pY2EtdGltYS5jb20vKQoKIyMjIOi0neWwlOagvOiOseW+tyDCtyBQaXp6YSBCdWNrbyDCtyBGcmFuY3Vza2ExOOW6lwoKLSDlnLDlnYDvvJpGcmFuY3Vza2EgMTgsIEJlb2dyYWQgU3RhcmkgR3JhZAotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVBpenphJTIwQnVja28lMjBGcmFuY3Vza2ElMjAxOCUyMEJlbGdyYWRlKQotIOeCueWNle+8muS4gOeJh+aKq+iQqO+8i+S4gOS7vTUwZ+aymeaLiea1h+aWme+8jOS4jeWkn+WGjea3u++8m+eJm+iCiS/puKHogonppoXmlpnmjInlvZPml6Xmn5zlj7Dnoa7orqTjgILnlKjnurjmiZjlkozppJDlt77vvIzlkIPliY3mlLbnm7jmnLrjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTE14oCTMzDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjnvZHnjrDku7fvvJrljZXniYcxNTBSU0TjgIHmr4/ku701MGfpmYTliqDphY3mlpk2MFJTROOAgeaVtOW8oDbniYc5MDBSU0TvvJvkuIDniYfliqDkuIDku73phY3mlpnlkIgyMTBSU0TvvIzppa7mlpnlj6borqHjgILnvZHpobXmnKrmoIfnlJ/mlYjml6XmnJ/vvIwyMDI36aG76YeN5qC444CCCi0g6JCl5Lia77ya5a6Y572R6Zeo5bqX5ZGo5pel6Iez5ZGo5ZubMDc6MDDigJMwMDowMO+8jOWRqOS6lOWFrTA3OjAw4oCTMDE6MDDvvJvkuI3nrYnkuo7lhajlubQyNGjjgIIKLSDmoLjlrp7ovrnnlYzvvJrnrKzkuIDmlrnliIblupfjgIHnjrDnpLrku7fkuI7okKXkuJrlj6/or7vvvJvml6BHb29nbGXlrp7ml7bor4Tku7fmoLjpqozjgIIKLSBEMzjlm73lrrbljZrnianppoblkI7msr9GcmFuY3Vza2HooZfljrvmjIflrprliIblupfvvJvliqDmraXooYwxMOKAkzE15YiG6ZKf6KeE5YiS5L2Z6YeP77yMMTI6MzDliY3kubDliLDlho3lm57lrr/ljYjkvJHjgIIKLSDlgY/nqpflj6Plv6vppJDvvIzkuI3og73mib/or7rloILpo5/lhrfmsJTlkozmj5LluqfvvJvkuI3og73lm6Dku7fmoLzkvr/lrpzmiorlroPlronmjpLkuLrljYjkvJHnqbrpl7TjgIIKLSDmnKzlupfkuI5Cb3LluIJXb2x05ZCM5ZCNQnVja2/kuI3mmK/lkIzkuIDlnLDlnYDvvIzkuI3lpZfnlKjlhbboj5zljZXjgIIKLSDmnaXmupDvvJpbUGl6emFCdWNrb+WumOe9ke+8mkZyYW5jdXNrYTE444CB5Lu35qC85Y+K6JCl5LiaXShodHRwczovL2J1Y2tvLnBpenphLykKCiMjIyDotJ3lsJTmoLzojrHlvrcgwrcgV2FsdGVyIMK3IERvcsSHb2zlupcKCi0g5Zyw5Z2A77yaU3RyYWhpbmppxIdhIEJhbmEgNTcsIEJlbGdyYWRlCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249V2FsdGVyJTIwU2FyYWpldnNraSUyMENldmFwJTIwU3RyYWhpbmppY2ElMjBCYW5hJTIwNTclMjBCZWxncmFkZSkKLSDngrnljZXvvJo15qC5xIZldmFwaeWwj+S7vemFjeWNiuW8oOmlvO+8jOaIluS4gOS7veaxpOmFjeS4u+mjn++8m+S4jeWkn+WGjeWKoOOAguWumOe9keehruiupDXmoLkxMjVnLzEw5qC5MjUwZ++8jOS4jeimgeaKiuS4pOiAhea3t+S4uuWQjOS7t+OAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMzXigJM2MO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keaKiuWhnuWwlOe7tOS6muiPnOWNleWIhkNlbnRyYWwvQ29tbWVyY2lhbC9SZWdpb25hbC9Ub3VyaXN0L0FpcnBvcnTlpJrmoaPvvIzmnKzmrKHmnKrlj5blvpfmnKzliIblupflr7nlupTku7fvvIzkuI3og73lhajov57plIHnu5/kuIDmiqU0NeWFg++8m+S6uuawkeW4geaYr+WNleS6uumjn+eJqeinhOWIku+8jOmlruWTgeWPpuiuoeOAggotIOiQpeS4mu+8muWumOaWueWIhuW6l+mhteacque7meWPr+mdoOiQpeS4muaXtumXtO+8m+WQhOaXpeaZmumkkOWJjeaguOW8gOmXqO+8jEQ0MOmhuzE4OjMw5YmN57uT5p2f44CCCi0g5qC45a6e6L6555WM77ya5a6Y572R56Gu6K6k5YW35L2T5YiG5bqX5LiO5Lqn5ZOB5Lu96YeP77yb5Lu35qC86aG75Yy56YWN5YiG5bqX6I+c5Y2V5qGj44CCCi0g5LuO5YWx5ZKM5Zu95bm/5Zy6L+atpeihjOihl+WQkURvcsSHb2zmnInmraXooYznu5XooYzvvIzmjInlrp7pmYXpnZLml4XkvY3nva7pgInnlKjvvIzkuI3miorlroPlhpnkvZznsbPlk4jkvIrmtJvlpKflhazooZflupfjgIIKLSBEMzfplb/lt7Tlo6vmmZrliLDmiJZENDDml6nnnaHml6XkuI3mjpLpmJ/vvIzlv4XopoHml7bmiZPljIXjgIIKLSDlrqTlhoXlupfkuI3oh6rliqjkv53or4HluqfkvY3ml4HmnInmj5LluqfvvJvlrp7ml7bor4TliIbkuI7lhrfmsJTmnKrmoLjjgIIKLSDmnaXmupDvvJpbV2FsdGVy5a6Y5pa5RG9yxIdvbOW6l+WcsOWdgF0oaHR0cHM6Ly93YWx0ZXIucnMvcG9ydGZvbGlvL3dhbHRlci1kb3Jjb2wtYmVvZ3JhZC8p77ybW1dhbHRlcuWumOaWueS6p+WTgeS7vemHj10oaHR0cHM6Ly93YWx0ZXIucnMvZW4vaG9tZS8p77ybW1dhbHRlcuWumOaWueWIhuWMuuiPnOWNleWFpeWPo10oaHR0cHM6Ly93YWx0ZXIucnMvZW4vbWVudS0yLykKCiMjIyDms73okpkgwrcgV2FsdGVyIMK3IFplbXVuIGNlbnRhcuW6lwoKLSDlnLDlnYDvvJpNYWdpc3RyYWxuaSB0cmcgMTgsIFplbXVuLCBCZWxncmFkZQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVdhbHRlciUyMFplbXVuJTIwY2VudGFyJTIwTWFnaXN0cmFsbmklMjB0cmclMjAxOCkKLSDngrnljZXvvJo15qC5xIZldmFwaeaIluS4gOS6uuiCiemlvO+8m+mlruawtC/phbjlpbbljZXni6znnIvku7fjgILljYjppJDlkI7lho3ljrvmsrPlsrjvvIzkuI3pnIDopoHkuLrkuobmraPppJDov5Tlm57otJ3lsJTmoLzojrHlvrfkuK3lv4PjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTM14oCTNjDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlkIzlk4HniYzlpJrmoaPku7fooajvvIxaZW11biBjZW50YXLlvZPliY3ljZXlk4Hku7fmnKrlj5blvpfvvJvkuI3og73nm7TmjqXlpZdEb3LEh29s44CB5py65Zy65oiW5aSW5Y2W5YW25LuW5bqX5Lu344CCCi0g6JCl5Lia77ya5a6Y5pa55YiG5bqX6aG15pyq5YiX5Y+v6Z2g5pe25q6177ybRDM55bu66K6uMTI6MDDigJMxMjo0NeWwsemkkO+8jOWFiOaguOW9k+aXpeiQpeS4muOAggotIOaguOWunui+ueeVjO+8muWumOaWueWFt+WQjeWIhuW6l+S4jjE45Y+35Zyw5Z2A5bey6K+B5a6e77yM6I+c5Lu35ZKM6JCl5Lia5b6F5qC444CCCi0g5LuOR2FyZG/FoeS4i+WdoeW+gOiAgeWfjuW5v+Wcuu+8jOWGjeWbnuWkmueRmeays+WyuO+8jOmhuuW6j+WPr+Wwj+iwg++8m+ivpeW6l+S4jeaYr0dvc3BvZHNrYTPjgIIKLSDoi6XljYjppJDlkI7mg7PlkINGZXJkaW5hbmTvvIznlJzngrnlj6borqHkuI3lvZPnrKzkuozku73mraPppJDvvJvmsqHmnInppb/lsLHot7Pov4fjgIIKLSDnqbrosIPlvLrluqbjgIHlhYXnlLXlkozlvZPml6XnrYnkvY3mnKrpqozor4HjgIIKLSDmnaXmupDvvJpbV2FsdGVy5a6Y5pa5WmVtdW5jZW50YXLvvJpNYWdpc3RyYWxuaSB0cmcxOF0oaHR0cHM6Ly93YWx0ZXIucnMvZW4vcG9ydGZvbGlvL3dhbHRlci16ZW11bi1iZW9ncmFkLTIvKe+8m1tXYWx0ZXLliIbljLroj5zljZXlhaXlj6NdKGh0dHBzOi8vd2FsdGVyLnJzL2VuL21lbnUtMi8pCgojIyMg5rO96JKZIMK3IEZlcmRpbmFuZCBLbmVkbGUgwrcgWmVtdW7lupfvvIjnlJzngrnlpIfpgInvvIkKCi0g5Zyw5Z2A77yaQmXFvmFuaWpza2EgNDYsIFplbXVuLCBCZWxncmFkZQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUZlcmRpbmFuZCUyMEtuZWRsZSUyMEJlemFuaWpza2ElMjA0NiUyMFplbXVuKQotIOeCueWNle+8muS4gOmil+adjuWtkOeUnOWbouWtkMWgbGppdmHvvIzmiJblvIDlv4Pmnpzlj6PlkbPvvJvlvZPnlJzngrnliqDlgZzvvIzkuI3mm7/ku6PlkKvolKzoj5zkuI7om4vnmb3otKjnmoTljYjppJDjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTE34oCTMjjvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjnvZHotJ3lsJTmoLzojrHlvrflnKjnur/lupfku7fvvJrmnY7lrZAyNTBSU0Qv6aKX44CB5byA5b+D5p6cMzQwUlNEL+mil++8m+acquivgeWunlplbXVu5aCC6aOf5a6M5YWo5ZCM5Lu344CC5a6Y572R54m55q6K57qv57SgL+aXoOm6uOi0qOiuoui0reacieiHs+WwkTXpopflj4rmj5DliY3kuIDlpKnmnaHku7bvvIznjrDlnLrmma7pgJrljZXpopfkvpvlupTlj6bpl67jgIIKLSDokKXkuJrvvJrmnKzmrKHmnKrlj5blvpdaZW11buWIhuW6l+aYjuehruWPr+mdoOaXtuaute+8m+S4jeimgeaKiuWumOe9keWKqOaAgeaYvuekuueahOW4guWMuuiHquiQpeW6lzExOjAw4oCTMDE6MzDlpZfliLDlroPjgIIKLSDmoLjlrp7ovrnnlYzvvJrlrpjmlrnor4Hlrp7ms73okpnliIblupfnnJ/lrp7lrZjlnKjlj4rlnLDlnYDvvIzlnKjnur/kuqflk4Hku7fkuI3mmK/kv53or4HliLDlupfku7fjgIIKLSDms73okpnnoa7mnInliIblupfvvIzkvYZCZcW+YW5panNrYTQ25LiN6IO956ew5Li65Y67R2FyZG/FoeWhlOW/hee7j++8m+eUqOWvvOiIquaguOW+gOi/lOe7leihjO+8jOi2hei/hzE15YiG6ZKf5bCx5pS+5byD44CCCi0g6Iul5oOz5L+d5rKz5bK45Y2I5LyR5LiOMTQ6MDDov5TluILljLrvvIzmiorlroPnlZnkuLrlj6/pgInogIzpnZ7lv4XlgZrppJDjgIIKLSBHb29nbGXor4TliIYv6K+E5Lu35pWw44CB5by65Ya35rCU5LiO5o+S5bqn5Z2H5pyq5a6e6K+B44CCCi0g5p2l5rqQ77yaW0ZlcmRpbmFuZOWumOe9ke+8mlplbXVuIEJlxb5hbmlqc2thNDbkvY3nva5dKGh0dHBzOi8vZmVyZGluYW5ka25lZGxlLmNvbS8p77ybW0ZlcmRpbmFuZOWumOaWueWcqOe6v+eUnOWbouWtkOS7t+ebrl0oaHR0cHM6Ly93d3cuZmVyZGluYW5ka25lZGxlLmNvbS9zci9zaG9wL2JnL3NsYXRrZS1rbmVkbGUvKQoKIyMjIOagvOmbt+aihSDCtyBUdXJraXNoIFJhdmlvbGkgUmVzdGF1cmFudCDCtyBBeWTEsW5sxLEgU29rYWvlupcKCi0g5Zyw5Z2A77yaQXlkxLFubMSxIE1haGFsbGVzaSwgQXlkxLFubMSxIFNva2FrIE5vOjEsIEfDtnJlbWUgNTAxODAKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1UdXJraXNoJTIwUmF2aW9saSUyMFJlc3RhdXJhbnQlMjBBeWQlQzQlQjFubCVDNCVCMSUyMFNva2FrJTIwTm8lMjAxJTIwR29yZW1lKQotIOeCueWNle+8muS4gOS7vU1hbnTEsemFuOWltuiCiemmheWwj+mluuWtkO+8jOaIlum4oeiCiemZtuebmOmlre+8m+eUqOWPieWLuuOAgueJueiJsumlruWTgUF5cmFu5Y+m54K544CCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqU5NeKAkzE1MO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8mjIwMjYtMTEtMDXlrpjnvZHnlLXlrZDoj5zljZXlj6/or7vvvJrlvZPml6XmsaQyMDAgVFJZ44CBTWFudMSxODAwIFRSWeOAgem4oeiCiemZtuebmOmlrTcwMCBUUlnjgIHniZvogonnk6bnvZAxMzUwIFRSWe+8m0F5cmFuNzUgVFJZ5Y+m6K6h44CC5Z2H5Li6572R6aG15pi+56S65Lu377yM5pyq6L295piO56Gu55Sf5pWI5pel77yMMjAyN+mhu+mHjeaguOOAggotIOiQpeS4mu+8muWumOe9keS4u+ermeWIl+avj+aXpTExOjAw4oCTMjI6MzDvvJsyMDI35aSN5qC444CCCi0g5qC45a6e6L6555WM77ya5a6Y572R5YW35ZCN5Zyw5Z2A44CB6I+c5Y2V5ZKM6JCl5Lia5Y+C6ICD5bey5Y+W5b6X77yb6aKE566X5Li65Y2V5Lq66aSQ6aOf6KeE5YiS6aKd77yM6aWu5ZOB5Y+m6K6h44CCCi0g5bGe5L2T6aqM6aSQ77yM5Lu35qC85piO5pi+6auY5LqO5pmu6YCa6aOf5aCC77yM5LiN5a6J5o6S5q+P6aG/5ZCD44CCCi0g56m66LCD44CB5Y+v55So5o+S5bqn5Y+K5pyN5Yqh6LS55pyq5qC477yM5LiN5om/6K+644CCCi0gRDI057u/57q/5Zui6aSQ5pyq6K6i77yM5LiN6IO95oqK5q2k5bqX5oiW55Om572Q6IKJ5b2T5YWN6LS55Zui6aSQ44CCCi0g5p2l5rqQ77yaW+mkkOWOheWumOe9keWcsOWdgOS4juiQpeS4muWPguiAg10oaHR0cHM6Ly90dXJraXNocmF2aW9saS5jb20vKe+8m1vppJDljoXnjrDooYznlLXlrZDoj5zljZVdKGh0dHBzOi8vbWVudS50dXJraXNocmF2aW9saS5jb20vdHIpCgojIyMg5qC86Zu35qKFIMK3IENhcHBhZG9jaWEgUGlkZSBIb3VzZSAmIFJlc3RhdXJhbnQgwrcgSGFra8SxIFBhxZ9hIE1leWRhbsSx5bqXCgotIOWcsOWdgO+8mkhha2vEsSBQYcWfYSBNZXlkYW7EsSBObzoxNiwgTWVya2V6IENhbWlpIGthcsWfxLFzxLEsIEfDtnJlbWUgNTAxODAKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1DYXBwYWRvY2lhJTIwUGlkZSUyMEhvdXNlJTIwUmVzdGF1cmFudCUyMEhha2tpJTIwUGFzYSUyME1leWRhbmklMjAxNiUyMEdvcmVtZSkKLSDngrnljZXvvJrlhYjnnIvku7fngrnkuIDku71QaWRl5Zyf6ICz5YW26ZW/6Ii55oqr6JCo77yM5oiW5omB6LGG5rGk5Yqg5Li76aOf77ybQXlyYW7lj6borqHjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTQ14oCTOTDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrmnKrlj5blvpflj6/pnaDnjrDooYzljp/luIHoj5zljZXvvIzkuI3nhafmkKxHZW1pbmnkurrmsJHluIHlrp7ku7fjgIIKLSDokKXkuJrvvJrlupflrrbnrqHnkIbnmoRUcmlwYWR2aXNvcui1hOaWmeWIl+avj+aXpTEwOjAw4oCT5qyh5pelMDA6MDDvvIzku4XokKXkuJrlj4LogIPjgIIKLSDmoLjlrp7ovrnnlYzvvJrlhbflkI3lnLDlnYDkuI7lupflrrbnrqHnkIbotYTmlpnlt7Llj5blvpfvvIzoj5zljZXnjrDku7fmnKrmoLjvvJvpgILlkIjkvZzpooTnrpflpIfpgInjgIIKLSDlnLDlnYDlj6/kvZzlhbflkI3lgJnpgInvvJvnjrDku7fjgIHnqbrosIPjgIHmj5LluqfpobvliLDlupfnoa7orqTjgIIKLSDkuI3opoHmt7fmiJDlkIzln47lj6bkuIDlrrZDYXBwYWRvY2lhIFBpZGUgU2Fsb25144CCCi0gUGlkZeacieayue+8jOeUqOWIgOWPieaIlumkkOW3vue6uO+8jOWQg+WJjeaUtuebuOacuuOAggotIOadpea6kO+8mlvlupflrrbnrqHnkIbnmoTppJDljoXotYTmlpnvvJrlnLDlnYDkuI7nlLXor51dKGh0dHBzOi8vd3d3LnRyaXBhZHZpc29yLmNvbS9SZXN0YXVyYW50X1Jldmlldy1nMjk3OTgzLWQzMjQ2NzcwLVJldmlld3MtQ2FwcGFkb2NpYV9QaWRlX0hvdXNlX1Jlc3RhdXJhbnQtR29yZW1lX05ldnNlaGlyX1Byb3ZpbmNlX0NhcHBhZG9jaWEuaHRtbCnvvJtb5bqX5a62RmFjZWJvb2vlhaXlj6NdKGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9DYXBwYWRvY2lhLVBpZGUtSG91c2UtUmVzdGF1cmFudC0yMDc0MjI2NDYxMzQ1NjkvKQoKIyMjIOWuieWhlOWIqeS6miDCtyBQaXlhemPEsSBBaG1ldCDCtyBBbHTEsW5kYcSf5bqXCgotIOWcsOWdgO+8mkFsdMSxbmRhxJ8gTWFoYWxsZXNpLCAxNjYgU29rYWsgTm86MjkvQSwgTXVyYXRwYcWfYSwgQW50YWx5YQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVBpeWF6YyVDNCVCMSUyMEFobWV0JTIwQWx0JUM0JUIxbmRhJUM0JTlGJTIwMTY2JTIwU29rYWslMjAyOSUyMEElMjBBbnRhbHlhKQotIOeCueWNle+8muWuieWhlOWIqeS6muiKnem6u+mFseeZveixhuaymeaLiVRhaGlubGkgUGl5YXrvvIvkuIDku73FnmnFnyBLw7ZmdGXng6TogonkuLjvvJvlhYjpl67lsI/ku73kuI7mgLvku7fvvIznlKjlj4nli7rjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTQ14oCTODDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjnvZHoj5zljZXnoa7orqRQaXlheuOAgeeDpOiCieS4uOWSjOWNl+eTnOeUnOeCue+8m+acquWPluW+l+aVsOWtl+S7t+agvOOAggotIOiQpeS4mu+8muacquWPluW+l+WPr+aguOWunuiQpeS4muaXtuauteOAggotIOaguOWunui+ueeVjO+8muWumOe9keWcsOWdgOWPiuiPnOWTgeWPr+aguO+8m+WNleS6uumkkOmjn+mihOeul+mdnuaKpeS7t++8jOmlruWTgeWPpuiuoeOAggotIOWcqEFsdMSxbmRhxJ/vvIzkuI3og73lhpnmiJDnvZfpqazmuK/ml4HvvJtEMjXoi6XkvZPlipvlhYHorrjvvIzlhYjnlKjlr7zoiKrmoLjnnJ/lrp7nu5XooYzvvIzov5zliJnkuI3kuJPnqIvjgIIKLSDnqbrosIPlkozmj5LluqfmnKrmoLjvvIzkuI3nlKjkvZzlt7Lkv53or4HnmoTljYjkvJHlnLrmiYDjgIIKLSDmnaXmupDvvJpb6aSQ5Y6F5a6Y572R6IGU57O75Zyw5Z2AXShodHRwczovL3BpeWF6Y2lhaG1ldC5jb20udHIvaWxldGlzaW0vKe+8m1vppJDljoXlrpjnvZHoj5zljZVdKGh0dHBzOi8vcGl5YXpjaWFobWV0LmNvbS50ci9tZW51LykKCiMjIyBLYcWfIMK3IEJpJ0xva21hIFJlc3RhdXJhbnQgwrcgVcSfdXIgTXVtY3UgQ2FkZGVzaeW6lwoKLSDlnLDlnYDvvJpBbmRpZmxpLCBVxJ91ciBNdW1jdSBDYWRkZXNpIE5vOjIxLCBLYcWfIDA3NTgwLCBBbnRhbHlhCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QmklMjBMb2ttYSUyMFJlc3RhdXJhbnQlMjBVJUM0JTlGdXIlMjBNdW1jdSUyMENhZGRlc2klMjAyMSUyMEthJUM1JTlGKQotIOeCueWNle+8mkV2IE1hbnTEsXPEsemFuOWltuWwj+mluuWtkOaIlkV0bGkgWWFwcmFrIFNhcm1h6IKJ6aaF6JGh6JCE5Y+25Y2377yM6YCJ5LiA5Lu95Li76aOf5Y2z5Y+v77ybQXlyYW7miJbmn6DmqqzmsLTlj6borqHjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTU14oCTMTAw77yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5a6Y572R57Si5byV5Y+v56Gu6K6kTWFudMSx44CBU2FybWHjgIHng6TpsbznrYnoj5zlkI3vvIzku7fmoLzmnKrlj5blvpfvvJvkuI3lvJXnlKjml6flnJ/ogLPlhbbkvY7ku7fjgIIKLSDokKXkuJrvvJrlrpjnvZHmnInokKXkuJrmoI/nm67kvYblvZPliY3mipPlj5bmnKrlvpfliLDlj6/pnaDlhbfkvZPml7bmrrXjgIIKLSDmoLjlrp7ovrnnlYzvvJrlrpjnvZHmkJzntKLntKLlvJXlj4rooaXlhYXlnLDlnYDotYTmlpnlj6/moLjliLAyMeWPt+W6l++8jOWumOe9keebtOaOpeaJk+W8gOi2heaXtu+8m+eOsOS7t+WSjOiQpeS4muS7jeW+heaguOOAggotIOaXp+i1hOaWmeWPpuaciUjDvGvDvG1ldCBDYWRkZXNp6Iqx5Zut5bqX77yM5LiN5re355So5Zyw5Z2A77yb5a+86Iiq6ZSBVcSfdXIgTXVtY3UyMeWPt+WAmemAieW5tuaguOiQpeS4muOAggotIEQyN+iIuemkkOWPquaciemihOiuouS6p+WTgeaYjuehruWMheWQq+aJjeWPr+WFjeWOu+WNiOmkkOWkluaUr+WHuu+8jOS4jeiDveS/neivgeiPnOWNleOAggotIEQyOOWNiOmkkOWQjumhu+aMieWOn+aXtuauteWPluWMhei9rOi0ueeJueW4jOiAtu+8jOS4jeS4uuatpOW6l+W7tui/n+WHuuWPkeOAggotIOepuuiwg+WPiuaPkuW6p+acquaguOOAggotIOadpea6kO+8mltCaSdMb2ttYemkkOWOheWumOe9kV0oaHR0cHM6Ly93d3cuYmlsb2ttYS5jb20udHIvKe+8m1tCaSdMb2ttYeiBlOezu+WcsOWdgF0oaHR0cHM6Ly93d3cuYmlsb2ttYS5jb20udHIvaWxldGlzaW0p77ybW+ihpeWFheWIhuW6l+ihl+WQjeaguOWvuV0oaHR0cHM6Ly93d3cua29jYWVsaWxpZmUuY29tL2thcy1sZXp6ZXQtZHVyYWtsYXJpLykKCiMjIyDkvIrmlq/lnabluIPlsJQgwrcgQnV5cnVrIEVzbmFmIExva2FudGFzxLEgwrcgU2lya2VjaSBIb2NhIFBhxZ9h5bqXCgotIOWcsOWdgO+8mkhvY2EgUGHFn2EgU29rYWsgTm86MTIgRDoxMiwgRmF0aWgsIMSwc3RhbmJ1bCAzNDExMgotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUJ1eXJ1ayUyMEVzbmFmJTIwTG9rYW50YXMlQzQlQjElMjBIb2NhJTIwUGElQzUlOUZhJTIwU29rYWslMjAxMiUyMFNpcmtlY2klMjBJc3RhbmJ1bCkKLSDngrnljZXvvJrnnIvmmI7noIHmn5zlj7DpgInkuIDku71LdXJ1IEZhc3VseWXnmb3osYbngpboj5zvvItQaWxhduexs+mlre+8jOaIluS4gOS7vem4oeiCiemlre+8m+aMiemcgOimgeWKoOaxpO+8jOS4jem7mOiupOmdouWMheaXoOmZkOOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMzDigJM2MO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keiPnOWNlee9kemhteWIl+aJgeixhuaxpDMwIFRSWeOAgeeZveixhjc1IFRSWeOAgeexs+mlrTYwIFRSWeOAgem4oeiCiemlrTE1MCBUUlnjgIFBeXJhbjM1IFRSWe+8m+e9kemhteacqui9veaYjuehrueUn+aViOaXpe+8jOS7t+agvOWBj+S9ju+8jOS9nOS4uuWumOe9keaMgueJjOiusOW9leiAjOmdnjIwMjflrp7ku7fjgIIKLSDokKXkuJrvvJrlrpjnvZHliJcxMDowMOKAkzIzOjAw77yMMjAyN+WIsOW6l+WJjeWkjeaguOOAggotIOaguOWunui+ueeVjO+8muWumOe9keWcsOWdgOOAgeiQpeS4muWSjOWOhuWPsi/mnKrms6jmmI7nlJ/mlYjml6XmjILniYzoj5zljZXlt7Llj5blvpfvvJvppJDpo5/pooTnrpfkuI7miqXku7fliIbliJfvvIzppa7msLTlj6borqHjgIIKLSDlj6rpgILlkIhTaXJrZWNpL+iAgeWfjuWbnuWuv+aWueWQke+8jOS4jeiDveensEJlxZ9pa3RhxZ/miJZCYWxhdOWNiOmkkOmhuui3r+OAggotIOacquaguEdvb2dsZeivhOWIhi/or4Tku7fmlbDjgIHlvLrnqbrosIPlj4rmj5LluqfvvIzkuI3lpI3liLZHZW1pbmnorqTor4HjgIIKLSDngrnljZXliY3lho3pl67ku4rml6XniYzku7flj4rmmK/lkKblj6bmlLbmnI3liqHotLnjgIIKLSDmnaXmupDvvJpbQnV5cnVr5a6Y572R6I+c5Y2V44CB5Zyw5Z2A5LiO5pyN5Yqh5pe26Ze0XShodHRwczovL3d3dy5zaXJrZWNpbG9rYW50YS5jb20udHIvc2lya2VjaS1sb2thbnRhLW1lbnUvKQoKIyMjIOS8iuaWr+WdpuW4g+WwlCDCtyDDh2l5YSBTb2ZyYXPEsSDCtyBLYWTEsWvDtnkgR8O8bmXFn2xpYmFow6dl5bqXCgotIOWcsOWdgO+8mkNhZmVyYcSfYSwgR8O8bmXFn2xpYmFow6dlIFNva2FrIE5vOjQzLCBLYWTEsWvDtnksIMSwc3RhbmJ1bCAzNDcxMAotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPSVDMyU4N2l5YSUyMFNvZnJhcyVDNCVCMSUyMEclQzMlQkNuZSVDNSU5RmxpYmFoJUMzJUE3ZSUyMFNva2FrJTIwNDMlMjBLYWQlQzQlQjFrJUMzJUI2eSUyMElzdGFuYnVsKQotIOeCueWNle+8mumAieS4gOS7veW9k+aXpeWuiee6s+aJmOWIqeS6mueCluiPnO+8i+exs+mlre+8m+eci+afnOWPsOiuoeS7t++8jOWFiOmXruavj+S7vS/mjInph43ph4/jgILlj6/nlKjlj4nli7rjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTY14oCTMTIw77yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5a6Y572R56Gu6K6kS2FkxLFrw7Z56bG85biC5YaF5aSa5a62w4dpeWHnm7jpgrvvvIzmnKrlj5blvpflj6/moLjnjrDooYzmlbDlrZfoj5zljZXjgIIKLSDokKXkuJrvvJrokKXkuJrml7bmrrXmnKrlj5blvpfkuIDmiYvor4Hmja7jgIIKLSDmoLjlrp7ovrnnlYzvvJrlrpjnvZHnoa7orqTpsbzluILkvY3nva7kuI7ppJDljoXlk4HniYzvvIzpl6jniYznlLHlupflrrbnrqHnkIbotYTmlpnooaXlhYXvvIznjrDku7fmnKrmoLjjgIIKLSDmmK/kvZPpqozljYfnuqflpIfpgInvvIzpooTnrpfpq5jkuo7lt6XljKDpo5/loILjgIIKLSDorqTlh4ZTb2ZyYXPEseS4jjQz5Y+377yM6ZmE6L+R6L+Y5pyJw4dpeWEgS2ViYXDvvIzkuI3og73lj6rlr7zoiKrDh2l5YeOAggotIEQzM+WPquWcqOWOn0thZMSxa8O2eeW4guWcuuauteWGheWQg++8jOiLpeW9k+aXpeihjOeoi+aUueWKqOWImeS4jei3qOa1t+S4k+eoi+OAggotIOaPkuW6p+epuuiwg+WPiuivhOWIhuaVsOmHj+acquaguOOAggotIOadpea6kO+8mlvDh2l5YeWumOe9keS7i+e7jV0oaHR0cHM6Ly93d3cuY2l5YS5jb20udHIvKe+8m1vlupflrrbnrqHnkIbnmoTDh2l5YSBTb2ZyYXPEseWcsOWdgOi1hOaWmV0oaHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tLnRyL1Jlc3RhdXJhbnRfUmV2aWV3LWcyOTM5NzQtZDc3NjA2NS1SZXZpZXdzLUNpeWFfU29mcmFzaS1Jc3RhbmJ1bC5odG1sKQoKIyMjIOi1q+WwlOagvOi+viDCtyBTdGFyIEZpc2ggUmVzdGF1cmFudCDCtyBTaGVyYXRvbiBTdHJlZXTkuLvlupcKCi0g5Zyw5Z2A77yaU2hlcmF0b24gU3RyZWV0LCBvcHBvc2l0ZSBXYWhpYiBTdG9yZXMsIEh1cmdoYWRhCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249U3RhciUyMEZpc2glMjBSZXN0YXVyYW50JTIwU2hlcmF0b24lMjBTdHJlZXQlMjBXYWhpYiUyMFN0b3JlcyUyMEh1cmdoYWRhKQotIOeCueWNle+8muWFiOmXrua1t+mynOaxpOS7t+agvO+8jOaIlumXruS4gOS7veW4puexs+mlreeahOmxvOaOki/lsI/psbzlm7rlrprlpZfppJDvvJvmlbTpsbznp7Dph43lhYjmoLjmr4/lhazmlqTku7fjgIHph43ph4/lkozliqDlt6XotLnjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTQ14oCTOTDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjmlrnlupflnYDkuI7mtbfpspzoj5zljZXlhaXlj6Plj6/mn6XvvIzmnKrlj5blvpflj6/moLjlrp7lvZPliY3ku7fljZXvvJvkuI3nhafmkKwyMOWFg+a1t+mynOa1k+axpOOAggotIOiQpeS4mu+8muacquWPluW+l+WumOaWueWFt+S9k+iQpeS4muaXtumXtOOAggotIOaguOWunui+ueeVjO+8muWumOe9keWIhuW6l+S9jee9ruaYjuehru+8m+mihOeul+S7heWNleS6uumkkOmjn+inhOWIku+8jOmlruaWmeWPpuiuoeOAggotIOmUgeWumlNoZXJhdG9u6KGX5Li75bqX77yM5LiN5a+86Iiq5YiwU2FobCBIYXNoZWVzaOaIlumFkuW6l+WGheWIhuW6l+OAggotIOWumOaWuemFkuW6l+WGhU5ldmVybGFuZC9CZWFjaCBBbGJhdHJvcy9DaXRhZGVsL1NlcmVuaXR55bqX6aG757uP5Li75bqX5o+Q5YmN6IGU57O777yM5LiN5L2c5Li66Ieq55Sx5q2l5YWl5pu/5Luj44CCCi0g5rW36bKc55So5YiA5Y+J77yM5Yml6Jm+5ZCO5rSX5omL5YaN5ou/55u45py644CCCi0g5Lu35qC844CB56m66LCD44CB5o+S5bqn5pyq5qC477yb5LiA5qyh5L2T6aqM5Y2z5Y+v77yM5LiN55So5L2c5aSp5aSp5L2O5Lu36aSQ44CCCi0g5p2l5rqQ77yaW1N0YXIgRmlzaOWumOaWueWIhuW6l+ihqF0oaHR0cHM6Ly9zdGFyZmlzaC1yZXN0YXVyYW50cy5jb20vYnJhbmNoZXMvKe+8m1tTdGFyIEZpc2jlrpjnvZHoj5zljZXlhaXlj6NdKGh0dHBzOi8vc3RhcmZpc2gtcmVzdGF1cmFudHMuY29tLykKCiMjIyDljaLlhYvntKIgwrcgQWwtU2FoYWJ5IExhbmUgUmVzdGF1cmFudCDCtyBOZWZlcnRpdGkgSG90ZWzlsYvpobblupcKCi0g5Zyw5Z2A77yaTmVmZXJ0aXRpIEhvdGVsLCBBbC1TYWhhYnkgU3RyZWV0LCB2aWEgS2FybmFrIFRlbXBsZSBTdHJlZXQsIEVhc3QgQmFuaywgTHV4b3IKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1BbCUyMFNhaGFieSUyMExhbmUlMjBSZXN0YXVyYW50JTIwTmVmZXJ0aXRpJTIwSG90ZWwlMjBBbCUyMFNhaGFieSUyMFN0cmVldCUyMEx1eG9yKQotIOeCueWNle+8muaJgeixhuaxpO+8i+m4oeiCiUZyZWVrZWjlsI/puqbpmbbplIUv6bih6IKJ6aWt6YCJ5LiA77yb6Iul6aKE566X57Sn5Y+q54K55LiA5Lu95Li76aOf44CCS2Fya2FkZWjmtJvnpZ7oirHppa7lj6borqHjgIIKLSDljZXkurrkuIDppJDpo5/nianop4TliJLvvJrCpTQw4oCTNjXvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjnvZHnlLXlrZDoj5zljZXvvJrmiYHosYbmsaQ4MCBFR1DjgIHpuKHogolGcmVla2Vo6Zm26ZSFMzUwIEVHUOOAgeWNium4oTM4MCBFR1DjgIHnsbPppa01MCBFR1DvvJtLYXJrYWRlaDcwIEVHUOOAgeawtDI1LzUwIEVHUOWPpuiuoeOAgue9kemhteivu+WPluaXpTIwMjYtMTEtMDXvvIwyMDI35aSN5qC444CCCi0g6JCl5Lia77ya5a6Y572R6KaB5rGC6IGU57O75Zui6Zif56Gu6K6k5pyN5Yqh5pe26Ze077yM5pyq6ZSB5YW35L2T6JCl5Lia5pe25q6144CCCi0g5qC45a6e6L6555WM77ya5a6Y5pa55Zyw5Z2A44CB6I+c5Y2V5Y6f5biB5Lu35qC85ZKM6Zyy5Y+w5oCn6LSo5bey5qC444CCCi0g5piO56Gu5piv5bGL6aG26Zyy5Y+w77yM5LiN6IO95b2T5oiQ5bey5qC45by656m66LCD5Y2I5LyR6aSQ5Y6F44CC5LyY5YWIRDQ0L0Q0NeaZmumkkO+8jOWNiOmXtOimgeWGt+awlOWwseWbnuWunumZhemdkuaXheOAggotIOmkkOWOheaciealvOairy/pnLLlj7Dnjq/looPvvIzlhYjpl67pmLTlh4nlrqTlhoXmmK/lkKblj6/nlKjvvJvkuI3kv53or4HluqfkvY3miJbmj5LluqfjgIIKLSBENDbotbbngavovabliY3liKvkuLrmma/op4LppJDogL3or6/lj5bljIXjgIIKLSDmnaXmupDvvJpbQWwtU2FoYWJ56aSQ5Y6F5a6Y5pa55L2N572u5ZKM5bGL6aG2546v5aKDXShodHRwczovL3d3dy5uZWZlcnRpdGlob3RlbC5jb20vYWwtc2FoYWJ5LWxhbmUtcmVzdGF1cmFudCnvvJtbQWwtU2FoYWJ55a6Y5pa56I+c5Y2VXShodHRwczovL3d3dy5uZWZlcnRpdGlob3RlbC5jb20vb3VyLW1lbnUpCgojIyMg6Zi/5pav5pe6IMK3IE1ha2thIC8gTWVra2EgUmVzdGF1cmFudCDCtyBBYnRhbCBFbCBUYWhyaXLlupcKCi0g5Zyw5Z2A77yaMTQzIEFidGFsIEVsIFRhaHJpciBTdHJlZXQsIERvd250b3duLCBBc3dhbu+8iEVneXB0aWFuIFN5bmRpY2F0ZSBvZiBFbmdpbmVlcnPlpKfmpbzlr7npnaLvvIkKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1NYWtrYSUyMFJlc3RhdXJhbnQlMjAxNDMlMjBBYnRhbCUyMEVsJTIwVGFocmlyJTIwQXN3YW4pCi0g54K55Y2V77ya5LiA5Lu954Ok6bih6YWN57Gz6aWt77yM5YWI6Zeu5Y2V5Lq65Lu95LiO6YWN6I+c5oC75Lu377yb5rGk44CB5rKZ5ouJ5piv5ZCm5YyF5ZCr546w5Zy656Gu6K6k44CCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqUyNeKAkzUw77yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5pyq5Y+W5b6X5bqX5a625LiA5omL546w6KGM6I+c5Y2V77yM5Lu344CB56iO5LiO5pyN5Yqh6LS55Z2H5b6F5qC444CCCi0g6JCl5Lia77ya5pyq5Y+W5b6X5a6Y5pa56JCl5Lia5pe26Ze044CCCi0g5qC45a6e6L6555WM77ya5LuF5bqX5ZCN44CBMTQz5Y+35Zyw5Z2A5ZKM55S16K+d5Y+v5Lqk5Y+J5qC45a+577yb5Lu35qC844CB6JCl5Lia44CB6aSQ5Y6F56m66LCDL+aPkuW6p+aXoOS4gOaJi+ivgeaNruOAggotIOi/meaYr+aciemZkOaguOWunuWAmemAie+8jOS9jee9rueUseebruW9leS6pOWPieehruiupO+8m+S4jeagh+S4uuWumOaWueW3suaguOS7t+aIluW8uuepuuiwg+OAggotIOWFiOmXrua4heaYr+WQpuacieato+WcqOW8gOaUvueahOepuuiwg+WupOWGheWMuuOAggotIEQ0OOaXqeaZmumkkOmhu+S4jeaZmuS6juWOn+WPluWMhS/miqXliLDml7bpmZDvvIzpgL7ml7blsLHlpJbluKbjgIIKLSDmnaXmupDvvJpb5Z+D5Y+KWWVsbG93IFBhZ2Vz5YW35ZCN5bqX5Z2A5LiO55S16K+dXShodHRwczovL3llbGxvd3BhZ2VzLmNvbS5lZy9lbi9wcm9maWxlL21la2thLXJlc3RhdXJhbnQvMjg5MTQ0Ke+8m1tUcmlwYWR2aXNvcuWcsOWdgOS6pOWPieaguOWvue+8iOmdnuW6l+WutuW3suiupOivge+8iV0oaHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tL1Jlc3RhdXJhbnRfUmV2aWV3LWcyOTQyMDQtZDE5NjMwNjEtUmV2aWV3cy1NYWtrYV9SZXN0YXVyYW50LUFzd2FuX0Fzd2FuX0dvdmVybm9yYXRlX05pbGVfUml2ZXJfVmFsbGV5Lmh0bWwpCgojIyMg5byA572XIMK3IEtvc2hhcnkgQWJvdSBUYXJlayDCtyBTaGFtYmxpb27luILkuK3lv4PmgLvlupcKCi0g5Zyw5Z2A77yaMTYgTWFhcm91ZiBTdHJlZXQsIGludGVyc2VjdGlvbiBvZiBDaGFtcGlsbGlvbiBTdHJlZXQsIERvd250b3duIENhaXJv77yb6L+RR2FtYWwgQWJkZWwgTmFzc2Vy5Zyw6ZOB56uZCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249S29zaGFyeSUyMEFib3UlMjBUYXJlayUyMDE2JTIwTWFhcm91ZiUyMENoYW1waWxsaW9uJTIwRG93bnRvd24lMjBDYWlybykKLSDngrnljZXvvJrkuIDku73lsI8v5Lit56KXS29zaGFyeeaJgeixhuexs+mlremAmuW/g+eyie+8m+i+o+mFseWSjOiSnOmGi+WNleeLrOaUvu+8jOWFiOWwkemHj+OAgueUqOWLuuWQg++8jOmlruaWmeWPpuiuoeOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMTXigJMzMO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keWIhuW6l+mhteWPr+aguDE2IE1hYXJvdWbmgLvlupfvvIzmnKrlj5blvpflvZPliY3lrpjmlrk2NSBFR1DmiqXku7fvvJtHZW1pbmk2NSBFR1Dlj6rmmK/mnKror4HnjrDku7fvvIzkuI3og73plIHlrprjgIIKLSDokKXkuJrvvJrmnKrlj5blvpflj6/moLjkuIDmiYvokKXkuJrml7bpl7TjgIIKLSDmoLjlrp7ovrnnlYzvvJrlrpjmlrnntKLlvJXkuK3nmoTlhbflkI3liIblupflnLDlnYDlt7LmoLjvvIzlrp7ml7boj5zljZXmnKrlj5blvpfvvJsyMDI35Lu35LiO6JCl5Lia6YeN5qC444CCCi0g5Y+q5Zyo5byA572XRG93bnRvd27lm57lrr/mlrnlkJHlpI3nlKjvvIzkuI3og73np7DlkInokKjph5HlrZfloZQvR0VN6Zeo5Y+j6aG66Lev44CCCi0gRDUx5Y2I6aSQ5LyY5YWI6aaG5YaF77yM5LiN6IO95Li65pys5bqX5Lit6YCU6YCA5Ye6R0VN44CCCi0gRDQ55aSc5be05ZCO5LiN5Li65LqG572R57qi5bqX6aKd5aSW6LW26Lev44CCCi0gR29vZ2xl6K+E5YiG5pWw6YeP44CB56m66LCD44CB5o+S5bqn5pyq5qC444CCCi0g5p2l5rqQ77yaW0Fib3UgVGFyZWvlrpjmlrnogZTns7vkuI7liIblupddKGh0dHBzOi8vd3d3Lmtvc2hhcnktYWJvdXRhcmVrLmNvbS9lbi9jb250YWN0LXVzKe+8m1tBYm91IFRhcmVr5a6Y5pa55YWl5Y+jXShodHRwczovL3d3dy5rb3NoYXJ5LWFib3V0YXJlay5jb20vZW4pCgojIyMg6L+q5oucIMK3IEFyb29zIERhbWFzY3VzIMK3IEFsIE11cmFxcWFiYXQgLyBEZWlyYeW6lwoKLSDlnLDlnYDvvJpHcmVlbiBQYWxhY2UgSG90ZWwgR3JvdW5kIEZsb29yLCBBbCBNdXJhcXFhYmF0IFJvYWQsIERlaXJhLCBEdWJhaQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUFyb29zJTIwRGFtYXNjdXMlMjBHcmVlbiUyMFBhbGFjZSUyMEhvdGVsJTIwQWwlMjBNdXJhcXFhYmF0JTIwRGVpcmElMjBEdWJhaSkKLSDngrnljZXvvJrljZXku73puKHogolTaGF3YXJtYeaIluWwj+S7veeDpOm4oemlre+8m+WFiOmXrumFjeiPnOS7vemHj+WSjOWNleS6uuS7t+OAgueJueiJsuaXoOmFkueyvumlruWTgeWNleeLrOaguOS7t+OAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMzXigJM3MO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keiPnOWNlemhteaaguaXoOaVsOWtl+iPnOWNle+8iE5vIHBvc3RzIGZvdW5k77yJ77yM5LiN5oqKR2VtaW5pNDjlhYPpuKHogonmi7znm5jlvZPnjrDku7fjgIIKLSDokKXkuJrvvJrlrpjmlrnliIblupfooajliJdBbCBNdXJhcXFhYmF0IDA3OjAw4oCT5qyh5pelMDQ6MDDvvIwyMDI35aSN5qC444CCCi0g5qC45a6e6L6555WM77ya5a6Y5pa55YW35L2T5YiG5bqX5Y+K5pe26Ze05Y+v5qC477yM5Lu35qC85pyq5qC444CCCi0gRDUz5LuF5Zyo5a6e6ZmF6Z2S5peF5L2PRGVpcmHkuJTpobrot6/ml7bnlKjvvIzkuI3miopDcmVlay9CdXIgRHViYWnnrYnlkIxEZWlyYeOAggotIEQ1NeiLpeWFqOaXpeWcqER1YmFpIE1hbGzkuI3kuLrmnKzlupfnu5XooYzvvJvnlZnkvZzlm55EZWlyYeS9j+Wuv+aZmumkkOabv+S7o+OAggotIOWGt+awlOS4juaPkuW6p+S7jemcgOmXruW6l++8jOWklumDqOivhOWIhuS4jeWkjeWItuOAggotIOWNt+mlvOmcgOS4iuaJi++8jOWFiOaUtuebuOacuu+8jOeUqOmkkOW3vue6uOOAggotIOadpea6kO+8mltBcm9vc+WumOaWueWIhuW6l+WcsOWdgOWSjOiQpeS4ml0oaHR0cHM6Ly9hcm9vc2RhbWFzY3VzLmFlL2xvY2F0aW9ucy8p77ybW0Fyb29z5a6Y5pa56I+c5Y2V5YWl5Y+jXShodHRwczovL2Fyb29zZGFtYXNjdXMuYWUvbWVudS8p77ybW+i/quaLnOaXhea4uOWxgOWIhuW6l+WcsOWdgF0oaHR0cHM6Ly93d3cudmlzaXRkdWJhaS5jb20vZW4vcmVzdGF1cmFudHMvYXJvb3MtZGFtYXNjdXMpCgojIyMg6L+q5oucIMK3IEFsIE1hbGxhaCBEaGl5YWZhaCDCtyBTYXR3YSAvIEFsIEh1ZGFpYmHlupcKCi0g5Zyw5Z2A77yaQWwgRGhpeWFmYSBSb2FkIC8gMm5kIERlY2VtYmVyIFN0cmVldCwgQWwgSHVkYWliYSwgRHViYWkKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1BbCUyME1hbGxhaCUyMERoaXlhZmFoJTIwQWwlMjBIdWRhaWJhJTIwMm5kJTIwRGVjZW1iZXIlMjBTdHJlZXQlMjBEdWJhaSkKLSDngrnljZXvvJrpooTnrpflkIPms5XpgInljZXku73puKHogolTaGF3YXJtYe+8m+aUueWWhOmkkOWPr+mAieWumOe9keWNium4oemkkOaIlua3t+eDpOmkkOOAgumynOamqOeJm+ayueaenOmlruWPpuiuoe+8jOS4jem7mOiupOavj+WkqeeCueOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMzDigJM4Ne+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWumOe9keWIl+WNium4oemkkDQwIEFFROOAgTPkuLLmt7fng6TppJA0MCBBRUTjgIHml6nppJDlpZfppJAyNyBBRUTvvJvlrpjnvZHmnKrnu5nlvZPliY3ljZXljbc5IEFFROivgeaNruOAguWMuumXtOS4i+err+S7heWNleWNt+mkkOinhOWIkuOAgeS4iuerr+aYr+Wll+mkkOinhOWIku+8jOmlruWTgeWPpuiuoeOAggotIOiQpeS4mu+8muWumOe9keWIl+WRqOWFreKAk+WRqOWbmzA3OjAw4oCT5qyh5pelMDI6MDDvvIzlkajkupQwOTowMOKAk+asoeaXpTAyOjAw77yb5LiN5pivMjTlsI/ml7bjgIIKLSDmoLjlrp7ovrnnlYzvvJrlrpjmlrnoj5zku7flj4rokKXkuJrlj6/moLjvvIzooZflnYDnlLHnm67lvZXooaXlhYXvvJvku4XnlZnpobrot6/mnaHku7blpIfpgInjgIIKLSBTYXR3YeWIhuW6l+S4jeWcqER1YmFpIE1hbGwvRGVpcmHmraXooYzliqjnur/kuIrvvIzkuI3kuLrlhbblop7liqDkuJPpl6jmiZPovabjgIIKLSDlrpjnvZHlvLrosIPkuLTooZfluqfkvY3vvIzkuI3kv53or4HlvLrnqbrosIPvvJvlhYjor6LlrqTlhoXluK3kvY3lkozmj5LluqfjgIIKLSA5IEFFROWNt+mlvOWSjDIgQUVEIEthcmFr5bCa5pyq6I635b6X6K+l5bqX5LiA5omL5Lu35qC877yM5LiN5L2c5Li66ZSB5Lu344CCCi0g5p2l5rqQ77yaW0FsIE1hbGxhaOWumOaWueiPnOWNleS4juiQpeS4muWPguiAg10oaHR0cHM6Ly93d3cuYWxtYWxsYWh1YWUuY29tLynvvJtb5YiG5bqX5Zyw5Z2A6KGl5YWF5qC45a+5XShodHRwczovL3d3dy5lbWlyYXRlcy1vbmxpbmUubmV0L0VuZ2xpc2gvaXRlbS9hbC1tYWxsYWgtZGhpeWFmYWgpCgojIyMg6L+q5oucIMK3IEFMQkFJSyDCtyBEdWJhaSBNYWxsIFNlY29uZCBGbG9vcuW6lwoKLSDlnLDlnYDvvJpEdWJhaSBNYWxsLCBTZWNvbmQgRmxvb3IgZm9vZCBjb3VydO+8m+mdoFA3IENpbmVtYSBQYXJraW5nCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249QUxCQUlLJTIwRHViYWklMjBNYWxsJTIwU2Vjb25kJTIwRmxvb3IlMjBGb29kJTIwQ291cnQlMjBQNyUyMENpbmVtYSUyMFBhcmtpbmcpCi0g54K55Y2V77ya6YCJ5LiA5Lu95Y2V5Lq66bih6IKJ6aSQL+m4oeWdl+mkkO+8jOS8mOWFiOaMieafnOWPsOWll+mkkOeJjOeCue+8jOS4jemineWkluWPoOWkmuS7veWwj+WQg++8m+eUqOWPieWtkOaIluWQg+WQjua0l+aJi+OAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMjXigJM0Ne+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8muWVhuWcuuWumOaWuemhteehruiupOWIhuW6l+WPiuiPnOWNleWFpeWPo++8jOS9huaMguWHuueahOaXp1BERumdnjIwMjbmlrDku7fvvJvkuI3mi7/ml6foj5zljZXplIEyMDI36YeR6aKd44CCCi0g6JCl5Lia77ya6Zeo5bqX5b2T5YmN5YW35L2T5pe26Ze05pyq54us56uL5qC45a6e77yM5LiN6IO9566A5Y2V5Lul5ZWG5Zy65pe26Ze05pu/5Luj44CCCi0g5qC45a6e6L6555WM77ya5a6Y5pa55LqM5bGC5YiG5bqX44CB5b2x6ZmiUDfmlrnlkJHlt7LmoLjvvIzlvZPliY3mlbDlrZfoj5zljZXmnKrmoLjjgIIKLSBENTXljYjppJDlj6/nm7TmjqXmm7/mjaLllYblnLrljLrln5/ppJDvvIzmjpLpmJ/otoXov4cxNeKAkzIw5YiG6ZKf5bCx5o2i5ZCM5bGC5YW35ZCN6L+e6ZSB5bqX77yM5LiN6Leo5Z+O6KeF6aOf44CCCi0g5LiN5LuO5pCc57Si5bm/5ZGK6L+b5YWl5LiN5piOQUxCQUlL5LyY5oOg5pSv5LuY56uZ44CCCi0g576O6aOf5bm/5Zy65a6k5YaF5Y+v5LyR5oGv77yM5L2G56m65L2N5ZKM5o+S5bqn5LiN5L+d6K+B77yb5rC05Y+m6K6h44CCCi0g5p2l5rqQ77yaW0R1YmFpIE1hbGzlrpjmlrlBTEJBSUvliIblupfkuI7mpbzlsYJdKGh0dHBzOi8vdGhlZHViYWltYWxsLmNvbS9lbi9zaG9wL2FsYmFpaynvvJtbRW1hYXIgTWFsbHPlrpjmlrnlupfpk7pdKGh0dHBzOi8vd3d3LmVtYWFybWFsbHMuYWUvbWFsbHMtc2hvcC1kZXRhaWxzL2R1YmFpLW1hbGwvYWxiYWlrLykKCiMjIyDpmL/luIPmiY7mr5QgwrcgTXVzZXVtIENhZsOpIMK3IExvdXZyZSBBYnUgRGhhYmnppoblhoXlupcKCi0g5Zyw5Z2A77yaTG91dnJlIEFidSBEaGFiaSwgU2FhZGl5YXQgQ3VsdHVyYWwgRGlzdHJpY3QsIFNhYWRpeWF0IElzbGFuZCwgQWJ1IERoYWJpCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249TXVzZXVtJTIwQ2FmZSUyMExvdXZyZSUyMEFidSUyMERoYWJpJTIwU2FhZGl5YXQlMjBJc2xhbmQpCi0g54K55Y2V77ya5YWI55yLR3JhYiAmIEdv5p+c5Y+w55qE5Y2V5Lu95LiJ5piO5rK7L+aymeaLieaIlui9u+mjn++8jOS4jeeCuemFku+8m+WPr+ebtOaOpeaKikQ1NOWNoua1ruWuq+WJjeWNiOmkkOWuieaOkuWcqOatpOOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlOTDigJMxNDDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjmlrnnoa7orqRHcmFiICYgR2/lj4rppJDljoXlrZjlnKjvvJvlvZPliY3lj6/moLjoj5zljZXlhaXlj6PmnKrlj5blvpfmmI7noa7mlrDku7fvvIzpooTnrpfmmK/ppoblhoXppJDop4TliJLpop3vvIzkuI3og73lvZPlubPku7fpo5/loILjgIIKLSDokKXkuJrvvJrlrpjnvZHliJflkajkuIDigJPlm5sxMDowMOKAkzE5OjAw77yI5pyr54K5MTg6MTXvvInvvIzlkajkupTigJPml6UxMDowMOKAkzIxOjAw77yI5pyr54K5MjA6MDDvvInjgIJENTTkuLrlkajlm5vvvIwyMDI35aSN5qC444CCCi0g5qC45a6e6L6555WM77ya5a6Y5pa55L2N572u44CB6L276aOf5Lqn5ZOB57G75Z6L5ZKM6JCl5Lia5Y+v5qC477yM6aSQ5Lu35pyq5qC477yb6aWu5ZOB5Y+m6K6h44CCCi0g5L2N5LqO5Y2i5rWu5a6r77yM5LiN5piv5aSn5riF55yf5a+65Zyw5LiL5ZWG5Z+O44CCCi0g6Iul5YWI5qOA56Wo5omN6IO96L+b6aSQ5Y6F77yM5bqU5oqK5qOA56Wo5YmN56e777yM5LiN5YWI5ZCD5YaN6YeN5aSN5qOA56Wo77yb5YeG5YWl5Lul6aaG5pa56KeE5YiZ5Li65YeG44CCCi0g6aaG5YaF5Lu35Y+v6IO96auY77yM6aKE566X57Sn5pS55riF55yf5a+6U291cSBBbCBKYW1pIE1jRG9uYWxkJ3PvvIzpobvlhYjlkIPlkI7np7vliqjlubbosIPmlbTml7bmrrXjgIIKLSDkuI3og73miorppJDotLnnrpflhaXljZrnianppobpl6jnpajjgIIKLSDmnaXmupDvvJpbTG91dnJl5a6Y5pa5TXVzZXVtIENhZsOp5LiO6JCl5LiaXShodHRwczovL3d3dy5sb3V2cmVhYnVkaGFiaS5hZS9lbi92aXNpdC9tdXNldW0tY2FmZSkKCiMjIyDpmL/luIPmiY7mr5QgwrcgTWNEb25hbGQncyAvIE1jQ2Fmw6kgwrcgU291cSBBbCBKYW1p5riF55yf5a+65ri45a6i5Lit5b+D5bqXCgotIOWcsOWdgO+8mlNvdXEgQWwgSmFtaSBmb29kIGNvdXJ0LCBTaGVpa2ggWmF5ZWQgR3JhbmQgTW9zcXVlIFZpc2l0b3IgQ2VudHJlLCBBbCBNYXF0YWEsIEFidSBEaGFiaQotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPU1jRG9uYWxkJ3MlMjBNY0NhZmUlMjBTb3VxJTIwQWwlMjBKYW1pJTIwU2hlaWtoJTIwWmF5ZWQlMjBHcmFuZCUyME1vc3F1ZSUyMEFidSUyMERoYWJpKQotIOeCueWNle+8muWcqOemu+W8gOWkp+a4heecn+WvuuWJjeWQg+S4gOS7veWNleS6uum4oeiCieaxieWgoemkkOaIlueugOmkkO+8m+mkkOWQjuWGjeS5mOi9puWIsOWNoua1ruWuq+OAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMzXigJM2MO+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8mum6puW9k+WKs1VBReWumOaWuU1jQ2Fmw6npl6jlupfooajmmI7noa7liJdTb3VxIEFsIEphbWksIEFidSBEaGFiae+8m+acquWPluW+l+ivpeWIhuW6l+aVsOWtl+iPnOWNle+8jOaMieeOsOWcuuWll+mkkOeJjOOAggotIOiQpeS4mu+8muacquWPluW+l+ivpeWIhuW6l+WumOaWueiQpeS4muaXtumXtO+8m+S4jeWll+eUqOWPpuS4gOWutkFidSBEaGFiaSBNYWxs55qE5pe26Ze044CCCi0g5qC45a6e6L6555WM77ya5ZOB54mM5a6Y5pa56Zeo5bqX6KGo5LiO5riF55yf5a+65a6Y5pa56K6+5pa95Lqk5Y+J5qC45a+577yb6I+c5Y2V44CB5pe25q615b6F5qC444CCCi0g5q2k5Li6RDU055yB6ZKx5pu/5Luj77yM5b+F6aG75oqK5Y2I6aSQ56e75YiwMTE6MzDlt6blj7Plho3liY3lvoDljaLmta7lrqvvvIzkuI3og70xMjoxNeW3suWIsOWNoua1ruWuq+WPiOi/lOWbnuatpOW6l+OAggotIOaYr+aYjuehruWFt+WQjeeahOS+v+WIqeihpee7meW6l++8jOS4jeWGkuWFheW9k+WcsOW/heWQg+iPnOOAggotIOepuuiwg+WVhuWfjueOr+Wig+WPr+mAie+8jOS9huW6p+S9jS/lhYXnlLXmj5LluqfkuI3kv53or4HjgIIKLSDmnaXmupDvvJpb6bqm5b2T5YqzVUFF5a6Y5pa5TWNDYWbDqemXqOW6l+ihqF0oaHR0cHM6Ly93d3cubWNkb25hbGRzLmNvbS9hZS9lbi1hZS9tY2NhZmUtcmVzdGF1cmFudHMuaHRtbCnvvJtb5aSn5riF55yf5a+65a6Y5pa5U291cSBBbCBKYW1p6K6+5pa9XShodHRwczovL3d3dy5zemdtYy5nb3YuYWUvZW4vd29yc2hpcHBlcnMvZW4tdi1zb3VxLWFsLWphbWkpCgojIyMg5LyK5pav5Z2m5biD5bCUIMK3IEhheXZvcmUgwrcgQmV5b8SfbHUgVHVybmFjxLFiYcWfxLHlupcKCi0g5Zyw5Z2A77yaxLBzdGlrbGFsIENhZGRlc2ksIFR1cm5hY8SxYmHFn8SxIFNva2FrIE5vOjQsIEJleW/En2x1LCDEsHN0YW5idWwKLSBb5YW35L2T5YiG5bqX5a+86IiqXShodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZGlyLz9hcGk9MSZkZXN0aW5hdGlvbj1IYXl2b3JlJTIwVHVybmFjJUM0JUIxYmElQzUlOUYlQzQlQjElMjBTb2thayUyMDQlMjBCZXlvJUM0JTlGbHUlMjBJc3RhbmJ1bCkKLSDngrnljZXvvJrpu5HmtbflrrbluLjpo5/loILvvJrkuIDku71LdXJ1IEZhc3VseWXnmb3osYbngpboj5zvvIvnsbPppa3vvIzmiJbkuIDku73lvZPml6Xogokv6JSs6I+c54KW6I+c44CC5YWI55yL5b2T5pel5aWX6aSQ5Lu377yb55So5Yu65Y+J44CCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqU0NeKAkzg177yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5a6Y572R6ZO+5o6l5YiwUVJET1Poj5zljZXvvIzlj6/moLjnmb3osYbnsbPppa3lpZfppJDjgIHmiYHosYbmsaTjgIHnvr3ooaPnlJjok53ljbfnrYnvvIzlvZPliY3pobXpnaLmnKrmmL7npLrmlbDlrZfku7fmoLzvvJvmjInnjrDlnLrmmI7noIHjgIIKLSDokKXkuJrvvJrmnKrlj5blvpflj6/moLjlhbfkvZPokKXkuJrml7bmrrXvvIxEMzHmmZrppJDliY3lpI3moLjmmK/lkKbku43kvpvppJDjgIIKLSDmoLjlrp7ovrnnlYzvvJrlrpjmlrlCZXlvxJ9sdTTlj7flupflnLDlnYDlj4roj5zljZXlhaXlj6Plj6/moLjvvIznjrDku7fmnKrmoLjvvJvppa7msLTlj6borqHjgIIKLSBEMzHni6znq4vlpKfooZfmmZrppJDpobrot6/vvIzkuI3nlKjkuo5CZcWfaWt0YcWf5Y2I6aSQ56Gs5oqY6L+U44CCCi0g5LiN6KaB6K+v6YCJR2FsYXRhcG9ydOWPpuS4gOW6l+OAggotIOiPnOWNleS4juS7vemHj+W9k+aXpeWPmOWMlu+8jOepuuiwg+WPiuaPkuW6p+acquaguOOAggotIOadpea6kO+8mltIYXl2b3Jl5a6Y5pa55YW35L2T5Zyw5Z2AXShodHRwczovL3d3dy5oYXl2b3JlLmNvbS50ci9pbGV0aXNpbS8p77ybW0hheXZvcmXlrpjmlrnpk77mjqXnmoTppJDljoXoj5zljZVdKGh0dHBzOi8vcXJkb3MudHIvaGF5dm9yZSnvvJtbSGF5dm9yZeWumOe9keS4juiPnOWNleWFpeWPo10oaHR0cHM6Ly93d3cuaGF5dm9yZS5jb20udHIvKQoKIyMjIOS8iuaWr+WdpuW4g+WwlCDCtyBGb3JubyBCYWxhdCDCtyBGZW5lciBLaXJlw6doYW5l5bqXCgotIOWcsOWdgO+8mkJhbGF0IE1haGFsbGVzaSwgRmVuZXIgS2lyZcOnaGFuZSBTb2thayBObzoxMy9BLCBGYXRpaCwgxLBzdGFuYnVsCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249Rm9ybm8lMjBCYWxhdCUyMEZlbmVyJTIwS2lyZSVDMyVBN2hhbmUlMjBTb2thayUyMDEzJTIwQSUyMElzdGFuYnVsKQotIOeCueWNle+8muS4gOS7vUxhaG1hY3Vu6IKJ5pyr6JaE6aW85oiWUGlkZe+8i+aMiemcgOimgeWKoOaJgeixhuaxpO+8m+WNleS6uuS4jeeCueaVtOahjOaXqemkkOOAgumlruWTgUF5cmFu5Y+m6K6h44CCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqU0NeKAkzg177yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5a6Y572R5YiX5omB6LGG5rGk44CBTGFobWFjdW7jgIHlkITnsbtQaWRl5Y+KQXlyYW7nrYnvvIzlvZPliY3mloflrZfpobXmsqHmnInmlbDlrZfku7fvvIzlhYjnnIvmn5zlj7Av6I+c5Y2V5Zu+44CCCi0g6JCl5Lia77ya5YW35L2T6JCl5Lia5pe25q615pyq5Y+W5b6X77yb5a6Y572R6K+05piO6Ieq5Yqp5pep6aSQ5LuF5ZGo5YWt5pel77yMRDMy5ZGo5LiJ5LiN5aWX55So44CCCi0g5qC45a6e6L6555WM77ya5a6Y572R5ZyoQmFsYXTjgIHoj5zljZXlk4HnsbvlkozlnLDlm77lhaXlj6Plj6/moLjvvIzlhbfkvZPpl6jniYznlLHlnLDlm77kuqTlj4nvvJvnjrDku7flvoXmoLjjgIIKLSDmm7/mjaJEMzIgQmFsYXTljYjppJDvvIzlj6/lsLHlnLDlkIPvvIzkuI3kuLrljYjppJDov5Tlm55TaXJrZWNp44CCCi0gTGFobWFjdW7lj6/or7fliIflnZfnlKjliIDlj4nvvIzmiJbppJDlt77nurjljIXnnYDmi7/vvIzlhYjmlLbnm7jmnLrjgIIKLSDlrqTlhoXnqbrosIPlkozmj5LluqfmnKrmoLjvvIzppa3lkI7ku43kv53nlZnlm57lrr8v6Zi05YeJ5aSE5LyR5oGv5a6J5o6S44CCCi0g5p2l5rqQ77yaW0Zvcm5vIEJhbGF05a6Y572R6I+c5Y2V5LiO5Zyw5Zu+5YWl5Y+jXShodHRwczovL2Zvcm5vYmFsYXQuY29tLz9sYW5nPWVuKe+8m1vlrpjmlrnlnLDlm77lr7nlupQxMy9B6Zeo54mM55qE5a+86Iiq5Lqk5Y+JXShodHRwczovL3d3dy53YXplLmNvbS9saXZlLW1hcC9kaXJlY3Rpb25zL3RyL2klQ0MlODdzdGFuYnVsL2Zvcm5vLWJhbGF0JTJDLWklQ0MlODdzdGFuYnVsLXVuLWVuLWklQ0MlODd5aS1rYWh2YWx0aSUyQy1sYWhtYWN1bi12ZS1waXp6YS1hbmQtcGlkZS1tZWthbmxhcmklMkMtc2l6aW5sZSUyMT90bz1wbGFjZS5DaElKSFlmTjBnSzZ5aFFSZGJOT0RTVmFaSGcpCgojIyMg5LyK5pav5Z2m5biD5bCUIMK3IEthbmFhdCBMb2thbnRhc8SxIMK3IMOcc2vDvGRhciBTZWxtYW5pIFBha+aAu+W6lwoKLSDlnLDlnYDvvJpTdWx0YW50ZXBlIE1haGFsbGVzaSwgU2VsbWFuaSBQYWsgQ2FkZGVzaSBObzo5LCDDnHNrw7xkYXIsIMSwc3RhbmJ1bCAzNDY3NAotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUthbmFhdCUyMExva2FudGFzJUM0JUIxJTIwU2VsbWFuaSUyMFBhayUyMENhZGRlc2klMjA5JTIwJUMzJTlDc2slQzMlQkNkYXIlMjBJc3RhbmJ1bCkKLSDngrnljZXvvJrpooTnrpfpgInkuIDku73olKzoj5wv6LGG57G75a625bi46I+c77yL57Gz6aWt77yM5oiW5rGk77yL5LiA5Lu95Li76aOf77yb5YWI6Zeu5bCP5Lu95ZKM5oC75Lu377yM6YG/5byA5ZCM5pe254K554Ok6IKJ55Sc5ZOB5pW05aWX44CCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqU1MOKAkzkw77yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5a6Y572R56Gu6K6k5q+P5pel5a625bi454Ot6I+c44CB5qmE5qaE5rK55Ya36I+c5LiO55Sc5ZOB77yM5o+Q5L6b6I+c5Y2V5YWl5Y+j77yb546w6KGM5pWw5a2X6I+c5Y2V5pyq5Y+W5b6X77yM5LiN6IO956ew5pyA5L6/5a6c5bqX44CCCi0g6JCl5Lia77ya5a6Y572R5YiXMDc6MDDigJMyMjozMO+8jDIwMjfph43moLjvvJvlrpjmlrnmmI7noa7lj6rlnKjDnHNrw7xkYXLmraTlnLDlnYDnu4/okKXjgIIKLSDmoLjlrp7ovrnnlYzvvJrkuIDmiYs55Y+35oC75bqX44CB5ZOB57G75LiO6JCl5Lia5Y+v5qC477yM5Lu35qC85b6F5qC477yb5Y2V5Lq66aSQ6aOf6aKE566X6aWu5paZ5Y+m6K6h44CCCi0g5pS+RDMzw5xza8O8ZGFy5Lit5b+D57uP6L+H5pe277yM5Y67U2FsYWNha+S5i+WJjeWQg+aIlui/lOeggeWktOaXtuWQg++8jOS4jeWGmeaIkFNhbGFjYWvmtbfovrnlupfjgIIKLSDmmK/lsLHlnLDlrrbluLjppJDlpIfpgInvvIzmnKror4HmnIDkvY7ku7fvvJvoi6XotoXpooTnrpflsJHngrnkuIDpgZPvvIzkuI3og73pnaBJU0lD6Ieq5Yqo5omT5oqY44CCCi0g56m66LCD5ZKM5o+S5bqn5pyq5qC444CCCi0g5p2l5rqQ77yaW0thbmFhdOWumOaWueWcsOWdgOOAgeaXtumXtOS4juiPnOWNleWFpeWPo10oaHR0cHM6Ly93d3cua2FuYWF0bG9rYW50YXNpLmNvbS50ci8p77ybW0thbmFhdOWumOaWueaAu+W6l+ivtOaYjl0oaHR0cHM6Ly93d3cua2FuYWF0bG9rYW50YXNpLmNvbS50ci9oYWtraW1pemRhKQoKIyMjIOWuieWhlOWIqeS6miDCtyBDYW4gQ2FuIFBpZGUgJiBZZW1layBTYWxvbnUgwrcgQXLEsWsgQ2FkZGVzaeW6lwoKLSDlnLDlnYDvvJpIYcWfaW1pxZ9jYW4gTWFoYWxsZXNpLCBBcsSxayBDYWRkZXNpLCBBa2thxZ9vxJ9sdSBBcGFydG1hbsSxIE5vOjQvQSwgTXVyYXRwYcWfYSwgQW50YWx5YSAwNzEwMAotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPUNhbiUyMENhbiUyMFBpZGUlMjBZZW1layUyMFNhbG9udSUyMEFyJUM0JUIxayUyMENhZGRlc2klMjA0JTIwQSUyMEFudGFseWEpCi0g54K55Y2V77ya55yB6ZKx57uE5ZCI77ya5LiA5Lu9S8SxeW1hbMSxIFBpZGXogonmnKvoiLnppbzvvIzmiJbnmb3osYbngpboj5zvvIvnsbPppa3vvJvpnIDopoHml7bliqDmiYHosYbmsaTjgILnlKjliIDlj4nvvIxBeXJhbuWPpuiuoeOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlMzXigJM2Ne+8jOmlruawtOWSjOmlruWTgeWPpuiuoeOAggotIOiPnOWNleivgeaNru+8mumkkOWOheeUteWtkOiPnOWNleivu+WPljIwMjYtMTEtMDXvvJrmiYHosYbmsaQxMTAgVFJZ44CB55m96LGGMTgwIFRSWeOAgeexs+mlrTExMCBUUlnjgIHogonmnKtQaWRlMjgwIFRSWeOAgeiCieacq+iWhOmlvDE2MCBUUlnjgIFBeXJhbjYwIFRSWeOAgue9kemhteaXoOaYjuehrueUn+aViOaXpe+8jDIwMjflpI3moLjjgIIKLSDokKXkuJrvvJrppJDljoXnlLXlrZDoj5zljZXliJcxMDowMOKAkzIzOjMw77yM5ZGo5pel5LyR77ybRDI15ZGo5LiJ44CBRDI25ZGo5Zub5oyJ546w6KeE5YiZ5Y+v55So5L2G6aG7MjAyN+mHjeaguOOAggotIOaguOWunui+ueeVjO+8muWFt+WQjeW6l+S4jueUteWtkOiPnOWNleWOn+W4geS7t+OAgeiQpeS4muWPr+aguO+8jOmXqOeJjOeUseebruW9leihpeWFhe+8m+mlruWTgeWPpuiuoeOAggotIOavlEFsdMSxbmRhxJ9QaXlhemPEsUFobWV05pu06YCC5ZCIS2FsZWnDp2nkuJzkvqfnmoTooYznqIvvvIzku43mjInlrp7pmYXkvY/lrr/lh7rlj6PmoLjmraXooYzjgIIKLSBEMjXnlKjljYgv5pma6aSQ5YCZ6YCJ77yMRDI25Y+q5Zyo5Y675rG96L2m56uZ5YmN56qX5Y+j5aSf5pe25ZCD77yM5LiN5Y6L5oql5Yiw5L2Z6YeP44CCCi0g56m66LCD5ZKM5o+S5bqn5pyq5qC477yM5LiN5oqK5bqX5a6256uZ5YiX5Ye655qER29vZ2xl5YiG5pWw5YaS5YWF54us56uL5a6e5pe2R29vZ2xl5qC46aqM44CCCi0g5p2l5rqQ77yaW0NhbiBDYW7ppJDljoXnlLXlrZDoj5zljZXkuI7ml7bpl7RdKGh0dHBzOi8vd3d3LmNhbmNhbnBpZGV5ZW1lay5jb20vKe+8m1vpl6jniYzkuqTlj4nmoLjlr7ldKGh0dHBzOi8vYW50YWx5YWNpdHlndWlkZS5jb20vbWVrYW4vY2FuLWNhbi1waWRlLXZlLXllbWVrLXNhbG9udS8pCgojIyMgS2HFnyDCtyBLYcWfxLFtIFJlc3RhdXJhbnQgRXYgWWVtZWtsZXJpIMK3IEjDvGvDvG1ldCBDYWRkZXNp5bqXCgotIOWcsOWdgO+8mkFuZGlmbGkgTWFoYWxsZXNpLCBIw7xrw7xtZXQgQ2FkZGVzaSBObzoxMiwgS2F5bWFrYW1sxLHEn8SxbiBrYXLFn8Sxc8SxLCBLYcWfIDA3NTgwCi0gW+WFt+S9k+WIhuW6l+WvvOiIql0oaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2Rpci8/YXBpPTEmZGVzdGluYXRpb249S2ElQzUlOUYlQzQlQjFtJTIwUmVzdGF1cmFudCUyMEV2JTIwWWVtZWtsZXJpJTIwSCVDMyVCQ2slQzMlQkNtZXQlMjBDYWRkZXNpJTIwMTIlMjBLYSVDNSU5RikKLSDngrnljZXvvJrlrrbluLjng63oj5zmn5zlj7DpgInkuIDku73osYbnsbsv6JSs6I+c54KW6I+c77yL57Gz6aWt77yM5oiW5LiA5Lu95b2T5pel6IKJ6I+c77yb6Zeu5bCP5Lu95LiO5Lu96YeP77yM5LiN5oyJ6Ieq5Yqp6ZqP5Y+W6K+v57uT6LSm44CCCi0g5Y2V5Lq65LiA6aSQ6aOf54mp6KeE5YiS77yawqUzNeKAkzY177yM6aWu5rC05ZKM6aWu5ZOB5Y+m6K6h44CCCi0g6I+c5Y2V6K+B5o2u77ya5bqX5a62566h55CG55qE6aSQ5Y6F6LWE5paZ56Gu6K6k5a625bi46ZSF6I+c44CB6JSs6I+c44CB5Y236I+c562J5ZOB57G777yb5pyq5Y+W5b6X546w6KGM5Y6f5biB6I+c5Y2V5Lu35qC844CCCi0g6JCl5Lia77ya5pyq5Y+W5b6X5Y+v6Z2g5YW35L2T5pe26Ze077yb566h55CG6LWE5paZ5Ye6546wMDA6MDDigJMyMzo1OeWNoOS9jeW8j+aXtumXtO+8jOS4jeiDveaNruatpOensDI0aOOAggotIOaguOWunui+ueeVjO+8muW6l+WutueuoeeQhui1hOaWmeWPr+aguDEy5Y+35Zyw5Z2A44CB55S16K+d5Y+K6I+c5ZOB57G75Z6L77yM5pyq5Y+W5b6X5a6Y5pa5546w5Lu377yb6aWu5rC05Y+m6K6h44CCCi0gR2VtaW5p55qEw5Z6bGVtIExva2FudGFzxLHlnKhLYcWf5pyq6IO95qC45Yiw5Yy56YWN5bqX77yM5pCc57Si57uT5p6c5oyH5ZCRQmVyZ2FtYS/EsHptaXLmiJZLdW1sdWNh77yM5LiN5bqU55u05o6l5a+85YWl44CC5pS55Li65bey5qC4MTLlj7dLYcWfxLFt5YW35ZCN5YCZ6YCJ44CCCi0g5Lu35qC844CB6JCl5Lia44CB56m66LCD5o+S5bqn5Z2H5b6F5qC477yM5LiN6IO95L+d6K+B5q+UQmlMb2ttYeS+v+WunO+8jOWMuumXtOaYr+mihOeul+mAieaLqeOAggotIEQyOOeVmei2s+WPluWMheWSjOS4ikHEn3VsbHXmjqXpqbPml7bmrrXvvIzmjpLpmJ/otoUxNeWIhumSn+aNouWkluW4puOAggotIOadpea6kO+8mltLYcWfxLFt5bqX5a62566h55CG6LWE5paZ77ya5Zyw5Z2A44CB5ZOB57G75LiO55S16K+dXShodHRwczovL3d3dy50cmlwYWR2aXNvci5jb20udHIvUmVzdGF1cmFudF9SZXZpZXctZzI5Nzk2NS1kMjIxNjg3OC1SZXZpZXdzLUthc0ltX1Jlc3RhdXJhbnQtS2FzX1R1cmtpc2hfTWVkaXRlcnJhbmVhbl9Db2FzdC5odG1sKe+8m1sxMuWPt+WcsOWdgOS6pOWPieaguOWvuV0oaHR0cHM6Ly90ci5yZXN0YXVyYW50Z3VydS5jb20vS2FzaW0tRXYtWWVtZWtsZXJpLUthcy0yKQoKIyMjIOS8iuaWr+WdpuW4g+WwlCDCtyBUYXJpaGkgS2FyYWRlbml6IETDtm5lciDCtyBCZcWfaWt0YcWfIEvDtnlpw6dpNuW6lwoKLSDlnLDlnYDvvJpTaW5hbnBhxZ9hLCBLw7Z5acOnaSBDYWRkZXNpIE5vOjYsIEJlxZ9pa3RhxZ8sIMSwc3RhbmJ1bAotIFvlhbfkvZPliIblupflr7zoiKpdKGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9kaXIvP2FwaT0xJmRlc3RpbmF0aW9uPVRhcmloaSUyMEthcmFkZW5peiUyMERvbmVyJTIwQXNpbSUyMFVzdGElMjBLb3lpY2klMjBDYWRkZXNpJTIwNiUyMEJlc2lrdGFzJTIwSXN0YW5idWwpCi0g54K55Y2V77ya5Y2V5Lq654K5NzBn5bCP6Z2i5YyF5aS5RMO2bmVy77yM5oiWMTAwZyBEw7xyw7xt77yb6YWN5rC05Y2z5Y+v44CC5YWI6Zeu5Lu96YeP77yM5LiN6buY6K6kMTUwZ+Wkp+S7veOAggotIOWNleS6uuS4gOmkkOmjn+eJqeinhOWIku+8msKlNjDigJMxMDDvvIzppa7msLTlkozppa7lk4Hlj6borqHjgIIKLSDoj5zljZXor4Hmja7vvJrlrpjnvZHmoIfms6gyMDI2LTEwLTEw5pu05paw77yb6I+c5Y2V5Zu+5Lq65bel5p+l55yL77yaNzBn5Zub5YiG5LmL5LiA6Z2i5YyFMzYwVFJZ44CBNzBn5LiJ5piO5rK7MzgwVFJZ44CBODBn5Y2K6Z2i5YyFNDAwVFJZ44CBMTAwZ+WNt+mlvDUwMFRSWeOAgTEwMGfogonphY3ppa01ODBUUlnjgIHmsaQxMjBUUlnvvJvmsLQzMFRSWS9BeXJhbjYwVFJZ5Y+m6K6h44CCMjAyN+mHjeaguOOAggotIOiQpeS4mu+8muWumOe9keacquWIl+WPr+mdoOW8gOmXqC/llK7nvYTml7bpl7TvvJtEMzHljYjppJDliY3mn6XokKXkuJrvvIzmjpLpmJ/otoXov4cxNeWIhumSn+aUueiHquWkh+eugOmkkO+8jOS4jeetieWUrue9hOOAggotIOaguOWunui+ueeVjO+8muS4gOaJi+W6l+WdgOWPiuaghzIwMjYtMTAtMTDnmoToj5zljZXlm77lt7LmoLjvvJvokKXkuJrjgIHlvZPml6XkvpvppJDlkowyMDI35Lu35b6F5qC444CCCi0gRDMx5LuO5aSa5bCU546b5be06LWr5YiH5b6AQmXFn2lrdGHFn+S4reW/g+aWueWQkeWQg++8jOS4jeWbnlNpcmtlY2nlho3mipjov5TjgIIKLSDlupflsI/kuJTlj6/og73mjpLpmJ/vvIzkuI3kv53or4HnqbrosIPluqfkvY3jgIHlhYXnlLXmiJbljYjnnaHvvJvmraPljYjkvJHmga/lm57kvY/lrr8v5YW25LuW5bey56Gu6K6k5a6k5YaF56m66Ze044CCCi0g5Lq65rCR5biB5piv5Y2V6aSQ6aOf54mp55WZ6YeP77yM5pyq5oyJ5Zu65a6a5rGH546H5YaS5YWFMjAyN+aKpeS7t+OAggotIOadpea6kO+8mlvppJDljoXlrpjnvZHvvJo25Y+35Zyw5Z2A5LiOMjAyNi0xMC0xMOS7t+ihqOabtOaWsF0oaHR0cHM6Ly90YXJpaGlrYXJhZGVuaXpkb25lcmFzaW11c3RhLmNvbS8p77ybW+WumOe9keiPnOWNleWOn+Wbvu+8muS7vemHj+S4juWOn+W4geS7t10oaHR0cHM6Ly90YXJpaGlrYXJhZGVuaXpkb25lcmFzaW11c3RhLmNvbS9rY2FsZ29yc2VsLnBuZykKCiMjIOmkkOi0ueinhOWIkuWkjeeulwoK5oyJ5Li75o6o6I2Q6YCJ5oup44CB5YW25L2Z55So6Ieq5aSHL+WOqOaIv+eugOmkkO+8jDU35aSp6aOf54mp5ZKM6aWu5rC055WZ6YeP5ZCI6K6h57qmNDI3NeKAkzc0ODjlhYPjgILlj6rmmK/op4TliJLljLrpl7TvvIzmsqHmnIkyMDI36ZSB5Lu377yb5Y6fMzM0MOWFg+S4u+mihOeul+acquiHquWKqOaUueWGmeOAguacquaJo+acquehruiupOeahOWQq+aXqS/kuInpob/lm6LppJDvvIzkuI3kvb/nlKjlrabnlJ/ppJDppa7mipjmiaPjgIIKCnzlpKl85Z+O5biCfOaXqemkkHzljYjppJB85pma6aSQfOmlruawtC/ppa7lk4F85ZCI6K6h77yI5YWD77yJfAp8LS0tfC0tLXwtLS18LS0tfC0tLXwtLS18LS0tfAp8RDF85p2t5beefDjigJMxMnwxNeKAkzI1fDIw4oCTMzB8NuKAkzEwfDQ54oCTNzd8CnxEMnzmna3lt558OOKAkzEyfDE14oCTMjV8MjDigJMzMHw24oCTMTB8NDnigJM3N3wKfEQzfOS8iuWugXw44oCTMTJ8MTXigJMyNXwzNeKAkzYwfDbigJMxMHw2NOKAkzEwN3wKfEQ0fOmYv+aLieacqOWbvnw44oCTMTV8MTjigJMyOHwyNeKAkzQ1fDfigJMxMnw1OOKAkzEwMHwKfEQ1fOmYv+aLieacqOWbvnw44oCTMTV8MjXigJM0NXwyNeKAkzQ1fDfigJMxMnw2NeKAkzExN3wKfEQ2fOmYv+aLieacqOWbvnw44oCTMTV8MTjigJMyOHwyNeKAkzQ1fDfigJMxMnw1OOKAkzEwMHwKfEQ3fOmYv+aLieacqOWbvnw44oCTMTV8MjXigJM0NXwyMOKAkzMwfDfigJMxMnw2MOKAkzEwMnwKfEQ4fOWhlOS7gOW5snw34oCTMTJ8MzXigJM1NXwyMOKAkzMwfDfigJMxMnw2OeKAkzEwOXwKfEQ5fOW4g+WTiOaLiXw34oCTMTJ8MzDigJM1NXwzMOKAkzU1fDfigJMxMnw3NOKAkzEzNHwKfEQxMHzluIPlk4jmi4l8N+KAkzEyfDUw4oCTODV8MzDigJM1NXw34oCTMTJ8OTTigJMxNjR8CnxEMTF85pKS6ams5bCU572VfDfigJMxMnw1MOKAkzg1fDIw4oCTMzB8N+KAkzEyfDg04oCTMTM5fAp8RDEyfOaSkumprOWwlOe9lXw34oCTMTJ8MTjigJMyOHw1MOKAkzg1fDfigJMxMnw4MuKAkzEzN3wKfEQxM3zloZTku4DlubJ8N+KAkzEyfDE44oCTMjh8MzXigJM1NXw34oCTMTJ8NjfigJMxMDd8CnxEMTR85be05bqTfDEw4oCTMTZ8MjDigJMzMHw1MOKAkzgwfDfigJMxMnw4N+KAkzEzOHwKfEQxNXzlt7TlupN8MTDigJMxNnwyMOKAkzMwfDUw4oCTODB8N+KAkzEyfDg34oCTMTM4fAp8RDE2fOW3tOW6k3wxMOKAkzE2fDUw4oCTODV8MjXigJMzNXw34oCTMTJ8OTLigJMxNDh8CnxEMTd856ys5q+U5Yip5pavfDjigJMxMnwxOOKAkzI4fDQw4oCTNzV8N+KAkzEyfDcz4oCTMTI3fAp8RDE4fOesrOavlOWIqeaWr3w44oCTMTJ8MTjigJMyOHw0MOKAkzc1fDfigJMxMnw3M+KAkzEyN3wKfEQxOXzln4Pph4zmuKl8OOKAkzEyfDE14oCTMjV8MjXigJM1NXw34oCTMTJ8NTXigJMxMDR8CnxEMjB85Z+D6YeM5ripfDjigJMxMnwxNeKAkzI1fDI14oCTNTV8N+KAkzEyfDU14oCTMTA0fAp8RDIxfOWfg+mHjOa4qXw44oCTMTJ8MjXigJM1NXwyMOKAkzMwfDfigJMxMnw2MOKAkzEwOXwKfEQyMnzmoLzpm7fmooV8MTLigJMyMHwyNeKAkzQwfDQ14oCTOTB8MTDigJMxOHw5MuKAkzE2OHwKfEQyM3zmoLzpm7fmooV8MTLigJMyMHw0NeKAkzkwfDQ14oCTOTB8MTDigJMxOHwxMTLigJMyMTh8CnxEMjR85qC86Zu35qKFfDEy4oCTMjB8MjXigJM0MHw0NeKAkzkwfDEw4oCTMTh8OTLigJMxNjh8CnxEMjV85a6J5aGU5Yip5LqafDEy4oCTMjB8MzXigJM2NXwzNeKAkzY1fDEw4oCTMTh8OTLigJMxNjh8CnxEMjZ8S2HFn3wxMuKAkzIwfDI14oCTNDB8MzXigJM2NXwxMOKAkzE4fDgy4oCTMTQzfAp8RDI3fEthxZ98MTLigJMyMHwyNeKAkzQwfDU14oCTMTAwfDEw4oCTMTh8MTAy4oCTMTc4fAp8RDI4fEthxZ98MTLigJMyMHwzNeKAkzY1fDMw4oCTNDV8MTDigJMxOHw4N+KAkzE0OHwKfEQyOXzkvIrmlq/lnabluIPlsJR8MTLigJMyMHwzMOKAkzYwfDMw4oCTNjB8MTDigJMxOHw4MuKAkzE1OHwKfEQzMHzkvIrmlq/lnabluIPlsJR8MTLigJMyMHwzMOKAkzYwfDMw4oCTNjB8MTDigJMxOHw4MuKAkzE1OHwKfEQzMXzkvIrmlq/lnabluIPlsJR8MTLigJMyMHw2MOKAkzEwMHw0NeKAkzg1fDEw4oCTMTh8MTI34oCTMjIzfAp8RDMyfOS8iuaWr+WdpuW4g+WwlHwxMuKAkzIwfDQ14oCTODV8MzDigJM2MHwxMOKAkzE4fDk34oCTMTgzfAp8RDMzfOS8iuaWr+WdpuW4g+WwlHwxMuKAkzIwfDY14oCTMTIwfDUw4oCTOTB8MTDigJMxOHwxMzfigJMyNDh8CnxEMzR86JCo5ouJ54Ot56qdfDEw4oCTMTh8MjDigJMzMHwzMOKAkzUwfDjigJMxNHw2OOKAkzExMnwKfEQzNXzokKjmi4nng63nqp18MTDigJMxOHwzMOKAkzUwfDMw4oCTNTB8OOKAkzE0fDc44oCTMTMyfAp8RDM2fOiOq+aWr+WhlOWwlHwxMOKAkzE4fDM14oCTNjB8MjXigJMzNXw44oCTMTR8NzjigJMxMjd8CnxEMzd86LSd5bCU5qC86I6x5b63fDEw4oCTMTh8MjDigJMzMHwzNeKAkzYwfDjigJMxNHw3M+KAkzEyMnwKfEQzOHzotJ3lsJTmoLzojrHlvrd8MTDigJMxOHwxNeKAkzMwfDM14oCTNjB8OOKAkzE0fDY44oCTMTIyfAp8RDM5fOi0neWwlOagvOiOseW+t3wxMOKAkzE4fDM14oCTNjB8MzXigJM2MHw44oCTMTR8ODjigJMxNTJ8CnxENDB86LSd5bCU5qC86I6x5b63fDEw4oCTMTh8MTXigJMzMHwzNeKAkzYwfDjigJMxNHw2OOKAkzEyMnwKfEQ0MXzotavlsJTmoLzovr58NuKAkzEyfDE14oCTMjV8NDXigJM5MHw44oCTMTZ8NzTigJMxNDN8CnxENDJ86LWr5bCU5qC86L6+fDbigJMxMnwxNeKAkzI1fDQ14oCTOTB8OOKAkzE2fDc04oCTMTQzfAp8RDQzfOi1q+WwlOagvOi+vnw24oCTMTJ8MTXigJMyNXwyMOKAkzMwfDjigJMxNnw0OeKAkzgzfAp8RDQ0fOWNouWFi+e0onw24oCTMTJ8MTXigJMyNXw0MOKAkzY1fDjigJMxNnw2OeKAkzExOHwKfEQ0NXzljaLlhYvntKJ8NuKAkzEyfDE14oCTMjV8NDDigJM2NXw44oCTMTZ8NjnigJMxMTh8CnxENDZ86Zi/5pav5pe6fDbigJMxMnwxNeKAkzI1fDI14oCTNTB8OOKAkzE2fDU04oCTMTAzfAp8RDQ3fOmYv+aWr+aXunw24oCTMTJ8MjXigJM1MHwyMOKAkzMwfDjigJMxNnw1OeKAkzEwOHwKfEQ0OHzpmL/mlq/ml7p8NuKAkzEyfDI14oCTNTB8MjDigJMzMHw44oCTMTZ8NTnigJMxMDh8CnxENDl85byA572XfDbigJMxMnwxNeKAkzMwfDIw4oCTMzB8OOKAkzE2fDQ54oCTODh8CnxENTB85byA572XfDbigJMxMnwxNeKAkzI1fDE14oCTMzB8OOKAkzE2fDQ04oCTODN8CnxENTF85byA572XfDbigJMxMnwxNeKAkzI1fDE14oCTMzB8OOKAkzE2fDQ04oCTODN8CnxENTJ85byA572XfDbigJMxMnwxNeKAkzMwfDIw4oCTMzB8OOKAkzE2fDQ54oCTODh8CnxENTN86L+q5oucfDEy4oCTMjB8MjXigJM0MHwzNeKAkzcwfDEw4oCTMjB8ODLigJMxNTB8CnxENTR86Zi/5biD5omO5q+UfDEy4oCTMjB8OTDigJMxNDB8MzDigJM0NXwxMOKAkzIwfDE0MuKAkzIyNXwKfEQ1NXzov6rmi5x8MTLigJMyMHwyNeKAkzQ1fDI14oCTNDV8MTDigJMyMHw3MuKAkzEzMHwKfEQ1Nnzmna3lt558MTLigJMyMHwyNeKAkzQwfDMw4oCTNDV8MTDigJMyMHw3N+KAkzEyNXwKfEQ1N3zmna3lt558OOKAkzEyfDE14oCTMjV8MjDigJMzMHw24oCTMTB8NDnigJM3N3wKCiMjIOmlruawtOWPguiAgwoK5LiN5Yqg5Yaw5LiN6IO95pu/5Luj5a+55rC05rqQ5Y+K5Y2r55Sf55qE5Yik5pat44CCW0NEQ+mjn+WTgemlruawtOW7uuiurl0oaHR0cHM6Ly93d3duYy5jZGMuZ292L3RyYXZlbC9wYWdlL2Zvb2Qtd2F0ZXItc2FmZXR5KeOAggo=" download="丝路随行_具体餐厅参考.md">下载完整餐厅与逐餐表</a><h3>餐费怎么算</h3><p>若按主推荐吃两顿、其余用自备/厨房简餐，57天食物与饮水规划合计约 <b>'+range(totals)+'</b>；这是逐日留量相加，不是2027报价。特色饮品、甜点、服务费与实际份量仍会改变结果。原3340元餐费草案没有自动改写，也不能据原稿承诺够用。省钱时每天只执行一家具名餐厅，其余用厨房或便携简餐。</p><details class="dining-evidence"><summary>查看57天餐费留量明细</summary><table><thead><tr><th>天</th><th>城市</th><th>早餐</th><th>午餐</th><th>晚餐</th><th>饮水</th><th>合计</th></tr></thead><tbody>'+D.days.map(d=>{const b=dailyBudget(d);return '<tr><td>D'+d.id.slice(3)+'</td><td>'+E(d.city)+'</td>'+['breakfast','lunch','dinner','water','total'].map(k=>'<td>'+range(b[k])+'</td>').join('')+'</tr>';}).join('')+'</tbody></table></details><h3>原稿的修正</h3><ul>'+data.corrections.map(x=>'<li>'+E(x)+'</li>').join('')+'</ul><p><a href="https://wwwnc.cdc.gov/travel/page/food-water-safety" target="_blank" rel="noopener noreferrer">CDC饮食饮水参考 ↗</a></p><h3>按城市选具体分店</h3>'+[...new Set(data.restaurants.map(s=>s.city))].map(city=>'<details class="dining-city"><summary>'+E(city)+' · '+data.restaurants.filter(s=>s.city===city).length+'家</summary>'+data.restaurants.filter(s=>s.city===city).map(s=>restaurantHTML(s,{compact:true})).join('')+'</details>').join('')+'<h3>已放进哪些时间段</h3>'+D.days.filter(d=>dayMeals(d).length).map(d=>'<details class="dining-city"><summary>D'+d.id.slice(3)+' · '+E(d.date)+' · '+E(d.city)+'</summary>'+dayMeals(d).map(m=>'<p>'+E(getRow(m).time)+' · '+E(m.meal)+' · '+E(shops[m.shop].name)+'</p><button class="soft-button" data-dining-day="'+m.day+'">打开当天行程</button>').join('')+'</details>').join('');}
+ for(const m of data.meals){const row=getRow(m),s=shops[m.shop];row.originalDiningTitle=row.title;row.dining=m;row.title=m.meal+'：'+short(s);row.plain=row.title+' '+row.originalDiningTitle+' '+row.detail.replace(/<[^>]+>/g,' ')+' '+s.address+' '+s.dishes;row.links.push({label:m.meal+'导航 · '+s.name,url:nav(s)});}
+ // Rest stops, tour meals, tickets and task IDs stay in their existing slots.
+ // These two route texts must lead to the chosen restaurant before Salacak.
+ const r33=D.days[32].rows.find(r=>r.id==='d33v2-12');
+ if(r33){r33.title='Kuzguncuk → Üsküdar Kanaat餐厅';r33.detail='<p>16:45–17:30用公交/正规接驳返Üsküdar中心SelmaniPak9号Kanaat总店，按实时导航。先吃晚餐再去Salacak，不先到海岸再走回餐厅。</p>';r33.links=[{label:'前往Kanaat餐厅',url:'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent('Kuzguncuk Istanbul')+'&destination='+encodeURIComponent(shops['istanbul-kanaat-uskudar'].mapQuery)+'&travelmode=transit'}];}
+ for(const [id,label] of [['d6v2-10','晚餐与洗衣'],['d8v2-04','午餐与短休'],['d9v2-06','入住、午餐与避暑'],['d10v2-09','午餐与长午休'],['d11v2-06','午餐、入住与午休'],['d13v2-10','入住与晚餐'],['d17v2-11','晚餐后返住处'],['d18v2-12','返城晚餐与休息'],['d19v2-10','晚餐与返回住处'],['d20v2-12','晚餐与休整'],['d24v2-08','晚餐、取包与赴站'],['d28v2-04','午餐、退房取包'],['d37v2-08','入住、洗澡与晚餐']]){const m=mealsByRow[id];if(m)getRow(m).title=label+'：'+short(shops[m.shop]);}
+ for(const d of D.days)for(const r of d.rows)if(r.dining||r===r33)r.plain=r.title+' '+(r.originalDiningTitle||'')+' '+r.detail.replace(/<[^>]+>/g,' ')+(r.dining?' '+shops[r.dining.shop].address+' '+shops[r.dining.shop].dishes:'');
+ F.summary=id=>{const m=mealsByRow[id];return m?'<p class="meal-hint">'+E(shops[m.shop].address)+' · 食物'+range(shops[m.shop].budgetCny)+'</p>':base.summary(id);};
+ F.details=id=>{const m=mealsByRow[id];return m?'<section class="meal-block"><p class="dining-small">本时段也保留：'+E(getRow(m).originalDiningTitle)+'</p>'+mealHTML(m,true)+'<p class="dining-small">现场自付，饮水与饮品另计；2027价格/营业须再核。未核冷气强度、插座与餐厅学生折扣。等位＋出餐超过15–20分钟换自备简餐，赶车更早放弃。</p></section>':base.details(id);};
+ F.overview=dayHTML;Object.assign(F.shops,shops);
+ const g=D.guides.find(g=>g.id==='food');if(g){g.title='具体餐厅、三餐与饮水';g.html=guideHTML();}
+ const sourceGuide=D.guides.find(g=>g.id==='sources');if(sourceGuide)sourceGuide.html=sourceGuide.html.replace('本次制作没有新增网络查询、购票、投保或商家联系。','本次餐厅与明信片模块另有2026-11-05网络核查来源；没有购票、订餐、投保或联系商家。').replace('餐饮、水果与厕所仅为方向与现场准备，不是实时营业或卫生检查。','餐厅采用具体分店参考并逐家标注证据；水果与厕所仍为方向参考，均不是实地卫生检查。');
+ D.dining={...data,totalBudgetCny:totals};
+ window.TripDining={shops,mealsByRow,dayMeals,restaurantHTML,dayHTML,mapHTML,dailyBudget,totals};
+ document.addEventListener('click',e=>{const b=e.target.closest('[data-dining-day]');if(b&&window.TripPocket){TripPocket.setDay(Number(b.dataset.diningDay)-1);TripPocket.setView('journey');window.scrollTo(0,0);}});
+})();
+</script>
 <script>(()=>{
   'use strict';
   const D=window.TRIP_DATA,F=window.TripFood,checked='2026/11/04 · 方向建议，2027现场核';
@@ -19149,6 +21324,7 @@ window.TRIP_DATA = {
   function ensureSelection(){const list=currentPlaces();if(!list.some(p=>p.id===selectedPlace))selectedPlace=list[0]?.id||'';}
   function renderMapUI(){
     ensureSelection();
+    if($('#dining-map-list'))$('#dining-map-list').innerHTML=window.TripDining?.mapHTML(day())||'';
     $('#map-title').textContent=day().label;
     const cities=[...new Set(day().places.map(id=>D.places[id].city))];
     $('#city-tabs').innerHTML=cities.map(c=>`<button class="chip" data-city="${E(c)}" aria-pressed="${city===c}">${E(c)}</button>`).join('');
