@@ -1824,7 +1824,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "istanbul-buyruk",
       "backup": null,
-      "note": "先到Cheers寄包，按体力赴HocaPaşa12店，步行与堂食共用12:00–13:00；夜巴疲劳时打包回宿。"
+      "note": "先到Antique Hostel寄包，按体力赴HocaPaşa12店，步行与堂食共用12:00–13:00；夜巴疲劳时打包回宿。"
     },
     {
       "day": 29,
@@ -2080,7 +2080,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "dubai-aroos-deira",
       "backup": "dubai-almallah-satwa",
-      "note": "傍晚迪拜湾短走后，只有实时交通允许19:30前结束才去Deira；AlJaddaf酒店往返另计路程，晚到先用已备简餐。"
+      "note": "傍晚迪拜湾短走后，只有实时交通允许19:30前结束才去Deira；Alphatel DWTC住宿往返另计路程，晚到先用已备简餐。"
     },
     {
       "day": 54,
@@ -2104,7 +2104,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "dubai-mall-albaik",
       "backup": null,
-      "note": "仍在DubaiMall内选小份，19:15必须离开返AlJaddaf取包，不临时去Satwa、Deira打卡。若不想重复炸鸡，用下午已采购的便携简餐。"
+      "note": "仍在DubaiMall内选小份，19:15离开返回Alphatel DWTC休息；仅正式凌晨版才按分支取包赴机场，不临时跨区打卡。若不想重复炸鸡，用下午已采购的便携简餐。"
     }
   ],
   "optionalShops": [

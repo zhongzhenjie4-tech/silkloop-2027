@@ -260,7 +260,7 @@ Dubai Central Post Office / NXN Karama（Dubai Central / Al Karama具名候选�
 - 官网国内明信片2 AED、挂号加费4 AED不适用于寄中国；先问国际裸卡是否收寄、是否需要信封和总价。
 - 周五具体柜台与祈祷间歇待核；可优先D53营业时询问，D56凌晨出境不能补寄。
 
-动线与取舍：Al Karama不是Al Fahidi/Deira步行必经点；D55须在老城与Dubai Mall之间为此单独留转场，先确认周五收寄。若D53早抵SHJ后体力与时间允许，可从Premier Inn Al Jaddaf一带另安排此站，减少D55失败风险。D54阿布扎比整日游不强塞；D56 04:35 DXB离境不能作为柜台补寄日。 用具名Dubai Central/Al Karama取代笼统的Bur Dubai/Deira；仍为待确认候选，不宣称零绕路或最快到家。
+动线与取舍：Al Karama不是Al Fahidi/Deira步行必经点；D55须在老城与Dubai Mall之间为此单独留转场，先确认周五收寄。若D53早抵SHJ后体力与时间允许，可从实际Alphatel DWTC住宿候选另安排此站，减少D55失败风险。D54阿布扎比整日游不强塞；D56是返程日，不作为可靠的柜台补寄日；真实起飞时刻待出票。 用具名Dubai Central/Al Karama取代笼统的Bur Dubai/Deira；仍为待确认候选，不宣称零绕路或最快到家。
 
 [Emirates Post官方定位器（动态数据未返回）](https://www.emiratespost.ae/find-us)；[Emirates Post官方国际寄件服务与柜台入口](https://www.emiratespost.ae/all-services/send-shipment-international)；[Emirates Post官方国际目的地状态页（列China；含陈旧Covid文字）](https://www.emiratespost.ae/service-updates/latest-notifications/notificationone)；[Emirates Post官方费率计算器（未返回普通航空明信片报价）](https://www.emiratespost.ae/all-services/get-rates)；[Emirates Post官方国内费率页（2026-05-13更新、费率自2026-03；列NXN Karama名称，国内价格不能当国际邮资）](https://www.emiratespost.ae/all-services/domestic-rates)
 

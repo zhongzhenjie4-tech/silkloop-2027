@@ -1,4 +1,3 @@
-// Public recommendations only; personal bookings belong in the encrypted private vault.
 window.TRIP_DATA = {
   "version": "2026-11-05 · 具体班次与住宿推荐版",
   "reviewed": "资料2026/11/4；行程细化2026/11/5",
@@ -11123,7 +11122,7 @@ window.TRIP_DATA = {
       "timezone": "Asia/Dubai",
       "city": "迪拜",
       "defaultCity": "迪拜",
-      "priority": "迪拜老城早去，午间室内，傍晚夜景；若次日凌晨起飞，今晚就去机场。",
+      "priority": "返程未出票：当前阿航通用页为11:00→23:00，9/3先保留整夜床位。只有买到实际04:35凌晨版才在今晚赴机场或省一晚。",
       "status": "planned",
       "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
       "rows": [
@@ -11321,13 +11320,13 @@ window.TRIP_DATA = {
         {
           "id": "d55v2-14",
           "time": "19:15–20:15",
-          "title": "Dubai Mall → Premier Inn Al Jaddaf取包",
-          "detail": "<p>19:15离开Dubai Mall回Premier Inn Al Jaddaf，约20:15到店取包和洗漱；不去Al Ghubaiba汽车站，也不去AUH机场。</p>",
-          "plain": "Dubai Mall → Premier Inn Al Jaddaf取包  19:15离开Dubai Mall回Premier Inn Al Jaddaf，约20:15到店取包和洗漱；不去Al Ghubaiba汽车站，也不去AUH机场。 ",
+          "title": "Dubai Mall → Alphatel DWTC回宿",
+          "detail": "<p>19:15离开商场，留约1小时返回Alphatel DWTC、洗漱休息。当前只是未订青旅候选，正式住宿改变后重算。若实际买到04:35且已确认省夜，则这段改为取包，约20:45直接去T3。</p>",
+          "plain": "Dubai Mall → Alphatel DWTC回宿  19:15离开商场，留约1小时返回Alphatel DWTC、洗漱休息。当前只是未订青旅候选，正式住宿改变后重算。若实际买到04:35且已确认省夜，则这段改为取包，约20:45直接去T3。 ",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dubai%20Mall%20Dubai&destination=Premier%20Inn%20Dubai%20Al%20Jaddaf%20Hotel%20Dubai&travelmode=driving"
+              "label": "回经济住宿候选",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dubai%20Mall%20Dubai&destination=Alphatel%20Hostel%20Dubai%20World%20Trade%20Centre%20Talal%202%20Building%208th%20Floor%20Satwa%20Dubai&travelmode=driving"
             }
           ],
           "place": null,
@@ -11337,17 +11336,12 @@ window.TRIP_DATA = {
         },
         {
           "id": "d55v2-15",
-          "time": "20:15–23:30",
-          "title": "回酒店洗漱短休，23:30赴DXB T3",
-          "detail": "<p>保留9月3日这晚酒店留额供洗漱和短休，提前告知午夜退房。23:30叫正规车辆，约00:15到DXB T3，接9月4日04:35 EK310参考班次；不用凌晨地铁。</p>",
-          "plain": "回酒店洗漱短休，23:30赴DXB T3  保留9月3日这晚酒店留额供洗漱和短休，提前告知午夜退房。23:30叫正规车辆，约00:15到DXB T3，接9月4日04:35 EK310参考班次；不用凌晨地铁。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Premier%20Inn%20Dubai%20Al%20Jaddaf%20Hotel%20Dubai&destination=Dubai%20International%20Airport%20Terminal%203%20Departures&travelmode=driving"
-            }
-          ],
-          "place": "dxb",
+          "time": "20:15–21:30",
+          "title": "洗漱与整夜休息；按正式票面选分支",
+          "detail": "<p>未出票前保留9/3这晚可取消床位。若真实票为11:00版，今晚正常睡眠，9/4约07:00离店、目标08:00到T3；若票面要求提前4小时，继续提前。仅正式04:35版才选23:30离店、约00:15到T3，或退房寄包后约21:30到T3的省夜方案。退房后寄包、收费与淋浴权限分别向住宿确认。</p>",
+          "plain": "洗漱与整夜休息；按正式票面选分支  未出票前保留9/3这晚可取消床位。若真实票为11:00版，今晚正常睡眠，9/4约07:00离店、目标08:00到T3；若票面要求提前4小时，继续提前。仅正式04:35版才选23:30离店、约00:15到T3，或退房寄包后约21:30到T3的省夜方案。退房后寄包、收费与淋浴权限分别向住宿确认。 ",
+          "links": [],
+          "place": null,
           "highlight": true,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -11376,16 +11370,22 @@ window.TRIP_DATA = {
           "route": "迪拜DXB → 杭州HGH",
           "operator": "Emirates / 阿联酋航空",
           "service": "EK310",
-          "departure": "04:35（DXB当地UTC+4；第三方列出的2027-06-01至09-30夏季参考）",
-          "arrival": "17:05（杭州北京时间UTC+8；同一日）",
-          "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
+          "departure": "11:00（DXB当地；当前官方通用页参考，2027-09-04待查）",
+          "arrival": "23:00（杭州当地；同一日落地，地面返校可能跨到9/5）",
+          "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/",
+          "evidenceStatus": "2026-11-06官方通用路线页11:00→23:00，未对应2027指定日期；旧04:35→17:05仅条件备选。",
+          "notes": [
+            "先取得2027/9/4正式航班与抵达日期，再决定9/3是否省一晚；未出票前保留可取消床位。",
+            "日间版9/4约07:00离店、目标08:00到T3；本人票面要求4小时则提前。23点落地后仍有入境和到校交通。",
+            "实际凌晨04:35版才采用9/3夜出发：保床短休23:30离店约00:15到T3，或退房寄包20:45离店约21:30到T3。"
+          ]
         }
       ]
     },
     {
       "id": "day56",
       "date": "2027-09-04",
-      "label": "迪拜凌晨直飞·当日抵杭",
+      "label": "迪拜返杭·时刻待出票",
       "title": "迪拜→杭州·跨夜返程",
       "name": "迪拜→杭州·跨夜返程",
       "country": "阿联酋",
@@ -11393,29 +11393,34 @@ window.TRIP_DATA = {
       "timezone": "Asia/Dubai",
       "city": "杭州",
       "defaultCity": "杭州",
-      "priority": "返程日按票面倒推机场报到；只接最迟9月5日能到杭州的完整衔接。",
+      "priority": "当前参考会跨到9/5凌晨返校；提前核深夜入校与机场接驳。最迟9/5可靠回到学校，9/6开学。",
       "status": "planned",
-      "note": "00:15–04:35为迪拜当地UTC+4，17:05以后为北京时间UTC+8。第三方列2027夏季EK310参考，未出票；9月3日深夜去DXB，9月4日抵杭、9月5日休整。",
+      "note": "2026-11-06阿航通用路线页当前为EK310 11:00迪拜→23:00杭州，未对应2027/9/4。下表按此白天参考版预排；旧04:35→17:05仅条件备选，真实票面确定后重排。",
       "rows": [
         {
           "id": "d56v2-01",
-          "time": "00:15–00:45 9/4凌晨 · 迪拜时间",
-          "title": "DXB T3值机准备、确认杭州到达",
-          "detail": "<p>在DXB第三航站楼出发层准备，01:35前完成值机或手提行李核验。</p>",
-          "plain": "DXB T3值机准备、确认杭州到达  在DXB第三航站楼出发层准备，01:35前完成值机或手提行李核验。 ",
+          "time": "06:00–06:45 9/4 · 迪拜时间",
+          "title": "起床、早餐、退房与票面复核",
+          "detail": "<p>按正式2027航班倒推。下表只适用于11:00参考版；若实际04:35，须在9/3夜出发，不能等到今早。</p>",
+          "plain": "起床、早餐、退房与票面复核  按正式2027航班倒推。下表只适用于11:00参考版；若实际04:35，须在9/3夜出发，不能等到今早。 ",
           "links": [],
-          "place": "dxb",
+          "place": null,
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
           "id": "d56v2-02",
-          "time": "00:45–01:35 · 迪拜时间",
-          "title": "托运或手提行李核验、出境",
-          "detail": "<p>按Emirates当班要求办理，护照和登机牌放随身小包，贵重品不托运。</p>",
-          "plain": "托运或手提行李核验、出境  按Emirates当班要求办理，护照和登机牌放随身小包，贵重品不托运。 ",
-          "links": [],
+          "time": "07:00–08:00 · 迪拜时间",
+          "title": "Alphatel DWTC → DXB T3",
+          "detail": "<p>叫正规车，整段留1小时含等车、路况和T3入口；不是保证车程。目标08:00前到。本人票面要求提前4小时则更早离店；不是DXB/T3时重算。</p>",
+          "plain": "Alphatel DWTC → DXB T3  叫正规车，整段留1小时含等车、路况和T3入口；不是保证车程。目标08:00前到。本人票面要求提前4小时则更早离店；不是DXB/T3时重算。 ",
+          "links": [
+            {
+              "label": "经济住宿候选到DXB T3",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Alphatel%20Hostel%20Dubai%20World%20Trade%20Centre%20Talal%202%20Building%208th%20Floor%20Satwa%20Dubai&destination=Dubai%20International%20Airport%20Terminal%203%20Departures&travelmode=driving"
+            }
+          ],
           "place": "dxb",
           "highlight": false,
           "status": "planned",
@@ -11423,10 +11428,10 @@ window.TRIP_DATA = {
         },
         {
           "id": "d56v2-03",
-          "time": "01:35–02:35 · 迪拜时间",
-          "title": "安检与航站楼步行",
-          "detail": "<p>留在DXB第三航站楼完成出境、安检与步行；不再安排市区、海滩或取包。</p>",
-          "plain": "安检与航站楼步行  留在DXB第三航站楼完成出境、安检与步行；不再安排市区、海滩或取包。 ",
+          "time": "08:00–08:45 · 迪拜时间",
+          "title": "值机、证件与行李核验",
+          "detail": "<p>一般提前3小时、部分航班4小时到机场，按票面及航司通知执行。完整核护照、杭州到达日和包件额度；不把网上值机当可省去机场手续。</p>",
+          "plain": "值机、证件与行李核验  一般提前3小时、部分航班4小时到机场，按票面及航司通知执行。完整核护照、杭州到达日和包件额度；不把网上值机当可省去机场手续。 ",
           "links": [],
           "place": "dxb",
           "highlight": false,
@@ -11435,10 +11440,10 @@ window.TRIP_DATA = {
         },
         {
           "id": "d56v2-04",
-          "time": "02:35–03:35 · 迪拜时间",
-          "title": "候机早餐、补水与充电",
-          "detail": "<p>在航站楼候机，按个人需要买早餐和水，检查充电和登机口。</p>",
-          "plain": "候机早餐、补水与充电  在航站楼候机，按个人需要买早餐和水，检查充电和登机口。 ",
+          "time": "08:45–09:45 · 迪拜时间",
+          "title": "出境、安检与航站楼步行",
+          "detail": "<p>按实际航站楼指引走，安检与前往登机区分别留量；不要把T3入口到登机口当10分钟。</p>",
+          "plain": "出境、安检与航站楼步行  按实际航站楼指引走，安检与前往登机区分别留量；不要把T3入口到登机口当10分钟。 ",
           "links": [],
           "place": "dxb",
           "highlight": false,
@@ -11447,10 +11452,10 @@ window.TRIP_DATA = {
         },
         {
           "id": "d56v2-05",
-          "time": "03:35–04:15 · 迪拜时间",
-          "title": "到登机口并排队",
-          "detail": "<p>03:35到屏幕所示登机口；登机口可能变化，留意航司通知。</p>",
-          "plain": "到登机口并排队  03:35到屏幕所示登机口；登机口可能变化，留意航司通知。 ",
+          "time": "09:45–10:00 · 迪拜时间",
+          "title": "核登机口、补水与候机",
+          "detail": "<p>以登机牌提示优先。餐食、充电只在时间足够且不离开登机区的情况下安排。</p>",
+          "plain": "核登机口、补水与候机  以登机牌提示优先。餐食、充电只在时间足够且不离开登机区的情况下安排。 ",
           "links": [],
           "place": "dxb",
           "highlight": true,
@@ -11459,10 +11464,10 @@ window.TRIP_DATA = {
         },
         {
           "id": "d56v2-06",
-          "time": "04:15–04:35 · 迪拜时间",
-          "title": "登机、证件与随身包检查",
-          "detail": "<p>按当班广播登机；04:35只是第三方夏季时刻参考，实际出票后修订。</p>",
-          "plain": "登机、证件与随身包检查  按当班广播登机；04:35只是第三方夏季时刻参考，实际出票后修订。 ",
+          "time": "10:00–11:00 · 迪拜时间",
+          "title": "按登机牌赴闸口与登机",
+          "detail": "<p>以实际登机开始/关闭时间为准。这里是11:00起飞参考版，不是已取得的2027班次。</p>",
+          "plain": "按登机牌赴闸口与登机  以实际登机开始/关闭时间为准。这里是11:00起飞参考版，不是已取得的2027班次。 ",
           "links": [],
           "place": "dxb",
           "highlight": true,
@@ -11471,27 +11476,27 @@ window.TRIP_DATA = {
         },
         {
           "id": "d56v2-07",
-          "time": "04:35 迪拜 → 17:05 杭州·夏季参考",
-          "title": "Emirates EK310：DXB04:35 → HGH17:05",
-          "detail": "<p>按第三方2027夏季EK310 04:35 DXB→17:05 HGH同日参考排程。航空官网售票时刻、行李总价及是否可接受预算仍待用户确认。</p>",
-          "plain": "Emirates EK310：DXB04:35 → HGH17:05  按第三方2027夏季EK310 04:35 DXB→17:05 HGH同日参考排程。航空官网售票时刻、行李总价及是否可接受预算仍待用户确认。 ",
+          "time": "11:00 迪拜 → 23:00 杭州 · 当前官网参考",
+          "title": "EK310白天参考版：DXB → HGH",
+          "detail": "<p>官网当前无指定日期路线页显示11:00→23:00。2027/9/4时刻、机型及票价仍须查询；不得仅凭此表出票或少订一晚。</p>",
+          "plain": "EK310白天参考版：DXB → HGH  官网当前无指定日期路线页显示11:00→23:00。2027/9/4时刻、机型及票价仍须查询；不得仅凭此表出票或少订一晚。 ",
           "links": [
             {
-              "label": "Emirates航线与时刻查询",
-              "url": "https://www.emirates.com/ae/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
+              "label": "阿航当前路线与正式日期查询",
+              "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
             }
           ],
-          "place": "dxb",
+          "place": "hgh",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
           "id": "d56v2-08",
-          "time": "17:05–19:00 杭州时间",
+          "time": "23:00–次日00:30 · 杭州时间",
           "title": "杭州入境、取包与海关",
-          "detail": "<p>17:05按杭州北京时间参考到达，入境、取包和海关合计留约2小时，晚点则顺延地面接驳。</p>",
-          "plain": "杭州入境、取包与海关  17:05按杭州北京时间参考到达，入境、取包和海关合计留约2小时，晚点则顺延地面接驳。 ",
+          "detail": "<p>留约90分钟并随实际排队调整；23:00落地不等于已到宿舍。预先核晚间正规接驳与接待。</p>",
+          "plain": "杭州入境、取包与海关  留约90分钟并随实际排队调整；23:00落地不等于已到宿舍。预先核晚间正规接驳与接待。 ",
           "links": [],
           "place": "hgh",
           "highlight": false,
@@ -11500,23 +11505,18 @@ window.TRIP_DATA = {
         },
         {
           "id": "d56v2-09",
-          "time": "19:00–21:00",
-          "title": "杭州萧山机场 → 学校，入住休息",
-          "detail": "<p>按实际学校地址选择机场地铁或正规车辆；地址只记在私密区，公共计划不填写学校定位。9月4日当晚回校休息，9月5日保留缓冲。</p>",
-          "plain": "杭州萧山机场 → 学校，入住休息  按实际学校地址选择机场地铁或正规车辆；地址只记在私密区，公共计划不填写学校定位。9月4日当晚回校休息，9月5日保留缓冲。 ",
-          "links": [
-            {
-              "label": "按名称打开地图",
-              "url": "https://www.google.com/maps/search/?api=1&query=Hangzhou%20Xiaoshan%20International%20Airport%20transport%20to%20Hangzhou"
-            }
-          ],
-          "place": "hgh",
+          "time": "00:30–02:00 次日9/5 · 杭州时间",
+          "title": "萧山机场 → 已确认可深夜进入的住处",
+          "detail": "<p>提前向学校确认凌晨能否进宿舍。不能进入则比较更早到达航班，或另核附近住宿与次晨返校费用。9/5须可靠到校，不将9/6才回校的方案采用。</p>",
+          "plain": "萧山机场 → 已确认可深夜进入的住处  提前向学校确认凌晨能否进宿舍。不能进入则比较更早到达航班，或另核附近住宿与次晨返校费用。9/5须可靠到校，不将9/6才回校的方案采用。 ",
+          "links": [],
+          "place": null,
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>本日按9月4日凌晨从迪拜出发、当日抵杭州的航班参考排程，没有迪拜白天游览窗口。9月3日夜间取包赴DXB T3；9月5日在杭州休整。</p><p>04:35→17:05是第三方夏季表参考，并非2027已出票结果。若选到合适的9月4日晚班、9月5日抵杭机票，需同步重排当天游览、机场接驳与返校余量，不能直接套用当前时间卡。最迟9月5日完成到校。</p>",
+      "extras": "<p>本日没有迪拜观光安排。主表按当前官网11:00→23:00的日间参考版，9/3保留整夜床位，9/4晚入境后跨到9/5返校。两个时刻均未被2027指定日期票面确认。</p><p>只有实际买到04:35凌晨版，才切换为9/3夜赴机场及9/4傍晚抵杭；省夜与保床短休均见“预订时间线与返杭分支”。最迟9/5可靠到校，先核深夜门禁。</p>",
       "places": [
         "future-museum",
         "jumeirah",
@@ -11538,9 +11538,15 @@ window.TRIP_DATA = {
           "route": "迪拜DXB → 杭州HGH",
           "operator": "Emirates / 阿联酋航空",
           "service": "EK310",
-          "departure": "04:35（DXB当地UTC+4；第三方列出的2027-06-01至09-30夏季参考）",
-          "arrival": "17:05（杭州北京时间UTC+8；同一日）",
-          "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
+          "departure": "11:00（DXB当地；当前官方通用页参考，2027-09-04待查）",
+          "arrival": "23:00（杭州当地；同一日落地，地面返校可能跨到9/5）",
+          "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/",
+          "evidenceStatus": "2026-11-06官方通用路线页11:00→23:00，未对应2027指定日期；旧04:35→17:05仅条件备选。",
+          "notes": [
+            "先取得2027/9/4正式航班与抵达日期，再决定9/3是否省一晚；未出票前保留可取消床位。",
+            "日间版9/4约07:00离店、目标08:00到T3；本人票面要求4小时则提前。23点落地后仍有入境和到校交通。",
+            "实际凌晨04:35版才采用9/3夜出发：保床短休23:30离店约00:15到T3，或退房寄包20:45离店约21:30到T3。"
+          ]
         }
       ]
     },
@@ -11557,11 +11563,11 @@ window.TRIP_DATA = {
       "defaultCity": "杭州",
       "priority": "9月5日完成入境、地面交通和返校；到浦东还需另算机场至杭州全段。",
       "status": "planned",
-      "note": "按9月4日已抵杭州安排，9月5日留作开学缓冲；若改其他航班，最迟仍须9月5日回到学校。",
+      "note": "按白天参考版9/4晚到杭州、9/5凌晨完成地面返程安排恢复；若实际早班更早抵达，可多休息。最迟9/5须可靠到校。",
       "rows": [
         {
           "id": "d57v2-01",
-          "time": "08:00–09:00",
+          "time": "09:00–10:00",
           "title": "睡醒、早餐与确认已返校",
           "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
           "plain": "睡醒、早餐与确认已返校  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
@@ -11573,7 +11579,7 @@ window.TRIP_DATA = {
         },
         {
           "id": "d57v2-02",
-          "time": "09:00–10:00",
+          "time": "10:00–10:30",
           "title": "整理护照、票据及加密备份",
           "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
           "plain": "整理护照、票据及加密备份  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
@@ -11585,7 +11591,7 @@ window.TRIP_DATA = {
         },
         {
           "id": "d57v2-03",
-          "time": "10:00–11:00",
+          "time": "10:30–11:00",
           "title": "补洗衣物与晾晒",
           "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
           "plain": "补洗衣物与晾晒  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
@@ -17184,10 +17190,10 @@ window.TRIP_DATA = {
       "route": "迪拜DXB → 杭州HGH",
       "operator": "Emirates / 阿联酋航空",
       "service": "EK310",
-      "departure": "04:35（DXB当地UTC+4；第三方列出的2027-06-01至09-30夏季参考）",
-      "arrival": "17:05（杭州北京时间UTC+8；同一日）",
+      "departure": "11:00（DXB当地；当前官方通用页参考，2027-09-04待查）",
+      "arrival": "23:00（杭州当地；同一日落地，地面返校可能跨到9/5）",
       "dayOffset": 0,
-      "evidenceStatus": "Emirates官方航线页确认DXB—HGH，官方时刻查询已访问但动态结果未能读取。04:35→17:05仅为Flight.info已列2027夏季参考，未取得2027-09-04或09-05航司出票确认。",
+      "evidenceStatus": "2026-11-06官方通用路线页11:00→23:00，未对应2027指定日期；旧04:35→17:05仅条件备选。",
       "sources": [
         {
           "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/",
@@ -17221,12 +17227,11 @@ window.TRIP_DATA = {
         }
       ],
       "notes": [
-        "若9月4日凌晨04:35从DXB起飞，第三方夏季参考为9月4日17:05抵杭，不是9月5日；9月3日深夜就需出发去机场。可把9月5日作为返家休整/延误余量。",
-        "用户要求9月5日前后回国，不必特意等到9月5日凌晨起飞；用9月4日到达更容易保留截止日缓冲。根行程若总计57天，可保留第57天为国内休整。",
-        "不能将04:15→16:00称为所有日期的当前时刻：该第三方本次列2026-11-21前11:00→23:00，2026-11-22起部分时段才为04:15→16:00，2027夏季又为04:35→17:05。",
-        "CA762从迪拜到杭州确曾真实运行，但本次只有历史官方报道和近期取消状态，未取得2027航司可售证据；不作为确定备选。",
-        "以上没有含税报价、余票或最低价承诺；返程务必先以Emirates实际日期搜索确认后再固定阿联酋末晚住宿。"
-      ]
+        "先取得2027/9/4正式航班与抵达日期，再决定9/3是否省一晚；未出票前保留可取消床位。",
+        "日间版9/4约07:00离店、目标08:00到T3；本人票面要求4小时则提前。23点落地后仍有入境和到校交通。",
+        "实际凌晨04:35版才采用9/3夜出发：保床短休23:30离店约00:15到T3，或退房寄包20:45离店约21:30到T3。"
+      ],
+      "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
     },
     {
       "id": "tas-bukhara-target",
@@ -17345,7 +17350,7 @@ window.TRIP_DATA = {
       "id": "transport-specific",
       "title": "具体车次、航班与大巴",
       "subtitle": "现行样例与购票目标分开看",
-      "html": "<h2>具体班次与推荐钟点</h2><p>2026年11月5日核实。未订2027票：现行样例、第三方夏季表与购票目标分别标明。全部为两端当地时间；跨时区不能相减当作飞行时长。</p><section class=\"transport-reference\"><h3>杭州站 → 乌鲁木齐站</h3><p><strong>中国铁路；具体担当信息以12306当次列车为准 · Z594（沿途亦有Z595车次编号）</strong></p><p>10:46（北京时间） → 06:28（北京时间，第3日）</p><p>已核到携程现公开时刻表与路线页；12306本次仅能读取查询入口，没有取得2027年7月具体日期售票结果。</p><ul><li>以上为2026年11月可读公开参考时刻，不是2027年7月已公布或已购买的车票。</li><li>跨2个日历日、约43小时42分，需把杭州出发算D1、乌鲁木齐到达算D3，不能写成次日到。</li><li>杭州站与杭州东站不同，乌鲁木齐站与乌鲁木齐南站不同；购票时逐项核站名。</li><li>未查询指定日期余票、卧铺价格和学生票资格，最终以12306当次订单为准。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://trains.ctrip.com/TrainSchedule/Z594\" target=\"_blank\" rel=\"noopener\">携程Z594车次时刻表：杭州10:46、乌鲁木齐06:28 ↗</a><a class=\"soft-button\" href=\"https://trains.ctrip.com/TrainBooking/hangzhou-wulumuqinan/dongche\" target=\"_blank\" rel=\"noopener\">携程杭州方向路线页：列Z594杭州10:46至乌鲁木齐06:28 +2，注意终点并非乌鲁木齐南 ↗</a><a class=\"soft-button\" href=\"https://www.12306.cn/index/\" target=\"_blank\" rel=\"noopener\">中国铁路12306官方查询入口；动态指定日期结果未取得 ↗</a></div></section><section class=\"transport-reference\"><h3>乌鲁木齐站 → 伊宁站</h3><p><strong>中国铁路；具体担当信息以12306当次列车为准 · C845（2026-11-05携程路线页参考）</strong></p><p>09:56（北京时间） → 15:03（北京时间，当日）</p><p>已核到携程2026-11-05路线页的具体车次与时刻；同站静态车次页旧缓存有差异，未将其当作2027时刻。</p><ul><li>若Z594当前06:28到站，接09:56的C845在纸面上间隔3小时28分；此为计划缓冲计算，不保证前车准点或换乘成功。</li><li>两段均应核为乌鲁木齐站，不能把乌鲁木齐南的列车直接视为同站换乘。</li><li>优先保留上午09:00–11:00出发、下午抵达伊宁并住1晚的结构；若售票调图，以实际开行列车替换，不锁死C845。</li><li>本次没有取得2027年7月12306时刻、联程方案、余票与报价。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://trains.ctrip.com/TrainBooking/wulumuqi-yining/dongche\" target=\"_blank\" rel=\"noopener\">携程2026-11-05乌鲁木齐至伊宁：C845 09:56→15:03，历时5小时7分 ↗</a><a class=\"soft-button\" href=\"https://trains.ctrip.com/TrainSchedule/C845\" target=\"_blank\" rel=\"noopener\">携程C845静态车次页旧缓存仍为10:05→15:04，与当日路线页不同 ↗</a><a class=\"soft-button\" href=\"https://www.12306.cn/index/\" target=\"_blank\" rel=\"noopener\">12306最终核对站名、开行日期、时刻与余票的官方入口 ↗</a></div></section><section class=\"transport-reference\"><h3>伊犁州汽车客运总站（伊宁） → 都拉塔口岸 → 阿拉木图Sayran国际客运站；霍尔果斯出发为另一条线路</h3><p><strong>伊犁伊通涉外汽车运输公司（2026中国交通报采访核到运营企业）；具体班次承运人以车站出票为准 · 伊宁—阿拉木图国际道路旅客班车；没有核到固定公开班次编号</strong></p><p>09:30（北京时间；中国驻阿拉木图总领馆2023-07-10历史官方公告参考） → 抵达按边检/票面，行程留至18:00</p><p>班线、承运企业与到达车站有官方/交通行业媒体证据；09:30只有2023官方历史公告，当前及2027年具体时刻与固定到达时间未确认。</p><ul><li>不能把伊宁09:30、霍尔果斯11:00和阿拉木图返程当地09:00混为一班；北京时间与阿拉木图当地时间也须分清。</li><li>历史官方购票入口是“伊犁州汽车客运总站”微信公众号，伊宁车站电话0999-6765532；霍尔果斯国际客运站0999-8791092。使用前核营业状态、实际站址和发车日。</li><li>历史官方到达站为Sayran，地址Töle Bi 294 / Utegen Batyr 64；需向售票方确认2027年是否仍在此终到。</li><li>2026采访说明约10小时，但跨境排队可能变化，因此arrival留空；当日到达仅是行程预留方式。不要在抵达当晚衔接不可退的火车或飞机。</li><li>不把历史200元票价当2027报价；需核含行李、取票方式、口岸及当天是否运行。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://almaty.china-consulate.gov.cn/lsfw/lqgk/202307/t20230710_11110566.htm\" target=\"_blank\" rel=\"noopener\">中国驻阿拉木图总领馆2023-07-10：伊宁经都拉塔09:30、霍尔果斯11:00、抵达Sayran、购票渠道与电话 ↗</a><a class=\"soft-button\" href=\"https://www.zgjtb.com/2026-07/01/content_526047.html\" target=\"_blank\" rel=\"noopener\">中国交通报2026-07-01采访：伊犁伊通涉外汽车运输公司运营伊宁至阿拉木图班线，全程约430公里、约10小时 ↗</a></div></section><section class=\"transport-reference\"><h3>阿拉木图2站（Алматы-2） → 塔什干中央站（Ташкент-Центральный）</h3><p><strong>KTZ / AO Passenger Transportation（АО «Пассажирские перевозки»） · 国际列车№1/2；阿拉木图出发方向平台显示001Х</strong></p><p>19:05（当地时间；KTZ 2026公开公告参考） → 12:53（次日塔什干当地时间；KTZ 2026公开公告参考）</p><p>已核KTZ官方PRESS频道公开公告，支持19:05→次日12:53；Yandex现公开路线页为19:05→12:58。官方动态售票表未取得，差异未消除，均不代表2027时刻。</p><ul><li>主字段采用有官方公开公告依据的12:53；12:58是另一平台现表，不能说已被官方动态售票核实。页面还列未来调图18:45，因此行程只能锚定傍晚出发、次日中午抵达。</li><li>办理时核对Алматы-2，不是Алматы-1；到站核Ташкент-Центральный，最终以票面为准。</li><li>KTZ公告同时介绍ЖН女性专用车厢；21岁男性应选普通车厢床位。</li><li>KTZ该公告写提前45天售票，2027年实际预售期、开行日、票价、车厢和边检安排须临近出发再核。</li><li>塔什干抵达日留作半日市区步行/地铁，不安排紧贴中午到站的不可退接续。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://t.me/s/railways_kz?before=14387\" target=\"_blank\" rel=\"noopener\">KTZ PRESS官方频道公告#14386：№1/2，阿拉木图19:05、塔什干12:53及45天预售说明 ↗</a><a class=\"soft-button\" href=\"https://t.me/railways_kz/14386\" target=\"_blank\" rel=\"noopener\">KTZ公告直接定位；正文可在频道网页的before=14387页面读取 ↗</a><a class=\"soft-button\" href=\"https://rail-news.kz/index.php/ru/passenger-transportation/24677-zenskii-vagon-vpervye-poiavitsia-v-poezde-almaty-taskent.html\" target=\"_blank\" rel=\"noopener\">哈萨克铁路行业报2026-08-27转述KTZ新闻处：19:05→12:53，路线№1/2 Алматы-2—Ташкент ↗</a><a class=\"soft-button\" href=\"https://rasp.yandex.kz/train/almaty-2--tashkent-tsentralniy\" target=\"_blank\" rel=\"noopener\">Yandex时刻页：001Х当前19:05→12:58；另列12月13日起18:45发车，显示季节调图风险 ↗</a><a class=\"soft-button\" href=\"https://bilet.railways.kz/\" target=\"_blank\" rel=\"noopener\">KTZ官方售票入口，本次只读取查询表单，未获得指定日期时刻/库存 ↗</a></div></section><section class=\"transport-reference\"><h3>Göreme → Antalya</h3><p><strong>Topçam Turizm · Obilet 公共路线页当前夜巴例示；Göreme Otogarı → Antalya Otogarı，2+1 座位</strong></p><p>22:30 → 07:00</p><p>verified_current_route_page_example_not_2027</p><ul><li>这是抓取当日公开路线页所列例示，未选定旅行日期，不能标成 2027 已确认班次或保证每日开行。</li><li>同页其他当前例示：Kamil Koç 21:30→05:45、Öz Sivas Turizm 22:00→06:00；若希望约 07:00 到达，目前证据最贴合的是 22:30 班，不应把 21:30 班的到达硬改成 07:00。</li><li>行程预留开车前 30–45 分钟到 Göreme Otogarı；夜巴抵 Antalya Otogarı 后还需进城，不是 07:00 已到老城。</li><li>Antalya 青旅通常下午才能入住；提前确认清晨寄存／洗漱安排。不要把车站到达时间当成可入住时间。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.obilet.com/en/bus-ticket/goreme-antalya\" target=\"_blank\" rel=\"noopener\">Obilet：Göreme–Antalya 路线页 ↗</a></div></section><section class=\"transport-reference\"><h3>Antalya → Kaş</h3><p><strong>Batı Antalya · Obilet 公共路线页当前日间例示；Antalya Otogarı → Kaş Askerlik Şubesi Otobüs Kalkış-Varış Noktası，2+2 座位</strong></p><p>13:30 → 17:35</p><p>verified_current_route_page_example_not_2027</p><ul><li>同页当前例示还有 Kumluca Seyahat 14:15→18:25 与 15:00→19:10，可作为 13:30 售罄后的检索参考。</li><li>这条沿海路段按约 4 小时规划；不能把 15:00 出发写成 17:00 到达。</li><li>票面可能写镇内 Askerlik Şubesi 停靠点；下一段 Kaş→Fethiye 的所选例示却从 Ağullu 新客运站发车，两段不应视为同一站。</li><li>从 Kaleiçi 住宿到 Antalya Otogarı 另留市内交通和到站缓冲；尽量 12:45 前到站检票。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.obilet.com/en/bus-ticket/antalya-kas\" target=\"_blank\" rel=\"noopener\">Obilet：Antalya–Kaş 路线页 ↗</a><a class=\"soft-button\" href=\"https://www.batiantalyatur.com.tr/\" target=\"_blank\" rel=\"noopener\">Batı Antalya 官方订票入口 ↗</a></div></section><section class=\"transport-reference\"><h3>Kaş → Fethiye</h3><p><strong>Fethiye Seyahat · Obilet 公共路线页当前例示；Kaş Otobüs Terminali (Ağullu) → Fethiye Otogarı，2+2 座位</strong></p><p>15:20 → 17:20</p><p>verified_current_route_page_example_not_2027</p><ul><li>D28 的“15:00 出发”应标为约时目标；本次找到的近似当前例示是 15:20，不是已证实 15:00 班。</li><li>核心站点风险：Ağullu 新客运站与 Kaş 镇中心旧站／Askerlik Şubesi 停靠点不同。提前一天向运营商／住宿核对到 Ağullu 的接驳、实际登车点与发车时间。</li><li>建议镇内约 13:45–14:00 结束活动并取包，目标 14:30–14:45 到 Ağullu；这些是人为预留的接驳与候车窗口，不是已核实的 dolmuş 时刻。</li><li>17:20 抵达后距离 21:00 夜巴有约 3 小时 40 分钟；两张分开购买的票不属于联程保障，延误时后段不会自动等候。</li><li>同页更早的当前例示：Batı Antalya Tur 13:50→16:10；更晚 16:50→19:10 对后段的缓冲较少，不作首选。</li><li>若实际 2027 班次到达站不是 Fethiye Otogarı，需重新计算市内转站时间；出发前先确认后段座位。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.obilet.com/en/bus-ticket/kas-fethiye\" target=\"_blank\" rel=\"noopener\">Obilet：Kaş–Fethiye 路线页 ↗</a></div></section><section class=\"transport-reference\"><h3>Fethiye → İstanbul Europe (Esenler)</h3><p><strong>Metro Turizm · Obilet 公共路线页当前夜巴例示；Fethiye Otogarı → Esenler Otogarı，2+1 座位</strong></p><p>21:00 → 09:30</p><p>verified_current_route_page_example_not_2027</p><ul><li>21:00→次日09:30 是抓取当日公开路线页例示，贴合“21:00→约10:00”的规划；未查询 2027 日期，也未锁票。</li><li>务必选择 Istanbul Europe / Esenler；Ataşehir、Dudullu、Sultanbeyli 在亚洲侧，Alibeyköy 也与 Esenler 不同，不能套用同一住宿接驳。</li><li>当前备选例示：Balıkesir Uludağ Turizm 20:00→Esenler10:00；若选择它，需同步提前 Kaş→Fethiye 段。</li><li>目标 20:00–20:15 到 Fethiye Otogarı 候车，并先完成晚餐／卫生间；这是行程缓冲建议。</li><li>到 Esenler 后另留去 Sultanahmet 住宿的交通、早餐与寄存时间，D29 首个需定时入场的景点不要紧贴 10:00。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.obilet.com/en/bus-ticket/fethiye-istanbul\" target=\"_blank\" rel=\"noopener\">Obilet：Fethiye–Istanbul 路线页 ↗</a><a class=\"soft-button\" href=\"https://www.pamukkale.com.tr/bilet/fethiye-istanbul-esenler-otobus-bileti/\" target=\"_blank\" rel=\"noopener\">Pamukkale Turizm：Fethiye–İstanbul Esenler 官方路线订票页 ↗</a></div></section><section class=\"transport-reference\"><h3>Istočno Sarajevo (East Sarajevo / Lukavica) → Beograd</h3><p><strong>Centrotrans a.d. Istočno Sarajevo · 运营商官网所挂 Istočno Sarajevo–Beograd 公布时刻表；经 Pale、Sokolac、Zvornik、Loznica、Šabac</strong></p><p>08:00 → 15:35</p><p>verified_operator_published_undated_timetable_not_2027</p><ul><li>出发必须按票面核对 Istočno Sarajevo / Lukavica 东萨拉热窝客运站，不是火车站旁的 Sarajevo 中央客运站。搜索只输入“Sarajevo bus station”有误到风险。</li><li>优先使用运营商全名 Centrotrans a.d. Istočno Sarajevo；同名 Centrotrans 品牌并不自动意味着同一家、同一个站。</li><li>官网PDF无发布日期：08:00→15:35 是公开时刻表证据，不是 2027 已开售或已向车站确认的服务。出发前复核发车日、班次及最终下客站。</li><li>行程可以按08:00出发、约16:00到达做目标，但边检和道路状况可能延误；抵达日晚餐可弹性安排，不接不可退款的紧凑活动。</li><li>建议提前一天确认去东站的接驳，D36 约07:00–07:15到站；从老城／Kucha出发的接驳时间另留，不把08:00作为离开住宿的时间。</li><li>PDF到达只写 Beograd，未给当前具体下客站地址；购票时让运营商确认是否为 BAS 新站及地图针，别直接导航到历史旧站。</li><li>官方当前其他公布班次：09:45→17:45、12:30→20:00。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://centrotrans-ad.com/\" target=\"_blank\" rel=\"noopener\">Centrotrans a.d. Istočno Sarajevo 官网：国际线路及东站联系信息 ↗</a><a class=\"soft-button\" href=\"https://centrotrans-ad.com/Beograd.pdf\" target=\"_blank\" rel=\"noopener\">Centrotrans a.d. 官方 Istočno Sarajevo–Beograd 时刻表 PDF ↗</a></div></section><section class=\"transport-reference\"><h3>Hurghada → Luxor</h3><p><strong>Go Bus（市场页面也写Go Bus 1；最终以车票运营商为准） · 白天空调长途巴士；El Sakala Street 1出发的公开时刻示例</strong></p><p>08:30 → 12:20</p><p>current_published_marketplace_example_not_2027_service</p><ul><li>当前可见示例耗时3小时50分；规划时为道路检查、途中停靠及市内接驳预留，门到门按约5小时安排更稳妥。不要把08:30→13:30写成运营商已发布时刻。</li><li>同一页面列08:15→12:15、08:20→12:20等记录，可能是不同站点或供应商，不能互换站名；必须核对实际上车office位置。</li><li>建议至少提前30—45分钟到车站，护照随身；行李额度、额外收费和退改规则以票面及运营商为准。</li><li>2027年8—9月重新查询实际日期；埃及时区/夏令时和运营时钟可能变化，按当时票面当地时间。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.obilet.com/en/bus-ticket/hurghada-luxor\" target=\"_blank\" rel=\"noopener\">Obilet公开路线页：Go Bus El Sakala Street 1 08:30→Luxor 12:20 ↗</a><a class=\"soft-button\" href=\"https://go-bus.com/en\" target=\"_blank\" rel=\"noopener\">Go Bus官网：最终日期、车站及班次的核对入口 ↗</a></div></section><section class=\"transport-reference\"><h3>Luxor → Aswan</h3><p><strong>Egyptian National Railways（ENR，埃及国家铁路） · 1010次Russian AC空调座席列车的第三方时刻示例；具体车次/等级以ENR和车票为准</strong></p><p>11:05 → 14:20</p><p>third_party_timetable_example_14h_target_unverified_foreigner_booking_restricted</p><ul><li>未找到可稳妥指认的14:00左右出发班次；不能把原目标14:00→18:00写成已核实车次。当前所查第三方表在11:05后下一条列18:55→22:25，不能据此断言所有日期绝无午后车，只说明本次未证实。</li><li>若使用11:05示例，卢克索最后半天仅安排早间活动，约10:15回住宿取行李并去站，避免把中午神庙项目与乘车挤在一起。若只能订到18:55示例，到阿斯旺很晚，应事先确认住宿接待。</li><li>中国护照旅客不要按埃及居民EGP票价预算，也不要冒填Egyptian nationality购票。先凭护照原件向卢克索站外国旅客售票窗口核对适用车次、外籍票价、币种、支付方式和席位；需提前锁票时可比较正规代理手续费。</li><li>在线可查时刻不等于能以中国护照完成官网购买；购票渠道和开售天数到2027再核实，当前未给本次实时票价。</li><li>夏季选择明确标注AC的座席等级，至少提前30—45分钟到站；车次可能晚点，阿斯旺当日下午不排需要准点到达的付费预约。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://egypttrains.com/luxor/aswan?lang=en\" target=\"_blank\" rel=\"noopener\">EgyptTrains：自述2026-10-22更新的Luxor→Aswan表，1010次11:05→14:20，980次18:55→22:25 ↗</a><a class=\"soft-button\" href=\"https://obs.enr.gov.eg/o-city/obs/enr/railway/en/home\" target=\"_blank\" rel=\"noopener\">ENR官方订票页面：当前在线预订仅限埃及国籍，其他国籍功能建设中 ↗</a><a class=\"soft-button\" href=\"https://www.seat61.com/Egypt.htm\" target=\"_blank\" rel=\"noopener\">Seat61：外国旅客车站或代理购票、外国人票价及应先核对ENR实际时刻的说明 ↗</a></div></section><section class=\"transport-reference\"><h3>Aswan → Cairo</h3><p><strong>Super Jet（Arab Union for Land Transport） · Standard AC长途夜巴的第三方公开时刻示例；到达开罗具体车站待订票时选择</strong></p><p>17:00 → 06:00</p><p>current_published_marketplace_example_not_2027_service</p><ul><li>公开示例为17:00→次日06:00，13小时；原先18:00左右只可作为想乘夜巴的目标，不能冠名Go Bus并写成已证实班次。</li><li>同一页面另列El Eman Jet 16:00→次日06:00（14小时），可作为重新比价方向；没有为2027查到这些班次的可售保证。</li><li>必须核对Aswan上车office和Cairo到达站，不能默认Tahrir或Ramses。开罗远郊站到市中心的接驳时间和车费另留。</li><li>夜巴按13—15小时规划并留进一步延误余量；到开罗当天以寄存、休息和弹性活动为主，不衔接当日上午国际航班或不可改签的预约。</li><li>下单核对护照姓名、空调、座位、行李额度、厕所/停车安排及取消规则；空调可能偏冷，准备薄外套。2027实际时刻和票价临近出发重查。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://12go.asia/en/bus/aswan/cairo\" target=\"_blank\" rel=\"noopener\">12Go公开Aswan→Cairo时刻表：Super Jet Standard AC 17:00→06:00 ↗</a><a class=\"soft-button\" href=\"https://www.superjet-eg.com/en\" target=\"_blank\" rel=\"noopener\">Super Jet官网：公司、Aswan/Cairo目的地及最终查询入口 ↗</a><a class=\"soft-button\" href=\"https://superjetcapital.org/services/\" target=\"_blank\" rel=\"noopener\">Arab Union for Land Transport官网：Super Jet运营身份 ↗</a></div></section><section class=\"transport-reference\"><h3>塔什干TAS → 巴库GYD</h3><p><strong>Uzbekistan Airways / 乌兹别克斯坦航空 · HY755</strong></p><p>12:30（塔什干当地UTC+5；2026-11-05官方出发板样例） → 14:25（巴库当地UTC+4；第三方对应周四参考时刻，非当日实际落地）</p><p>官方2026-11-05出发板核到HY755赴Baku 12:30；该表两列12:30均为出发相关列，不是到达。到达14:25来自Flight.info同航班周四时刻；未核2027年7月指定日期。</p><ul><li>适合上午退房、午间直飞、下午抵达巴库的计划结构。建议目标是当地12:00–16:00起飞、傍晚前抵达，实际按当日售票替换。</li><li>同一HY755在不同星期有15:15→17:10等时刻，不能把周四样例写成每天固定。</li><li>机场时刻均为各地当地时间；时差使12:30至14:25对应约2小时55分飞行。</li><li>没有查询2027年指定日期余票、价格、行李或实际落地时间。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.uzairways.com/en/schedule\" target=\"_blank\" rel=\"noopener\">Uzbekistan Airways官方出发板：05.11.2026 HY755 Baku，计划12:30 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/HY755\" target=\"_blank\" rel=\"noopener\">第三方时刻：HY755周四TAS12:30→GYD14:25，列有效期至2027-03-25 ↗</a></div></section><section class=\"transport-reference\"><h3>埃里温EVN → 伊斯坦布尔萨比哈SAW → 开塞利ASR</h3><p><strong>Pegasus Airlines / 飞马航空 · PC551 + PC2732（当前样例候选）；午间PC2736可作为更长换乘的搜索候选</strong></p><p>04:15（EVN当地UTC+4；现公开冬季样例） → 09:15（ASR当地UTC+3；接PC2732的现公开样例，联程未出票）</p><p>已核PC551与PC2732/2736各自公开航班时刻，并读Pegasus官方联程规则和网络资料；未取得2027日期EVN—ASR一张PNR的可售联程结果，因此是组合搜索参考，不能视作已确认联程。</p><ul><li>第一段样例04:15EVN→05:40SAW；第二段08:00SAW→09:15ASR，纸面衔接2小时20分。此时间差计算不证明航司最低衔接时间、联程可售或前序准点。</li><li>优先在Pegasus官网直接搜EVN→ASR的一张订单，要求两段均为SAW，确认行李额度和行李条终点。若只能分开买票，重新安排充足换乘时间，不沿用这组紧凑样例。</li><li>国际转土耳其国内需在SAW办理入境等程序，不能按纯国际转机理解；行李是否直挂以订单、机场和航司指引为准。</li><li>面向旅行工具的目标结构：清晨离开EVN，SAW白天中转，下午前抵ASR；保留PC2736午间候选可增加缓冲。</li><li>冬季样例不能直接承诺2027年夏季时刻；实际日期也可能显示其他班次，应以出票结果替换。</li><li>凌晨04:15起飞意味着前一晚需安排去EVN机场，不能把该晚写成完整睡眠后再赶早班机。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.flypgs.com/en/useful-info/info-about-flights/our-network\" target=\"_blank\" rel=\"noopener\">Pegasus官方航线网络：包含Yerevan、Istanbul Sabiha Gokcen、Kayseri ↗</a><a class=\"soft-button\" href=\"https://www.flypgs.com/en/what-should-you-do-when-connecting-flights\" target=\"_blank\" rel=\"noopener\">Pegasus官方转机指引：国际接国内、行李处理和不同票号情形 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/PC551\" target=\"_blank\" rel=\"noopener\">PC551参考：EVN04:15→SAW05:40，现公开冬季时刻 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/PC2732\" target=\"_blank\" rel=\"noopener\">PC2732参考：SAW08:00→ASR09:15，2026-11上旬部分开行日样例 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/PC2736\" target=\"_blank\" rel=\"noopener\">PC2736参考：SAW13:00→ASR14:15的部分日期样例 ↗</a></div></section><section class=\"transport-reference\"><h3>伊斯坦布尔萨比哈SAW → 萨拉热窝SJJ</h3><p><strong>Pegasus Airlines / 飞马航空 · PC293（下午航班参考）</strong></p><p>15:20（SAW当地UTC+3；2026-11-05冬季样例） → 15:15（SJJ当地CET/UTC+1；当日）</p><p>Pegasus官方目的地页支持伊斯坦布尔直飞萨拉热窝；航班号与钟点来自当前第三方时刻，冬季钟点仅为样例。未取得2027年实际日期官网时刻和机票。</p><ul><li>到达钟点比出发钟点早5分钟是当地时区差异，飞行参考时长约1小时55分，不是负飞行时间。</li><li>夏季萨拉热窝采用不同钟点，不能把11月15:15直接搬进2027年7–8月行程。推荐安排下午飞、傍晚前抵达的窗口。</li><li>该航班从SAW出发，不是IST；市区去机场交通应按SAW另排。</li><li>没有锁定2027年开行日、库存、行李或价格。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.flypgs.com/en/airports/sarajevo-international-airport\" target=\"_blank\" rel=\"noopener\">Pegasus官方Sarajevo机场页：从Istanbul直飞 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/PC293\" target=\"_blank\" rel=\"noopener\">PC293参考：2026-11上旬部分日期15:20SAW→15:15SJJ，其他日期钟点有变化 ↗</a><a class=\"soft-button\" href=\"https://www.flightstats.com/v2/flight-tracker/PC/293?date=04&amp;flightId=1418019692&amp;month=11&amp;year=2026\" target=\"_blank\" rel=\"noopener\">FlightStats：邻近日样例和2026-11-05列表；11月4日另为15:50→15:45，说明并非每天固定 ↗</a></div></section><section class=\"transport-reference\"><h3>贝尔格莱德BEG → 赫尔格达HRG</h3><p><strong>Air Cairo / 开罗航空 · SM388</strong></p><p>05:30（BEG当地CET/UTC+1；2026-11周三样例） → 09:50（HRG当地UTC+2；当日）</p><p>Air Cairo官网可核BEG→HRG航线；SM388及钟点来自第三方现公开样例，官网本次未给指定日期航班时刻。未核2027暑期的开行日和可售价格。</p><ul><li>适合清晨离开贝尔格莱德、上午抵赫尔格达，但意味着前一晚/凌晨需去机场；不要安排到达当天很早的收费出海项目。</li><li>不保证每日都有SM388。先用实际日期确认直飞再固定前后城市住宿；取消与改期条款以航司订单为准。</li><li>部分追踪器显示UTC时刻，不能直接把04:30/07:50当作当地出发/到达；本字段采用明确机场当地钟点的时刻样例。</li><li>夏令时和季节排班会改变钟点；官网当期起价不当作2027报价。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://aircairo.com/en-rs/offer-info/beg-hrg-o\" target=\"_blank\" rel=\"noopener\">Air Cairo官方航线优惠页：Belgrade Nikola Tesla→Hurghada International；条款属当期活动 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/SM388\" target=\"_blank\" rel=\"noopener\">SM388参考：2026-11-04至11-25周三05:30BEG→09:50HRG；另有周日05:30→09:45 ↗</a></div></section><section class=\"transport-reference\"><h3>吉萨斯芬克斯SPX → 沙迦SHJ</h3><p><strong>Air Arabia（G9，沙迦航司） · G9 344 / G9344</strong></p><p>01:55（SPX当地UTC+2；2026-11-05冬季样例） → 07:05（SHJ当地UTC+4；当日）</p><p>Air Arabia官方开航公告核到SPX—SHJ及G9344，但公告时刻为2023历史表；01:55→07:05是第三方2026-11公开样例，非2027夏季已核时刻。</p><ul><li>凌晨01:55的航班需在前一日深夜到SPX；行程日期按起飞日计，不能等起飞日白天才离开开罗市区。</li><li>SPX和CAI是不同机场；SHJ和DXB也不同，之后前往迪拜或阿布扎比需另留陆路交通时间与预算。</li><li>现参考日可早晨抵沙迦，上午转城；实际2027年可能改为其他钟点，不把历史22:50或冬季01:55写成全年班次。</li><li>未核2027年出行日库存、行李和价格；航司G9也不要与Air Arabia Abu Dhabi的3L混淆。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://press.airarabia.com/air-arabia-launches-non-stop-flights-between-sharjah-and-egypts-sphinx-international-airport/\" target=\"_blank\" rel=\"noopener\">Air Arabia官方2023开航公告：SPX—SHJ、G9344；历史22:50→04:10不能当当前时刻 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/G9344\" target=\"_blank\" rel=\"noopener\">G9344第三方现表：2026-11-05样例SPX01:55→SHJ07:05；列有效期至2027-03-27 ↗</a></div></section><section class=\"transport-reference\"><h3>迪拜DXB → 杭州HGH</h3><p><strong>Emirates / 阿联酋航空 · EK310</strong></p><p>04:35（DXB当地UTC+4；第三方列出的2027-06-01至09-30夏季参考） → 17:05（杭州北京时间UTC+8；同一日）</p><p>Emirates官方航线页确认DXB—HGH，官方时刻查询已访问但动态结果未能读取。04:35→17:05仅为Flight.info已列2027夏季参考，未取得2027-09-04或09-05航司出票确认。</p><ul><li>若9月4日凌晨04:35从DXB起飞，第三方夏季参考为9月4日17:05抵杭，不是9月5日；9月3日深夜就需出发去机场。可把9月5日作为返家休整/延误余量。</li><li>用户要求9月5日前后回国，不必特意等到9月5日凌晨起飞；用9月4日到达更容易保留截止日缓冲。根行程若总计57天，可保留第57天为国内休整。</li><li>不能将04:15→16:00称为所有日期的当前时刻：该第三方本次列2026-11-21前11:00→23:00，2026-11-22起部分时段才为04:15→16:00，2027夏季又为04:35→17:05。</li><li>CA762从迪拜到杭州确曾真实运行，但本次只有历史官方报道和近期取消状态，未取得2027航司可售证据；不作为确定备选。</li><li>以上没有含税报价、余票或最低价承诺；返程务必先以Emirates实际日期搜索确认后再固定阿联酋末晚住宿。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/\" target=\"_blank\" rel=\"noopener\">Emirates官方DXB→HGH航线入口；当前抓取没有可读取的EK310指定日期钟点 ↗</a><a class=\"soft-button\" href=\"https://www.emirates.com/english/book/flight-schedules/\" target=\"_blank\" rel=\"noopener\">Emirates官方时刻表查询，已访问；动态日期/航线结果未取得 ↗</a><a class=\"soft-button\" href=\"https://www.flight.info/EK310\" target=\"_blank\" rel=\"noopener\">第三方表明确列：2027-06-01至09-30 EK310 DXB04:35→HGH17:05，同日 ↗</a><a class=\"soft-button\" href=\"https://www.ehangzhou.gov.cn/2024-10/25/c_291354.htm\" target=\"_blank\" rel=\"noopener\">杭州官方新闻2024-10-25核到国航CA762曾从迪拜抵杭；仅证明历史存在，不确认2027运行 ↗</a><a class=\"soft-button\" href=\"https://www.trip.com/flights/status-ca762/\" target=\"_blank\" rel=\"noopener\">CA762近期第三方状态出现取消，不能据历史航线直接列为2027可订备选 ↗</a></div></section><section class=\"transport-reference\"><h3>塔什干 → 布哈拉</h3><p><strong>Uzbekistan Railways · Afrosiyob上午班·购票目标</strong></p><p>07:30目标 → 11:30目标</p><p>当前参考，非2027已订</p><ul><li>钟点是推荐检索目标，未取得2027指定日期班次；选不到上午车时顺延布哈拉当日游览。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener\">乌兹别克铁路官方订票入口 ↗</a></div></section><section class=\"transport-reference\"><h3>布哈拉 → 撒马尔罕</h3><p><strong>Uzbekistan Railways · Afrosiyob上午班·购票目标</strong></p><p>09:00目标 → 10:45目标</p><p>当前参考，非2027已订</p><ul><li>未核实该钟点为现行实际班次，保留上午出发、午前后到城的购票目标。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener\">乌兹别克铁路官方订票入口 ↗</a></div></section><section class=\"transport-reference\"><h3>撒马尔罕 → 塔什干</h3><p><strong>Uzbekistan Railways · Afrosiyob下午班·购票目标</strong></p><p>15:30目标 → 18:00目标</p><p>当前参考，非2027已订</p><ul><li>下午车购票目标；必须在次日国际航班前一日回塔什干。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener\">乌兹别克铁路官方订票入口 ↗</a></div></section><section class=\"transport-reference\"><h3>巴库 → 第比利斯</h3><p><strong>Azerbaijan Railways / ADY · 38次夜间卧铺·现行参考</strong></p><p>23:10 巴库时间 → 次日08:41 第比利斯时间</p><p>当前报道援引ADY的时刻；官网订票复核，非2027已售</p><ul><li>两地同为UTC+4。不要把新闻恢复开行等同2027当日可售，必须按中国护照入境/出境资格和正式车票核准。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://ticket.ady.az/\" target=\"_blank\" rel=\"noopener\">ADY官方订票入口 ↗</a><a class=\"soft-button\" href=\"https://report.az/en/amp/infrastructure/ady-resumes-baku-tbilisi-baku-passenger-transportation\" target=\"_blank\" rel=\"noopener\">Report.az援引ADY恢复夜车公告 ↗</a></div></section><section class=\"transport-reference\"><h3>第比利斯 → 埃里温</h3><p><strong>Caucasus Travel（当前平台列名） · 日间跨境小巴·09:00购票目标</strong></p><p>09:00 第比利斯·目标 → 16:00 埃里温·含边检缓冲</p><p>已核路线运营商页面，09:00是建议购票目标，不是已确认班次</p><ul><li>双方同UTC+4，具体上车点按车票，先从Fabrika赴确认站点，不能默认Avlabari发车。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://transport2.run.am/trip/tbilisi-to-yerevan\" target=\"_blank\" rel=\"noopener\">TMS当前线路与承运商入口 ↗</a></div></section><section class=\"transport-reference\"><h3>萨拉热窝 → 莫斯塔尔 → 萨拉热窝</h3><p><strong>ŽFBH · 07:15去程；回程先查暑期周日表</strong></p><p>07:15 Sarajevo（现行） → 约09:15 Mostar；返程19:00→21:00为购票目标</p><p>官网2025/26表可读；2026暑期周五六日增开1390，2027待核</p><ul><li>D36是2027-08-15周日，不能直接套普通日17:09返程。官方2026暑期1390全段到Sarajevo21:54；2027开售后先落实莫斯塔尔返程列车或正规巴士，再排下午。</li><li>本日返程暂以19:00→21:00公路/铁路购票目标留位，无已核具体19:00班次。若只能21:54到萨城，应直接回Kucha，次日08:00东站巴士照常需要05:00起床。</li></ul><div class=\"route-actions\"><a class=\"soft-button\" href=\"https://www.zfbh.ba/en/red-voznje/\" target=\"_blank\" rel=\"noopener\">ŽFBH官方时刻表与暑期周末注释 ↗</a></div></section>"
+      "html": "<h2>具体班次与推荐钟点</h2><p>返杭段于2026-11-06局部复核；其他交通沿用11/5资料。未订2027票，所有样例/目标分别标明。</p><section class=\"transport-reference\"><h3>杭州站 → 乌鲁木齐站</h3><p><strong>中国铁路；具体担当信息以12306当次列车为准 · Z594（沿途亦有Z595车次编号）</strong></p><p>10:46（北京时间） → 06:28（北京时间，第3日）</p><p>已核到携程现公开时刻表与路线页；12306本次仅能读取查询入口，没有取得2027年7月具体日期售票结果。</p><ul><li>以上为2026年11月可读公开参考时刻，不是2027年7月已公布或已购买的车票。</li><li>跨2个日历日、约43小时42分，需把杭州出发算D1、乌鲁木齐到达算D3，不能写成次日到。</li><li>杭州站与杭州东站不同，乌鲁木齐站与乌鲁木齐南站不同；购票时逐项核站名。</li><li>未查询指定日期余票、卧铺价格和学生票资格，最终以12306当次订单为准。</li></ul><p><a href=\"https://trains.ctrip.com/TrainSchedule/Z594\" target=\"_blank\" rel=\"noopener noreferrer\">携程Z594车次时刻表：杭州10:46、乌鲁木齐06:28 ↗</a> · <a href=\"https://trains.ctrip.com/TrainBooking/hangzhou-wulumuqinan/dongche\" target=\"_blank\" rel=\"noopener noreferrer\">携程杭州方向路线页：列Z594杭州10:46至乌鲁木齐06:28 +2，注意终点并非乌鲁木齐南 ↗</a> · <a href=\"https://www.12306.cn/index/\" target=\"_blank\" rel=\"noopener noreferrer\">中国铁路12306官方查询入口；动态指定日期结果未取得 ↗</a></p></section><section class=\"transport-reference\"><h3>乌鲁木齐站 → 伊宁站</h3><p><strong>中国铁路；具体担当信息以12306当次列车为准 · C845（2026-11-05携程路线页参考）</strong></p><p>09:56（北京时间） → 15:03（北京时间，当日）</p><p>已核到携程2026-11-05路线页的具体车次与时刻；同站静态车次页旧缓存有差异，未将其当作2027时刻。</p><ul><li>若Z594当前06:28到站，接09:56的C845在纸面上间隔3小时28分；此为计划缓冲计算，不保证前车准点或换乘成功。</li><li>两段均应核为乌鲁木齐站，不能把乌鲁木齐南的列车直接视为同站换乘。</li><li>优先保留上午09:00–11:00出发、下午抵达伊宁并住1晚的结构；若售票调图，以实际开行列车替换，不锁死C845。</li><li>本次没有取得2027年7月12306时刻、联程方案、余票与报价。</li></ul><p><a href=\"https://trains.ctrip.com/TrainBooking/wulumuqi-yining/dongche\" target=\"_blank\" rel=\"noopener noreferrer\">携程2026-11-05乌鲁木齐至伊宁：C845 09:56→15:03，历时5小时7分 ↗</a> · <a href=\"https://trains.ctrip.com/TrainSchedule/C845\" target=\"_blank\" rel=\"noopener noreferrer\">携程C845静态车次页旧缓存仍为10:05→15:04，与当日路线页不同 ↗</a> · <a href=\"https://www.12306.cn/index/\" target=\"_blank\" rel=\"noopener noreferrer\">12306最终核对站名、开行日期、时刻与余票的官方入口 ↗</a></p></section><section class=\"transport-reference\"><h3>伊犁州汽车客运总站（伊宁） → 都拉塔口岸 → 阿拉木图Sayran国际客运站；霍尔果斯出发为另一条线路</h3><p><strong>伊犁伊通涉外汽车运输公司（2026中国交通报采访核到运营企业）；具体班次承运人以车站出票为准 · 伊宁—阿拉木图国际道路旅客班车；没有核到固定公开班次编号</strong></p><p>09:30（北京时间；中国驻阿拉木图总领馆2023-07-10历史官方公告参考） → </p><p>班线、承运企业与到达车站有官方/交通行业媒体证据；09:30只有2023官方历史公告，当前及2027年具体时刻与固定到达时间未确认。</p><ul><li>不能把伊宁09:30、霍尔果斯11:00和阿拉木图返程当地09:00混为一班；北京时间与阿拉木图当地时间也须分清。</li><li>历史官方购票入口是“伊犁州汽车客运总站”微信公众号，伊宁车站电话0999-6765532；霍尔果斯国际客运站0999-8791092。使用前核营业状态、实际站址和发车日。</li><li>历史官方到达站为Sayran，地址Töle Bi 294 / Utegen Batyr 64；需向售票方确认2027年是否仍在此终到。</li><li>2026采访说明约10小时，但跨境排队可能变化，因此arrival留空；当日到达仅是行程预留方式。不要在抵达当晚衔接不可退的火车或飞机。</li><li>不把历史200元票价当2027报价；需核含行李、取票方式、口岸及当天是否运行。</li></ul><p><a href=\"https://almaty.china-consulate.gov.cn/lsfw/lqgk/202307/t20230710_11110566.htm\" target=\"_blank\" rel=\"noopener noreferrer\">中国驻阿拉木图总领馆2023-07-10：伊宁经都拉塔09:30、霍尔果斯11:00、抵达Sayran、购票渠道与电话 ↗</a> · <a href=\"https://www.zgjtb.com/2026-07/01/content_526047.html\" target=\"_blank\" rel=\"noopener noreferrer\">中国交通报2026-07-01采访：伊犁伊通涉外汽车运输公司运营伊宁至阿拉木图班线，全程约430公里、约10小时 ↗</a></p></section><section class=\"transport-reference\"><h3>阿拉木图2站（Алматы-2） → 塔什干中央站（Ташкент-Центральный）</h3><p><strong>KTZ / AO Passenger Transportation（АО «Пассажирские перевозки»） · 国际列车№1/2；阿拉木图出发方向平台显示001Х</strong></p><p>19:05（当地时间；KTZ 2026公开公告参考） → 12:53（次日塔什干当地时间；KTZ 2026公开公告参考）</p><p>已核KTZ官方PRESS频道公开公告，支持19:05→次日12:53；Yandex现公开路线页为19:05→12:58。官方动态售票表未取得，差异未消除，均不代表2027时刻。</p><ul><li>主字段采用有官方公开公告依据的12:53；12:58是另一平台现表，不能说已被官方动态售票核实。页面还列未来调图18:45，因此行程只能锚定傍晚出发、次日中午抵达。</li><li>办理时核对Алматы-2，不是Алматы-1；到站核Ташкент-Центральный，最终以票面为准。</li><li>KTZ公告同时介绍ЖН女性专用车厢；21岁男性应选普通车厢床位。</li><li>KTZ该公告写提前45天售票，2027年实际预售期、开行日、票价、车厢和边检安排须临近出发再核。</li><li>塔什干抵达日留作半日市区步行/地铁，不安排紧贴中午到站的不可退接续。</li></ul><p><a href=\"https://t.me/s/railways_kz?before=14387\" target=\"_blank\" rel=\"noopener noreferrer\">KTZ PRESS官方频道公告#14386：№1/2，阿拉木图19:05、塔什干12:53及45天预售说明 ↗</a> · <a href=\"https://t.me/railways_kz/14386\" target=\"_blank\" rel=\"noopener noreferrer\">KTZ公告直接定位；正文可在频道网页的before=14387页面读取 ↗</a> · <a href=\"https://rail-news.kz/index.php/ru/passenger-transportation/24677-zenskii-vagon-vpervye-poiavitsia-v-poezde-almaty-taskent.html\" target=\"_blank\" rel=\"noopener noreferrer\">哈萨克铁路行业报2026-08-27转述KTZ新闻处：19:05→12:53，路线№1/2 Алматы-2—Ташкент ↗</a> · <a href=\"https://rasp.yandex.kz/train/almaty-2--tashkent-tsentralniy\" target=\"_blank\" rel=\"noopener noreferrer\">Yandex时刻页：001Х当前19:05→12:58；另列12月13日起18:45发车，显示季节调图风险 ↗</a> · <a href=\"https://bilet.railways.kz/\" target=\"_blank\" rel=\"noopener noreferrer\">KTZ官方售票入口，本次只读取查询表单，未获得指定日期时刻/库存 ↗</a></p></section><section class=\"transport-reference\"><h3>Göreme → Antalya</h3><p><strong>Topçam Turizm · Obilet 公共路线页当前夜巴例示；Göreme Otogarı → Antalya Otogarı，2+1 座位</strong></p><p>22:30 → 07:00</p><p>verified_current_route_page_example_not_2027</p><ul><li>这是抓取当日公开路线页所列例示，未选定旅行日期，不能标成 2027 已确认班次或保证每日开行。</li><li>同页其他当前例示：Kamil Koç 21:30→05:45、Öz Sivas Turizm 22:00→06:00；若希望约 07:00 到达，目前证据最贴合的是 22:30 班，不应把 21:30 班的到达硬改成 07:00。</li><li>行程预留开车前 30–45 分钟到 Göreme Otogarı；夜巴抵 Antalya Otogarı 后还需进城，不是 07:00 已到老城。</li><li>Antalya 青旅通常下午才能入住；提前确认清晨寄存／洗漱安排。不要把车站到达时间当成可入住时间。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/goreme-antalya\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Göreme–Antalya 路线页 ↗</a></p></section><section class=\"transport-reference\"><h3>Antalya → Kaş</h3><p><strong>Batı Antalya · Obilet 公共路线页当前日间例示；Antalya Otogarı → Kaş Askerlik Şubesi Otobüs Kalkış-Varış Noktası，2+2 座位</strong></p><p>13:30 → 17:35</p><p>verified_current_route_page_example_not_2027</p><ul><li>同页当前例示还有 Kumluca Seyahat 14:15→18:25 与 15:00→19:10，可作为 13:30 售罄后的检索参考。</li><li>这条沿海路段按约 4 小时规划；不能把 15:00 出发写成 17:00 到达。</li><li>票面可能写镇内 Askerlik Şubesi 停靠点；下一段 Kaş→Fethiye 的所选例示却从 Ağullu 新客运站发车，两段不应视为同一站。</li><li>从 Kaleiçi 住宿到 Antalya Otogarı 另留市内交通和到站缓冲；尽量 12:45 前到站检票。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/antalya-kas\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Antalya–Kaş 路线页 ↗</a> · <a href=\"https://www.batiantalyatur.com.tr/\" target=\"_blank\" rel=\"noopener noreferrer\">Batı Antalya 官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>Kaş → Fethiye</h3><p><strong>Fethiye Seyahat · Obilet 公共路线页当前例示；Kaş Otobüs Terminali (Ağullu) → Fethiye Otogarı，2+2 座位</strong></p><p>15:20 → 17:20</p><p>verified_current_route_page_example_not_2027</p><ul><li>D28 的“15:00 出发”应标为约时目标；本次找到的近似当前例示是 15:20，不是已证实 15:00 班。</li><li>核心站点风险：Ağullu 新客运站与 Kaş 镇中心旧站／Askerlik Şubesi 停靠点不同。提前一天向运营商／住宿核对到 Ağullu 的接驳、实际登车点与发车时间。</li><li>建议镇内约 13:45–14:00 结束活动并取包，目标 14:30–14:45 到 Ağullu；这些是人为预留的接驳与候车窗口，不是已核实的 dolmuş 时刻。</li><li>17:20 抵达后距离 21:00 夜巴有约 3 小时 40 分钟；两张分开购买的票不属于联程保障，延误时后段不会自动等候。</li><li>同页更早的当前例示：Batı Antalya Tur 13:50→16:10；更晚 16:50→19:10 对后段的缓冲较少，不作首选。</li><li>若实际 2027 班次到达站不是 Fethiye Otogarı，需重新计算市内转站时间；出发前先确认后段座位。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/kas-fethiye\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Kaş–Fethiye 路线页 ↗</a></p></section><section class=\"transport-reference\"><h3>Fethiye → İstanbul Europe (Esenler)</h3><p><strong>Metro Turizm · Obilet 公共路线页当前夜巴例示；Fethiye Otogarı → Esenler Otogarı，2+1 座位</strong></p><p>21:00 → 09:30</p><p>verified_current_route_page_example_not_2027</p><ul><li>21:00→次日09:30 是抓取当日公开路线页例示，贴合“21:00→约10:00”的规划；未查询 2027 日期，也未锁票。</li><li>务必选择 Istanbul Europe / Esenler；Ataşehir、Dudullu、Sultanbeyli 在亚洲侧，Alibeyköy 也与 Esenler 不同，不能套用同一住宿接驳。</li><li>当前备选例示：Balıkesir Uludağ Turizm 20:00→Esenler10:00；若选择它，需同步提前 Kaş→Fethiye 段。</li><li>目标 20:00–20:15 到 Fethiye Otogarı 候车，并先完成晚餐／卫生间；这是行程缓冲建议。</li><li>到 Esenler 后另留去 Sultanahmet 住宿的交通、早餐与寄存时间，D29 首个需定时入场的景点不要紧贴 10:00。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/fethiye-istanbul\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Fethiye–Istanbul 路线页 ↗</a> · <a href=\"https://www.pamukkale.com.tr/bilet/fethiye-istanbul-esenler-otobus-bileti/\" target=\"_blank\" rel=\"noopener noreferrer\">Pamukkale Turizm：Fethiye–İstanbul Esenler 官方路线订票页 ↗</a></p></section><section class=\"transport-reference\"><h3>Istočno Sarajevo (East Sarajevo / Lukavica) → Beograd</h3><p><strong>Centrotrans a.d. Istočno Sarajevo · 运营商官网所挂 Istočno Sarajevo–Beograd 公布时刻表；经 Pale、Sokolac、Zvornik、Loznica、Šabac</strong></p><p>08:00 → 15:35</p><p>verified_operator_published_undated_timetable_not_2027</p><ul><li>出发必须按票面核对 Istočno Sarajevo / Lukavica 东萨拉热窝客运站，不是火车站旁的 Sarajevo 中央客运站。搜索只输入“Sarajevo bus station”有误到风险。</li><li>优先使用运营商全名 Centrotrans a.d. Istočno Sarajevo；同名 Centrotrans 品牌并不自动意味着同一家、同一个站。</li><li>官网PDF无发布日期：08:00→15:35 是公开时刻表证据，不是 2027 已开售或已向车站确认的服务。出发前复核发车日、班次及最终下客站。</li><li>行程可以按08:00出发、约16:00到达做目标，但边检和道路状况可能延误；抵达日晚餐可弹性安排，不接不可退款的紧凑活动。</li><li>建议提前一天确认去东站的接驳，D36 约07:00–07:15到站；从老城／Kucha出发的接驳时间另留，不把08:00作为离开住宿的时间。</li><li>PDF到达只写 Beograd，未给当前具体下客站地址；购票时让运营商确认是否为 BAS 新站及地图针，别直接导航到历史旧站。</li><li>官方当前其他公布班次：09:45→17:45、12:30→20:00。</li></ul><p><a href=\"https://centrotrans-ad.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Centrotrans a.d. Istočno Sarajevo 官网：国际线路及东站联系信息 ↗</a> · <a href=\"https://centrotrans-ad.com/Beograd.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Centrotrans a.d. 官方 Istočno Sarajevo–Beograd 时刻表 PDF ↗</a></p></section><section class=\"transport-reference\"><h3>Hurghada → Luxor</h3><p><strong>Go Bus（市场页面也写Go Bus 1；最终以车票运营商为准） · 白天空调长途巴士；El Sakala Street 1出发的公开时刻示例</strong></p><p>08:30 → 12:20</p><p>current_published_marketplace_example_not_2027_service</p><ul><li>当前可见示例耗时3小时50分；规划时为道路检查、途中停靠及市内接驳预留，门到门按约5小时安排更稳妥。不要把08:30→13:30写成运营商已发布时刻。</li><li>同一页面列08:15→12:15、08:20→12:20等记录，可能是不同站点或供应商，不能互换站名；必须核对实际上车office位置。</li><li>建议至少提前30—45分钟到车站，护照随身；行李额度、额外收费和退改规则以票面及运营商为准。</li><li>2027年8—9月重新查询实际日期；埃及时区/夏令时和运营时钟可能变化，按当时票面当地时间。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/hurghada-luxor\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet公开路线页：Go Bus El Sakala Street 1 08:30→Luxor 12:20 ↗</a> · <a href=\"https://go-bus.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">Go Bus官网：最终日期、车站及班次的核对入口 ↗</a></p></section><section class=\"transport-reference\"><h3>Luxor → Aswan</h3><p><strong>Egyptian National Railways（ENR，埃及国家铁路） · 1010次Russian AC空调座席列车的第三方时刻示例；具体车次/等级以ENR和车票为准</strong></p><p>11:05 → 14:20</p><p>third_party_timetable_example_14h_target_unverified_foreigner_booking_restricted</p><ul><li>未找到可稳妥指认的14:00左右出发班次；不能把原目标14:00→18:00写成已核实车次。当前所查第三方表在11:05后下一条列18:55→22:25，不能据此断言所有日期绝无午后车，只说明本次未证实。</li><li>若使用11:05示例，卢克索最后半天仅安排早间活动，约10:15回住宿取行李并去站，避免把中午神庙项目与乘车挤在一起。若只能订到18:55示例，到阿斯旺很晚，应事先确认住宿接待。</li><li>中国护照旅客不要按埃及居民EGP票价预算，也不要冒填Egyptian nationality购票。先凭护照原件向卢克索站外国旅客售票窗口核对适用车次、外籍票价、币种、支付方式和席位；需提前锁票时可比较正规代理手续费。</li><li>在线可查时刻不等于能以中国护照完成官网购买；购票渠道和开售天数到2027再核实，当前未给本次实时票价。</li><li>夏季选择明确标注AC的座席等级，至少提前30—45分钟到站；车次可能晚点，阿斯旺当日下午不排需要准点到达的付费预约。</li></ul><p><a href=\"https://egypttrains.com/luxor/aswan?lang=en\" target=\"_blank\" rel=\"noopener noreferrer\">EgyptTrains：自述2026-10-22更新的Luxor→Aswan表，1010次11:05→14:20，980次18:55→22:25 ↗</a> · <a href=\"https://obs.enr.gov.eg/o-city/obs/enr/railway/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">ENR官方订票页面：当前在线预订仅限埃及国籍，其他国籍功能建设中 ↗</a> · <a href=\"https://www.seat61.com/Egypt.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Seat61：外国旅客车站或代理购票、外国人票价及应先核对ENR实际时刻的说明 ↗</a></p></section><section class=\"transport-reference\"><h3>Aswan → Cairo</h3><p><strong>Super Jet（Arab Union for Land Transport） · Standard AC长途夜巴的第三方公开时刻示例；到达开罗具体车站待订票时选择</strong></p><p>17:00 → 06:00</p><p>current_published_marketplace_example_not_2027_service</p><ul><li>公开示例为17:00→次日06:00，13小时；原先18:00左右只可作为想乘夜巴的目标，不能冠名Go Bus并写成已证实班次。</li><li>同一页面另列El Eman Jet 16:00→次日06:00（14小时），可作为重新比价方向；没有为2027查到这些班次的可售保证。</li><li>必须核对Aswan上车office和Cairo到达站，不能默认Tahrir或Ramses。开罗远郊站到市中心的接驳时间和车费另留。</li><li>夜巴按13—15小时规划并留进一步延误余量；到开罗当天以寄存、休息和弹性活动为主，不衔接当日上午国际航班或不可改签的预约。</li><li>下单核对护照姓名、空调、座位、行李额度、厕所/停车安排及取消规则；空调可能偏冷，准备薄外套。2027实际时刻和票价临近出发重查。</li></ul><p><a href=\"https://12go.asia/en/bus/aswan/cairo\" target=\"_blank\" rel=\"noopener noreferrer\">12Go公开Aswan→Cairo时刻表：Super Jet Standard AC 17:00→06:00 ↗</a> · <a href=\"https://www.superjet-eg.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">Super Jet官网：公司、Aswan/Cairo目的地及最终查询入口 ↗</a> · <a href=\"https://superjetcapital.org/services/\" target=\"_blank\" rel=\"noopener noreferrer\">Arab Union for Land Transport官网：Super Jet运营身份 ↗</a></p></section><section class=\"transport-reference\"><h3>塔什干TAS → 巴库GYD</h3><p><strong>Uzbekistan Airways / 乌兹别克斯坦航空 · HY755</strong></p><p>12:30（塔什干当地UTC+5；2026-11-05官方出发板样例） → 14:25（巴库当地UTC+4；第三方对应周四参考时刻，非当日实际落地）</p><p>官方2026-11-05出发板核到HY755赴Baku 12:30；该表两列12:30均为出发相关列，不是到达。到达14:25来自Flight.info同航班周四时刻；未核2027年7月指定日期。</p><ul><li>适合上午退房、午间直飞、下午抵达巴库的计划结构。建议目标是当地12:00–16:00起飞、傍晚前抵达，实际按当日售票替换。</li><li>同一HY755在不同星期有15:15→17:10等时刻，不能把周四样例写成每天固定。</li><li>机场时刻均为各地当地时间；时差使12:30至14:25对应约2小时55分飞行。</li><li>没有查询2027年指定日期余票、价格、行李或实际落地时间。</li></ul><p><a href=\"https://www.uzairways.com/en/schedule\" target=\"_blank\" rel=\"noopener noreferrer\">Uzbekistan Airways官方出发板：05.11.2026 HY755 Baku，计划12:30 ↗</a> · <a href=\"https://www.flight.info/HY755\" target=\"_blank\" rel=\"noopener noreferrer\">第三方时刻：HY755周四TAS12:30→GYD14:25，列有效期至2027-03-25 ↗</a></p></section><section class=\"transport-reference\"><h3>埃里温EVN → 伊斯坦布尔萨比哈SAW → 开塞利ASR</h3><p><strong>Pegasus Airlines / 飞马航空 · PC551 + PC2732（当前样例候选）；午间PC2736可作为更长换乘的搜索候选</strong></p><p>04:15（EVN当地UTC+4；现公开冬季样例） → 09:15（ASR当地UTC+3；接PC2732的现公开样例，联程未出票）</p><p>已核PC551与PC2732/2736各自公开航班时刻，并读Pegasus官方联程规则和网络资料；未取得2027日期EVN—ASR一张PNR的可售联程结果，因此是组合搜索参考，不能视作已确认联程。</p><ul><li>第一段样例04:15EVN→05:40SAW；第二段08:00SAW→09:15ASR，纸面衔接2小时20分。此时间差计算不证明航司最低衔接时间、联程可售或前序准点。</li><li>优先在Pegasus官网直接搜EVN→ASR的一张订单，要求两段均为SAW，确认行李额度和行李条终点。若只能分开买票，重新安排充足换乘时间，不沿用这组紧凑样例。</li><li>国际转土耳其国内需在SAW办理入境等程序，不能按纯国际转机理解；行李是否直挂以订单、机场和航司指引为准。</li><li>面向旅行工具的目标结构：清晨离开EVN，SAW白天中转，下午前抵ASR；保留PC2736午间候选可增加缓冲。</li><li>冬季样例不能直接承诺2027年夏季时刻；实际日期也可能显示其他班次，应以出票结果替换。</li><li>凌晨04:15起飞意味着前一晚需安排去EVN机场，不能把该晚写成完整睡眠后再赶早班机。</li></ul><p><a href=\"https://www.flypgs.com/en/useful-info/info-about-flights/our-network\" target=\"_blank\" rel=\"noopener noreferrer\">Pegasus官方航线网络：包含Yerevan、Istanbul Sabiha Gokcen、Kayseri ↗</a> · <a href=\"https://www.flypgs.com/en/what-should-you-do-when-connecting-flights\" target=\"_blank\" rel=\"noopener noreferrer\">Pegasus官方转机指引：国际接国内、行李处理和不同票号情形 ↗</a> · <a href=\"https://www.flight.info/PC551\" target=\"_blank\" rel=\"noopener noreferrer\">PC551参考：EVN04:15→SAW05:40，现公开冬季时刻 ↗</a> · <a href=\"https://www.flight.info/PC2732\" target=\"_blank\" rel=\"noopener noreferrer\">PC2732参考：SAW08:00→ASR09:15，2026-11上旬部分开行日样例 ↗</a> · <a href=\"https://www.flight.info/PC2736\" target=\"_blank\" rel=\"noopener noreferrer\">PC2736参考：SAW13:00→ASR14:15的部分日期样例 ↗</a></p></section><section class=\"transport-reference\"><h3>伊斯坦布尔萨比哈SAW → 萨拉热窝SJJ</h3><p><strong>Pegasus Airlines / 飞马航空 · PC293（下午航班参考）</strong></p><p>15:20（SAW当地UTC+3；2026-11-05冬季样例） → 15:15（SJJ当地CET/UTC+1；当日）</p><p>Pegasus官方目的地页支持伊斯坦布尔直飞萨拉热窝；航班号与钟点来自当前第三方时刻，冬季钟点仅为样例。未取得2027年实际日期官网时刻和机票。</p><ul><li>到达钟点比出发钟点早5分钟是当地时区差异，飞行参考时长约1小时55分，不是负飞行时间。</li><li>夏季萨拉热窝采用不同钟点，不能把11月15:15直接搬进2027年7–8月行程。推荐安排下午飞、傍晚前抵达的窗口。</li><li>该航班从SAW出发，不是IST；市区去机场交通应按SAW另排。</li><li>没有锁定2027年开行日、库存、行李或价格。</li></ul><p><a href=\"https://www.flypgs.com/en/airports/sarajevo-international-airport\" target=\"_blank\" rel=\"noopener noreferrer\">Pegasus官方Sarajevo机场页：从Istanbul直飞 ↗</a> · <a href=\"https://www.flight.info/PC293\" target=\"_blank\" rel=\"noopener noreferrer\">PC293参考：2026-11上旬部分日期15:20SAW→15:15SJJ，其他日期钟点有变化 ↗</a> · <a href=\"https://www.flightstats.com/v2/flight-tracker/PC/293?date=04&amp;flightId=1418019692&amp;month=11&amp;year=2026\" target=\"_blank\" rel=\"noopener noreferrer\">FlightStats：邻近日样例和2026-11-05列表；11月4日另为15:50→15:45，说明并非每天固定 ↗</a></p></section><section class=\"transport-reference\"><h3>贝尔格莱德BEG → 赫尔格达HRG</h3><p><strong>Air Cairo / 开罗航空 · SM388</strong></p><p>05:30（BEG当地CET/UTC+1；2026-11周三样例） → 09:50（HRG当地UTC+2；当日）</p><p>Air Cairo官网可核BEG→HRG航线；SM388及钟点来自第三方现公开样例，官网本次未给指定日期航班时刻。未核2027暑期的开行日和可售价格。</p><ul><li>适合清晨离开贝尔格莱德、上午抵赫尔格达，但意味着前一晚/凌晨需去机场；不要安排到达当天很早的收费出海项目。</li><li>不保证每日都有SM388。先用实际日期确认直飞再固定前后城市住宿；取消与改期条款以航司订单为准。</li><li>部分追踪器显示UTC时刻，不能直接把04:30/07:50当作当地出发/到达；本字段采用明确机场当地钟点的时刻样例。</li><li>夏令时和季节排班会改变钟点；官网当期起价不当作2027报价。</li></ul><p><a href=\"https://aircairo.com/en-rs/offer-info/beg-hrg-o\" target=\"_blank\" rel=\"noopener noreferrer\">Air Cairo官方航线优惠页：Belgrade Nikola Tesla→Hurghada International；条款属当期活动 ↗</a> · <a href=\"https://www.flight.info/SM388\" target=\"_blank\" rel=\"noopener noreferrer\">SM388参考：2026-11-04至11-25周三05:30BEG→09:50HRG；另有周日05:30→09:45 ↗</a></p></section><section class=\"transport-reference\"><h3>吉萨斯芬克斯SPX → 沙迦SHJ</h3><p><strong>Air Arabia（G9，沙迦航司） · G9 344 / G9344</strong></p><p>01:55（SPX当地UTC+2；2026-11-05冬季样例） → 07:05（SHJ当地UTC+4；当日）</p><p>Air Arabia官方开航公告核到SPX—SHJ及G9344，但公告时刻为2023历史表；01:55→07:05是第三方2026-11公开样例，非2027夏季已核时刻。</p><ul><li>凌晨01:55的航班需在前一日深夜到SPX；行程日期按起飞日计，不能等起飞日白天才离开开罗市区。</li><li>SPX和CAI是不同机场；SHJ和DXB也不同，之后前往迪拜或阿布扎比需另留陆路交通时间与预算。</li><li>现参考日可早晨抵沙迦，上午转城；实际2027年可能改为其他钟点，不把历史22:50或冬季01:55写成全年班次。</li><li>未核2027年出行日库存、行李和价格；航司G9也不要与Air Arabia Abu Dhabi的3L混淆。</li></ul><p><a href=\"https://press.airarabia.com/air-arabia-launches-non-stop-flights-between-sharjah-and-egypts-sphinx-international-airport/\" target=\"_blank\" rel=\"noopener noreferrer\">Air Arabia官方2023开航公告：SPX—SHJ、G9344；历史22:50→04:10不能当当前时刻 ↗</a> · <a href=\"https://www.flight.info/G9344\" target=\"_blank\" rel=\"noopener noreferrer\">G9344第三方现表：2026-11-05样例SPX01:55→SHJ07:05；列有效期至2027-03-27 ↗</a></p></section><section class=\"transport-reference\"><h3>迪拜DXB → 杭州HGH</h3><p><strong>Emirates / 阿联酋航空 · EK310</strong></p><p>11:00（DXB当地；当前官方通用页参考，2027-09-04待查） → 23:00（杭州当地；同一日落地，地面返校可能跨到9/5）</p><p>2026-11-06官方通用路线页11:00→23:00，未对应2027指定日期；旧04:35→17:05仅条件备选。</p><ul><li>先取得2027/9/4正式航班与抵达日期，再决定9/3是否省一晚；未出票前保留可取消床位。</li><li>日间版9/4约07:00离店、目标08:00到T3；本人票面要求4小时则提前。23点落地后仍有入境和到校交通。</li><li>实际凌晨04:35版才采用9/3夜出发：保床短休23:30离店约00:15到T3，或退房寄包20:45离店约21:30到T3。</li></ul><p><a href=\"https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/\" target=\"_blank\" rel=\"noopener noreferrer\">Emirates官方DXB→HGH航线入口；当前抓取没有可读取的EK310指定日期钟点 ↗</a> · <a href=\"https://www.emirates.com/english/book/flight-schedules/\" target=\"_blank\" rel=\"noopener noreferrer\">Emirates官方时刻表查询，已访问；动态日期/航线结果未取得 ↗</a> · <a href=\"https://www.flight.info/EK310\" target=\"_blank\" rel=\"noopener noreferrer\">第三方表明确列：2027-06-01至09-30 EK310 DXB04:35→HGH17:05，同日 ↗</a> · <a href=\"https://www.ehangzhou.gov.cn/2024-10/25/c_291354.htm\" target=\"_blank\" rel=\"noopener noreferrer\">杭州官方新闻2024-10-25核到国航CA762曾从迪拜抵杭；仅证明历史存在，不确认2027运行 ↗</a> · <a href=\"https://www.trip.com/flights/status-ca762/\" target=\"_blank\" rel=\"noopener noreferrer\">CA762近期第三方状态出现取消，不能据历史航线直接列为2027可订备选 ↗</a></p></section><section class=\"transport-reference\"><h3>塔什干 → 布哈拉</h3><p><strong>Uzbekistan Railways · Afrosiyob上午班·购票目标</strong></p><p>07:30目标 → 11:30目标</p><p></p><ul><li>钟点是推荐检索目标，未取得2027指定日期班次；选不到上午车时顺延布哈拉当日游览。</li></ul><p><a href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">乌兹别克铁路官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>布哈拉 → 撒马尔罕</h3><p><strong>Uzbekistan Railways · Afrosiyob上午班·购票目标</strong></p><p>09:00目标 → 10:45目标</p><p></p><ul><li>未核实该钟点为现行实际班次，保留上午出发、午前后到城的购票目标。</li></ul><p><a href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">乌兹别克铁路官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>撒马尔罕 → 塔什干</h3><p><strong>Uzbekistan Railways · Afrosiyob下午班·购票目标</strong></p><p>15:30目标 → 18:00目标</p><p></p><ul><li>下午车购票目标；必须在次日国际航班前一日回塔什干。</li></ul><p><a href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">乌兹别克铁路官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>巴库 → 第比利斯</h3><p><strong>Azerbaijan Railways / ADY · 38次夜间卧铺·现行参考</strong></p><p>23:10 巴库时间 → 次日08:41 第比利斯时间</p><p>当前报道援引ADY的时刻；官网订票复核，非2027已售</p><ul><li>两地同为UTC+4。不要把新闻恢复开行等同2027当日可售，必须按中国护照入境/出境资格和正式车票核准。</li></ul><p><a href=\"https://ticket.ady.az/\" target=\"_blank\" rel=\"noopener noreferrer\">ADY官方订票入口 ↗</a> · <a href=\"https://report.az/en/amp/infrastructure/ady-resumes-baku-tbilisi-baku-passenger-transportation\" target=\"_blank\" rel=\"noopener noreferrer\">Report.az援引ADY恢复夜车公告 ↗</a></p></section><section class=\"transport-reference\"><h3>第比利斯 → 埃里温</h3><p><strong>Caucasus Travel（当前平台列名） · 日间跨境小巴·09:00购票目标</strong></p><p>09:00 第比利斯·目标 → 16:00 埃里温·含边检缓冲</p><p>已核路线运营商页面，09:00是建议购票目标，不是已确认班次</p><ul><li>双方同UTC+4，具体上车点按车票，先从Fabrika赴确认站点，不能默认Avlabari发车。</li></ul><p><a href=\"https://transport2.run.am/trip/tbilisi-to-yerevan\" target=\"_blank\" rel=\"noopener noreferrer\">TMS当前线路与承运商入口 ↗</a></p></section><section class=\"transport-reference\"><h3>萨拉热窝 → 莫斯塔尔 → 萨拉热窝</h3><p><strong>ŽFBH · 07:15去程；回程先查暑期周日表</strong></p><p>07:15 Sarajevo（现行） → 约09:15 Mostar；返程19:00→21:00为购票目标</p><p>官网2025/26表可读；2026暑期周五六日增开1390，2027待核</p><ul><li>D36是2027-08-15周日，不能直接套普通日17:09返程。官方2026暑期1390全段到Sarajevo21:54；2027开售后先落实莫斯塔尔返程列车或正规巴士，再排下午。</li><li>本日返程暂以19:00→21:00公路/铁路购票目标留位，无已核具体19:00班次。若只能21:54到萨城，应直接回Kucha，次日08:00东站巴士照常需要05:00起床。</li></ul><p><a href=\"https://www.zfbh.ba/en/red-voznje/\" target=\"_blank\" rel=\"noopener noreferrer\">ŽFBH官方时刻表与暑期周末注释 ↗</a></p></section>"
     }
   ]
 };
