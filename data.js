@@ -3966,7 +3966,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "格雷梅",
       "defaultCity": "格雷梅",
-      "priority": "high",
+      "priority": "先完成埃里温出境和伊城转机；抵达格雷梅后只安顿、进食，不硬塞景点。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -4119,7 +4119,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "格雷梅",
       "defaultCity": "格雷梅",
-      "priority": "normal",
+      "priority": "清晨看球，上午露天博物馆；午间休息后走山谷短线，付费乘球仍为可选。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -4347,7 +4347,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "格雷梅",
       "defaultCity": "格雷梅",
-      "priority": "high",
+      "priority": "绿线团按回镇时间执行；先取行李、吃晚饭，再乘夜巴，不叠加日落远线。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -4533,7 +4533,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "安塔利亚",
       "defaultCity": "安塔利亚",
-      "priority": "normal",
+      "priority": "夜车后先寄存、补觉；傍晚走老城海港，恢复体力比增加远处景点优先。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -4781,7 +4781,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "Kaş",
       "defaultCity": "Kaş",
-      "priority": "high",
+      "priority": "上午安塔利亚补遗；下午提前到Kaş，保留D26、D27两个完整住宿夜。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -4957,7 +4957,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "Kaş",
       "defaultCity": "Kaş",
-      "priority": "high",
+      "priority": "全天Kekova船游，回港后吃饭并住Kaş第2晚；当晚不赶夜车。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -5151,7 +5151,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "Kaş",
       "defaultCity": "Kaş",
-      "priority": "high",
+      "priority": "上午Kaş短逛，下午提前去费特希耶；至少留2.5小时接夜巴，不追加出海。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -5332,7 +5332,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "伊斯坦布尔",
       "defaultCity": "伊斯坦布尔",
-      "priority": "normal",
+      "priority": "到伊斯坦布尔先洗漱补觉；下午金角湾短线可按抵达情况删减。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -5506,7 +5506,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "伊斯坦布尔",
       "defaultCity": "伊斯坦布尔",
-      "priority": "high",
+      "priority": "托普卡帕宫放上午；蓝色清真寺按礼拜开放窗口进入，实体ISIC随身。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -5752,7 +5752,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "伊斯坦布尔",
       "defaultCity": "伊斯坦布尔",
-      "priority": "high",
+      "priority": "上午多尔玛巴赫切宫，午间休息后步行独立大街；不同时追加远郊。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -5981,7 +5981,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "伊斯坦布尔",
       "defaultCity": "伊斯坦布尔",
-      "priority": "normal",
+      "priority": "Fener、Balat到市集按同方向走；午间避暑，傍晚再看滨水区。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -6210,7 +6210,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "伊斯坦布尔",
       "defaultCity": "伊斯坦布尔",
-      "priority": "normal",
+      "priority": "公共渡轮与亚洲岸分区步行；最后核准D34出发机场和接驳，不把IST与SAW混用。",
       "status": "planned",
       "note": "土耳其 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -6457,7 +6457,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Sarajevo",
       "city": "萨拉热窝",
       "defaultCity": "萨拉热窝",
-      "priority": "high",
+      "priority": "按实际航班倒推离开市区与报到；萨拉热窝初逛只在早到时保留。",
       "status": "planned",
       "note": "波黑 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -6616,7 +6616,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Sarajevo",
       "city": "萨拉热窝",
       "defaultCity": "萨拉热窝",
-      "priority": "normal",
+      "priority": "历史步行与博物馆分时进行；黄堡日落前返回城市交通范围。",
       "status": "planned",
       "note": "波黑 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -6852,7 +6852,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Sarajevo",
       "city": "莫斯塔尔",
       "defaultCity": "莫斯塔尔",
-      "priority": "high",
+      "priority": "莫斯塔尔一日往返先确认回程；景点超时先删支线，不能错过最后班次。",
       "status": "planned",
       "note": "波黑 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -7070,7 +7070,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Belgrade",
       "city": "贝尔格莱德",
       "defaultCity": "贝尔格莱德",
-      "priority": "high",
+      "priority": "萨拉热窝到贝尔格莱德作为完整交通日；过境延误时取消傍晚游览。",
       "status": "planned",
       "note": "塞尔维亚 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -7222,7 +7222,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Belgrade",
       "city": "贝尔格莱德",
       "defaultCity": "贝尔格莱德",
-      "priority": "normal",
+      "priority": "博物馆按实际开放核排；城市街区沿路串联，午间留休息和洗衣。",
       "status": "planned",
       "note": "塞尔维亚 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -7439,7 +7439,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Belgrade",
       "city": "贝尔格莱德",
       "defaultCity": "贝尔格莱德",
-      "priority": "normal",
+      "priority": "泽蒙与两河交汇单向游览；保留返回贝城时间，不叠加诺维萨德。",
       "status": "planned",
       "note": "塞尔维亚 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -7679,7 +7679,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Belgrade",
       "city": "贝尔格莱德",
       "defaultCity": "贝尔格莱德",
-      "priority": "normal",
+      "priority": "特斯拉馆与南斯拉夫历史馆按预约取舍；晚上完成赴埃及航空准备。",
       "status": "planned",
       "note": "塞尔维亚 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -7910,7 +7910,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "赫尔格达",
       "defaultCity": "赫尔格达",
-      "priority": "high",
+      "priority": "贝城赴埃及按实际直飞或转机执行；红海当晚只入住和补给。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -8062,7 +8062,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "赫尔格达",
       "defaultCity": "赫尔格达",
-      "priority": "normal",
+      "priority": "上午正规海滩，午间室内避暑；傍晚El Dahar老城按体力短走。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -8250,7 +8250,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "赫尔格达",
       "defaultCity": "赫尔格达",
-      "priority": "normal",
+      "priority": "正规浮潜一日团；下午回城后整理行李，确认次日卢克索交通。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -8428,7 +8428,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "卢克索",
       "defaultCity": "卢克索",
-      "priority": "normal",
+      "priority": "上午赴卢克索；午间入住休息，傍晚卢克索神庙按抵达时间取舍。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -8593,7 +8593,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "卢克索",
       "defaultCity": "卢克索",
-      "priority": "normal",
+      "priority": "西岸清晨正规拼车，帝王谷优先；午间回城休息，不连续暴晒。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -8817,7 +8817,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "阿斯旺",
       "defaultCity": "阿斯旺",
-      "priority": "normal",
+      "priority": "清早卡纳克神庙；下午赴阿斯旺，优先办入住并确认凌晨阿布辛贝集合。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -9011,7 +9011,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "阿斯旺",
       "defaultCity": "阿斯旺",
-      "priority": "normal",
+      "priority": "阿布辛贝正规一日团；回城补觉后再决定象岛短线，不叠加远处景点。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -9228,7 +9228,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "阿斯旺",
       "defaultCity": "阿斯旺",
-      "priority": "high",
+      "priority": "菲莱神庙放上午；下午休息并核夜车。若改飞机或多住一晚，需同步改后续。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -9424,7 +9424,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "开罗",
       "defaultCity": "开罗",
-      "priority": "normal",
+      "priority": "夜车抵达后先入住补觉与洗衣；开罗城区游览全部可删减。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -9617,7 +9617,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "开罗",
       "defaultCity": "开罗",
-      "priority": "normal",
+      "priority": "清早吉萨金字塔，午间避暑；金字塔内部另票按预算决定。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -9862,7 +9862,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "开罗",
       "defaultCity": "开罗",
-      "priority": "normal",
+      "priority": "大埃及博物馆留足半天以上；实体学生证与年龄资格按售票规则核验。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -10056,7 +10056,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "开罗",
       "defaultCity": "开罗",
-      "priority": "normal",
+      "priority": "萨卡拉与文明馆择一；傍晚哈利利短逛，先完成阿联酋航班准备。",
       "status": "planned",
       "note": "埃及 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -10306,7 +10306,7 @@ window.TRIP_DATA = {
       "timezone": "Asia/Dubai",
       "city": "迪拜",
       "defaultCity": "迪拜",
-      "priority": "high",
+      "priority": "核清CAI与SPX、SHJ与AUH；抵达后按机场实际位置选接驳，不默认相邻。",
       "status": "planned",
       "note": "阿联酋 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -10486,7 +10486,7 @@ window.TRIP_DATA = {
       "timezone": "Asia/Dubai",
       "city": "阿布扎比",
       "defaultCity": "阿布扎比",
-      "priority": "high",
+      "priority": "阿布扎比清真寺与卢浮宫为主；跨城交通单独留时间，高温时取消室外支线。",
       "status": "planned",
       "note": "阿联酋 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -10744,7 +10744,7 @@ window.TRIP_DATA = {
       "timezone": "Asia/Dubai",
       "city": "迪拜",
       "defaultCity": "迪拜",
-      "priority": "normal",
+      "priority": "迪拜老城早去，午间室内，傍晚夜景；若次日凌晨起飞，今晚就去机场。",
       "status": "planned",
       "note": "阿联酋 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。",
       "rows": [
@@ -10998,7 +10998,7 @@ window.TRIP_DATA = {
       "timezone": "Asia/Dubai",
       "city": "迪拜",
       "defaultCity": "迪拜",
-      "priority": "high",
+      "priority": "返程日按票面倒推机场报到；只接最迟9月5日能到杭州的完整衔接。",
       "status": "planned",
       "note": "阿联酋 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
@@ -11158,7 +11158,7 @@ window.TRIP_DATA = {
       "timezone": "Asia/Shanghai",
       "city": "杭州",
       "defaultCity": "杭州",
-      "priority": "high",
+      "priority": "9月5日完成入境、地面交通和返校；到浦东还需另算机场至杭州全段。",
       "status": "planned",
       "note": "中国 · 均为当地时间建议窗口。文中列车、飞机、船游及大巴时刻仅供规划；2027未核，以出票/运营方确认与当日路况为准。 交通未订；航空由用户自行观察、填入。",
       "rows": [
