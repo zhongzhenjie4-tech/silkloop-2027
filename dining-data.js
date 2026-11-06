@@ -1,5 +1,6 @@
 window.TRIP_DINING_DATA = {
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
+  "reviewNote": "原44家依据2026-11-05核查；8家独立补充依据2026-11-06。未重新实地核验，2027营业与价格仍须再查。",
   "restaurants": [
     {
       "id": "yining-jiang-jianmian",
@@ -1567,6 +1568,362 @@ window.TRIP_DINING_DATA = {
         "人民币是单餐食物留量，未按固定汇率冒充2027报价。"
       ],
       "verified": "一手店址及标2026-10-10的菜单图已核；营业、当日供餐和2027价待核。"
+    },
+    {
+      "id": "tashkent-oqtepa-shahrisabz5a",
+      "city": "塔什干",
+      "name": "Oqtepa Lavash · Shahrisabz 5A店",
+      "address": "Shahrisabz Street 5A, Mirabad District, Tashkent；Westminster Lyceum对面",
+      "mapQuery": "Oqtepa Lavash Shahrisabz Street 5A Tashkent Westminster Lyceum",
+      "days": [
+        8
+      ],
+      "rowIds": [
+        "d8v2-11"
+      ],
+      "dishes": "一份大鸡肉lavash（куриный большой лаваш）或一份鸡肉pita doner二选一；想补菜加一小份红卷心菜沙拉，先问能否单点，不买双人优惠套餐。",
+      "budgetCny": [
+        25,
+        40
+      ],
+      "menuEvidence": "2026-11-06读取品牌官网菜单：大鸡肉lavash 35,000 UZS、鸡肉pita doner 33,000 UZS、红卷心菜沙拉10,000 UZS。是品牌公开菜单，未完成Shahrisabz5A现场点单，分店价格/库存须核；出现0 UZS的活动条目不视作免费。budgetCny为2027单人食物规划留量，饮水另计。",
+      "hours": "该分店第三方资料列每日09:00–03:00；官网分店表未能把Shahrisabz门牌与营业钟点直接配对，出发前复核。",
+      "sources": [
+        {
+          "title": "Oqtepa Lavash品牌官网菜单：单点UZS价格",
+          "url": "https://oqtepalavash.uz/en"
+        },
+        {
+          "title": "Yandex Maps：Shahrisabz5A具体分店、地标及官网链接",
+          "url": "https://yandex.com/maps/org/oqtepa_lavash/227487602179/"
+        },
+        {
+          "title": "All Uzbekistan：Shahrisabz街分店与营业时间",
+          "url": "https://alluzbekistan.com/en/restoranlar/oqtepa-lavash-shahrisabz-toshkent"
+        }
+      ],
+      "cautions": [
+        "用作D8广场散步结束后的便餐备选，替换原本未具名的晚餐；不要从DRIMIN寄包后为此北上吃午餐，也不硬塞D13返城晚上。",
+        "D8仍须留时间从店返回Mirabad的DRIMIN办理登记；若导航不能在20:15前回到住宿，则不执行，已备简餐优先。",
+        "这是换口味、控制份量的便餐补充，保留Besh Qozon作乌兹别克抓饭体验；未核冷气和插座。"
+      ],
+      "verified": "2026-11-06：品牌单点菜单已读，具体分店地址经地图核对；2027营业和分店实价未锁定。",
+      "selectionOrigin": "本次独立补充"
+    },
+    {
+      "id": "samarkand-evos-dahbed47",
+      "city": "撒马尔罕",
+      "name": "EVOS · Dahbed 47店",
+      "address": "47 Dahbed Street, Samarkand, Uzbekistan",
+      "mapQuery": "EVOS 47 Dahbed Street Samarkand",
+      "days": [
+        12
+      ],
+      "rowIds": [
+        "d12v2-07"
+      ],
+      "dishes": "点一份鸡肉或牛肉lavash卷饼；不叠加汉堡、薯条、汽水套餐。先看当地菜单选最小够吃的一份，打包后尽快吃。",
+      "budgetCny": [
+        25,
+        45
+      ],
+      "menuEvidence": "已访问EVOS官网，但菜单需选实际配送地址后动态返回，本次未得到Dahbed分店可读取单菜现价，故不填虚构UZS数字。sam.uz只列under 70k UZS的价格级别，不当作一份lavash报价。budgetCny为一人食物规划留量，饮水另计。",
+      "hours": "sam.uz列每日08:00–23:00，为第三方2026-10核查资料；2027前复核，不能用其他EVOS分店的03:00收店时间套用。",
+      "sources": [
+        {
+          "title": "EVOS官网：品牌与最终点餐/分店入口，价格动态加载",
+          "url": "https://evos.uz/en"
+        },
+        {
+          "title": "Yandex Maps：EVOS Dahbed47门牌",
+          "url": "https://yandex.uz/maps/org/evos/179040376490/"
+        },
+        {
+          "title": "sam.uz：Dahbed47分店、菜单方向和营业时间",
+          "url": "https://sam.uz/en/restaurants/evos-dahbed-kochasi"
+        }
+      ],
+      "cautions": [
+        "Siyob巴扎西北约1.1公里（第三方距离），不是巴扎出口即到；只有实测导航和等位容许12:30前回Old Radio才执行，否则在巴扎采购后回宿，不能用廉价名义制造绕路。",
+        "仅作为D12午餐的具名备选，保留Emirhan/Shokhrukh Nur等当地正餐，不把撒马尔罕全部改成快餐链。",
+        "未确认分店冷气、插座、支付状态或2027存续。"
+      ],
+      "verified": "2026-11-06：Dahbed47地址有地图和独立本地平台交叉，品牌官网可访问；分店价格未取得。",
+      "selectionOrigin": "本次独立补充"
+    },
+    {
+      "id": "baku-araz-terrace-islam1",
+      "city": "巴库",
+      "name": "Araz Terrace / 原Araz Cafe · İslam Səfərli1店",
+      "address": "1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan",
+      "mapQuery": "Araz Terrace 1 Islam Safarli Fountains Square Baku",
+      "days": [
+        15,
+        16
+      ],
+      "rowIds": [
+        "d15v2-12",
+        "d16v2-08"
+      ],
+      "dishes": "先问一人份qutab薄饼与汤的当日价，选两三张薄饼加一碗汤，或一份小主食；不点Shah plov等多人宴席菜。",
+      "budgetCny": [
+        45,
+        85
+      ],
+      "menuEvidence": "已读官方Araz Terrace页面：确认qutab、plov、dolma与烤肉方向、菜单币种AZN，并明确账单加10%服务费。单菜价在动态菜单/图片中，文本未取到；30–100 AZN是宴会每人价，不是便餐套餐，不能冒用。budgetCny为单人食物含服务费的规划留量，饮水另计；并不保证比Firuzə更便宜。",
+      "hours": "官网每日10:00–01:00；早餐10:00–13:00、午餐13:00–15:00、其余单点，2027前重核。",
+      "sources": [
+        {
+          "title": "Araz Terrace官网：地址、菜品、营业与10%服务费",
+          "url": "https://arazterrace.az/en/"
+        },
+        {
+          "title": "gun.az：Araz Cafe旧名称、同一电话和İslamSafarli1地址",
+          "url": "https://gun.az/en/company/araz-cafe"
+        }
+      ],
+      "cautions": [
+        "同在喷泉广场片区，可替D15重复Firuzə晚餐；若现价明显更高，继续原店，不为换店增支。",
+        "第三方旧条目有İslamSafarli3号和旧名称，优先按当前官网1号、电话+994503180207核定位，不能只搜Araz后随机进店。",
+        "D16午餐需留采购夜车便餐时间；只在老城回喷泉广场原路上安排。未声称冷气或插座。"
+      ],
+      "verified": "2026-11-06：当前官网确认具体门牌、名称、菜单方向和服务费；未得到单菜现价，不作为已证低价食堂。",
+      "selectionOrigin": "本次独立补充"
+    },
+    {
+      "id": "yerevan-sas-amiryan7",
+      "city": "埃里温",
+      "name": "SAS Food Court · Amiryan 7/1店",
+      "address": "7/1 Amiryan Street, Yerevan, Armenia",
+      "mapQuery": "SAS Food Court 7/1 Amiryan Street Yerevan",
+      "days": [
+        20,
+        21
+      ],
+      "rowIds": [
+        "d20v2-12",
+        "d21v2-07"
+      ],
+      "dishes": "省钱点一份土豆泥配烤时蔬Combo6，或两张普通牛肉lahmacun二选一；不为了套餐额外购买饮料。想少吃肉可选前者，柜台确认份量。",
+      "budgetCny": [
+        30,
+        50
+      ],
+      "menuEvidence": "品牌官网单品页读取：普通牛肉lahmacun900 AMD/张；Combo6（土豆泥+烤时蔬）1,700 AMD。官网Our Food Courts列Amiryan7/1门店；这是线上品牌菜单参考，堂食价格、供应和份量需店内核。budgetCny仅单人食物，饮水另计；不拿含tan饮料的Combo21当纯食物价。",
+      "hours": "品牌官网Amiryan7/1列09:00–01:00；单品页23:30–09:00不配送是配送限制，不能等同堂食收店时间。",
+      "sources": [
+        {
+          "title": "SAS官网OurFoodCourts：Amiryan7/1与营业时间",
+          "url": "https://www.sas.am/food/en/about/our-supermarkets/"
+        },
+        {
+          "title": "SAS官网普通牛肉lahmacun900AMD",
+          "url": "https://www.sas.am/food/en/catalog/lakhmadzhun/7170/"
+        },
+        {
+          "title": "SAS官网Combo6土豆泥与烤时蔬1700AMD",
+          "url": "https://www.sas.am/food/en/catalog/vkusnoe-kombo/754798/"
+        }
+      ],
+      "cautions": [
+        "替D20第三次TunLahmajo便餐或D21午餐，仍在共和国广场/Amiryan中心片区；D19跨境初到夜晚无需为换店额外折腾。",
+        "不采用Mashtots18旧第三方总部联系地址当成现餐厅地址：品牌当前分店表明确可用的是Amiryan7/1。",
+        "D21须12:20左右吃完并回宿午休，不能挤掉凌晨航班前睡眠；未核冷气与插座。"
+      ],
+      "verified": "2026-11-06：品牌官网已核当前分店表及具名单品AMD价格；未做指定日期现场点单或确认2027供应。",
+      "selectionOrigin": "本次独立补充"
+    },
+    {
+      "id": "hurghada-koshary-tahrir-dahar",
+      "city": "赫尔格达",
+      "name": "Koshary El Tahrir · El Dahar老城店",
+      "address": "El Kanisa / Church Street, El Dahar Square一带，Mafish/Mafesh Moshkla商店旁，Hurghada；新地图针写شارع اللواء سلمات مظهر（Salamat Mazhar街），须对照地图针与门头",
+      "mapQuery": "Koshary El Tahrir El Dahar Church Street Mafesh Moshkla Hurghada",
+      "days": [
+        42
+      ],
+      "rowIds": [
+        "d42v2-11"
+      ],
+      "dishes": "一人先点中/小碗koshary（米饭、意面、扁豆、鹰嘴豆与炸洋葱），酱和辣油分开；吃完仍饿再加，不默认加甜点。",
+      "budgetCny": [
+        15,
+        30
+      ],
+      "menuEvidence": "已访问品牌官网但仅得到需JavaScript页面，未取得可核的ElDahar单碗EGP现价。第三方18–30LE说法无清楚菜单日期，不用于预算实价；也不套开罗同名连锁菜单到此店。budgetCny为一人食物规划留量，饮水另计。",
+      "hours": "RestaurantGuru/Spinach地图资料列12:00–次日01:00，属第三方参考；2027前核实际店面。",
+      "sources": [
+        {
+          "title": "EgyptYellowPages：ElKanisa街、Dahar广场与商店地标",
+          "url": "https://yellowpages.com.eg/en/profile/koshary-el-tahrir/689794"
+        },
+        {
+          "title": "elmenus：ElDahar店ChurchStreet具体地址",
+          "url": "https://www.elmenus.com/hurghada/koshary-el-tahrir-nw782"
+        },
+        {
+          "title": "RestaurantGuru：新地图街名、电话与餐种，价格不采作菜单价",
+          "url": "https://restaurantguru.com/Koshary-El-Tahrir-Hurghada"
+        },
+        {
+          "title": "品牌官网：本次可访问但价格需JS，未读取菜单",
+          "url": "https://www.koshary-eltahrir.com/"
+        }
+      ],
+      "cautions": [
+        "用于D42的ElDahar17:00–18:15街市之后，吃完返回Marina，替换第二次StarFish；不把它安排在Marina海滩午餐并制造往返。",
+        "ChurchStreet旧门牌与SalamatMazhar地图街名不同；出发前用电话/住宿前台核同一店的定位和门头，未核对前不认定二者同一入口。",
+        "Sheraton的KosharyStarElTahrir在elmenus标Closed，与本候选不是同一针；不要搜简称误入停业店。",
+        "未核到本店和开罗19719品牌是否同一经营主体；不作连锁保证，不声称强冷气或插座。"
+      ],
+      "verified": "2026-11-06：两家目录均确认ElDahar具名店，但街名仍需定位交叉，菜单现价未取得；建议只作为D42条件性便餐。",
+      "selectionOrigin": "本次独立补充",
+      "planRole": "门店/菜单先核再选"
+    },
+    {
+      "id": "luxor-elzaeem-television",
+      "city": "卢克索",
+      "name": "El Zaeem / Al Zaeem 2 · Television与AlManshiya路口候选",
+      "address": "Television Street与Al Manshiya交叉口、Winter Palace/Pavillon后门方向，Luxor East Bank；OpenAlfa写Television39，门牌和当前经营须重核",
+      "mapQuery": "El Zaeem Television Street Al Manshiya Luxor Winter Palace",
+      "days": [
+        44,
+        45
+      ],
+      "rowIds": [
+        "d44v2-09",
+        "d45v2-13"
+      ],
+      "dishes": "先看标价，点一份小/中碗koshary；想换口味可问一份hawawshi肉馅烤饼，二选一。只在总价明确时购买，不凭旧攻略点整桌。",
+      "budgetCny": [
+        15,
+        35
+      ],
+      "menuEvidence": "未取得官方菜单。2026搜索到的本地指南聚合旅客记录有大碗koshary80EGP，但这只是用户报告，存在游客/本地价争议，不能标成已核店家报价。2015–2022年的5–25LE/12LE旧价全部弃用。budgetCny为一人食物规划留量，饮水另计。",
+      "hours": "本地指南地图聚合列08:00–次日03:00，但与其他平台时间不一致；本次不视作已核营业，须临行联系/实地核实。",
+      "sources": [
+        {
+          "title": "TheLuxorGuide：Television/AlManshiya路口具体分店方向",
+          "url": "https://www.theluxorguide.com/areas/east-bank-el-awamya"
+        },
+        {
+          "title": "TheLuxorGuide：koshary餐种与最新聚合价格报告（非官方价）",
+          "url": "https://www.theluxorguide.com/city/luxor/el-zaeem"
+        },
+        {
+          "title": "OpenAlfa地图目录：ElZaeem Television39条目",
+          "url": "https://egypt-streets.openalfa.com/luxor-city/eating-drinking"
+        },
+        {
+          "title": "Tripadvisor：历史点评明确AlZaeem2路口和其他同名地址混杂，旧价不采用",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g294205-d2727669-Reviews-El_Zaeem_Restaurant-Luxor_Nile_River_Valley.html"
+        }
+      ],
+      "cautions": [
+        "证据弱于其他新增店，先作为卢克索廉价缺口的待复核备选，不自动替换AlSahaby主推荐。",
+        "YoussefHassan/旧市场/SalahElDin多个同名针混杂；本条限定Television×AlManshiya，不把别处分店的电话、菜单、营业时间合并成已核数据。",
+        "D44/D45从东岸神庙/河岸回住宿方向才选；门头/价格不清楚直接继续原AlSahaby，不为寻找旧店延误休息。",
+        "没有核实堂食座位、冷气和插座；需要降温时打包回已确认空调住宿，不塞到D45空调午餐行。"
+      ],
+      "verified": "2026-11-06：存在具体路口的平价店线索，官方现菜单、准确入口和营业未完成核验；仅条件性候选，建议出发前补核。",
+      "selectionOrigin": "本次独立补充",
+      "planRole": "门店/菜单先核再选"
+    },
+    {
+      "id": "cairo-kazaz-sabry38",
+      "city": "开罗",
+      "name": "El Kazaz · Sabry Abou Alam38店",
+      "address": "38 Sabry Abou Alam Street, off Talaat Harb Square, Downtown Cairo；部分平台写28/39号，订前/临行核门头",
+      "mapQuery": "El Kazaz 38 Sabry Abou Alam Street Talaat Harb Cairo 16903",
+      "days": [
+        49,
+        51,
+        52
+      ],
+      "rowIds": [
+        "d49v2-06",
+        "d51v2-11",
+        "d52v2-07"
+      ],
+      "dishes": "点一份foul蚕豆盒配面包，再加一份taameya炸蚕豆球或一小份茄子配菜；想换成肉类则一份鸡肉shawarma饭/卷即可，不把两套叠加。",
+      "budgetCny": [
+        20,
+        40
+      ],
+      "menuEvidence": "Talabat商家Downtown–TalaatHarb线上菜单读取：普通调味foul盒46EGP、橄榄油foul盒59EGP、babaGhannoug33EGP；页面还有折后价，但本条只保留原标价作线上参考，不保证堂食分店同价/含面包/含税。官方Facebook被登录页阻拦，未取得官方现价。budgetCny是一人食物规划留量，饮水另计。",
+      "hours": "Hotlines目录列每日07:00–次日02:30；elmenus另一Alwey分店列07:00–22:00，不能互套；本Sabry38具体营业临行复核。",
+      "sources": [
+        {
+          "title": "Hotlines：Kazaz SabryAbouAlam38具名分店与热线16903",
+          "url": "https://hotlines.tel/en/sps/1510"
+        },
+        {
+          "title": "EgyptYellowPages：Kazaz38Sabry分店与另一Alwey分店区分",
+          "url": "https://yellowpages.com.eg/en/profile/kazaz-restaurants/533654"
+        },
+        {
+          "title": "Talabat商家Downtown–TalaatHarb线上菜单：EGP原标价，堂食待核",
+          "url": "https://www.talabat.com/egypt/restaurant/637556/elkazaz-restaurants-downtown-talaat-harab?aid=10168"
+        },
+        {
+          "title": "Kazaz店家Facebook：本次访问受登录限制，未读取菜单",
+          "url": "https://www.facebook.com/kazazrestaurant/"
+        }
+      ],
+      "cautions": [
+        "让开罗四顿AbouTarek有豆餐/鸡肉变化，推荐替D51回市区晚餐或D52回宿午餐；不从GEM或金字塔为此午间返回市中心。",
+        "38号有两家独立目录支持，但MenuEgypt写28号、地图有39号；务必用Sabry街与16903核定位，不把Alwey2或AlBostan7分店当同一店。",
+        "先问面包、配菜和服务费是否另收；Talabat配送与折扣不是2027堂食保证，不声称冷气/插座。"
+      ],
+      "verified": "2026-11-06：具名分店有两目录交叉，Talabat原标价可读；门牌跨平台有差异，官方Facebook未读到菜单，2027需重核。",
+      "selectionOrigin": "本次独立补充",
+      "planRole": "门店/菜单先核再选"
+    },
+    {
+      "id": "dubai-karachidarbar-satwa284",
+      "city": "迪拜",
+      "name": "Karachi Darbar · Satwa / 284D90店",
+      "address": "Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202",
+      "mapQuery": "Karachi Darbar Satwa 284 D90 Dubai 043490202",
+      "days": [
+        53
+      ],
+      "rowIds": [
+        "d53v2-09"
+      ],
+      "dishes": "一人点dal豆咖喱配两张roti，或一份chickenbiryani二选一；先问单份总价，不点多人karahi/混合烤肉大盘。",
+      "budgetCny": [
+        35,
+        65
+      ],
+      "menuEvidence": "品牌官网菜单搜索索引可确认BiryaniandRice等栏目，但正文抓取反复超时，未取得可核的Satwa单菜AED现价。Talabat店页确认Satwa经营与biryani菜品方向，读取时价格未展开；不采用互相矛盾的菜单聚合价。budgetCny为2027单人食物规划留量，饮水另计；先看牌价，超预算继续AlMallah备选。",
+      "hours": "Zomato Satwa当前页列05:00–次日01:00；其他目录转述官网05:00–02:30，存在差异。本任务18:30晚餐不依赖凌晨时段，但仍需临行重核。",
+      "sources": [
+        {
+          "title": "KarachiDarbar官网菜单：搜索索引可见栏目，正文超时未取得单价",
+          "url": "https://karachidarbargroup.com/menu/"
+        },
+        {
+          "title": "Zomato Satwa：AlSatwaBusStand附近地址、电话与营业时段",
+          "url": "https://www.zomato.com/dubai/karachi-darbar-al-satwa/menu"
+        },
+        {
+          "title": "RestaurantGuru：284D90具体Satwa门牌，非其他同名分店",
+          "url": "https://restaurantguru.com/Karachi-Darbar-Restaurant-Dubai-5"
+        },
+        {
+          "title": "Talabat Satwa商家页：分店与菜品方向，非Karama店",
+          "url": "https://www.talabat.com/uae/restaurant/51773/karachi-darbar-al-satwa?aid=1302"
+        }
+      ],
+      "cautions": [
+        "适合D53取消迪拜湾短走、留在住宿西侧Satwa吃便餐的版本；若已在Deira且交通顺畅，保留Aroos，不为本店跨区折返。",
+        "AlphatelDWTC在DWTCSheikhZayedRoad大厦区，Satwa284D90在道路另一侧街区；没有核到酒店门口直达的可靠步行时长或公交班次，不能标成下楼/步行即到。按实际入口规划正规短程公交/车，餐费外另计往返交通和等车时间，不能19:30前结束就跳过。",
+        "本条不替换D55DubaiMall内两餐；午间不从商场跑Satwa，也不晚餐后再返回商场等喷泉。",
+        "不把Talabat51779的Karama店菜单误套Satwa51773；未核冷气和插座。"
+      ],
+      "verified": "2026-11-06：Satwa门牌、电话、经营与菜品方向交叉确认；官方单价和Alphatel末段实际交通尚未测得，条件性便餐备选。",
+      "selectionOrigin": "本次独立补充"
     }
   ],
   "meals": [
@@ -1627,6 +1984,14 @@ window.TRIP_DINING_DATA = {
       "note": "DRIMIN寄包后选Glinka41A分店，不跑电视塔总店。14:30–15:15包含前往和用餐，导航/等位不合就删哈斯特伊玛目，保住宿与休息。"
     },
     {
+      "day": 8,
+      "rowId": "d8v2-11",
+      "meal": "晚餐",
+      "shop": "tashkent-oqtepa-shahrisabz5a",
+      "backup": null,
+      "note": "独立广场结束后按Shahrisabz5A分店导航，用一份鸡肉lavash或pita补蔬菜；19:15–20:15包含前往、用餐和回DRIMIN，若超时则打包，登记与睡眠优先。"
+    },
+    {
       "day": 9,
       "rowId": "d9v2-06",
       "meal": "午餐",
@@ -1663,8 +2028,8 @@ window.TRIP_DINING_DATA = {
       "rowId": "d11v2-06",
       "meal": "午餐",
       "shop": "samarkand-emirhan",
-      "backup": null,
-      "note": "放主包后从老城向Mahmudjanov1/18店导航；午餐和午休不被参观挤掉。此店是具名正餐，不能当廉价食堂。"
+      "backup": "samarkand-evos-dahbed47",
+      "note": "放主包后从老城向Mahmudjanov1/18店导航；午餐和午休不被参观挤掉。EVOS Dahbed47是省钱便餐备选，另查实际路程，不假定就在老城门口。"
     },
     {
       "day": 12,
@@ -1694,9 +2059,9 @@ window.TRIP_DINING_DATA = {
       "day": 15,
       "rowId": "d15v2-12",
       "meal": "晚餐",
-      "shop": "firuze-baku",
-      "backup": null,
-      "note": "高地公园返回后再去，点汤或一份主食即可，不叠加多份肉菜。"
+      "shop": "baku-araz-terrace-islam1",
+      "backup": "firuze-baku",
+      "note": "高地公园回到喷泉广场后可尝Araz一份qutab/主食，10%服务费已在食物留量中考虑；它是口味备选，不声称一定比Firuzə便宜。饭后回宿整理夜车材料。"
     },
     {
       "day": 16,
@@ -1734,9 +2099,9 @@ window.TRIP_DINING_DATA = {
       "day": 20,
       "rowId": "d20v2-12",
       "meal": "晚餐",
-      "shop": "tun-lahmajo-yerevan",
-      "backup": null,
-      "note": "Garni/Geghard返城后执行；午餐由沿途停靠/自带安排，不把城内店硬排到山区。"
+      "shop": "yerevan-sas-amiryan7",
+      "backup": "tun-lahmajo-yerevan",
+      "note": "Garni/Geghard返城后在Amiryan7/1选lahmacun或蔬菜土豆便餐，与D19传统餐厅搭配；午餐仍按山区停靠/自带安排，不把城内店塞到山区。"
     },
     {
       "day": 21,
@@ -1998,9 +2363,9 @@ window.TRIP_DINING_DATA = {
       "day": 42,
       "rowId": "d42v2-11",
       "meal": "晚餐",
-      "shop": "hurghada-starfish",
-      "backup": null,
-      "note": "从ElDahar回Marina方向后再吃；不误去另一同名分店。预算紧可选择午餐便携食物，晚上仅点一人主食。"
+      "shop": "hurghada-koshary-tahrir-dahar",
+      "backup": "hurghada-starfish",
+      "note": "ElDahar街市逛完先核地图针与ElTahrir门头、营业和当日价，能确认才吃koshary，随后返Marina。街名存在差异；若不营业就按原返程到Sheraton主店，不跨区追同名店。"
     },
     {
       "day": 44,
@@ -2015,8 +2380,8 @@ window.TRIP_DINING_DATA = {
       "rowId": "d45v2-13",
       "meal": "晚餐",
       "shop": "luxor-alsahaby",
-      "backup": null,
-      "note": "东岸傍晚再用餐；午间回住处降温，不能把这家露台写成已核强空调。"
+      "backup": "luxor-elzaeem-television",
+      "note": "东岸傍晚再用餐；午间回住处降温，不能把这家露台写成已核强空调。ElZaeem仅作先核门店与菜单的便餐线索，不默认它开门或有空调。"
     },
     {
       "day": 46,
@@ -2063,8 +2428,8 @@ window.TRIP_DINING_DATA = {
       "rowId": "d51v2-11",
       "meal": "晚餐",
       "shop": "cairo-abou-tarek",
-      "backup": null,
-      "note": "GEM参观完回开罗市区后用餐；GEM午餐留在馆内允许区域，不能午间专程回总店。"
+      "backup": "cairo-kazaz-sabry38",
+      "note": "GEM参观完回开罗市区后用餐；可换Kazaz SabryAbouAlam店吃豆餐/蔬菜与面包，但先核店名门头和含税牌价，门牌有跨平台差异。GEM午餐仍留馆内允许区域。"
     },
     {
       "day": 52,
@@ -2079,8 +2444,8 @@ window.TRIP_DINING_DATA = {
       "rowId": "d53v2-09",
       "meal": "晚餐",
       "shop": "dubai-aroos-deira",
-      "backup": "dubai-almallah-satwa",
-      "note": "傍晚迪拜湾短走后，只有实时交通允许19:30前结束才去Deira；Alphatel DWTC住宿往返另计路程，晚到先用已备简餐。"
+      "backup": "dubai-karachidarbar-satwa284",
+      "note": "保留迪拜湾路线时，核Deira正餐能否在19:30前结束。若晚到取消迪拜湾、留在Alphatel/Satwa一带，则可换KarachiDarbar Satwa284D90便餐；两条动线二选一，不能把它说成Deira步行备选。"
     },
     {
       "day": 54,

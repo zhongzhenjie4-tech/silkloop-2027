@@ -1,6 +1,17 @@
 # 丝路随行 · 具体餐厅与逐餐安排
 
-核实：2026-11-05。按57天7/11—9/5路线。均为推荐，未预订。保留既有任务和时间，餐费不自动覆盖原3340元草案。
+原44家依据2026-11-05核查；8家独立补充依据2026-11-06。未重新实地核验，2027营业与价格仍须再查。按57天7/11—9/5路线。均为推荐，未预订。保留既有任务和时间，餐费不自动覆盖原3340元草案。
+
+## 本次独立补充
+
+- 塔什干 · Oqtepa Lavash · Shahrisabz 5A店；2026-11-06：品牌单点菜单已读，具体分店地址经地图核对；2027营业和分店实价未锁定。
+- 撒马尔罕 · EVOS · Dahbed 47店；2026-11-06：Dahbed47地址有地图和独立本地平台交叉，品牌官网可访问；分店价格未取得。
+- 巴库 · Araz Terrace / 原Araz Cafe · İslam Səfərli1店；2026-11-06：当前官网确认具体门牌、名称、菜单方向和服务费；未得到单菜现价，不作为已证低价食堂。
+- 埃里温 · SAS Food Court · Amiryan 7/1店；2026-11-06：品牌官网已核当前分店表及具名单品AMD价格；未做指定日期现场点单或确认2027供应。
+- 赫尔格达 · Koshary El Tahrir · El Dahar老城店；2026-11-06：两家目录均确认ElDahar具名店，但街名仍需定位交叉，菜单现价未取得；建议只作为D42条件性便餐。
+- 卢克索 · El Zaeem / Al Zaeem 2 · Television与AlManshiya路口候选；2026-11-06：存在具体路口的平价店线索，官方现菜单、准确入口和营业未完成核验；仅条件性候选，建议出发前补核。
+- 开罗 · El Kazaz · Sabry Abou Alam38店；2026-11-06：具名分店有两目录交叉，Talabat原标价可读；门牌跨平台有差异，官方Facebook未读到菜单，2027需重核。
+- 迪拜 · Karachi Darbar · Satwa / 284D90店；2026-11-06：Satwa门牌、电话、经营与菜品方向交叉确认；官方单价和Alphatel末段实际交通尚未测得，条件性便餐备选。
 
 ## 本次纠错
 
@@ -25,20 +36,21 @@
 |D6|2027-07-16|18:30–20:00|晚餐|[Qaganat（Зенкова / Gogol 39分店）](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2039%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)|¥25–45|峡谷团返城后再吃，洗衣与睡眠优先；团晚到则打包一份，不再排队。|
 |D7|2027-07-17|11:30–12:30|午餐|[Qaganat（Зенкова / Gogol 39分店）](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2039%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)|¥25–45|11:30–12:10内解决，留时间买国际卧铺简餐；12:10仍未出餐就取消堂食。|
 |D8|2027-07-18|14:30–15:15|午餐|[Besh Qozon（Glinka 41A分店）](https://www.google.com/maps/dir/?api=1&destination=Besh%20Qozon%20Glinka%2041A%20Tashkent)|¥35–55|DRIMIN寄包后选Glinka41A分店，不跑电视塔总店。14:30–15:15包含前往和用餐，导航/等位不合就删哈斯特伊玛目，保住宿与休息。|
+|D8|2027-07-18|19:15–20:15|晚餐|[Oqtepa Lavash · Shahrisabz 5A店](https://www.google.com/maps/dir/?api=1&destination=Oqtepa%20Lavash%20Shahrisabz%20Street%205A%20Tashkent%20Westminster%20Lyceum)|¥25–40|独立广场结束后按Shahrisabz5A分店导航，用一份鸡肉lavash或pita补蔬菜；19:15–20:15包含前往、用餐和回DRIMIN，若超时则打包，登记与睡眠优先。|
 |D9|2027-07-19|12:30–16:30|午餐|[Old Bukhara（布哈拉老城店）](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)|¥30–55|入住寄包后吃一份正餐，再回室内午休；单店不能保证冷气或允许充电。 备选：Afsona Bukhara（Murod Avliyo 4分店）。|
 |D9|2027-07-19|18:45–21:00|晚餐|[Old Bukhara（布哈拉老城店）](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)|¥30–55|Lyabi-Hauz/卡扬参观结束后步行按门店导航，不专程找第二家；不把露台作为冷气休息。|
 |D10|2027-07-20|12:15～15:45|午餐|[Afsona Bukhara（Murod Avliyo 4分店）](https://www.google.com/maps/dir/?api=1&destination=Afsona%20Bukhara%20Murod%20Avliyo%204)|¥50–85|午餐后回住处长午休；Afsona餐价留量较高，超预算改Old Bukhara，不默认强冷气或插座。 备选：Old Bukhara（布哈拉老城店）。|
 |D10|2027-07-20|18:30～21:00|晚餐|[Old Bukhara（布哈拉老城店）](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)|¥30–55|巴扎结束后按店名回老城吃；现场先看服务费与份量，饭后核火车。|
-|D11|2027-07-21|11:45–14:30|午餐|[Emirhan Restaurant（Mahmudjanov 1/18店）](https://www.google.com/maps/dir/?api=1&destination=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand)|¥50–85|放主包后从老城向Mahmudjanov1/18店导航；午餐和午休不被参观挤掉。此店是具名正餐，不能当廉价食堂。|
+|D11|2027-07-21|11:45–14:30|午餐|[Emirhan Restaurant（Mahmudjanov 1/18店）](https://www.google.com/maps/dir/?api=1&destination=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand)|¥50–85|放主包后从老城向Mahmudjanov1/18店导航；午餐和午休不被参观挤掉。EVOS Dahbed47是省钱便餐备选，另查实际路程，不假定就在老城门口。 备选：EVOS · Dahbed 47店。|
 |D12|2027-07-22|17:00～18:30|晚餐|[Emirhan Restaurant（Mahmudjanov 1/18店）](https://www.google.com/maps/dir/?api=1&destination=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand)|¥50–85|雷吉斯坦补外观后按具体店名导航；Shokhrukh Nur只在当日地图与门牌核对一致时作便宜备选。 备选：Shokhrukh Nur（So'zangaron街店）。|
 |D13|2027-07-23|19:00–20:30|晚餐|[Besh Qozon（Glinka 41A分店）](https://www.google.com/maps/dir/?api=1&destination=Besh%20Qozon%20Glinka%2041A%20Tashkent)|¥35–55|到塔什干先办登记；仍选Glinka41A而非电视塔总店，若从住宿往返不能在20:30前结束，就用已备简餐，不影响次日航班。|
 |D14|2027-07-24|19:10–21:00|晚餐|[Firuzə Restaurant · 喷泉广场店](https://www.google.com/maps/dir/?api=1&destination=Firuze%20Restaurant%20Tarlan%20Aliyarbeyov%2014%20Baku)|¥50–80|海滨短走后去喷泉广场店；不要把机场晚到日排成餐厅打卡，延误先保入住休息。|
-|D15|2027-07-25|18:30–21:30|晚餐|[Firuzə Restaurant · 喷泉广场店](https://www.google.com/maps/dir/?api=1&destination=Firuze%20Restaurant%20Tarlan%20Aliyarbeyov%2014%20Baku)|¥50–80|高地公园返回后再去，点汤或一份主食即可，不叠加多份肉菜。|
+|D15|2027-07-25|18:30–21:30|晚餐|[Araz Terrace / 原Araz Cafe · İslam Səfərli1店](https://www.google.com/maps/dir/?api=1&destination=Araz%20Terrace%201%20Islam%20Safarli%20Fountains%20Square%20Baku)|¥45–85|高地公园回到喷泉广场后可尝Araz一份qutab/主食，10%服务费已在食物留量中考虑；它是口味备选，不声称一定比Firuzə便宜。饭后回宿整理夜车材料。 备选：Firuzə Restaurant · 喷泉广场店。|
 |D16|2027-07-26|12:40～14:00|午餐|[Dolma Restaurant · 喷泉广场店](https://www.google.com/maps/dir/?api=1&destination=Dolma%20Restaurant%208%20Mammadamin%20Rasulzade%20Baku)|¥50–85|老城结束后去喷泉广场Rasulzade8店；账单另有10%服务费。晚上为夜车备餐，不重复远行吃第二家。 备选：Firuzə Restaurant · 喷泉广场店。|
 |D17|2027-07-27|17:45–19:15|晚餐|[Maspindzelo · Gorgasali老城店](https://www.google.com/maps/dir/?api=1&destination=Maspindzelo%207%20Gorgasali%20Tbilisi)|¥40–75|老城/Narikala下山后先到Gorgasali7吃，再返回住处；原17:45–19:15窗口含步行与吃饭。|
 |D18|2027-07-28|16:00–21:30 含返城晚餐|晚餐|[Maspindzelo · Gorgasali老城店](https://www.google.com/maps/dir/?api=1&destination=Maspindzelo%207%20Gorgasali%20Tbilisi)|¥40–75|仅团车返第比利斯后且仍营业、交通允许时去；21:00后返城直接用随身简餐回宿，不再追店。|
 |D19|2027-07-29|19:15–21:30|晚餐|[Tun Lahmajo · Teryan街店](https://www.google.com/maps/dir/?api=1&destination=Tun%20Lahmajo%20Teryan%2023%20Yerevan)|¥25–55|Cascade往共和国广场方向经Teryan街；跨境晚到则取消Cascade，先登记吃饭。|
-|D20|2027-07-30|16:30–21:00|晚餐|[Tun Lahmajo · Teryan街店](https://www.google.com/maps/dir/?api=1&destination=Tun%20Lahmajo%20Teryan%2023%20Yerevan)|¥25–55|Garni/Geghard返城后执行；午餐由沿途停靠/自带安排，不把城内店硬排到山区。|
+|D20|2027-07-30|16:30–21:00|晚餐|[SAS Food Court · Amiryan 7/1店](https://www.google.com/maps/dir/?api=1&destination=SAS%20Food%20Court%207%2F1%20Amiryan%20Street%20Yerevan)|¥30–50|Garni/Geghard返城后在Amiryan7/1选lahmacun或蔬菜土豆便餐，与D19传统餐厅搭配；午餐仍按山区停靠/自带安排，不把城内店塞到山区。 备选：Tun Lahmajo · Teryan街店。|
 |D21|2027-07-31|11:30～13:30|午餐|[Tun Lahmajo · Teryan街店](https://www.google.com/maps/dir/?api=1&destination=Tun%20Lahmajo%20Teryan%2023%20Yerevan)|¥25–55|11:30–12:20午餐，随后午休；Gaidz只作先查营业的午餐备选，不依赖未经核实的1500AMD套餐。 备选：Lahmajun Gaidz · Tumanyan9/9（午餐备选）。|
 |D22|2027-08-01|17:30–19:00|晚餐|[Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)|¥45–90|航班转机后只在格雷梅镇吃一顿简餐，不为瓦罐肉拖到晚睡。|
 |D23|2027-08-02|11:30–12:30 建议|午餐|[Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)|¥45–90|露天博物馆回镇后吃Pide/汤；Turkish Ravioli是价位较高的体验备选，不能算平价餐。 备选：Turkish Ravioli Restaurant · Aydınlı Sokak店。|
@@ -71,17 +83,17 @@
 |D40|2027-08-19|12:45–14:00 建议|午餐|[Pizza Bucko · Francuska18店](https://www.google.com/maps/dir/?api=1&destination=Pizza%20Bucko%20Francuska%2018%20Belgrade)|¥15–30|参观主馆后回中心才去此店；不为披萨跨区来回赶馆。|
 |D40|2027-08-19|17:30–18:30 建议|晚餐|[Walter · Dorćol店](https://www.google.com/maps/dir/?api=1&destination=Walter%20Sarajevski%20Cevap%20Strahinjica%20Bana%2057%20Belgrade)|¥35–60|17:30早晚餐，18:30前回宿收包早睡；不依赖夜宵店。|
 |D41|2027-08-20|18:30–19:30|晚餐|[Star Fish Restaurant · Sheraton Street主店](https://www.google.com/maps/dir/?api=1&destination=Star%20Fish%20Restaurant%20Sheraton%20Street%20Wahib%20Stores%20Hurghada)|¥45–90|Marina傍晚短走后去Sheraton Street主店；按重量海鲜先确认含烹饪费的总价。|
-|D42|2027-08-21|18:15–19:15|晚餐|[Star Fish Restaurant · Sheraton Street主店](https://www.google.com/maps/dir/?api=1&destination=Star%20Fish%20Restaurant%20Sheraton%20Street%20Wahib%20Stores%20Hurghada)|¥45–90|从ElDahar回Marina方向后再吃；不误去另一同名分店。预算紧可选择午餐便携食物，晚上仅点一人主食。|
+|D42|2027-08-21|18:15–19:15|晚餐|[Koshary El Tahrir · El Dahar老城店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20El%20Tahrir%20El%20Dahar%20Church%20Street%20Mafesh%20Moshkla%20Hurghada)|¥15–30|ElDahar街市逛完先核地图针与ElTahrir门头、营业和当日价，能确认才吃koshary，随后返Marina。街名存在差异；若不营业就按原返程到Sheraton主店，不跨区追同名店。 备选：Star Fish Restaurant · Sheraton Street主店。|
 |D44|2027-08-23|18:30–19:30|晚餐|[Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店](https://www.google.com/maps/dir/?api=1&destination=Al%20Sahaby%20Lane%20Restaurant%20Nefertiti%20Hotel%20Al%20Sahaby%20Street%20Luxor)|¥40–65|卢克索神庙傍晚参观后再上酒店屋顶吃；屋顶露台不能代替午间空调休息。|
-|D45|2027-08-24|18:15–19:15|晚餐|[Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店](https://www.google.com/maps/dir/?api=1&destination=Al%20Sahaby%20Lane%20Restaurant%20Nefertiti%20Hotel%20Al%20Sahaby%20Street%20Luxor)|¥40–65|东岸傍晚再用餐；午间回住处降温，不能把这家露台写成已核强空调。|
+|D45|2027-08-24|18:15–19:15|晚餐|[Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店](https://www.google.com/maps/dir/?api=1&destination=Al%20Sahaby%20Lane%20Restaurant%20Nefertiti%20Hotel%20Al%20Sahaby%20Street%20Luxor)|¥40–65|东岸傍晚再用餐；午间回住处降温，不能把这家露台写成已核强空调。ElZaeem仅作先核门店与菜单的便餐线索，不默认它开门或有空调。 备选：El Zaeem / Al Zaeem 2 · Television与AlManshiya路口候选。|
 |D46|2027-08-25|18:00–19:00|晚餐|[Makka / Mekka Restaurant · Abtal El Tahrir店](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)|¥25–50|入住GoInn后赴东岸AbtalElTahrir143候选店，先看营业和完整价单；无菜单或不营业就买已标价热食，不付未问价套餐。|
 |D47|2027-08-26|14:00–15:00或返城后|午餐|[Makka / Mekka Restaurant · Abtal El Tahrir店](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)|¥25–50|阿布辛贝返回后按实际返城时间就餐；强空调未核，若不够凉爽，打包回已确认空调住处。|
 |D48|2027-08-27|11:30–12:30|午餐|[Makka / Mekka Restaurant · Abtal El Tahrir店](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)|¥25–50|11:30–12:10结束，午睡和17:00候选夜巴优先；下午早晚餐用已备食品，不重复跑市中心。|
 |D49|2027-08-28|12:00–13:00|午餐|[Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)|¥15–30|夜巴到开罗先寄包补觉，再到16Maarouf市中心总店；不要追未经核实的65EGP价格。|
 |D50|2027-08-29|18:30–19:30|晚餐|[Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)|¥15–30|吉萨行程已返回市区后再去；不把市中心店塞进金字塔午餐而往返折腾。|
-|D51|2027-08-30|18:00–19:00|晚餐|[Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)|¥15–30|GEM参观完回开罗市区后用餐；GEM午餐留在馆内允许区域，不能午间专程回总店。|
+|D51|2027-08-30|18:00–19:00|晚餐|[Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)|¥15–30|GEM参观完回开罗市区后用餐；可换Kazaz SabryAbouAlam店吃豆餐/蔬菜与面包，但先核店名门头和含税牌价，门牌有跨平台差异。GEM午餐仍留馆内允许区域。 备选：El Kazaz · Sabry Abou Alam38店。|
 |D52|2027-08-31|12:30–13:30|午餐|[Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)|¥15–30|萨卡拉/NMEC白天分支已回市中心后才去，若迟返用随身简餐，优先离埃打包与SPX交通。|
-|D53|2027-09-01|18:30–19:30|晚餐|[Aroos Damascus · Al Muraqqabat / Deira店](https://www.google.com/maps/dir/?api=1&destination=Aroos%20Damascus%20Green%20Palace%20Hotel%20Al%20Muraqqabat%20Deira%20Dubai)|¥35–70|傍晚迪拜湾短走后，只有实时交通允许19:30前结束才去Deira；Alphatel DWTC住宿往返另计路程，晚到先用已备简餐。 备选：Al Mallah Dhiyafah · Satwa / Al Hudaiba店。|
+|D53|2027-09-01|18:30–19:30|晚餐|[Aroos Damascus · Al Muraqqabat / Deira店](https://www.google.com/maps/dir/?api=1&destination=Aroos%20Damascus%20Green%20Palace%20Hotel%20Al%20Muraqqabat%20Deira%20Dubai)|¥35–70|保留迪拜湾路线时，核Deira正餐能否在19:30前结束。若晚到取消迪拜湾、留在Alphatel/Satwa一带，则可换KarachiDarbar Satwa284D90便餐；两条动线二选一，不能把它说成Deira步行备选。 备选：Karachi Darbar · Satwa / 284D90店。|
 |D54|2027-09-02|12:15–13:15建议|午餐|[Museum Café · Louvre Abu Dhabi馆内店](https://www.google.com/maps/dir/?api=1&destination=Museum%20Cafe%20Louvre%20Abu%20Dhabi%20Saadiyat%20Island)|¥90–140|按原12:15已到卢浮宫的动线在馆内吃。省钱备选须改成11:30–12:00在清真寺Souq麦当劳吃、12:00–13:00移动、13:15检票；不能从卢浮宫折返清真寺吃饭。 备选：McDonald's / McCafé · Souq Al Jami清真寺游客中心店。|
 |D55|2027-09-03|12:15–13:15|午餐|[ALBAIK · Dubai Mall Second Floor店](https://www.google.com/maps/dir/?api=1&destination=ALBAIK%20Dubai%20Mall%20Second%20Floor%20Food%20Court%20P7%20Cinema%20Parking)|¥25–45|DubaiMall二层美食区，靠P7CinemaParking；15分钟内队伍无望则用自备简餐，不为网红炸鸡排长队。|
 |D55|2027-09-03|18:15–19:15|晚餐|[ALBAIK · Dubai Mall Second Floor店](https://www.google.com/maps/dir/?api=1&destination=ALBAIK%20Dubai%20Mall%20Second%20Floor%20Food%20Court%20P7%20Cinema%20Parking)|¥25–45|仍在DubaiMall内选小份，19:15离开返回Alphatel DWTC休息；仅正式凌晨版才按分支取包赴机场，不临时跨区打卡。若不想重复炸鸡，用下午已采购的便携简餐。|
@@ -710,9 +722,124 @@
 - 人民币是单餐食物留量，未按固定汇率冒充2027报价。
 - 来源：[餐厅官网：6号地址与2026-10-10价表更新](https://tarihikaradenizdonerasimusta.com/)；[官网菜单原图：份量与原币价](https://tarihikaradenizdonerasimusta.com/kcalgorsel.png)
 
+### 塔什干 · Oqtepa Lavash · Shahrisabz 5A店
+
+- 地址：Shahrisabz Street 5A, Mirabad District, Tashkent；Westminster Lyceum对面
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=Oqtepa%20Lavash%20Shahrisabz%20Street%205A%20Tashkent%20Westminster%20Lyceum)
+- 点单：一份大鸡肉lavash（куриный большой лаваш）或一份鸡肉pita doner二选一；想补菜加一小份红卷心菜沙拉，先问能否单点，不买双人优惠套餐。
+- 单人一餐食物规划：¥25–40，饮水和饮品另计。
+- 菜单证据：2026-11-06读取品牌官网菜单：大鸡肉lavash 35,000 UZS、鸡肉pita doner 33,000 UZS、红卷心菜沙拉10,000 UZS。是品牌公开菜单，未完成Shahrisabz5A现场点单，分店价格/库存须核；出现0 UZS的活动条目不视作免费。budgetCny为2027单人食物规划留量，饮水另计。
+- 营业：该分店第三方资料列每日09:00–03:00；官网分店表未能把Shahrisabz门牌与营业钟点直接配对，出发前复核。
+- 核实边界：2026-11-06：品牌单点菜单已读，具体分店地址经地图核对；2027营业和分店实价未锁定。
+- 用作D8广场散步结束后的便餐备选，替换原本未具名的晚餐；不要从DRIMIN寄包后为此北上吃午餐，也不硬塞D13返城晚上。
+- D8仍须留时间从店返回Mirabad的DRIMIN办理登记；若导航不能在20:15前回到住宿，则不执行，已备简餐优先。
+- 这是换口味、控制份量的便餐补充，保留Besh Qozon作乌兹别克抓饭体验；未核冷气和插座。
+- 来源：[Oqtepa Lavash品牌官网菜单：单点UZS价格](https://oqtepalavash.uz/en)；[Yandex Maps：Shahrisabz5A具体分店、地标及官网链接](https://yandex.com/maps/org/oqtepa_lavash/227487602179/)；[All Uzbekistan：Shahrisabz街分店与营业时间](https://alluzbekistan.com/en/restoranlar/oqtepa-lavash-shahrisabz-toshkent)
+
+### 撒马尔罕 · EVOS · Dahbed 47店
+
+- 地址：47 Dahbed Street, Samarkand, Uzbekistan
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=EVOS%2047%20Dahbed%20Street%20Samarkand)
+- 点单：点一份鸡肉或牛肉lavash卷饼；不叠加汉堡、薯条、汽水套餐。先看当地菜单选最小够吃的一份，打包后尽快吃。
+- 单人一餐食物规划：¥25–45，饮水和饮品另计。
+- 菜单证据：已访问EVOS官网，但菜单需选实际配送地址后动态返回，本次未得到Dahbed分店可读取单菜现价，故不填虚构UZS数字。sam.uz只列under 70k UZS的价格级别，不当作一份lavash报价。budgetCny为一人食物规划留量，饮水另计。
+- 营业：sam.uz列每日08:00–23:00，为第三方2026-10核查资料；2027前复核，不能用其他EVOS分店的03:00收店时间套用。
+- 核实边界：2026-11-06：Dahbed47地址有地图和独立本地平台交叉，品牌官网可访问；分店价格未取得。
+- Siyob巴扎西北约1.1公里（第三方距离），不是巴扎出口即到；只有实测导航和等位容许12:30前回Old Radio才执行，否则在巴扎采购后回宿，不能用廉价名义制造绕路。
+- 仅作为D12午餐的具名备选，保留Emirhan/Shokhrukh Nur等当地正餐，不把撒马尔罕全部改成快餐链。
+- 未确认分店冷气、插座、支付状态或2027存续。
+- 来源：[EVOS官网：品牌与最终点餐/分店入口，价格动态加载](https://evos.uz/en)；[Yandex Maps：EVOS Dahbed47门牌](https://yandex.uz/maps/org/evos/179040376490/)；[sam.uz：Dahbed47分店、菜单方向和营业时间](https://sam.uz/en/restaurants/evos-dahbed-kochasi)
+
+### 巴库 · Araz Terrace / 原Araz Cafe · İslam Səfərli1店
+
+- 地址：1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=Araz%20Terrace%201%20Islam%20Safarli%20Fountains%20Square%20Baku)
+- 点单：先问一人份qutab薄饼与汤的当日价，选两三张薄饼加一碗汤，或一份小主食；不点Shah plov等多人宴席菜。
+- 单人一餐食物规划：¥45–85，饮水和饮品另计。
+- 菜单证据：已读官方Araz Terrace页面：确认qutab、plov、dolma与烤肉方向、菜单币种AZN，并明确账单加10%服务费。单菜价在动态菜单/图片中，文本未取到；30–100 AZN是宴会每人价，不是便餐套餐，不能冒用。budgetCny为单人食物含服务费的规划留量，饮水另计；并不保证比Firuzə更便宜。
+- 营业：官网每日10:00–01:00；早餐10:00–13:00、午餐13:00–15:00、其余单点，2027前重核。
+- 核实边界：2026-11-06：当前官网确认具体门牌、名称、菜单方向和服务费；未得到单菜现价，不作为已证低价食堂。
+- 同在喷泉广场片区，可替D15重复Firuzə晚餐；若现价明显更高，继续原店，不为换店增支。
+- 第三方旧条目有İslamSafarli3号和旧名称，优先按当前官网1号、电话+994503180207核定位，不能只搜Araz后随机进店。
+- D16午餐需留采购夜车便餐时间；只在老城回喷泉广场原路上安排。未声称冷气或插座。
+- 来源：[Araz Terrace官网：地址、菜品、营业与10%服务费](https://arazterrace.az/en/)；[gun.az：Araz Cafe旧名称、同一电话和İslamSafarli1地址](https://gun.az/en/company/araz-cafe)
+
+### 埃里温 · SAS Food Court · Amiryan 7/1店
+
+- 地址：7/1 Amiryan Street, Yerevan, Armenia
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=SAS%20Food%20Court%207%2F1%20Amiryan%20Street%20Yerevan)
+- 点单：省钱点一份土豆泥配烤时蔬Combo6，或两张普通牛肉lahmacun二选一；不为了套餐额外购买饮料。想少吃肉可选前者，柜台确认份量。
+- 单人一餐食物规划：¥30–50，饮水和饮品另计。
+- 菜单证据：品牌官网单品页读取：普通牛肉lahmacun900 AMD/张；Combo6（土豆泥+烤时蔬）1,700 AMD。官网Our Food Courts列Amiryan7/1门店；这是线上品牌菜单参考，堂食价格、供应和份量需店内核。budgetCny仅单人食物，饮水另计；不拿含tan饮料的Combo21当纯食物价。
+- 营业：品牌官网Amiryan7/1列09:00–01:00；单品页23:30–09:00不配送是配送限制，不能等同堂食收店时间。
+- 核实边界：2026-11-06：品牌官网已核当前分店表及具名单品AMD价格；未做指定日期现场点单或确认2027供应。
+- 替D20第三次TunLahmajo便餐或D21午餐，仍在共和国广场/Amiryan中心片区；D19跨境初到夜晚无需为换店额外折腾。
+- 不采用Mashtots18旧第三方总部联系地址当成现餐厅地址：品牌当前分店表明确可用的是Amiryan7/1。
+- D21须12:20左右吃完并回宿午休，不能挤掉凌晨航班前睡眠；未核冷气与插座。
+- 来源：[SAS官网OurFoodCourts：Amiryan7/1与营业时间](https://www.sas.am/food/en/about/our-supermarkets/)；[SAS官网普通牛肉lahmacun900AMD](https://www.sas.am/food/en/catalog/lakhmadzhun/7170/)；[SAS官网Combo6土豆泥与烤时蔬1700AMD](https://www.sas.am/food/en/catalog/vkusnoe-kombo/754798/)
+
+### 赫尔格达 · Koshary El Tahrir · El Dahar老城店
+
+- 地址：El Kanisa / Church Street, El Dahar Square一带，Mafish/Mafesh Moshkla商店旁，Hurghada；新地图针写شارع اللواء سلمات مظهر（Salamat Mazhar街），须对照地图针与门头
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=Koshary%20El%20Tahrir%20El%20Dahar%20Church%20Street%20Mafesh%20Moshkla%20Hurghada)
+- 点单：一人先点中/小碗koshary（米饭、意面、扁豆、鹰嘴豆与炸洋葱），酱和辣油分开；吃完仍饿再加，不默认加甜点。
+- 单人一餐食物规划：¥15–30，饮水和饮品另计。
+- 菜单证据：已访问品牌官网但仅得到需JavaScript页面，未取得可核的ElDahar单碗EGP现价。第三方18–30LE说法无清楚菜单日期，不用于预算实价；也不套开罗同名连锁菜单到此店。budgetCny为一人食物规划留量，饮水另计。
+- 营业：RestaurantGuru/Spinach地图资料列12:00–次日01:00，属第三方参考；2027前核实际店面。
+- 核实边界：2026-11-06：两家目录均确认ElDahar具名店，但街名仍需定位交叉，菜单现价未取得；建议只作为D42条件性便餐。
+- 用于D42的ElDahar17:00–18:15街市之后，吃完返回Marina，替换第二次StarFish；不把它安排在Marina海滩午餐并制造往返。
+- ChurchStreet旧门牌与SalamatMazhar地图街名不同；出发前用电话/住宿前台核同一店的定位和门头，未核对前不认定二者同一入口。
+- Sheraton的KosharyStarElTahrir在elmenus标Closed，与本候选不是同一针；不要搜简称误入停业店。
+- 未核到本店和开罗19719品牌是否同一经营主体；不作连锁保证，不声称强冷气或插座。
+- 来源：[EgyptYellowPages：ElKanisa街、Dahar广场与商店地标](https://yellowpages.com.eg/en/profile/koshary-el-tahrir/689794)；[elmenus：ElDahar店ChurchStreet具体地址](https://www.elmenus.com/hurghada/koshary-el-tahrir-nw782)；[RestaurantGuru：新地图街名、电话与餐种，价格不采作菜单价](https://restaurantguru.com/Koshary-El-Tahrir-Hurghada)；[品牌官网：本次可访问但价格需JS，未读取菜单](https://www.koshary-eltahrir.com/)
+
+### 卢克索 · El Zaeem / Al Zaeem 2 · Television与AlManshiya路口候选
+
+- 地址：Television Street与Al Manshiya交叉口、Winter Palace/Pavillon后门方向，Luxor East Bank；OpenAlfa写Television39，门牌和当前经营须重核
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=El%20Zaeem%20Television%20Street%20Al%20Manshiya%20Luxor%20Winter%20Palace)
+- 点单：先看标价，点一份小/中碗koshary；想换口味可问一份hawawshi肉馅烤饼，二选一。只在总价明确时购买，不凭旧攻略点整桌。
+- 单人一餐食物规划：¥15–35，饮水和饮品另计。
+- 菜单证据：未取得官方菜单。2026搜索到的本地指南聚合旅客记录有大碗koshary80EGP，但这只是用户报告，存在游客/本地价争议，不能标成已核店家报价。2015–2022年的5–25LE/12LE旧价全部弃用。budgetCny为一人食物规划留量，饮水另计。
+- 营业：本地指南地图聚合列08:00–次日03:00，但与其他平台时间不一致；本次不视作已核营业，须临行联系/实地核实。
+- 核实边界：2026-11-06：存在具体路口的平价店线索，官方现菜单、准确入口和营业未完成核验；仅条件性候选，建议出发前补核。
+- 证据弱于其他新增店，先作为卢克索廉价缺口的待复核备选，不自动替换AlSahaby主推荐。
+- YoussefHassan/旧市场/SalahElDin多个同名针混杂；本条限定Television×AlManshiya，不把别处分店的电话、菜单、营业时间合并成已核数据。
+- D44/D45从东岸神庙/河岸回住宿方向才选；门头/价格不清楚直接继续原AlSahaby，不为寻找旧店延误休息。
+- 没有核实堂食座位、冷气和插座；需要降温时打包回已确认空调住宿，不塞到D45空调午餐行。
+- 来源：[TheLuxorGuide：Television/AlManshiya路口具体分店方向](https://www.theluxorguide.com/areas/east-bank-el-awamya)；[TheLuxorGuide：koshary餐种与最新聚合价格报告（非官方价）](https://www.theluxorguide.com/city/luxor/el-zaeem)；[OpenAlfa地图目录：ElZaeem Television39条目](https://egypt-streets.openalfa.com/luxor-city/eating-drinking)；[Tripadvisor：历史点评明确AlZaeem2路口和其他同名地址混杂，旧价不采用](https://www.tripadvisor.com/Restaurant_Review-g294205-d2727669-Reviews-El_Zaeem_Restaurant-Luxor_Nile_River_Valley.html)
+
+### 开罗 · El Kazaz · Sabry Abou Alam38店
+
+- 地址：38 Sabry Abou Alam Street, off Talaat Harb Square, Downtown Cairo；部分平台写28/39号，订前/临行核门头
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=El%20Kazaz%2038%20Sabry%20Abou%20Alam%20Street%20Talaat%20Harb%20Cairo%2016903)
+- 点单：点一份foul蚕豆盒配面包，再加一份taameya炸蚕豆球或一小份茄子配菜；想换成肉类则一份鸡肉shawarma饭/卷即可，不把两套叠加。
+- 单人一餐食物规划：¥20–40，饮水和饮品另计。
+- 菜单证据：Talabat商家Downtown–TalaatHarb线上菜单读取：普通调味foul盒46EGP、橄榄油foul盒59EGP、babaGhannoug33EGP；页面还有折后价，但本条只保留原标价作线上参考，不保证堂食分店同价/含面包/含税。官方Facebook被登录页阻拦，未取得官方现价。budgetCny是一人食物规划留量，饮水另计。
+- 营业：Hotlines目录列每日07:00–次日02:30；elmenus另一Alwey分店列07:00–22:00，不能互套；本Sabry38具体营业临行复核。
+- 核实边界：2026-11-06：具名分店有两目录交叉，Talabat原标价可读；门牌跨平台有差异，官方Facebook未读到菜单，2027需重核。
+- 让开罗四顿AbouTarek有豆餐/鸡肉变化，推荐替D51回市区晚餐或D52回宿午餐；不从GEM或金字塔为此午间返回市中心。
+- 38号有两家独立目录支持，但MenuEgypt写28号、地图有39号；务必用Sabry街与16903核定位，不把Alwey2或AlBostan7分店当同一店。
+- 先问面包、配菜和服务费是否另收；Talabat配送与折扣不是2027堂食保证，不声称冷气/插座。
+- 来源：[Hotlines：Kazaz SabryAbouAlam38具名分店与热线16903](https://hotlines.tel/en/sps/1510)；[EgyptYellowPages：Kazaz38Sabry分店与另一Alwey分店区分](https://yellowpages.com.eg/en/profile/kazaz-restaurants/533654)；[Talabat商家Downtown–TalaatHarb线上菜单：EGP原标价，堂食待核](https://www.talabat.com/egypt/restaurant/637556/elkazaz-restaurants-downtown-talaat-harab?aid=10168)；[Kazaz店家Facebook：本次访问受登录限制，未读取菜单](https://www.facebook.com/kazazrestaurant/)
+
+### 迪拜 · Karachi Darbar · Satwa / 284D90店
+
+- 地址：Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202
+- [具体分店导航](https://www.google.com/maps/dir/?api=1&destination=Karachi%20Darbar%20Satwa%20284%20D90%20Dubai%20043490202)
+- 点单：一人点dal豆咖喱配两张roti，或一份chickenbiryani二选一；先问单份总价，不点多人karahi/混合烤肉大盘。
+- 单人一餐食物规划：¥35–65，饮水和饮品另计。
+- 菜单证据：品牌官网菜单搜索索引可确认BiryaniandRice等栏目，但正文抓取反复超时，未取得可核的Satwa单菜AED现价。Talabat店页确认Satwa经营与biryani菜品方向，读取时价格未展开；不采用互相矛盾的菜单聚合价。budgetCny为2027单人食物规划留量，饮水另计；先看牌价，超预算继续AlMallah备选。
+- 营业：Zomato Satwa当前页列05:00–次日01:00；其他目录转述官网05:00–02:30，存在差异。本任务18:30晚餐不依赖凌晨时段，但仍需临行重核。
+- 核实边界：2026-11-06：Satwa门牌、电话、经营与菜品方向交叉确认；官方单价和Alphatel末段实际交通尚未测得，条件性便餐备选。
+- 适合D53取消迪拜湾短走、留在住宿西侧Satwa吃便餐的版本；若已在Deira且交通顺畅，保留Aroos，不为本店跨区折返。
+- AlphatelDWTC在DWTCSheikhZayedRoad大厦区，Satwa284D90在道路另一侧街区；没有核到酒店门口直达的可靠步行时长或公交班次，不能标成下楼/步行即到。按实际入口规划正规短程公交/车，餐费外另计往返交通和等车时间，不能19:30前结束就跳过。
+- 本条不替换D55DubaiMall内两餐；午间不从商场跑Satwa，也不晚餐后再返回商场等喷泉。
+- 不把Talabat51779的Karama店菜单误套Satwa51773；未核冷气和插座。
+- 来源：[KarachiDarbar官网菜单：搜索索引可见栏目，正文超时未取得单价](https://karachidarbargroup.com/menu/)；[Zomato Satwa：AlSatwaBusStand附近地址、电话与营业时段](https://www.zomato.com/dubai/karachi-darbar-al-satwa/menu)；[RestaurantGuru：284D90具体Satwa门牌，非其他同名分店](https://restaurantguru.com/Karachi-Darbar-Restaurant-Dubai-5)；[Talabat Satwa商家页：分店与菜品方向，非Karama店](https://www.talabat.com/uae/restaurant/51773/karachi-darbar-al-satwa?aid=1302)
+
 ## 餐费规划复算
 
-按主推荐选择、其余用自备/厨房简餐，57天食物和饮水留量合计约4275–7488元。只是规划区间，没有2027锁价；原3340元主预算未自动改写。未扣未确认的含早/三顿团餐，不使用学生餐饮折扣。
+按主推荐选择、其余用自备/厨房简餐，57天食物和饮水留量合计约4250–7438元。只是规划区间，没有2027锁价；原3340元主预算未自动改写。未扣未确认的含早/三顿团餐，不使用学生餐饮折扣。
 
 |天|城市|早餐|午餐|晚餐|饮水/饮品|合计（元）|
 |---|---|---|---|---|---|---|
@@ -723,19 +850,19 @@
 |D5|阿拉木图|8–15|25–45|25–45|7–12|65–117|
 |D6|阿拉木图|8–15|18–28|25–45|7–12|58–100|
 |D7|阿拉木图|8–15|25–45|20–30|7–12|60–102|
-|D8|塔什干|7–12|35–55|20–30|7–12|69–109|
+|D8|塔什干|7–12|35–55|25–40|7–12|74–119|
 |D9|布哈拉|7–12|30–55|30–55|7–12|74–134|
 |D10|布哈拉|7–12|50–85|30–55|7–12|94–164|
 |D11|撒马尔罕|7–12|50–85|20–30|7–12|84–139|
 |D12|撒马尔罕|7–12|18–28|50–85|7–12|82–137|
 |D13|塔什干|7–12|18–28|35–55|7–12|67–107|
 |D14|巴库|10–16|20–30|50–80|7–12|87–138|
-|D15|巴库|10–16|20–30|50–80|7–12|87–138|
+|D15|巴库|10–16|20–30|45–85|7–12|82–143|
 |D16|巴库|10–16|50–85|25–35|7–12|92–148|
 |D17|第比利斯|8–12|18–28|40–75|7–12|73–127|
 |D18|第比利斯|8–12|18–28|40–75|7–12|73–127|
 |D19|埃里温|8–12|15–25|25–55|7–12|55–104|
-|D20|埃里温|8–12|15–25|25–55|7–12|55–104|
+|D20|埃里温|8–12|15–25|30–50|7–12|60–99|
 |D21|埃里温|8–12|25–55|20–30|7–12|60–109|
 |D22|格雷梅|12–20|25–40|45–90|10–18|92–168|
 |D23|格雷梅|12–20|45–90|45–90|10–18|112–218|
@@ -757,7 +884,7 @@
 |D39|贝尔格莱德|10–18|35–60|35–60|8–14|88–152|
 |D40|贝尔格莱德|10–18|15–30|35–60|8–14|68–122|
 |D41|赫尔格达|6–12|15–25|45–90|8–16|74–143|
-|D42|赫尔格达|6–12|15–25|45–90|8–16|74–143|
+|D42|赫尔格达|6–12|15–25|15–30|8–16|44–83|
 |D43|赫尔格达|6–12|15–25|20–30|8–16|49–83|
 |D44|卢克索|6–12|15–25|40–65|8–16|69–118|
 |D45|卢克索|6–12|15–25|40–65|8–16|69–118|
