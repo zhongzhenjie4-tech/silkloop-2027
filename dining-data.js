@@ -1,6 +1,6 @@
 window.TRIP_DINING_DATA = {
-  "checked": "2026-11-06",
-  "reviewNote": "原44家依据2026-11-05核查；8家独立补充依据2026-11-06。未重新实地核验，2027营业与价格仍须再查。",
+  "checked": "2026-11-08",
+  "reviewNote": "2026/11/8按新日历重绑午晚餐，新增北岸具名门店；保留菜单证据边界。",
   "restaurants": [
     {
       "id": "yining-jiang-jianmian",
@@ -1924,6 +1924,152 @@ window.TRIP_DINING_DATA = {
       ],
       "verified": "2026-11-06：Satwa门牌、电话、经营与菜品方向交叉确认；官方单价和Alphatel末段实际交通尚未测得，条件性便餐备选。",
       "selectionOrigin": "本次独立补充"
+    },
+    {
+      "id": "alex-kadoura-mansheya",
+      "city": "亚历山大",
+      "name": "Kadoura Seafood · Mansheya海滨分店",
+      "address": "6V2P+VRQ, El-Gaish Road, Souq at Tork, Mansheya, Alexandria；仅选Mansheya海滨店，不去远处Montaza/Mandara分店",
+      "mapQuery": "Kadoura 6V2P+VRQ El Gaish Road Mansheya Alexandria",
+      "days": [
+        51
+      ],
+      "dishes": [
+        "单人小份烤鱼或一份鱼片＋一份米饭，酱料/沙拉先问是否另收费；整鱼先称重、确认每公斤价与烹饪费，拒绝自动上整桌海鲜拼盘。预算是目标，不是菜单报价。"
+      ],
+      "budgetCny": [
+        40,
+        80
+      ],
+      "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+      "hours": "按实际到店日确认；深夜不保证营业",
+      "sources": [
+        {
+          "title": "门店官方Linktree：Mansheya与Montaza分店定位、官方菜单入口",
+          "url": "https://linktr.ee/kadoura_fish"
+        },
+        {
+          "title": "官方Linktree链接的菜单（动态页面，本次未读到可复核菜价）",
+          "url": "https://kadoura.food2go.online/"
+        }
+      ],
+      "cautions": [
+        "鱼按重量出售时先核总价、烹调费和服务费。",
+        "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+      ],
+      "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+      "selectionOrigin": "本轮北岸具名补充"
+    },
+    {
+      "id": "alex-mohamed-ahmed",
+      "city": "亚历山大",
+      "name": "Foul Mohamed Ahmed · Raml Station老店",
+      "address": "17 Shakour Street, off Saad Zaghloul Street, Raml Station, Alexandria",
+      "mapQuery": "Foul Mohamed Ahmed 17 Shakour Street Raml Station Alexandria",
+      "days": [
+        51
+      ],
+      "dishes": [
+        "Ful蚕豆泥＋Ta'ameya蚕豆丸子＋面饼；想吃热汤可选扁豆汤。适合单人便餐，不点多份拼盘；用勺叉和纸巾，微单收好再吃。"
+      ],
+      "budgetCny": [
+        15,
+        30
+      ],
+      "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+      "hours": "按实际到店日确认；深夜不保证营业",
+      "sources": [
+        {
+          "title": "亚历山大图书馆AlexMed饮食档案：17 Shakour Street、ful/falafel/扁豆汤与蛋类",
+          "url": "https://www.bibalex.org/alexmed/gastronomy/Eateries/Details.aspx?id=OKxzvPaoi5Qhezr%2FOBDucg%3D%3D"
+        },
+        {
+          "title": "elmenus原生分店页：17 Shokour St., Off Saad Zaghloul St.",
+          "url": "https://www.elmenus.com/alexandria/mohamed-ahmed-a7a3/al-raml-station-7xzv"
+        },
+        {
+          "title": "Waze门店导航：Shakour Street",
+          "url": "https://www.waze.com/live-map/directions/eg/alexandria-governorate/mohamed-ahmed-restaurant?to=place.ChIJORKBme3D9RQRwzLK4q6WLKU"
+        }
+      ],
+      "cautions": [
+        "鱼按重量出售时先核总价、烹调费和服务费。",
+        "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+      ],
+      "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+      "selectionOrigin": "本轮北岸具名补充"
+    },
+    {
+      "id": "matrouh-magdy-omar",
+      "city": "马特鲁",
+      "name": "Magdy Seafood · Omar El-Mokhtar街店",
+      "address": "Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店",
+      "mapQuery": "Magdy Seafood Omar El Mokhtar Mersa Matruh",
+      "days": [
+        51,
+        52
+      ],
+      "dishes": [
+        "单人份烤鲻鱼/当日鱼＋米饭，或小碗海鲜汤＋米饭。按重量售鱼则先问完整总价，烤制/沙拉/服务费分别确认；不默认点大虾龙虾或海鲜大拼盘。"
+      ],
+      "budgetCny": [
+        40,
+        75
+      ],
+      "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+      "hours": "按实际到店日确认；深夜不保证营业",
+      "sources": [
+        {
+          "title": "Waze：Magdy Seafood门店名、Omar El-Mokhtar地址与导航",
+          "url": "https://www.waze.com/live-map/directions/eg/marsa-matrouh-governorate/magdy-seafood?to=place.ChIJm-x2p8v-YRQRz1MioYkiYS8"
+        },
+        {
+          "title": "门店目录交叉：Omar El-Mokhtar街同名海鲜店；不沿用评分",
+          "url": "https://lsteo.com/en/business/magdy-seafood/"
+        }
+      ],
+      "cautions": [
+        "鱼按重量出售时先核总价、烹调费和服务费。",
+        "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+      ],
+      "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+      "selectionOrigin": "本轮北岸具名补充"
+    },
+    {
+      "id": "matrouh-sahar-galaa",
+      "city": "马特鲁",
+      "name": "Sahar Restaurant · El Galaa街店",
+      "address": "12 El Galaa Street, Downtown, beside Oriental Weavers, Mersa Matruh",
+      "mapQuery": "Sahar Restaurant 12 El Galaa Street Marsa Matruh",
+      "days": [
+        51,
+        52
+      ],
+      "dishes": [
+        "单人小份Kofta烤肉末串或烤鸡＋面饼/米饭，若只按公斤售卖先问能否四分之一公斤；不点家庭拼盘。此店是有名址的预算备选，未读到官方最新菜单价。"
+      ],
+      "budgetCny": [
+        30,
+        60
+      ],
+      "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+      "hours": "按实际到店日确认；深夜不保证营业",
+      "sources": [
+        {
+          "title": "Egypt Yellow Pages门店条目：12 El Galaa St., Beside Oriental Weavers；烧烤与外带",
+          "url": "https://yellowpages.com.eg/en/profile/Sahar-Restaurant/106292"
+        },
+        {
+          "title": "Tripadvisor同名址物业页，仅用于身份交叉，不沿用评分或旧价",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g424910-d2727091-Reviews-Sahar_Restaurant-Mersa_Matruh_Matrouh_Governorate.html"
+        }
+      ],
+      "cautions": [
+        "鱼按重量出售时先核总价、烹调费和服务费。",
+        "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+      ],
+      "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+      "selectionOrigin": "本轮北岸具名补充"
     }
   ],
   "meals": [
@@ -1945,7 +2091,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 5,
-      "rowId": "d5v2-07",
+      "rowId": "d5r58-04",
       "meal": "午餐",
       "shop": "almaty-qaganat-gogol39",
       "backup": null,
@@ -1953,7 +2099,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 5,
-      "rowId": "d5v2-12",
+      "rowId": "d5r58-08",
       "meal": "晚餐",
       "shop": "almaty-qaganat-dostyk108",
       "backup": "almaty-navat-dostyk48",
@@ -1961,7 +2107,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 6,
-      "rowId": "d6v2-10",
+      "rowId": "d6r58-07",
       "meal": "晚餐",
       "shop": "almaty-qaganat-gogol39",
       "backup": null,
@@ -1969,7 +2115,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 7,
-      "rowId": "d7v2-03",
+      "rowId": "d7r58-04",
       "meal": "午餐",
       "shop": "almaty-qaganat-gogol39",
       "backup": null,
@@ -1977,7 +2123,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 8,
-      "rowId": "d8v2-04",
+      "rowId": "d8r58-03",
       "meal": "午餐",
       "shop": "tashkent-beshqozon-glinka",
       "backup": null,
@@ -1985,7 +2131,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 8,
-      "rowId": "d8v2-11",
+      "rowId": "d8r58-08",
       "meal": "晚餐",
       "shop": "tashkent-oqtepa-shahrisabz5a",
       "backup": null,
@@ -1993,7 +2139,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 9,
-      "rowId": "d9v2-06",
+      "rowId": "d9r58-04",
       "meal": "午餐",
       "shop": "bukhara-old-bukhara",
       "backup": "bukhara-afsona",
@@ -2001,7 +2147,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 9,
-      "rowId": "d9v2-10",
+      "rowId": "d9r58-08",
       "meal": "晚餐",
       "shop": "bukhara-old-bukhara",
       "backup": null,
@@ -2009,7 +2155,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 10,
-      "rowId": "d10v2-09",
+      "rowId": "d10r58-05",
       "meal": "午餐",
       "shop": "bukhara-afsona",
       "backup": "bukhara-old-bukhara",
@@ -2017,7 +2163,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 10,
-      "rowId": "d10v2-14",
+      "rowId": "d10r58-09",
       "meal": "晚餐",
       "shop": "bukhara-old-bukhara",
       "backup": null,
@@ -2033,7 +2179,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 12,
-      "rowId": "d12v2-12",
+      "rowId": "d12r58-08",
       "meal": "晚餐",
       "shop": "samarkand-emirhan",
       "backup": "samarkand-shokhrukh-nur",
@@ -2073,7 +2219,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 17,
-      "rowId": "d17v2-11",
+      "rowId": "d17r58-09",
       "meal": "晚餐",
       "shop": "maspindzelo-oldtown",
       "backup": null,
@@ -2121,7 +2267,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 23,
-      "rowId": "d23v2-07",
+      "rowId": "d23r58-04",
       "meal": "午餐",
       "shop": "goreme-pide-house",
       "backup": "goreme-ravioli",
@@ -2129,7 +2275,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 23,
-      "rowId": "d23v2-13",
+      "rowId": "d23r58-08",
       "meal": "晚餐",
       "shop": "goreme-pide-house",
       "backup": null,
@@ -2145,7 +2291,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 25,
-      "rowId": "d25v2-07",
+      "rowId": "d25r58-04",
       "meal": "午餐",
       "shop": "antalya-cancan",
       "backup": null,
@@ -2153,7 +2299,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 25,
-      "rowId": "d25v2-13",
+      "rowId": "d25r58-09",
       "meal": "晚餐",
       "shop": "antalya-cancan",
       "backup": "antalya-piyazci-ahmet",
@@ -2161,7 +2307,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 26,
-      "rowId": "d26v2-09",
+      "rowId": "d26r58-08",
       "meal": "晚餐",
       "shop": "kas-kasim-homefood",
       "backup": "kas-bilokma",
@@ -2185,7 +2331,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 29,
-      "rowId": "d29v2-04",
+      "rowId": "d29r58-05",
       "meal": "午餐",
       "shop": "istanbul-buyruk",
       "backup": null,
@@ -2193,7 +2339,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 29,
-      "rowId": "d29v2-09",
+      "rowId": "d29r58-08",
       "meal": "晚餐",
       "shop": "istanbul-buyruk",
       "backup": null,
@@ -2253,7 +2399,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "istanbul-ciya",
       "backup": null,
-      "note": "从Moda返回Kadıköy市集边吃；把这段12:15–13:30用作移动和午餐，午休可延后，预算高于食堂。"
+      "note": "从Moda返回Kadıköy市集边吃；把这段12:15–13:30用作移动和午餐，餐后继续室内参观，预算高于食堂。"
     },
     {
       "day": 33,
@@ -2289,7 +2435,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 36,
-      "rowId": "d36v2-07",
+      "rowId": "d36r58-05",
       "meal": "午餐",
       "shop": "tima-irma-mostar",
       "backup": null,
@@ -2353,7 +2499,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 41,
-      "rowId": "d41v2-08",
+      "rowId": "d41r58-09",
       "meal": "晚餐",
       "shop": "hurghada-starfish",
       "backup": null,
@@ -2361,7 +2507,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 42,
-      "rowId": "d42v2-11",
+      "rowId": "d42r58-10",
       "meal": "晚餐",
       "shop": "hurghada-koshary-tahrir-dahar",
       "backup": "hurghada-starfish",
@@ -2369,7 +2515,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 44,
-      "rowId": "d44v2-09",
+      "rowId": "d44r58-11",
       "meal": "晚餐",
       "shop": "luxor-alsahaby",
       "backup": null,
@@ -2377,7 +2523,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 45,
-      "rowId": "d45v2-13",
+      "rowId": "d45r58-11",
       "meal": "晚餐",
       "shop": "luxor-alsahaby",
       "backup": "luxor-elzaeem-television",
@@ -2393,7 +2539,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 47,
-      "rowId": "d47v2-08",
+      "rowId": "d47r58-05",
       "meal": "午餐",
       "shop": "aswan-makka",
       "backup": null,
@@ -2401,7 +2547,7 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 48,
-      "rowId": "d48v2-08",
+      "rowId": "d48r58-06",
       "meal": "午餐",
       "shop": "aswan-makka",
       "backup": null,
@@ -2409,67 +2555,91 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 49,
-      "rowId": "d49v2-06",
+      "rowId": "d49r58-03",
       "meal": "午餐",
       "shop": "cairo-abou-tarek",
       "backup": null,
-      "note": "夜巴到开罗先寄包补觉，再到16Maarouf市中心总店；不要追未经核实的65EGP价格。"
+      "note": "老埃博后在16 Maarouf市中心总店用午餐，随后直接赴城堡；不再安排白天补觉。"
     },
     {
       "day": 50,
-      "rowId": "d50v2-14",
+      "rowId": "d50r58-10",
       "meal": "晚餐",
       "shop": "cairo-abou-tarek",
       "backup": null,
       "note": "吉萨行程已返回市区后再去；不把市中心店塞进金字塔午餐而往返折腾。"
     },
     {
-      "day": 51,
-      "rowId": "d51v2-11",
-      "meal": "晚餐",
-      "shop": "cairo-abou-tarek",
-      "backup": "cairo-kazaz-sabry38",
-      "note": "GEM参观完回开罗市区后用餐；可换Kazaz SabryAbouAlam店吃豆餐/蔬菜与面包，但先核店名门头和含税牌价，门牌有跨平台差异。GEM午餐仍留馆内允许区域。"
-    },
-    {
-      "day": 52,
-      "rowId": "d52v2-07",
-      "meal": "午餐",
-      "shop": "cairo-abou-tarek",
-      "backup": null,
-      "note": "萨卡拉/NMEC白天分支已回市中心后才去，若迟返用随身简餐，优先离埃打包与SPX交通。"
-    },
-    {
-      "day": 53,
-      "rowId": "d53v2-09",
+      "day": 54,
+      "rowId": "d54r58-08",
       "meal": "晚餐",
       "shop": "dubai-aroos-deira",
       "backup": "dubai-karachidarbar-satwa284",
       "note": "保留迪拜湾路线时，核Deira正餐能否在19:30前结束。若晚到取消迪拜湾、留在Alphatel/Satwa一带，则可换KarachiDarbar Satwa284D90便餐；两条动线二选一，不能把它说成Deira步行备选。"
     },
     {
-      "day": 54,
-      "rowId": "d54v2-09",
+      "day": 55,
+      "rowId": "d55r58-lunch",
       "meal": "午餐",
       "shop": "abu-dhabi-museum-cafe",
-      "backup": "abu-dhabi-souq-mcd",
-      "note": "按原12:15已到卢浮宫的动线在馆内吃。省钱备选须改成11:30–12:00在清真寺Souq麦当劳吃、12:00–13:00移动、13:15检票；不能从卢浮宫折返清真寺吃饭。"
-    },
-    {
-      "day": 55,
-      "rowId": "d55v2-09",
-      "meal": "午餐",
-      "shop": "dubai-mall-albaik",
       "backup": null,
-      "note": "DubaiMall二层美食区，靠P7CinemaParking；15分钟内队伍无望则用自备简餐，不为网红炸鸡排长队。"
+      "note": "总统府结束后直接到卢浮宫用餐，再参观展厅；不绕回清真寺食阁。"
     },
     {
-      "day": 55,
-      "rowId": "d55v2-13",
+      "day": 56,
+      "rowId": "d56r58-03",
+      "meal": "午餐",
+      "shop": "dubai-aroos-deira",
+      "backup": null,
+      "note": "上午黄金/香料市场后在Deira午餐，再赴未来馆建筑；Dubai Mall餐放晚餐。"
+    },
+    {
+      "day": 56,
+      "rowId": "d56r58-07",
       "meal": "晚餐",
       "shop": "dubai-mall-albaik",
       "backup": null,
-      "note": "仍在DubaiMall内选小份，19:15离开返回Alphatel DWTC休息；仅正式凌晨版才按分支取包赴机场，不临时跨区打卡。若不想重复炸鸡，用下午已采购的便携简餐。"
+      "note": "Downtown晚餐，留喷泉夜景；当天不是赶飞机日。"
+    },
+    {
+      "day": 53,
+      "rowId": "d53r58-11",
+      "meal": "晚餐",
+      "shop": "cairo-abou-tarek",
+      "backup": "cairo-kazaz-sabry38",
+      "note": "NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅折返南郊。"
+    },
+    {
+      "day": 51,
+      "rowId": "d51r58-06",
+      "meal": "午餐",
+      "shop": "alex-kadoura-mansheya",
+      "backup": "alex-mohamed-ahmed",
+      "note": "11:30–12:30在地下墓穴/庞培柱之后、去新图书馆之前吃；Kadoura仅选Mansheya海滨分店。若等位超过15分钟、鱼按重量报价超过预算或需现做很久，立即改Raml Station的Mohamed Ahmed，保12:30左右到图书馆。"
+    },
+    {
+      "day": 51,
+      "rowId": "d51r58-09",
+      "meal": "晚餐",
+      "shop": "alex-mohamed-ahmed",
+      "backup": null,
+      "note": "亚历山大上车前吃便餐并补水，16:15前结束就餐；到马特鲁若很晚不再强制等海鲜加工。"
+    },
+    {
+      "day": 52,
+      "rowId": "d52r58-08",
+      "meal": "午餐",
+      "shop": "matrouh-magdy-omar",
+      "backup": "matrouh-sahar-galaa",
+      "note": "12:45–13:30西线回城后午餐；与司机约好直接送餐厅或车站方向，不再绕海湾。13:15仍未上菜就改Sahar小份现成餐/外带，确保13:30–14:15前往正式大巴站。D52晚餐已回开罗，应沿用原开罗具名餐厅，不能继续挂马特鲁门店。"
+    },
+    {
+      "day": 52,
+      "rowId": "d52r58-11",
+      "meal": "晚餐",
+      "shop": "cairo-abou-tarek",
+      "backup": "cairo-kazaz-sabry38",
+      "note": "先看实际返开罗时间；能及时到市中心店才去，车晚到用途中简餐，不为餐厅另绕路。"
     }
   ],
   "optionalShops": [
@@ -2490,5 +2660,7 @@ window.TRIP_DINING_DATA = {
     "不将散装格瓦斯标成已核0酒精。要求严格不含酒精时看瓶身标识；特色饮品单独点单，不默认每餐必买。",
     "不加冰也不能保证街头鲜榨饮料安全；水源、清洁和保存同样重要。优先封口瓶装饮水与现做热食。"
   ],
-  "budgetApplied": false
+  "budgetApplied": false,
+  "revision58": true,
+  "note": "原具名餐厅保留，58天新增北岸餐饮按本轮具名候选与现菜单选择，不编造餐厅评分。"
 };

@@ -11,14 +11,28 @@
   const clockMinutes=(now=new Date(),timezone='UTC')=>{const p=zoneParts(now,timezone);return Number(p.hour)*60+Number(p.minute);};
   const todayIndex=(D,now=new Date())=>D.days.findIndex(d=>d.date===tripDate(now,d.timezone||'UTC'));
   function times(row){return [...String(row.time||'').matchAll(/(\d{1,2}):(\d{2})/g)].map(m=>Number(m[1])*60+Number(m[2]));}
+  const hasRowTimezone=r=>!!(r.timezone||r.startTimezone||r.endTimezone);
+  function rowWindow(day,row){
+    const t=times(row);if(!t.length)return null;
+    const startZone=row.startTimezone||row.timezone||day.timezone||'UTC',endZone=row.endTimezone||row.timezone||row.startTimezone||day.timezone||'UTC';
+    const wall=(date,minutes)=>new Date(Date.parse(date+'T00:00:00Z')+minutes*60000).toISOString().slice(0,16);
+    const start=zonedDateTimeToUTC(wall(row.startDate||row.date||day.date,t[0]),startZone).getTime();
+    const endDate=row.endDate||row.startDate||row.date||day.date,endMinute=t.length>1?t[1]:Math.max(t[0]+30,1440);
+    let end=zonedDateTimeToUTC(wall(endDate,endMinute),endZone).getTime();
+    // Compare true instants first: a lower arrival clock can still be later
+    // when flying west. Only an implicit end date may roll into the next day.
+    if(end<start&&!row.endDate)end=zonedDateTimeToUTC(wall(endDate,endMinute+1440),endZone).getTime();
+    return {start,end};
+  }
   function nextStep(D,state,now=new Date()){
     const d=D.days[state.day],focus=state.focus?.[d.id],remaining=d.rows.filter(r=>!state.done[r.id]);
     if(focus==='end'||!remaining.length)return {mode:'end',row:null,next:null};
     const manual=d.rows.find(r=>r.id===focus&&!state.done[r.id]);
     let row=manual,mode=manual?'manual':'preview';
-    if(!row&&!d.requiresBookingTime&&d.date===tripDate(now,d.timezone||'UTC')){
+    const zonedRows=d.rows.some(hasRowTimezone),onDate=d.date===tripDate(now,d.timezone||'UTC')||(zonedRows&&d.rows.some(r=>[r.startTimezone,r.endTimezone,r.timezone].filter(Boolean).some(z=>d.date===tripDate(now,z))));
+    if(!row&&!d.requiresBookingTime&&onDate){
       const minute=clockMinutes(now,d.timezone||'UTC');
-      row=remaining.find(r=>{const t=times(r);return (t.length>1?(t[1]<t[0]?t[1]+1440:t[1]):Math.max(t[0]+30,1440))>minute;});
+      row=remaining.find(r=>{if(zonedRows){const span=rowWindow(d,r);return span&&span.end>now.getTime();}const t=times(r);return (t.length>1?(t[1]<t[0]?t[1]+1440:t[1]):Math.max(t[0]+30,1440))>minute;});
       mode='clock';
     }
     if(!row)row=remaining[0];
@@ -29,7 +43,7 @@
     const d=D.days[state.day],n=nextStep(D,state,now),today=todayIndex(D,now);
     const smallActions=`<div class="next-small-actions"><button class="text-action" data-view="vault">离线票夹</button><button class="text-action" data-open-reminders>出发提醒</button>${today>=0&&today!==state.day?`<button class="text-action" data-day="${today}">回到今天</button>`:''}</div>`;
     if(!n.row)return `<div class="next-card"><p class="next-kicker">下一站</p><h2>已走到当天末尾</h2><p class="minor">未勾选的安排仍保留在下方，可随时回看。</p><button class="soft-button" data-next-clock>重新按时间查看</button>${smallActions}</div>`;
-    const row=n.row,t=times(row)[0],delta=t-clockMinutes(now,d.timezone||'UTC');
+    const row=n.row,t=times(row)[0],span=d.rows.some(hasRowTimezone)?rowWindow(d,row):null,delta=span?Math.ceil((span.start-now.getTime())/60000):t-clockMinutes(now,d.timezone||'UTC');
     const status=n.mode==='clock'?(delta>0?`计划 ${delta>=60?Math.floor(delta/60)+'小时':''}${delta%60?delta%60+'分钟':''}后开始`:'按当前计划时间定位'):n.mode==='manual'?'按你选定的步骤继续':`${d.date.slice(5).replace('-','/')} 行程预览`;
     const p=D.places[row.place],route=row.links?.find(l=>/google\.[^/]+\/maps|google\.com\/maps/.test(l.href||l.url||''));
     const nav=route?.href||route?.url||(p?'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(p.query):'');
@@ -111,7 +125,7 @@
       vault()?.mountAll($('#vault-view'));
     }
     function preparedHTML(){
-      if(!bundleConfig)return '<section class="vault-prepared"><h3>目前无云端票据</h3><p id="ticket-bundle-status" role="status">这趟旅行还没有已订票据。可以先手动导入 PDF 或图片，保留原文件离线查看；不会自动读取其他旅行的票据。</p></section>';
+      if(!bundleConfig)return '<section class="vault-prepared"><h3>尚未上传本人云端票据</h3><p id="ticket-bundle-status" role="status">当前没有可下载的本人云端票包，不代表尚未购票。请把已出票的机票、酒店订单 PDF 或图片导入本机加密票夹，保留原文件离线查看；不会自动读取其他旅行的票据。</p></section>';
       return `<section class="vault-prepared"><h3>本人云端票包 · ${bundleConfig.count} 份</h3><p id="ticket-bundle-status" role="status">${bundleBusy?'正在存入本机票夹，请稍等…':bundleError?esc(bundleError):state.ticketBundleRevision===bundleRevision?'本机已存好，可离线打开；正式时间仍以票面为准。':'联网后可将本人云端票据存入当前设备。'}</p><button class="soft-button" data-ticket-bundle-import ${!ready||failure||uploading||bundleBusy?'disabled':''}>${bundleBusy?'正在存入…':state.ticketBundleRevision===bundleRevision?'重新核对并存入云端票据':'存入本人云端票据'}</button></section>`;
     }
     const bytesFrom64=b64=>Uint8Array.from(atob(b64),c=>c.charCodeAt(0));

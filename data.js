@@ -1,10 +1,10 @@
 window.TRIP_DATA = {
-  "version": "2026-11-05 · 具体班次与住宿推荐版",
-  "reviewed": "资料2026/11/4；行程细化2026/11/5",
+  "version": "2026-11-08 · 58天高密度核查修订",
+  "reviewed": "2026/11/8 · 官方开放时间与交通复核",
   "title": "丝路随行",
-  "subtitle": "57天 · 跨亚欧非10国 · 2027年7月11日—9月5日",
+  "subtitle": "58天 · 跨亚欧非10国 · 2027年7月11日—9月6日",
   "startDate": "2027-07-11",
-  "endDate": "2027-09-05",
+  "endDate": "2027-09-06",
   "countries": 10,
   "days": [
     {
@@ -126,8 +126,7 @@ window.TRIP_DATA = {
       ],
       "extras": "本页T为实际发车时间；10:46仅旧参考，所有窗口随票面整体平移。住宿为硬卧，不额外编造酒店。",
       "places": [
-        "hangzhou-station",
-        "urumqi-station"
+        "hangzhou-station"
       ],
       "accent": "#547C68",
       "lodging": "车上（硬卧第1晚）",
@@ -201,10 +200,15 @@ window.TRIP_DATA = {
         {
           "id": "d2v2-04",
           "time": "13:00～15:00",
-          "title": "午休与充电",
-          "detail": "<p>安排完整午休，充电设备留在视线内；不把所有设备充至没电后才找插座，保留到站叫车和出示车票所需电量。</p>",
-          "plain": "午休与充电  安排完整午休，充电设备留在视线内；不把所有设备充至没电后才找插座，保留到站叫车和出示车票所需电量。 ",
-          "links": [],
+          "title": "当日已选展馆与街区补充参观",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "当日已选展馆与街区补充参观 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%AD%E5%B7%9E"
+            }
+          ],
           "place": null,
           "highlight": false,
           "status": "planned",
@@ -249,7 +253,6 @@ window.TRIP_DATA = {
       ],
       "extras": "车上时间统一看北京时间；不把沿途短停站安排成游览。",
       "places": [
-        "hangzhou-station",
         "urumqi-station"
       ],
       "accent": "#547C68",
@@ -642,213 +645,182 @@ window.TRIP_DATA = {
       "timezone": "Asia/Almaty",
       "city": "阿拉木图",
       "defaultCity": "阿拉木图",
-      "priority": "上午公园和巴扎，午间回室内，傍晚再上Kok-Tobe；当天主包留住宿。",
+      "priority": "high",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d5v2-01",
-          "time": "07:30～08:15",
-          "title": "早餐、补水与轻装出门",
-          "detail": "<p>拟住潘菲洛夫公园周边；住宿确认后替换导航起点。带水、防晒、帽子和少量零钱，教堂参观准备遮肩过膝衣物。</p>",
-          "plain": "早餐、补水与轻装出门  拟住潘菲洛夫公园周边；住宿确认后替换导航起点。带水、防晒、帽子和少量零钱，教堂参观准备遮肩过膝衣物。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d5v2-02",
-          "time": "08:15～08:35",
-          "title": "拟住片区→潘菲洛夫公园",
-          "detail": "<p>以公园周边为住宿搜索片区，确认门牌后改起点；步行约20分钟作为弹性预算。</p>",
-          "plain": "拟住片区→潘菲洛夫公园  以公园周边为住宿搜索片区，确认门牌后改起点；步行约20分钟作为弹性预算。 ",
+          "id": "d5r58-01",
+          "time": "08:00–09:00",
+          "title": "潘菲洛夫公园与升天大教堂",
+          "detail": "<p>晨间按公园→木造教堂顺走，教堂内部遵守当日礼拜与拍摄要求。</p>",
+          "plain": "潘菲洛夫公园与升天大教堂 晨间按公园→木造教堂顺走，教堂内部遵守当日礼拜与拍摄要求。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&destination=Park%20of%2028%20Panfilov%20Guardsmen%20Almaty&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ascension%20Cathedral%20Almaty"
             }
           ],
-          "place": "panfilov",
+          "place": "rev58-d5-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-03",
-          "time": "08:35～09:15",
-          "title": "潘菲洛夫公园晨间散步",
-          "detail": "<p>停留40分钟看林荫步道和纪念空间，保持安静；以室外免费区域为主。若睡过头，压至20分钟，不挤午间避暑。</p>",
-          "plain": "潘菲洛夫公园晨间散步  停留40分钟看林荫步道和纪念空间，保持安静；以室外免费区域为主。若睡过头，压至20分钟，不挤午间避暑。 ",
-          "links": [],
-          "place": "panfilov",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d5v2-04",
-          "time": "09:15～10:00",
-          "title": "升天木造大教堂",
-          "detail": "<p>从公园步行到教堂，合计留45分钟；先核当日宗教活动与入内规则，尊重拍摄限制。若礼拜或临时关闭，改外观15分钟。</p>",
-          "plain": "升天木造大教堂  从公园步行到教堂，合计留45分钟；先核当日宗教活动与入内规则，尊重拍摄限制。若礼拜或临时关闭，改外观15分钟。 ",
+          "id": "d5r58-02",
+          "time": "09:00–10:00",
+          "title": "民族乐器博物馆",
+          "detail": "<p>与公园相邻，用1小时看哈萨克传统乐器；不要将本馆误写成国家中央博物馆。</p>",
+          "plain": "民族乐器博物馆 与公园相邻，用1小时看哈萨克传统乐器；不要将本馆误写成国家中央博物馆。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Park%20of%2028%20Panfilov%20Guardsmen%20Almaty&destination=Ascension%20Cathedral%20Zenkov%20Cathedral%20Almaty&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Folk%20Musical%20Instruments%20Almaty"
             }
           ],
-          "place": "ascension",
+          "place": "rev58-d5-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-05",
-          "time": "10:00～10:20",
-          "title": "教堂→绿巴扎",
-          "detail": "<p>步行去绿巴扎，穿街时看交通信号；途中补水，不接受未经明确报价的引导。</p>",
-          "plain": "教堂→绿巴扎  步行去绿巴扎，穿街时看交通信号；途中补水，不接受未经明确报价的引导。 ",
+          "id": "d5r58-03",
+          "time": "10:00–11:15",
+          "title": "绿巴扎与本地小吃",
+          "detail": "<p>步行到Green Bazaar；先看干果、奶制品与日常市场，午餐可在此解决。</p>",
+          "plain": "绿巴扎与本地小吃 步行到Green Bazaar；先看干果、奶制品与日常市场，午餐可在此解决。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Ascension%20Cathedral%20Zenkov%20Cathedral%20Almaty&destination=Green%20Bazaar%20Zhibek%20Zholy%20Almaty&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Green%20Bazaar%20Almaty"
             }
           ],
-          "place": "green-bazaar",
+          "place": "rev58-d5-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-06",
-          "time": "10:20～11:30",
-          "title": "绿巴扎采购与早午餐方向",
-          "detail": "<p>留70分钟逛蔬果、坚果等摊区；按明码标价购买少量即食，避免把散装易坏食品带至跨境。营业与摊位实际开放待当天核。</p>",
-          "plain": "绿巴扎采购与早午餐方向  留70分钟逛蔬果、坚果等摊区；按明码标价购买少量即食，避免把散装易坏食品带至跨境。营业与摊位实际开放待当天核。 ",
-          "links": [],
-          "place": "green-bazaar",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d5v2-07",
-          "time": "11:30～12:30",
-          "title": "巴扎周边午餐",
-          "detail": "<p>选当地面食、米饭或汤餐，先问清份量和价格；优先坐下休息与饮水，不为网红店绕行。</p>",
-          "plain": "巴扎周边午餐  选当地面食、米饭或汤餐，先问清份量和价格；优先坐下休息与饮水，不为网红店绕行。 ",
-          "links": [],
-          "place": "green-bazaar",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d5v2-08",
-          "time": "12:30～15:30",
-          "title": "返住宿午休与核票",
-          "detail": "<p>回拟住公园片区躲开热时段；休息后核D6一日团集合、D7国际卧铺是否开行。若天气炎热，下午市中心补逛直接取消。</p>",
-          "plain": "返住宿午休与核票  回拟住公园片区躲开热时段；休息后核D6一日团集合、D7国际卧铺是否开行。若天气炎热，下午市中心补逛直接取消。 ",
+          "id": "d5r58-04",
+          "time": "11:15–12:15",
+          "title": "Qazpost寄明信片与午餐",
+          "detail": "<p>邮局只安排顺路短停，队长就先买邮票后邮寄；保留一小时正餐与饮水窗口。</p>",
+          "plain": "Qazpost寄明信片与午餐 邮局只安排顺路短停，队长就先买邮票后邮寄；保留一小时正餐与饮水窗口。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Green%20Bazaar%20Zhibek%20Zholy%20Almaty&destination=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Central%20Post%20Office%20Almaty"
             }
           ],
-          "place": null,
+          "place": "rev58-d5-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-09",
-          "time": "15:30～16:15",
-          "title": "拟住片区→Kok-Tobe下站",
-          "detail": "<p>公交或正规车前往缆车下站；先看运营、排队和最晚下山时间，再决定缆车或正规替代交通，不徒步临时上陡路。</p>",
-          "plain": "拟住片区→Kok-Tobe下站  公交或正规车前往缆车下站；先看运营、排队和最晚下山时间，再决定缆车或正规替代交通，不徒步临时上陡路。 ",
+          "id": "d5r58-05",
+          "time": "12:15–13:00",
+          "title": "转往Samal-1国家中央博物馆",
+          "detail": "<p>公交或叫车至Samal-1 44号；gmirk.kz属于卡斯捷耶夫美术馆，中央馆正确网站为csmrk.kz。</p>",
+          "plain": "转往Samal-1国家中央博物馆 公交或叫车至Samal-1 44号；gmirk.kz属于卡斯捷耶夫美术馆，中央馆正确网站为csmrk.kz。",
           "links": [
             {
-              "label": "公交起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&destination=Kok%20Tobe%20Almaty%20cable%20car%20lower%20station&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=National%20Central%20Museum%20of%20the%20Republic%20of%20Kazakhstan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.csmrk.kz/en/category/contacts"
             }
           ],
-          "place": "kok-tobe",
+          "place": "rev58-d5-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-10",
-          "time": "16:15～18:15",
-          "title": "Kok-Tobe山上观景",
-          "detail": "<p>购票前核当日上下山方式、往返票与天气，留约2小时观景；饮水和防晒不断档。排队超过45分钟则缩短山上停留，恶劣天气取消登山。</p>",
-          "plain": "Kok-Tobe山上观景  购票前核当日上下山方式、往返票与天气，留约2小时观景；饮水和防晒不断档。排队超过45分钟则缩短山上停留，恶劣天气取消登山。 ",
+          "id": "d5r58-06",
+          "time": "13:00–15:00",
+          "title": "国家中央博物馆",
+          "detail": "<p>把D6峡谷返城后赶馆移到今天：现行9:00–18:00、17:30停售、周二闭馆。展品以到馆陈列为准，不承诺金人整套原件。</p>",
+          "plain": "国家中央博物馆 把D6峡谷返城后赶馆移到今天：现行9:00–18:00、17:30停售、周二闭馆。展品以到馆陈列为准，不承诺金人整套原件。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kok%20Tobe%20Almaty%20cable%20car%20lower%20station&destination=Kok%20Tobe%20Hill%20Almaty%20Kazakhstan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=National%20Central%20Museum%20of%20the%20Republic%20of%20Kazakhstan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.csmrk.kz/en/category/contacts"
             }
           ],
-          "place": "kok-tobe",
-          "highlight": true,
+          "place": "rev58-d5-5",
+          "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-11",
-          "time": "18:15～19:00",
-          "title": "下山回市区",
-          "detail": "<p>按最晚回程前留余量下山；导航为山上到下站路线参考，缆车不由地图驾车线路替代，实际乘运营方交通。</p>",
-          "plain": "下山回市区  按最晚回程前留余量下山；导航为山上到下站路线参考，缆车不由地图驾车线路替代，实际乘运营方交通。 ",
+          "id": "d5r58-07",
+          "time": "15:00–16:00",
+          "title": "共和国广场与独立纪念碑",
+          "detail": "<p>从博物馆步行看广场与纪念碑，再向Dostyk方向移动，不折返北城。</p>",
+          "plain": "共和国广场与独立纪念碑 从博物馆步行看广场与纪念碑，再向Dostyk方向移动，不折返北城。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kok%20Tobe%20Hill%20Almaty%20Kazakhstan&destination=Kok%20Tobe%20Almaty%20cable%20car%20lower%20station&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Republic%20Square%20Almaty"
             }
           ],
-          "place": "kok-tobe",
+          "place": "rev58-d5-7",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-12",
-          "time": "19:00～20:00",
-          "title": "市区晚餐与返住宿",
-          "detail": "<p>从下站回拟住公园片区，吃平价热餐。若山上停留超时，餐食就近解决，避免跨城追店。</p>",
-          "plain": "市区晚餐与返住宿  从下站回拟住公园片区，吃平价热餐。若山上停留超时，餐食就近解决，避免跨城追店。 ",
+          "id": "d5r58-08",
+          "time": "16:00–17:00",
+          "title": "早晚餐与Kok-Tobe缆车站",
+          "detail": "<p>在Dostyk片区就餐后排缆车；票价、检修与返程末班按当日公示。</p>",
+          "plain": "早晚餐与Kok-Tobe缆车站 在Dostyk片区就餐后排缆车；票价、检修与返程末班按当日公示。",
           "links": [
             {
-              "label": "公交起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kok%20Tobe%20Almaty%20cable%20car%20lower%20station&destination=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kok%20Tobe%20Cableway%20Almaty"
             }
           ],
-          "place": null,
+          "place": "rev58-d5-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d5v2-13",
-          "time": "20:00～21:30",
-          "title": "准备峡谷日装备",
-          "detail": "<p>确认明日集合点坐标、接送、园门票是否已含及返城时间；带足水、闭口防滑鞋、防晒和充电设备。</p>",
-          "plain": "准备峡谷日装备  确认明日集合点坐标、接送、园门票是否已含及返城时间；带足水、闭口防滑鞋、防晒和充电设备。 ",
-          "links": [],
-          "place": null,
+          "id": "d5r58-09",
+          "time": "17:00–20:30",
+          "title": "Kok-Tobe天山全景与日落",
+          "detail": "<p>上山步行串观景点，日落后返城；夏季日落时刻以出行当日为准。</p>",
+          "plain": "Kok-Tobe天山全景与日落 上山步行串观景点，日落后返城；夏季日落时刻以出行当日为准。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kok%20Tobe%20Almaty"
+            }
+          ],
+          "place": "rev58-d5-9",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         }
       ],
       "extras": "所有景点开放、缆车运营和票价以2027官方/现场为准；实体ISIC只用于询问优惠，不预设免费或折扣。",
       "places": [
-        "panfilov",
-        "ascension",
-        "green-bazaar",
-        "kok-tobe"
+        "rev58-d5-1",
+        "rev58-d5-2",
+        "rev58-d5-3",
+        "rev58-d5-4",
+        "rev58-d5-5",
+        "rev58-d5-7",
+        "rev58-d5-8",
+        "rev58-d5-9"
       ],
       "accent": "#3A7893",
       "lodging": "阿拉木图（付费夜3）",
@@ -860,161 +832,170 @@ window.TRIP_DATA = {
     {
       "id": "day6",
       "date": "2027-07-16",
-      "label": "恰伦峡谷·洗衣",
-      "title": "恰伦峡谷·洗衣",
-      "name": "恰伦峡谷·洗衣",
+      "label": "恰伦峡谷·阿尔巴特夜景",
+      "title": "恰伦峡谷·阿尔巴特夜景",
+      "name": "恰伦峡谷·阿尔巴特夜景",
       "country": "哈萨克斯坦",
       "countryCode": "KZ",
       "timezone": "Asia/Almaty",
       "city": "阿拉木图",
       "defaultCity": "阿拉木图",
-      "priority": "只安排恰伦峡谷正规一日团，峡谷徒步按体力和暑热删减，晚间洗衣。",
+      "priority": "全天恰伦峡谷团，返城后直接走阿尔巴特夜景。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d6v2-01",
-          "time": "05:45–06:30",
-          "title": "早餐与峡谷日打包",
-          "detail": "<p>带帽、防晒、至少覆盖户外时段的饮水和简餐，穿闭口鞋；核团费是否含园门票和午餐。退回不必携带的主包，只带当天用品。</p>",
-          "plain": "早餐与峡谷日打包  带帽、防晒、至少覆盖户外时段的饮水和简餐，穿闭口鞋；核团费是否含园门票和午餐。退回不必携带的主包，只带当天用品。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d6v2-02",
-          "time": "06:30–07:15",
-          "title": "住宿→已确认集合点",
-          "detail": "<p>暂以潘菲洛夫片区到阿拉木图2站作为市区接送占位，订团后将终点替换成运营方发的坐标；不把车站当成默认集合地。</p>",
-          "plain": "住宿→已确认集合点  暂以潘菲洛夫片区到阿拉木图2站作为市区接送占位，订团后将终点替换成运营方发的坐标；不把车站当成默认集合地。 ",
+          "id": "d6r58-01",
+          "time": "06:45–07:30",
+          "title": "早餐、补水并到峡谷团集合点",
+          "detail": "<p>只带10L日包；50L留青旅保管。选择明确写恰伦+黑峡谷的正规一日团，集合点以订单为准。</p>",
+          "plain": "早餐、补水并到峡谷团集合点 只带10L日包；50L留青旅保管。选择明确写恰伦+黑峡谷的正规一日团，集合点以订单为准。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&destination=Almaty%202%20Railway%20Station%20Ablai%20Khan%20Avenue&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Almaty%20Kazakhstan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://nta.visitalmaty.kz/en/guides/charyn-canyon-from-almaty"
             }
           ],
-          "place": "almaty2",
+          "place": "rev58-d6-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d6v2-03",
-          "time": "07:15–07:30",
-          "title": "核车、导游与返城安排",
-          "detail": "<p>确认人数、车牌和联系方式；问清峡谷步行线、应急返车点、饮水和洗手间。迟到联系导游，不自行追到高速路。</p>",
-          "plain": "核车、导游与返城安排  确认人数、车牌和联系方式；问清峡谷步行线、应急返车点、饮水和洗手间。迟到联系导游，不自行追到高速路。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d6v2-04",
-          "time": "07:30–11:00 建议团程",
-          "title": "阿拉木图→恰伦峡谷",
-          "detail": "<p>道路段以运营方车程为准，保留中途如厕补水；这段不追加湖泊等远点，避免把一日团压成赶场。</p>",
-          "plain": "阿拉木图→恰伦峡谷  道路段以运营方车程为准，保留中途如厕补水；这段不追加湖泊等远点，避免把一日团压成赶场。 ",
+          "id": "d6r58-02",
+          "time": "07:30–10:30",
+          "title": "阿拉木图出城赴恰伦",
+          "detail": "<p>官方城市旅游指南给恰伦约200公里、单程约3小时；不要把全部驾车时间写成游览时间。</p>",
+          "plain": "阿拉木图出城赴恰伦 官方城市旅游指南给恰伦约200公里、单程约3小时；不要把全部驾车时间写成游览时间。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Almaty%20city%20centre%20Kazakhstan&destination=Charyn%20Canyon%20Valley%20of%20Castles%20Kazakhstan%20visitor%20entrance&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Charyn%20Canyon%20Kazakhstan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://nta.visitalmaty.kz/en/guides/charyn-canyon-from-almaty"
             }
           ],
-          "place": "charyn",
+          "place": "rev58-d6-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d6v2-05",
-          "time": "11:00–11:30",
-          "title": "入园与路线说明",
-          "detail": "<p>按已含票或现场购票入园，证件/学生证备查；先听峡谷内返程集合与高温避险说明。可取消谷底段，不能自行越过标识区域。</p>",
-          "plain": "入园与路线说明  按已含票或现场购票入园，证件/学生证备查；先听峡谷内返程集合与高温避险说明。可取消谷底段，不能自行越过标识区域。 ",
-          "links": [],
-          "place": "charyn",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d6v2-06",
-          "time": "11:30–12:40",
-          "title": "城堡谷步道与观景",
-          "detail": "<p>按导游指定线步行约60–70分钟，补水和阴凉休息穿插；不临崖拍照。热得不适立即折返，迟到方案只保留上缘观景点。</p>",
-          "plain": "城堡谷步道与观景  按导游指定线步行约60–70分钟，补水和阴凉休息穿插；不临崖拍照。热得不适立即折返，迟到方案只保留上缘观景点。 ",
-          "links": [],
-          "place": "charyn",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d6v2-07",
-          "time": "12:40–13:40",
-          "title": "午餐与遮阴休息",
-          "detail": "<p>以团含餐或自带简餐为主，休息至少30分钟；峡谷设施和购买点有限，不把现场有水有餐当保证。</p>",
-          "plain": "午餐与遮阴休息  以团含餐或自带简餐为主，休息至少30分钟；峡谷设施和购买点有限，不把现场有水有餐当保证。 ",
-          "links": [],
-          "place": "charyn",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d6v2-08",
-          "time": "13:40–15:00",
-          "title": "短线补看与返回上车点",
-          "detail": "<p>体力允许才加短线；至少提前15分钟回到指定集合点。鞋底打滑、风大或高温时直接休息，不追远处拍照点。</p>",
-          "plain": "短线补看与返回上车点  体力允许才加短线；至少提前15分钟回到指定集合点。鞋底打滑、风大或高温时直接休息，不追远处拍照点。 ",
-          "links": [],
-          "place": "charyn",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d6v2-09",
-          "time": "15:00–18:30 建议团程",
-          "title": "恰伦峡谷→阿拉木图",
-          "detail": "<p>回程以路况和团安排为准；若返城晚，取消任何市区补逛。导航终点为市中心参考，要求司机确认实际下车点。</p>",
-          "plain": "恰伦峡谷→阿拉木图  回程以路况和团安排为准；若返城晚，取消任何市区补逛。导航终点为市中心参考，要求司机确认实际下车点。 ",
+          "id": "d6r58-03",
+          "time": "10:30–12:00",
+          "title": "城堡谷徒步与河谷观景",
+          "detail": "<p>下到谷底后原路返回或按团接驳；依团线路行动，回程上坡留出体力与饮水。</p>",
+          "plain": "城堡谷徒步与河谷观景 下到谷底后原路返回或按团接驳；依团线路行动，回程上坡留出体力与饮水。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Charyn%20Canyon%20Valley%20of%20Castles%20Kazakhstan%20visitor%20entrance&destination=Almaty%20city%20centre%20Kazakhstan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Valley%20of%20Castles%20Charyn%20Canyon"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://nta.visitalmaty.kz/en/guides/charyn-canyon-from-almaty"
             }
           ],
-          "place": "almaty-ref",
+          "place": "rev58-d6-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d6v2-10",
-          "time": "18:30–20:00",
-          "title": "晚餐与第1次洗衣",
-          "detail": "<p>先补热餐再洗当日衣物；问洗衣价格、烘干和取衣时间，确认次晨能收齐，不能把湿衣装密封包。</p>",
-          "plain": "晚餐与第1次洗衣  先补热餐再洗当日衣物；问洗衣价格、烘干和取衣时间，确认次晨能收齐，不能把湿衣装密封包。 ",
-          "links": [],
-          "place": null,
+          "id": "d6r58-04",
+          "time": "12:00–13:00",
+          "title": "峡谷团午餐",
+          "detail": "<p>明确团费是否含餐、饮水；不以免费团餐作未核实的预算扣减。</p>",
+          "plain": "峡谷团午餐 明确团费是否含餐、饮水；不以免费团餐作未核实的预算扣减。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Charyn%20Canyon%20Kazakhstan"
+            }
+          ],
+          "place": "rev58-d6-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d6v2-11",
-          "time": "20:00–21:00",
-          "title": "核D7跨境交通与收包",
-          "detail": "<p>再次确认001Х在2027-07-17是否开行及发车站；若改Sairan国际大巴，立刻记录新站点和报到要求。护照与车票离线备份。</p>",
-          "plain": "核D7跨境交通与收包  再次确认001Х在2027-07-17是否开行及发车站；若改Sairan国际大巴，立刻记录新站点和报到要求。护照与车票离线备份。 ",
-          "links": [],
-          "place": null,
+          "id": "d6r58-05",
+          "time": "13:00–14:30",
+          "title": "黑峡谷观景与沿途停靠",
+          "detail": "<p>次序随运营商路线；只走开放观景区，午间用车内转移而不是额外硬塞步行。</p>",
+          "plain": "黑峡谷观景与沿途停靠 次序随运营商路线；只走开放观景区，午间用车内转移而不是额外硬塞步行。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Black%20Canyon%20Kazakhstan"
+            }
+          ],
+          "place": "rev58-d6-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d6r58-06",
+          "time": "14:30–18:00",
+          "title": "返阿拉木图与城内散客下车",
+          "detail": "<p>按约3小时车程加市区交通规划；不再绑定18点关门的博物馆。16:30只是短线路可能，不是保证返城时刻。</p>",
+          "plain": "返阿拉木图与城内散客下车 按约3小时车程加市区交通规划；不再绑定18点关门的博物馆。16:30只是短线路可能，不是保证返城时刻。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Almaty%20Kazakhstan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://nta.visitalmaty.kz/en/guides/charyn-canyon-from-almaty"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.csmrk.kz/en/category/contacts"
+            }
+          ],
+          "place": "rev58-d6-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d6r58-07",
+          "time": "18:00–19:00",
+          "title": "阿尔巴特片区晚餐",
+          "detail": "<p>返城后直接往Zhibek Zholy步行街就餐；青旅机洗交给晚间，不占今天景点时段。</p>",
+          "plain": "阿尔巴特片区晚餐 返城后直接往Zhibek Zholy步行街就餐；青旅机洗交给晚间，不占今天景点时段。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Arbat%20Almaty"
+            }
+          ],
+          "place": "rev58-d6-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d6r58-08",
+          "time": "19:00–21:00",
+          "title": "阿尔巴特步行街与街头艺术",
+          "detail": "<p>沿Zhibek Zholy→Panfilov街走夜景，约21:30回青旅可机洗并取次日铁路用品。</p>",
+          "plain": "阿尔巴特步行街与街头艺术 沿Zhibek Zholy→Panfilov街走夜景，约21:30回青旅可机洗并取次日铁路用品。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Zhibek%20Zholy%20Almaty"
+            }
+          ],
+          "place": "rev58-d6-8",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -1022,9 +1003,12 @@ window.TRIP_DATA = {
       ],
       "extras": "以下是团内分段建议，顺序服从运营方；不将驾驶时间写成已确认团时刻。集合点和含费待订后补齐。",
       "places": [
-        "charyn",
-        "almaty-ref",
-        "almaty2"
+        "rev58-d6-1",
+        "rev58-d6-2",
+        "rev58-d6-3",
+        "rev58-d6-5",
+        "rev58-d6-7",
+        "rev58-d6-8"
       ],
       "accent": "#3A7893",
       "lodging": "阿拉木图（付费夜4）",
@@ -1044,150 +1028,192 @@ window.TRIP_DATA = {
       "timezone": "Asia/Almaty",
       "city": "阿拉木图",
       "defaultCity": "阿拉木图",
-      "priority": "先落实跨境班次与报到，再决定能否市区补遗；不因候选卧铺误掉实际车。",
+      "priority": "must",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d7v2-01",
+          "id": "d7r58-01",
+          "time": "07:00–08:00",
+          "title": "早餐后出发赴麦迪奥",
+          "detail": "<p>主包先整理好留青旅；今天晚间为跨国列车，山区活动设返城硬截止。</p>",
+          "plain": "早餐后出发赴麦迪奥 主包先整理好留青旅；今天晚间为跨国列车，山区活动设返城硬截止。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Medeu%20Almaty"
+            }
+          ],
+          "place": "rev58-d7-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d7r58-02",
           "time": "08:00–09:00",
-          "title": "早餐与干衣收包",
-          "detail": "<p>检查洗衣已干，核护照姓名、国籍、票面日期和站点；001Х仅为候选，未出票不能默认周六开行。先核实下车后交通与住宿。</p>",
-          "plain": "早餐与干衣收包  检查洗衣已干，核护照姓名、国籍、票面日期和站点；001Х仅为候选，未出票不能默认周六开行。先核实下车后交通与住宿。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d7v2-02",
-          "time": "09:00–11:30",
-          "title": "市区短补遗或咖啡休息",
-          "detail": "<p>仅在下午/晚间发车且已出票时，到潘菲洛夫公园周边短走；若早发、疲劳或有排队，整段取消，不安排付费远点。</p>",
-          "plain": "市区短补遗或咖啡休息  仅在下午/晚间发车且已出票时，到潘菲洛夫公园周边短走；若早发、疲劳或有排队，整段取消，不安排付费远点。 ",
+          "title": "城内公交前往Medeu",
+          "detail": "<p>上山公交、道路和缆车状态按运营商当天公告；留足候车时间。</p>",
+          "plain": "城内公交前往Medeu 上山公交、道路和缆车状态按运营商当天公告；留足候车时间。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&destination=Park%20of%2028%20Panfilov%20Guardsmen%20Almaty&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Medeu%20Ice%20Rink%20Almaty"
             }
           ],
-          "place": "panfilov",
+          "place": "rev58-d7-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d7v2-03",
-          "time": "11:30–12:30",
-          "title": "午餐、补水与车上食品",
-          "detail": "<p>就近吃热餐并买密封干粮，确认跨境不携带需申报食品；把充电线、薄外套、湿巾和证件放随身小包。</p>",
-          "plain": "午餐、补水与车上食品  就近吃热餐并买密封干粮，确认跨境不携带需申报食品；把充电线、薄外套、湿巾和证件放随身小包。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d7v2-04",
-          "time": "12:30–16:00",
-          "title": "My Hostel取寄存主包、空调休息与发车准备",
-          "detail": "<p>退房按酒店规则先办理，主包寄存后在公共区休息；16:00出发到Almaty-2。19:05只是当前时刻参考。</p>",
-          "plain": "My Hostel取寄存主包、空调休息与发车准备  退房按酒店规则先办理，主包寄存后在公共区休息；16:00出发到Almaty-2。19:05只是当前时刻参考。 ",
+          "id": "d7r58-03",
+          "time": "09:00–12:30",
+          "title": "Medeu与Shymbulak雪山观景",
+          "detail": "<p>缆车上山后只选一条观景线，不加大徒步；12:30开始下山。</p>",
+          "plain": "Medeu与Shymbulak雪山观景 缆车上山后只选一条观景线，不加大徒步；12:30开始下山。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Park%20of%2028%20Panfilov%20Guardsmen%20Almaty&destination=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Shymbulak%20Ski%20Resort"
             }
           ],
-          "place": null,
+          "place": "rev58-d7-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d7v2-05",
-          "time": "16:00–17:00",
-          "title": "拟住片区→阿拉木图2站",
-          "detail": "<p>按国际票规定提前到站；此为列车主方案导航。若实际改大巴，改终点为Sairan站，切勿到错站后再横穿城。</p>",
-          "plain": "拟住片区→阿拉木图2站  按国际票规定提前到站；此为列车主方案导航。若实际改大巴，改终点为Sairan站，切勿到错站后再横穿城。 ",
+          "id": "d7r58-04",
+          "time": "12:30–13:30",
+          "title": "山站午餐与下山",
+          "detail": "<p>午餐和缆车排队合并留一小时；下午不再追加市外地点。</p>",
+          "plain": "山站午餐与下山 午餐和缆车排队合并留一小时；下午不再追加市外地点。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&destination=Almaty%202%20Railway%20Station%20Ablai%20Khan%20Avenue&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Shymbulak%20Ski%20Resort"
             }
           ],
-          "place": "almaty2",
+          "place": "rev58-d7-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d7r58-05",
+          "time": "13:30–15:00",
+          "title": "返城取50L主包",
+          "detail": "<p>若下山缆车或公路排队，直接删山站延伸景点，保取包与列车。</p>",
+          "plain": "返城取50L主包 若下山缆车或公路排队，直接删山站延伸景点，保取包与列车。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Almaty%20Kazakhstan"
+            }
+          ],
+          "place": "rev58-d6-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d7r58-06",
+          "time": "15:00–16:00",
+          "title": "采购车上晚餐早餐与水",
+          "detail": "<p>跨国卧铺有过境检查，护照与票据放10L随身包，不放主包底部。</p>",
+          "plain": "采购车上晚餐早餐与水 跨国卧铺有过境检查，护照与票据放10L随身包，不放主包底部。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Almaty%20Kazakhstan"
+            }
+          ],
+          "place": "rev58-d6-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d7r58-07",
+          "time": "16:00–17:30",
+          "title": "赴阿拉木图2站与国际车票核验",
+          "detail": "<p>预留市内交通、换票核验和找车厢时间；出发站以实际票面Almaty-2为准。</p>",
+          "plain": "赴阿拉木图2站与国际车票核验 预留市内交通、换票核验和找车厢时间；出发站以实际票面Almaty-2为准。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Almaty-2%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://t.me/s/railways_kz?before=14387"
+            }
+          ],
+          "place": "rev58-d7-7",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d7v2-06",
-          "time": "17:00–18:00",
-          "title": "国际车票与护照核验",
-          "detail": "<p>柜台确认车厢、铺位和出境手续，问清边境查验是否唤醒、是否下车。无列车时的正规巴士备选从拟住片区到Sairan，出票后按票面报到。</p>",
-          "plain": "国际车票与护照核验  柜台确认车厢、铺位和出境手续，问清边境查验是否唤醒、是否下车。无列车时的正规巴士备选从拟住片区到Sairan，出票后按票面报到。 ",
+          "id": "d7r58-08",
+          "time": "17:30–19:05",
+          "title": "进站候车与登001Х卧铺",
+          "detail": "<p>现行参考约19:05开车；2027车票尚未放售，放票后用票面改具体时间。</p>",
+          "plain": "进站候车与登001Х卧铺 现行参考约19:05开车；2027车票尚未放售，放票后用票面改具体时间。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Zhibek%20Zholy%20Metro%20Station%20Almaty%20Kazakhstan&destination=Sairan%20Bus%20Terminal%20Tole%20Bi%20Almaty&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Almaty-2%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://t.me/s/railways_kz?before=14387"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://rasp.yandex.kz/train/almaty--tashkent"
             }
           ],
-          "place": "sairan",
-          "highlight": false,
+          "place": "rev58-d7-7",
+          "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d7v2-07",
-          "time": "18:00–19:05",
-          "title": "安检、候车和上车",
-          "detail": "<p>按照现场流程进入站台，上车再核目的地塔什干；饮水和如厕提前解决。若改巴士，核车牌与座位，保留票据。</p>",
-          "plain": "安检、候车和上车  按照现场流程进入站台，上车再核目的地塔什干；饮水和如厕提前解决。若改巴士，核车牌与座位，保留票据。 ",
-          "links": [],
-          "place": "almaty2",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d7v2-08",
-          "time": "19:05–20:30 现行参考",
-          "title": "1次国际卧铺：阿拉木图19:05发车",
-          "detail": "<p>KTZ官方公开公告参考19:05至次日12:53；建议优先检索该车卧铺。平台也有12:58到达版本，2027按正式车票。</p>",
-          "plain": "1次国际卧铺：阿拉木图19:05发车  KTZ官方公开公告参考19:05至次日12:53；建议优先检索该车卧铺。平台也有12:58到达版本，2027按正式车票。 ",
+          "id": "d7r58-09",
+          "time": "19:05–23:00",
+          "title": "跨国卧铺赴塔什干",
+          "detail": "<p>当前运营商公布约次日12:53抵塔什干，聚合时刻表12:58；不是次日08:00到站。夜间按列车检查配合。</p>",
+          "plain": "跨国卧铺赴塔什干 当前运营商公布约次日12:53抵塔什干，聚合时刻表12:58；不是次日08:00到站。夜间按列车检查配合。",
           "links": [
             {
-              "label": "公交起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Almaty%202%20Railway%20Station%20Ablai%20Khan%20Avenue&destination=Tashkent%20Central%20Railway%20Station%20Toshkent%20Shimoliy&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tashkent%20Central%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://t.me/s/railways_kz?before=14387"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://rasp.yandex.kz/train/almaty--tashkent"
             }
           ],
-          "place": "tashkent-station",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d7v2-09",
-          "time": "20:30–次日12:53",
-          "title": "车上晚餐、洗漱与休息",
-          "detail": "<p>完成跨境查验再休息，手机在乌兹别克斯坦切换当地时区；保存入境记录。若当日无正规可行班次，留宿阿拉木图并顺延，不搭无票边境车。</p>",
-          "plain": "车上晚餐、洗漱与休息  完成跨境查验再休息，手机在乌兹别克斯坦切换当地时区；保存入境记录。若当日无正规可行班次，留宿阿拉木图并顺延，不搭无票边境车。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
+          "place": "rev58-d7-9",
+          "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
       "extras": "T为实际购得国际列车/巴士发车。本日按19:05国际卧铺示例排程；若改上午大巴，取消上午补遗并重排出发。",
       "places": [
-        "almaty2",
-        "sairan",
-        "tashkent-station",
-        "panfilov"
+        "rev58-d7-1",
+        "rev58-d7-2",
+        "rev58-d7-3",
+        "rev58-d6-1",
+        "rev58-d7-7",
+        "rev58-d7-9"
       ],
       "accent": "#3A7893",
       "lodging": "车上（国际卧铺候选第1晚，待核待订）。无车或无法出票时，先确认Sairan站国际大巴的实际班次、过境条件与到达时间。",
@@ -1218,180 +1244,175 @@ window.TRIP_DATA = {
       "timezone": "Asia/Tashkent",
       "city": "塔什干",
       "defaultCity": "塔什干",
-      "priority": "抵达恢复优先，老城→巴扎→地铁按时间单向删减，保留住宿登记。",
+      "priority": "中午抵塔什干，寄包洗漱后走历史馆与艺术地铁，晚逛老城。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d8v2-01",
-          "time": "12:53–13:20 现行参考到站",
-          "title": "塔什干中央站出站与补水",
-          "detail": "<p>先核抵达站名和出口，换少量当地现金；保护护照和入境资料。不要因原稿写中央站就忽略票面可能变化。</p>",
-          "plain": "塔什干中央站出站与补水  先核抵达站名和出口，换少量当地现金；保护护照和入境资料。不要因原稿写中央站就忽略票面可能变化。 ",
-          "links": [],
-          "place": "tashkent-station",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d8v2-02",
-          "time": "13:20–14:00",
-          "title": "车站→拟住帖木儿广场片区",
-          "detail": "<p>按公交/地铁或正规车进城，导航先落拟住片区，确认住宿后改门牌；不拖主包逛巴扎。</p>",
-          "plain": "车站→拟住帖木儿广场片区  按公交/地铁或正规车进城，导航先落拟住片区，确认住宿后改门牌；不拖主包逛巴扎。 ",
+          "id": "d8r58-01",
+          "time": "08:00–12:55",
+          "title": "仍在阿拉木图→塔什干列车上",
+          "detail": "<p>001Х现行参考19:05→次日12:53/12:58，上午不是补眠空白；2027按票面整体平移，不虚构08:00抵达。</p>",
+          "plain": "仍在阿拉木图→塔什干列车上 001Х现行参考19:05→次日12:53/12:58，上午不是补眠空白；2027按票面整体平移，不虚构08:00抵达。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tashkent%20Central%20Railway%20Station%20Toshkent%20Shimoliy&destination=Amir%20Temur%20Square%20Tashkent%20Uzbekistan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tashkent%20Central%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://t.me/s/railways_kz?before=14387"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://rasp.yandex.kz/train/almaty--tashkent"
             }
           ],
-          "place": null,
+          "place": "rev58-d7-9",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d8v2-03",
-          "time": "14:00–14:30",
-          "title": "DRIMIN寄包或入住、洗漱",
-          "detail": "<p>预计14:00到店；提早入住不作保证。先办住宿登记、核所订男性或混合宿舍的空调/窗户与锁柜。</p>",
-          "plain": "DRIMIN寄包或入住、洗漱  预计14:00到店；提早入住不作保证。先办住宿登记、核所订男性或混合宿舍的空调/窗户与锁柜。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d8v2-04",
-          "time": "14:30–15:15",
-          "title": "午餐与短休",
-          "detail": "<p>留90分钟安静休息和午餐；向住宿确认登记和离店时领取证明的方式。以下完整路线仅适用于上午较早抵达；若晚到按日首删减规则直接去后段。</p>",
-          "plain": "午餐与短休  留90分钟安静休息和午餐；向住宿确认登记和离店时领取证明的方式。以下完整路线仅适用于上午较早抵达；若晚到按日首删减规则直接去后段。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d8v2-05",
-          "time": "15:15–15:50",
-          "title": "拟住片区→哈斯特伊玛目",
-          "detail": "<p>热时段优先正规车，留45分钟；上午迟到则直接删去此段及景点，不压缩入住与饮水。</p>",
-          "plain": "拟住片区→哈斯特伊玛目  热时段优先正规车，留45分钟；上午迟到则直接删去此段及景点，不压缩入住与饮水。 ",
+          "id": "d8r58-02",
+          "time": "12:55–14:00",
+          "title": "抵塔什干、青旅寄包洗漱",
+          "detail": "<p>选择站点到市中心交通顺路的青旅；50L寄存和洗漱约一小时，不另安排白天洗衣。</p>",
+          "plain": "抵塔什干、青旅寄包洗漱 选择站点到市中心交通顺路的青旅；50L寄存和洗漱约一小时，不另安排白天洗衣。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Amir%20Temur%20Square%20Tashkent%20Uzbekistan&destination=Hazrati%20Imam%20Complex%20Tashkent%20Uzbekistan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tashkent%20Central%20Railway%20Station"
             }
           ],
-          "place": "khast-imam",
+          "place": "rev58-d7-9",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d8v2-06",
-          "time": "15:50–16:35",
-          "title": "哈斯特伊玛目建筑群",
-          "detail": "<p>留60分钟看院落和外观，宗教活动优先；需入室展馆先核门票、开放与拍照规则，带护照和实体学生证询价。炎热时只看重点后转阴凉。</p>",
-          "plain": "哈斯特伊玛目建筑群  留60分钟看院落和外观，宗教活动优先；需入室展馆先核门票、开放与拍照规则，带护照和实体学生证询价。炎热时只看重点后转阴凉。 ",
-          "links": [],
-          "place": "khast-imam",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d8v2-07",
-          "time": "16:35–16:55",
-          "title": "建筑群→Chorsu巴扎",
-          "detail": "<p>短程车或按体力步行；示范驾车路线留25分钟，避免暴晒拖延后续。</p>",
-          "plain": "建筑群→Chorsu巴扎  短程车或按体力步行；示范驾车路线留25分钟，避免暴晒拖延后续。 ",
+          "id": "d8r58-03",
+          "time": "14:00–14:45",
+          "title": "市中心午餐",
+          "detail": "<p>以当日已确认餐店为准；Besh Qozon位于电视塔北侧且抓饭可能售罄，不为赶它横穿半座城。</p>",
+          "plain": "市中心午餐 以当日已确认餐店为准；Besh Qozon位于电视塔北侧且抓饭可能售罄，不为赶它横穿半座城。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hazrati%20Imam%20Complex%20Tashkent%20Uzbekistan&destination=Chorsu%20Bazaar%20Tashkent%20Uzbekistan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tashkent%20Uzbekistan"
             }
           ],
-          "place": "chorsu",
+          "place": "rev58-d8-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d8v2-08",
-          "time": "16:55–17:45",
-          "title": "Chorsu巴扎与休息",
-          "detail": "<p>留70分钟看市场和购买饮水/水果，先问价后成交；室内摊区也注意闷热，熟食选择现制。若摊位收得早，以实际营业为准。</p>",
-          "plain": "Chorsu巴扎与休息  留70分钟看市场和购买饮水/水果，先问价后成交；室内摊区也注意闷热，熟食选择现制。若摊位收得早，以实际营业为准。 ",
-          "links": [],
-          "place": "chorsu",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d8v2-09",
-          "time": "17:45–18:30",
-          "title": "Chorsu→Kosmonavtlar地铁体验",
-          "detail": "<p>按当日地图进最近车站后换乘，线路与乘车方式现场核；只体验两三个站，不为拍空站等很久，不拍安检和工作人员。</p>",
-          "plain": "Chorsu→Kosmonavtlar地铁体验  按当日地图进最近车站后换乘，线路与乘车方式现场核；只体验两三个站，不为拍空站等很久，不拍安检和工作人员。 ",
+          "id": "d8r58-04",
+          "time": "14:45–16:15",
+          "title": "乌兹别克斯坦国家历史博物馆",
+          "detail": "<p>官方旅游委确认2026-07-24完成翻新重开，保留此馆；正确官网history-museum.uz，实际营业时段出发前复核。</p>",
+          "plain": "乌兹别克斯坦国家历史博物馆 官方旅游委确认2026-07-24完成翻新重开，保留此馆；正确官网history-museum.uz，实际营业时段出发前复核。",
           "links": [
             {
-              "label": "公交起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Chorsu%20Bazaar%20Tashkent%20Uzbekistan&destination=Kosmonavtlar%20Metro%20Station%20Tashkent&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=State%20Museum%20of%20History%20of%20Uzbekistan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://gov.uz/en/uzbektourism/news/view/197142"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.history-museum.uz/"
             }
           ],
-          "place": "tashkent-metro",
+          "place": "rev58-d8-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d8v2-10",
-          "time": "18:30–19:15",
-          "title": "地铁→独立广场散步",
-          "detail": "<p>乘地铁或步行到独立广场，留约40分钟看城市空间；区域安保或活动限制时服从指引，缩短停留。</p>",
-          "plain": "地铁→独立广场散步  乘地铁或步行到独立广场，留约40分钟看城市空间；区域安保或活动限制时服从指引，缩短停留。 ",
+          "id": "d8r58-05",
+          "time": "16:15–17:00",
+          "title": "艺术地铁：Mustaqillik与Alisher Navoi",
+          "detail": "<p>从博物馆步行到独立广场一带入站，乘地铁往Chorsu方向；拍摄遵守现场规定，不拍安检和工作人员。</p>",
+          "plain": "艺术地铁：Mustaqillik与Alisher Navoi 从博物馆步行到独立广场一带入站，乘地铁往Chorsu方向；拍摄遵守现场规定，不拍安检和工作人员。",
           "links": [
             {
-              "label": "公交起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kosmonavtlar%20Metro%20Station%20Tashkent&destination=Mustaqillik%20Maydoni%20Independence%20Square%20Tashkent&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mustaqillik%20Maydoni%20Metro%20Station%20Tashkent"
             }
           ],
-          "place": "independence",
+          "place": "rev58-d8-5",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d8v2-11",
-          "time": "19:15–20:15",
-          "title": "返住宿片区、晚餐与正式入住",
-          "detail": "<p>回帖木儿广场拟住片区，晚餐可选抓饭或面食方向；取回主包、确认住宿登记，保存付款和登记资料。</p>",
-          "plain": "返住宿片区、晚餐与正式入住  回帖木儿广场拟住片区，晚餐可选抓饭或面食方向；取回主包、确认住宿登记，保存付款和登记资料。 ",
+          "id": "d8r58-06",
+          "time": "17:00–18:00",
+          "title": "琼苏巴扎",
+          "detail": "<p>从Chorsu地铁站出站进巴扎，傍晚先看主穹顶仍营业摊位；不要承诺所有市场摊位开到夜间。</p>",
+          "plain": "琼苏巴扎 从Chorsu地铁站出站进巴扎，傍晚先看主穹顶仍营业摊位；不要承诺所有市场摊位开到夜间。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Mustaqillik%20Maydoni%20Independence%20Square%20Tashkent&destination=Amir%20Temur%20Square%20Tashkent%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Chorsu%20Bazaar%20Tashkent"
             }
           ],
-          "place": null,
+          "place": "rev58-d8-6",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d8v2-12",
-          "time": "20:15–21:15",
-          "title": "D9车站核验与早睡",
-          "detail": "<p>查看赴布哈拉实际车票、出发站和行李要求；乌兹铁路放票窗口、2027班次都待核，以订单为准。尽早睡，抵达晚则当天所有观光删除。</p>",
-          "plain": "D9车站核验与早睡  查看赴布哈拉实际车票、出发站和行李要求；乌兹铁路放票窗口、2027班次都待核，以订单为准。尽早睡，抵达晚则当天所有观光删除。 ",
-          "links": [],
-          "place": null,
+          "id": "d8r58-07",
+          "time": "18:00–19:00",
+          "title": "哈斯特伊玛目广场与建筑外观",
+          "detail": "<p>打车短接驳；经书馆通常需要白天入场，今天傍晚主线写外观，若要入经书馆须调到D13或D14可用白天时段。</p>",
+          "plain": "哈斯特伊玛目广场与建筑外观 打车短接驳；经书馆通常需要白天入场，今天傍晚主线写外观，若要入经书馆须调到D13或D14可用白天时段。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hazrati%20Imam%20Complex%20Tashkent"
+            }
+          ],
+          "place": "rev58-d8-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d8r58-08",
+          "time": "19:00–20:00",
+          "title": "晚餐与返市中心",
+          "detail": "<p>先在市内已选餐店吃饭，再串夜景；不把正餐压成跨城路上的零分钟。</p>",
+          "plain": "晚餐与返市中心 先在市内已选餐店吃饭，再串夜景；不把正餐压成跨城路上的零分钟。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tashkent%20Uzbekistan"
+            }
+          ],
+          "place": "rev58-d8-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d8r58-09",
+          "time": "20:00–21:15",
+          "title": "帖木儿广场与百老汇步行街",
+          "detail": "<p>步行串广场和Sayilgoh街，回青旅取次日布哈拉列车用品。</p>",
+          "plain": "帖木儿广场与百老汇步行街 步行串广场和Sayilgoh街，回青旅取次日布哈拉列车用品。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Amir%20Temur%20Square%20Tashkent"
+            }
+          ],
+          "place": "rev58-d8-9",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -1399,11 +1420,13 @@ window.TRIP_DATA = {
       ],
       "extras": "A为塔什干实际到站当地时间；A若晚于12:00，取消哈斯特伊玛目，若晚于16:00则只入住、用餐与确认D9车票。",
       "places": [
-        "tashkent-station",
-        "khast-imam",
-        "chorsu",
-        "tashkent-metro",
-        "independence"
+        "rev58-d7-9",
+        "rev58-d8-3",
+        "rev58-d8-4",
+        "rev58-d8-5",
+        "rev58-d8-6",
+        "rev58-d8-7",
+        "rev58-d8-9"
       ],
       "accent": "#497E81",
       "lodging": "塔什干青旅（付费夜5，待订）",
@@ -1434,156 +1457,167 @@ window.TRIP_DATA = {
       "timezone": "Asia/Samarkand",
       "city": "布哈拉",
       "defaultCity": "布哈拉",
-      "priority": "铁路抵布哈拉后先住下避暑，傍晚只串联水池街区与卡扬外观。",
+      "priority": "high",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d9v2-01",
-          "time": "05:30–06:00",
-          "title": "早餐、退房与登记条",
-          "detail": "<p>带上住宿登记资料，检查护照和车票；买车上简餐，列车是否供餐按票种核验。</p>",
-          "plain": "早餐、退房与登记条  带上住宿登记资料，检查护照和车票；买车上简餐，列车是否供餐按票种核验。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d9v2-02",
-          "time": "06:00–06:30",
-          "title": "拟住片区→票面塔什干出发站",
-          "detail": "<p>本链接以中央站为主方案，铁路票面若为其他站必须改终点；路程留60分钟，别依旧行程默认同站。</p>",
-          "plain": "拟住片区→票面塔什干出发站  本链接以中央站为主方案，铁路票面若为其他站必须改终点；路程留60分钟，别依旧行程默认同站。 ",
+          "id": "d9r58-01",
+          "time": "06:00–07:15",
+          "title": "早餐退房、赴塔什干站",
+          "detail": "<p>按实际早班高铁票调整；站名可能因车次不同，不预先把北站与南站互换。</p>",
+          "plain": "早餐退房、赴塔什干站 按实际早班高铁票调整；站名可能因车次不同，不预先把北站与南站互换。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Amir%20Temur%20Square%20Tashkent%20Uzbekistan&destination=Tashkent%20Central%20Railway%20Station%20Toshkent%20Shimoliy&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tashkent%20Central%20Railway%20Station"
             }
           ],
-          "place": "tashkent-station",
+          "place": "rev58-d7-9",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d9v2-03",
-          "time": "06:30–07:30",
-          "title": "安检、候车与检票",
-          "detail": "<p>至少预留一小时站内操作；姓名/护照号需与订单一致，电子票离线保存。临时改签先确认新票再离开站台区。</p>",
-          "plain": "安检、候车与检票  至少预留一小时站内操作；姓名/护照号需与订单一致，电子票离线保存。临时改签先确认新票再离开站台区。 ",
-          "links": [],
-          "place": "tashkent-station",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d9v2-04",
-          "time": "07:30–11:30 购票目标",
-          "title": "塔什干→布哈拉铁路",
-          "detail": "<p>实际车次、车程与票价待2027出票；中途吃简餐休息。到站是Kogon一带的布哈拉站，距老城仍需接驳。</p>",
-          "plain": "塔什干→布哈拉铁路  实际车次、车程与票价待2027出票；中途吃简餐休息。到站是Kogon一带的布哈拉站，距老城仍需接驳。 ",
+          "id": "d9r58-02",
+          "time": "07:30–11:30",
+          "title": "塔什干→布哈拉铁路移动",
+          "detail": "<p>这是早班优选窗口，尚非2027已出票车次；到的是Kagan/Bukhara-1站，仍须进老城。</p>",
+          "plain": "塔什干→布哈拉铁路移动 这是早班优选窗口，尚非2027已出票车次；到的是Kagan/Bukhara-1站，仍须进老城。",
           "links": [
             {
-              "label": "公交起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tashkent%20Central%20Railway%20Station%20Toshkent%20Shimoliy&destination=Bukhara%20Railway%20Station%20Kogon%20Uzbekistan&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bukhara-1%20Railway%20Station"
             }
           ],
-          "place": "bukhara-station",
+          "place": "rev58-d9-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d9v2-05",
-          "time": "11:30–12:30",
-          "title": "布哈拉站→Lyabi-Hauz拟住片区",
-          "detail": "<p>用正规车或已核公交前往老城，留40–60分钟接驳与找住宿；酒店在步行区时问清车辆可停位置。</p>",
-          "plain": "布哈拉站→Lyabi-Hauz拟住片区  用正规车或已核公交前往老城，留40–60分钟接驳与找住宿；酒店在步行区时问清车辆可停位置。 ",
+          "id": "d9r58-03",
+          "time": "11:30–12:15",
+          "title": "Kagan站→布哈拉老城寄50L包",
+          "detail": "<p>打车或公交按订单与实际导航；预留30–45分钟，不把到站时间等同于老城开始游览。</p>",
+          "plain": "Kagan站→布哈拉老城寄50L包 打车或公交按订单与实际导航；预留30–45分钟，不把到站时间等同于老城开始游览。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Bukhara%20Railway%20Station%20Kogon%20Uzbekistan&destination=Khakikat%20Street%20Bukhara%20Uzbekistan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lyabi%20Hauz%20Bukhara"
             }
           ],
-          "place": null,
+          "place": "rev58-d9-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d9v2-06",
-          "time": "12:30–16:30",
-          "title": "入住、午餐与避暑",
-          "detail": "<p>先登记入住再洗漱休息；留至少90分钟室内恢复。若上午到达，此段吃午餐；若迟到则休整后直接吃晚餐。</p>",
-          "plain": "入住、午餐与避暑  先登记入住再洗漱休息；留至少90分钟室内恢复。若上午到达，此段吃午餐；若迟到则休整后直接吃晚餐。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d9v2-07",
-          "time": "16:30–17:30",
-          "title": "Lyabi-Hauz水池街区",
-          "detail": "<p>傍晚留60分钟慢走，室外公共空间不预设门票；如进入周边收费建筑另核票。取水并找阴凉，不在烈日坐曝晒长椅。</p>",
-          "plain": "Lyabi-Hauz水池街区  傍晚留60分钟慢走，室外公共空间不预设门票；如进入周边收费建筑另核票。取水并找阴凉，不在烈日坐曝晒长椅。 ",
+          "id": "d9r58-04",
+          "time": "12:15–13:15",
+          "title": "Lyabi-Hauz片区午餐",
+          "detail": "<p>坐下正餐、补水后走室内商贸与经学院路线。</p>",
+          "plain": "Lyabi-Hauz片区午餐 坐下正餐、补水后走室内商贸与经学院路线。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Khakikat%20Street%20Bukhara%20Uzbekistan&destination=Lyabi%20Hauz%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lyabi%20Hauz%20Bukhara"
             }
           ],
-          "place": "lyabi-hauz",
+          "place": "rev58-d9-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d9v2-08",
-          "time": "17:30–18:00",
-          "title": "水池街区→卡扬建筑群",
-          "detail": "<p>沿老城街巷步行，穿过巴扎时只看不赶购物；留30分钟找路与补水。</p>",
-          "plain": "水池街区→卡扬建筑群  沿老城街巷步行，穿过巴扎时只看不赶购物；留30分钟找路与补水。 ",
+          "id": "d9r58-05",
+          "time": "13:15–15:00",
+          "title": "三座圆顶巴扎",
+          "detail": "<p>按Toqi Sarrofon→Telpak Furushon→Zargaron串行；穹顶有遮阴，不承诺有冷气。</p>",
+          "plain": "三座圆顶巴扎 按Toqi Sarrofon→Telpak Furushon→Zargaron串行；穹顶有遮阴，不承诺有冷气。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Lyabi%20Hauz%20Bukhara%20Uzbekistan&destination=Kalyan%20Minaret%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Toqi%20Sarrofon%20Bukhara"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://uzbekistan.travel/en/"
             }
           ],
-          "place": "kalyan",
+          "place": "rev58-d9-5",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d9v2-09",
-          "time": "18:00–18:45",
-          "title": "卡扬宣礼塔外观",
-          "detail": "<p>今天以45分钟外观拍摄为主，不假设可登塔或寺院仍开放；需入内问当日售票和礼拜限制，迟到则挪至D10。</p>",
-          "plain": "卡扬宣礼塔外观  今天以45分钟外观拍摄为主，不假设可登塔或寺院仍开放；需入内问当日售票和礼拜限制，迟到则挪至D10。 ",
-          "links": [],
-          "place": "kalyan",
-          "highlight": true,
+          "id": "d9r58-06",
+          "time": "15:00–16:30",
+          "title": "兀鲁伯与阿卜杜拉齐兹汗经学院",
+          "detail": "<p>两院隔街相对，内部与展馆按票面开放参观；古建筑不是全馆空调场所。</p>",
+          "plain": "兀鲁伯与阿卜杜拉齐兹汗经学院 两院隔街相对，内部与展馆按票面开放参观；古建筑不是全馆空调场所。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abdulaziz%20Khan%20Madrasa%20Bukhara"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://uzbekistan.travel/en/"
+            }
+          ],
+          "place": "rev58-d9-6",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d9v2-10",
-          "time": "18:45–21:00",
-          "title": "返水池片区晚餐与休息",
-          "detail": "<p>回拟住片区吃热餐，确认次日Ark开放；把午间避暑的长休息保留。晚到版本只在住宿附近短走15分钟后就寝。</p>",
-          "plain": "返水池片区晚餐与休息  回拟住片区吃热餐，确认次日Ark开放；把午间避暑的长休息保留。晚到版本只在住宿附近短走15分钟后就寝。 ",
+          "id": "d9r58-07",
+          "time": "16:30–18:30",
+          "title": "卡扬清真寺、宣礼塔与米尔阿拉伯",
+          "detail": "<p>步行到Poi Kalyan建筑群；神学院如不开放游客内部，只安排外观。</p>",
+          "plain": "卡扬清真寺、宣礼塔与米尔阿拉伯 步行到Poi Kalyan建筑群；神学院如不开放游客内部，只安排外观。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kalyan%20Minaret%20Bukhara%20Uzbekistan&destination=Khakikat%20Street%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Po-i-Kalyan%20Bukhara"
             }
           ],
-          "place": null,
+          "place": "rev58-d9-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d9r58-08",
+          "time": "18:30–19:30",
+          "title": "老城晚餐",
+          "detail": "<p>原已选餐店优先，避免景点结束后没有正式晚餐时段。</p>",
+          "plain": "老城晚餐 原已选餐店优先，避免景点结束后没有正式晚餐时段。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Old%20Bukhara%20Restaurant"
+            }
+          ],
+          "place": "rev58-d9-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d9r58-09",
+          "time": "19:30–21:00",
+          "title": "卡扬蓝调与池畔夜景",
+          "detail": "<p>按日落先卡扬后Lyabi-Hauz返住处，不重复横穿老城。</p>",
+          "plain": "卡扬蓝调与池畔夜景 按日落先卡扬后Lyabi-Hauz返住处，不重复横穿老城。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lyabi%20Hauz%20Bukhara"
+            }
+          ],
+          "place": "rev58-d9-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -1591,10 +1625,13 @@ window.TRIP_DATA = {
       ],
       "extras": "T为票面出发时刻，A为布哈拉站实际到达；若A晚于16:00，删卡扬，保留晚餐和入住。",
       "places": [
-        "tashkent-station",
-        "bukhara-station",
-        "lyabi-hauz",
-        "kalyan"
+        "rev58-d7-9",
+        "rev58-d9-2",
+        "rev58-d9-3",
+        "rev58-d9-5",
+        "rev58-d9-6",
+        "rev58-d9-7",
+        "rev58-d9-8"
       ],
       "accent": "#497E81",
       "lodging": "布哈拉（付费夜6）",
@@ -1625,227 +1662,203 @@ window.TRIP_DATA = {
       "timezone": "Asia/Samarkand",
       "city": "布哈拉",
       "defaultCity": "布哈拉",
-      "priority": "Ark和萨曼王陵放上午；午间休息后再去Chor Minor、巴扎和卡扬外观。",
+      "priority": "normal",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d10v2-01",
-          "time": "07:00～07:40",
-          "title": "早餐、防晒与现金",
-          "detail": "<p>带护照/实体学生证用于购票，备零钱与饮水；不拿护照原件押给路边租借。住宿暂以水池街区为起点。</p>",
-          "plain": "早餐、防晒与现金  带护照/实体学生证用于购票，备零钱与饮水；不拿护照原件押给路边租借。住宿暂以水池街区为起点。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d10v2-02",
-          "time": "07:40～08:10",
-          "title": "水池片区→Ark城堡",
-          "detail": "<p>清晨步行留30分钟；若实际开门更晚，在附近阴凉处等候，不把旧开放时间当已确认。</p>",
-          "plain": "水池片区→Ark城堡  清晨步行留30分钟；若实际开门更晚，在附近阴凉处等候，不把旧开放时间当已确认。 ",
+          "id": "d10r58-01",
+          "time": "07:30–08:00",
+          "title": "早餐与城堡方向步行",
+          "detail": "<p>只背10L，先去西侧古迹群，下午再去城北夏宫。</p>",
+          "plain": "早餐与城堡方向步行 只背10L，先去西侧古迹群，下午再去城北夏宫。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Khakikat%20Street%20Bukhara%20Uzbekistan&destination=Ark%20of%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ark%20of%20Bukhara"
             }
           ],
-          "place": "ark",
+          "place": "rev58-d10-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d10v2-03",
-          "time": "08:10～09:40",
-          "title": "Ark城堡重点参观",
-          "detail": "<p>计划停留90分钟，核门票包含展厅和允许拍摄范围；优先宫堡空间与主要展陈。迟开或排队超过30分钟，压缩至60分钟，不透支午间休息。</p>",
-          "plain": "Ark城堡重点参观  计划停留90分钟，核门票包含展厅和允许拍摄范围；优先宫堡空间与主要展陈。迟开或排队超过30分钟，压缩至60分钟，不透支午间休息。 ",
-          "links": [],
-          "place": "ark",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d10v2-04",
-          "time": "09:40～10:00",
-          "title": "Ark→Bolo Hauz清真寺",
-          "detail": "<p>步行到对面的清真寺方向，过路看交通；顺便补水，不在无遮阴广场久留。</p>",
-          "plain": "Ark→Bolo Hauz清真寺  步行到对面的清真寺方向，过路看交通；顺便补水，不在无遮阴广场久留。 ",
+          "id": "d10r58-02",
+          "time": "08:00–10:00",
+          "title": "雅克城堡",
+          "detail": "<p>开放后进馆参观，城堡内部按实际开放展厅走，不承诺所有馆同一套票。</p>",
+          "plain": "雅克城堡 开放后进馆参观，城堡内部按实际开放展厅走，不承诺所有馆同一套票。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Ark%20of%20Bukhara%20Uzbekistan&destination=Bolo%20Hauz%20Mosque%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ark%20of%20Bukhara"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://uzbekistan.travel/en/"
             }
           ],
-          "place": "bolo-hauz",
+          "place": "rev58-d10-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d10v2-05",
-          "time": "10:00～10:35",
-          "title": "Bolo Hauz门廊与外观",
-          "detail": "<p>留35分钟看木柱门廊与水池，入内先问是否允许游客；礼拜时仅外观，拍摄避免对准祈祷者。</p>",
-          "plain": "Bolo Hauz门廊与外观  留35分钟看木柱门廊与水池，入内先问是否允许游客；礼拜时仅外观，拍摄避免对准祈祷者。 ",
-          "links": [],
-          "place": "bolo-hauz",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d10v2-06",
-          "time": "10:35～11:00",
-          "title": "清真寺→萨曼王陵",
-          "detail": "<p>步行约25分钟，天气炎热可改正规短程车；出发前补水，抵达先找树荫。</p>",
-          "plain": "清真寺→萨曼王陵  步行约25分钟，天气炎热可改正规短程车；出发前补水，抵达先找树荫。 ",
+          "id": "d10r58-03",
+          "time": "10:00–11:00",
+          "title": "Bolo Hauz清真寺与周边",
+          "detail": "<p>出城堡步行到水池清真寺，避礼拜时段参观内部。</p>",
+          "plain": "Bolo Hauz清真寺与周边 出城堡步行到水池清真寺，避礼拜时段参观内部。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Bolo%20Hauz%20Mosque%20Bukhara%20Uzbekistan&destination=Samanid%20Mausoleum%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bolo%20Hauz%20Mosque%20Bukhara"
             }
           ],
-          "place": "samanid",
+          "place": "rev58-d10-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d10v2-07",
-          "time": "11:00～11:45",
-          "title": "萨曼王陵",
-          "detail": "<p>停留45分钟看砖砌细节，售票方式与学生优惠现场核；室外拍照后尽快转阴凉，不额外塞入附近多个收费点。</p>",
-          "plain": "萨曼王陵  停留45分钟看砖砌细节，售票方式与学生优惠现场核；室外拍照后尽快转阴凉，不额外塞入附近多个收费点。 ",
-          "links": [],
-          "place": "samanid",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d10v2-08",
-          "time": "11:45～12:15",
-          "title": "王陵→老城拟住片区",
-          "detail": "<p>改短程车返回水池附近，给午餐与午休留完整时间；导航片区点不是酒店门牌。</p>",
-          "plain": "王陵→老城拟住片区  改短程车返回水池附近，给午餐与午休留完整时间；导航片区点不是酒店门牌。 ",
+          "id": "d10r58-04",
+          "time": "11:00–12:15",
+          "title": "萨曼王陵与Chashma Ayub",
+          "detail": "<p>两处在老城西侧公园附近，按连续步行动线参观。</p>",
+          "plain": "萨曼王陵与Chashma Ayub 两处在老城西侧公园附近，按连续步行动线参观。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Samanid%20Mausoleum%20Bukhara%20Uzbekistan&destination=Khakikat%20Street%20Bukhara%20Uzbekistan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ismail%20Samani%20Mausoleum%20Bukhara"
             }
           ],
-          "place": null,
+          "place": "rev58-d10-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d10v2-09",
-          "time": "12:15～15:45",
-          "title": "午餐、洗漱与长午休",
-          "detail": "<p>在室内吃热餐和补水，回床位休息；暑热日保留3小时以上恢复，不以购买门票为理由硬撑下午。</p>",
-          "plain": "午餐、洗漱与长午休  在室内吃热餐和补水，回床位休息；暑热日保留3小时以上恢复，不以购买门票为理由硬撑下午。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d10v2-10",
-          "time": "15:45～16:15",
-          "title": "拟住片区→Chor Minor",
-          "detail": "<p>步行前往东侧街巷，留30分钟找入口；若气温仍高，推迟出发并删减巴扎。</p>",
-          "plain": "拟住片区→Chor Minor  步行前往东侧街巷，留30分钟找入口；若气温仍高，推迟出发并删减巴扎。 ",
+          "id": "d10r58-05",
+          "time": "12:15–13:15",
+          "title": "午餐",
+          "detail": "<p>选择老城西侧或进城北线路顺路餐店；不要承诺夏宫餐饮一定方便。</p>",
+          "plain": "午餐 选择老城西侧或进城北线路顺路餐店；不要承诺夏宫餐饮一定方便。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Khakikat%20Street%20Bukhara%20Uzbekistan&destination=Chor%20Minor%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bukhara%20Uzbekistan"
             }
           ],
-          "place": "chor-minor",
+          "place": "rev58-d10-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d10v2-11",
-          "time": "16:15～17:00",
-          "title": "Chor Minor外观与可选入内",
-          "detail": "<p>留45分钟；优先四塔外观，屋顶/内部是否开放及额外票价当场核，不默认可登塔。闭门则外观15分钟后去巴扎。</p>",
-          "plain": "Chor Minor外观与可选入内  留45分钟；优先四塔外观，屋顶/内部是否开放及额外票价当场核，不默认可登塔。闭门则外观15分钟后去巴扎。 ",
-          "links": [],
-          "place": "chor-minor",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d10v2-12",
-          "time": "17:00～17:30",
-          "title": "Chor Minor→老城巴扎",
-          "detail": "<p>步行回老城核心，留30分钟；当日若摊位已收，则替换成街巷外观，不追固定商铺。</p>",
-          "plain": "Chor Minor→老城巴扎  步行回老城核心，留30分钟；当日若摊位已收，则替换成街巷外观，不追固定商铺。 ",
+          "id": "d10r58-06",
+          "time": "13:15–14:00",
+          "title": "叫车往返预定：Sitorai Mokhi-Khosa",
+          "detail": "<p>城北约数公里，给叫车、上车和路程共45分钟；先约好返程或核实回城车。</p>",
+          "plain": "叫车往返预定：Sitorai Mokhi-Khosa 城北约数公里，给叫车、上车和路程共45分钟；先约好返程或核实回城车。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Chor%20Minor%20Bukhara%20Uzbekistan&destination=Toqi%20Zargaron%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sitorai%20Mokhi%20Khosa%20Bukhara"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://uzbekistan.travel/en/"
             }
           ],
-          "place": "bukhara-bazaar",
+          "place": "rev58-d10-6",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d10v2-13",
-          "time": "17:30～18:30",
-          "title": "巴扎与卡扬外观补遗",
-          "detail": "<p>用60分钟看拱顶市场及相邻卡扬一带，购物先问价；若D9已看够，只选巴扎后就近晚餐。热得不适，整个补遗取消。</p>",
-          "plain": "巴扎与卡扬外观补遗  用60分钟看拱顶市场及相邻卡扬一带，购物先问价；若D9已看够，只选巴扎后就近晚餐。热得不适，整个补遗取消。 ",
+          "id": "d10r58-07",
+          "time": "14:00–16:00",
+          "title": "末代埃米尔夏宫",
+          "detail": "<p>看室内工艺与宫殿陈列、庭园；古宫展厅未核实全馆空调，不能写恒温保证。</p>",
+          "plain": "末代埃米尔夏宫 看室内工艺与宫殿陈列、庭园；古宫展厅未核实全馆空调，不能写恒温保证。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Toqi%20Zargaron%20Bukhara%20Uzbekistan&destination=Kalyan%20Minaret%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sitorai%20Mokhi%20Khosa%20Bukhara"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://uzbekistan.travel/en/"
             }
           ],
-          "place": "kalyan",
+          "place": "rev58-d10-6",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d10v2-14",
-          "time": "18:30～21:00",
-          "title": "晚餐、返住宿与核铁路",
-          "detail": "<p>返回水池片区晚餐并收包，核次日布哈拉站发车和接驳；提前问退房、寄存及车辆能到的位置。</p>",
-          "plain": "晚餐、返住宿与核铁路  返回水池片区晚餐并收包，核次日布哈拉站发车和接驳；提前问退房、寄存及车辆能到的位置。 ",
+          "id": "d10r58-08",
+          "time": "16:00–17:30",
+          "title": "返城与Chor Minor",
+          "detail": "<p>回城后看四塔经学院，不为短停延误夏宫闭馆前参观。</p>",
+          "plain": "返城与Chor Minor 回城后看四塔经学院，不为短停延误夏宫闭馆前参观。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kalyan%20Minaret%20Bukhara%20Uzbekistan&destination=Khakikat%20Street%20Bukhara%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Chor%20Minor%20Bukhara"
             }
           ],
-          "place": null,
+          "place": "rev58-d10-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d10r58-09",
+          "time": "17:30–19:00",
+          "title": "Magoki-Attori与晚餐",
+          "detail": "<p>如馆已停止售票便看建筑外观，再到Lyabi-Hauz附近吃饭。</p>",
+          "plain": "Magoki-Attori与晚餐 如馆已停止售票便看建筑外观，再到Lyabi-Hauz附近吃饭。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Magoki%20Attori%20Mosque%20Bukhara"
+            }
+          ],
+          "place": "rev58-d10-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d10r58-10",
+          "time": "19:00–20:30",
+          "title": "老城夜拍与次日铁路整理",
+          "detail": "<p>晚上可机洗，不在白天另占两小时；核查次日布哈拉→撒马尔罕站名与票面时间。</p>",
+          "plain": "老城夜拍与次日铁路整理 晚上可机洗，不在白天另占两小时；核查次日布哈拉→撒马尔罕站名与票面时间。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lyabi%20Hauz%20Bukhara"
+            }
+          ],
+          "place": "rev58-d9-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
         }
       ],
       "extras": "门票、开门和学生优惠以2027现场/官方为准。建筑群内礼拜空间遵守衣着与拍照要求。",
       "places": [
-        "ark",
-        "bolo-hauz",
-        "samanid",
-        "chor-minor",
-        "bukhara-bazaar",
-        "kalyan"
+        "rev58-d10-1",
+        "rev58-d10-3",
+        "rev58-d10-4",
+        "rev58-d10-5",
+        "rev58-d10-6",
+        "rev58-d10-8",
+        "rev58-d10-9",
+        "rev58-d9-3"
       ],
       "accent": "#497E81",
       "lodging": "布哈拉（付费夜7）",
@@ -1947,10 +1960,15 @@ window.TRIP_DATA = {
         {
           "id": "d11v2-06",
           "time": "11:45–14:30",
-          "title": "午餐、入住与午休",
-          "detail": "<p>留至少90分钟吃饭、补水和休息；若早到但无房先寄存，若抵达晚则午休后只看雷吉斯坦重点。</p>",
-          "plain": "午餐、入住与午休  留至少90分钟吃饭、补水和休息；若早到但无房先寄存，若抵达晚则午休后只看雷吉斯坦重点。 ",
-          "links": [],
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E6%92%92%E9%A9%AC%E5%B0%94%E7%BD%95"
+            }
+          ],
           "place": null,
           "highlight": false,
           "status": "planned",
@@ -2068,209 +2086,176 @@ window.TRIP_DATA = {
       "timezone": "Asia/Samarkand",
       "city": "撒马尔罕",
       "defaultCity": "撒马尔罕",
-      "priority": "早晨夏伊辛达→比比哈努姆→Siyob，午间洗衣，傍晚按昨日完成情况补古尔埃米尔。",
+      "priority": "normal",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d12v2-01",
-          "time": "06:45～07:20",
-          "title": "早餐、轻装与洗衣预备",
-          "detail": "<p>带水、防晒、护照和实体学生证；将中午要洗的衣物先分袋，确认住宿洗衣/烘干时段。</p>",
-          "plain": "早餐、轻装与洗衣预备  带水、防晒、护照和实体学生证；将中午要洗的衣物先分袋，确认住宿洗衣/烘干时段。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d12v2-02",
-          "time": "07:20～07:50",
-          "title": "拟住雷吉斯坦片区→夏伊辛达",
-          "detail": "<p>优先正规车或已核公交，给进门和购票留余量；清晨班次不足就短程打车。</p>",
-          "plain": "拟住雷吉斯坦片区→夏伊辛达  优先正规车或已核公交，给进门和购票留余量；清晨班次不足就短程打车。 ",
+          "id": "d12r58-01",
+          "time": "07:00–07:30",
+          "title": "早餐并去夏伊辛达",
+          "detail": "<p>较早去墓群，带遮阳和饮水，不为照片攀爬宗教古迹。</p>",
+          "plain": "早餐并去夏伊辛达 较早去墓群，带遮阳和饮水，不为照片攀爬宗教古迹。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tashkent%20Street%20Samarkand%20Uzbekistan&destination=Shah%20i%20Zinda%20Samarkand%20Uzbekistan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Shah-i-Zinda%20Samarkand"
             }
           ],
-          "place": "shah-i-zinda",
+          "place": "rev58-d12-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d12v2-03",
-          "time": "07:50～09:20",
+          "id": "d12r58-02",
+          "time": "07:30–09:30",
           "title": "夏伊辛达陵墓群",
-          "detail": "<p>留90分钟，购票前核是否对外开放；台阶慢行，先看主要轴线与瓷砖细部。暑热、体力不佳或人多时减少拍照等待，停留缩到60分钟。</p>",
-          "plain": "夏伊辛达陵墓群  留90分钟，购票前核是否对外开放；台阶慢行，先看主要轴线与瓷砖细部。暑热、体力不佳或人多时减少拍照等待，停留缩到60分钟。 ",
-          "links": [],
-          "place": "shah-i-zinda",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d12v2-04",
-          "time": "09:20～09:45",
-          "title": "陵墓群→比比哈努姆",
-          "detail": "<p>步行留25分钟，沿人行道路，不走地图显示但现场封闭的捷径；途中补水。</p>",
-          "plain": "陵墓群→比比哈努姆  步行留25分钟，沿人行道路，不走地图显示但现场封闭的捷径；途中补水。 ",
+          "detail": "<p>两小时完整走主轴和瓷砖细节；按当日开门时间入场。</p>",
+          "plain": "夏伊辛达陵墓群 两小时完整走主轴和瓷砖细节；按当日开门时间入场。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Shah%20i%20Zinda%20Samarkand%20Uzbekistan&destination=Bibi%20Khanym%20Mosque%20Samarkand%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Shah-i-Zinda%20Samarkand"
             }
           ],
-          "place": "bibi-khanym",
+          "place": "rev58-d12-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d12v2-05",
-          "time": "09:45～10:35",
-          "title": "比比哈努姆清真寺",
-          "detail": "<p>停留50分钟，核单独门票和安全开放区域；不攀爬遗迹，室外拍摄穿插阴影休息。若关闭，外观15分钟后提前去巴扎。</p>",
-          "plain": "比比哈努姆清真寺  停留50分钟，核单独门票和安全开放区域；不攀爬遗迹，室外拍摄穿插阴影休息。若关闭，外观15分钟后提前去巴扎。 ",
-          "links": [],
-          "place": "bibi-khanym",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d12v2-06",
-          "time": "10:35～10:50",
-          "title": "清真寺→Siyob巴扎",
-          "detail": "<p>短步行去巴扎，留15分钟；注意人流与随身包，不把贵重证件拿在手里。</p>",
-          "plain": "清真寺→Siyob巴扎  短步行去巴扎，留15分钟；注意人流与随身包，不把贵重证件拿在手里。 ",
+          "id": "d12r58-03",
+          "time": "09:30–11:15",
+          "title": "比比哈努姆与Siyob巴扎",
+          "detail": "<p>从墓群方向接比比哈努姆，再到巴扎买水果与小吃。</p>",
+          "plain": "比比哈努姆与Siyob巴扎 从墓群方向接比比哈努姆，再到巴扎买水果与小吃。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Bibi%20Khanym%20Mosque%20Samarkand%20Uzbekistan&destination=Siyob%20Bazaar%20Samarkand%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bibi-Khanym%20Mosque%20Samarkand"
             }
           ],
-          "place": "siyob",
+          "place": "rev58-d12-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d12v2-07",
-          "time": "10:50～12:00",
-          "title": "Siyob巴扎采购与午餐方向",
-          "detail": "<p>看水果、馕和日用品，少量购买当日食用；先问单位和价格，主餐选现制热食，留出坐下喝水时间。</p>",
-          "plain": "Siyob巴扎采购与午餐方向  看水果、馕和日用品，少量购买当日食用；先问单位和价格，主餐选现制热食，留出坐下喝水时间。 ",
-          "links": [],
-          "place": "siyob",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d12v2-08",
-          "time": "12:00～12:30",
-          "title": "巴扎→拟住片区",
-          "detail": "<p>避开正午长走，短程车回雷吉斯坦附近；购买的食品及时妥善存放。</p>",
-          "plain": "巴扎→拟住片区  避开正午长走，短程车回雷吉斯坦附近；购买的食品及时妥善存放。 ",
+          "id": "d12r58-04",
+          "time": "11:15–12:15",
+          "title": "撒马尔罕抓饭午餐",
+          "detail": "<p>保留完整正餐和补水窗口，按已选餐厅点单，不承诺市场某摊全天有抓饭。</p>",
+          "plain": "撒马尔罕抓饭午餐 保留完整正餐和补水窗口，按已选餐厅点单，不承诺市场某摊全天有抓饭。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Siyob%20Bazaar%20Samarkand%20Uzbekistan&destination=Tashkent%20Street%20Samarkand%20Uzbekistan&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Samarkand%20Uzbekistan"
             }
           ],
-          "place": null,
+          "place": "rev58-d12-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d12v2-09",
-          "time": "12:30～15:30",
-          "title": "第2次洗衣、午休与备份",
-          "detail": "<p>先交洗衣再洗漱午休，确认取衣和烘干费；充电、备份照片，避开中午户外暴晒。</p>",
-          "plain": "第2次洗衣、午休与备份  先交洗衣再洗漱午休，确认取衣和烘干费；充电、备份照片，避开中午户外暴晒。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d12v2-10",
-          "time": "15:30～16:00",
-          "title": "拟住片区→古尔埃米尔",
-          "detail": "<p>若D11已入内，改为休息至17:00后再出门；未参观则按当日营业赴陵墓。</p>",
-          "plain": "拟住片区→古尔埃米尔  若D11已入内，改为休息至17:00后再出门；未参观则按当日营业赴陵墓。 ",
+          "id": "d12r58-05",
+          "time": "12:15–14:15",
+          "title": "阿夫拉西阿卜博物馆",
+          "detail": "<p>叫车短接驳后看粟特壁画；馆内恒温和当日拍摄规定以场馆为准，不额外许诺冷气强度。</p>",
+          "plain": "阿夫拉西阿卜博物馆 叫车短接驳后看粟特壁画；馆内恒温和当日拍摄规定以场馆为准，不额外许诺冷气强度。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tashkent%20Street%20Samarkand%20Uzbekistan&destination=Gur%20e%20Amir%20Mausoleum%20Samarkand%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Afrasiab%20Museum%20Samarkand"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://samarkandmuseum.uz/en/"
             }
           ],
-          "place": "gur-emir",
+          "place": "rev58-d12-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d12v2-11",
-          "time": "16:00～17:00",
-          "title": "古尔埃米尔补参观或休息",
-          "detail": "<p>未入内者留60分钟看重点，门票与最后入场现场核；已完成者保留为自由休息，不为填满日程重复买票。</p>",
-          "plain": "古尔埃米尔补参观或休息  未入内者留60分钟看重点，门票与最后入场现场核；已完成者保留为自由休息，不为填满日程重复买票。 ",
-          "links": [],
-          "place": "gur-emir",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d12v2-12",
-          "time": "17:00～18:30",
-          "title": "返回雷吉斯坦外观与晚餐",
-          "detail": "<p>步行回广场周边，选择晚餐并待天气转凉；夜景以公共外观为主，灯光/演出是否运营及另购票均待核，不承诺固定场次。</p>",
-          "plain": "返回雷吉斯坦外观与晚餐  步行回广场周边，选择晚餐并待天气转凉；夜景以公共外观为主，灯光/演出是否运营及另购票均待核，不承诺固定场次。 ",
+          "id": "d12r58-06",
+          "time": "14:15–15:15",
+          "title": "但以理墓与返城接驳",
+          "detail": "<p>墓区为宗教及户外场所，不属于空调避暑馆；穿着得体，结束后叫车回中心。</p>",
+          "plain": "但以理墓与返城接驳 墓区为宗教及户外场所，不属于空调避暑馆；穿着得体，结束后叫车回中心。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gur%20e%20Amir%20Mausoleum%20Samarkand%20Uzbekistan&destination=Registan%20Square%20Samarkand%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Khodja%20Daniyar%20Mausoleum%20Samarkand"
             }
           ],
-          "place": "registan",
+          "place": "rev58-d12-6",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d12v2-13",
-          "time": "18:30～21:00",
-          "title": "返住宿、取衣与核返程",
-          "detail": "<p>取回干衣，核D13赴塔什干铁路站点与发时；若衣未干优先处理，不为夜景拖到很晚。拟住片区即广场附近，确认后换成酒店导航。</p>",
-          "plain": "返住宿、取衣与核返程  取回干衣，核D13赴塔什干铁路站点与发时；若衣未干优先处理，不为夜景拖到很晚。拟住片区即广场附近，确认后换成酒店导航。 ",
+          "id": "d12r58-07",
+          "time": "15:15–16:30",
+          "title": "中央邮局寄卡与经学院补遗",
+          "detail": "<p>邮局选可营业支局，队长就留到第二天；雷吉斯坦再入场是否另购票看现场票规。</p>",
+          "plain": "中央邮局寄卡与经学院补遗 邮局选可营业支局，队长就留到第二天；雷吉斯坦再入场是否另购票看现场票规。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Registan%20Square%20Samarkand%20Uzbekistan&destination=Tashkent%20Street%20Samarkand%20Uzbekistan&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Registan%20Samarkand"
             }
           ],
-          "place": null,
+          "place": "rev58-d12-7",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d12r58-08",
+          "time": "16:30–17:30",
+          "title": "晚餐",
+          "detail": "<p>选已列餐店，避免接下来蓝调时刻因等餐错过。</p>",
+          "plain": "晚餐 选已列餐店，避免接下来蓝调时刻因等餐错过。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Samarkand%20Uzbekistan"
+            }
+          ],
+          "place": "rev58-d12-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d12r58-09",
+          "time": "17:30–20:30",
+          "title": "雷吉斯坦建筑细节与蓝调夜景",
+          "detail": "<p>灯光亮起可期待，固定3D秀场次未取得官方2027排期，不能承诺每天一定有整场秀。21:30回青旅可机洗。</p>",
+          "plain": "雷吉斯坦建筑细节与蓝调夜景 灯光亮起可期待，固定3D秀场次未取得官方2027排期，不能承诺每天一定有整场秀。21:30回青旅可机洗。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Registan%20Samarkand"
+            }
+          ],
+          "place": "rev58-d12-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
         }
       ],
       "extras": "开放与票价均在2027出行前复核。宗教和陵墓区域遮肩过膝、尊重拍摄限制。",
       "places": [
-        "shah-i-zinda",
-        "bibi-khanym",
-        "siyob",
-        "gur-emir",
-        "registan"
+        "rev58-d12-1",
+        "rev58-d12-3",
+        "rev58-d12-4",
+        "rev58-d12-5",
+        "rev58-d12-6",
+        "rev58-d12-7"
       ],
       "accent": "#497E81",
       "lodging": "撒马尔罕（付费夜9）",
@@ -2457,7 +2442,6 @@ window.TRIP_DATA = {
         "ulugh-beg",
         "samarkand-station",
         "tashkent-station",
-        "tashkent-ref",
         "tashkent-airport"
       ],
       "accent": "#497E81",
@@ -2850,12 +2834,11 @@ window.TRIP_DATA = {
       ],
       "extras": "团内时间为操作窗口，接送与门票以运营方确认；泥火山是否到达、道路与安全开放受当天条件影响。",
       "places": [
+        "baku-station",
         "gobustan",
         "mud-volcanoes",
-        "highland-park",
-        "flame-towers",
-        "baku-station",
-        "icherisheher"
+        "icherisheher",
+        "highland-park"
       ],
       "accent": "#476C95",
       "lodging": "巴库（付费夜12）",
@@ -2981,9 +2964,9 @@ window.TRIP_DATA = {
         {
           "id": "d16v2-08",
           "time": "12:40～14:00",
-          "title": "午餐、回住宿片区",
-          "detail": "<p>从宫殿步行回拟住片区吃饭与补水；午餐方向选汤/米饭等热餐，不为指定网红店绕路。</p>",
-          "plain": "午餐、回住宿片区  从宫殿步行回拟住片区吃饭与补水；午餐方向选汤/米饭等热餐，不为指定网红店绕路。 ",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
           "links": [
             {
               "label": "步行起终点导航",
@@ -2998,10 +2981,15 @@ window.TRIP_DATA = {
         {
           "id": "d16v2-09",
           "time": "14:00～17:00",
-          "title": "室内午休、充电与夜车核验",
-          "detail": "<p>可在已约定公共空间/咖啡馆休息，不默认退房后仍有床；复核23:10候选车和出发站，查看ADY实际订单及跨境材料。</p>",
-          "plain": "室内午休、充电与夜车核验  可在已约定公共空间/咖啡馆休息，不默认退房后仍有床；复核23:10候选车和出发站，查看ADY实际订单及跨境材料。 ",
-          "links": [],
+          "title": "当日已选展馆与街区补充参观",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "当日已选展馆与街区补充参观 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%B4%E5%BA%93"
+            }
+          ],
           "place": null,
           "highlight": false,
           "status": "planned",
@@ -3122,139 +3110,180 @@ window.TRIP_DATA = {
     {
       "id": "day17",
       "date": "2027-07-27",
-      "label": "第比利斯·老城休整",
-      "title": "第比利斯·老城休整",
-      "name": "第比利斯·老城休整",
+      "label": "第比利斯·旱桥·国博·老城",
+      "title": "第比利斯·旱桥·国博·老城",
+      "name": "第比利斯·旱桥·国博·老城",
       "country": "格鲁吉亚",
       "countryCode": "GE",
       "timezone": "Asia/Tbilisi",
       "city": "第比利斯",
       "defaultCity": "第比利斯",
-      "priority": "夜车后先洗衣和补觉，下午老城环线；登高视开放和体力删减。",
+      "priority": "上午旱桥与国家博物馆，下午老城，日落上缆车。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d17v2-01",
-          "time": "08:41–09:10 现行参考到站",
-          "title": "中央站出站与补水",
-          "detail": "<p>核入境和行李完整，现金/数据先满足到住宿所需；不要把旧08:41当保证。记录回程或后续客运核验待办。</p>",
-          "plain": "中央站出站与补水  核入境和行李完整，现金/数据先满足到住宿所需；不要把旧08:41当保证。记录回程或后续客运核验待办。 ",
-          "links": [],
-          "place": "tbilisi-station",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d17v2-02",
-          "time": "09:10–09:50",
-          "title": "中央站→拟住Avlabari片区",
-          "detail": "<p>乘地铁或正规车，地图以Avlabari站周边为拟住片区，住宿确定后改门牌；主包先入寄存。</p>",
-          "plain": "中央站→拟住Avlabari片区  乘地铁或正规车，地图以Avlabari站周边为拟住片区，住宿确定后改门牌；主包先入寄存。 ",
+          "id": "d17r58-01",
+          "time": "08:41–09:15",
+          "title": "巴库卧铺抵第比利斯",
+          "detail": "<p>巴库23:10→第比利斯08:41为格铁现行公布时刻；阿方已允许具免签资格外国人乘此跨境铁路，2027仍按实售票复核。</p>",
+          "plain": "巴库卧铺抵第比利斯 巴库23:10→第比利斯08:41为格铁现行公布时刻；阿方已允许具免签资格外国人乘此跨境铁路，2027仍按实售票复核。",
           "links": [
             {
-              "label": "公交起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tbilisi%20Central%20Railway%20Station%20Station%20Square&destination=Avlabari%20Metro%20Station%20Tbilisi%20Georgia&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tbilisi%20Central%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.railway.ge/baqodan-tbilisshi-pirveli-matarebeli-chamovida/"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://migration.gov.az/en/news_detail/16833"
             }
           ],
-          "place": null,
-          "highlight": false,
+          "place": "rev58-d17-1",
+          "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d17v2-03",
-          "time": "09:50–10:50",
-          "title": "早餐、寄存与第3次洗衣",
-          "detail": "<p>问明早入住是否有床及收费，不默认免费；先交洗衣并确认烘干取件，再早餐洗漱。保存格鲁吉亚保险和住宿资料。</p>",
-          "plain": "早餐、寄存与第3次洗衣  问明早入住是否有床及收费，不默认免费；先交洗衣并确认烘干取件，再早餐洗漱。保存格鲁吉亚保险和住宿资料。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d17v2-04",
-          "time": "10:50–14:00",
-          "title": "午餐与完整补觉",
-          "detail": "<p>留至少90分钟室内休息，若尚无床在住宿公共区或咖啡馆恢复；高温和夜车疲劳时缩短下午行程，不能削掉午餐与补水。</p>",
-          "plain": "午餐与完整补觉  留至少90分钟室内休息，若尚无床在住宿公共区或咖啡馆恢复；高温和夜车疲劳时缩短下午行程，不能削掉午餐与补水。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d17v2-05",
-          "time": "14:00–14:40",
-          "title": "拟住片区→梅特希教堂",
-          "detail": "<p>步行前往，台阶与坡道慢走；教堂开放或礼拜限制以现场为准，衣着遮肩过膝。</p>",
-          "plain": "拟住片区→梅特希教堂  步行前往，台阶与坡道慢走；教堂开放或礼拜限制以现场为准，衣着遮肩过膝。 ",
+          "id": "d17r58-02",
+          "time": "09:15–10:15",
+          "title": "青旅寄存与冲澡早餐",
+          "detail": "<p>50L留青旅，约一小时完成洗漱；不强制补眠，也不把尚未订青旅的淋浴承诺成免费服务。</p>",
+          "plain": "青旅寄存与冲澡早餐 50L留青旅，约一小时完成洗漱；不强制补眠，也不把尚未订青旅的淋浴承诺成免费服务。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Avlabari%20Metro%20Station%20Tbilisi%20Georgia&destination=Metekhi%20Church%20Tbilisi%20Georgia&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tbilisi%20Georgia"
             }
           ],
-          "place": "metekhi",
+          "place": "rev58-d17-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d17v2-06",
-          "time": "14:40–15:20",
-          "title": "梅特希教堂与河岸观景",
-          "detail": "<p>停留40分钟，入内保持安静、不用闪光灯；若有仪式只看外观和河景。炎热时在阴凉处短停，避免无遮阴平台久坐。</p>",
-          "plain": "梅特希教堂与河岸观景  停留40分钟，入内保持安静、不用闪光灯；若有仪式只看外观和河景。炎热时在阴凉处短停，避免无遮阴平台久坐。 ",
-          "links": [],
-          "place": "metekhi",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d17v2-07",
-          "time": "15:20–15:40",
-          "title": "梅特希→和平桥",
-          "detail": "<p>沿正规人行路线去和平桥，留20分钟；不翻越封闭河岸台阶，随时补水。</p>",
-          "plain": "梅特希→和平桥  沿正规人行路线去和平桥，留20分钟；不翻越封闭河岸台阶，随时补水。 ",
+          "id": "d17r58-03",
+          "time": "10:15–11:15",
+          "title": "旱桥旧货市场",
+          "detail": "<p>先去白天市场，格旅游局参考9:00–17:00；不能看完日落后才安排有摊贩的旱桥。</p>",
+          "plain": "旱桥旧货市场 先去白天市场，格旅游局参考9:00–17:00；不能看完日落后才安排有摊贩的旱桥。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Metekhi%20Church%20Tbilisi%20Georgia&destination=Bridge%20of%20Peace%20Tbilisi%20Georgia&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dry%20Bridge%20Market%20Tbilisi"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://georgia.travel/coming-to-georgia/opening-hours-in-georgia"
             }
           ],
-          "place": "peace-bridge",
+          "place": "rev58-d17-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d17v2-08",
-          "time": "15:40–16:20",
-          "title": "和平桥与Rike河岸休息",
-          "detail": "<p>用40分钟看桥与河岸，先休息后拍照；强晒下缩为15分钟，转附近室内，桥面不作为长时间歇脚点。</p>",
-          "plain": "和平桥与Rike河岸休息  用40分钟看桥与河岸，先休息后拍照；强晒下缩为15分钟，转附近室内，桥面不作为长时间歇脚点。 ",
-          "links": [],
-          "place": "peace-bridge",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d17v2-09",
-          "time": "16:20–16:45",
-          "title": "和平桥→老城街巷",
-          "detail": "<p>向老城步行，选择开放商业街慢走；注意石板路与车辆，不把浴场消费写成必选。</p>",
-          "plain": "和平桥→老城街巷  向老城步行，选择开放商业街慢走；注意石板路与车辆，不把浴场消费写成必选。 ",
+          "id": "d17r58-04",
+          "time": "11:15–11:45",
+          "title": "罗斯塔韦利邮局寄明信片",
+          "detail": "<p>从市场到Rustaveli方向步行/短接驳，邮政营业按具体支局，不把夜间街区当邮局。</p>",
+          "plain": "罗斯塔韦利邮局寄明信片 从市场到Rustaveli方向步行/短接驳，邮政营业按具体支局，不把夜间街区当邮局。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Bridge%20of%20Peace%20Tbilisi%20Georgia&destination=Old%20Tbilisi%20Georgia&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Georgian%20Post%20Rustaveli%20Avenue%20Tbilisi"
+            }
+          ],
+          "place": "rev58-d17-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d17r58-05",
+          "time": "11:45–13:45",
+          "title": "格鲁吉亚国家博物馆",
+          "detail": "<p>现行周二至周日10:00–18:00，周一闭馆；今日周二可排，重点选黄金宝藏与考古展。</p>",
+          "plain": "格鲁吉亚国家博物馆 现行周二至周日10:00–18:00，周一闭馆；今日周二可排，重点选黄金宝藏与考古展。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Georgian%20National%20Museum%20Tbilisi"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://museum.ge/index.php?lng=eng&m=318"
+            }
+          ],
+          "place": "rev58-d17-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d17r58-06",
+          "time": "13:45–14:45",
+          "title": "午餐",
+          "detail": "<p>从博物馆片区往Sameba方向移动前吃饭，按已选餐店就餐。</p>",
+          "plain": "午餐 从博物馆片区往Sameba方向移动前吃饭，按已选餐店就餐。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tbilisi%20Georgia"
+            }
+          ],
+          "place": "rev58-d17-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d17r58-07",
+          "time": "14:45–16:00",
+          "title": "圣三一大教堂",
+          "detail": "<p>叫车/公交往Sameba，参观室内及庭院，再向Metekhi下行。</p>",
+          "plain": "圣三一大教堂 叫车/公交往Sameba，参观室内及庭院，再向Metekhi下行。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Holy%20Trinity%20Cathedral%20Tbilisi"
+            }
+          ],
+          "place": "rev58-d17-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d17r58-08",
+          "time": "16:00–17:30",
+          "title": "梅特希→和平桥→浴场与瀑布",
+          "detail": "<p>地理顺序：Metekhi→Rike/和平桥→Abanotubani；瀑布步道若关闭则只走浴场街区，不越封闭处。</p>",
+          "plain": "梅特希→和平桥→浴场与瀑布 地理顺序：Metekhi→Rike/和平桥→Abanotubani；瀑布步道若关闭则只走浴场街区，不越封闭处。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abanotubani%20Tbilisi"
+            }
+          ],
+          "place": "rev58-d17-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d17r58-09",
+          "time": "17:30–18:30",
+          "title": "老城晚餐",
+          "detail": "<p>缆车登山前就餐，避免日落后再赶市场或邮局。</p>",
+          "plain": "老城晚餐 缆车登山前就餐，避免日落后再赶市场或邮局。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Old%20Tbilisi%20Georgia"
             }
           ],
           "place": "tbilisi-oldtown",
@@ -3263,47 +3292,18 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d17v2-10",
-          "time": "16:45–17:45",
-          "title": "老城散步与可选Narikala观景",
-          "detail": "<p>先看老城街巷；只有确认堡垒周边开放、上行交通运营且体力允许才登高，计划30–45分钟。修缮关闭/队长/夜车疲劳则完全取消登高。</p>",
-          "plain": "老城散步与可选Narikala观景  先看老城街巷；只有确认堡垒周边开放、上行交通运营且体力允许才登高，计划30–45分钟。修缮关闭/队长/夜车疲劳则完全取消登高。 ",
+          "id": "d17r58-10",
+          "time": "18:30–20:45",
+          "title": "Rike缆车与格鲁吉亚母亲像日落",
+          "detail": "<p>回Rike乘缆车上山，看母亲像与要塞外围；要塞内部可能维修，以现场开放区域为准。21:30回青旅可机洗。</p>",
+          "plain": "Rike缆车与格鲁吉亚母亲像日落 回Rike乘缆车上山，看母亲像与要塞外围；要塞内部可能维修，以现场开放区域为准。21:30回青旅可机洗。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Old%20Tbilisi%20Georgia&destination=Narikala%20Fortress%20Tbilisi%20Georgia&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Rike%20Narikala%20Cable%20Car%20Tbilisi"
             }
           ],
-          "place": "narikala",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d17v2-11",
-          "time": "17:45–19:15",
-          "title": "返回Avlabari拟住片区晚餐",
-          "detail": "<p>下坡稳走，吃饺子或炖菜等当地餐方向，先看菜单价；若登高取消，提前回住宿洗漱并取干衣。</p>",
-          "plain": "返回Avlabari拟住片区晚餐  下坡稳走，吃饺子或炖菜等当地餐方向，先看菜单价；若登高取消，提前回住宿洗漱并取干衣。 ",
-          "links": [
-            {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Old%20Tbilisi%20Georgia&destination=Avlabari%20Metro%20Station%20Tbilisi%20Georgia&travelmode=walking"
-            }
-          ],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d17v2-12",
-          "time": "19:15–21:00",
-          "title": "取衣、核卡兹别克团与早睡",
-          "detail": "<p>确认D18集合坐标、含餐、教堂山路四驱接驳是否另收、最晚返城；次日带薄外套和雨具，山区可降温。</p>",
-          "plain": "取衣、核卡兹别克团与早睡  确认D18集合坐标、含餐、教堂山路四驱接驳是否另收、最晚返城；次日带薄外套和雨具，山区可降温。 ",
-          "links": [],
-          "place": null,
+          "place": "rev58-d17-10",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -3311,11 +3311,15 @@ window.TRIP_DATA = {
       ],
       "extras": "A为实际抵第比利斯当地时间，08:41仅旧参考。A晚于12:00则删登高，晚于15:00只保留老城短走。",
       "places": [
-        "tbilisi-station",
+        "rev58-d17-1",
+        "rev58-d17-2",
+        "rev58-d17-3",
+        "rev58-d17-4",
+        "rev58-d17-5",
+        "rev58-d17-7",
+        "rev58-d17-8",
         "tbilisi-oldtown",
-        "metekhi",
-        "peace-bridge",
-        "narikala"
+        "rev58-d17-10"
       ],
       "accent": "#9B6556",
       "lodging": "第比利斯（付费夜13）",
@@ -3542,11 +3546,10 @@ window.TRIP_DATA = {
       ],
       "extras": "下列是团内顺序建议，实际停靠与集合遵从导游；雪山段不自行脱团徒步。",
       "places": [
+        "peace-bridge",
         "jinvali",
         "ananuri",
-        "gergeti",
-        "tbilisi-oldtown",
-        "peace-bridge"
+        "gergeti"
       ],
       "accent": "#9B6556",
       "lodging": "第比利斯（付费夜14）",
@@ -3938,11 +3941,11 @@ window.TRIP_DATA = {
       ],
       "extras": "团内顺序、接送与具体停留按实际产品；门票、学生优惠、午餐是否已含须订团时核清。",
       "places": [
+        "cascade",
         "garni",
         "symphony",
         "geghard",
-        "republic-square",
-        "cascade"
+        "republic-square"
       ],
       "accent": "#9D7047",
       "lodging": "埃里温（付费夜16）",
@@ -4051,10 +4054,15 @@ window.TRIP_DATA = {
         {
           "id": "d21v2-07",
           "time": "11:30～13:30",
-          "title": "午餐、午休与资料整理",
-          "detail": "<p>室内吃热餐、补水并休息，备博物馆证件；查古籍馆当天售票和最后入场，未开放则启用纪念馆备选，不同时赶两个馆。</p>",
-          "plain": "午餐、午休与资料整理  室内吃热餐、补水并休息，备博物馆证件；查古籍馆当天售票和最后入场，未开放则启用纪念馆备选，不同时赶两个馆。 ",
-          "links": [],
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Matenadaran%20Yerevan"
+            }
+          ],
           "place": null,
           "highlight": false,
           "status": "planned",
@@ -4139,9 +4147,7 @@ window.TRIP_DATA = {
       "extras": "2027-07-31为周六；古籍馆现有周六开放信息需行前再次核。山景取决天气，禁止为等亚拉拉特山云开拖到下午。",
       "places": [
         "khor-virap",
-        "matenadaran",
-        "genocide-memorial",
-        "republic-square"
+        "matenadaran"
       ],
       "accent": "#9D7047",
       "lodging": "埃里温（付费夜17）",
@@ -4161,7 +4167,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "格雷梅",
       "defaultCity": "格雷梅",
-      "priority": "先完成埃里温出境和伊城转机；抵达格雷梅后只安顿、进食，不硬塞景点。",
+      "priority": "04:15 EVN经SAW联程，09:15抵ASR；国际接国内需在SAW入境。抵格雷梅后保留最多2小时小憩，再走乌奇希萨尔与鸽子谷。",
       "status": "planned",
       "note": "PC551 04:15→05:40 SAW、PC2732 08:00→09:15 ASR为当前冬季样例，两地夏季时差不变；优先同一订单联程。7月31日18:30提前睡觉，8月1日00:15起床去机场。",
       "rows": [
@@ -4288,12 +4294,11 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>飞马Light3kg座下包不适合5.5kg装备；须按订单选含8kg登机包的票档或另加购。联程与分开票的行李、过境和误机保护不同，付款前核实。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p><p>D22不填虚构航班时刻。若机票为NAV，机场接驳请使用NAV→格雷梅而非ASR路线；国际及转机顺序以正式订单为准。</p>",
+      "extras": "联程与分开票的行李、过境和误机保护不同，付款前核实。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p><p>D22不填虚构航班时刻。若机票为NAV，机场接驳请使用NAV→格雷梅而非ASR路线；国际及转机顺序以正式订单为准。</p>",
       "places": [
         "evn",
         "saw",
         "asr",
-        "nav",
         "goreme-ref"
       ],
       "accent": "#B56948",
@@ -4325,215 +4330,185 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "格雷梅",
       "defaultCity": "格雷梅",
-      "priority": "清晨看球，上午露天博物馆；午间休息后走山谷短线，付费乘球仍为可选。",
+      "priority": "清晨热气球与露天博物馆，下午阿瓦诺斯与帕夏贝，傍晚峡谷短线。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d23v2-01",
-          "time": "05:10–05:30 建议",
-          "title": "轻装出门前准备",
-          "detail": "<p>以前一晚已确认的日出和热气球运营通知微调。穿防滑鞋，带水、薄外套和照明；这是地面观球，不含乘球。若前日航班晚到且疲劳，优先补眠。</p>",
-          "plain": "轻装出门前准备  以前一晚已确认的日出和热气球运营通知微调。穿防滑鞋，带水、薄外套和照明；这是地面观球，不含乘球。若前日航班晚到且疲劳，优先补眠。 ",
-          "links": [],
-          "place": "goreme-ref",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d23v2-02",
-          "time": "05:30–05:55 建议",
-          "title": "格雷梅镇 → 日出观景区",
-          "detail": "<p>从实际青旅出发步行上坡，地图以镇中心作起点。入口和收费以现场为准；天未亮不走陌生山谷捷径。</p>",
-          "plain": "格雷梅镇 → 日出观景区  从实际青旅出发步行上坡，地图以镇中心作起点。入口和收费以现场为准；天未亮不走陌生山谷捷径。 ",
+          "id": "d23r58-01",
+          "time": "05:00–07:00",
+          "title": "格雷梅日出热气球地面摄影",
+          "detail": "<p>看球取决于当日放飞许可和天气，不承诺起飞；与D24保留两个清晨机会。</p>",
+          "plain": "格雷梅日出热气球地面摄影 看球取决于当日放飞许可和天气，不承诺起飞；与D24保留两个清晨机会。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Goreme%20Town%20Centre%20Nevsehir%20Turkey&destination=Goreme%20Sunset%20View%20Point%20Aydin%20Kiragi%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sunrise%20Point%20Goreme"
             }
           ],
-          "place": "goreme-sunrise",
+          "place": "rev58-d23-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d23v2-03",
-          "time": "05:55–07:00 建议",
-          "title": "第1次地面看热气球",
-          "detail": "<p>留在正式观景区域观察晨光与球群；天气或空管可能取消起飞，看到球不作保证。无需追车或进入起降作业场地。</p>",
-          "plain": "第1次地面看热气球  留在正式观景区域观察晨光与球群；天气或空管可能取消起飞，看到球不作保证。无需追车或进入起降作业场地。 ",
-          "links": [],
-          "place": "goreme-sunrise",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d23v2-04",
-          "time": "07:00–08:00 建议",
-          "title": "下山 → 镇内早餐",
-          "detail": "<p>按来路回镇吃早餐，补水和防晒；回青旅存放外套，只带半日所需物品。</p>",
-          "plain": "下山 → 镇内早餐  按来路回镇吃早餐，补水和防晒；回青旅存放外套，只带半日所需物品。 ",
+          "id": "d23r58-02",
+          "time": "07:00–08:00",
+          "title": "早餐与赴露天博物馆",
+          "detail": "<p>步行或短接驳，按开馆时间进场，不再重复D22乌奇希萨尔。</p>",
+          "plain": "早餐与赴露天博物馆 步行或短接驳，按开馆时间进场，不再重复D22乌奇希萨尔。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Goreme%20Sunset%20View%20Point%20Aydin%20Kiragi%20Turkey&destination=Goreme%20Town%20Centre%20Nevsehir%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Open%20Air%20Museum"
             }
           ],
-          "place": "goreme-ref",
+          "place": "rev58-d23-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d23v2-05",
-          "time": "08:15–08:50 建议",
-          "title": "格雷梅镇 → 露天博物馆",
-          "detail": "<p>道路步行约半小时上下，热天可改正规出租车；先核入口及当日开放，避免把地图地标坐标当作售票口。</p>",
-          "plain": "格雷梅镇 → 露天博物馆  道路步行约半小时上下，热天可改正规出租车；先核入口及当日开放，避免把地图地标坐标当作售票口。 ",
+          "id": "d23r58-03",
+          "time": "08:00–11:00",
+          "title": "格雷梅露天博物馆与黑暗教堂",
+          "detail": "<p>主票与黑暗教堂附加票分清，现场票规为准；这是露天遗址，洞窟凉不等于全线空调。</p>",
+          "plain": "格雷梅露天博物馆与黑暗教堂 主票与黑暗教堂附加票分清，现场票规为准；这是露天遗址，洞窟凉不等于全线空调。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Goreme%20Town%20Centre%20Nevsehir%20Turkey&destination=Goreme%20Open%20Air%20Museum%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Open%20Air%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://goturkiye.com/cappadocia/routes"
             }
           ],
-          "place": "goreme-openair",
+          "place": "rev58-d23-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d23v2-06",
-          "time": "09:00–11:30 建议",
-          "title": "格雷梅露天博物馆",
-          "detail": "<p>依现场游览动线看岩窟教堂、壁画和院落，拍摄限制听从告示。原参考20欧元仅草案，2027价格待核；ISIC不默认适用于此馆，额外收费区自行取舍。</p>",
-          "plain": "格雷梅露天博物馆  依现场游览动线看岩窟教堂、壁画和院落，拍摄限制听从告示。原参考20欧元仅草案，2027价格待核；ISIC不默认适用于此馆，额外收费区自行取舍。 ",
-          "links": [],
-          "place": "goreme-openair",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d23v2-07",
-          "time": "11:30–12:30 建议",
-          "title": "博物馆 → 镇中心午餐",
-          "detail": "<p>太阳升高后回镇吃午饭，不继续串联远端山谷；餐后补足傍晚徒步饮水。</p>",
-          "plain": "博物馆 → 镇中心午餐  太阳升高后回镇吃午饭，不继续串联远端山谷；餐后补足傍晚徒步饮水。 ",
+          "id": "d23r58-04",
+          "time": "11:00–12:00",
+          "title": "格雷梅午餐",
+          "detail": "<p>保留一小时用餐；瓦罐肉是否团餐不预先当免费。</p>",
+          "plain": "格雷梅午餐 保留一小时用餐；瓦罐肉是否团餐不预先当免费。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Goreme%20Open%20Air%20Museum%20Turkey&destination=Goreme%20Town%20Centre%20Nevsehir%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Turkey"
             }
           ],
-          "place": "goreme-ref",
+          "place": "rev58-d23-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d23v2-08",
-          "time": "12:30–15:15 建议",
-          "title": "回青旅午休与第4次洗衣",
-          "detail": "<p>交洗或自助洗衣，确认取衣和晾干时间；午间留在室内避暑、补觉。实际住宿未订，回宿按订单地址导航。</p>",
-          "plain": "回青旅午休与第4次洗衣  交洗或自助洗衣，确认取衣和晾干时间；午间留在室内避暑、补觉。实际住宿未订，回宿按订单地址导航。 ",
-          "links": [],
-          "place": "goreme-ref",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d23v2-09",
-          "time": "15:15–16:00 建议",
-          "title": "洗衣收尾、确认山谷短线",
-          "detail": "<p>根据当日气温、日落时间和步道状况，向青旅确认可走入口、返程车辆及2–3小时短线。没有清晰离线步道或体力不足时，改镇边观景，不深入谷底。</p>",
-          "plain": "洗衣收尾、确认山谷短线  根据当日气温、日落时间和步道状况，向青旅确认可走入口、返程车辆及2–3小时短线。没有清晰离线步道或体力不足时，改镇边观景，不深入谷底。 ",
-          "links": [],
-          "place": "red-valley",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d23v2-10",
-          "time": "16:00–16:30 建议",
-          "title": "格雷梅 → 红谷/玫瑰谷入口",
-          "detail": "<p>建议预约车辆至已确认入口，地标导航用于大方向；手机驾驶路线不代表徒步路线。接送点和返程接车时间须出门前落实。</p>",
-          "plain": "格雷梅 → 红谷/玫瑰谷入口  建议预约车辆至已确认入口，地标导航用于大方向；手机驾驶路线不代表徒步路线。接送点和返程接车时间须出门前落实。 ",
+          "id": "d23r58-05",
+          "time": "12:00–13:00",
+          "title": "小巴去阿瓦诺斯",
+          "detail": "<p>主线选择可由公共交通串联的Avanos与Paşabağ，不把4处小巴换乘压进4小时。候车与绕路一起留足。</p>",
+          "plain": "小巴去阿瓦诺斯 主线选择可由公共交通串联的Avanos与Paşabağ，不把4处小巴换乘压进4小时。候车与绕路一起留足。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Goreme%20Town%20Centre%20Nevsehir%20Turkey&destination=Red%20Valley%20Rose%20Valley%20Goreme%20Turkey&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Avanos%20Turkey"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://goturkiye.com/cappadocia/routes"
             }
           ],
-          "place": "red-valley",
+          "place": "rev58-d23-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d23v2-11",
-          "time": "16:30–18:45 建议",
-          "title": "红谷与玫瑰谷短线徒步",
-          "detail": "<p>只走已经确认的2–3小时短线，按体力折返；带足水且不过度暴晒。步道接点、封闭及真实日落未核，至少天黑前离开陌生路段，不强行穿越两条山谷。</p>",
-          "plain": "红谷与玫瑰谷短线徒步  只走已经确认的2–3小时短线，按体力折返；带足水且不过度暴晒。步道接点、封闭及真实日落未核，至少天黑前离开陌生路段，不强行穿越两条山谷。 ",
-          "links": [],
-          "place": "red-valley",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d23v2-12",
-          "time": "18:45–19:30 建议",
-          "title": "安全观景区看夕色后接车回格雷梅",
-          "detail": "<p>天气许可在安全观景区看夕色，随后按预约回镇；此窗口不表示太阳已经落山。如要等到真实日落，必须先确认照明区域及可靠接送，晚餐与回宿顺延，不在陌生山谷走夜路。</p>",
-          "plain": "安全观景区看夕色后接车回格雷梅  天气许可在安全观景区看夕色，随后按预约回镇；此窗口不表示太阳已经落山。如要等到真实日落，必须先确认照明区域及可靠接送，晚餐与回宿顺延，不在陌生山谷走夜路。 ",
+          "id": "d23r58-06",
+          "time": "13:00–14:00",
+          "title": "阿瓦诺斯陶瓷工坊与克孜勒河",
+          "detail": "<p>先问体验是否收费、是否必须购物；洞穴工坊温度与开放情况由商家实际决定。</p>",
+          "plain": "阿瓦诺斯陶瓷工坊与克孜勒河 先问体验是否收费、是否必须购物；洞穴工坊温度与开放情况由商家实际决定。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Red%20Valley%20Rose%20Valley%20Goreme%20Turkey&destination=Goreme%20Town%20Centre%20Nevsehir%20Turkey&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Avanos%20Pottery%20Workshop"
             }
           ],
-          "place": "goreme-ref",
+          "place": "rev58-d23-6",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d23v2-13",
-          "time": "19:30–20:15 建议",
-          "title": "镇内晚餐与取洗衣",
-          "detail": "<p>吃晚餐、补电解质，取回并检查洗衣；不要将湿衣直接密封进次日晚巴行李。</p>",
-          "plain": "镇内晚餐与取洗衣  吃晚餐、补电解质，取回并检查洗衣；不要将湿衣直接密封进次日晚巴行李。 ",
-          "links": [],
-          "place": "goreme-ref",
+          "id": "d23r58-07",
+          "time": "14:00–16:00",
+          "title": "Paşabağ仙人烟囱谷",
+          "detail": "<p>小巴或短程拼车去Paşabağ，包含候车、入场与约一小时游览；Devrent只在合适拼车报价下加，不能保证逐站有车。</p>",
+          "plain": "Paşabağ仙人烟囱谷 小巴或短程拼车去Paşabağ，包含候车、入场与约一小时游览；Devrent只在合适拼车报价下加，不能保证逐站有车。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Pasabag%20Monks%20Valley"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://goturkiye.com/cappadocia/routes"
+            }
+          ],
+          "place": "rev58-d23-7",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d23v2-14",
-          "time": "20:15–21:00 建议",
-          "title": "回宿核对绿线接送、早睡",
-          "detail": "<p>确认明日团费是否含接送、门票、午餐和指定地下城，约定回镇时间；夜巴票面、站点与行李寄存一起核对。</p>",
-          "plain": "回宿核对绿线接送、早睡  确认明日团费是否含接送、门票、午餐和指定地下城，约定回镇时间；夜巴票面、站点与行李寄存一起核对。 ",
-          "links": [],
-          "place": "goreme-ref",
+          "id": "d23r58-08",
+          "time": "16:00–17:00",
+          "title": "返格雷梅与早晚餐",
+          "detail": "<p>今日保傍晚谷地徒步，因此不重复去Uchisar城堡；临时加Devrent就改短徒步。</p>",
+          "plain": "返格雷梅与早晚餐 今日保傍晚谷地徒步，因此不重复去Uchisar城堡；临时加Devrent就改短徒步。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Turkey"
+            }
+          ],
+          "place": "rev58-d23-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d23r58-09",
+          "time": "17:00–20:00",
+          "title": "红谷与玫瑰谷一条连续短线",
+          "detail": "<p>提前下载轨迹并确认返程接驳，选2–3小时短线；日落后走熟路或预约回镇车，不在黑暗中找出口。</p>",
+          "plain": "红谷与玫瑰谷一条连续短线 提前下载轨迹并确认返程接驳，选2–3小时短线；日落后走熟路或预约回镇车，不在黑暗中找出口。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Red%20Valley%20Cappadocia"
+            }
+          ],
+          "place": "rev58-d23-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>两次地面看球都受天气影响，不默认热气球起飞；露天博物馆原参考20欧元，ISIC不默认通用；第4次洗衣，山谷徒步留日落返程时间。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
+      "extras": "</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
-        "goreme-sunrise",
-        "goreme-openair",
-        "red-valley",
-        "goreme-ref"
+        "rev58-d23-1",
+        "rev58-d23-2",
+        "rev58-d23-4",
+        "rev58-d23-5",
+        "rev58-d23-6",
+        "rev58-d23-7",
+        "rev58-d23-9"
       ],
       "accent": "#B56948",
       "lodging": "格雷梅（付费夜19）",
@@ -4742,230 +4717,196 @@ window.TRIP_DATA = {
     {
       "id": "day25",
       "date": "2027-08-04",
-      "label": "安塔利亚·海港休整",
-      "title": "安塔利亚·海港休整",
-      "name": "安塔利亚·海港休整",
+      "label": "安塔利亚·老城·Nekropol·杜登",
+      "title": "安塔利亚·老城·Nekropol·杜登",
+      "name": "安塔利亚·老城·Nekropol·杜登",
       "country": "土耳其",
       "countryCode": "TR",
       "timezone": "Europe/Istanbul",
       "city": "安塔利亚",
       "defaultCity": "安塔利亚",
-      "priority": "夜车后先寄存、补觉；傍晚走老城海港，恢复体力比增加远处景点优先。",
+      "priority": "老城与Nekropol展馆→下杜登入海瀑布→Lara同侧海岸。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d25v2-01",
-          "time": "07:00–07:45",
-          "title": "安塔利亚汽车站下车与早餐",
-          "detail": "<p>抵达时间随D24夜巴票面及路况浮动。先取齐行李、上洗手间、吃早餐并联系青旅；不能把夜巴预估到点当作确定抵达。</p>",
-          "plain": "安塔利亚汽车站下车与早餐  抵达时间随D24夜巴票面及路况浮动。先取齐行李、上洗手间、吃早餐并联系青旅；不能把夜巴预估到点当作确定抵达。 ",
-          "links": [],
-          "place": "antalya-bus",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d25v2-02",
-          "time": "07:45–08:45",
-          "title": "汽车总站 → 卡莱伊奇青旅寄存",
-          "detail": "<p>按实时公共交通方案赴老城；导航终点暂为Kaleiçi地区，实际下车和步行末段改成已订青旅。早入住视房态和收费，不默认免费床位。</p>",
-          "plain": "汽车总站 → 卡莱伊奇青旅寄存  按实时公共交通方案赴老城；导航终点暂为Kaleiçi地区，实际下车和步行末段改成已订青旅。早入住视房态和收费，不默认免费床位。 ",
+          "id": "d25r58-01",
+          "time": "07:00–08:30",
+          "title": "夜巴抵安塔利亚、寄包早餐",
+          "detail": "<p>实际夜巴到站后乘T1A或市内公交往老城；寄存洗漱控制约一小时，不另排午睡。</p>",
+          "plain": "夜巴抵安塔利亚、寄包早餐 实际夜巴到站后乘T1A或市内公交往老城；寄存洗漱控制约一小时，不另排午睡。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Antalya%20Otogar%20Bus%20Terminal%20Turkey&destination=Kaleici%20Antalya%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Antalya%20Otogar"
             }
           ],
-          "place": "kaleici",
-          "highlight": false,
+          "place": "rev58-d25-1",
+          "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-03",
-          "time": "08:45–09:15",
-          "title": "寄存后 → 哈德良门",
-          "detail": "<p>仅带小包出门，穿过老城街巷到哈德良门；路面不平且有台阶，疲劳时先在青旅公共区休息。</p>",
-          "plain": "寄存后 → 哈德良门  仅带小包出门，穿过老城街巷到哈德良门；路面不平且有台阶，疲劳时先在青旅公共区休息。 ",
+          "id": "d25r58-02",
+          "time": "08:30–10:30",
+          "title": "哈德良门、钟楼与卡莱伊奇老城",
+          "detail": "<p>按Hadrian Gate→Kesik Minare→Hidirlik Tower步行，先完成户外古城主线。</p>",
+          "plain": "哈德良门、钟楼与卡莱伊奇老城 按Hadrian Gate→Kesik Minare→Hidirlik Tower步行，先完成户外古城主线。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kaleici%20Antalya%20Turkey&destination=Hadrian%20Gate%20Antalya%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hadrian%20Gate%20Antalya"
             }
           ],
-          "place": "hadrians-gate",
+          "place": "rev58-d25-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-04",
-          "time": "09:15–09:45",
-          "title": "哈德良门与周边街道",
-          "detail": "<p>看古城门外观与石街，不赶博物馆；此段若晚到可直接略去。</p>",
-          "plain": "哈德良门与周边街道  看古城门外观与石街，不赶博物馆；此段若晚到可直接略去。 ",
-          "links": [],
-          "place": "hadrians-gate",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d25v2-05",
-          "time": "09:45–10:10",
-          "title": "哈德良门 → 罗马港",
-          "detail": "<p>沿老城步行下坡到港边，留意台阶、防晒及返程爬坡；不把港边揽客船游加入本日。</p>",
-          "plain": "哈德良门 → 罗马港  沿老城步行下坡到港边，留意台阶、防晒及返程爬坡；不把港边揽客船游加入本日。 ",
+          "id": "d25r58-03",
+          "time": "10:30–11:30",
+          "title": "罗马旧港与海崖观景",
+          "detail": "<p>从老城下到港口再回升，不叠加远端海滩。</p>",
+          "plain": "罗马旧港与海崖观景 从老城下到港口再回升，不叠加远端海滩。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hadrian%20Gate%20Antalya%20Turkey&destination=Old%20City%20Marina%20Kaleici%20Antalya%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Old%20City%20Marina%20Antalya"
             }
           ],
-          "place": "roman-harbour",
+          "place": "rev58-d25-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-06",
-          "time": "10:10–11:00",
-          "title": "罗马港海景与老城阴凉散步",
-          "detail": "<p>在港湾步道短逛拍照，找阴凉处坐下；连续夜巴后以恢复体力为主。</p>",
-          "plain": "罗马港海景与老城阴凉散步  在港湾步道短逛拍照，找阴凉处坐下；连续夜巴后以恢复体力为主。 ",
-          "links": [],
-          "place": "roman-harbour",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d25v2-07",
-          "time": "11:00–12:00",
-          "title": "港边 → 老城午餐",
-          "detail": "<p>慢走回Kaleiçi吃午餐，补饮水；不空腹去远端瀑布。</p>",
-          "plain": "港边 → 老城午餐  慢走回Kaleiçi吃午餐，补饮水；不空腹去远端瀑布。 ",
+          "id": "d25r58-04",
+          "time": "11:30–12:30",
+          "title": "老城午餐",
+          "detail": "<p>午后转入真实开放的馆；安塔利亚考古博物馆仍列官方闭馆清单，现不作为确定入馆点。</p>",
+          "plain": "老城午餐 午后转入真实开放的馆；安塔利亚考古博物馆仍列官方闭馆清单，现不作为确定入馆点。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Old%20City%20Marina%20Kaleici%20Antalya%20Turkey&destination=Kaleici%20Antalya%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kaleici%20Antalya"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://kvmgm.ktb.gov.tr/TR-46782/gecici-sureyle-kapali-olan-muzeler-ve-bagli-birimler.html"
             }
           ],
-          "place": "kaleici",
+          "place": "rev58-d25-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-08",
-          "time": "12:00–15:00",
-          "title": "办理入住与补觉",
-          "detail": "<p>以青旅实际入住时间为准；尚未放房则询问公共区休息或付费早入住。至少留一段完整午睡，疲劳明显时删下杜登瀑布。</p>",
-          "plain": "办理入住与补觉  以青旅实际入住时间为准；尚未放房则询问公共区休息或付费早入住。至少留一段完整午睡，疲劳明显时删下杜登瀑布。 ",
-          "links": [],
-          "place": "kaleici",
+          "id": "d25r58-05",
+          "time": "12:30–14:00",
+          "title": "Suna–Inan Kirac老城博物馆",
+          "detail": "<p>以老城民俗与历史建筑展取代尚未确认重开的考古馆；古建筑展馆不承诺全馆强冷气。</p>",
+          "plain": "Suna–Inan Kirac老城博物馆 以老城民俗与历史建筑展取代尚未确认重开的考古馆；古建筑展馆不承诺全馆强冷气。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Suna%20Inan%20Kirac%20Kaleici%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://antalya.ktb.gov.tr/TR-310233/suna--inan-kirac-kaleici-muzesi.html"
+            }
+          ],
+          "place": "rev58-d25-5",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-09",
+          "id": "d25r58-06",
+          "time": "14:00–15:00",
+          "title": "安塔利亚Nekropol博物馆",
+          "detail": "<p>老城北侧Doğu Garajı地下遗址展馆；现行官方夏季表有此开放场馆，位置比往西到闭馆旧馆更顺。</p>",
+          "plain": "安塔利亚Nekropol博物馆 老城北侧Doğu Garajı地下遗址展馆；现行官方夏季表有此开放场馆，位置比往西到闭馆旧馆更顺。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Antalya%20Nekropol%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/nekropol-muzesi"
+            }
+          ],
+          "place": "rev58-d25-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d25r58-07",
           "time": "15:00–16:00",
-          "title": "老城 → 下杜登入海瀑布",
-          "detail": "<p>下杜登在Lara方向，与老城有距离；用实时公交路线并加候车余量，或采用正规出租车。若尚未恢复，留在老城，不把瀑布和海滩两头赶。</p>",
-          "plain": "老城 → 下杜登入海瀑布  下杜登在Lara方向，与老城有距离；用实时公交路线并加候车余量，或采用正规出租车。若尚未恢复，留在老城，不把瀑布和海滩两头赶。 ",
+          "title": "市内交通赴下杜登瀑布",
+          "detail": "<p>公交预留约一小时，若堵车改正规出租；目标是东侧Lara方向，不再反向横穿去Konyaalti。</p>",
+          "plain": "市内交通赴下杜登瀑布 公交预留约一小时，若堵车改正规出租；目标是东侧Lara方向，不再反向横穿去Konyaalti。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kaleici%20Antalya%20Turkey&destination=Lower%20Duden%20Waterfalls%20Lara%20Antalya%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lower%20Duden%20Waterfalls%20Antalya"
             }
           ],
-          "place": "lower-duden",
+          "place": "rev58-d25-7",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-10",
-          "time": "16:00–16:45",
-          "title": "下杜登瀑布海边公园",
-          "detail": "<p>只在开放护栏与步道内看入海瀑布，入口、开放和施工状态行前核；此处不等同于上杜登瀑布。</p>",
-          "plain": "下杜登瀑布海边公园  只在开放护栏与步道内看入海瀑布，入口、开放和施工状态行前核；此处不等同于上杜登瀑布。 ",
-          "links": [],
-          "place": "lower-duden",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d25v2-11",
-          "time": "16:45–18:00",
-          "title": "瀑布 → 老城；或改Konyaaltı海滩",
-          "detail": "<p>主案从瀑布回老城，晚间不再跨城赶海滩。若取消瀑布，才用本行第二条导航去Konyaaltı短走；海滩与瀑布二选一，日落时间届时核对。</p>",
-          "plain": "瀑布 → 老城；或改Konyaaltı海滩  主案从瀑布回老城，晚间不再跨城赶海滩。若取消瀑布，才用本行第二条导航去Konyaaltı短走；海滩与瀑布二选一，日落时间届时核对。 ",
+          "id": "d25r58-08",
+          "time": "16:00–17:30",
+          "title": "下杜登入海瀑布",
+          "detail": "<p>从公园开放观景平台拍摄；不把瀑布水汽当全天候降温设备。</p>",
+          "plain": "下杜登入海瀑布 从公园开放观景平台拍摄；不把瀑布水汽当全天候降温设备。",
           "links": [
             {
-              "label": "主案：瀑布→老城",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Lower%20Duden%20Waterfalls%20Lara%20Antalya%20Turkey&destination=Kaleici%20Antalya%20Turkey&travelmode=transit"
-            },
-            {
-              "label": "取消瀑布后：老城→海滩",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kaleici%20Antalya%20Turkey&destination=Konyaalti%20Beach%20Antalya%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lower%20Duden%20Waterfalls%20Antalya"
             }
           ],
-          "place": "kaleici",
+          "place": "rev58-d25-7",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-12",
-          "time": "18:00–19:00",
-          "title": "傍晚海边散步",
-          "detail": "<p>主案在罗马港与老城海岸看夕色；替代案在Konyaaltı海边散步后回城。游泳需看海况与救生设施，未恢复体力就不下水。</p>",
-          "plain": "傍晚海边散步  主案在罗马港与老城海岸看夕色；替代案在Konyaaltı海边散步后回城。游泳需看海况与救生设施，未恢复体力就不下水。 ",
+          "id": "d25r58-09",
+          "time": "17:30–18:30",
+          "title": "Lara方向晚餐",
+          "detail": "<p>在东侧海岸顺路吃饭，保后续海岸日落窗口。</p>",
+          "plain": "Lara方向晚餐 在东侧海岸顺路吃饭，保后续海岸日落窗口。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kaleici%20Antalya%20Turkey&destination=Old%20City%20Marina%20Kaleici%20Antalya%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lara%20Antalya"
             }
           ],
-          "place": "roman-harbour",
+          "place": "rev58-d25-9",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25v2-13",
-          "time": "19:00–20:00",
-          "title": "回老城晚餐",
-          "detail": "<p>回住宿附近吃晚饭，补水、买次日车上简餐；当晚核实安塔利亚→Kaş的真实发车站和到站。</p>",
-          "plain": "回老城晚餐  回住宿附近吃晚饭，补水、买次日车上简餐；当晚核实安塔利亚→Kaş的真实发车站和到站。 ",
+          "id": "d25r58-10",
+          "time": "18:30–20:30",
+          "title": "Lara海岸日落与返老城",
+          "detail": "<p>同侧海岸看晚霞后回住处；Konyaalti在城西，本日不折返。21:30后可洗衣并取次日用品。</p>",
+          "plain": "Lara海岸日落与返老城 同侧海岸看晚霞后回住处；Konyaalti在城西，本日不折返。21:30后可洗衣并取次日用品。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Old%20City%20Marina%20Kaleici%20Antalya%20Turkey&destination=Kaleici%20Antalya%20Turkey&travelmode=walking"
-            },
-            {
-              "label": "海滩替代案：回老城",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Konyaalti%20Beach%20Antalya%20Turkey&destination=Kaleici%20Antalya%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lara%20Beach%20Antalya"
             }
           ],
-          "place": "kaleici",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d25v2-14",
-          "time": "20:00–21:00",
-          "title": "回宿洗澡与早睡",
-          "detail": "<p>收好寄存行李并给手机充电；次日Kaş连续两晚住宿和船游订单一起离线保存。实际青旅路线以订房地址替换老城参考点。</p>",
-          "plain": "回宿洗澡与早睡  收好寄存行李并给手机充电；次日Kaş连续两晚住宿和船游订单一起离线保存。实际青旅路线以订房地址替换老城参考点。 ",
-          "links": [],
-          "place": "kaleici",
+          "place": "rev58-d25-10",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -4973,12 +4914,15 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>早到先问寄存/付费早入住，不默认免费床位；下杜登瀑布与老城有距离，疲劳优先补觉，海滩按体力择一。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
-        "antalya-bus",
-        "kaleici",
-        "hadrians-gate",
-        "roman-harbour",
-        "lower-duden",
-        "konyaalti"
+        "rev58-d25-1",
+        "rev58-d25-2",
+        "rev58-d25-3",
+        "rev58-d25-4",
+        "rev58-d25-5",
+        "rev58-d25-6",
+        "rev58-d25-7",
+        "rev58-d25-9",
+        "rev58-d25-10"
       ],
       "accent": "#B56948",
       "lodging": "安塔利亚（付费夜20）",
@@ -5009,163 +4953,192 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "Kaş",
       "defaultCity": "Kaş",
-      "priority": "上午安塔利亚补遗；下午提前到Kaş，保留D26、D27两个完整住宿夜。",
+      "priority": "high",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d26v2-01",
-          "time": "08:00–09:00",
-          "title": "老城早餐与退房整理",
-          "detail": "<p>先吃早餐、结清住宿，确认Kaş青旅连续两晚8/5和8/6。上午只留近处活动，城际巴士时刻须已核实。</p>",
-          "plain": "老城早餐与退房整理  先吃早餐、结清住宿，确认Kaş青旅连续两晚8/5和8/6。上午只留近处活动，城际巴士时刻须已核实。 ",
-          "links": [],
-          "place": "kaleici",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d26v2-02",
-          "time": "09:00–10:00",
-          "title": "卡莱伊奇老城慢逛",
-          "detail": "<p>沿住宿附近石街、门楼短走，给连续转车留体力；主包可寄存但须问清取包时间。</p>",
-          "plain": "卡莱伊奇老城慢逛  沿住宿附近石街、门楼短走，给连续转车留体力；主包可寄存但须问清取包时间。 ",
-          "links": [],
-          "place": "kaleici",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d26v2-03",
-          "time": "10:00–11:00",
-          "title": "回青旅取包、补给与午间准备",
-          "detail": "<p>取回全部行李，买足车上水和轻食，核对票面发车站。不要把半山腰Ağullu汽车站当Kaş镇中心。</p>",
-          "plain": "回青旅取包、补给与午间准备  取回全部行李，买足车上水和轻食，核对票面发车站。不要把半山腰Ağullu汽车站当Kaş镇中心。 ",
-          "links": [],
-          "place": "kaleici",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d26v2-04",
-          "time": "11:00–12:00",
-          "title": "老城 → 安塔利亚汽车总站",
-          "detail": "<p>采用实时公交/有轨交通，至少留60分钟城市接驳；下方为方向参考，实际线路、站台与车次2027待核。</p>",
-          "plain": "老城 → 安塔利亚汽车总站  采用实时公交/有轨交通，至少留60分钟城市接驳；下方为方向参考，实际线路、站台与车次2027待核。 ",
+          "id": "d26r58-01",
+          "time": "06:30–07:00",
+          "title": "早餐退房、主包留前台",
+          "detail": "<p>提前明确取包窗口；今日先去东郊Perge再赶西侧汽车站，不能按普通市内短途算。</p>",
+          "plain": "早餐退房、主包留前台 提前明确取包窗口；今日先去东郊Perge再赶西侧汽车站，不能按普通市内短途算。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kaleici%20Antalya%20Turkey&destination=Antalya%20Otogar%20Bus%20Terminal%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kaleici%20Antalya"
             }
           ],
-          "place": "antalya-bus",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d26v2-05",
-          "time": "12:00–13:30",
-          "title": "车站午餐与报到",
-          "detail": "<p>先吃午餐、上洗手间，发车前30–45分钟找到承运公司；以下13点段为建议购票窗口，不是已确认班次。</p>",
-          "plain": "车站午餐与报到  先吃午餐、上洗手间，发车前30–45分钟找到承运公司；以下13点段为建议购票窗口，不是已确认班次。 ",
-          "links": [],
-          "place": "antalya-bus",
+          "place": "rev58-d25-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d26v2-06",
-          "time": "13:30–17:35 现行样例",
-          "title": "Batı Antalya 13:30：安塔利亚 → Kaş",
-          "detail": "<p>当前公开样例13:30至17:35；必须核清具体车站。若到Ağullu新站，另转镇内接驳至Can Mocamp；预算计接驳余量。</p>",
-          "plain": "Batı Antalya 13:30：安塔利亚 → Kaş  当前公开样例13:30至17:35；必须核清具体车站。若到Ağullu新站，另转镇内接驳至Can Mocamp；预算计接驳余量。 ",
+          "id": "d26r58-02",
+          "time": "07:00–08:30",
+          "title": "T1B至Aksu再短接驳佩尔盖",
+          "detail": "<p>Perge项目官网明确先搭T1B至Aksu，遗址不在电车站门口；末段叫车或按实班公交，避免额外暴走几公里。</p>",
+          "plain": "T1B至Aksu再短接驳佩尔盖 Perge项目官网明确先搭T1B至Aksu，遗址不在电车站门口；末段叫车或按实班公交，避免额外暴走几公里。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Antalya%20Otogar%20Bus%20Terminal%20Turkey&destination=Kas%20Otobus%20Terminali%20Agullu%20Antalya%20Turkey&travelmode=driving"
-            }
-          ],
-          "place": "agullu",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d26v2-07",
-          "time": "17:35–18:20",
-          "title": "Ağullu → Kaş青旅入住",
-          "detail": "<p>若巴士停Ağullu，再转正规镇内小巴/出租车下山；若票面直达镇内则跳过此接驳。导航暂至老镇，末段改实际青旅。</p>",
-          "plain": "Ağullu → Kaş青旅入住  若巴士停Ağullu，再转正规镇内小巴/出租车下山；若票面直达镇内则跳过此接驳。导航暂至老镇，末段改实际青旅。 ",
-          "links": [
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Perge%20Ancient%20City%20Antalya"
+            },
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kas%20Otobus%20Terminali%20Agullu%20Antalya%20Turkey&destination=Kas%20Old%20Town%20Andifli%20Kas%20Antalya%20Turkey&travelmode=driving"
+              "label": "开放时间／运营依据",
+              "url": "https://pergeprojects.org/kentin-konumu"
             }
           ],
-          "place": "kas-oldtown",
+          "place": "rev58-d26-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d26v2-08",
-          "time": "18:20–19:05",
-          "title": "老镇 → Antiphellos古剧场",
-          "detail": "<p>放好主包后步行去古剧场，日落窗口按当日天光微调；晚到或疲劳就改港边散步。现场开放、入口和收费待核，不翻越关闭区域。</p>",
-          "plain": "老镇 → Antiphellos古剧场  放好主包后步行去古剧场，日落窗口按当日天光微调；晚到或疲劳就改港边散步。现场开放、入口和收费待核，不翻越关闭区域。 ",
+          "id": "d26r58-03",
+          "time": "08:30–10:30",
+          "title": "佩尔盖古城",
+          "detail": "<p>主选柱廊街、浴场、竞技场等开放区域；两小时为精华线，不承诺全遗址深度走完。</p>",
+          "plain": "佩尔盖古城 主选柱廊街、浴场、竞技场等开放区域；两小时为精华线，不承诺全遗址深度走完。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kas%20Old%20Town%20Andifli%20Kas%20Antalya%20Turkey&destination=Antiphellos%20Ancient%20Theatre%20Kas%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Perge%20Ancient%20City%20Antalya"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.muze.gov.tr/muze-detay?DistId=PRG&SectionId=PRG01"
             }
           ],
-          "place": "kas-theatre",
+          "place": "rev58-d26-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d26v2-09",
-          "time": "19:05–20:05",
-          "title": "古剧场晚霞 → 老镇晚餐",
-          "detail": "<p>看海与夕色后沿照明道路回镇吃晚饭，不走黑暗海边捷径。向船司再次确认明晨09:30集合地点。</p>",
-          "plain": "古剧场晚霞 → 老镇晚餐  看海与夕色后沿照明道路回镇吃晚饭，不走黑暗海边捷径。向船司再次确认明晨09:30集合地点。 ",
+          "id": "d26r58-04",
+          "time": "10:30–12:15",
+          "title": "返青旅取50L包并转Otogar",
+          "detail": "<p>为守13:30车，建议这一程预留正规出租/拼车预算；全程公共交通则需改15点左右巴士，不能把两者同时算最优。</p>",
+          "plain": "返青旅取50L包并转Otogar 为守13:30车，建议这一程预留正规出租/拼车预算；全程公共交通则需改15点左右巴士，不能把两者同时算最优。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Antiphellos%20Ancient%20Theatre%20Kas%20Turkey&destination=Kas%20Old%20Town%20Andifli%20Kas%20Antalya%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Antalya%20Otogar"
             }
           ],
-          "place": "kas-oldtown",
+          "place": "rev58-d25-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d26v2-10",
-          "time": "20:05–21:15",
-          "title": "Kaş第1晚：回宿准备船游",
-          "detail": "<p>备泳衣、毛巾、防晒、防水袋、饮水和晕船用品；核船餐、装备及额外费用。今晚与明晚连续住Kaş，不搬宿。</p>",
-          "plain": "Kaş第1晚：回宿准备船游  备泳衣、毛巾、防晒、防水袋、饮水和晕船用品；核船餐、装备及额外费用。今晚与明晚连续住Kaş，不搬宿。 ",
-          "links": [],
-          "place": "kas-oldtown",
-          "highlight": true,
+          "id": "d26r58-05",
+          "time": "12:15–13:00",
+          "title": "汽车站午餐并买水",
+          "detail": "<p>核清Batı Antalya省内海岸线柜台、站台与到Kaş中心或Ağullu站，票面终点不能含糊。</p>",
+          "plain": "汽车站午餐并买水 核清Batı Antalya省内海岸线柜台、站台与到Kaş中心或Ağullu站，票面终点不能含糊。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Antalya%20Otogar"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://batiantalyatur.com.tr/"
+            }
+          ],
+          "place": "rev58-d25-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d26r58-06",
+          "time": "13:00–13:30",
+          "title": "核票与海岸巴士登车",
+          "detail": "<p>13:30是推荐选班时间，尚非2027已出票班次；Obilet现行平均车程约4小时，另留上下客和进城接驳。</p>",
+          "plain": "核票与海岸巴士登车 13:30是推荐选班时间，尚非2027已出票班次；Obilet现行平均车程约4小时，另留上下客和进城接驳。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Antalya%20Otogar"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.obilet.com/otobus-bileti/antalya-kas"
+            }
+          ],
+          "place": "rev58-d25-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d26r58-07",
+          "time": "13:30–18:00",
+          "title": "安塔利亚→Kaş D400海岸线",
+          "detail": "<p>按约4–4.5小时规划，到站后如在Ağullu需加短接驳；不保证17:30已到床位。</p>",
+          "plain": "安塔利亚→Kaş D400海岸线 按约4–4.5小时规划，到站后如在Ağullu需加短接驳；不保证17:30已到床位。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kas%20Antalya%20Turkey"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.obilet.com/otobus-bileti/antalya-kas"
+            }
+          ],
+          "place": "rev58-d26-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d26r58-08",
+          "time": "18:00–19:00",
+          "title": "Kaş入住与晚餐",
+          "detail": "<p>保住Kaş两晚；存大包后带10L去古剧场。</p>",
+          "plain": "Kaş入住与晚餐 保住Kaş两晚；存大包后带10L去古剧场。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kas%20Turkey"
+            }
+          ],
+          "place": "rev58-d26-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d26r58-09",
+          "time": "19:00–20:30",
+          "title": "Antiphellos古剧场与港口日落",
+          "detail": "<p>看小镇海岸晚霞，确认明天Kekova船游的具体港口与集合点。</p>",
+          "plain": "Antiphellos古剧场与港口日落 看小镇海岸晚霞，确认明天Kekova船游的具体港口与集合点。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Antiphellos%20Ancient%20Theatre%20Kas"
+            }
+          ],
+          "place": "rev58-d26-9",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
       "extras": "<p>安塔利亚→Kaş约3.5–4小时仅参考，核实到站是Ağullu还是镇内及末段接驳；提前抵达保障Kaş连续两晚。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
-        "kaleici",
-        "antalya-bus",
-        "agullu",
-        "kas-oldtown",
-        "kas-theatre"
+        "rev58-d25-4",
+        "rev58-d26-2",
+        "rev58-d25-1",
+        "rev58-d26-7",
+        "rev58-d26-8",
+        "rev58-d26-9"
       ],
       "accent": "#B56948",
       "lodging": "Kaş青旅第1晚（付费夜21，待订）。本日与D27合计连续2晚",
@@ -5367,10 +5340,10 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>船游核实集合港口、往返接送、餐食、游泳装备与回港时间；D27当晚住Kaş，绝不赶费特希耶夜巴。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p><p>船游中间海湾与Kekova/Simena顺序仅为产品窗口，航程、停靠、回港及是否含餐/门票以正式订单为准；固定保留Kaş第2晚。</p>",
       "places": [
+        "kas-oldtown",
         "kas-harbour",
         "kekova",
-        "simena",
-        "kas-oldtown"
+        "simena"
       ],
       "accent": "#B56948",
       "lodging": "Kaş青旅第2晚（付费夜22，待订）。完整保留两晚住宿",
@@ -5438,9 +5411,9 @@ window.TRIP_DATA = {
         {
           "id": "d28v2-04",
           "time": "11:00–12:00",
-          "title": "回老镇午餐、退房取包",
-          "detail": "<p>回住处洗去海水并换干衣，按青旅规定退房；吃午餐后把夜巴水、轻食和充电器放在随身袋。</p>",
-          "plain": "回老镇午餐、退房取包  回住处洗去海水并换干衣，按青旅规定退房；吃午餐后把夜巴水、轻食和充电器放在随身袋。 ",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
           "links": [
             {
               "label": "打开本段导航",
@@ -5455,11 +5428,16 @@ window.TRIP_DATA = {
         {
           "id": "d28v2-05",
           "time": "12:00–13:30",
-          "title": "午休与核实Ağullu接驳",
-          "detail": "<p>在允许寄存/休息的公共区避暑，确认镇内去Ağullu的小巴发点和下一程实际发车。若小巴不可靠，提前预约正规出租车。</p>",
-          "plain": "午休与核实Ağullu接驳  在允许寄存/休息的公共区避暑，确认镇内去Ağullu的小巴发点和下一程实际发车。若小巴不可靠，提前预约正规出租车。 ",
-          "links": [],
-          "place": "kas-oldtown",
+          "title": "Kaş考古街巷与港区",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "Kaş考古街巷与港区 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Antiphellos%20Ancient%20City%20Kas%20Turkey"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -5546,12 +5524,11 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>Kaş镇到Ağullu汽车站另需地面接驳；至少2.5小时换乘余量，再核费特希耶→伊城到站。小巴延误先联系承运方，不靠追车。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
-        "kas-beach",
         "kas-oldtown",
+        "kas-beach",
         "agullu",
         "fethiye-bus",
-        "alibeykoy",
-        "esenler"
+        "alibeykoy"
       ],
       "accent": "#B56948",
       "lodging": "车上（夜巴候选第2晚，待核待订）",
@@ -5583,158 +5560,179 @@ window.TRIP_DATA = {
     {
       "id": "day29",
       "date": "2027-08-08",
-      "label": "伊斯坦布尔·补觉与金角湾",
-      "title": "伊斯坦布尔·补觉与金角湾",
-      "name": "伊斯坦布尔·补觉与金角湾",
+      "label": "伊斯坦布尔·水宫与金角湾",
+      "title": "伊斯坦布尔·水宫与金角湾",
+      "name": "伊斯坦布尔·水宫与金角湾",
       "country": "土耳其",
       "countryCode": "TR",
       "timezone": "Europe/Istanbul",
       "city": "伊斯坦布尔",
       "defaultCity": "伊斯坦布尔",
-      "priority": "到伊斯坦布尔先洗漱补觉；下午金角湾短线可按抵达情况删减。",
+      "priority": "到站存包后走水宫、考古馆与金角湾，不安排白天补觉。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d29v2-01",
-          "time": "09:30–10:00 现行样例到站",
-          "title": "到伊斯坦布尔：先核真实车站",
-          "detail": "<p>夜巴昨晚从费特希耶发车，本日到达。Alibeyköy或Esenler二选一，以票面为准，08:55–11:45属于旧样例；到站先取行李、补水和上洗手间。</p>",
-          "plain": "到伊斯坦布尔：先核真实车站  夜巴昨晚从费特希耶发车，本日到达。Alibeyköy或Esenler二选一，以票面为准，08:55–11:45属于旧样例；到站先取行李、补水和上洗手间。 ",
-          "links": [],
-          "place": "alibeykoy",
+          "id": "d29r58-01",
+          "time": "09:30–10:30",
+          "title": "夜巴抵伊斯坦布尔与进老城",
+          "detail": "<p>下车终点可能为Esenler/Alibeykoy，按车票乘地铁/电车；不把到汽车站当成已经到青旅。</p>",
+          "plain": "夜巴抵伊斯坦布尔与进老城 下车终点可能为Esenler/Alibeykoy，按车票乘地铁/电车；不把到汽车站当成已经到青旅。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Esenler%20Bus%20Station%20Istanbul"
+            }
+          ],
+          "place": "rev58-d29-1",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d29v2-02",
-          "time": "10:00–10:30",
-          "title": "车站早餐与Istanbulkart准备",
-          "detail": "<p>站内吃早午简餐，检查数据网络和公交支付方式；不直接套用另一个车站的交通线路。下方接驳必须只选真实到站对应链接。</p>",
-          "plain": "车站早餐与Istanbulkart准备  站内吃早午简餐，检查数据网络和公交支付方式；不直接套用另一个车站的交通线路。下方接驳必须只选真实到站对应链接。 ",
-          "links": [],
-          "place": null,
+          "id": "d29r58-02",
+          "time": "10:30–11:15",
+          "title": "青旅寄包冲澡与早餐",
+          "detail": "<p>淋浴依青旅实际允许，50L寄存后直接出门，不强制上午补觉。</p>",
+          "plain": "青旅寄包冲澡与早餐 淋浴依青旅实际允许，50L寄存后直接出门，不强制上午补觉。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Istanbul"
+            }
+          ],
+          "place": "rev58-d29-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d29v2-03",
-          "time": "10:30–12:00",
-          "title": "实际汽车站 → 老城青旅寄存",
-          "detail": "<p>采用实时公共交通方案去Sultanahmet/已订住处，预留换乘与末段步行。导航暂以老城广场为目的地，不是青旅精确入口。</p>",
-          "plain": "实际汽车站 → 老城青旅寄存  采用实时公共交通方案去Sultanahmet/已订住处，预留换乘与末段步行。导航暂以老城广场为目的地，不是青旅精确入口。 ",
+          "id": "d29r58-03",
+          "time": "11:15–12:30",
+          "title": "地下水宫",
+          "detail": "<p>提前查本日场次与票价；普通/夜场、学生优惠不可混用，不能把室内项目都算免费。</p>",
+          "plain": "地下水宫 提前查本日场次与票价；普通/夜场、学生优惠不可混用，不能把室内项目都算免费。",
           "links": [
             {
-              "label": "Alibeyköy到站用此路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Alibeykoy%20Cep%20Otogari%20Istanbul%20Turkey&destination=Sultanahmet%20Square%20Istanbul%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Basilica%20Cistern%20Istanbul"
             },
             {
-              "label": "Esenler到站用此路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Esenler%20Otogari%20Istanbul%20Turkey&destination=Sultanahmet%20Square%20Istanbul%20Turkey&travelmode=transit"
+              "label": "开放时间／运营依据",
+              "url": "https://yerebatan.com/en/"
             }
           ],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d29v2-04",
-          "time": "12:00–13:00",
-          "title": "住宿附近午餐",
-          "detail": "<p>完成寄存后在附近吃午饭、补水；晚到时直接顺延，不为了本表午餐窗口赶路。</p>",
-          "plain": "住宿附近午餐  完成寄存后在附近吃午饭、补水；晚到时直接顺延，不为了本表午餐窗口赶路。 ",
-          "links": [],
-          "place": null,
+          "place": "rev58-d29-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d29v2-05",
-          "time": "13:00–16:00",
-          "title": "办理入住、洗澡与补觉",
-          "detail": "<p>以实际入住时间和房态为准，不默认上午到达即可免费用床；给夜巴后的恢复留完整时段。若仍疲劳，晚上只在住宿附近散步。</p>",
-          "plain": "办理入住、洗澡与补觉  以实际入住时间和房态为准，不默认上午到达即可免费用床；给夜巴后的恢复留完整时段。若仍疲劳，晚上只在住宿附近散步。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d29v2-06",
-          "time": "16:00–17:00",
-          "title": "老城 → 加拉太塔周边",
-          "detail": "<p>按实时T1/步行等方案过金角湾到Galata，留上坡时间；塔只看外观，不安排未核实的登塔门票排队。</p>",
-          "plain": "老城 → 加拉太塔周边  按实时T1/步行等方案过金角湾到Galata，留上坡时间；塔只看外观，不安排未核实的登塔门票排队。 ",
+          "id": "d29r58-04",
+          "time": "12:30–13:15",
+          "title": "圣索菲亚外观与苏丹艾哈迈德广场",
+          "detail": "<p>今天主线看外观，收费游客上层另决定，不混入免费清真寺通道。</p>",
+          "plain": "圣索菲亚外观与苏丹艾哈迈德广场 今天主线看外观，收费游客上层另决定，不混入免费清真寺通道。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Sultanahmet%20Square%20Istanbul%20Turkey&destination=Galata%20Tower%20Beyoglu%20Istanbul%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Istanbul"
             }
           ],
-          "place": "galata",
+          "place": "rev58-d29-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d29v2-07",
-          "time": "17:00–17:45",
-          "title": "加拉太塔外观与街巷",
-          "detail": "<p>在塔前街区慢逛拍照，避开车辆，不赶独立大街；体力不足则缩短。</p>",
-          "plain": "加拉太塔外观与街巷  在塔前街区慢逛拍照，避开车辆，不赶独立大街；体力不足则缩短。 ",
-          "links": [],
-          "place": "galata",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d29v2-08",
-          "time": "17:45–19:00",
-          "title": "下坡 → Karaköy金角湾岸边",
-          "detail": "<p>沿照明街道下行到滨水区，找地方坐下看晚霞；日落实际时刻届时复核，不写死为此时已经落日。</p>",
-          "plain": "下坡 → Karaköy金角湾岸边  沿照明街道下行到滨水区，找地方坐下看晚霞；日落实际时刻届时复核，不写死为此时已经落日。 ",
+          "id": "d29r58-05",
+          "time": "13:15–14:15",
+          "title": "老城午餐",
+          "detail": "<p>用已选Sirkeci/Sultanahmet具体餐店，保一小时正餐。</p>",
+          "plain": "老城午餐 用已选Sirkeci/Sultanahmet具体餐店，保一小时正餐。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Galata%20Tower%20Beyoglu%20Istanbul%20Turkey&destination=Karakoy%20Golden%20Horn%20Waterfront%20Istanbul%20Turkey&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Istanbul"
             }
           ],
-          "place": "golden-horn",
+          "place": "rev58-d29-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d29v2-09",
-          "time": "19:00–20:00",
-          "title": "滨水晚餐与返老城",
-          "detail": "<p>在Karaköy附近吃晚餐后回老城，勿把未核末班渡轮作为唯一回宿方式；使用实时公共交通。</p>",
-          "plain": "滨水晚餐与返老城  在Karaköy附近吃晚餐后回老城，勿把未核末班渡轮作为唯一回宿方式；使用实时公共交通。 ",
+          "id": "d29r58-06",
+          "time": "14:15–16:45",
+          "title": "伊斯坦布尔考古博物馆",
+          "detail": "<p>保2.5小时看开放展区；官方清单列古典楼部分展厅/附楼/北翼修缮，不能承诺所有藏品必展出。</p>",
+          "plain": "伊斯坦布尔考古博物馆 保2.5小时看开放展区；官方清单列古典楼部分展厅/附楼/北翼修缮，不能承诺所有藏品必展出。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Karakoy%20Golden%20Horn%20Waterfront%20Istanbul%20Turkey&destination=Sultanahmet%20Square%20Istanbul%20Turkey&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Archaeological%20Museums"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://muze.gov.tr/muze-detay?SectionId=IAR01&DistId=IAR"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://kvmgm.ktb.gov.tr/TR-46782/gecici-sureyle-kapali-olan-muzeler-ve-bagli-birimler.html"
             }
           ],
-          "place": null,
+          "place": "rev58-d29-6",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d29v2-10",
-          "time": "20:00–21:00",
-          "title": "回宿核托普卡帕票与早睡",
-          "detail": "<p>次日周一主案参观托普卡帕；备实体ISIC、护照及学生证明，确认2027官方开放和学生票条件，早点休息。</p>",
-          "plain": "回宿核托普卡帕票与早睡  次日周一主案参观托普卡帕；备实体ISIC、护照及学生证明，确认2027官方开放和学生票条件，早点休息。 ",
-          "links": [],
-          "place": null,
+          "id": "d29r58-07",
+          "time": "16:45–17:30",
+          "title": "居尔哈尼公园→埃米诺努",
+          "detail": "<p>从博物馆下坡入公园，再步行到金角湾一侧，不重复折返旅馆。</p>",
+          "plain": "居尔哈尼公园→埃米诺努 从博物馆下坡入公园，再步行到金角湾一侧，不重复折返旅馆。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gulhane%20Park%20Istanbul"
+            }
+          ],
+          "place": "rev58-d29-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d29r58-08",
+          "time": "17:30–18:30",
+          "title": "Sirkeci或Karakoy晚餐",
+          "detail": "<p>先吃饭再拍蓝调；加拉塔塔主线为外观，付费登塔另核价。</p>",
+          "plain": "Sirkeci或Karakoy晚餐 先吃饭再拍蓝调；加拉塔塔主线为外观，付费登塔另核价。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Istanbul"
+            }
+          ],
+          "place": "rev58-d29-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d29r58-09",
+          "time": "18:30–20:30",
+          "title": "加拉塔大桥与加拉塔街区日落",
+          "detail": "<p>桥上拍渔人、金角湾与对岸清真寺，步行上Galata街区；按体力乘电车返老城。</p>",
+          "plain": "加拉塔大桥与加拉塔街区日落 桥上拍渔人、金角湾与对岸清真寺，步行上Galata街区；按体力乘电车返老城。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Galata%20Bridge%20Istanbul"
+            }
+          ],
+          "place": "rev58-d29-9",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -5742,10 +5740,14 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>抵站再按实际站点选地铁路线；上午存包、下午办理入住补觉，傍晚只安排加拉太外观与金角湾。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
-        "alibeykoy",
-        "esenler",
-        "galata",
-        "golden-horn"
+        "rev58-d29-1",
+        "rev58-d29-2",
+        "rev58-d29-3",
+        "rev58-d29-4",
+        "rev58-d29-6",
+        "rev58-d29-7",
+        "rev58-d29-8",
+        "rev58-d29-9"
       ],
       "accent": "#B56948",
       "lodging": "伊斯坦布尔（付费夜23）",
@@ -5860,9 +5862,9 @@ window.TRIP_DATA = {
         {
           "id": "d30v2-07",
           "time": "12:45–13:30 建议",
-          "title": "宫区 → Sultanahmet午餐",
-          "detail": "<p>步行到广场周边吃午餐补水；先看菜单价格，午间避开长时间暴晒。</p>",
-          "plain": "宫区 → Sultanahmet午餐  步行到广场周边吃午餐补水；先看菜单价格，午间避开长时间暴晒。 ",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
           "links": [
             {
               "label": "打开本段导航",
@@ -5877,10 +5879,15 @@ window.TRIP_DATA = {
         {
           "id": "d30v2-08",
           "time": "13:30–14:30 建议",
-          "title": "回宿/阴凉室内午休",
-          "detail": "<p>回住处或附近允许久坐的室内休息一小时；此段不是另一个付费景点，给下午礼拜窗口留弹性。</p>",
-          "plain": "回宿/阴凉室内午休  回住处或附近允许久坐的室内休息一小时；此段不是另一个付费景点，给下午礼拜窗口留弹性。 ",
-          "links": [],
+          "title": "伊斯坦布尔考古馆展厅",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "伊斯坦布尔考古馆展厅 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Archaeology%20Museums%20Turkey"
+            }
+          ],
           "place": null,
           "highlight": false,
           "status": "planned",
@@ -5982,25 +5989,13 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d30v2-15",
-          "time": "20:00–21:30 建议",
-          "title": "第5次洗衣与明日票务",
-          "detail": "<p>办理第5次洗衣，确认晾干/取件；明日多尔玛巴赫切排周二，备实体ISIC并核官方学生300 TL参考与参观票项。</p>",
-          "plain": "第5次洗衣与明日票务  办理第5次洗衣，确认晾干/取件；明日多尔玛巴赫切排周二，备实体ISIC并核官方学生300 TL参考与参观票项。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
         }
       ],
-      "extras": "<p>主案周一托普卡帕宫、周二多尔玛巴赫切宫；新疆+1时前者移至8/12周四，8/10周二改Fener/Balat，8/11周三多尔玛巴赫切。第5次洗衣。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
+      "extras": "<p>主案周一托普卡帕宫、周二多尔玛巴赫切宫；新疆+1时前者移至8/12周四，8/10周二改Fener/Balat，8/11周三多尔玛巴赫切。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
         "topkapi",
-        "blue-mosque",
         "hippodrome",
+        "blue-mosque",
         "gulhane",
         "eminonu"
       ],
@@ -6111,11 +6106,16 @@ window.TRIP_DATA = {
         {
           "id": "d31v2-07",
           "time": "12:15–13:30 建议",
-          "title": "Beşiktaş午餐与室内午休",
-          "detail": "<p>午餐后坐下休息、补水，给下午海峡沿岸的公交堵车留弹性；不把午间休息挤成路边站吃。</p>",
-          "plain": "Beşiktaş午餐与室内午休  午餐后坐下休息、补水，给下午海峡沿岸的公交堵车留弹性；不把午间休息挤成路边站吃。 ",
-          "links": [],
-          "place": "besiktas",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=National%20Palaces%20Painting%20Museum%20Istanbul"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -6328,9 +6328,9 @@ window.TRIP_DATA = {
         {
           "id": "d32v2-06",
           "time": "11:45–13:00 建议",
-          "title": "Balat午餐与室内休息",
-          "detail": "<p>在街区吃午餐后坐下避暑，补水；不把上午街拍拖成下午空腹赶路。</p>",
-          "plain": "Balat午餐与室内休息  在街区吃午餐后坐下避暑，补水；不把上午街拍拖成下午空腹赶路。 ",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
           "links": [],
           "place": "balat",
           "highlight": false,
@@ -6574,11 +6574,16 @@ window.TRIP_DATA = {
         {
           "id": "d33v2-07",
           "time": "12:15–13:30 建议",
-          "title": "Moda午餐与室内午休",
-          "detail": "<p>回街区用餐、坐下休息和充电，给下午城市接驳留缓冲；不安排游泳。</p>",
-          "plain": "Moda午餐与室内午休  回街区用餐、坐下休息和充电，给下午城市接驳留缓冲；不安排游泳。 ",
-          "links": [],
-          "place": "moda",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Istanbul"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -6820,11 +6825,16 @@ window.TRIP_DATA = {
         {
           "id": "d34v2-07",
           "time": "18:15–19:00",
-          "title": "办理入住、午餐/补觉",
-          "detail": "<p>先在住处附近吃一餐、补水并休息；若已是晚间，直接晚餐回宿，不机械执行下方老城散步。</p>",
-          "plain": "办理入住、午餐/补觉  先在住处附近吃一餐、补水并休息；若已是晚间，直接晚餐回宿，不机械执行下方老城散步。 ",
-          "links": [],
-          "place": "bascarsija",
+          "title": "萨拉热窝老城市政厅",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "萨拉热窝老城市政厅 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sarajevo%20City%20Hall%20Bosnia%20Herzegovina"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -6862,7 +6872,6 @@ window.TRIP_DATA = {
       "extras": "<p>波黑90/180免签口径，2027行前复核；伊城机场IST与SAW不能混用，机票待用户填。提前核D36当季铁路返程。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
         "saw",
-        "ist",
         "sjj",
         "bascarsija",
         "sebilj",
@@ -6974,9 +6983,9 @@ window.TRIP_DATA = {
         {
           "id": "d35v2-06",
           "time": "11:30–12:15 建议",
-          "title": "老城午餐",
-          "detail": "<p>先吃午餐补水，保留下午博物馆的完整时段；午间不徒步赶长距离主干道。</p>",
-          "plain": "老城午餐  先吃午餐补水，保留下午博物馆的完整时段；午间不徒步赶长距离主干道。 ",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
           "links": [],
           "place": "bascarsija",
           "highlight": false,
@@ -6986,11 +6995,16 @@ window.TRIP_DATA = {
         {
           "id": "d35v2-07",
           "time": "12:15–13:00 建议",
-          "title": "老城午休、核莫斯塔尔返程",
-          "detail": "<p>在住处或室内坐下休息；如D36两程尚未落实，先处理票务，不把问题留到周日傍晚。</p>",
-          "plain": "老城午休、核莫斯塔尔返程  在住处或室内坐下休息；如D36两程尚未落实，先处理票务，不把问题留到周日傍晚。 ",
-          "links": [],
-          "place": "bascarsija",
+          "title": "战争童年博物馆",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "战争童年博物馆 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=War%20Childhood%20Museum%20Sarajevo"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -7110,8 +7124,8 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>国家博物馆原资料周六开放、周一闭馆，学生10 BAM为参考；随身备实体ISIC，黄堡日落按天气与体力可取消。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
-        "latin-bridge",
         "bascarsija",
+        "latin-bridge",
         "sarajevo-museum",
         "yellow-fortress"
       ],
@@ -7133,205 +7147,217 @@ window.TRIP_DATA = {
       "timezone": "Europe/Sarajevo",
       "city": "莫斯塔尔",
       "defaultCity": "莫斯塔尔",
-      "priority": "莫斯塔尔一日往返先确认回程；景点超时先删支线，不能错过最后班次。",
+      "priority": "high",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d36v2-01",
-          "time": "05:00–05:30",
-          "title": "早起早餐与双程票核验",
-          "detail": "<p>本日是2027-08-15周日，铁路是否开行、往返时刻和余票均须提前确认；旧07:15仅样例。先确认晚返能回萨拉热窝，再带轻包出门。</p>",
-          "plain": "早起早餐与双程票核验  本日是2027-08-15周日，铁路是否开行、往返时刻和余票均须提前确认；旧07:15仅样例。先确认晚返能回萨拉热窝，再带轻包出门。 ",
-          "links": [],
-          "place": "sarajevo-station",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-02",
-          "time": "05:30–06:15",
-          "title": "老城 → 萨拉热窝火车站",
-          "detail": "<p>采用当日确实运行的公共交通；清晨若无可用班次则用正规出租车。争取发车前45分钟到站，不把城市接驳压到最后一刻。</p>",
-          "plain": "老城 → 萨拉热窝火车站  采用当日确实运行的公共交通；清晨若无可用班次则用正规出租车。争取发车前45分钟到站，不把城市接驳压到最后一刻。 ",
+          "id": "d36r58-01",
+          "time": "06:15–07:15",
+          "title": "早餐与萨拉热窝站候车",
+          "detail": "<p>07:15为现行早班参考，2027铁路时刻需实售确认；只背10L，50L留萨拉热窝。</p>",
+          "plain": "早餐与萨拉热窝站候车 07:15为现行早班参考，2027铁路时刻需实售确认；只背10L，50L留萨拉热窝。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Bascarsija%20Sarajevo%20Bosnia%20Herzegovina&destination=Sarajevo%20Railway%20Station%20Bosnia%20Herzegovina&travelmode=transit"
-            }
-          ],
-          "place": "sarajevo-station",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-03",
-          "time": "07:15–09:15 购票目标",
-          "title": "列车沿内雷特瓦河谷赴莫斯塔尔",
-          "detail": "<p>以铁路正式票面和运行公告为准，不承诺周日特定列车。车上看河谷、补水；交通导航只供目的地辨认，不能代替铁路时刻。若用大巴需提前改去真实上车站。</p>",
-          "plain": "列车沿内雷特瓦河谷赴莫斯塔尔  以铁路正式票面和运行公告为准，不承诺周日特定列车。车上看河谷、补水；交通导航只供目的地辨认，不能代替铁路时刻。若用大巴需提前改去真实上车站。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Sarajevo%20Railway%20Station%20Bosnia%20Herzegovina&destination=Mostar%20Railway%20Station%20Bosnia%20Herzegovina&travelmode=transit"
-            }
-          ],
-          "place": "mostar-station",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-04",
-          "time": "09:15–10:00",
-          "title": "莫斯塔尔车站 → 老城",
-          "detail": "<p>从实际铁路/大巴到站步行入老城，热天放慢；导航主案为铁路站。出站先再核今晚返程站、发车和报到要求。</p>",
-          "plain": "莫斯塔尔车站 → 老城  从实际铁路/大巴到站步行入老城，热天放慢；导航主案为铁路站。出站先再核今晚返程站、发车和报到要求。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Mostar%20Railway%20Station%20Bosnia%20Herzegovina&destination=Old%20Bazaar%20Kujundziluk%20Mostar%20Bosnia%20Herzegovina&travelmode=walking"
-            }
-          ],
-          "place": "mostar-oldtown",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-05",
-          "time": "10:30–11:30",
-          "title": "老城石街与Kujundžiluk市集",
-          "detail": "<p>按实际到达顺延，石街湿滑且有坡，穿防滑鞋；看小店和河景，不买过多增加返程负担。</p>",
-          "plain": "老城石街与Kujundžiluk市集  按实际到达顺延，石街湿滑且有坡，穿防滑鞋；看小店和河景，不买过多增加返程负担。 ",
-          "links": [],
-          "place": "mostar-oldtown",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-06",
-          "time": "11:30–12:15",
-          "title": "老城 → 老桥与桥头",
-          "detail": "<p>在老桥及桥头慢走看景，勿站在桥面拥堵处；不参加跳桥，不接近无护栏河边。</p>",
-          "plain": "老城 → 老桥与桥头  在老桥及桥头慢走看景，勿站在桥面拥堵处；不参加跳桥，不接近无护栏河边。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Old%20Bazaar%20Kujundziluk%20Mostar%20Bosnia%20Herzegovina&destination=Stari%20Most%20Mostar%20Bosnia%20Herzegovina&travelmode=walking"
-            }
-          ],
-          "place": "stari-most",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-07",
-          "time": "12:15–13:30",
-          "title": "老桥附近午餐与阴凉午休",
-          "detail": "<p>午餐后至少坐下休息半小时，盛夏不连续曝晒；确认剩余游览时间与返程报到时间，不能因拍照拖延车票。</p>",
-          "plain": "老桥附近午餐与阴凉午休  午餐后至少坐下休息半小时，盛夏不连续曝晒；确认剩余游览时间与返程报到时间，不能因拍照拖延车票。 ",
-          "links": [],
-          "place": "stari-most",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-08",
-          "time": "13:30–15:00",
-          "title": "河岸观景与老城补逛",
-          "detail": "<p>只在开放的公共步道看老桥两侧河景，回老城喝水；教堂/清真寺/博物馆如想入内，须先查开放和门票，并服从已确认返程边界。</p>",
-          "plain": "河岸观景与老城补逛  只在开放的公共步道看老桥两侧河景，回老城喝水；教堂/清真寺/博物馆如想入内，须先查开放和门票，并服从已确认返程边界。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Stari%20Most%20Mostar%20Bosnia%20Herzegovina&destination=Old%20Bazaar%20Kujundziluk%20Mostar%20Bosnia%20Herzegovina&travelmode=walking"
-            }
-          ],
-          "place": "mostar-oldtown",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-09",
-          "time": "16:00–17:00",
-          "title": "老城早晚餐与返程准备",
-          "detail": "<p>返程若较早就改打包餐；不为等日落错过末班。先完成餐食、洗手间和补水，再去车站，不临近发车才找替代交通。</p>",
-          "plain": "老城早晚餐与返程准备  返程若较早就改打包餐；不为等日落错过末班。先完成餐食、洗手间和补水，再去车站，不临近发车才找替代交通。 ",
-          "links": [],
-          "place": "mostar-oldtown",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-10",
-          "time": "17:00–18:00",
-          "title": "老城 → 正式返程车站",
-          "detail": "<p>返程先买妥。19:00只作本日购票目标；2027暑期周日是否有对应列车/巴士待核，若只能晚间1390类车就向后调整返宿并取消夜游。</p>",
-          "plain": "老城 → 正式返程车站  返程先买妥。19:00只作本日购票目标；2027暑期周日是否有对应列车/巴士待核，若只能晚间1390类车就向后调整返宿并取消夜游。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Old%20Bazaar%20Kujundziluk%20Mostar%20Bosnia%20Herzegovina&destination=Mostar%20Railway%20Station%20Bosnia%20Herzegovina&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sarajevo%20Railway%20Station"
             },
             {
-              "label": "仅票面为东侧巴士站时使用",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Old%20Bazaar%20Kujundziluk%20Mostar%20Bosnia%20Herzegovina&destination=Autobuska%20Stanica%20Mostar%20East%20Bosnia%20Herzegovina&travelmode=walking"
+              "label": "开放时间／运营依据",
+              "url": "https://www.zfbh.ba/en/time-table/"
             }
           ],
-          "place": "mostar-station",
+          "place": "rev58-d36-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d36v2-11",
-          "time": "19:00–21:00 购票目标",
-          "title": "莫斯塔尔 → 萨拉热窝（优先提前锁返程）",
-          "detail": "<p>必须已经有可执行铁路或大巴返程，具体分钟不填死；车上补水休息。如取消或晚点，尽早联络运营方和青旅，使用事先确认的替代，勿等最后一班后再找车。</p>",
-          "plain": "莫斯塔尔 → 萨拉热窝（优先提前锁返程）  必须已经有可执行铁路或大巴返程，具体分钟不填死；车上补水休息。如取消或晚点，尽早联络运营方和青旅，使用事先确认的替代，勿等最后一班后再找车。 ",
+          "id": "d36r58-02",
+          "time": "07:15–09:15",
+          "title": "Neretva风景铁路赴莫斯塔尔",
+          "detail": "<p>现行约两小时，抵站后步行/短接驳进老城；不要把老版09:10当全年固定到点。</p>",
+          "plain": "Neretva风景铁路赴莫斯塔尔 现行约两小时，抵站后步行/短接驳进老城；不要把老版09:10当全年固定到点。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Mostar%20Railway%20Station%20Bosnia%20Herzegovina&destination=Sarajevo%20Railway%20Station%20Bosnia%20Herzegovina&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mostar%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.zfbh.ba/en/time-table/"
             }
           ],
-          "place": "sarajevo-station",
+          "place": "rev58-d36-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-03",
+          "time": "09:15–11:00",
+          "title": "古桥、铜匠街与老城",
+          "detail": "<p>从站往南到古桥一带，先拍上午光线；登宣礼塔须另核开放与收费。</p>",
+          "plain": "古桥、铜匠街与老城 从站往南到古桥一带，先拍上午光线；登宣礼塔须另核开放与收费。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Stari%20Most%20Mostar"
+            }
+          ],
+          "place": "rev58-d36-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-04",
+          "time": "11:00–12:00",
+          "title": "Koski Mehmed Pasha清真寺与塔顶",
+          "detail": "<p>主选古桥标准机位，入内衣着与登塔条件按现场；留出步行返回交通点。</p>",
+          "plain": "Koski Mehmed Pasha清真寺与塔顶 主选古桥标准机位，入内衣着与登塔条件按现场；留出步行返回交通点。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Koski%20Mehmed%20Pasha%20Mosque%20Mostar"
+            }
+          ],
+          "place": "rev58-d36-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-05",
+          "time": "12:00–13:00",
+          "title": "Tima–Irma或古桥片区午餐",
+          "detail": "<p>在城内已选餐厅吃饭，再去Blagaj；不要在上车前只留零散十分钟。</p>",
+          "plain": "Tima–Irma或古桥片区午餐 在城内已选餐厅吃饭，再去Blagaj；不要在上车前只留零散十分钟。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tima%20Irma%20Mostar"
+            }
+          ],
+          "place": "rev58-d36-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-06",
+          "time": "13:00–14:00",
+          "title": "拼出租/预定接送去Blagaj",
+          "detail": "<p>主线采用短程拼车并预定返程，2027周日公交尚未发布。2026夏季专线11:30、15:30出发，不能假设13:30有10路随到随走。</p>",
+          "plain": "拼出租/预定接送去Blagaj 主线采用短程拼车并预定返程，2027周日公交尚未发布。2026夏季专线11:30、15:30出发，不能假设13:30有10路随到随走。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Blagaj%20Tekke"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://mostarbus.ba/nedjeljne-linije-za-blagaj-i-medugorje/"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://mostarbus.ba/timetable/"
+            }
+          ],
+          "place": "rev58-d36-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-07",
+          "time": "14:00–15:15",
+          "title": "Blagaj修道院与Buna河泉",
+          "detail": "<p>完整看修道院外观、泉眼与河边，入内按开放及穿着要求；此处不是全馆空调避暑景点。</p>",
+          "plain": "Blagaj修道院与Buna河泉 完整看修道院外观、泉眼与河边，入内按开放及穿着要求；此处不是全馆空调避暑景点。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Blagaj%20Tekke"
+            }
+          ],
+          "place": "rev58-d36-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-08",
+          "time": "15:15–16:15",
+          "title": "返莫斯塔尔站并取水",
+          "detail": "<p>预定返车直接去车站。公交省钱版须按11:30去、16:00返整体改排，不能临时等到18:30再赶17点火车。</p>",
+          "plain": "返莫斯塔尔站并取水 预定返车直接去车站。公交省钱版须按11:30去、16:00返整体改排，不能临时等到18:30再赶17点火车。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mostar%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://mostarbus.ba/nedjeljne-linije-za-blagaj-i-medugorje/"
+            }
+          ],
+          "place": "rev58-d36-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-09",
+          "time": "16:15–17:09",
+          "title": "候车与简餐",
+          "detail": "<p>现行常规返程参考17:09，2026夏季周日曾改19:56；预订时核实2027当日车次。如季节晚班，先去站确认再在站附近吃晚餐。</p>",
+          "plain": "候车与简餐 现行常规返程参考17:09，2026夏季周日曾改19:56；预订时核实2027当日车次。如季节晚班，先去站确认再在站附近吃晚餐。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mostar%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.zfbh.ba/en/time-table/"
+            }
+          ],
+          "place": "rev58-d36-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d36r58-10",
+          "time": "17:09–19:30",
+          "title": "火车返萨拉热窝",
+          "detail": "<p>这是常规班次规划窗口，不是2027已售时刻；若票面夏季19:56则整段改19:56–21:54，不能写17:30出发又19:50到达。</p>",
+          "plain": "火车返萨拉热窝 这是常规班次规划窗口，不是2027已售时刻；若票面夏季19:56则整段改19:56–21:54，不能写17:30出发又19:50到达。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sarajevo%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.zfbh.ba/en/time-table/"
+            }
+          ],
+          "place": "rev58-d36-1",
           "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d36v2-12",
-          "time": "21:00–22:00",
-          "title": "返程车站 → Hostel Kucha，直接休息",
-          "detail": "<p>依实际火车/大巴到站选择城市接驳，晚到用正规出租车；未吃晚饭则在站旁买简餐。回同一萨拉热窝青旅睡第3晚，并核明日东萨拉热窝站而非火车站旁巴士站。</p>",
-          "plain": "返程车站 → Hostel Kucha，直接休息  依实际火车/大巴到站选择城市接驳，晚到用正规出租车；未吃晚饭则在站旁买简餐。回同一萨拉热窝青旅睡第3晚，并核明日东萨拉热窝站而非火车站旁巴士站。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Sarajevo%20Railway%20Station%20Bosnia%20Herzegovina&destination=Bascarsija%20Sarajevo%20Bosnia%20Herzegovina&travelmode=transit"
-            }
-          ],
-          "place": null,
-          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
       "extras": "<p>先确认往返票/返程班次，再逛老桥；当季傍晚列车不存在或售罄时，必须有明确大巴末班和出发站作为备选。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p><p>D36所有绝对时段只在早班可执行时使用，实际以2027周日去回两程票面重排；若没有可执行当日往返，不保留这套铁路主案。</p>",
       "places": [
-        "sarajevo-station",
-        "mostar-station",
-        "stari-most",
-        "mostar-oldtown"
+        "rev58-d36-1",
+        "rev58-d36-2",
+        "rev58-d36-3",
+        "rev58-d36-4",
+        "rev58-d36-5",
+        "rev58-d36-6"
       ],
       "accent": "#5577A0",
       "lodging": "萨拉热窝（付费夜30）",
@@ -7536,7 +7562,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Belgrade",
       "city": "贝尔格莱德",
       "defaultCity": "贝尔格莱德",
-      "priority": "博物馆按实际开放核排；城市街区沿路串联，午间留休息和洗衣。",
+      "priority": "按当天景点与交通顺序走，白天不安排强制午睡或洗衣；转场有具体离开时间。",
       "status": "planned",
       "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
       "rows": [
@@ -7608,9 +7634,9 @@ window.TRIP_DATA = {
         {
           "id": "d38v2-06",
           "time": "12:00–12:30 建议",
-          "title": "博物馆 → 广场周边午餐",
-          "detail": "<p>回广场附近吃午饭，先看菜单和付款方式；博物馆排队延误时午餐顺延。</p>",
-          "plain": "博物馆 → 广场周边午餐  回广场附近吃午饭，先看菜单和付款方式；博物馆排队延误时午餐顺延。 ",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
           "links": [
             {
               "label": "打开本段导航",
@@ -7625,11 +7651,16 @@ window.TRIP_DATA = {
         {
           "id": "d38v2-07",
           "time": "12:30–14:00 建议",
-          "title": "午餐后回宿/室内午休",
-          "detail": "<p>保留至少一小时安静休息、充电和补水；午间不沿主干道连续曝晒。</p>",
-          "plain": "午餐后回宿/室内午休  保留至少一小时安静休息、充电和补水；午间不沿主干道连续曝晒。 ",
-          "links": [],
-          "place": "belgrade-republic",
+          "title": "塞尔维亚国家博物馆",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "塞尔维亚国家博物馆 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Serbia%20Belgrade"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -7693,18 +7724,6 @@ window.TRIP_DATA = {
           "timeBasis": "suggested-window"
         },
         {
-          "id": "d38v2-12",
-          "time": "17:15–18:30 建议",
-          "title": "第6次洗衣与行李整理",
-          "detail": "<p>完成第6次洗衣，留足烘干或晾干时间；清点护照、银行卡和次日轻装物品。</p>",
-          "plain": "第6次洗衣与行李整理  完成第6次洗衣，留足烘干或晾干时间；清点护照、银行卡和次日轻装物品。 ",
-          "links": [],
-          "place": "belgrade-republic",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
           "id": "d38v2-13",
           "time": "18:30–20:00 建议",
           "title": "市中心晚餐与傍晚短走",
@@ -7719,17 +7738,22 @@ window.TRIP_DATA = {
         {
           "id": "d38v2-14",
           "time": "20:00–21:00 建议",
-          "title": "回宿收洗衣、核泽蒙公交",
-          "detail": "<p>确认泽蒙去回公交和当日支付方式，下载离线地图；实际回宿路线按已订地址，不把广场当青旅门口。</p>",
-          "plain": "回宿收洗衣、核泽蒙公交  确认泽蒙去回公交和当日支付方式，下载离线地图；实际回宿路线按已订地址，不把广场当青旅门口。 ",
-          "links": [],
-          "place": "belgrade-republic",
+          "title": "塞尔维亚国家博物馆",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "塞尔维亚国家博物馆 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Serbia%20Belgrade"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
         }
       ],
-      "extras": "<p>国家博物馆原资料周二开放、周一闭馆，2027复核；第6次洗衣；圣萨瓦按游客入口与衣着要求进入。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
+      "extras": "</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
         "belgrade-republic",
         "serbia-museum",
@@ -7847,11 +7871,16 @@ window.TRIP_DATA = {
         {
           "id": "d39v2-07",
           "time": "12:00–13:15 建议",
-          "title": "河岸午餐与室内午休",
-          "detail": "<p>先吃午餐，再在阴凉/室内坐下休息补水；正午不沿无遮阴河岸走很久。</p>",
-          "plain": "河岸午餐与室内午休  先吃午餐，再在阴凉/室内坐下休息补水；正午不沿无遮阴河岸走很久。 ",
-          "links": [],
-          "place": "zemun",
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Zemun%20Belgrade%20Serbia"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -8090,10 +8119,15 @@ window.TRIP_DATA = {
         {
           "id": "d40v2-07",
           "time": "12:45–14:00 建议",
-          "title": "午餐与回宿午休",
-          "detail": "<p>午饭后回住处休息、充电，留足次日出境前整理时间；若上午预约较晚，本段相应顺延并优先删下午远点。</p>",
-          "plain": "午餐与回宿午休  午饭后回住处休息、充电，留足次日出境前整理时间；若上午预约较晚，本段相应顺延并优先删下午远点。 ",
-          "links": [],
+          "title": "午餐与顺路补给",
+          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
+          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Yugoslavia%20Belgrade"
+            }
+          ],
           "place": null,
           "highlight": false,
           "status": "planned",
@@ -8202,7 +8236,6 @@ window.TRIP_DATA = {
       "extras": "<p>南斯拉夫馆/特斯拉馆择一主参观，导览语言、预约及开放待核；纪念碑只是补遗，优先保次日机场接驳和休息。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
       "places": [
         "yugoslavia",
-        "tesla",
         "embassy-memorial",
         "beg"
       ],
@@ -8224,129 +8257,192 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "赫尔格达",
       "defaultCity": "赫尔格达",
-      "priority": "贝城赴埃及按实际直飞或转机执行；红海当晚只入住和补给。",
+      "priority": "保留已核价飞马联程，取消原直飞到达日游览；20日晚赫尔格达床位保留并约定跨午夜入住。",
       "status": "planned",
-      "note": "凌晨00:30–05:30为贝尔格莱德当地时间，09:50以后为赫尔格达当地时间；SM388为当前样例，2027-08-20班次与夏令时须重核。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。 8/20夜飞，8/21凌晨入住需预订8/20那一晚。 8/20夜飞，8/21凌晨入住需预订8/20那一晚。",
       "rows": [
         {
-          "id": "d41v2-01",
-          "time": "00:30–01:00 8/20凌晨 · 贝城时间",
-          "title": "早餐、打包与退房",
-          "detail": "<p>T为最终机票上的贝尔格莱德起飞时刻，尚未订票；先吃面包、鸡蛋或酸奶，早餐预留500–900 RSD。清点护照、埃及e-Visa、离境机票和住宿单离线文件；液体与充电宝按承运人规则分装。</p>",
-          "plain": "早餐、打包与退房  T为最终机票上的贝尔格莱德起飞时刻，尚未订票；先吃面包、鸡蛋或酸奶，早餐预留500–900 RSD。清点护照、埃及e-Visa、离境机票和住宿单离线文件；液体与充电宝按承运人规则分装。 ",
-          "links": [],
-          "place": null,
+          "id": "d41r58-01",
+          "time": "08:30–09:15",
+          "title": "早餐与当日航班检查",
+          "detail": "<p>在贝尔格莱德吃早餐，核对两段同一订单及当日登机口；此票目前是用户核价待购，不标已出票。</p>",
+          "plain": "早餐与当日航班检查 在贝尔格莱德吃早餐，核对两段同一订单及当日登机口；此票目前是用户核价待购，不标已出票。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Belgrade%20Republic%20Square"
+            }
+          ],
+          "place": "rev58-d41-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d41v2-02",
-          "time": "01:00–02:30 · 贝城时间",
-          "title": "从市区赴BEG",
-          "detail": "<p>从实际青旅出发，按当日公交或正规车辆路线前往机场；下方共和国广场仅作市中心起点参考，不能代替青旅地址。保留道路拥堵余量，国际航班目标提前约3小时到机场，航空公司更早要求优先。</p>",
-          "plain": "从市区赴BEG  从实际青旅出发，按当日公交或正规车辆路线前往机场；下方共和国广场仅作市中心起点参考，不能代替青旅地址。保留道路拥堵余量，国际航班目标提前约3小时到机场，航空公司更早要求优先。 ",
+          "id": "d41r58-02",
+          "time": "09:15–10:30",
+          "title": "米哈伊洛大公街与共和国广场",
+          "detail": "<p>50L主包留住宿，仅背10L日包，选择附近尚未拍到的街角。</p>",
+          "plain": "米哈伊洛大公街与共和国广场 50L主包留住宿，仅背10L日包，选择附近尚未拍到的街角。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Republic+Square+Belgrade+Serbia&destination=Belgrade+Nikola+Tesla+Airport+BEG+Serbia&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Knez%20Mihailova%20Belgrade"
             }
           ],
-          "place": "beg",
+          "place": "rev58-d41-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d41r58-03",
+          "time": "10:30–11:30",
+          "title": "卡莱梅格丹补拍或街区咖啡",
+          "detail": "<p>不再跨城去泽蒙，保持与住宿及机场动线一致。</p>",
+          "plain": "卡莱梅格丹补拍或街区咖啡 不再跨城去泽蒙，保持与住宿及机场动线一致。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kalemegdan%20Belgrade"
+            }
+          ],
+          "place": "rev58-d41-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d41r58-04",
+          "time": "11:30–12:15",
+          "title": "问号酒馆传统午餐",
+          "detail": "<p>优先汤、烤肉或炖菜，餐厅已满则改附近现有备选，不等位超过15分钟。</p>",
+          "plain": "问号酒馆传统午餐 优先汤、烤肉或炖菜，餐厅已满则改附近现有备选，不等位超过15分钟。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Question%20Mark%20Kafana%20Belgrade"
+            }
+          ],
+          "place": "rev58-d41-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d41r58-05",
+          "time": "12:15–12:45",
+          "title": "回住宿取50L主包",
+          "detail": "<p>退房、取寄存包和充电设备；国内手机号注册问题不影响携程航司直销已核价方案。</p>",
+          "plain": "回住宿取50L主包 退房、取寄存包和充电设备；国内手机号注册问题不影响携程航司直销已核价方案。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Belgrade%20city%20centre"
+            }
+          ],
+          "place": "rev58-d41-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d41r58-06",
+          "time": "12:45–13:45",
+          "title": "市中心前往BEG机场",
+          "detail": "<p>托运50L主包时以13:45左右抵航站楼为目标，比原14:00才出发更稳；采用已核到的机场巴士或出租车。</p>",
+          "plain": "市中心前往BEG机场 托运50L主包时以13:45左右抵航站楼为目标，比原14:00才出发更稳；采用已核到的机场巴士或出租车。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Belgrade%20Nikola%20Tesla%20Airport"
+            }
+          ],
+          "place": "rev58-d41-6",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d41v2-03",
-          "time": "02:30–04:30 · 贝城时间",
-          "title": "值机、行李与安检",
-          "detail": "<p>核对BEG→HRG真实航线、航站楼及是否有转机；Air Cairo仅候选，7kg也须按最终票种核实。水壶安检前倒空，过检后补水；班次变动联动赫尔格达首晚住宿。</p>",
-          "plain": "值机、行李与安检  核对BEG→HRG真实航线、航站楼及是否有转机；Air Cairo仅候选，7kg也须按最终票种核实。水壶安检前倒空，过检后补水；班次变动联动赫尔格达首晚住宿。 ",
-          "links": [],
-          "place": "beg",
+          "id": "d41r58-07",
+          "time": "13:45–15:50",
+          "title": "两段联程值机、托运与出境",
+          "detail": "<p>出示护照及埃及入境许可，确认行李牌终点HRG，保存第二段登机牌；提前确认赫尔格达跨午夜入住。</p>",
+          "plain": "两段联程值机、托运与出境 出示护照及埃及入境许可，确认行李牌终点HRG，保存第二段登机牌；提前确认赫尔格达跨午夜入住。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Belgrade%20Nikola%20Tesla%20Airport%20Terminal%202"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.flypgs.com/en/travel-glossary/connecting-flight-transit-flight"
+            }
+          ],
+          "place": "rev58-d41-7",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d41v2-04",
-          "time": "05:30 贝城 → 09:50 红海·样例",
-          "title": "Air Cairo SM388：贝尔格莱德 → 赫尔格达",
-          "detail": "<p>当前第三方样例05:30至09:50，两端当地时间；Air Cairo官网证实此航线，2027-08-20开行日与时刻须出票核实。早班机请D40早睡。</p>",
-          "plain": "Air Cairo SM388：贝尔格莱德 → 赫尔格达  当前第三方样例05:30至09:50，两端当地时间；Air Cairo官网证实此航线，2027-08-20开行日与时刻须出票核实。早班机请D40早睡。 ",
-          "links": [],
-          "place": "hrg",
+          "id": "d41r58-08",
+          "time": "16:50–19:35",
+          "title": "飞马BEG→SAW",
+          "detail": "<p>以用户核到的2027-08-20航司联程为计划，时刻为当地时间；不把套餐报价写成已支付。</p>",
+          "plain": "飞马BEG→SAW 以用户核到的2027-08-20航司联程为计划，时刻为当地时间；不把套餐报价写成已支付。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sabiha%20Gokcen%20International%20Airport"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.flypgs.com/en/travel-glossary/connecting-flight-transit-flight"
+            }
+          ],
+          "place": "rev58-d41-8",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d41v2-05",
-          "time": "09:50–11:00 红海时间",
-          "title": "入境、取包与当地联网",
-          "detail": "<p>用出发前办妥的埃及官方e-Visa入境；青旅行程不默认具备落地签条件。取包后在正规渠道办理或启用埃及数据，试开地图及联系住宿；不在路边公开护照整页。</p>",
-          "plain": "入境、取包与当地联网  用出发前办妥的埃及官方e-Visa入境；青旅行程不默认具备落地签条件。取包后在正规渠道办理或启用埃及数据，试开地图及联系住宿；不在路边公开护照整页。 ",
+          "id": "d41r58-09",
+          "time": "19:35–21:10",
+          "title": "SAW国际转国际与简餐",
+          "detail": "<p>跟随国际转机标志，确认HRG航班登机口后再吃简餐；2小时15分钟为航班之间的计划间隔。</p>",
+          "plain": "SAW国际转国际与简餐 跟随国际转机标志，确认HRG航班登机口后再吃简餐；2小时15分钟为航班之间的计划间隔。",
           "links": [
             {
-              "label": "埃及官方e-Visa",
-              "url": "https://visa2egypt.gov.eg/"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sabiha%20Gokcen%20International%20Airport"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.flypgs.com/en/travel-glossary/connecting-flight-transit-flight"
             }
           ],
-          "place": "hrg",
+          "place": "rev58-d41-8",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d41v2-06",
-          "time": "11:00–12:00",
-          "title": "机场→实际住宿、办理入住",
-          "detail": "<p>在机场确认正规接驳总价并核车牌；下方只导航到Marina这一市区地标，预订完成后把目的地改成实际青旅。入住核空调、饮水、门禁和次日海滩交通；疲劳时优先睡觉。</p>",
-          "plain": "机场→实际住宿、办理入住  在机场确认正规接驳总价并核车牌；下方只导航到Marina这一市区地标，预订完成后把目的地改成实际青旅。入住核空调、饮水、门禁和次日海滩交通；疲劳时优先睡觉。 ",
+          "id": "d41r58-10",
+          "time": "21:50–23:59",
+          "title": "飞马SAW→HRG跨午夜飞行",
+          "detail": "<p>次日8月21日00:30抵达赫尔格达；今天不安排赫尔格达晚餐、码头或夜景。</p>",
+          "plain": "飞马SAW→HRG跨午夜飞行 次日8月21日00:30抵达赫尔格达；今天不安排赫尔格达晚餐、码头或夜景。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hurghada+International+Airport+HRG+Egypt&destination=Hurghada+Marina+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20International%20Airport"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.flypgs.com/en/travel-glossary/connecting-flight-transit-flight"
             }
           ],
-          "place": "hurghada-marina",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d41v2-07",
-          "time": "17:30–18:30",
-          "title": "Marina傍晚短走",
-          "detail": "<p>仅在已入住、仍有天光且体力足够时进行；沿正规步行区看码头，约30–45分钟就够。不是浮潜团的默认集合点；集合位置以后续团单为准。</p>",
-          "plain": "Marina傍晚短走  仅在已入住、仍有天光且体力足够时进行；沿正规步行区看码头，约30–45分钟就够。不是浮潜团的默认集合点；集合位置以后续团单为准。 ",
-          "links": [],
-          "place": "hurghada-marina",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d41v2-08",
-          "time": "18:30–19:30",
-          "title": "晚餐与补给",
-          "detail": "<p>选现做烤鸡/烤鱼、米饭或埃及豆餐，餐饮暂留200–350 EGP，瓶装水另留30–60 EGP，均为规划额度。看明码标价后点餐，购买明天的饮水、防晒补给。</p>",
-          "plain": "晚餐与补给  选现做烤鸡/烤鱼、米饭或埃及豆餐，餐饮暂留200–350 EGP，瓶装水另留30–60 EGP，均为规划额度。看明码标价后点餐，购买明天的饮水、防晒补给。 ",
-          "links": [],
-          "place": "hurghada-marina",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d41v2-09",
-          "time": "20:00–21:00",
-          "title": "返宿、核海滩与早睡",
-          "detail": "<p>以实际住宿地址导航返宿；离线保存次日海滩具体经营入口、营业与救生安排。当天只完成落地和入住也算完成，不为凑满行程熬夜。</p>",
-          "plain": "返宿、核海滩与早睡  以实际住宿地址导航返宿；离线保存次日海滩具体经营入口、营业与救生安排。当天只完成落地和入住也算完成，不为凑满行程熬夜。 ",
-          "links": [],
-          "place": null,
+          "place": "rev58-d41-10",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -8354,9 +8450,15 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>准备：护照、已生效e-Visa、离境机票、住宿单、保险英文版、埃及数据与少量EGP；住宿地址未定，不提供虚构酒店导航。</p><p>删减：晚到取消Marina；若BEG→HRG改日期，重排埃及接续并保住2027-09-05到校，不自动整体顺延。全部航空待用户观察填写。</p>",
       "places": [
-        "beg",
-        "hrg",
-        "hurghada-marina"
+        "rev58-d41-1",
+        "rev58-d41-2",
+        "rev58-d41-3",
+        "rev58-d41-4",
+        "rev58-d41-5",
+        "rev58-d41-6",
+        "rev58-d41-7",
+        "rev58-d41-8",
+        "rev58-d41-10"
       ],
       "accent": "#AB8543",
       "lodging": "赫尔格达（付费夜35）",
@@ -8387,175 +8489,219 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "赫尔格达",
       "defaultCity": "赫尔格达",
-      "priority": "上午正规海滩，午间室内避暑；傍晚El Dahar老城按体力短走。",
+      "priority": "前夜00:30到达，09:00开始活动；赫尔格达馆移上午，下午不误排闭馆时段。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d42v2-01",
-          "time": "06:45–07:30",
-          "title": "早餐与海滩装备",
-          "detail": "<p>豆泥ful、taameya炸豆丸或鸡蛋面包，早餐预算80–150 EGP。带泳衣、速干巾、防晒衣、帽子、饮水和防水袋；先确认正规海滩当天开放与救生值守。</p>",
-          "plain": "早餐与海滩装备  豆泥ful、taameya炸豆丸或鸡蛋面包，早餐预算80–150 EGP。带泳衣、速干巾、防晒衣、帽子、饮水和防水袋；先确认正规海滩当天开放与救生值守。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-02",
-          "time": "07:30–08:00",
-          "title": "前往已确认的经营海滩",
-          "detail": "<p>具体入口须由住宿或经营方确认，现有“海滩”标记只是检索参考。下方Marina→Orange Beach是可比对的具名路线示例，不表示已选定该经营方或已含入场。</p>",
-          "plain": "前往已确认的经营海滩  具体入口须由住宿或经营方确认，现有“海滩”标记只是检索参考。下方Marina→Orange Beach是可比对的具名路线示例，不表示已选定该经营方或已含入场。 ",
+          "id": "d42r58-01",
+          "time": "00:30–02:30",
+          "title": "HRG入境、取包与前往青旅",
+          "detail": "<p>取托运50L主包后赴预先约好的青旅；订8月20日那一晚并通知21日凌晨入住，不误订成21日下午才可入住。</p>",
+          "plain": "HRG入境、取包与前往青旅 取托运50L主包后赴预先约好的青旅；订8月20日那一晚并通知21日凌晨入住，不误订成21日下午才可入住。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hurghada+Marina+Egypt&destination=Orange+Beach+Hurghada+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20International%20Airport"
             }
           ],
-          "place": "hurghada-beach",
+          "place": "rev58-d41-10",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d42v2-03",
-          "time": "08:00–08:20",
-          "title": "购票、寄物与辨识泳区",
-          "detail": "<p>入场前问清日票、躺椅/毛巾是否另收费、寄物和救生覆盖；看旗帜与当天海况。只在开放泳区活动，不因海面平静就游离岸边。</p>",
-          "plain": "购票、寄物与辨识泳区  入场前问清日票、躺椅/毛巾是否另收费、寄物和救生覆盖；看旗帜与当天海况。只在开放泳区活动，不因海面平静就游离岸边。 ",
-          "links": [],
-          "place": "hurghada-beach",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-04",
-          "time": "08:20–09:30",
-          "title": "近岸游泳或浅水适应",
-          "detail": "<p>慢慢适应水温和海况，能力不足就穿救生衣、只在可站立且允许的区域活动。别踩珊瑚、别触摸海洋动物；本日不追求远距离浮潜。</p>",
-          "plain": "近岸游泳或浅水适应  慢慢适应水温和海况，能力不足就穿救生衣、只在可站立且允许的区域活动。别踩珊瑚、别触摸海洋动物；本日不追求远距离浮潜。 ",
-          "links": [],
-          "place": "hurghada-beach",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-05",
-          "time": "09:30–10:00",
-          "title": "阴凉补水、第二轮短休整",
-          "detail": "<p>补水后再决定是否下水，头晕或晒伤立即停止。饮用水预算只作采购额度，不限死实际用水量；不用酒精代替补水。</p>",
-          "plain": "阴凉补水、第二轮短休整  补水后再决定是否下水，头晕或晒伤立即停止。饮用水预算只作采购额度，不限死实际用水量；不用酒精代替补水。 ",
-          "links": [],
-          "place": "hurghada-beach",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-06",
-          "time": "10:00–10:45",
-          "title": "冲洗、更衣并离开海滩",
-          "detail": "<p>趁高温前结束海边活动。冲淡水、擦干耳部，湿泳衣单独装；回实际住宿的路线待地址确定，不以地图上的海滩参考点当已订入口。</p>",
-          "plain": "冲洗、更衣并离开海滩  趁高温前结束海边活动。冲淡水、擦干耳部，湿泳衣单独装；回实际住宿的路线待地址确定，不以地图上的海滩参考点当已订入口。 ",
-          "links": [],
-          "place": "hurghada-beach",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-07",
-          "time": "11:00–12:00",
-          "title": "午餐：koshari或烤鸡饭",
-          "detail": "<p>选有空调的店，koshari豆米面或烤鸡饭预算150–250 EGP。先看价格和饮品收费，避免为了找网红店在正午长走。</p>",
-          "plain": "午餐：koshari或烤鸡饭  选有空调的店，koshari豆米面或烤鸡饭预算150–250 EGP。先看价格和饮品收费，避免为了找网红店在正午长走。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-08",
-          "time": "12:00–16:30",
-          "title": "空调休息与洗晒",
-          "detail": "<p>回住宿午睡、洗泳衣并补水；核明天出海团资质、保险浮潜保障、集合单、救生衣和天气取消规则。若无合适团，D43改海滩休整，不临时找无证船。</p>",
-          "plain": "空调休息与洗晒  回住宿午睡、洗泳衣并补水；核明天出海团资质、保险浮潜保障、集合单、救生衣和天气取消规则。若无合适团，D43改海滩休整，不临时找无证船。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-09",
-          "time": "16:30–17:00",
-          "title": "前往El Dahar",
-          "detail": "<p>从Marina这一市区参考起点到El Dahar老城约按30分钟窗口规划，实际起点改成住宿；优先正规车辆，路况和报价当日确认。</p>",
-          "plain": "前往El Dahar  从Marina这一市区参考起点到El Dahar老城约按30分钟窗口规划，实际起点改成住宿；优先正规车辆，路况和报价当日确认。 ",
+          "id": "d42r58-02",
+          "time": "09:00–09:45",
+          "title": "早餐、埃及SIM与当日出门",
+          "detail": "<p>不设白天强制补眠；如入境延误，压缩城市零散点，保留核心馆与第二天出海。</p>",
+          "plain": "早餐、埃及SIM与当日出门 不设白天强制补眠；如入境延误，压缩城市零散点，保留核心馆与第二天出海。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hurghada+Marina+Egypt&destination=El+Dahar+Square+Hurghada+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada"
             }
           ],
-          "place": "el-dahar",
+          "place": "rev58-d42-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d42v2-10",
-          "time": "17:00–18:15",
-          "title": "El Dahar街市与老城短走",
-          "detail": "<p>沿有商户与人流的街区看市场，按体力缩短。买水果可先问每公斤价格，拍商户或人物前先征得同意；不安排正午老城步行。</p>",
-          "plain": "El Dahar街市与老城短走  沿有商户与人流的街区看市场，按体力缩短。买水果可先问每公斤价格，拍商户或人物前先征得同意；不安排正午老城步行。 ",
-          "links": [],
-          "place": "el-dahar",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d42v2-11",
-          "time": "18:15–19:15",
-          "title": "晚餐与返Marina方向",
-          "detail": "<p>选ful、烤肉卷或烤鱼饭，预算180–300 EGP。吃完可回Marina方向再按实际地址返宿；若出海团次日清早集合，就直接回宿。</p>",
-          "plain": "晚餐与返Marina方向  选ful、烤肉卷或烤鱼饭，预算180–300 EGP。吃完可回Marina方向再按实际地址返宿；若出海团次日清早集合，就直接回宿。 ",
+          "id": "d42r58-03",
+          "time": "09:45–10:30",
+          "title": "前往赫尔格达博物馆",
+          "detail": "<p>从市区乘正规出租/网约车往南到馆；不要把馆与El Dahar误当步行相邻。</p>",
+          "plain": "前往赫尔格达博物馆 从市区乘正规出租/网约车往南到馆；不要把馆与El Dahar误当步行相邻。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=El+Dahar+Square+Hurghada+Egypt&destination=Hurghada+Marina+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.gov.eg/en/museums/hurghada-museum/"
             }
           ],
-          "place": "hurghada-marina",
+          "place": "rev58-d42-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d42v2-12",
-          "time": "20:00–21:00",
-          "title": "返宿、装好明日小包",
-          "detail": "<p>用实际青旅地址返宿。准备晕船常备药按说明使用、干衣和防水袋；对团单上的接送时间、午餐和保护区费用逐项截图确认，早睡。</p>",
-          "plain": "返宿、装好明日小包  用实际青旅地址返宿。准备晕船常备药按说明使用、干衣和防水袋；对团单上的接送时间、午餐和保护区费用逐项截图确认，早睡。 ",
-          "links": [],
-          "place": null,
+          "id": "d42r58-04",
+          "time": "10:30–12:00",
+          "title": "赫尔格达博物馆",
+          "detail": "<p>官方当前为10:00–13:00、12:00止售票，晚场17:00起；学生票当前150EGP。删除原12:30–15:30馆内安排。</p>",
+          "plain": "赫尔格达博物馆 官方当前为10:00–13:00、12:00止售票，晚场17:00起；学生票当前150EGP。删除原12:30–15:30馆内安排。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.gov.eg/en/museums/hurghada-museum/"
+            }
+          ],
+          "place": "rev58-d42-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d42r58-05",
+          "time": "12:00–13:00",
+          "title": "午餐与补水",
+          "detail": "<p>在博物馆南部片区或下一站商场就餐，不先折回北部再往南。</p>",
+          "plain": "午餐与补水 在博物馆南部片区或下一站商场就餐，不先折回北部再往南。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Senzo%20Mall%20Hurghada"
+            }
+          ],
+          "place": "rev58-d42-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d42r58-06",
+          "time": "13:00–14:15",
+          "title": "Senzo Mall室内补给",
+          "detail": "<p>补买密封饮水、防晒或埃及日常用品，处理通信；这是到埃及后的实际补给时段。水族馆仅作另付费替代，不能默认包含预算。</p>",
+          "plain": "Senzo Mall室内补给 补买密封饮水、防晒或埃及日常用品，处理通信；这是到埃及后的实际补给时段。水族馆仅作另付费替代，不能默认包含预算。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Senzo%20Mall%20Hurghada"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://hurghadagrandaquarium.com/"
+            }
+          ],
+          "place": "rev58-d42-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d42r58-07",
+          "time": "14:15–15:00",
+          "title": "南部片区返回码头一带",
+          "detail": "<p>给市区南北接驳45分钟，下午景点集中在码头、鱼市场周边。</p>",
+          "plain": "南部片区返回码头一带 给市区南北接驳45分钟，下午景点集中在码头、鱼市场周边。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Marina"
+            }
+          ],
+          "place": "rev58-d42-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d42r58-08",
+          "time": "15:00–16:15",
+          "title": "El Mina清真寺与鱼市场",
+          "detail": "<p>清真寺内部随礼拜及管理安排；鱼市场为湿滑地面，拍照前询问，先把相机背稳。</p>",
+          "plain": "El Mina清真寺与鱼市场 清真寺内部随礼拜及管理安排；鱼市场为湿滑地面，拍照前询问，先把相机背稳。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Mina%20Mosque%20Hurghada"
+            }
+          ],
+          "place": "rev58-d42-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d42r58-09",
+          "time": "16:15–17:30",
+          "title": "El Dahar老城与市场",
+          "detail": "<p>从码头乘车前往老城，逛本地街市；不把开门和空调作为保证。</p>",
+          "plain": "El Dahar老城与市场 从码头乘车前往老城，逛本地街市；不把开门和空调作为保证。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=El%20Dahar%20Hurghada"
+            }
+          ],
+          "place": "rev58-d42-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d42r58-10",
+          "time": "17:30–19:30",
+          "title": "码头日落与晚餐",
+          "detail": "<p>回Marina片区看夕光，晚餐沿用已筛餐厅；当天不再加收费水族馆。</p>",
+          "plain": "码头日落与晚餐 回Marina片区看夕光，晚餐沿用已筛餐厅；当天不再加收费水族馆。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Marina"
+            }
+          ],
+          "place": "rev58-d42-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d42r58-11",
+          "time": "19:30–20:30",
+          "title": "确认次日出海接人信息",
+          "detail": "<p>回青旅核对接人位置、救生衣、浮潜装备及午餐是否包含；充电和机洗放在返宿后的晚间操作。</p>",
+          "plain": "确认次日出海接人信息 回青旅核对接人位置、救生衣、浮潜装备及午餐是否包含；充电和机洗放在返宿后的晚间操作。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada"
+            }
+          ],
+          "place": "rev58-d42-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
         }
       ],
       "extras": "<p>准备：具体海滩经营入口、日票收费与救生覆盖均待选定，海滩地图标记不可直接视为精确入口；海上活动以现场海况为准。</p><p>饮食预算是本地食物的规划额度，不是餐厅报价或评分；午间保留整块空调休息。</p>",
       "places": [
-        "hurghada-beach",
-        "el-dahar",
-        "hurghada-marina"
+        "rev58-d41-10",
+        "rev58-d42-2",
+        "rev58-d42-3",
+        "rev58-d42-5",
+        "rev58-d42-7",
+        "rev58-d42-8",
+        "rev58-d42-9"
       ],
       "accent": "#AB8543",
       "lodging": "赫尔格达（付费夜36）",
@@ -8695,10 +8841,15 @@ window.TRIP_DATA = {
         {
           "id": "d43v2-10",
           "time": "15:30–17:30建议",
-          "title": "淡水冲洗、空调补眠",
-          "detail": "<p>洗净装备和泳衣、补水并观察晒伤/疲劳；不再加沙漠项目。确认次日Go Bus票面真实站址、报到时间、行李和预计路程，下载车票。</p>",
-          "plain": "淡水冲洗、空调补眠  洗净装备和泳衣、补水并观察晒伤/疲劳；不再加沙漠项目。确认次日Go Bus票面真实站址、报到时间、行李和预计路程，下载车票。 ",
-          "links": [],
+          "title": "正规红海出海团",
+          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
+          "plain": "正规红海出海团 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Marina%20Egypt"
+            }
+          ],
           "place": null,
           "highlight": true,
           "status": "planned",
@@ -8731,9 +8882,7 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>今天所有出海时段均为建议结构，以正式团单为准；团费、救生装备、午餐、保护区费、接送、天气取消和保险保障必须核明。</p><p>若取消出海，留在正规海滩/住宿休整即可；次日交通优先，不用新增冒险项目填空。</p>",
       "places": [
-        "red-sea",
-        "hurghada-marina",
-        "hurghada-bus"
+        "red-sea"
       ],
       "accent": "#AB8543",
       "lodging": "赫尔格达（付费夜37）",
@@ -8753,141 +8902,217 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "卢克索",
       "defaultCity": "卢克索",
-      "priority": "上午赴卢克索；午间入住休息，傍晚卢克索神庙按抵达时间取舍。",
+      "priority": "卢克索两馆夏季午后不接新客，改晚场连逛；午后不虚构冷气博物馆。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d44v2-01",
-          "time": "06:30–07:00",
-          "title": "早餐、退房、保留车上饮水",
-          "detail": "<p>T为最终赫尔格达→卢克索大巴发车时刻；Go Bus是候选，未订票。早餐预算80–150 EGP，带轻食、足量饮水、薄外套和离线票，提前告知卢克索住宿预计到达。</p>",
-          "plain": "早餐、退房、保留车上饮水  T为最终赫尔格达→卢克索大巴发车时刻；Go Bus是候选，未订票。早餐预算80–150 EGP，带轻食、足量饮水、薄外套和离线票，提前告知卢克索住宿预计到达。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44v2-02",
-          "time": "07:00–08:30",
-          "title": "前往票面汽车站并报到",
-          "detail": "<p>真实站点以订单为准，不能只搜Go Bus就默认上车口。下方Marina→Go Bus仅为具名站点对照；从实际住宿出发并保留交通及报到余量。</p>",
-          "plain": "前往票面汽车站并报到  真实站点以订单为准，不能只搜Go Bus就默认上车口。下方Marina→Go Bus仅为具名站点对照；从实际住宿出发并保留交通及报到余量。 ",
+          "id": "d44r58-01",
+          "time": "06:15–07:00",
+          "title": "早餐、退房与前往大巴上车点",
+          "detail": "<p>50L主包套好保护袋，前一日取到实际Go Bus票后按正式站点上车。</p>",
+          "plain": "早餐、退房与前往大巴上车点 50L主包套好保护袋，前一日取到实际Go Bus票后按正式站点上车。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hurghada+Marina+Egypt&destination=Go+Bus+Hurghada+Station+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Go%20Bus%20Hurghada"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://go-bus.com/en"
             }
           ],
-          "place": "hurghada-bus",
+          "place": "rev58-d44-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d44v2-03",
-          "time": "08:30–12:20 现行样例",
-          "title": "Go Bus 08:30：赫尔格达 → 卢克索",
-          "detail": "<p>当前平台样例08:30从El Sakala Street 1出发、12:20到卢克索；进城入住另留1小时，路况延误从午休/神庙段删减。</p>",
-          "plain": "Go Bus 08:30：赫尔格达 → 卢克索  当前平台样例08:30从El Sakala Street 1出发、12:20到卢克索；进城入住另留1小时，路况延误从午休/神庙段删减。 ",
-          "links": [],
-          "place": "luxor-ref",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44v2-04",
-          "time": "12:20–13:20",
-          "title": "到青旅、寄存或入住",
-          "detail": "<p>按票面下车站到实际住宿，不用卢克索城市参考点代替酒店入口；先核空调、冷水、门禁和次日西岸接送。晚到直接休息，神庙可挪D45。</p>",
-          "plain": "到青旅、寄存或入住  按票面下车站到实际住宿，不用卢克索城市参考点代替酒店入口；先核空调、冷水、门禁和次日西岸接送。晚到直接休息，神庙可挪D45。 ",
-          "links": [],
-          "place": "luxor-ref",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44v2-05",
-          "time": "13:20–14:00",
-          "title": "午餐与补给",
-          "detail": "<p>就近选koshari、烤鸡米饭或豆餐，预算150–250 EGP；添购明早水和早餐。若下午才到，这一项随抵达顺延并取消傍晚神庙。</p>",
-          "plain": "午餐与补给  就近选koshari、烤鸡米饭或豆餐，预算150–250 EGP；添购明早水和早餐。若下午才到，这一项随抵达顺延并取消傍晚神庙。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44v2-06",
-          "time": "14:00–16:30",
-          "title": "空调休息，核西岸方案",
-          "detail": "<p>午间不逛露天遗迹。核D45正规包车/拼车集合、三处顺序、往返总价与停留时间；准备有效学生证、护照证明与可用支付方式，不默认所有窗口同一支付规则。</p>",
-          "plain": "空调休息，核西岸方案  午间不逛露天遗迹。核D45正规包车/拼车集合、三处顺序、往返总价与停留时间；准备有效学生证、护照证明与可用支付方式，不默认所有窗口同一支付规则。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44v2-07",
-          "time": "16:30–17:00",
-          "title": "赴卢克索神庙入口",
-          "detail": "<p>仅抵宿时间、体力和当日开放均合适才去；下方车站→神庙是市区路线参考，实际从住宿出发。2026整理参考末次入场19:00，2027官方时间须再核，不能卡末入到门口。</p>",
-          "plain": "赴卢克索神庙入口  仅抵宿时间、体力和当日开放均合适才去；下方车站→神庙是市区路线参考，实际从住宿出发。2026整理参考末次入场19:00，2027官方时间须再核，不能卡末入到门口。 ",
+          "id": "d44r58-02",
+          "time": "07:30–12:00",
+          "title": "赫尔格达→卢克索",
+          "detail": "<p>07:30是目标出发窗口，不冒充2027已开售班次；按4.5–5.5小时含停靠预留，到达点以车票为准。</p>",
+          "plain": "赫尔格达→卢克索 07:30是目标出发窗口，不冒充2027已开售班次；按4.5–5.5小时含停靠预留，到达点以车票为准。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Luxor+Railway+Station+Egypt&destination=Luxor+Temple+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Go%20Bus%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://go-bus.com/en"
             }
           ],
-          "place": "luxor-temple",
+          "place": "rev58-d44-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d44v2-08",
-          "time": "17:00–18:30",
-          "title": "卢克索神庙：柱廊与主轴",
-          "detail": "<p>按入口→柱廊→庭院的现场开放顺序慢看，避开仍暴晒区域；学生250 EGP只是此前现价参考，2027票价、年龄与证件资格未锁定。晚到改D45傍晚，不强行夜间赶场。</p>",
-          "plain": "卢克索神庙：柱廊与主轴  按入口→柱廊→庭院的现场开放顺序慢看，避开仍暴晒区域；学生250 EGP只是此前现价参考，2027票价、年龄与证件资格未锁定。晚到改D45傍晚，不强行夜间赶场。 ",
-          "links": [],
-          "place": "luxor-temple",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44v2-09",
-          "time": "18:30–19:30",
-          "title": "晚餐、尼罗河短走或直接返宿",
-          "detail": "<p>神庙附近/住宿附近选择烤肉、豆餐或米饭，预算180–300 EGP。仍有余力才到河岸短走，约20分钟就返宿，不加其他付费景点。</p>",
-          "plain": "晚餐、尼罗河短走或直接返宿  神庙附近/住宿附近选择烤肉、豆餐或米饭，预算180–300 EGP。仍有余力才到河岸短走，约20分钟就返宿，不加其他付费景点。 ",
+          "id": "d44r58-03",
+          "time": "12:00–13:00",
+          "title": "青旅寄存、洗漱与入住手续",
+          "detail": "<p>住宿尚未到入住时间则寄存，不强制买早入住；贵重物品随10L日包。</p>",
+          "plain": "青旅寄存、洗漱与入住手续 住宿尚未到入住时间则寄存，不强制买早入住；贵重物品随10L日包。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Luxor+Temple+Egypt&destination=Luxor+Corniche+El+Nil+Egypt&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor"
             }
           ],
-          "place": "luxor-corniche",
+          "place": "rev58-d44-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d44v2-10",
-          "time": "20:00–21:00",
-          "title": "返宿、备早餐并早睡",
-          "detail": "<p>把实际住宿地址保存在离线地图，检查明天约05:30出门所需物品。西岸自带帽子、遮阳伞、防晒、薄长袖、学生证和水；钱票分开放。</p>",
-          "plain": "返宿、备早餐并早睡  把实际住宿地址保存在离线地图，检查明天约05:30出门所需物品。西岸自带帽子、遮阳伞、防晒、薄长袖、学生证和水；钱票分开放。 ",
-          "links": [],
-          "place": null,
+          "id": "d44r58-04",
+          "time": "13:00–14:00",
+          "title": "Al Sahaby Lane午餐",
+          "detail": "<p>午餐控制1小时，索取当日菜单后点餐；不承诺露台有强冷气。</p>",
+          "plain": "Al Sahaby Lane午餐 午餐控制1小时，索取当日菜单后点餐；不承诺露台有强冷气。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Sahaby%20Lane%20Luxor"
+            }
+          ],
+          "place": "rev58-d44-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-05",
+          "time": "14:00–15:15",
+          "title": "卢克索老巴扎与阿布哈加格街区",
+          "detail": "<p>走有遮阴的市场与街巷；清真寺能否进入随现场管理，不把它写成全天空调馆。</p>",
+          "plain": "卢克索老巴扎与阿布哈加格街区 走有遮阴的市场与街巷；清真寺能否进入随现场管理，不把它写成全天空调馆。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abu%20Haggag%20Mosque%20Luxor"
+            }
+          ],
+          "place": "rev58-d44-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-06",
+          "time": "15:15–16:15",
+          "title": "尼罗河滨河线与次日拼车确认",
+          "detail": "<p>集中在东岸，和正规司机确认次日西岸四处古迹及接送总价；报价是交通，不含门票。</p>",
+          "plain": "尼罗河滨河线与次日拼车确认 集中在东岸，和正规司机确认次日西岸四处古迹及接送总价；报价是交通，不含门票。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Corniche"
+            }
+          ],
+          "place": "rev58-d44-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-07",
+          "time": "16:15–16:50",
+          "title": "前往卢克索博物馆",
+          "detail": "<p>到开门前抵达入口，准备护照和实体学生证明；不在13:30闭馆窗口去排队。</p>",
+          "plain": "前往卢克索博物馆 到开门前抵达入口，准备护照和实体学生证明；不在13:30闭馆窗口去排队。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/LuxorMuseum"
+            }
+          ],
+          "place": "rev58-d44-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-08",
+          "time": "17:00–18:15",
+          "title": "卢克索博物馆",
+          "detail": "<p>官方夏季17:00起晚场、19:00最后入场；外籍学生现200EGP，非2027锁价。</p>",
+          "plain": "卢克索博物馆 官方夏季17:00起晚场、19:00最后入场；外籍学生现200EGP，非2027锁价。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/LuxorMuseum"
+            }
+          ],
+          "place": "rev58-d44-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-09",
+          "time": "18:15–19:00",
+          "title": "步行到木乃伊博物馆并参观",
+          "detail": "<p>两馆沿河相距约1公里，先步行15分钟，再用30分钟看小馆；官方票务晚场17点起、19点最后入场。</p>",
+          "plain": "步行到木乃伊博物馆并参观 两馆沿河相距约1公里，先步行15分钟，再用30分钟看小馆；官方票务晚场17点起、19点最后入场。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mummification%20Museum%20Luxor"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/details/MummificationMuseumLuxor"
+            }
+          ],
+          "place": "rev58-d44-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-10",
+          "time": "19:00–20:30",
+          "title": "卢克索神庙亮灯夜景",
+          "detail": "<p>从小馆步行到神庙一次入场，保留夜景，不安排同日两次付费进神庙。</p>",
+          "plain": "卢克索神庙亮灯夜景 从小馆步行到神庙一次入场，保留夜景，不安排同日两次付费进神庙。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Temple"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.gov.eg/monuments/luxor-temple"
+            }
+          ],
+          "place": "rev58-d44-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-11",
+          "time": "20:30–21:15",
+          "title": "晚餐与返宿",
+          "detail": "<p>沿用卢克索已筛餐厅；次日早出门，夜间不再新增远点。</p>",
+          "plain": "晚餐与返宿 沿用卢克索已筛餐厅；次日早出门，夜间不再新增远点。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor"
+            }
+          ],
+          "place": "rev58-d44-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -8895,10 +9120,15 @@ window.TRIP_DATA = {
       ],
       "extras": "<p>今天以大巴T相对窗口为主，午后段只有早到时才成立。若到卢克索晚于16点或明显疲劳，神庙移D45，保留空调休息与早睡。</p><p>卢克索神庙末入19:00为当前参考，使用前查2027官方开放；价格均非已购门票。</p>",
       "places": [
-        "hurghada-bus",
-        "luxor-ref",
-        "luxor-temple",
-        "luxor-corniche"
+        "rev58-d44-1",
+        "rev58-d44-2",
+        "rev58-d44-3",
+        "rev58-d44-4",
+        "rev58-d44-5",
+        "rev58-d44-6",
+        "rev58-d44-7",
+        "rev58-d44-9",
+        "rev58-d44-10"
       ],
       "accent": "#AB8543",
       "lodging": "卢克索（付费夜38）",
@@ -8929,211 +9159,213 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "卢克索",
       "defaultCity": "卢克索",
-      "priority": "西岸清晨正规拼车，帝王谷优先；午间回城休息，不连续暴晒。",
+      "priority": "西岸四处古迹保留；卡特故居仅作有余时替代，不用一顿3小时午餐假装新增体验。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d45v2-01",
-          "time": "05:00–05:30",
-          "title": "早餐、补水、装西岸小包",
-          "detail": "<p>前晚准备的面包、鸡蛋或香蕉，早餐预算80–150 EGP。带有效学生证/ISIC、护照证明、帽子、薄长袖、遮阳伞和足够饮水；只带当天所需贵重物品。</p>",
-          "plain": "早餐、补水、装西岸小包  前晚准备的面包、鸡蛋或香蕉，早餐预算80–150 EGP。带有效学生证/ISIC、护照证明、帽子、薄长袖、遮阳伞和足够饮水；只带当天所需贵重物品。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-02",
-          "time": "05:30–06:15",
-          "title": "按已确认接送赴帝王谷",
-          "detail": "<p>早班出发使核心遗迹放在高温前；道路可能绕桥，不能用地图直线距离估算。下方神庙→帝王谷路线仅作市区参考起点，实际接送从已订住宿或集合点出发。</p>",
-          "plain": "按已确认接送赴帝王谷  早班出发使核心遗迹放在高温前；道路可能绕桥，不能用地图直线距离估算。下方神庙→帝王谷路线仅作市区参考起点，实际接送从已订住宿或集合点出发。 ",
+          "id": "d45r58-01",
+          "time": "05:30–06:00",
+          "title": "早餐与西岸车辆接人",
+          "detail": "<p>提前备早餐，正规拼车或包车点对点；当日不能靠公共车在四处古迹间无缝换乘。</p>",
+          "plain": "早餐与西岸车辆接人 提前备早餐，正规拼车或包车点对点；当日不能靠公共车在四处古迹间无缝换乘。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Luxor+Temple+Egypt&destination=Valley+of+the+Kings+Luxor+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor"
             }
           ],
-          "place": "kings",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-03",
-          "time": "06:15–06:40",
-          "title": "帝王谷购票、选三座开放墓",
-          "detail": "<p>常规票包含墓室数量、临时关闭和额外墓票以当日官方为准；不要把图坦卡蒙等特别墓默认为普通票已含。学生375 EGP为原稿现价参考，一般单票学生≤24岁且须有效证明，2027再核。</p>",
-          "plain": "帝王谷购票、选三座开放墓  常规票包含墓室数量、临时关闭和额外墓票以当日官方为准；不要把图坦卡蒙等特别墓默认为普通票已含。学生375 EGP为原稿现价参考，一般单票学生≤24岁且须有效证明，2027再核。 ",
-          "links": [],
-          "place": "kings",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-04",
-          "time": "06:40–08:20",
-          "title": "帝王谷：分配三座墓室",
-          "detail": "<p>先按现场开放选择三座常规票内墓，墓间留步行和缓坡时间；每座约20–25分钟，适时到阴影处休息。台阶、闷热或空气不适就减一座，不额外加深远墓室。</p>",
-          "plain": "帝王谷：分配三座墓室  先按现场开放选择三座常规票内墓，墓间留步行和缓坡时间；每座约20–25分钟，适时到阴影处休息。台阶、闷热或空气不适就减一座，不额外加深远墓室。 ",
-          "links": [],
-          "place": "kings",
+          "place": "rev58-d44-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d45v2-05",
-          "time": "08:20–08:45",
-          "title": "出口补水、车往女王庙",
-          "detail": "<p>在正规出口与约定司机会合，先补水再上车；点清证件和手机。两遗迹之间不安排露天长走。</p>",
-          "plain": "出口补水、车往女王庙  在正规出口与约定司机会合，先补水再上车；点清证件和手机。两遗迹之间不安排露天长走。 ",
+          "id": "d45r58-02",
+          "time": "06:00–06:30",
+          "title": "前往帝王谷",
+          "detail": "<p>按住宿所在岸别确认接人；若东岸出发需经过大桥或约定渡轮接人。</p>",
+          "plain": "前往帝王谷 按住宿所在岸别确认接人；若东岸出发需经过大桥或约定渡轮接人。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Valley+of+the+Kings+Luxor+Egypt&destination=Mortuary+Temple+Hatshepsut+Deir+el+Bahari+Luxor+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Valley%20of%20the%20Kings%20Luxor"
             }
           ],
-          "place": "hatshepsut",
+          "place": "rev58-d45-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d45v2-06",
-          "time": "08:45–09:45",
+          "id": "d45r58-03",
+          "time": "06:30–08:45",
+          "title": "帝王谷三座开放墓室",
+          "detail": "<p>普通票范围内选择当日开放墓室；图坦卡蒙、塞提一世等另票项目不自动加入。</p>",
+          "plain": "帝王谷三座开放墓室 普通票范围内选择当日开放墓室；图坦卡蒙、塞提一世等另票项目不自动加入。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Valley%20of%20the%20Kings%20Luxor"
+            }
+          ],
+          "place": "rev58-d45-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d45r58-04",
+          "time": "09:00–10:00",
           "title": "哈特谢普苏特女王庙",
-          "detail": "<p>沿开放露台与柱廊参观，坡道渐进、少量多次喝水；不在无遮阴的平台久晒。学生220 EGP为此前现价参考，2027价格及资格重核。</p>",
-          "plain": "哈特谢普苏特女王庙  沿开放露台与柱廊参观，坡道渐进、少量多次喝水；不在无遮阴的平台久晒。学生220 EGP为此前现价参考，2027价格及资格重核。 ",
-          "links": [],
-          "place": "hatshepsut",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-07",
-          "time": "09:45–10:10",
-          "title": "女王庙→门农巨像",
-          "detail": "<p>直接乘约定车辆前往，不叠加乳香作坊、雪花石膏购物或额外收费停站；是否购物由自己决定。</p>",
-          "plain": "女王庙→门农巨像  直接乘约定车辆前往，不叠加乳香作坊、雪花石膏购物或额外收费停站；是否购物由自己决定。 ",
+          "detail": "<p>摄影与各层步行留足1小时；不要把露天台阶当作室内冷气项目。</p>",
+          "plain": "哈特谢普苏特女王庙 摄影与各层步行留足1小时；不要把露天台阶当作室内冷气项目。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Mortuary+Temple+Hatshepsut+Deir+el+Bahari+Luxor+Egypt&destination=Colossi+of+Memnon+Luxor+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mortuary%20Temple%20of%20Hatshepsut"
             }
           ],
-          "place": "memnon",
+          "place": "rev58-d45-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d45v2-08",
-          "time": "10:10–10:30",
-          "title": "门农巨像短停",
-          "detail": "<p>在可进入的公共参观区看两尊巨像，约15–20分钟拍照；若已明显炎热就缩短至10分钟。不要为了等待空镜延长暴晒。</p>",
-          "plain": "门农巨像短停  在可进入的公共参观区看两尊巨像，约15–20分钟拍照；若已明显炎热就缩短至10分钟。不要为了等待空镜延长暴晒。 ",
-          "links": [],
-          "place": "memnon",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-09",
-          "time": "10:30–11:30",
-          "title": "结束西岸、返回实际住宿",
-          "detail": "<p>约定车辆按确认的往返合同送回；下方门农→卢克索神庙为东岸市区参考，不是酒店入口。先冲洗、补水，取消更多露天遗迹。</p>",
-          "plain": "结束西岸、返回实际住宿  约定车辆按确认的往返合同送回；下方门农→卢克索神庙为东岸市区参考，不是酒店入口。先冲洗、补水，取消更多露天遗迹。 ",
+          "id": "d45r58-05",
+          "time": "10:15–11:15",
+          "title": "工匠村与墓室",
+          "detail": "<p>优先开放的彩绘墓室，现场核对票种；这是西岸新增核心点。</p>",
+          "plain": "工匠村与墓室 优先开放的彩绘墓室，现场核对票种；这是西岸新增核心点。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Colossi+of+Memnon+Luxor+Egypt&destination=Luxor+Temple+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Deir%20el-Medina"
             }
           ],
-          "place": "luxor-temple",
+          "place": "rev58-d45-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d45v2-10",
+          "id": "d45r58-06",
           "time": "11:30–12:30",
-          "title": "空调午餐",
-          "detail": "<p>烤鸡饭、豆餐或koshari，午餐预算150–250 EGP；在住宿附近吃，避免高温中跨城找店。</p>",
-          "plain": "空调午餐  烤鸡饭、豆餐或koshari，午餐预算150–250 EGP；在住宿附近吃，避免高温中跨城找店。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-11",
-          "time": "12:30–16:30",
-          "title": "午睡、洗晒与卡纳克准备",
-          "detail": "<p>完整留出空调休息。核D46卡纳克门票与开门信息、卢克索→阿斯旺车次和外国旅客购票条件；若交通太早，不能把卡纳克硬塞进同一早晨。</p>",
-          "plain": "午睡、洗晒与卡纳克准备  完整留出空调休息。核D46卡纳克门票与开门信息、卢克索→阿斯旺车次和外国旅客购票条件；若交通太早，不能把卡纳克硬塞进同一早晨。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-12",
-          "time": "16:45–18:15二选一",
-          "title": "补卢克索神庙或尼罗河岸",
-          "detail": "<p>若D44未进神庙且今天体力合适，约17点入场参观至18:15；当前参考末入19:00，2027再核。若D44已完成，则只在河岸短走30–45分钟，不重复买票。</p>",
-          "plain": "补卢克索神庙或尼罗河岸  若D44未进神庙且今天体力合适，约17点入场参观至18:15；当前参考末入19:00，2027再核。若D44已完成，则只在河岸短走30–45分钟，不重复买票。 ",
-          "links": [],
-          "place": "luxor-temple",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d45v2-13",
-          "time": "18:15–19:15",
-          "title": "晚餐与返回住宿方向",
-          "detail": "<p>可选烤肉卷、扁豆汤和米饭，预算180–300 EGP；河边吃饭先看菜单和服务费。下方仅为神庙到河岸步行路线，不提供未订酒店地址。</p>",
-          "plain": "晚餐与返回住宿方向  可选烤肉卷、扁豆汤和米饭，预算180–300 EGP；河边吃饭先看菜单和服务费。下方仅为神庙到河岸步行路线，不提供未订酒店地址。 ",
+          "title": "哈布城拉美西斯三世神庙",
+          "detail": "<p>看彩绘浮雕、廊柱与庭院，当前学生票110EGP；保留约1小时。</p>",
+          "plain": "哈布城拉美西斯三世神庙 看彩绘浮雕、廊柱与庭院，当前学生票110EGP；保留约1小时。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Luxor+Temple+Egypt&destination=Luxor+Corniche+El+Nil+Egypt&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Medinet%20Habu"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/MedinetHabu"
             }
           ],
-          "place": "luxor-corniche",
+          "place": "rev58-d45-6",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d45v2-14",
-          "time": "20:00–21:00",
-          "title": "返宿、收包与早睡",
-          "detail": "<p>确认明日退房寄存及去卡纳克的车辆；把大包收好，早晨只带小包参观。阿斯旺住宿仍待订，核空调与到站接驳再付费。</p>",
-          "plain": "返宿、收包与早睡  确认明日退房寄存及去卡纳克的车辆；把大包收好，早晨只带小包参观。阿斯旺住宿仍待订，核空调与到站接驳再付费。 ",
-          "links": [],
-          "place": null,
+          "id": "d45r58-07",
+          "time": "12:40–13:00",
+          "title": "门农巨像",
+          "detail": "<p>顺路短停，不另给1小时空白；如车辆延误，在返程车上看外观即可。</p>",
+          "plain": "门农巨像 顺路短停，不另给1小时空白；如车辆延误，在返程车上看外观即可。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Colossi%20of%20Memnon"
+            }
+          ],
+          "place": "rev58-d45-7",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d45r58-08",
+          "time": "13:00–14:00",
+          "title": "西岸午餐",
+          "detail": "<p>在西岸就近吃饭补水，午餐1小时；不写3小时深度午餐。</p>",
+          "plain": "西岸午餐 在西岸就近吃饭补水，午餐1小时；不写3小时深度午餐。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20West%20Bank"
+            }
+          ],
+          "place": "rev58-d45-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d45r58-09",
+          "time": "14:00–15:30",
+          "title": "西岸村落与尼罗河沿岸摄影",
+          "detail": "<p>低强度但有实际内容的村落和河岸线；卡特故居仅在当天开放且车辆报价含往返时替代本段，不能在四古迹后再默认免费追加。</p>",
+          "plain": "西岸村落与尼罗河沿岸摄影 低强度但有实际内容的村落和河岸线；卡特故居仅在当天开放且车辆报价含往返时替代本段，不能在四古迹后再默认免费追加。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Bairat%20Luxor"
+            }
+          ],
+          "place": "rev58-d45-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d45r58-10",
+          "time": "16:00–18:00",
+          "title": "尼罗河Felucca帆船",
+          "detail": "<p>按河风状况约1–1.5小时，费用按整船或拼船讲清；若风弱改常规河岸摄影，不承诺特定航线。</p>",
+          "plain": "尼罗河Felucca帆船 按河风状况约1–1.5小时，费用按整船或拼船讲清；若风弱改常规河岸摄影，不承诺特定航线。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Nile%20felucca"
+            }
+          ],
+          "place": "rev58-d45-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d45r58-11",
+          "time": "18:30–20:00",
+          "title": "东岸晚餐与老城夜景",
+          "detail": "<p>今天不再重复付费进卢克索神庙；洗衣并入返宿后。</p>",
+          "plain": "东岸晚餐与老城夜景 今天不再重复付费进卢克索神庙；洗衣并入返宿后。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor"
+            }
+          ],
+          "place": "rev58-d44-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
         }
       ],
       "extras": "<p>核心：帝王谷→女王庙→门农巨像全部放在清晨至上午；约11点前返东岸。体力差时先减墓室数量/门农停留，不挤占午休。</p><p>普通门票与特别墓票分开；学生票价格只作现价参考，2027核年龄、证件、支付与开放墓室。</p>",
       "places": [
-        "kings",
-        "hatshepsut",
-        "memnon",
-        "luxor-corniche",
-        "luxor-temple"
+        "rev58-d44-3",
+        "rev58-d45-2",
+        "rev58-d45-4",
+        "rev58-d45-5",
+        "rev58-d45-6",
+        "rev58-d45-7",
+        "rev58-d45-8",
+        "rev58-d45-9",
+        "rev58-d45-10"
       ],
       "accent": "#AB8543",
       "lodging": "卢克索青旅（付费夜39，待订）",
@@ -9358,204 +9590,202 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "阿斯旺",
       "defaultCity": "阿斯旺",
-      "priority": "阿布辛贝正规一日团；回城补觉后再决定象岛短线，不叠加远处景点。",
+      "priority": "阿布辛贝后保努比亚馆和象岛；方尖碑挪D48，避免15点最后入场之后赶到。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d47v2-01",
-          "time": "03:00–03:30建议",
-          "title": "起床、轻早餐与点名",
-          "detail": "<p>时间服从正规拼车/拼团最终集合单，未订团不能认作固定03点发车。吃打包面包、鸡蛋或香蕉，早餐预算80–150 EGP；带水、遮阳物、护照/证件和车上薄外套。</p>",
-          "plain": "起床、轻早餐与点名  时间服从正规拼车/拼团最终集合单，未订团不能认作固定03点发车。吃打包面包、鸡蛋或香蕉，早餐预算80–150 EGP；带水、遮阳物、护照/证件和车上薄外套。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-02",
-          "time": "03:30–07:30建议",
-          "title": "阿斯旺→阿布辛贝长途接送",
-          "detail": "<p>往返车辆资质、集合和路途停靠须前晚确认；单程按约3.5–4小时以上留量，不承诺通行或确切到达时刻。车上补眠、系安全带，不临时转无证车辆。</p>",
-          "plain": "阿斯旺→阿布辛贝长途接送  往返车辆资质、集合和路途停靠须前晚确认；单程按约3.5–4小时以上留量，不承诺通行或确切到达时刻。车上补眠、系安全带，不临时转无证车辆。 ",
+          "id": "d47r58-01",
+          "time": "03:45–04:30",
+          "title": "早餐与阿布辛贝正规拼车接人",
+          "detail": "<p>前晚核对集合点、证件、往返车费与门票是否分开；04:30是规划窗口，以团确认单为准。</p>",
+          "plain": "早餐与阿布辛贝正规拼车接人 前晚核对集合点、证件、往返车费与门票是否分开；04:30是规划窗口，以团确认单为准。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Aswan+Corniche+Egypt&destination=Abu+Simbel+Temples+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan"
             }
           ],
-          "place": "abu-simbel",
+          "place": "rev58-d47-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d47v2-03",
-          "time": "07:30–08:00建议",
-          "title": "到达、购票与补水",
-          "detail": "<p>官方学生票445.5 EGP为原稿参考，车费另计；2027价格、证件、开放与支付再核。回程集合点、车牌与报到时刻先拍下，别下车就分散。</p>",
-          "plain": "到达、购票与补水  官方学生票445.5 EGP为原稿参考，车费另计；2027价格、证件、开放与支付再核。回程集合点、车牌与报到时刻先拍下，别下车就分散。 ",
-          "links": [],
-          "place": "abu-simbel",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-04",
-          "time": "08:00–09:00建议",
-          "title": "拉美西斯二世大神庙",
-          "detail": "<p>先看外立面，再按开放路线入内；尊重室内拍摄要求，不用闪光灯或触碰浮雕。参观约1小时，高温前完成核心区域。</p>",
-          "plain": "拉美西斯二世大神庙  先看外立面，再按开放路线入内；尊重室内拍摄要求，不用闪光灯或触碰浮雕。参观约1小时，高温前完成核心区域。 ",
-          "links": [],
-          "place": "abu-simbel",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-05",
-          "time": "09:00–09:40建议",
-          "title": "小神庙与湖景短停",
-          "detail": "<p>以小神庙为第二重点，湖边露天拍照简短结束；头晕、疲劳时直接去阴凉集合点。两座神庙以团方返车时间为硬边界。</p>",
-          "plain": "小神庙与湖景短停  以小神庙为第二重点，湖边露天拍照简短结束；头晕、疲劳时直接去阴凉集合点。两座神庙以团方返车时间为硬边界。 ",
-          "links": [],
-          "place": "abu-simbel",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-06",
-          "time": "09:40–10:00建议",
-          "title": "洗手间、饮水与返车",
-          "detail": "<p>确认人员齐全后上同一已确认车辆；出发前补水，长途路上不依赖随时有商店。若团单到达较晚，缩短湖景，保证不在正午长晒。</p>",
-          "plain": "洗手间、饮水与返车  确认人员齐全后上同一已确认车辆；出发前补水，长途路上不依赖随时有商店。若团单到达较晚，缩短湖景，保证不在正午长晒。 ",
-          "links": [],
-          "place": "abu-simbel",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-07",
-          "time": "10:00–14:00建议",
-          "title": "返回阿斯旺",
-          "detail": "<p>车程随停靠和道路而变，抵达明显晚时取消象岛。别把14点返城写成保证；即使晚到，午餐和午睡仍保留。</p>",
-          "plain": "返回阿斯旺  车程随停靠和道路而变，抵达明显晚时取消象岛。别把14点返城写成保证；即使晚到，午餐和午睡仍保留。 ",
+          "id": "d47r58-02",
+          "time": "04:30–08:00",
+          "title": "阿斯旺→阿布辛贝",
+          "detail": "<p>按约3–3.5小时公路行车预留；不能保证所有团都13点准时回城。</p>",
+          "plain": "阿斯旺→阿布辛贝 按约3–3.5小时公路行车预留；不能保证所有团都13点准时回城。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Abu+Simbel+Temples+Egypt&destination=Aswan+Corniche+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abu%20Simbel%20Temples"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/AbuSimbelTemple"
             }
           ],
-          "place": "aswan-ref",
+          "place": "rev58-d47-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d47v2-08",
-          "time": "14:00–15:00或返城后",
-          "title": "空调午餐",
-          "detail": "<p>以烤鸡/鱼配饭、蔬菜或豆餐为主，预算150–250 EGP。先补充食物与水，今日凌晨起床后不直接连续逛到晚上。</p>",
-          "plain": "空调午餐  以烤鸡/鱼配饭、蔬菜或豆餐为主，预算150–250 EGP。先补充食物与水，今日凌晨起床后不直接连续逛到晚上。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-09",
-          "time": "15:00–17:15",
-          "title": "空调午睡、洗脸与补水",
-          "detail": "<p>睡够再评估是否上象岛；明显疲劳就取消岛上活动，河岸短走即可。核D48菲莱往返车与船、夜车候选/航班备选，不在今天付给无名中介。</p>",
-          "plain": "空调午睡、洗脸与补水  睡够再评估是否上象岛；明显疲劳就取消岛上活动，河岸短走即可。核D48菲莱往返车与船、夜车候选/航班备选，不在今天付给无名中介。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-10",
-          "time": "17:15–17:45条件性",
-          "title": "赴象岛公共渡轮口并确认回船",
-          "detail": "<p>问清公共渡轮和私人观光船区别、单程/往返价格与最后返回时间；具体码头由现场正式指示确认，象岛参考标记不等于已确认渡口。</p>",
-          "plain": "赴象岛公共渡轮口并确认回船  问清公共渡轮和私人观光船区别、单程/往返价格与最后返回时间；具体码头由现场正式指示确认，象岛参考标记不等于已确认渡口。 ",
+          "id": "d47r58-03",
+          "time": "08:00–10:00",
+          "title": "阿布辛贝大小神庙",
+          "detail": "<p>用2小时看两庙和湖岸；官方当前标准学生票445.5EGP，可作预算参考。</p>",
+          "plain": "阿布辛贝大小神庙 用2小时看两庙和湖岸；官方当前标准学生票445.5EGP，可作预算参考。",
           "links": [
             {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Aswan+Corniche+Egypt&destination=Elephantine+Island+Public+Ferry+Aswan+Egypt&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abu%20Simbel%20Temples"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/AbuSimbelTemple"
             }
           ],
-          "place": "elephantine",
+          "place": "rev58-d47-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d47v2-11",
-          "time": "17:45–18:30条件性",
-          "title": "象岛河景短走",
-          "detail": "<p>只走靠近到达码头的开放村落/河景路径，不深入陌生小巷；不把岛上遗迹或博物馆默认为傍晚开放。路面台阶与儿童/居民拍照先注意礼貌。</p>",
-          "plain": "象岛河景短走  只走靠近到达码头的开放村落/河景路径，不深入陌生小巷；不把岛上遗迹或博物馆默认为傍晚开放。路面台阶与儿童/居民拍照先注意礼貌。 ",
-          "links": [],
-          "place": "elephantine",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d47v2-12",
-          "time": "18:30–19:00条件性",
-          "title": "按已核船班返回东岸",
-          "detail": "<p>日落前后以实际渡轮运营为准，优先赶最后可靠回船；若已无清晰返程安排，留在东岸不登岛。地图公交建议不代表渡轮一定运营。</p>",
-          "plain": "按已核船班返回东岸  日落前后以实际渡轮运营为准，优先赶最后可靠回船；若已无清晰返程安排，留在东岸不登岛。地图公交建议不代表渡轮一定运营。 ",
+          "id": "d47r58-04",
+          "time": "10:00–13:30",
+          "title": "返阿斯旺",
+          "detail": "<p>以实际交通为准，晚返则先保努比亚馆，取消象岛遗址入内而不是赶闭馆门。</p>",
+          "plain": "返阿斯旺 以实际交通为准，晚返则先保努比亚馆，取消象岛遗址入内而不是赶闭馆门。",
           "links": [
             {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Elephantine+Island+Public+Ferry+Aswan+Egypt&destination=Aswan+Corniche+Egypt&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan"
             }
           ],
-          "place": "aswan-ref",
+          "place": "rev58-d47-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d47v2-13",
-          "time": "19:00–20:00",
-          "title": "晚餐与明日便携食物",
-          "detail": "<p>选ful、烤肉卷或米饭餐，预算180–300 EGP；备菲莱早行水和早餐。夜车未确认前，不把住宿退房状态改成已完成。</p>",
-          "plain": "晚餐与明日便携食物  选ful、烤肉卷或米饭餐，预算180–300 EGP；备菲莱早行水和早餐。夜车未确认前，不把住宿退房状态改成已完成。 ",
-          "links": [],
-          "place": null,
+          "id": "d47r58-05",
+          "time": "13:30–14:15",
+          "title": "市区午餐",
+          "detail": "<p>优先住宿附近已筛餐厅，补水后去博物馆；不设强制午睡。</p>",
+          "plain": "市区午餐 优先住宿附近已筛餐厅，补水后去博物馆；不设强制午睡。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan"
+            }
+          ],
+          "place": "rev58-d47-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d47v2-14",
-          "time": "20:00–21:00",
-          "title": "返宿、确认D48分支并睡觉",
-          "detail": "<p>把明天分成“已核夜车”或“阿斯旺加住、次日航班”两条；不得默认2+1夜巴、外国人廉价席位或卧铺已买。确认能执行的一条后再处理次日晚住宿。</p>",
-          "plain": "返宿、确认D48分支并睡觉  把明天分成“已核夜车”或“阿斯旺加住、次日航班”两条；不得默认2+1夜巴、外国人廉价席位或卧铺已买。确认能执行的一条后再处理次日晚住宿。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
+          "id": "d47r58-06",
+          "time": "14:30–16:00",
+          "title": "努比亚博物馆",
+          "detail": "<p>官方当前09:00起、16:00最后入场，周四另18:00起晚场；今天周四，若返城延误可改18点入馆。</p>",
+          "plain": "努比亚博物馆 官方当前09:00起、16:00最后入场，周四另18:00起晚场；今天周四，若返城延误可改18点入馆。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Nubian%20Museum%20Aswan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/NubiaMuseum"
+            }
+          ],
+          "place": "rev58-d47-6",
+          "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d47r58-07",
+          "time": "16:00–16:30",
+          "title": "滨河码头与公共渡轮",
+          "detail": "<p>使用去象岛居民区的公共渡轮，先问清往返价和末班，不把私人包船当公共票。</p>",
+          "plain": "滨河码头与公共渡轮 使用去象岛居民区的公共渡轮，先问清往返价和末班，不把私人包船当公共票。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Elephantine%20Island%20ferry%20Aswan"
+            }
+          ],
+          "place": "rev58-d47-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d47r58-08",
+          "time": "16:30–18:00",
+          "title": "象岛社区与尼罗河摄影",
+          "detail": "<p>以社区、河岸和村落为主；遗址与岛上博物馆有独立关门时间，傍晚不保证可入内。</p>",
+          "plain": "象岛社区与尼罗河摄影 以社区、河岸和村落为主；遗址与岛上博物馆有独立关门时间，傍晚不保证可入内。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Elephantine%20Island%20Aswan"
+            }
+          ],
+          "place": "rev58-d47-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d47r58-09",
+          "time": "18:00–18:30",
+          "title": "渡轮返回东岸",
+          "detail": "<p>留足候船时间，随身收好相机与充电宝。</p>",
+          "plain": "渡轮返回东岸 留足候船时间，随身收好相机与充电宝。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan%20Corniche"
+            }
+          ],
+          "place": "rev58-d47-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d47r58-10",
+          "time": "18:30–20:00",
+          "title": "阿斯旺晚餐与市集",
+          "detail": "<p>若努比亚馆改18点晚场，则本段顺延并取消象岛；不在当天补赶方尖碑。</p>",
+          "plain": "阿斯旺晚餐与市集 若努比亚馆改18点晚场，则本段顺延并取消象岛；不在当天补赶方尖碑。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan%20Souk"
+            }
+          ],
+          "place": "rev58-d47-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>阿布辛贝黎明出发的建议窗口服从正式集合单；车辆往返与门票分开计费。返回后必须午睡，象岛为可取消附加体验。</p><p>证件、学生资格和2027票价另核；把公共渡轮与私人观光船分清，先确认可返回再登岛。</p>",
+      "extras": "<p>阿布辛贝黎明出发的建议窗口服从正式集合单；车辆往返与门票分开计费。</p><p>证件、学生资格和2027票价另核；把公共渡轮与私人观光船分清，先确认可返回再登岛。</p>",
       "places": [
-        "abu-simbel",
-        "elephantine",
-        "aswan-ref"
+        "rev58-d47-1",
+        "rev58-d47-2",
+        "rev58-d47-6",
+        "rev58-d47-7",
+        "rev58-d47-8",
+        "rev58-d47-9",
+        "rev58-d47-10"
       ],
       "accent": "#AB8543",
       "lodging": "阿斯旺（付费夜41）",
@@ -9575,183 +9805,221 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "阿斯旺",
       "defaultCity": "阿斯旺",
-      "priority": "菲莱神庙放上午；下午休息并核夜车。若改飞机或多住一晚，需同步改后续。",
+      "priority": "方尖碑安排在15点最后入场前；夜车是未出票交通候选，留取包与进站余量。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d48v2-01",
-          "time": "06:00–06:40",
-          "title": "早餐、寄存与交通分支核对",
-          "detail": "<p>早餐预算80–150 EGP。先决定夜车是否已有可核订单：有则核行李寄存与取包；没有则保留/新增阿斯旺住宿，次日航班只在用户确认票后执行。</p>",
-          "plain": "早餐、寄存与交通分支核对  早餐预算80–150 EGP。先决定夜车是否已有可核订单：有则核行李寄存与取包；没有则保留/新增阿斯旺住宿，次日航班只在用户确认票后执行。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d48v2-02",
-          "time": "06:40–07:20",
-          "title": "阿斯旺市区→菲莱码头",
-          "detail": "<p>正规车辆前往Philae Temple Marina；下方Corniche是城市起点参考，实际从住宿出发。提前约好回程接车点，别把菲莱岛当可直接驾车到达。</p>",
-          "plain": "阿斯旺市区→菲莱码头  正规车辆前往Philae Temple Marina；下方Corniche是城市起点参考，实际从住宿出发。提前约好回程接车点，别把菲莱岛当可直接驾车到达。 ",
+          "id": "d48r58-01",
+          "time": "06:30–07:15",
+          "title": "早餐、退房与50L寄存",
+          "detail": "<p>今晚坐夜车，主包继续寄存当日住宿；洗衣及衣物必须在退房前收干。</p>",
+          "plain": "早餐、退房与50L寄存 今晚坐夜车，主包继续寄存当日住宿；洗衣及衣物必须在退房前收干。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Aswan+Corniche+Egypt&destination=Philae+Temple+Marina+Aswan+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan"
             }
           ],
-          "place": "philae-marina",
+          "place": "rev58-d47-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d48v2-03",
-          "time": "07:20–07:45",
-          "title": "购票、议妥往返船总价",
-          "detail": "<p>景点票与船费分开；学生275 EGP为原稿参考，船费另议，确认总价、是否拼船、等待时长、返程联系与是否还需付小费。当前末入参考15:00，2027再核。</p>",
-          "plain": "购票、议妥往返船总价  景点票与船费分开；学生275 EGP为原稿参考，船费另议，确认总价、是否拼船、等待时长、返程联系与是否还需付小费。当前末入参考15:00，2027再核。 ",
-          "links": [],
-          "place": "philae-marina",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d48v2-04",
-          "time": "07:45–08:10",
-          "title": "码头乘船上岛",
-          "detail": "<p>穿船上提供的合适救生衣，稳坐不站船边；船程和排队服从当日安排。航行线路以合规船方为准，地图跨水面路线只用于方向辨认。</p>",
-          "plain": "码头乘船上岛  穿船上提供的合适救生衣，稳坐不站船边；船程和排队服从当日安排。航行线路以合规船方为准，地图跨水面路线只用于方向辨认。 ",
-          "links": [],
-          "place": "philae",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d48v2-05",
-          "time": "08:10–09:30",
-          "title": "菲莱神庙主殿与柱廊",
-          "detail": "<p>先主殿和柱廊，再看开放的附属建筑；把露天区放在上午较早时段。不要将声光秀、私人导游或岛上额外项目算进普通门票。</p>",
-          "plain": "菲莱神庙主殿与柱廊  先主殿和柱廊，再看开放的附属建筑；把露天区放在上午较早时段。不要将声光秀、私人导游或岛上额外项目算进普通门票。 ",
-          "links": [],
-          "place": "philae",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d48v2-06",
-          "time": "09:30–10:00",
-          "title": "阴凉短休、集合返船",
-          "detail": "<p>预留10–15分钟找到约定返船点；按之前确认的往返船安排离岛。若船方迟到，联系正式经营方，不擅自走到不明水边揽船。</p>",
-          "plain": "阴凉短休、集合返船  预留10–15分钟找到约定返船点；按之前确认的往返船安排离岛。若船方迟到，联系正式经营方，不擅自走到不明水边揽船。 ",
-          "links": [],
-          "place": "philae-marina",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d48v2-07",
-          "time": "10:00–11:00",
-          "title": "返回市区、洗漱补水",
-          "detail": "<p>按原约定接送回实际住宿；下方码头→Corniche仅为市区方向参考。菲莱不拖到午后末入，回去先避暑。</p>",
-          "plain": "返回市区、洗漱补水  按原约定接送回实际住宿；下方码头→Corniche仅为市区方向参考。菲莱不拖到午后末入，回去先避暑。 ",
+          "id": "d48r58-02",
+          "time": "07:15–08:00",
+          "title": "前往菲莱登船码头",
+          "detail": "<p>正规的车辆接驳到Agilkia/Philae售票与登船区，先分清遗址门票和船费。</p>",
+          "plain": "前往菲莱登船码头 正规的车辆接驳到Agilkia/Philae售票与登船区，先分清遗址门票和船费。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Philae+Temple+Marina+Aswan+Egypt&destination=Aswan+Corniche+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Philae%20Temple%20Marina%20Aswan"
             }
           ],
-          "place": "aswan-ref",
+          "place": "rev58-d48-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d48v2-08",
-          "time": "11:30–12:30",
-          "title": "午餐：豆餐/烤鸡米饭",
-          "detail": "<p>预算150–250 EGP，选择有空调或通风可靠的店。另备车上熟食面包和水；夜车餐食是否包含以正式订单为准。</p>",
-          "plain": "午餐：豆餐/烤鸡米饭  预算150–250 EGP，选择有空调或通风可靠的店。另备车上熟食面包和水；夜车餐食是否包含以正式订单为准。 ",
-          "links": [],
-          "place": null,
+          "id": "d48r58-03",
+          "time": "08:00–10:00",
+          "title": "菲莱神庙船游与参观",
+          "detail": "<p>船费按整船议价并尽量拼人，往返包在同一约定里；在岛上留约90分钟。</p>",
+          "plain": "菲莱神庙船游与参观 船费按整船议价并尽量拼人，往返包在同一约定里；在岛上留约90分钟。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Philae%20Temple"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.gov.eg/en/monuments/philae/"
+            }
+          ],
+          "place": "rev58-d48-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d48v2-09",
-          "time": "12:30–14:30",
-          "title": "午睡与整理主包",
-          "detail": "<p>保留空调房/正规付费休息空间，不能把退房后大堂默认可睡。确认能执行的夜车订单、外国人购票资格、上下车站、厕所和行李；未确认就走加住分支。</p>",
-          "plain": "午睡与整理主包  保留空调房/正规付费休息空间，不能把退房后大堂默认可睡。确认能执行的夜车订单、外国人购票资格、上下车站、厕所和行李；未确认就走加住分支。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d48v2-10",
-          "time": "14:30–15:30",
-          "title": "早晚餐、取包与补水",
-          "detail": "<p>餐费预算180–300 EGP，清点护照、充电、现金与保暖衣。夜间出发时间按票面T；若取消/无票，不连夜临时找路边车，保留阿斯旺床位。</p>",
-          "plain": "早晚餐、取包与补水  餐费预算180–300 EGP，清点护照、充电、现金与保暖衣。夜间出发时间按票面T；若取消/无票，不连夜临时找路边车，保留阿斯旺床位。 ",
-          "links": [],
-          "place": null,
+          "id": "d48r58-04",
+          "time": "10:15–11:00",
+          "title": "阿斯旺高坝",
+          "detail": "<p>仅在司机包车价包含时顺路加入；不要额外折回城市后再次包车。</p>",
+          "plain": "阿斯旺高坝 仅在司机包车价包含时顺路加入；不要额外折回城市后再次包车。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan%20High%20Dam"
+            }
+          ],
+          "place": "rev58-d48-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d48v2-11",
+          "id": "d48r58-05",
+          "time": "11:30–12:15",
+          "title": "未完成的方尖碑",
+          "detail": "<p>官方07:00起、15:00最后入场，避开原D47 16点后才抵达的问题；这是露天采石场，短时参观。</p>",
+          "plain": "未完成的方尖碑 官方07:00起、15:00最后入场，避开原D47 16点后才抵达的问题；这是露天采石场，短时参观。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Unfinished%20Obelisk%20Aswan"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/UnfinishedObelisk"
+            }
+          ],
+          "place": "rev58-d48-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d48r58-06",
+          "time": "12:30–13:30",
+          "title": "市区午餐",
+          "detail": "<p>就近吃饭补水，晚车食物也在市区买好。</p>",
+          "plain": "市区午餐 就近吃饭补水，晚车食物也在市区买好。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan"
+            }
+          ],
+          "place": "rev58-d47-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d48r58-07",
+          "time": "13:30–15:00",
+          "title": "阿斯旺香料市场与补给",
+          "detail": "<p>核对夜车站点和出发时间，买瓶装水和车上餐；不把这一段写成几小时回宿睡觉。</p>",
+          "plain": "阿斯旺香料市场与补给 核对夜车站点和出发时间，买瓶装水和车上餐；不把这一段写成几小时回宿睡觉。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan%20Souk"
+            }
+          ],
+          "place": "rev58-d47-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d48r58-08",
           "time": "15:30–17:00",
-          "title": "Go Inn → Super Jet票面上车站",
-          "detail": "<p>15:30离开Go Inn，16:00前到正式车票写明的Super Jet售票office。此轮尚未核定上车office，不提供铁路站或机场的替代导航。临出发把正式上车地址填入私密区后再打开导航。</p>",
-          "plain": "Go Inn → Super Jet票面上车站  15:30离开Go Inn，16:00前到正式车票写明的Super Jet售票office。此轮尚未核定上车office，不提供铁路站或机场的替代导航。临出发把正式上车地址填入私密区后再打开导航。 ",
+          "title": "植物园岛轻装游览",
+          "detail": "<p>实际渡船或包船收费单独确认；以当日售票和开放为准，不晚于17点离岛去取包。</p>",
+          "plain": "植物园岛轻装游览 实际渡船或包船收费单独确认；以当日售票和开放为准，不晚于17点离岛去取包。",
           "links": [
             {
-              "label": "查看Super Jet阿斯旺—开罗班次参考",
-              "url": "https://12go.asia/en/travel/aswan/cairo"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan%20Botanical%20Garden"
             }
           ],
-          "place": null,
-          "highlight": true,
+          "place": "rev58-d48-8",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d48v2-12",
-          "time": "17:00–次日06:00 现行样例",
-          "title": "Super Jet 17:00夜巴：阿斯旺 → 开罗",
-          "detail": "<p>当前第三方例示Super Jet 17:00阿斯旺→次日06:00开罗，13小时；没有证据保证2+1。只在当天确实开行且能核准站点时购买，否则提前改ASW→CAI航班并增加阿斯旺一晚留额。</p>",
-          "plain": "Super Jet 17:00夜巴：阿斯旺 → 开罗  当前第三方例示Super Jet 17:00阿斯旺→次日06:00开罗，13小时；没有证据保证2+1。只在当天确实开行且能核准站点时购买，否则提前改ASW→CAI航班并增加阿斯旺一晚留额。 ",
+          "id": "d48r58-09",
+          "time": "17:00–18:30",
+          "title": "取50L主包、晚餐与更衣",
+          "detail": "<p>在现有住宿取包后吃晚餐，贵重物品放10L随身包。</p>",
+          "plain": "取50L主包、晚餐与更衣 在现有住宿取包后吃晚餐，贵重物品放10L随身包。",
           "links": [
             {
-              "label": "查看路线参考",
-              "url": "https://12go.asia/en/travel/aswan/cairo"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan"
             }
           ],
-          "place": null,
-          "highlight": true,
+          "place": "rev58-d47-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d48r58-10",
+          "time": "18:30–20:00",
+          "title": "前往正式夜车上车点",
+          "detail": "<p>按已买车票提前45–60分钟抵达；Go Bus/VIP公路夜车与Abela卧铺火车价格差距大，不并称同价。</p>",
+          "plain": "前往正式夜车上车点 按已买车票提前45–60分钟抵达；Go Bus/VIP公路夜车与Abela卧铺火车价格差距大，不并称同价。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aswan%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://go-bus.com/en"
+            }
+          ],
+          "place": "rev58-d48-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d48r58-11",
+          "time": "20:00–23:59",
+          "title": "阿斯旺→开罗夜间交通",
+          "detail": "<p>目标夜间出发次晨抵达，实际班次和预计到站时间由购票确认；若选择卧铺火车需单独增加预算。</p>",
+          "plain": "阿斯旺→开罗夜间交通 目标夜间出发次晨抵达，实际班次和预计到站时间由购票确认；若选择卧铺火车需单独增加预算。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairo%20Ramses%20Railway%20Station"
+            }
+          ],
+          "place": "rev58-d48-11",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>主方案按Super Jet 17:00→次日06:00当前平台样例，票面车站、布局、行李与退改仍须确认。午间若需要床位午睡，提前谈好日间使用费用，不能默认免费延迟退房。夜巴不合适可改次日ASW→CAI，另加住宿与机票差额，并从D49城区活动删减。</p>",
+      "extras": "<p>主方案按Super Jet 17:00→次日06:00当前平台样例，票面车站、布局、行李与退改仍须确认。夜巴不合适可改次日ASW→CAI，另加住宿与机票差额，并从D49城区活动删减。</p>",
       "places": [
-        "philae-marina",
-        "philae",
-        "aswan-station",
-        "asw",
-        "ramses",
-        "aswan-ref"
+        "rev58-d47-1",
+        "rev58-d48-2",
+        "rev58-d48-3",
+        "rev58-d48-4",
+        "rev58-d48-5",
+        "rev58-d47-10",
+        "rev58-d48-8",
+        "rev58-d48-10",
+        "rev58-d48-11"
       ],
       "accent": "#AB8543",
       "lodging": "条件性车上夜宿（待核待订）",
@@ -9774,1915 +10042,2166 @@ window.TRIP_DATA = {
     {
       "id": "day49",
       "date": "2027-08-28",
-      "label": "开罗·休整与洗衣",
-      "title": "开罗·休整与洗衣",
-      "name": "开罗·休整与洗衣",
+      "label": "开罗·老埃博与伊斯兰老城",
+      "title": "开罗·老埃博与伊斯兰老城",
+      "name": "开罗·老埃博与伊斯兰老城",
       "country": "埃及",
       "countryCode": "EG",
       "timezone": "Africa/Cairo",
       "city": "开罗",
       "defaultCity": "开罗",
-      "priority": "夜车抵达后先入住补觉与洗衣；开罗城区游览全部可删减。",
+      "priority": "老埃博→城堡与伊斯兰老城→公园日落和哈利利夜市。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d49v2-01",
-          "time": "05:00–06:00",
-          "title": "夜巴醒后整理随身包",
-          "detail": "<p>A按承运人实际进度准备下车，不假定清晨已到。B若已确认ASW→CAI航班，提前约3小时到机场、从市区另留接驳余量；下方路线仅适用于B。</p>",
-          "plain": "夜巴醒后整理随身包  A按承运人实际进度准备下车，不假定清晨已到。B若已确认ASW→CAI航班，提前约3小时到机场、从市区另留接驳余量；下方路线仅适用于B。 ",
+          "id": "d49r58-01",
+          "time": "08:00–09:15",
+          "title": "抵开罗、寄存50L与洗漱",
+          "detail": "<p>08点为目标到达；若夜车晚点超过90分钟，缩短老埃博并把非核心洞穴教堂转为备选，不压城堡最后入场。</p>",
+          "plain": "抵开罗、寄存50L与洗漱 08点为目标到达；若夜车晚点超过90分钟，缩短老埃博并把非核心洞穴教堂转为备选，不压城堡最后入场。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Aswan+Corniche+Egypt&destination=Aswan+International+Airport+ASW+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo"
             }
           ],
-          "place": "asw",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d49v2-02",
-          "time": "06:00–07:00",
-          "title": "Super Jet开罗落客站出站、补水",
-          "detail": "<p>06:00为当前样例抵达。按Super Jet票面的开罗落客office出站，不默认拉美西斯火车站或机场，贵重包随身。</p>",
-          "plain": "Super Jet开罗落客站出站、补水  06:00为当前样例抵达。按Super Jet票面的开罗落客office出站，不默认拉美西斯火车站或机场，贵重包随身。 ",
-          "links": [],
-          "place": null,
+          "place": "rev58-d49-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d49v2-03",
-          "time": "07:00–08:00",
-          "title": "实际下车站 → Madina Hostel",
-          "detail": "<p>先核具体落客office，再从地图选择去Madina Hostel的正规车辆或公共交通；只给酒店名称检索，不从未确认的车站画路线。</p>",
-          "plain": "实际下车站 → Madina Hostel  先核具体落客office，再从地图选择去Madina Hostel的正规车辆或公共交通；只给酒店名称检索，不从未确认的车站画路线。 ",
+          "id": "d49r58-02",
+          "time": "09:30–11:15",
+          "title": "解放广场老埃及博物馆",
+          "detail": "<p>官方09:00开馆，不是08:30；纳尔迈调色板等重点用105分钟，皇家木乃伊不在此馆。</p>",
+          "plain": "解放广场老埃及博物馆 官方09:00开馆，不是08:30；纳尔迈调色板等重点用105分钟，皇家木乃伊不在此馆。",
           "links": [
             {
-              "label": "按名称打开地图",
-              "url": "https://www.google.com/maps/search/?api=1&query=Madina%20Hostel%205%20Kasr%20Al%20Nile%20Street%20Cairo"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Egyptian%20Museum%20Tahrir%20Cairo"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/EgyptianMuseum"
             }
           ],
-          "place": null,
+          "place": "rev58-d49-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d49v2-04",
-          "time": "08:00–09:00",
-          "title": "早餐/早午餐",
-          "detail": "<p>ful、taameya、鸡蛋面包任选，预算80–150 EGP。夜车后先补餐补水；若尚未到入住时间，确认青旅可否付费提前入住，不默认空调床已可用。</p>",
-          "plain": "早餐/早午餐  ful、taameya、鸡蛋面包任选，预算80–150 EGP。夜车后先补餐补水；若尚未到入住时间，确认青旅可否付费提前入住，不默认空调床已可用。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d49v2-05",
-          "time": "09:00–12:00",
-          "title": "补眠、洗澡与证件整理",
-          "detail": "<p>能入住就睡觉，不能入住则找正规空调休息空间。夜车未睡好时取消当天所有散步，重点是把体力恢复到能完成明日金字塔清晨游览。</p>",
-          "plain": "补眠、洗澡与证件整理  能入住就睡觉，不能入住则找正规空调休息空间。夜车未睡好时取消当天所有散步，重点是把体力恢复到能完成明日金字塔清晨游览。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d49v2-06",
-          "time": "12:00–13:00",
-          "title": "午餐与水",
-          "detail": "<p>koshari或烤鸡米饭，预算150–250 EGP；就近用餐，不为攻略店跨城。餐后买明天早餐和水。</p>",
-          "plain": "午餐与水  koshari或烤鸡米饭，预算150–250 EGP；就近用餐，不为攻略店跨城。餐后买明天早餐和水。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d49v2-07",
-          "time": "13:00–15:00",
-          "title": "第7次洗衣与晾晒",
-          "detail": "<p>按住宿洗衣服务报价或自助规则洗衣，湿衣不塞密封包；贵重物品先取出。今天优先完成第7次洗衣，回国前保留至少一套干净衣物。</p>",
-          "plain": "第7次洗衣与晾晒  按住宿洗衣服务报价或自助规则洗衣，湿衣不塞密封包；贵重物品先取出。今天优先完成第7次洗衣，回国前保留至少一套干净衣物。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d49v2-08",
-          "time": "15:00–16:30",
-          "title": "空调休息、核吉萨入口",
-          "detail": "<p>查明日金字塔官方开门、实际入口、门票与交通；先核支付和学生证明。不把普通门票、金字塔内部加票和骑乘项目混为套餐。</p>",
-          "plain": "空调休息、核吉萨入口  查明日金字塔官方开门、实际入口、门票与交通；先核支付和学生证明。不把普通门票、金字塔内部加票和骑乘项目混为套餐。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d49v2-09",
-          "time": "17:00–17:45",
-          "title": "市中心解放广场短走",
-          "detail": "<p>仅已补眠且体力合适时在市中心短走；广场是城市地标，不加埃及博物馆等另一个大馆。去河边时在正常人行道与过街点通行。</p>",
-          "plain": "市中心解放广场短走  仅已补眠且体力合适时在市中心短走；广场是城市地标，不加埃及博物馆等另一个大馆。去河边时在正常人行道与过街点通行。 ",
-          "links": [],
-          "place": "tahrir",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d49v2-10",
-          "time": "17:45–18:30",
-          "title": "卡斯尔尼罗桥河景",
-          "detail": "<p>下方解放广场→Qasr El Nil Bridge为具名步行路线；约20–30分钟看河景即回，不站车道边拍照。炎热或拥堵时可直接取消。</p>",
-          "plain": "卡斯尔尼罗桥河景  下方解放广场→Qasr El Nil Bridge为具名步行路线；约20–30分钟看河景即回，不站车道边拍照。炎热或拥堵时可直接取消。 ",
+          "id": "d49r58-03",
+          "time": "11:15–12:00",
+          "title": "解放广场附近午餐",
+          "detail": "<p>午餐后直接往城堡，不先去邮局绕路；埃及明信片移D53或D54出门前前台代寄。</p>",
+          "plain": "解放广场附近午餐 午餐后直接往城堡，不先去邮局绕路；埃及明信片移D53或D54出门前前台代寄。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tahrir+Square+Cairo+Egypt&destination=Qasr+El+Nil+Bridge+Cairo+Egypt&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tahrir%20Square%20Cairo"
             }
           ],
-          "place": "cairo-corniche",
+          "place": "rev58-d49-3",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d49v2-11",
-          "time": "18:30–19:30",
-          "title": "晚餐与回宿",
-          "detail": "<p>烤肉卷、扁豆汤或豆餐预算180–300 EGP；按实际青旅地址返回。若D48改为白天飞且晚落地，只保留入住、吃饭和睡觉。</p>",
-          "plain": "晚餐与回宿  烤肉卷、扁豆汤或豆餐预算180–300 EGP；按实际青旅地址返回。若D48改为白天飞且晚落地，只保留入住、吃饭和睡觉。 ",
-          "links": [],
-          "place": null,
+          "id": "d49r58-04",
+          "time": "12:00–12:45",
+          "title": "乘车前往萨拉丁城堡",
+          "detail": "<p>交通预留45分钟；整条城内线优先用正规网约车或事先谈好的司机。</p>",
+          "plain": "乘车前往萨拉丁城堡 交通预留45分钟；整条城内线优先用正规网约车或事先谈好的司机。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairo%20Citadel"
+            }
+          ],
+          "place": "rev58-d49-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d49v2-12",
+          "id": "d49r58-05",
+          "time": "12:45–14:00",
+          "title": "萨拉丁城堡与穆罕默德阿里清真寺",
+          "detail": "<p>当前外籍学生城堡门票275EGP；午间有室内清真寺，但不保证全馆强冷气。</p>",
+          "plain": "萨拉丁城堡与穆罕默德阿里清真寺 当前外籍学生城堡门票275EGP；午间有室内清真寺，但不保证全馆强冷气。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mosque%20of%20Muhammad%20Ali%20Cairo"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.gov.eg/en/archaeological-sites/cairo-citadel"
+            }
+          ],
+          "place": "rev58-d49-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d49r58-06",
+          "time": "14:15–15:00",
+          "title": "苏丹哈桑与里法伊双清真寺",
+          "detail": "<p>两寺相邻，服装与礼拜管理按现场规定；以可参观开放区域为准。</p>",
+          "plain": "苏丹哈桑与里法伊双清真寺 两寺相邻，服装与礼拜管理按现场规定；以可参观开放区域为准。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mosque%20Madrassa%20of%20Sultan%20Hassan%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d49r58-07",
+          "time": "15:15–16:00",
+          "title": "伊本图伦清真寺",
+          "detail": "<p>从双清真寺打车短程前往，看庭院与螺旋宣礼塔外观；登塔如另收费单独决定。</p>",
+          "plain": "伊本图伦清真寺 从双清真寺打车短程前往，看庭院与螺旋宣礼塔外观；登塔如另收费单独决定。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mosque%20of%20Ibn%20Tulun%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d49r58-08",
+          "time": "16:00–17:15",
+          "title": "穆卡塔姆圣西蒙洞穴教堂",
+          "detail": "<p>预留30分钟上山车程和45分钟参观，不把山路当步行相邻；当天管理不开放则改城内街区。</p>",
+          "plain": "穆卡塔姆圣西蒙洞穴教堂 预留30分钟上山车程和45分钟参观，不把山路当步行相邻；当天管理不开放则改城内街区。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Saint%20Simon%20the%20Tanner%20Monastery%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d49r58-09",
+          "time": "17:15–18:45",
+          "title": "爱资哈尔公园日落",
+          "detail": "<p>从洞穴教堂乘车返城；以当日实际日落时刻取景，不默认18:30所有季节都已日落。</p>",
+          "plain": "爱资哈尔公园日落 从洞穴教堂乘车返城；以当日实际日落时刻取景，不默认18:30所有季节都已日落。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Azhar%20Park%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d49r58-10",
+          "time": "19:00–20:00",
+          "title": "穆伊兹街与哈利利市场",
+          "detail": "<p>晚上看街区及建筑外观；夜间不能承诺每座收费古建筑仍开放。</p>",
+          "plain": "穆伊兹街与哈利利市场 晚上看街区及建筑外观；夜间不能承诺每座收费古建筑仍开放。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Muizz%20Street%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d49r58-11",
           "time": "20:00–21:00",
-          "title": "备小包、预约清晨接驳",
-          "detail": "<p>把护照/学生证、帽子、防晒、水、轻食与充电装好；确认明早司机/正规平台上车点与报价。早睡，不补回被交通取消的景点。</p>",
-          "plain": "备小包、预约清晨接驳  把护照/学生证、帽子、防晒、水、轻食与充电装好；确认明早司机/正规平台上车点与报价。早睡，不补回被交通取消的景点。 ",
-          "links": [],
-          "place": null,
+          "title": "老城晚餐并返宿",
+          "detail": "<p>沿用已筛开罗餐厅和附近备选；不另外占用白天时段洗衣。</p>",
+          "plain": "老城晚餐并返宿 沿用已筛开罗餐厅和附近备选；不另外占用白天时段洗衣。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Khan%20el%20Khalili%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-11",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>本日按A夜车抵达或B白天航班两案执行，到达时间优先；所有固定钟点只是早到时的建议。</p><p>第7次洗衣、午睡、次日准备是核心；若白天航班迟到，删除广场与河岸，不牺牲睡眠。</p>",
+      "extras": "",
       "places": [
-        "ramses",
-        "tahrir",
-        "cairo-corniche",
-        "asw"
+        "rev58-d49-1",
+        "rev58-d49-2",
+        "rev58-d49-3",
+        "rev58-d49-4",
+        "rev58-d49-5",
+        "rev58-d49-6",
+        "rev58-d49-7",
+        "rev58-d49-8",
+        "rev58-d49-9",
+        "rev58-d49-10",
+        "rev58-d49-11"
       ],
       "accent": "#AB8543",
       "lodging": "开罗（付费夜42）",
       "transportStatus": "待核 / 待订",
       "flightStatus": null,
-      "scheduleBasis": "具体钟点计划；已核现行样例与购票目标分开标注，2027按实际出票更新。",
-      "requiresBookingTime": true,
-      "transportPlan": [
-        {
-          "id": "aswan-cairo",
-          "route": "Aswan → Cairo",
-          "operator": "Super Jet（Arab Union for Land Transport）",
-          "service": "Standard AC长途夜巴的第三方公开时刻示例；到达开罗具体车站待订票时选择",
-          "departure": "17:00",
-          "arrival": "06:00",
-          "url": "https://12go.asia/en/bus/aswan/cairo"
-        }
-      ]
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
+      "requiresBookingTime": false
     },
     {
       "id": "day50",
       "date": "2027-08-29",
-      "label": "吉萨金字塔·狮身人面像",
-      "title": "吉萨金字塔·狮身人面像",
-      "name": "吉萨金字塔·狮身人面像",
+      "label": "吉萨金字塔＋GEM",
+      "title": "吉萨金字塔＋GEM",
+      "name": "吉萨金字塔＋GEM",
       "country": "埃及",
       "countryCode": "EG",
       "timezone": "Africa/Cairo",
       "city": "开罗",
       "defaultCity": "开罗",
-      "priority": "清早吉萨金字塔，午间避暑；金字塔内部另票按预算决定。",
+      "priority": "清晨吉萨金字塔，午后留给GEM主展厅。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d50v2-01",
-          "time": "05:45–06:15",
-          "title": "早餐与防晒小包",
-          "detail": "<p>早餐面包/鸡蛋/香蕉预算80–150 EGP，提前购买即可。带水、帽子、遮阳伞、防晒衣、学生证明和银行卡；别把原护照无人看管地留在车里。</p>",
-          "plain": "早餐与防晒小包  早餐面包/鸡蛋/香蕉预算80–150 EGP，提前购买即可。带水、帽子、遮阳伞、防晒衣、学生证明和银行卡；别把原护照无人看管地留在车里。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-02",
-          "time": "06:15–07:15建议",
-          "title": "开罗市区→吉萨已核官方入口",
-          "detail": "<p>以2027实际开门为准调整，目标开门时到；下方解放广场仅市中心起点参考，正规车辆目的地须核官方入口。清晨也可能堵车，不承诺固定1小时。</p>",
-          "plain": "开罗市区→吉萨已核官方入口  以2027实际开门为准调整，目标开门时到；下方解放广场仅市中心起点参考，正规车辆目的地须核官方入口。清晨也可能堵车，不承诺固定1小时。 ",
+          "id": "d50r58-01",
+          "time": "06:30–07:00",
+          "title": "早餐、带水与学生证件",
+          "detail": "<p>轻装出发，微单与充电宝随身；GEM不允许外带食物按官方规则安排午餐。</p>",
+          "plain": "早餐、带水与学生证件 轻装出发，微单与充电宝随身；GEM不允许外带食物按官方规则安排午餐。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tahrir+Square+Cairo+Egypt&destination=Giza+Pyramids+Plateau+official+entrance+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Giza"
             }
           ],
-          "place": "giza",
+          "place": "rev58-d50-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d50r58-02",
+          "time": "07:00–07:45",
+          "title": "前往吉萨高原正式入口",
+          "detail": "<p>按实际开放窗口排队，定位正式售票口，不导航到高原中心或私人骑骆驼集合点。</p>",
+          "plain": "前往吉萨高原正式入口 按实际开放窗口排队，定位正式售票口，不导航到高原中心或私人骑骆驼集合点。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Giza%20Pyramids%20Ticket%20Office"
+            }
+          ],
+          "place": "rev58-d50-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d50r58-03",
+          "time": "08:00–10:00",
+          "title": "吉萨三大金字塔",
+          "detail": "<p>普通门票范围内看外观；胡夫墓室和任何额外项目另外计费，按自身兴趣选择。</p>",
+          "plain": "吉萨三大金字塔 普通门票范围内看外观；胡夫墓室和任何额外项目另外计费，按自身兴趣选择。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Great%20Pyramid%20of%20Giza"
+            }
+          ],
+          "place": "rev58-d50-3",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d50v2-03",
-          "time": "07:15–07:40建议",
-          "title": "购票、入场与识别加票",
-          "detail": "<p>学生350 EGP为原稿现价参考，2027年龄、证件、支付与价格待核；普通景区票不自动含金字塔内部。只在官方售票渠道确认，不跟无证人员去别处“换票”。</p>",
-          "plain": "购票、入场与识别加票  学生350 EGP为原稿现价参考，2027年龄、证件、支付与价格待核；普通景区票不自动含金字塔内部。只在官方售票渠道确认，不跟无证人员去别处“换票”。 ",
+          "id": "d50r58-04",
+          "time": "10:00–11:00",
+          "title": "全景观景点",
+          "detail": "<p>高原内有距离与坡度，采用现场正规接驳或实际步行；不把九金字塔全景当入口旁免费两分钟。</p>",
+          "plain": "全景观景点 高原内有距离与坡度，采用现场正规接驳或实际步行；不把九金字塔全景当入口旁免费两分钟。",
           "links": [
             {
-              "label": "吉萨官方票务参考",
-              "url": "https://egymonuments.com/details/Pyramids"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Giza%20Pyramids%20Panorama%20View"
             }
           ],
-          "place": "giza",
+          "place": "rev58-d50-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d50r58-05",
+          "time": "11:00–12:00",
+          "title": "狮身人面像与出景区",
+          "detail": "<p>按所用出口安排司机会合，避免从狮身人面像出口横穿公路自行走到GEM。</p>",
+          "plain": "狮身人面像与出景区 按所用出口安排司机会合，避免从狮身人面像出口横穿公路自行走到GEM。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Great%20Sphinx%20of%20Giza"
+            }
+          ],
+          "place": "rev58-d50-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d50r58-06",
+          "time": "12:00–12:45",
+          "title": "午餐与补水",
+          "detail": "<p>先吃午餐再进GEM，减少在馆内找餐耽误展厅时间。</p>",
+          "plain": "午餐与补水 先吃午餐再进GEM，减少在馆内找餐耽误展厅时间。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Giza"
+            }
+          ],
+          "place": "rev58-d50-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d50r58-07",
+          "time": "12:45–13:30",
+          "title": "吉萨入口区→GEM入口与安检",
+          "detail": "<p>预留25–40分钟道路接驳及额外安检，不写直线2公里等于打车5分钟。</p>",
+          "plain": "吉萨入口区→GEM入口与安检 预留25–40分钟道路接驳及额外安检，不写直线2公里等于打车5分钟。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Grand%20Egyptian%20Museum%20Entrance"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://tickets.gem.eg/"
+            }
+          ],
+          "place": "rev58-d50-7",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d50v2-04",
-          "time": "07:40–08:30建议",
-          "title": "胡夫金字塔外观",
-          "detail": "<p>先看主金字塔外观和近处石块尺度；内部如另买票且体力允许才去，闷热窄道可取消。不要攀爬石块，不把进入内部当必做任务。</p>",
-          "plain": "胡夫金字塔外观  先看主金字塔外观和近处石块尺度；内部如另买票且体力允许才去，闷热窄道可取消。不要攀爬石块，不把进入内部当必做任务。 ",
-          "links": [],
-          "place": "giza",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-05",
-          "time": "08:30–09:00建议",
-          "title": "前往哈夫拉方向/全景区域",
-          "detail": "<p>园内具体步行/官方接驳以当日开放与交通管理为准，避免在沙地暴晒长走；下方是具名地标方向参考，不代表有固定免费接驳或准许随意开车。</p>",
-          "plain": "前往哈夫拉方向/全景区域  园内具体步行/官方接驳以当日开放与交通管理为准，避免在沙地暴晒长走；下方是具名地标方向参考，不代表有固定免费接驳或准许随意开车。 ",
+          "id": "d50r58-08",
+          "time": "13:30–15:15",
+          "title": "GEM主展厅与大阶梯",
+          "detail": "<p>以已预约入场时段为准；持外国学生证件，票价以官方预订页为准，920EGP未取得可复核现价。</p>",
+          "plain": "GEM主展厅与大阶梯 以已预约入场时段为准；持外国学生证件，票价以官方预订页为准，920EGP未取得可复核现价。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Great+Pyramid+of+Giza+Egypt&destination=Pyramid+of+Khafre+Giza+Egypt&travelmode=walking"
-            }
-          ],
-          "place": "giza",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-06",
-          "time": "09:00–09:30建议",
-          "title": "全景短停与补水",
-          "detail": "<p>挑一处允许停留的观景区看金字塔群，拍照约15–20分钟后到阴影处补水；拒绝未谈清总价的骑骆驼/马车。炎热时直接省略全景。</p>",
-          "plain": "全景短停与补水  挑一处允许停留的观景区看金字塔群，拍照约15–20分钟后到阴影处补水；拒绝未谈清总价的骑骆驼/马车。炎热时直接省略全景。 ",
-          "links": [],
-          "place": "giza",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-07",
-          "time": "09:30–10:00建议",
-          "title": "向狮身人面像移动",
-          "detail": "<p>跟随园内官方动线，用现场准许的步行或接驳去狮身人面像；地图仅给方向。不要为了凑路线在高温中穿越长段沙地。</p>",
-          "plain": "向狮身人面像移动  跟随园内官方动线，用现场准许的步行或接驳去狮身人面像；地图仅给方向。不要为了凑路线在高温中穿越长段沙地。 ",
-          "links": [
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Grand%20Egyptian%20Museum"
+            },
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Pyramid+of+Khafre+Giza+Egypt&destination=Great+Sphinx+Giza+Egypt&travelmode=walking"
+              "label": "开放时间／运营依据",
+              "url": "https://tickets.gem.eg/"
             }
           ],
-          "place": "sphinx",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-08",
-          "time": "10:00–10:40建议",
-          "title": "狮身人面像与出口",
-          "detail": "<p>在开放观景区参观，留10–15分钟找出口与司机；若上段加了内部票，按体力缩短全景或这里的停留。目标上午结束主要露天活动。</p>",
-          "plain": "狮身人面像与出口  在开放观景区参观，留10–15分钟找出口与司机；若上段加了内部票，按体力缩短全景或这里的停留。目标上午结束主要露天活动。 ",
-          "links": [],
-          "place": "sphinx",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-09",
-          "time": "10:40–11:45建议",
-          "title": "离园、返回空调环境",
-          "detail": "<p>正规车辆返回实际住宿或附近空调餐厅，下方狮身人面像→解放广场只是市中心方向参考。不要接着逛GEM，GEM已单留明天。</p>",
-          "plain": "离园、返回空调环境  正规车辆返回实际住宿或附近空调餐厅，下方狮身人面像→解放广场只是市中心方向参考。不要接着逛GEM，GEM已单留明天。 ",
-          "links": [
-            {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Great+Sphinx+Giza+Egypt&destination=Tahrir+Square+Cairo+Egypt&travelmode=driving"
-            }
-          ],
-          "place": "tahrir",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-10",
-          "time": "11:45–12:45",
-          "title": "午餐：koshari/烤鸡饭",
-          "detail": "<p>午餐预算150–250 EGP，先补水再吃；景区周边报价可能不同，先看明码价格，不把预算当封顶。</p>",
-          "plain": "午餐：koshari/烤鸡饭  午餐预算150–250 EGP，先补水再吃；景区周边报价可能不同，先看明码价格，不把预算当封顶。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-11",
-          "time": "12:45–16:30",
-          "title": "空调午休与整理照片",
-          "detail": "<p>完整休息，晾晒衣物并核GEM正式票/开放时间。晒伤或疲劳时今天傍晚不再出门；明天室内长参观也需要体力。</p>",
-          "plain": "空调午休与整理照片  完整休息，晾晒衣物并核GEM正式票/开放时间。晒伤或疲劳时今天傍晚不再出门；明天室内长参观也需要体力。 ",
-          "links": [],
-          "place": null,
+          "place": "rev58-d50-8",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d50v2-12",
-          "time": "16:30–17:15条件性",
-          "title": "前往爱资哈尔公园",
-          "detail": "<p>仅体力够且天气允许才前往，公园票与交通单独核价；下方解放广场起点只是城市参考。从吉萨直接跨城去公园不用于跳过午休。</p>",
-          "plain": "前往爱资哈尔公园  仅体力够且天气允许才前往，公园票与交通单独核价；下方解放广场起点只是城市参考。从吉萨直接跨城去公园不用于跳过午休。 ",
+          "id": "d50r58-09",
+          "time": "15:15–17:45",
+          "title": "GEM图坦卡蒙展厅与重点补看",
+          "detail": "<p>官方周日展厅09–18、17点最后入场；分给GEM超过4小时，不再17:30硬赶已16点闭门的悬空教堂。</p>",
+          "plain": "GEM图坦卡蒙展厅与重点补看 官方周日展厅09–18、17点最后入场；分给GEM超过4小时，不再17:30硬赶已16点闭门的悬空教堂。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tahrir+Square+Cairo+Egypt&destination=Al+Azhar+Park+Cairo+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Grand%20Egyptian%20Museum"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://tickets.gem.eg/"
             }
           ],
-          "place": "azhar-park",
-          "highlight": false,
+          "place": "rev58-d50-8",
+          "highlight": true,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d50v2-13",
-          "time": "17:15–18:30条件性",
-          "title": "公园阴凉路与城市晚景",
-          "detail": "<p>按当日实际日落时间调整，在有阴影的主路短走，避开仍暴晒坡道；不保证特定位置能拍到理想日落。约1小时足够，热或累直接回宿。</p>",
-          "plain": "公园阴凉路与城市晚景  按当日实际日落时间调整，在有阴影的主路短走，避开仍暴晒坡道；不保证特定位置能拍到理想日落。约1小时足够，热或累直接回宿。 ",
-          "links": [],
-          "place": "azhar-park",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d50v2-14",
-          "time": "18:30–19:30",
-          "title": "晚餐后返回市区",
-          "detail": "<p>可选埃及烤肉、扁豆汤或豆餐，预算180–300 EGP；公园内消费先看菜单。下方返回解放广场的路线仅指方向，最后导航改成实际住宿。</p>",
-          "plain": "晚餐后返回市区  可选埃及烤肉、扁豆汤或豆餐，预算180–300 EGP；公园内消费先看菜单。下方返回解放广场的路线仅指方向，最后导航改成实际住宿。 ",
+          "id": "d50r58-10",
+          "time": "17:45–19:00",
+          "title": "返回市区与晚餐",
+          "detail": "<p>高峰期道路返程留45–75分钟；科普特老开罗已移D53在16点前参观。</p>",
+          "plain": "返回市区与晚餐 高峰期道路返程留45–75分钟；科普特老开罗已移D53在16点前参观。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Al+Azhar+Park+Cairo+Egypt&destination=Tahrir+Square+Cairo+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo"
             }
           ],
-          "place": "tahrir",
+          "place": "rev58-d49-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d50v2-15",
-          "time": "20:00–21:00",
-          "title": "返宿、查GEM与充电",
-          "detail": "<p>GEM官方票、有效学生证、包袋规则与明日接驳截图留存；不把学生920 EGP现价参考写成已锁价。整理后早睡。</p>",
-          "plain": "返宿、查GEM与充电  GEM官方票、有效学生证、包袋规则与明日接驳截图留存；不把学生920 EGP现价参考写成已锁价。整理后早睡。 ",
-          "links": [],
-          "place": null,
+          "id": "d50r58-11",
+          "time": "19:00–20:00",
+          "title": "次日北岸轻装包与住宿确认",
+          "detail": "<p>50L大包寄存需住宿明确同意并拿寄存凭证；不承诺免费或必有上锁空间。10L包带一套衣物、洗漱和证件。</p>",
+          "plain": "次日北岸轻装包与住宿确认 50L大包寄存需住宿明确同意并拿寄存凭证；不承诺免费或必有上锁空间。10L包带一套衣物、洗漱和证件。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>按2027开门时间整体调整早晨，核心露天段集中上午；午间必须回空调环境。园内动线、接驳和入口按官方现场管理，地图路线不是通行许可。</p><p>普通票与内部加票分开；公园为可取消的傍晚体验，今天不叠加GEM。</p>",
+      "extras": "",
       "places": [
-        "giza",
-        "sphinx",
-        "azhar-park",
-        "tahrir"
+        "rev58-d50-1",
+        "rev58-d50-2",
+        "rev58-d50-3",
+        "rev58-d50-4",
+        "rev58-d50-5",
+        "rev58-d50-7",
+        "rev58-d50-8",
+        "rev58-d49-1"
       ],
       "accent": "#AB8543",
       "lodging": "开罗（付费夜43）",
       "transportStatus": "待核 / 待订",
       "flightStatus": null,
-      "scheduleBasis": "建议时段；交通与营业以实际票面和出发前核实为准",
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
       "requiresBookingTime": false
     },
     {
       "id": "day51",
       "date": "2027-08-30",
-      "label": "大埃及博物馆 GEM",
-      "title": "大埃及博物馆 GEM",
-      "name": "大埃及博物馆 GEM",
+      "label": "开罗→亚历山大→马特鲁",
+      "title": "开罗→亚历山大→马特鲁",
+      "name": "开罗→亚历山大→马特鲁",
       "country": "埃及",
       "countryCode": "EG",
       "timezone": "Africa/Cairo",
-      "city": "开罗",
-      "defaultCity": "开罗",
-      "priority": "大埃及博物馆留足半天以上；实体学生证与年龄资格按售票规则核验。",
+      "city": "亚历山大",
+      "defaultCity": "亚历山大",
+      "priority": "早班铁路赴亚历山大，四处核心景点与海滨，傍晚乘车赴马特鲁。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d51v2-01",
-          "time": "07:00–07:45",
-          "title": "早餐、门票和学生证",
-          "detail": "<p>早餐预算80–150 EGP。准备GEM正式预约/门票、有效学生证明、护照资料、手机电量及水；大包尽量留住宿，馆内饮水和寄存按实际规则执行。</p>",
-          "plain": "早餐、门票和学生证  早餐预算80–150 EGP。准备GEM正式预约/门票、有效学生证明、护照资料、手机电量及水；大包尽量留住宿，馆内饮水和寄存按实际规则执行。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-02",
-          "time": "07:45–09:00建议",
-          "title": "市中心→GEM正式入口",
-          "detail": "<p>按2027开门与预约时间调整，预留道路拥堵和门检；下方解放广场起点只作参考，从实际住宿出发。GEM与金字塔另有独立入口，不要直接导航到昨日的吉萨门口。</p>",
-          "plain": "市中心→GEM正式入口  按2027开门与预约时间调整，预留道路拥堵和门检；下方解放广场起点只作参考，从实际住宿出发。GEM与金字塔另有独立入口，不要直接导航到昨日的吉萨门口。 ",
+          "id": "d51r58-01",
+          "time": "05:00–05:45",
+          "title": "退房寄存50L并赴拉美西斯站",
+          "detail": "<p>只背10L过夜小包；先取得开罗住宿跨夜寄存确认，贵重证件与相机随身。</p>",
+          "plain": "退房寄存50L并赴拉美西斯站 只背10L过夜小包；先取得开罗住宿跨夜寄存确认，贵重证件与相机随身。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tahrir+Square+Cairo+Egypt&destination=Grand+Egyptian+Museum+Giza+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ramses%20Railway%20Station%20Cairo"
             }
           ],
-          "place": "gem",
+          "place": "rev58-d51-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d51v2-03",
-          "time": "09:00–09:30建议",
-          "title": "检票、寄存与确定展线",
-          "detail": "<p>外籍学生920 EGP是2026-11整理参考，2027及学生年龄、证件均须官方重核，不套用所有古迹同一规则。拿馆内图，优先自己最想看的两个展区。</p>",
-          "plain": "检票、寄存与确定展线  外籍学生920 EGP是2026-11整理参考，2027及学生年龄、证件均须官方重核，不套用所有古迹同一规则。拿馆内图，优先自己最想看的两个展区。 ",
-          "links": [],
-          "place": "gem",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-04",
-          "time": "09:30–10:30建议",
-          "title": "入口大厅与主线展览第一段",
-          "detail": "<p>先建立时间线，慢看大型雕像和主线展览，不追求逐件看完；展区开放与具体展品按当日馆方安排，不保证某件展品必定展出。</p>",
-          "plain": "入口大厅与主线展览第一段  先建立时间线，慢看大型雕像和主线展览，不追求逐件看完；展区开放与具体展品按当日馆方安排，不保证某件展品必定展出。 ",
-          "links": [],
-          "place": "gem",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-05",
-          "time": "10:30–10:45建议",
-          "title": "座椅休息与补水",
-          "detail": "<p>找馆方允许的休息处坐下，整理照片并确认下一段路线；不在禁止饮食的展厅喝饮料。衣物带薄外套以适应空调。</p>",
-          "plain": "座椅休息与补水  找馆方允许的休息处坐下，整理照片并确认下一段路线；不在禁止饮食的展厅喝饮料。衣物带薄外套以适应空调。 ",
-          "links": [],
-          "place": "gem",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-06",
-          "time": "10:45–12:00建议",
-          "title": "主线展览第二段",
-          "detail": "<p>按个人兴趣选墓葬、王权或日常生活相关展区；阅读重点说明，少量拍照。若人多改走相邻开放展厅，避免在单一展品前一直排队。</p>",
-          "plain": "主线展览第二段  按个人兴趣选墓葬、王权或日常生活相关展区；阅读重点说明，少量拍照。若人多改走相邻开放展厅，避免在单一展品前一直排队。 ",
-          "links": [],
-          "place": "gem",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-07",
-          "time": "12:00–12:45建议",
-          "title": "馆内/指定区域午餐",
-          "detail": "<p>先核是否能再入馆再决定离馆吃饭；馆内餐价另留约250–450 EGP规划额，实际看菜单。带的食物只在馆方允许区域使用，不能默认能在展厅吃。</p>",
-          "plain": "馆内/指定区域午餐  先核是否能再入馆再决定离馆吃饭；馆内餐价另留约250–450 EGP规划额，实际看菜单。带的食物只在馆方允许区域使用，不能默认能在展厅吃。 ",
-          "links": [],
-          "place": "gem",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-08",
-          "time": "12:45–14:00建议",
-          "title": "最后一个重点展区与收尾",
-          "detail": "<p>再选一段最有兴趣的内容，总参观约4–5小时含休息；如果疲劳，可13点前结束。纪念品店自愿逛，不用购物填满时段。</p>",
-          "plain": "最后一个重点展区与收尾  再选一段最有兴趣的内容，总参观约4–5小时含休息；如果疲劳，可13点前结束。纪念品店自愿逛，不用购物填满时段。 ",
-          "links": [],
-          "place": "gem",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-09",
-          "time": "14:00–15:15建议",
-          "title": "GEM→市区空调休息",
-          "detail": "<p>按正规车辆返回实际住宿，下方终点解放广场仅市中心参考；不顺路临时加萨卡拉或再次进吉萨，地理相近不代表时间充裕。</p>",
-          "plain": "GEM→市区空调休息  按正规车辆返回实际住宿，下方终点解放广场仅市中心参考；不顺路临时加萨卡拉或再次进吉萨，地理相近不代表时间充裕。 ",
+          "id": "d51r58-02",
+          "time": "05:45–09:15",
+          "title": "开罗→亚历山大早班铁路",
+          "detail": "<p>争取05:45–06:30出发、09:00–09:30前到达的空调车；从ENR实际放票选车，不把06:00→08:30写成已核定时刻。</p>",
+          "plain": "开罗→亚历山大早班铁路 争取05:45–06:30出发、09:00–09:30前到达的空调车；从ENR实际放票选车，不把06:00→08:30写成已核定时刻。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Grand+Egyptian+Museum+Giza+Egypt&destination=Tahrir+Square+Cairo+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Alexandria%20Misr%20Railway%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://obs.enr.gov.eg/o-city/obs/enr/railway/en/home"
             }
           ],
-          "place": "tahrir",
+          "place": "rev58-d51-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d51v2-10",
-          "time": "15:15–17:30",
-          "title": "午睡与次日分支选择",
-          "detail": "<p>选定D52“科普特开罗+NMEC”或“萨卡拉”之一，并核SPX/CAI真实出发机场与接驳；不同时预订两套会冲突的交通。</p>",
-          "plain": "午睡与次日分支选择  选定D52“科普特开罗+NMEC”或“萨卡拉”之一，并核SPX/CAI真实出发机场与接驳；不同时预订两套会冲突的交通。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d51v2-11",
-          "time": "18:00–19:00",
-          "title": "市区晚餐",
-          "detail": "<p>可选koshari、烤鸡米饭或扁豆汤，预算180–300 EGP。住宿附近就餐，今天室内步行量已大，不再跑另一个商圈。</p>",
-          "plain": "市区晚餐  可选koshari、烤鸡米饭或扁豆汤，预算180–300 EGP。住宿附近就餐，今天室内步行量已大，不再跑另一个商圈。 ",
-          "links": [],
-          "place": "tahrir",
+          "id": "d51r58-03",
+          "time": "09:15–09:45",
+          "title": "车站→孔苏佳法地下墓穴",
+          "detail": "<p>乘出租或网约车去Karmouz区；若实际列车到Sidi Gaber，车程需另加。</p>",
+          "plain": "车站→孔苏佳法地下墓穴 乘出租或网约车去Karmouz区；若实际列车到Sidi Gaber，车程需另加。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Catacombs%20of%20Kom%20el%20Shoqafa%20Alexandria"
+            }
+          ],
+          "place": "rev58-d51-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d51v2-12",
-          "time": "19:00–19:45条件性",
-          "title": "附近短走、买次日补给",
-          "detail": "<p>只在住宿附近有照明的路段走约20–30分钟；补水、明早食物与小额现金。若晚上要确认票务，则散步取消。</p>",
-          "plain": "附近短走、买次日补给  只在住宿附近有照明的路段走约20–30分钟；补水、明早食物与小额现金。若晚上要确认票务，则散步取消。 ",
-          "links": [],
-          "place": null,
+          "id": "d51r58-04",
+          "time": "09:45–10:45",
+          "title": "孔苏佳法地下墓穴",
+          "detail": "<p>官方09点起、16点最后入场；学生当前100EGP。地下非空调，台阶可能湿滑。</p>",
+          "plain": "孔苏佳法地下墓穴 官方09点起、16点最后入场；学生当前100EGP。地下非空调，台阶可能湿滑。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Catacombs%20of%20Kom%20el%20Shoqafa%20Alexandria"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/details/KomelShoqafaCatacombs"
+            }
+          ],
+          "place": "rev58-d51-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d51v2-13",
-          "time": "20:00–21:00",
-          "title": "返宿、备离埃文件",
-          "detail": "<p>把离埃航班、UAE首晚住宿、保险和返程观察信息离线保存。SPX距金字塔约45公里，不能因称“吉萨机场”就缩减接驳。</p>",
-          "plain": "返宿、备离埃文件  把离埃航班、UAE首晚住宿、保险和返程观察信息离线保存。SPX距金字塔约45公里，不能因称“吉萨机场”就缩减接驳。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
+          "id": "d51r58-05",
+          "time": "10:45–11:30",
+          "title": "庞培柱与塞拉皮斯神庙遗址",
+          "detail": "<p>与墓穴同一城区，短程接驳或步行；约45分钟不拖成两小时。</p>",
+          "plain": "庞培柱与塞拉皮斯神庙遗址 与墓穴同一城区，短程接驳或步行；约45分钟不拖成两小时。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Pompey's%20Pillar%20Alexandria"
+            }
+          ],
+          "place": "rev58-d51-5",
+          "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d51r58-06",
+          "time": "11:30–12:30",
+          "title": "前往海滨与午餐",
+          "detail": "<p>吃饭和横穿市区合计留1小时，不把老城到新图书馆当10分钟固定车程。</p>",
+          "plain": "前往海滨与午餐 吃饭和横穿市区合计留1小时，不把老城到新图书馆当10分钟固定车程。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bibliotheca%20Alexandrina"
+            }
+          ],
+          "place": "rev58-d51-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d51r58-07",
+          "time": "12:30–14:15",
+          "title": "亚历山大新图书馆与馆内展览",
+          "detail": "<p>周一在官方开放日；外国学生联票当前120EGP可含主馆/古迹馆/手稿馆，古迹馆周日至周四09:30–16:45。</p>",
+          "plain": "亚历山大新图书馆与馆内展览 周一在官方开放日；外国学生联票当前120EGP可含主馆/古迹馆/手稿馆，古迹馆周日至周四09:30–16:45。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bibliotheca%20Alexandrina"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://antiquities.bibalex.org/Antiquities/Admission.aspx"
+            }
+          ],
+          "place": "rev58-d51-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d51r58-08",
+          "time": "14:15–15:45",
+          "title": "奎特贝城堡与海滨",
+          "detail": "<p>先用30分钟沿海接驳，再参观约1小时；官方当前学生100EGP。</p>",
+          "plain": "奎特贝城堡与海滨 先用30分钟沿海接驳，再参观约1小时；官方当前学生100EGP。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Citadel%20of%20Qaitbay%20Alexandria"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/details/CitadelofQaitbay"
+            }
+          ],
+          "place": "rev58-d51-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d51r58-09",
+          "time": "15:45–17:15",
+          "title": "前往正式马特鲁大巴站并简餐",
+          "detail": "<p>从海角到Moharam Bek或Smouha等售票指定上车点预留45–60分钟；只认所购车票站点。</p>",
+          "plain": "前往正式马特鲁大巴站并简餐 从海角到Moharam Bek或Smouha等售票指定上车点预留45–60分钟；只认所购车票站点。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Moharam%20Bek%20Bus%20Station%20Alexandria"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://go-bus.com/en"
+            }
+          ],
+          "place": "rev58-d51-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d51r58-10",
+          "time": "17:30–22:00",
+          "title": "亚历山大→马特鲁",
+          "detail": "<p>推荐17:30–18:30左右实际可售直达车，约4小时；Go Bus网页仅动态Loading，未核到2027班次，不伪称17:00固定发车。找不到适配直达车时用当地正规西部线路，不拼接赶末班。</p>",
+          "plain": "亚历山大→马特鲁 推荐17:30–18:30左右实际可售直达车，约4小时；Go Bus网页仅动态Loading，未核到2027班次，不伪称17:00固定发车。找不到适配直达车时用当地正规西部线路，不拼接赶末班。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Marsa%20Matrouh%20Bus%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://go-bus.com/en"
+            }
+          ],
+          "place": "rev58-d51-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d51r58-11",
+          "time": "22:00–22:45",
+          "title": "马特鲁入住与次晨车辆确认",
+          "detail": "<p>入住已订平价旅馆；西线是包车/拼车，不是四海滩免费公交联游。询价目标250–350元人民币/整车半日，2–3人分摊；这是预算目标不是已取得报价。</p>",
+          "plain": "马特鲁入住与次晨车辆确认 入住已订平价旅馆；西线是包车/拼车，不是四海滩免费公交联游。询价目标250–350元人民币/整车半日，2–3人分摊；这是预算目标不是已取得报价。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Marsa%20Matrouh"
+            }
+          ],
+          "place": "rev58-d51-11",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>GEM建议留4–5小时并含座椅休息；以2027正式开放/预约窗口平移，不承诺特定展品及学生价格。</p><p>D52只能选一组白天项目；今天晚间先确认D53机场，避免最后一天才发现SPX/CAI混淆。</p>",
+      "extras": "",
       "places": [
-        "gem",
-        "tahrir"
+        "rev58-d51-1",
+        "rev58-d51-2",
+        "rev58-d51-3",
+        "rev58-d51-5",
+        "rev58-d51-6",
+        "rev58-d51-8",
+        "rev58-d51-9",
+        "rev58-d51-10",
+        "rev58-d51-11"
       ],
       "accent": "#AB8543",
       "lodging": "开罗（付费夜44）",
       "transportStatus": "待核 / 待订",
       "flightStatus": null,
-      "scheduleBasis": "建议时段；交通与营业以实际票面和出发前核实为准",
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
       "requiresBookingTime": false
     },
     {
       "id": "day52",
       "date": "2027-08-31",
-      "label": "萨卡拉或文明馆·哈利利",
-      "title": "萨卡拉或文明馆·哈利利",
-      "name": "萨卡拉或文明馆·哈利利",
+      "label": "马特鲁果冻海→开罗",
+      "title": "马特鲁果冻海→开罗",
+      "name": "马特鲁果冻海→开罗",
       "country": "埃及",
       "countryCode": "EG",
       "timezone": "Africa/Cairo",
-      "city": "开罗",
-      "defaultCity": "开罗",
-      "priority": "萨卡拉与文明馆择一；傍晚哈利利短逛，先完成阿联酋航班准备。",
+      "city": "马特鲁",
+      "defaultCity": "马特鲁",
+      "priority": "轻装走马特鲁西线三处海岸，午餐后乘车返开罗。",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d52v2-01",
-          "time": "06:30–07:15",
-          "title": "早餐、确定白天二选一",
-          "detail": "<p>默认选交通较易分段的“科普特开罗+NMEC”；若已决定萨卡拉，则整段替换上午与NMEC，不加在后面。早餐预算80–150 EGP，检查D53最终机场和机票T。</p>",
-          "plain": "早餐、确定白天二选一  默认选交通较易分段的“科普特开罗+NMEC”；若已决定萨卡拉，则整段替换上午与NMEC，不加在后面。早餐预算80–150 EGP，检查D53最终机场和机票T。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-02",
-          "time": "07:15–08:00建议",
-          "title": "市区方案：市中心→科普特开罗；萨卡拉方案：清早赴萨卡拉",
-          "detail": "<p>A从实际住宿去Mar Girgis一带，地铁运营与出口当日核对。B须提前确认正规往返车辆、开放时间和总价，约07点出发，萨卡拉线路不靠临时公交拼凑。</p>",
-          "plain": "市区方案：市中心→科普特开罗；萨卡拉方案：清早赴萨卡拉  A从实际住宿去Mar Girgis一带，地铁运营与出口当日核对。B须提前确认正规往返车辆、开放时间和总价，约07点出发，萨卡拉线路不靠临时公交拼凑。 ",
+          "id": "d52r58-01",
+          "time": "06:30–07:00",
+          "title": "早餐、退房与轻装装车",
+          "detail": "<p>先确认14:30–15:30左右返开罗直达票与正式上车点；10L小包随车，今晚回开罗原住宿取50L。</p>",
+          "plain": "早餐、退房与轻装装车 先确认14:30–15:30左右返开罗直达票与正式上车点；10L小包随车，今晚回开罗原住宿取50L。",
           "links": [
             {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tahrir+Square+Cairo+Egypt&destination=Coptic+Cairo+Hanging+Church+Egypt&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Marsa%20Matrouh"
+            }
+          ],
+          "place": "rev58-d51-11",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-02",
+          "time": "07:00–08:00",
+          "title": "艳后浴池与海蚀岩岸",
+          "detail": "<p>从城里向西出发，拍岩岸和浴池外观；海况差时不下海洞。</p>",
+          "plain": "艳后浴池与海蚀岩岸 从城里向西出发，拍岩岸和浴池外观；海况差时不下海洞。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cleopatra's%20Bath%20Marsa%20Matrouh"
+            }
+          ],
+          "place": "rev58-d52-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-03",
+          "time": "08:00–08:45",
+          "title": "沿西海岸前往阿吉巴",
+          "detail": "<p>正规包/拼车点对点，先走最远的阿吉巴，再向东返回；情人湾不放成必须绕回市区的主线。</p>",
+          "plain": "沿西海岸前往阿吉巴 正规包/拼车点对点，先走最远的阿吉巴，再向东返回；情人湾不放成必须绕回市区的主线。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Agiba%20Beach%20Marsa%20Matrouh"
+            }
+          ],
+          "place": "rev58-d52-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-04",
+          "time": "08:45–10:15",
+          "title": "阿吉巴悬崖海滩",
+          "detail": "<p>保留约90分钟上下台阶、悬崖取景与短时海滩；实际开放和下海以现场海况管理为准。</p>",
+          "plain": "阿吉巴悬崖海滩 保留约90分钟上下台阶、悬崖取景与短时海滩；实际开放和下海以现场海况管理为准。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Agiba%20Beach"
+            }
+          ],
+          "place": "rev58-d52-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-05",
+          "time": "10:15–10:45",
+          "title": "阿吉巴→奥拜德白沙滩",
+          "detail": "<p>沿西线向东回程，避免四点来回折返。</p>",
+          "plain": "阿吉巴→奥拜德白沙滩 沿西线向东回程，避免四点来回折返。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Obayed%20Beach%20Marsa%20Matrouh"
+            }
+          ],
+          "place": "rev58-d52-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-06",
+          "time": "10:45–12:00",
+          "title": "奥拜德白沙滩",
+          "detail": "<p>保留一次完整的海滩停留；四大海湾全部下水不作为半日默认目标。</p>",
+          "plain": "奥拜德白沙滩 保留一次完整的海滩停留；四大海湾全部下水不作为半日默认目标。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Obayed%20Beach"
+            }
+          ],
+          "place": "rev58-d52-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-07",
+          "time": "12:00–12:45",
+          "title": "西线返马特鲁市区",
+          "detail": "<p>从阿吉巴一带到城里不是固定15分钟，须给30–60分钟实际回程。若已晚则不再加情人湾。</p>",
+          "plain": "西线返马特鲁市区 从阿吉巴一带到城里不是固定15分钟，须给30–60分钟实际回程。若已晚则不再加情人湾。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Marsa%20Matrouh"
+            }
+          ],
+          "place": "rev58-d51-11",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-08",
+          "time": "12:45–13:30",
+          "title": "海鲜午餐",
+          "detail": "<p>以车站方向的明码标价店为先，整鱼先确认重量和做法总价。</p>",
+          "plain": "海鲜午餐 以车站方向的明码标价店为先，整鱼先确认重量和做法总价。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Marsa%20Matrouh%20city%20centre"
+            }
+          ],
+          "place": "rev58-d52-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d52r58-09",
+          "time": "13:30–14:15",
+          "title": "前往返开罗大巴上车点",
+          "detail": "<p>提前45–60分钟到场，不把14:15吃完午饭和14:30发车无缝相连。</p>",
+          "plain": "前往返开罗大巴上车点 提前45–60分钟到场，不把14:15吃完午饭和14:30发车无缝相连。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Marsa%20Matrouh%20Bus%20Station"
             },
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tahrir+Square+Cairo+Egypt&destination=Saqqara+Djoser+Step+Pyramid+Egypt&travelmode=driving"
+              "label": "开放时间／运营依据",
+              "url": "https://go-bus.com/en"
             }
           ],
-          "place": "coptic",
+          "place": "rev58-d51-10",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d52v2-03",
-          "time": "08:00–09:00建议",
-          "title": "市区方案：悬空教堂周边；萨卡拉方案：萨卡拉阶梯金字塔",
-          "detail": "<p>A按开放与宗教活动安排看悬空教堂及周边，衣着遮肩膝，室内拍摄按规则；尚未开放就附近短休。B只选阶梯金字塔核心区域，不默认地宫、额外墓室或达舒尔均含。</p>",
-          "plain": "市区方案：悬空教堂周边；萨卡拉方案：萨卡拉阶梯金字塔  A按开放与宗教活动安排看悬空教堂及周边，衣着遮肩膝，室内拍摄按规则；尚未开放就附近短休。B只选阶梯金字塔核心区域，不默认地宫、额外墓室或达舒尔均含。 ",
-          "links": [],
-          "place": "coptic",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-04",
-          "time": "09:00–10:00建议",
-          "title": "市区方案：老城步行；萨卡拉方案：一处已核开放墓/展区",
-          "detail": "<p>A在科普特老城开放区域慢走，不把所有宗教场所保证可进；B只在票种允许且体力合适时加一处，10点前开始收尾，避免露天一路逛到中午。</p>",
-          "plain": "市区方案：老城步行；萨卡拉方案：一处已核开放墓/展区  A在科普特老城开放区域慢走，不把所有宗教场所保证可进；B只在票种允许且体力合适时加一处，10点前开始收尾，避免露天一路逛到中午。 ",
-          "links": [],
-          "place": "coptic",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-05",
-          "time": "10:00–10:45建议",
-          "title": "市区方案：前往NMEC；萨卡拉方案：返回开罗",
-          "detail": "<p>A从科普特区去NMEC用正规车辆，地铁不能直达所有入口，预留绕行。B按原约车辆返回市区，之后直接午餐午休，取消今天NMEC。</p>",
-          "plain": "市区方案：前往NMEC；萨卡拉方案：返回开罗  A从科普特区去NMEC用正规车辆，地铁不能直达所有入口，预留绕行。B按原约车辆返回市区，之后直接午餐午休，取消今天NMEC。 ",
+          "id": "d52r58-10",
+          "time": "14:30–21:30",
+          "title": "马特鲁→开罗",
+          "detail": "<p>以实际直达车为准，预算6–7小时含休息和进城交通；不要承诺20点已回青旅。车上备饮水和轻餐。</p>",
+          "plain": "马特鲁→开罗 以实际直达车为准，预算6–7小时含休息和进城交通；不要承诺20点已回青旅。车上备饮水和轻餐。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Coptic+Cairo+Hanging+Church+Egypt&destination=National+Museum+Egyptian+Civilization+Fustat+Cairo+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairo%20Go%20Bus%20Station"
             },
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Saqqara+Djoser+Step+Pyramid+Egypt&destination=Tahrir+Square+Cairo+Egypt&travelmode=driving"
+              "label": "开放时间／运营依据",
+              "url": "https://go-bus.com/en"
             }
           ],
-          "place": "nmec",
+          "place": "rev58-d52-10",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         },
         {
-          "id": "d52v2-06",
-          "time": "10:45–12:30建议",
-          "title": "市区方案：文明博物馆主展与木乃伊展区；萨卡拉方案：午休",
-          "detail": "<p>A按馆方开放和另行票务规则参观，重点在文明时间线及开放的王室木乃伊区域，尊重禁拍标志；票价/学生资格2027另核。B若返城后疲劳就补眠，不重复进入A路线。</p>",
-          "plain": "市区方案：文明博物馆主展与木乃伊展区；萨卡拉方案：午休  A按馆方开放和另行票务规则参观，重点在文明时间线及开放的王室木乃伊区域，尊重禁拍标志；票价/学生资格2027另核。B若返城后疲劳就补眠，不重复进入A路线。 ",
-          "links": [],
-          "place": "nmec",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-07",
-          "time": "12:30–13:30",
-          "title": "午餐与回宿方向",
-          "detail": "<p>A从NMEC返回住宿附近再吃，B按已返城进度就餐。koshari、豆餐或烤鸡饭预算150–250 EGP，下方只到解放广场市区参考，不是青旅。</p>",
-          "plain": "午餐与回宿方向  A从NMEC返回住宿附近再吃，B按已返城进度就餐。koshari、豆餐或烤鸡饭预算150–250 EGP，下方只到解放广场市区参考，不是青旅。 ",
+          "id": "d52r58-11",
+          "time": "21:30–22:30",
+          "title": "回原住宿取50L并晚餐",
+          "detail": "<p>夜间到开罗后还要市内接驳；已与青旅约好跨夜寄存和晚归。</p>",
+          "plain": "回原住宿取50L并晚餐 夜间到开罗后还要市内接驳；已与青旅约好跨夜寄存和晚归。",
           "links": [
             {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=National+Museum+Egyptian+Civilization+Fustat+Cairo+Egypt&destination=Tahrir+Square+Cairo+Egypt&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo"
             }
           ],
-          "place": "tahrir",
+          "place": "rev58-d49-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-08",
-          "time": "13:30–16:30",
-          "title": "空调午睡、主包预整理",
-          "detail": "<p>把明天机场接驳、行李额、航站楼、UAE本地流量和首晚入住要求全部核好；别留到市场返来才打包。若D53很早起飞，取消今晚市场，提前睡觉。</p>",
-          "plain": "空调午睡、主包预整理  把明天机场接驳、行李额、航站楼、UAE本地流量和首晚入住要求全部核好；别留到市场返来才打包。若D53很早起飞，取消今晚市场，提前睡觉。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-09",
-          "time": "16:30–17:15条件性",
-          "title": "市区→穆伊兹街具名入口方向",
-          "detail": "<p>正规车辆到Bab al-Futuh一带后步行南下，具体下车处按路口管制；下方给到Bab al-Futuh的路线，不把整条街当同一个入口。拥堵时缩短市场时长。</p>",
-          "plain": "市区→穆伊兹街具名入口方向  正规车辆到Bab al-Futuh一带后步行南下，具体下车处按路口管制；下方给到Bab al-Futuh的路线，不把整条街当同一个入口。拥堵时缩短市场时长。 ",
-          "links": [
-            {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tahrir+Square+Cairo+Egypt&destination=Bab+al-Futuh+Cairo+Egypt&travelmode=driving"
-            }
-          ],
-          "place": "muizz",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-10",
-          "time": "17:15–18:15条件性",
-          "title": "穆伊兹街建筑外观与短走",
-          "detail": "<p>沿主街看外观，付费建筑是否开放、票种与学生资格现场另核；不承诺傍晚还能逐栋进入。选两三处外观即可，留时间天黑前辨认返程上车点。</p>",
-          "plain": "穆伊兹街建筑外观与短走  沿主街看外观，付费建筑是否开放、票种与学生资格现场另核；不承诺傍晚还能逐栋进入。选两三处外观即可，留时间天黑前辨认返程上车点。 ",
-          "links": [],
-          "place": "muizz",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-11",
-          "time": "18:15–18:35条件性",
-          "title": "穆伊兹街→哈利利市场",
-          "detail": "<p>按具名主路步行，留意摩托和台阶，贵重品贴身；下方路线从Qalawun Complex到市场，仅作这一段的具体导航。</p>",
-          "plain": "穆伊兹街→哈利利市场  按具名主路步行，留意摩托和台阶，贵重品贴身；下方路线从Qalawun Complex到市场，仅作这一段的具体导航。 ",
-          "links": [
-            {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Qalawun+Complex+Cairo+Egypt&destination=Khan+el+Khalili+Cairo+Egypt&travelmode=walking"
-            }
-          ],
-          "place": "khan",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-12",
-          "time": "18:35–19:15条件性",
-          "title": "哈利利市场与晚餐",
-          "detail": "<p>短逛后选明码标价的烤肉卷、豆餐或米饭餐，晚餐预算180–300 EGP；饮品单独问价。购物自愿，别为议价拖延返宿和机场准备。</p>",
-          "plain": "哈利利市场与晚餐  短逛后选明码标价的烤肉卷、豆餐或米饭餐，晚餐预算180–300 EGP；饮品单独问价。购物自愿，别为议价拖延返宿和机场准备。 ",
-          "links": [],
-          "place": "khan",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-13",
-          "time": "19:15–20:15",
-          "title": "返回实际住宿",
-          "detail": "<p>在已辨认的可停车点叫正规车辆，确认车牌后上车；下方哈利利→解放广场只示市区方向，最后目的地改成青旅。机票若早起飞，这段应更早结束。</p>",
-          "plain": "返回实际住宿  在已辨认的可停车点叫正规车辆，确认车牌后上车；下方哈利利→解放广场只示市区方向，最后目的地改成青旅。机票若早起飞，这段应更早结束。 ",
-          "links": [
-            {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Khan+el+Khalili+Cairo+Egypt&destination=Tahrir+Square+Cairo+Egypt&travelmode=driving"
-            }
-          ],
-          "place": "tahrir",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-14",
-          "time": "20:15–21:00",
-          "title": "称重、液体与离线票夹",
-          "detail": "<p>主包/个人物品按最终承运人的件数、尺寸和重量检查；如Air Arabia，7kg主包+3kg个人物品合计≤10kg只是现行参考，订单优先。充电宝随身，核液体规则。</p>",
-          "plain": "称重、液体与离线票夹  主包/个人物品按最终承运人的件数、尺寸和重量检查；如Air Arabia，7kg主包+3kg个人物品合计≤10kg只是现行参考，订单优先。充电宝随身，核液体规则。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d52v2-15",
-          "time": "21:00–23:00 含路况缓冲",
-          "title": "Madina Hostel → SPX斯芬克斯机场",
-          "detail": "<p>8月31日21:00取包离开Madina，正规车辆赴SPX，约22:30到、23:00为规划最迟抵达点，接9月1日01:55 G9344参考。当天午休若占用房间，按另付住宿留额与酒店谈妥。</p>",
-          "plain": "Madina Hostel → SPX斯芬克斯机场  8月31日21:00取包离开Madina，正规车辆赴SPX，约22:30到、23:00为规划最迟抵达点，接9月1日01:55 G9344参考。当天午休若占用房间，按另付住宿留额与酒店谈妥。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Madina%20Hostel%205%20Kasr%20Al%20Nile%20Street%20Cairo&destination=Sphinx%20International%20Airport%20SPX%20Departures&travelmode=driving"
-            }
-          ],
-          "place": "spx",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>默认A科普特开罗+NMEC；B萨卡拉为整段替换，仅清晨正规往返车+核心参观，返城后午休，绝不再叠NMEC。</p><p>最后一晚的市场完全服从次日机票T。若清晨飞，市场可全部删除；机票机场、主包称重和睡眠优先。</p>",
+      "extras": "",
       "places": [
-        "saqqara",
-        "coptic",
-        "nmec",
-        "muizz",
-        "khan",
-        "tahrir"
+        "rev58-d51-11",
+        "rev58-d52-2",
+        "rev58-d52-3",
+        "rev58-d52-4",
+        "rev58-d52-5",
+        "rev58-d52-6",
+        "rev58-d52-8",
+        "rev58-d51-10",
+        "rev58-d52-10",
+        "rev58-d49-1"
       ],
       "accent": "#AB8543",
       "lodging": "开罗（付费夜45）",
       "transportStatus": "待核 / 待订",
       "flightStatus": null,
-      "scheduleBasis": "建议时段；交通与营业以实际票面和出发前核实为准",
-      "requiresBookingTime": true,
-      "transportPlan": [
-        {
-          "id": "spx-shj-g9344",
-          "route": "吉萨斯芬克斯SPX → 沙迦SHJ",
-          "operator": "Air Arabia（G9，沙迦航司）",
-          "service": "G9 344 / G9344",
-          "departure": "01:55（SPX当地UTC+2；2026-11-05冬季样例）",
-          "arrival": "07:05（SHJ当地UTC+4；当日）",
-          "url": "https://press.airarabia.com/air-arabia-launches-non-stop-flights-between-sharjah-and-egypts-sphinx-international-airport/"
-        }
-      ]
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
+      "requiresBookingTime": false
     },
     {
       "id": "day53",
       "date": "2027-09-01",
-      "label": "开罗→阿联酋",
-      "title": "开罗→阿联酋",
-      "name": "开罗→阿联酋",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "timezone": "Asia/Dubai",
-      "city": "迪拜",
-      "defaultCity": "迪拜",
-      "priority": "核清CAI与SPX、SHJ与AUH；抵达后按机场实际位置选接驳，不默认相邻。",
+      "label": "达舒尔·萨卡拉·科普特·文明馆",
+      "title": "达舒尔·萨卡拉·科普特·文明馆",
+      "name": "达舒尔·萨卡拉·科普特·文明馆",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "city": "开罗",
+      "defaultCity": "开罗",
+      "priority": "达舒尔→萨卡拉→科普特老开罗→NMEC，保住室内入场窗口。",
       "status": "planned",
-      "note": "00:15–01:55为开罗当地钟点；07:05以后为阿联酋钟点。G9344为冬季样例，夏季埃及时区变化会影响票面，本页保守预留到07:05。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d53v2-01",
-          "time": "00:15–00:30 9/1凌晨 · 开罗时间",
-          "title": "SPX候机：补水、核登机口",
-          "detail": "<p>凌晨已经在SPX斯芬克斯机场，不再从酒店重复出发；使用候机区补水，核Air Arabia G9344登机口。</p>",
-          "plain": "SPX候机：补水、核登机口  凌晨已经在SPX斯芬克斯机场，不再从酒店重复出发；使用候机区补水，核Air Arabia G9344登机口。 ",
-          "links": [],
-          "place": "spx",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d53v2-02",
-          "time": "00:30–00:55 · 开罗时间",
-          "title": "SPX出境与登机准备",
-          "detail": "<p>在SPX航站楼按当班要求完成出境和安检，不去开罗CAI机场。</p>",
-          "plain": "SPX出境与登机准备  在SPX航站楼按当班要求完成出境和安检，不去开罗CAI机场。 ",
-          "links": [],
-          "place": "spx",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d53v2-03",
-          "time": "00:55–01:55 · 开罗时间",
-          "title": "Air Arabia G9344登机口候机",
-          "detail": "<p>留在SPX登机口等待；01:55是冬季例示出发钟点，2027夏季出票后复核。</p>",
-          "plain": "Air Arabia G9344登机口候机  留在SPX登机口等待；01:55是冬季例示出发钟点，2027夏季出票后复核。 ",
-          "links": [],
-          "place": "spx",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d53v2-04",
-          "time": "01:55 SPX目标 → 07:05 SHJ预留",
-          "title": "Air Arabia G9344：SPX → SHJ（冬季样例）",
-          "detail": "<p>已核冬季例示01:55→07:05；埃及夏令时会影响2027年9月的当地钟点，07:05仅作保守抵达预留。9月1日凌晨航班须8月31日晚从Madina出发，机场认准SPX，不是CAI。</p>",
-          "plain": "Air Arabia G9344：SPX → SHJ（冬季样例）  已核冬季例示01:55→07:05；埃及夏令时会影响2027年9月的当地钟点，07:05仅作保守抵达预留。9月1日凌晨航班须8月31日晚从Madina出发，机场认准SPX，不是CAI。 ",
-          "links": [],
-          "place": "shj",
+          "id": "d53r58-01",
+          "time": "06:30–07:00",
+          "title": "早餐与南郊正规车辆接人",
+          "detail": "<p>今天约完整南郊包/拼车，司机路线明确含两处遗址、老开罗和NMEC送达，不是临时街边连续叫车。</p>",
+          "plain": "早餐与南郊正规车辆接人 今天约完整南郊包/拼车，司机路线明确含两处遗址、老开罗和NMEC送达，不是临时街边连续叫车。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d53v2-05",
-          "time": "07:05–08:30 阿联酋时间",
-          "title": "入境、取包、启用阿联酋本地流量",
-          "detail": "<p>保留阿联酋本地流量方案：在正规运营商柜台/官方渠道核套餐天数、数据量、实名、SIM/eSIM和手机兼容，安装成功后实际打开地图、发出消息并确认完整回传。别把“已安装”当已能联网。</p>",
-          "plain": "入境、取包、启用阿联酋本地流量  保留阿联酋本地流量方案：在正规运营商柜台/官方渠道核套餐天数、数据量、实名、SIM/eSIM和手机兼容，安装成功后实际打开地图、发出消息并确认完整回传。别把“已安装”当已能联网。 ",
-          "links": [],
-          "place": "shj",
-          "highlight": true,
+          "id": "d53r58-02",
+          "time": "07:00–08:00",
+          "title": "开罗→达舒尔",
+          "detail": "<p>先去最南端，沿路线向北返回，避免萨卡拉后折返再赶NMEC。</p>",
+          "plain": "开罗→达舒尔 先去最南端，沿路线向北返回，避免萨卡拉后折返再赶NMEC。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dahshur"
+            }
+          ],
+          "place": "rev58-d53-2",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d53v2-06",
-          "time": "08:30–11:00",
-          "title": "SHJ或AUH→迪拜实际住宿",
-          "detail": "<p>SHJ与AUH跨城接驳不同：只按真实落地机场选正式巴士、已预约航空接驳或正规车辆，核费用、末班和行李。下方到Al Ghubaiba是市区交通参考，最终改成青旅；航空免费接驳不默认有资格。</p>",
-          "plain": "SHJ或AUH→迪拜实际住宿  SHJ与AUH跨城接驳不同：只按真实落地机场选正式巴士、已预约航空接驳或正规车辆，核费用、末班和行李。下方到Al Ghubaiba是市区交通参考，最终改成青旅；航空免费接驳不默认有资格。 ",
+          "id": "d53r58-03",
+          "time": "08:00–09:15",
+          "title": "达舒尔红金字塔与弯曲金字塔",
+          "detail": "<p>官方08:00开门，当前外籍学生100EGP；默认选红金字塔入内、弯曲看外观，不把二者墓室都塞成1小时。</p>",
+          "plain": "达舒尔红金字塔与弯曲金字塔 官方08:00开门，当前外籍学生100EGP；默认选红金字塔入内、弯曲看外观，不把二者墓室都塞成1小时。",
           "links": [
             {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Sharjah+International+Airport+SHJ+UAE&destination=Al+Ghubaiba+Bus+Station+Dubai+UAE&travelmode=transit"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dahshur%20Red%20Pyramid"
             },
             {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Zayed+International+Airport+AUH+Abu+Dhabi+UAE&destination=Al+Ghubaiba+Bus+Station+Dubai+UAE&travelmode=transit"
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.com/locations/details/Dahshur"
             }
           ],
-          "place": "al-ghubaiba",
+          "place": "rev58-d53-3",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d53v2-07",
-          "time": "11:00–16:30",
-          "title": "入住、补水与午间降温",
-          "detail": "<p>迪拜地铁沿线住宿仍待订；核年龄/独自入住、押金、税费、空调、门禁和寄存，21岁不等于所有青旅都接受。若下午酷热先留空调环境，不立刻赶景点。</p>",
-          "plain": "入住、补水与午间降温  迪拜地铁沿线住宿仍待订；核年龄/独自入住、押金、税费、空调、门禁和寄存，21岁不等于所有青旅都接受。若下午酷热先留空调环境，不立刻赶景点。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d53v2-08",
-          "time": "17:30–18:30",
-          "title": "迪拜湾傍晚熟悉路",
-          "detail": "<p>仅早到且已入住时去Dubai Creek/Bur Dubai一带短走，确认明天地铁到城际站的方向；如晚到，取消散步。下方Al Ghubaiba→Abra站是具名步行参考。</p>",
-          "plain": "迪拜湾傍晚熟悉路  仅早到且已入住时去Dubai Creek/Bur Dubai一带短走，确认明天地铁到城际站的方向；如晚到，取消散步。下方Al Ghubaiba→Abra站是具名步行参考。 ",
+          "id": "d53r58-04",
+          "time": "09:15–09:45",
+          "title": "达舒尔→萨卡拉",
+          "detail": "<p>正规车辆北上接驳，带够饮水；当天不再顺加孟菲斯。</p>",
+          "plain": "达舒尔→萨卡拉 正规车辆北上接驳，带够饮水；当天不再顺加孟菲斯。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Al+Ghubaiba+Bus+Station+Dubai+UAE&destination=Bur+Dubai+Abra+Station+Dubai+UAE&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Saqqara%20Necropolis"
             }
           ],
-          "place": "dubai-creek",
+          "place": "rev58-d53-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d53v2-09",
-          "time": "18:30–19:30",
-          "title": "晚餐与AED补给",
-          "detail": "<p>可选shawarma、鹰嘴豆泥配饼、印度豆咖喱米饭，晚餐预算25–40 AED，饮水另留5–10 AED。先看菜单，备小额AED和适用交通卡，不把地铁/跨城巴士视为一票全包。</p>",
-          "plain": "晚餐与AED补给  可选shawarma、鹰嘴豆泥配饼、印度豆咖喱米饭，晚餐预算25–40 AED，饮水另留5–10 AED。先看菜单，备小额AED和适用交通卡，不把地铁/跨城巴士视为一票全包。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d53v2-10",
-          "time": "20:00–21:00",
-          "title": "返宿、核阿布扎比往返",
-          "detail": "<p>核E100/E101真实起点与回程末班、清真寺预约与着装、卢浮宫开放/票；UAE本地流量测试完成后再下载离线地图。晚到很累可缩减D54，保留返程硬边界。</p>",
-          "plain": "返宿、核阿布扎比往返  核E100/E101真实起点与回程末班、清真寺预约与着装、卢浮宫开放/票；UAE本地流量测试完成后再下载离线地图。晚到很累可缩减D54，保留返程硬边界。 ",
-          "links": [],
-          "place": null,
+          "id": "d53r58-05",
+          "time": "09:45–12:15",
+          "title": "萨卡拉阶梯金字塔与Serapeum",
+          "detail": "<p>保留2.5小时；Serapeum地下公牛石棺需核对另票，不误称全在基本门票内。若需更多墓室，先删额外选项而非挤NMEC最后售票。</p>",
+          "plain": "萨卡拉阶梯金字塔与Serapeum 保留2.5小时；Serapeum地下公牛石棺需核对另票，不误称全在基本门票内。若需更多墓室，先删额外选项而非挤NMEC最后售票。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Saqqara%20Necropolis"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.gov.eg/en/monuments/serapeum/"
+            }
+          ],
+          "place": "rev58-d53-4",
           "highlight": true,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d53r58-06",
+          "time": "12:15–13:00",
+          "title": "萨卡拉附近午餐",
+          "detail": "<p>就近用餐，不为餐厅来回进市区。</p>",
+          "plain": "萨卡拉附近午餐 就近用餐，不为餐厅来回进市区。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Saqqara"
+            }
+          ],
+          "place": "rev58-d53-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d53r58-07",
+          "time": "13:00–14:00",
+          "title": "南郊返回科普特老开罗",
+          "detail": "<p>预留1小时道路时间，堵车严重就先去NMEC，并把悬空教堂改次要删项。</p>",
+          "plain": "南郊返回科普特老开罗 预留1小时道路时间，堵车严重就先去NMEC，并把悬空教堂改次要删项。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Coptic%20Cairo"
+            }
+          ],
+          "place": "rev58-d53-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d53r58-08",
+          "time": "14:00–15:00",
+          "title": "悬空教堂与巴比伦要塞外观",
+          "detail": "<p>文物部官方悬空教堂09:00–16:00；这才是可入内窗口，删除原D50 17:30才到。</p>",
+          "plain": "悬空教堂与巴比伦要塞外观 文物部官方悬空教堂09:00–16:00；这才是可入内窗口，删除原D50 17:30才到。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=The%20Hanging%20Church%20Cairo"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://egymonuments.gov.eg/monuments/the-hanging-church/"
+            }
+          ],
+          "place": "rev58-d53-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d53r58-09",
+          "time": "15:00–15:30",
+          "title": "科普特→NMEC",
+          "detail": "<p>约20–30分钟正规车辆接驳，目标15:30前进入售票/安检。</p>",
+          "plain": "科普特→NMEC 约20–30分钟正规车辆接驳，目标15:30前进入售票/安检。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Egyptian%20Civilization"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://nmec.gov.eg/"
+            }
+          ],
+          "place": "rev58-d53-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d53r58-10",
+          "time": "15:30–17:00",
+          "title": "NMEC皇家木乃伊与文明主展厅",
+          "detail": "<p>官方09:00–17:00、16:00最后售票；保90分钟，不再写16–18。正确官网nmec.gov.eg，删除稿中nmec.gov.tr。</p>",
+          "plain": "NMEC皇家木乃伊与文明主展厅 官方09:00–17:00、16:00最后售票；保90分钟，不再写16–18。正确官网nmec.gov.eg，删除稿中nmec.gov.tr。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Egyptian%20Civilization"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://nmec.gov.eg/"
+            }
+          ],
+          "place": "rev58-d53-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d53r58-11",
+          "time": "17:00–18:30",
+          "title": "晚餐与尼罗河畔街区",
+          "detail": "<p>寄卡保留为可选：仅在已确认营业的柜台投寄；不假定17点后邮局仍开，也不为寄卡挤占NMEC参观。</p>",
+          "plain": "晚餐与尼罗河畔街区 寄卡保留为可选：仅在已确认营业的柜台投寄；不假定17点后邮局仍开，也不为寄卡挤占NMEC参观。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo"
+            }
+          ],
+          "place": "rev58-d49-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d53r58-12",
+          "time": "18:30–20:30",
+          "title": "扎马雷克岛与尼罗河晚景",
+          "detail": "<p>把原D49扎马雷克夜景移到今天，回宿确认次日CAI T2交通；D54取消老埃博赶机场。</p>",
+          "plain": "扎马雷克岛与尼罗河晚景 把原D49扎马雷克夜景移到今天，回宿确认次日CAI T2交通；D54取消老埃博赶机场。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Zamalek%20Cairo"
+            }
+          ],
+          "place": "rev58-d53-12",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>阿联酋主案保留，本地数据方案也保留；SIM/eSIM要实测地图请求、发送与完整回传后才算连接完成。全部套餐/实名/兼容以实际运营商为准。</p><p>SHJ/AUH→迪拜分别核机场接驳，费用与住宿单列；机票未订，晚到删除迪拜湾。新疆+1只能压缩阿联酋一天，最迟2027-09-05到校不变。</p>",
+      "extras": "",
       "places": [
-        "spx",
-        "cai",
-        "shj",
-        "auh",
-        "dubai-creek",
-        "al-ghubaiba"
+        "rev58-d49-1",
+        "rev58-d53-2",
+        "rev58-d53-3",
+        "rev58-d53-4",
+        "rev58-d53-6",
+        "rev58-d53-7",
+        "rev58-d53-8",
+        "rev58-d53-9",
+        "rev58-d53-12"
       ],
       "accent": "#547E79",
       "lodging": "迪拜青旅第1晚（付费夜46，待订）",
       "transportStatus": "待核 / 待订",
       "flightStatus": "待用户观察填写",
-      "scheduleBasis": "具体钟点计划；已核现行样例与购票目标分开标注，2027按实际出票更新。",
-      "requiresBookingTime": true,
-      "transportPlan": [
-        {
-          "id": "spx-shj-g9344",
-          "route": "吉萨斯芬克斯SPX → 沙迦SHJ",
-          "operator": "Air Arabia（G9，沙迦航司）",
-          "service": "G9 344 / G9344",
-          "departure": "01:55（SPX当地UTC+2；2026-11-05冬季样例）",
-          "arrival": "07:05（SHJ当地UTC+4；当日）",
-          "url": "https://press.airarabia.com/air-arabia-launches-non-stop-flights-between-sharjah-and-egypts-sphinx-international-airport/"
-        }
-      ]
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
+      "requiresBookingTime": false
     },
     {
       "id": "day54",
       "date": "2027-09-02",
-      "label": "阿布扎比·清真寺与卢浮宫",
-      "title": "阿布扎比·清真寺与卢浮宫",
-      "name": "阿布扎比·清真寺与卢浮宫",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "timezone": "Asia/Dubai",
-      "city": "阿布扎比",
-      "defaultCity": "阿布扎比",
-      "priority": "阿布扎比清真寺与卢浮宫为主；跨城交通单独留时间，高温时取消室外支线。",
-      "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
-      "rows": [
-        {
-          "id": "d54v2-01",
-          "time": "05:30–06:00",
-          "title": "早餐、着装与交通卡",
-          "detail": "<p>早餐可选面包、鸡蛋或印度早餐，预算15–25 AED；带水、薄外套、充满电手机与本地流量。清真寺衣着按官方要求遮盖、宽松不透，所需头巾自行备妥，不默认现场免费借。</p>",
-          "plain": "早餐、着装与交通卡  早餐可选面包、鸡蛋或印度早餐，预算15–25 AED；带水、薄外套、充满电手机与本地流量。清真寺衣着按官方要求遮盖、宽松不透，所需头巾自行备妥，不默认现场免费借。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-02",
-          "time": "06:00–06:45建议",
-          "title": "迪拜住宿→已选城际巴士站",
-          "detail": "<p>只选一条：E101用Ibn Battuta，E100用Al Ghubaiba，按实际住宿选更近站并核2027班次；两站不能混为同一站。下方Al Fahidi→Al Ghubaiba只是老城住宿方向参考。</p>",
-          "plain": "迪拜住宿→已选城际巴士站  只选一条：E101用Ibn Battuta，E100用Al Ghubaiba，按实际住宿选更近站并核2027班次；两站不能混为同一站。下方Al Fahidi→Al Ghubaiba只是老城住宿方向参考。 ",
-          "links": [
-            {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Al+Fahidi+Historical+Neighbourhood+Dubai+UAE&destination=Al+Ghubaiba+Bus+Station+Dubai+UAE&travelmode=transit"
-            }
-          ],
-          "place": "al-ghubaiba",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-03",
-          "time": "06:45–07:15建议",
-          "title": "候车、核回程与刷卡条件",
-          "detail": "<p>出发前确认今天回迪拜最后可行车班、返回哪站、票价/交通卡与余额；单程25 AED为现行参考，往返至少50 AED，阿布扎比市内转乘另算。建议窗口不代表07点一定有车。</p>",
-          "plain": "候车、核回程与刷卡条件  出发前确认今天回迪拜最后可行车班、返回哪站、票价/交通卡与余额；单程25 AED为现行参考，往返至少50 AED，阿布扎比市内转乘另算。建议窗口不代表07点一定有车。 ",
-          "links": [
-            {
-              "label": "阿联酋城际公交官方信息",
-              "url": "https://admobility.gov.ae/en/inter-emirates-services"
-            }
-          ],
-          "place": "al-ghubaiba",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-04",
-          "time": "约07:15–09:15建议",
-          "title": "迪拜→阿布扎比中央巴士站",
-          "detail": "<p>车程约1.5–2小时以上仅参考，路况和班次按当日；车上休息，不把票面到站时间当景点检票时间。若晚到一小时以上，先删傍晚附加点，必要时两馆择一。</p>",
-          "plain": "迪拜→阿布扎比中央巴士站  车程约1.5–2小时以上仅参考，路况和班次按当日；车上休息，不把票面到站时间当景点检票时间。若晚到一小时以上，先删傍晚附加点，必要时两馆择一。 ",
-          "links": [
-            {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Al+Ghubaiba+Bus+Station+Dubai+UAE&destination=Abu+Dhabi+Central+Bus+Station+UAE&travelmode=transit"
-            }
-          ],
-          "place": "abu-dhabi-bus",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-05",
-          "time": "09:15–10:00建议",
-          "title": "中央站→大清真寺游客入口",
-          "detail": "<p>市内巴士/正规出租另计钱和时间；下方给到Visitor Centre具体方向，不是礼拜入口。公交若需长等与换乘，可比较正规出租价，不把城市内转乘当免费。</p>",
-          "plain": "中央站→大清真寺游客入口  市内巴士/正规出租另计钱和时间；下方给到Visitor Centre具体方向，不是礼拜入口。公交若需长等与换乘，可比较正规出租价，不把城市内转乘当免费。 ",
-          "links": [
-            {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Abu+Dhabi+Central+Bus+Station+UAE&destination=Sheikh+Zayed+Grand+Mosque+Visitor+Centre+Abu+Dhabi+UAE&travelmode=transit"
-            }
-          ],
-          "place": "grand-mosque",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-06",
-          "time": "10:00–10:30建议",
-          "title": "清真寺预约、安检与入场",
-          "detail": "<p>以正式预约窗口和宗教活动安排为准，当前境外访客10 AED为参考，2027再核。确认衣着与入场二维码，安检后再进入开放参观动线。</p>",
-          "plain": "清真寺预约、安检与入场  以正式预约窗口和宗教活动安排为准，当前境外访客10 AED为参考，2027再核。确认衣着与入场二维码，安检后再进入开放参观动线。 ",
-          "links": [
-            {
-              "label": "大清真寺官方FAQ",
-              "url": "https://www.szgmc.gov.ae/en/worshippers/en-v-faqs"
-            }
-          ],
-          "place": "grand-mosque",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-07",
-          "time": "10:30–11:30建议",
-          "title": "大清真寺开放参观线",
-          "detail": "<p>以阴凉柱廊和开放空间为主，室外拍照短暂停留；尊重礼拜区、拍摄和行为要求。酷热时缩短外庭院，不因“清晨已出发”就继续正午暴晒。</p>",
-          "plain": "大清真寺开放参观线  以阴凉柱廊和开放空间为主，室外拍照短暂停留；尊重礼拜区、拍摄和行为要求。酷热时缩短外庭院，不因“清晨已出发”就继续正午暴晒。 ",
-          "links": [],
-          "place": "grand-mosque",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-08",
-          "time": "11:30–12:15建议",
-          "title": "清真寺→卢浮宫方向",
-          "detail": "<p>两点距离不可按短步行估算；下方驾车路线用于判断距离，公交则另查真实换乘与等车，可能耗时更长。确认卢浮宫当天开放再出发，不叠总统府。</p>",
-          "plain": "清真寺→卢浮宫方向  两点距离不可按短步行估算；下方驾车路线用于判断距离，公交则另查真实换乘与等车，可能耗时更长。确认卢浮宫当天开放再出发，不叠总统府。 ",
-          "links": [
-            {
-              "label": "驾车/出租路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Sheikh+Zayed+Grand+Mosque+Visitor+Centre+Abu+Dhabi+UAE&destination=Louvre+Abu+Dhabi+Saadiyat+Island+UAE&travelmode=driving"
-            }
-          ],
-          "place": "louvre",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-09",
-          "time": "12:15–13:15建议",
-          "title": "空调午餐与休息",
-          "detail": "<p>馆内/附近可及的正式餐饮点先看菜单，午餐预算35–60 AED；景区餐价可能更高。室内坐下补水，带的食物仅在允许区域使用，不在无阴影路段找便宜餐。</p>",
-          "plain": "空调午餐与休息  馆内/附近可及的正式餐饮点先看菜单，午餐预算35–60 AED；景区餐价可能更高。室内坐下补水，带的食物仅在允许区域使用，不在无阴影路段找便宜餐。 ",
-          "links": [],
-          "place": "louvre",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-10",
-          "time": "13:15–13:40建议",
-          "title": "卢浮宫检票与选展线",
-          "detail": "<p>成人70 AED为当前参考，不保证21岁外国大学生免费；优惠有正式资格再用。正式购票和开放窗口优先，馆内包袋、饮水与拍摄按规则。</p>",
-          "plain": "卢浮宫检票与选展线  成人70 AED为当前参考，不保证21岁外国大学生免费；优惠有正式资格再用。正式购票和开放窗口优先，馆内包袋、饮水与拍摄按规则。 ",
-          "links": [
-            {
-              "label": "卢浮宫当前票务",
-              "url": "https://www.louvreabudhabi.ae/en/buy-ticket/admission"
-            }
-          ],
-          "place": "louvre",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-11",
-          "time": "13:40–15:40建议",
-          "title": "卢浮宫室内常设展",
-          "detail": "<p>选2–3个最感兴趣的单元，按时间线慢看，中间找座椅休息；两小时只是精简参观，不承诺看完全部。穹顶室外区域看体感短停，午间不长晒。</p>",
-          "plain": "卢浮宫室内常设展  选2–3个最感兴趣的单元，按时间线慢看，中间找座椅休息；两小时只是精简参观，不承诺看完全部。穹顶室外区域看体感短停，午间不长晒。 ",
-          "links": [],
-          "place": "louvre",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-12",
-          "time": "15:40–16:15建议",
-          "title": "短休与核返程余量",
-          "detail": "<p>先核市内去中央站的实际路程及回迪拜候车时间。海滨大道/总统府只作为以后增加时间的备选，不列为今天必须进入的第三景点；若公交延误直接返站。</p>",
-          "plain": "短休与核返程余量  先核市内去中央站的实际路程及回迪拜候车时间。海滨大道/总统府只作为以后增加时间的备选，不列为今天必须进入的第三景点；若公交延误直接返站。 ",
-          "links": [],
-          "place": "louvre",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-13",
-          "time": "16:15–17:15建议",
-          "title": "卢浮宫→中央巴士站",
-          "detail": "<p>市内交通另计费，公交等待和换乘按实时信息；下方公交路线不保证某班车运营。目标留至少一班回程余量，不选择刚好赶末班的计划。</p>",
-          "plain": "卢浮宫→中央巴士站  市内交通另计费，公交等待和换乘按实时信息；下方公交路线不保证某班车运营。目标留至少一班回程余量，不选择刚好赶末班的计划。 ",
-          "links": [
-            {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Louvre+Abu+Dhabi+Saadiyat+Island+UAE&destination=Abu+Dhabi+Central+Bus+Station+UAE&travelmode=transit"
-            }
-          ],
-          "place": "abu-dhabi-bus",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-14",
-          "time": "17:15–20:00建议",
-          "title": "候车、回迪拜与简晚餐",
-          "detail": "<p>回到的站点按实际E100/E101选择，车程与候车都计入。返迪拜后吃shawarma/豆咖喱米饭，预算25–40 AED；晚到就选站边正规餐饮，不再加夜景。</p>",
-          "plain": "候车、回迪拜与简晚餐  回到的站点按实际E100/E101选择，车程与候车都计入。返迪拜后吃shawarma/豆咖喱米饭，预算25–40 AED；晚到就选站边正规餐饮，不再加夜景。 ",
-          "links": [
-            {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Abu+Dhabi+Central+Bus+Station+UAE&destination=Al+Ghubaiba+Bus+Station+Dubai+UAE&travelmode=transit"
-            }
-          ],
-          "place": "al-ghubaiba",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d54v2-15",
-          "time": "20:00–21:00建议",
-          "title": "回实际青旅、补水与休息",
-          "detail": "<p>从真实到达城际站搭地铁/正规接驳返宿；交通卡跨城市适用性分别核。回宿充电、检查本地数据余量和明日地图，不把长途回程当已完成全部休息。</p>",
-          "plain": "回实际青旅、补水与休息  从真实到达城际站搭地铁/正规接驳返宿；交通卡跨城市适用性分别核。回宿充电、检查本地数据余量和明日地图，不把长途回程当已完成全部休息。 ",
-          "links": [],
-          "place": null,
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        }
-      ],
-      "extras": "<p>当前参考门票：清真寺10 AED、卢浮宫70 AED；E100/E101单程25 AED，往返50 AED之外还有迪拜与阿布扎比市内转乘。全部2027再核，不默认外国学生免费。</p><p>以两处核心为上限，不默认再进总统府；若不能在晚班前留足余量，清真寺/卢浮宫择一。下方默认展示E100方向，若实际选E101须两程都切到Ibn Battuta，不能只改去程。</p>",
-      "places": [
-        "ibn-battuta",
-        "al-ghubaiba",
-        "abu-dhabi-bus",
-        "grand-mosque",
-        "louvre",
-        "abu-dhabi-corniche",
-        "qasr-al-watan"
-      ],
-      "accent": "#547E79",
-      "lodging": "迪拜青旅第2晚（付费夜47，待订）",
-      "transportStatus": "待核 / 待订",
-      "flightStatus": null,
-      "scheduleBasis": "建议时段；交通与营业以实际票面和出发前核实为准",
-      "requiresBookingTime": false
-    },
-    {
-      "id": "day55",
-      "date": "2027-09-03",
-      "label": "迪拜老城·哈利法塔夜景",
-      "title": "迪拜老城·哈利法塔夜景",
-      "name": "迪拜老城·哈利法塔夜景",
+      "label": "开罗→迪拜 EK928",
+      "title": "开罗→迪拜 EK928",
+      "name": "开罗→迪拜 EK928",
       "country": "阿联酋",
       "countryCode": "AE",
       "timezone": "Asia/Dubai",
       "city": "迪拜",
       "defaultCity": "迪拜",
-      "priority": "返程未出票：当前阿航通用页为11:00→23:00，9/3先保留整夜床位。只有买到实际04:35凌晨版才在今晚赴机场或省一晚。",
+      "priority": "已出票航班日，保机场衔接；老埃博移至其他开罗日",
       "status": "planned",
-      "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d55v2-01",
-          "time": "06:45–07:30",
-          "title": "早餐、轻装与返程票核查",
-          "detail": "<p>早餐预算15–25 AED，可选印度早餐、鸡蛋面包或labneh配饼。先复核D56/D57正式返程日期和机场；若航班实际9/4凌晨起飞，今天晚上就必须去机场，不保证还有第三晚床位。</p>",
-          "plain": "早餐、轻装与返程票核查  早餐预算15–25 AED，可选印度早餐、鸡蛋面包或labneh配饼。先复核D56/D57正式返程日期和机场；若航班实际9/4凌晨起飞，今天晚上就必须去机场，不保证还有第三晚床位。 ",
-          "links": [],
-          "place": null,
+          "id": "d54r58-01",
+          "time": "07:30–08:15",
+          "title": "早餐、退房与提取50L主包",
+          "detail": "<p>在开罗原青旅吃早餐、确认护照与电子票，10L小包随身。当天不再安排老埃博，避免09:00才开馆与13:10国际航班相互挤压。</p>",
+          "plain": "早餐、退房与提取50L主包 在开罗原青旅吃早餐、确认护照与电子票，10L小包随身。当天不再安排老埃博，避免09:00才开馆与13:10国际航班相互挤压。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo%20Egypt"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/english/before-you-fly/check-in/"
+            }
+          ],
+          "place": "rev58-d54-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "endTimezone": "Africa/Cairo",
+          "startTimezone": "Africa/Cairo"
+        },
+        {
+          "id": "d54r58-02",
+          "time": "08:15–09:30",
+          "title": "开罗市中心→CAI T2航站楼",
+          "detail": "<p>按正规出租车/网约车前往开罗国际机场T2，规划预留75分钟道路交通；09:30前到航站楼，距离13:10起飞仍有3小时40分钟。</p>",
+          "plain": "开罗市中心→CAI T2航站楼 按正规出租车/网约车前往开罗国际机场T2，规划预留75分钟道路交通；09:30前到航站楼，距离13:10起飞仍有3小时40分钟。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairo%20International%20Airport%20Terminal%202"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/english/before-you-fly/check-in/"
+            }
+          ],
+          "place": "rev58-d54-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "endTimezone": "Africa/Cairo",
+          "startTimezone": "Africa/Cairo"
+        },
+        {
+          "id": "d54r58-03",
+          "time": "09:30–12:20",
+          "title": "EK928值机、托运、出境及候机",
+          "detail": "<p>按用户最新已出票记录执行。主包套托运保护袋；学生证与学生身份材料放随身包。行李额以本人的电子客票为准。</p>",
+          "plain": "EK928值机、托运、出境及候机 按用户最新已出票记录执行。主包套托运保护袋；学生证与学生身份材料放随身包。行李额以本人的电子客票为准。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairo%20International%20Airport%20Terminal%202"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/au/english/special-offers/student-special-fares/"
+            }
+          ],
+          "place": "rev58-d54-2",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "user-confirmed-schedule",
+          "endTimezone": "Africa/Cairo",
+          "startTimezone": "Africa/Cairo"
         },
         {
-          "id": "d55v2-02",
-          "time": "07:30–08:00",
-          "title": "赴Al Fahidi历史街区",
-          "detail": "<p>从实际住宿搭地铁/公交到老城后步行，避免穿越高架大路。下方Al Ghubaiba→Al Fahidi为具名短程参考；穿透气遮阳衣，水和本地流量随身。</p>",
-          "plain": "赴Al Fahidi历史街区  从实际住宿搭地铁/公交到老城后步行，避免穿越高架大路。下方Al Ghubaiba→Al Fahidi为具名短程参考；穿透气遮阳衣，水和本地流量随身。 ",
+          "id": "d54r58-04",
+          "time": "12:20–13:10",
+          "title": "登机口候机与登机",
+          "detail": "<p>以登机牌显示的登机口和登机时间为准，不在临近登机时离开候机区域。</p>",
+          "plain": "登机口候机与登机 以登机牌显示的登机口和登机时间为准，不在临近登机时离开候机区域。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Al+Ghubaiba+Bus+Station+Dubai+UAE&destination=Al+Fahidi+Historical+Neighbourhood+Dubai+UAE&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cairo%20International%20Airport%20Terminal%202"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/english/before-you-fly/check-in/"
             }
           ],
-          "place": "al-fahidi",
+          "place": "rev58-d54-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan",
+          "endTimezone": "Africa/Cairo",
+          "startTimezone": "Africa/Cairo"
         },
         {
-          "id": "d55v2-03",
-          "time": "08:00–09:00",
-          "title": "Al Fahidi街巷与风塔外观",
-          "detail": "<p>趁较凉的早晨看巷道与风塔，室内文化空间是否开放按当天；不保证博物馆都开门或免费。居民/店主拍照先问，走到阴影处短休。</p>",
-          "plain": "Al Fahidi街巷与风塔外观  趁较凉的早晨看巷道与风塔，室内文化空间是否开放按当天；不保证博物馆都开门或免费。居民/店主拍照先问，走到阴影处短休。 ",
-          "links": [],
-          "place": "al-fahidi",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-04",
-          "time": "09:00–09:25",
-          "title": "历史街区→Bur Dubai Abra站",
-          "detail": "<p>下方为具体渡船站方向，先看官方渡口标识，传统木船与空调/观光船票价不同。核今日运营与现金/刷卡方式，不把所有渡船都写成1 AED。</p>",
-          "plain": "历史街区→Bur Dubai Abra站  下方为具体渡船站方向，先看官方渡口标识，传统木船与空调/观光船票价不同。核今日运营与现金/刷卡方式，不把所有渡船都写成1 AED。 ",
+          "id": "d54r58-05",
+          "time": "13:10–17:30",
+          "title": "EK928 开罗→迪拜直飞",
+          "detail": "<p>航班日期与时刻按用户报告已出票确认；计划机型A380-800，航司可能调整机型。埃及与阿联酋当地时间，不以钟面差直接算飞行时长。</p>",
+          "plain": "EK928 开罗→迪拜直飞 航班日期与时刻按用户报告已出票确认；计划机型A380-800，航司可能调整机型。埃及与阿联酋当地时间，不以钟面差直接算飞行时长。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Al+Fahidi+Historical+Neighbourhood+Dubai+UAE&destination=Bur+Dubai+Abra+Station+Dubai+UAE&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20International%20Airport%20Terminal%203"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/eg/english/"
             }
           ],
-          "place": "abra",
+          "place": "rev58-d54-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "user-confirmed-schedule",
+          "endTimezone": "Asia/Dubai",
+          "startTimezone": "Africa/Cairo"
         },
         {
-          "id": "d55v2-05",
-          "time": "09:25–09:45",
-          "title": "传统Abra横渡迪拜湾",
-          "detail": "<p>1 AED是传统指定航线现价参考，2027和具体渡口再核；到对岸Deira Old Souk方向，实际到达站按船方确认。稳坐、拍照不探身，不把观光包船当此项。</p>",
-          "plain": "传统Abra横渡迪拜湾  1 AED是传统指定航线现价参考，2027和具体渡口再核；到对岸Deira Old Souk方向，实际到达站按船方确认。稳坐、拍照不探身，不把观光包船当此项。 ",
-          "links": [],
-          "place": "abra",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-06",
-          "time": "09:45–10:20",
-          "title": "香料市场短逛",
-          "detail": "<p>从Deira Old Souk Abra站到香料市场的具名步行段很短；先问商品重量与总价，不试用未说明收费的体验。天热时在阴影主路活动，不一定购物。</p>",
-          "plain": "香料市场短逛  从Deira Old Souk Abra站到香料市场的具名步行段很短；先问商品重量与总价，不试用未说明收费的体验。天热时在阴影主路活动，不一定购物。 ",
+          "id": "d54r58-06",
+          "time": "17:30–19:15",
+          "title": "迪拜入境、取包与购买/充值交通卡",
+          "detail": "<p>抵DXB T3后入境、领取50L主包，再到地铁站购买或充值nol卡；这是规划窗口，按实际抵达进度前后顺延。</p>",
+          "plain": "迪拜入境、取包与购买/充值交通卡 抵DXB T3后入境、领取50L主包，再到地铁站购买或充值nol卡；这是规划窗口，按实际抵达进度前后顺延。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Deira+Old+Souk+Abra+Station+Dubai+UAE&destination=Dubai+Spice+Souk+Deira+UAE&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20International%20Airport%20Terminal%203%20Metro%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
             }
           ],
-          "place": "spice-souk",
+          "place": "rev58-d54-6",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan",
+          "endTimezone": "Asia/Dubai",
+          "startTimezone": "Asia/Dubai"
         },
         {
-          "id": "d55v2-07",
-          "time": "10:20–11:00",
-          "title": "黄金市场与回空调环境",
-          "detail": "<p>从香料市场步行到黄金市场看外观和橱窗，贵重物购买自定；不因攻略承诺便宜就下单。约11点结束老城户外，之后转空调交通/商场。</p>",
-          "plain": "黄金市场与回空调环境  从香料市场步行到黄金市场看外观和橱窗，贵重物购买自定；不因攻略承诺便宜就下单。约11点结束老城户外，之后转空调交通/商场。 ",
+          "id": "d54r58-07",
+          "time": "19:15–20:30",
+          "title": "红线前往已选地铁口青旅并入住",
+          "detail": "<p>连住9月2、3、4三晚。公开行程仅放候选住宿，不上传真实订单、房号或订位号。若住Deira/BurJuman片区，今晚直接逛迪拜湾；Marina/JBR放到D57串游，避免跨城折返。</p>",
+          "plain": "红线前往已选地铁口青旅并入住 连住9月2、3、4三晚。公开行程仅放候选住宿，不上传真实订单、房号或订位号。若住Deira/BurJuman片区，今晚直接逛迪拜湾；Marina/JBR放到D57串游，避免跨城折返。",
           "links": [
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dubai+Spice+Souk+Deira+UAE&destination=Dubai+Gold+Souk+Deira+UAE&travelmode=walking"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=BurJuman%20Metro%20Station%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
             }
           ],
-          "place": "gold-souk",
+          "place": "rev58-d54-7",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan",
+          "endTimezone": "Asia/Dubai",
+          "startTimezone": "Asia/Dubai"
         },
         {
-          "id": "d55v2-08",
-          "time": "11:00–12:15",
-          "title": "老城→Dubai Mall",
-          "detail": "<p>先步行到实际适用地铁站，按RTA当日运营换乘至Burj Khalifa/Dubai Mall站，再计站至商场连廊步行；下方公交导航含换乘建议，不能把地铁到站当进商场。</p>",
-          "plain": "老城→Dubai Mall  先步行到实际适用地铁站，按RTA当日运营换乘至Burj Khalifa/Dubai Mall站，再计站至商场连廊步行；下方公交导航含换乘建议，不能把地铁到站当进商场。 ",
+          "id": "d54r58-08",
+          "time": "20:30–22:00",
+          "title": "晚餐＋迪拜湾或Al Seef夜景",
+          "detail": "<p>以青旅所在片区选择步行可达晚餐与夜景，保留活动内容，不安排白天午睡或额外洗衣卡。</p>",
+          "plain": "晚餐＋迪拜湾或Al Seef夜景 以青旅所在片区选择步行可达晚餐与夜景，保留活动内容，不安排白天午睡或额外洗衣卡。",
           "links": [
             {
-              "label": "公共交通路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dubai+Gold+Souk+Deira+UAE&destination=Dubai+Mall+Downtown+Dubai+UAE&travelmode=transit"
-            }
-          ],
-          "place": "dubai-mall",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-09",
-          "time": "12:15–13:15",
-          "title": "商场午餐与坐下补水",
-          "detail": "<p>food court可选印度豆咖喱、阿拉伯烤肉/米饭或shawarma，预算30–45 AED。先找座位、补水，不把正午用来在Downtown广场暴晒。</p>",
-          "plain": "商场午餐与坐下补水  food court可选印度豆咖喱、阿拉伯烤肉/米饭或shawarma，预算30–45 AED。先找座位、补水，不把正午用来在Downtown广场暴晒。 ",
-          "links": [],
-          "place": "dubai-mall",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-10",
-          "time": "13:15–16:00",
-          "title": "空调商场与水族馆公共外观",
-          "detail": "<p>水族馆只看商场公共可见部分，不默认买票；分段坐下休息，可以咖啡/果汁另留10–20 AED。疲劳时返宿午睡，傍晚再来会增加交通，自己按体力选择。</p>",
-          "plain": "空调商场与水族馆公共外观  水族馆只看商场公共可见部分，不默认买票；分段坐下休息，可以咖啡/果汁另留10–20 AED。疲劳时返宿午睡，傍晚再来会增加交通，自己按体力选择。 ",
-          "links": [],
-          "place": "dubai-mall",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-11",
-          "time": "16:00–17:15",
-          "title": "核返程资料、找晚景出口",
-          "detail": "<p>在空调区检查航班、登机材料、行李重量和本地数据余量；确认Dubai Fountain当天是否演出与开放观景区，演出待核不承诺整点有节目。</p>",
-          "plain": "核返程资料、找晚景出口  在空调区检查航班、登机材料、行李重量和本地数据余量；确认Dubai Fountain当天是否演出与开放观景区，演出待核不承诺整点有节目。 ",
-          "links": [],
-          "place": "dubai-fountain",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-12",
-          "time": "17:15–18:15条件性",
-          "title": "哈利法塔外观与广场晚景",
-          "detail": "<p>从商场按指示去开放广场，只在高温缓和后短走；下方为具名步行方向，实际出口按商场。哈利法塔只看外观，塔顶票未订也未算必需开支。</p>",
-          "plain": "哈利法塔外观与广场晚景  从商场按指示去开放广场，只在高温缓和后短走；下方为具名步行方向，实际出口按商场。哈利法塔只看外观，塔顶票未订也未算必需开支。 ",
-          "links": [
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Seef%20Dubai"
+            },
             {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dubai+Mall+Downtown+Dubai+UAE&destination=Burj+Khalifa+Dubai+UAE&travelmode=walking"
+              "label": "开放时间／运营依据",
+              "url": "https://www.visitdubai.com/"
             }
           ],
-          "place": "burj-khalifa",
+          "place": "rev58-d54-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-13",
-          "time": "18:15–19:15",
-          "title": "晚餐、喷泉条件性短看",
-          "detail": "<p>商场或附近明码标价餐饮预算30–45 AED；仅当官方确认当天演出且能安全观看时看一场，不为等喷泉延误去机场。若没有演出，普通城市夜景也完成此项。</p>",
-          "plain": "晚餐、喷泉条件性短看  商场或附近明码标价餐饮预算30–45 AED；仅当官方确认当天演出且能安全观看时看一场，不为等喷泉延误去机场。若没有演出，普通城市夜景也完成此项。 ",
-          "links": [
-            {
-              "label": "步行路线",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Burj+Khalifa+Dubai+UAE&destination=Dubai+Fountain+Downtown+Dubai+UAE&travelmode=walking"
-            }
-          ],
-          "place": "dubai-fountain",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-14",
-          "time": "19:15–20:15",
-          "title": "Dubai Mall → Alphatel DWTC回宿",
-          "detail": "<p>19:15离开商场，留约1小时返回Alphatel DWTC、洗漱休息。当前只是未订青旅候选，正式住宿改变后重算。若实际买到04:35且已确认省夜，则这段改为取包，约20:45直接去T3。</p>",
-          "plain": "Dubai Mall → Alphatel DWTC回宿  19:15离开商场，留约1小时返回Alphatel DWTC、洗漱休息。当前只是未订青旅候选，正式住宿改变后重算。若实际买到04:35且已确认省夜，则这段改为取包，约20:45直接去T3。 ",
-          "links": [
-            {
-              "label": "回经济住宿候选",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dubai%20Mall%20Dubai&destination=Alphatel%20Hostel%20Dubai%20World%20Trade%20Centre%20Talal%202%20Building%208th%20Floor%20Satwa%20Dubai&travelmode=driving"
-            }
-          ],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
-        },
-        {
-          "id": "d55v2-15",
-          "time": "20:15–21:30",
-          "title": "洗漱与整夜休息；按正式票面选分支",
-          "detail": "<p>未出票前保留9/3这晚可取消床位。若真实票为11:00版，今晚正常睡眠，9/4约07:00离店、目标08:00到T3；若票面要求提前4小时，继续提前。仅正式04:35版才选23:30离店、约00:15到T3，或退房寄包后约21:30到T3的省夜方案。退房后寄包、收费与淋浴权限分别向住宿确认。</p>",
-          "plain": "洗漱与整夜休息；按正式票面选分支  未出票前保留9/3这晚可取消床位。若真实票为11:00版，今晚正常睡眠，9/4约07:00离店、目标08:00到T3；若票面要求提前4小时，继续提前。仅正式04:35版才选23:30离店、约00:15到T3，或退房寄包后约21:30到T3的省夜方案。退房后寄包、收费与淋浴权限分别向住宿确认。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "clock-plan",
+          "endTimezone": "Asia/Dubai",
+          "startTimezone": "Asia/Dubai"
         }
       ],
-      "extras": "<p>老城、传统Abra、两市场集中上午；午间完整在空调商场休息。Abra1 AED只指指定传统航线当前参考，不代表任何船都同价。</p><p>喷泉是否演出2027当日核实；哈利法塔与水族馆均默认只看公共外观。9/4凌晨航班会把机场出发前移至今晚，住宿夜数随票重算，最迟9/5到校。</p>",
+      "extras": "",
       "places": [
-        "al-fahidi",
-        "abra",
-        "gold-souk",
-        "spice-souk",
-        "dubai-mall",
-        "burj-khalifa",
-        "dubai-fountain",
-        "al-ghubaiba"
+        "rev58-d54-1",
+        "rev58-d54-2",
+        "rev58-d54-5",
+        "rev58-d54-6",
+        "rev58-d54-7",
+        "rev58-d54-8"
+      ],
+      "accent": "#547E79",
+      "lodging": "迪拜青旅第2晚（付费夜47，待订）",
+      "transportStatus": "待核 / 待订",
+      "flightStatus": null,
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
+      "requiresBookingTime": false
+    },
+    {
+      "id": "day55",
+      "date": "2027-09-03",
+      "label": "阿布扎比·总统府·卢浮宫·清真寺",
+      "title": "阿布扎比·总统府·卢浮宫·清真寺",
+      "name": "阿布扎比·总统府·卢浮宫·清真寺",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "city": "阿布扎比",
+      "defaultCity": "阿布扎比",
+      "priority": "阿布扎比三核心可同日完成，跨城大巴＋市内出租接驳预算需计入",
+      "status": "planned",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
+      "rows": [
+        {
+          "id": "d55r58-01",
+          "time": "06:30–07:15",
+          "title": "早餐并前往Al Ghubaiba城际巴士站",
+          "detail": "<p>住Deira/BurJuman时优先E100，住Marina/Ibn Battuta附近时改E101；不要在两站之间额外折返。</p>",
+          "plain": "早餐并前往Al Ghubaiba城际巴士站 住Deira/BurJuman时优先E100，住Marina/Ibn Battuta附近时改E101；不要在两站之间额外折返。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Ghubaiba%20Bus%20Station%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://admobility.gov.ae/en/inter-emirates-services"
+            }
+          ],
+          "place": "rev58-d55-1",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-02",
+          "time": "07:15–09:45",
+          "title": "E100 Al Ghubaiba→阿布扎比中央车站",
+          "detail": "<p>两线当前标准单程25AED，往返50AED。这里是推荐乘车窗口，不冒充2027已售班次；留30分钟市内接驳到总统府。</p>",
+          "plain": "E100/E101 迪拜→阿布扎比中央车站 两线当前标准单程25AED，往返50AED。这里是推荐乘车窗口，不冒充2027已售班次；留30分钟市内接驳到总统府。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abu%20Dhabi%20Central%20Bus%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://admobility.gov.ae/en/inter-emirates-services"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/wps/portal/rta/ae/home/promotion/intercity-e-ticketing"
+            }
+          ],
+          "place": "rev58-d55-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-03",
+          "time": "10:15–12:00",
+          "title": "Qasr Al Watan总统府",
+          "detail": "<p>将总统府从晚下午提前至上午，避免每日临时关门/最后入场时刻挤压。成人当前65AED，无已核实通用ISIC单次优惠。场地公务活动可能调整开放，以所订日期公告为准。</p>",
+          "plain": "Qasr Al Watan总统府 将总统府从晚下午提前至上午，避免每日临时关门/最后入场时刻挤压。成人当前65AED，无已核实通用ISIC单次优惠。场地公务活动可能调整开放，以所订日期公告为准。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Qasr%20Al%20Watan%20Abu%20Dhabi"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.qasralwatan.ae/en/tickets"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://visitabudhabi.ae/en/things-to-do/culture/landmarks-and-architecture/qasr-al-watan"
+            }
+          ],
+          "place": "rev58-d55-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-04",
+          "time": "12:00–12:45",
+          "title": "总统府→卢浮宫",
+          "detail": "<p>按正规出租车/拼车直达卢浮宫，预算包含市内接驳；不绕回清真寺吃饭。</p>",
+          "plain": "总统府→卢浮宫 正规出租车或拼车直达卢浮宫。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Louvre%20Abu%20Dhabi"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.louvreabudhabi.ae/en/visit-us"
+            }
+          ],
+          "place": "rev58-d55-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-lunch",
+          "time": "12:45–13:15",
+          "title": "午餐：卢浮宫Museum Café",
+          "detail": "<p>抵卢浮宫后在Museum Café简餐；想省钱可提前备便携餐，在允许区域吃，不从馆区折返清真寺。</p>",
+          "plain": "午餐：卢浮宫Museum Café",
+          "links": [],
+          "place": "rev58-d55-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-05",
+          "time": "13:15–15:30",
+          "title": "阿布扎比卢浮宫展厅与穹顶",
+          "detail": "<p>成人当前70AED；未核实ISIC单次学生价，先按成人列预算。学生年卡与单次门票分开。周五展厅当前开放至20:30，午间正常开门。</p>",
+          "plain": "阿布扎比卢浮宫展厅与穹顶 成人当前70AED；未核实ISIC单次学生价，先按成人列预算。学生年卡与单次门票分开。周五展厅当前开放至20:30，午间正常开门。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Louvre%20Abu%20Dhabi"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.louvreabudhabi.ae/en/visit-us"
+            }
+          ],
+          "place": "rev58-d55-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-06",
+          "time": "15:30–16:15",
+          "title": "卢浮宫→谢赫扎耶德大清真寺",
+          "detail": "<p>跨区出租接驳，车上补水，抵达后按预约入口走访客通道。此顺序避开周五午间礼拜暂停参观时段。</p>",
+          "plain": "卢浮宫→谢赫扎耶德大清真寺 跨区出租接驳，车上补水，抵达后按预约入口走访客通道。此顺序避开周五午间礼拜暂停参观时段。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sheikh%20Zayed%20Grand%20Mosque%20Abu%20Dhabi"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.szgmc.gov.ae/en/individual-booking"
+            }
+          ],
+          "place": "rev58-d55-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-07",
+          "time": "16:15–18:15",
+          "title": "谢赫扎耶德大清真寺下午参观",
+          "detail": "<p>按预约时段入场，周五下午开放；官方不同栏目目前显示14:30或15:00恢复，16:15均落在共同开放窗口。穿长裤、遮肩，按访客服装规则进入。</p>",
+          "plain": "谢赫扎耶德大清真寺下午参观 按预约时段入场，周五下午开放；官方不同栏目目前显示14:30或15:00恢复，16:15均落在共同开放窗口。穿长裤、遮肩，按访客服装规则进入。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sheikh%20Zayed%20Grand%20Mosque%20Abu%20Dhabi"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.szgmc.gov.ae/en/individual-booking"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.szgmc.gov.ae/en/worshippers/en-v-faqs"
+            }
+          ],
+          "place": "rev58-d55-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d55r58-08",
+          "time": "18:15–21:45",
+          "title": "晚餐、回中央车站并乘城际大巴返迪拜",
+          "detail": "<p>含清真寺到车站接驳、等车和返程；这天两张门票135AED，市内三至四次出租车规划另留100–160AED，城际往返50AED，不能塞进全阿联酋150元交通总额。</p>",
+          "plain": "晚餐、回中央车站并乘城际大巴返迪拜 含清真寺到车站接驳、等车和返程；这天两张门票135AED，市内三至四次出租车规划另留100–160AED，城际往返50AED，不能塞进全阿联酋150元交通总额。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abu%20Dhabi%20Central%20Bus%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://admobility.gov.ae/en/inter-emirates-services"
+            }
+          ],
+          "place": "rev58-d55-2",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        }
+      ],
+      "extras": "",
+      "places": [
+        "rev58-d55-1",
+        "rev58-d55-2",
+        "rev58-d55-3",
+        "rev58-d55-4",
+        "rev58-d55-6"
       ],
       "accent": "#547E79",
       "lodging": "迪拜（付费夜48 · 阿联酋第3晚，最后1晚付费床位）",
       "transportStatus": "待核 / 待订",
       "flightStatus": null,
-      "scheduleBasis": "建议时段；交通与营业以实际票面和出发前核实为准",
-      "requiresBookingTime": true,
-      "transportPlan": [
-        {
-          "id": "dxb-hgh-ek310",
-          "route": "迪拜DXB → 杭州HGH",
-          "operator": "Emirates / 阿联酋航空",
-          "service": "EK310",
-          "departure": "11:00（DXB当地；当前官方通用页参考，2027-09-04待查）",
-          "arrival": "23:00（杭州当地；同一日落地，地面返校可能跨到9/5）",
-          "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/",
-          "evidenceStatus": "2026-11-06官方通用路线页11:00→23:00，未对应2027指定日期；旧04:35→17:05仅条件备选。",
-          "notes": [
-            "先取得2027/9/4正式航班与抵达日期，再决定9/3是否省一晚；未出票前保留可取消床位。",
-            "日间版9/4约07:00离店、目标08:00到T3；本人票面要求4小时则提前。23点落地后仍有入境和到校交通。",
-            "实际凌晨04:35版才采用9/3夜出发：保床短休23:30离店约00:15到T3，或退房寄包20:45离店约21:30到T3。"
-          ]
-        }
-      ]
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
+      "requiresBookingTime": false
     },
     {
       "id": "day56",
       "date": "2027-09-04",
-      "label": "迪拜返杭·时刻待出票",
-      "title": "迪拜→杭州·跨夜返程",
-      "name": "迪拜→杭州·跨夜返程",
+      "label": "迪拜老城·未来馆外观·喷泉",
+      "title": "迪拜老城·未来馆外观·喷泉",
+      "name": "迪拜老城·未来馆外观·喷泉",
       "country": "阿联酋",
       "countryCode": "AE",
       "timezone": "Asia/Dubai",
-      "city": "杭州",
-      "defaultCity": "杭州",
-      "priority": "当前参考会跨到9/5凌晨返校；提前核深夜入校与机场接驳。最迟9/5可靠回到学校，9/6开学。",
+      "city": "迪拜",
+      "defaultCity": "迪拜",
+      "priority": "老城＋未来馆建筑＋Downtown，公开主线不默认买三张高价票",
       "status": "planned",
-      "note": "2026-11-06阿航通用路线页当前为EK310 11:00迪拜→23:00杭州，未对应2027/9/4。下表按此白天参考版预排；旧04:35→17:05仅条件备选，真实票面确定后重排。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d56v2-01",
-          "time": "06:00–06:45 9/4 · 迪拜时间",
-          "title": "起床、早餐、退房与票面复核",
-          "detail": "<p>按正式2027航班倒推。下表只适用于11:00参考版；若实际04:35，须在9/3夜出发，不能等到今早。</p>",
-          "plain": "起床、早餐、退房与票面复核  按正式2027航班倒推。下表只适用于11:00参考版；若实际04:35，须在9/3夜出发，不能等到今早。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d56v2-02",
-          "time": "07:00–08:00 · 迪拜时间",
-          "title": "Alphatel DWTC → DXB T3",
-          "detail": "<p>叫正规车，整段留1小时含等车、路况和T3入口；不是保证车程。目标08:00前到。本人票面要求提前4小时则更早离店；不是DXB/T3时重算。</p>",
-          "plain": "Alphatel DWTC → DXB T3  叫正规车，整段留1小时含等车、路况和T3入口；不是保证车程。目标08:00前到。本人票面要求提前4小时则更早离店；不是DXB/T3时重算。 ",
+          "id": "d56r58-01",
+          "time": "08:00–10:00",
+          "title": "Al Fahidi历史街区与Al Seef",
+          "detail": "<p>走老城窄巷、风塔建筑和迪拜湾，不把整个辛达加博物馆群也压进同一小时；如希望入馆，选一馆替换街巷时段并另计门票。</p>",
+          "plain": "Al Fahidi历史街区与Al Seef 走老城窄巷、风塔建筑和迪拜湾，不把整个辛达加博物馆群也压进同一小时；如希望入馆，选一馆替换街巷时段并另计门票。",
           "links": [
             {
-              "label": "经济住宿候选到DXB T3",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Alphatel%20Hostel%20Dubai%20World%20Trade%20Centre%20Talal%202%20Building%208th%20Floor%20Satwa%20Dubai&destination=Dubai%20International%20Airport%20Terminal%203%20Departures&travelmode=driving"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Fahidi%20Historical%20Neighbourhood%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.visitdubai.com/"
             }
           ],
-          "place": "dxb",
+          "place": "rev58-d56-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d56v2-03",
-          "time": "08:00–08:45 · 迪拜时间",
-          "title": "值机、证件与行李核验",
-          "detail": "<p>一般提前3小时、部分航班4小时到机场，按票面及航司通知执行。完整核护照、杭州到达日和包件额度；不把网上值机当可省去机场手续。</p>",
-          "plain": "值机、证件与行李核验  一般提前3小时、部分航班4小时到机场，按票面及航司通知执行。完整核护照、杭州到达日和包件额度；不把网上值机当可省去机场手续。 ",
-          "links": [],
-          "place": "dxb",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d56v2-04",
-          "time": "08:45–09:45 · 迪拜时间",
-          "title": "出境、安检与航站楼步行",
-          "detail": "<p>按实际航站楼指引走，安检与前往登机区分别留量；不要把T3入口到登机口当10分钟。</p>",
-          "plain": "出境、安检与航站楼步行  按实际航站楼指引走，安检与前往登机区分别留量；不要把T3入口到登机口当10分钟。 ",
-          "links": [],
-          "place": "dxb",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d56v2-05",
-          "time": "09:45–10:00 · 迪拜时间",
-          "title": "核登机口、补水与候机",
-          "detail": "<p>以登机牌提示优先。餐食、充电只在时间足够且不离开登机区的情况下安排。</p>",
-          "plain": "核登机口、补水与候机  以登机牌提示优先。餐食、充电只在时间足够且不离开登机区的情况下安排。 ",
-          "links": [],
-          "place": "dxb",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d56v2-06",
-          "time": "10:00–11:00 · 迪拜时间",
-          "title": "按登机牌赴闸口与登机",
-          "detail": "<p>以实际登机开始/关闭时间为准。这里是11:00起飞参考版，不是已取得的2027班次。</p>",
-          "plain": "按登机牌赴闸口与登机  以实际登机开始/关闭时间为准。这里是11:00起飞参考版，不是已取得的2027班次。 ",
-          "links": [],
-          "place": "dxb",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d56v2-07",
-          "time": "11:00 迪拜 → 23:00 杭州 · 当前官网参考",
-          "title": "EK310白天参考版：DXB → HGH",
-          "detail": "<p>官网当前无指定日期路线页显示11:00→23:00。2027/9/4时刻、机型及票价仍须查询；不得仅凭此表出票或少订一晚。</p>",
-          "plain": "EK310白天参考版：DXB → HGH  官网当前无指定日期路线页显示11:00→23:00。2027/9/4时刻、机型及票价仍须查询；不得仅凭此表出票或少订一晚。 ",
+          "id": "d56r58-02",
+          "time": "10:00–11:30",
+          "title": "Abra木船→香料市场与黄金市场",
+          "detail": "<p>传统木船跨迪拜湾，1AED航线需区分电动船等其他票种。明信片可在已核定营业的邮局顺路寄，周末营业与关门时间按具体分局确认。</p>",
+          "plain": "Abra木船→香料市场与黄金市场 传统木船跨迪拜湾，1AED航线需区分电动船等其他票种。明信片可在已核定营业的邮局顺路寄，周末营业与关门时间按具体分局确认。",
           "links": [
             {
-              "label": "阿航当前路线与正式日期查询",
-              "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Deira%20Old%20Souk%20Abra%20Station%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
             }
           ],
-          "place": "hgh",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d56v2-08",
-          "time": "23:00–次日00:30 · 杭州时间",
-          "title": "杭州入境、取包与海关",
-          "detail": "<p>留约90分钟并随实际排队调整；23:00落地不等于已到宿舍。预先核晚间正规接驳与接待。</p>",
-          "plain": "杭州入境、取包与海关  留约90分钟并随实际排队调整；23:00落地不等于已到宿舍。预先核晚间正规接驳与接待。 ",
-          "links": [],
-          "place": "hgh",
+          "place": "rev58-d56-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d56v2-09",
-          "time": "00:30–02:00 次日9/5 · 杭州时间",
-          "title": "萧山机场 → 已确认可深夜进入的住处",
-          "detail": "<p>提前向学校确认凌晨能否进宿舍。不能进入则比较更早到达航班，或另核附近住宿与次晨返校费用。9/5须可靠到校，不将9/6才回校的方案采用。</p>",
-          "plain": "萧山机场 → 已确认可深夜进入的住处  提前向学校确认凌晨能否进宿舍。不能进入则比较更早到达航班，或另核附近住宿与次晨返校费用。9/5须可靠到校，不将9/6才回校的方案采用。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
+          "id": "d56r58-03",
+          "time": "11:30–12:30",
+          "title": "Deira午餐后乘地铁赴Emirates Towers",
+          "detail": "<p>留完整午餐及地铁转乘窗口，避免把Al Fahidi到未来博物馆误写成紧邻步行。</p>",
+          "plain": "Deira午餐后乘地铁赴Emirates Towers 留完整午餐及地铁转乘窗口，避免把Al Fahidi到未来博物馆误写成紧邻步行。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Emirates%20Towers%20Metro%20Station%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
+            }
+          ],
+          "place": "rev58-d56-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d56r58-04",
+          "time": "12:30–14:00",
+          "title": "未来博物馆建筑外观与可进入的公共区",
+          "detail": "<p>主线拍书法环建筑与现场开放的公共区域，不把付费展层写成免费参观；是否可进大厅按现场管理。入展当前169AED，属于另选项目；若买票，使用约2–3小时并删去其他加项。</p>",
+          "plain": "未来博物馆建筑外观与可进入的公共区 主线拍书法环建筑与现场开放的公共区域，不把付费展层写成免费参观；是否可进大厅按现场管理。入展当前169AED，属于另选项目；若买票，使用约2–3小时并删去其他加项。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20the%20Future%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://museumofthefuture.ae/en/plan-your-visit"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://museumofthefuture.ae/en/ticket-terms-and-conditions"
+            }
+          ],
+          "place": "rev58-d56-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d56r58-05",
+          "time": "14:00–17:00",
+          "title": "Dubai Mall、免费水族馆幕墙与室内商业空间",
+          "detail": "<p>走商场公共区域和水族馆外侧幕墙，不包括收费隧道与水下动物园。主线不再额外塞Dubai Frame和登哈利法塔两张票；相框成人50AED可另选替换未来馆段。</p>",
+          "plain": "Dubai Mall、免费水族馆幕墙与室内商业空间 走商场公共区域和水族馆外侧幕墙，不包括收费隧道与水下动物园。主线不再额外塞Dubai Frame和登哈利法塔两张票；相框成人50AED可另选替换未来馆段。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Aquarium%20and%20Underwater%20Zoo%20Dubai%20Mall"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://thedubaimall.com/"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.dubaiframe.ae/en/plan-your-visit"
+            }
+          ],
+          "place": "rev58-d56-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d56r58-06",
+          "time": "17:00–18:30",
+          "title": "Souk Al Bahar桥与哈利法塔外观",
+          "detail": "<p>从商场步行到湖畔与桥面机位，保留傍晚摄影；主线是塔外观，不含At the Top付费登塔。</p>",
+          "plain": "Souk Al Bahar桥与哈利法塔外观 从商场步行到湖畔与桥面机位，保留傍晚摄影；主线是塔外观，不含At the Top付费登塔。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Souk%20Al%20Bahar%20Bridge%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.burjkhalifa.ae/en/"
+            }
+          ],
+          "place": "rev58-d56-6",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d56r58-07",
+          "time": "18:30–21:30",
+          "title": "晚餐、喷泉与Downtown夜景",
+          "detail": "<p>按当天喷泉正式演出公告看场次，不写2027固定保证时刻。今晚第三个付费住宿夜，回青旅后可顺手机洗，白天不设洗衣卡。</p>",
+          "plain": "晚餐、喷泉与Downtown夜景 按当天喷泉正式演出公告看场次，不写2027固定保证时刻。今晚第三个付费住宿夜，回青旅后可顺手机洗，白天不设洗衣卡。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Fountain%20Dubai%20Mall"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://thedubaimall.com/"
+            }
+          ],
+          "place": "rev58-d56-7",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>本日没有迪拜观光安排。主表按当前官网11:00→23:00的日间参考版，9/3保留整夜床位，9/4晚入境后跨到9/5返校。两个时刻均未被2027指定日期票面确认。</p><p>只有实际买到04:35凌晨版，才切换为9/3夜赴机场及9/4傍晚抵杭；省夜与保床短休均见“预订时间线与返杭分支”。最迟9/5可靠到校，先核深夜门禁。</p>",
+      "extras": "",
       "places": [
-        "future-museum",
-        "jumeirah",
-        "burj-al-arab",
-        "dxb",
-        "auh",
-        "hgh",
-        "pvg"
+        "rev58-d56-1",
+        "rev58-d56-2",
+        "rev58-d56-3",
+        "rev58-d56-4",
+        "rev58-d56-5",
+        "rev58-d56-6",
+        "rev58-d56-7"
       ],
       "accent": "#547E79",
       "lodging": "9月4日抵杭后回宿舍；EK310为第三方夏季参考，未订",
       "transportStatus": "待核 / 待订",
       "flightStatus": "待用户观察填写",
-      "scheduleBasis": "具体钟点计划；已核现行样例与购票目标分开标注，2027按实际出票更新。",
-      "requiresBookingTime": true,
-      "transportPlan": [
-        {
-          "id": "dxb-hgh-ek310",
-          "route": "迪拜DXB → 杭州HGH",
-          "operator": "Emirates / 阿联酋航空",
-          "service": "EK310",
-          "departure": "11:00（DXB当地；当前官方通用页参考，2027-09-04待查）",
-          "arrival": "23:00（杭州当地；同一日落地，地面返校可能跨到9/5）",
-          "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/",
-          "evidenceStatus": "2026-11-06官方通用路线页11:00→23:00，未对应2027指定日期；旧04:35→17:05仅条件备选。",
-          "notes": [
-            "先取得2027/9/4正式航班与抵达日期，再决定9/3是否省一晚；未出票前保留可取消床位。",
-            "日间版9/4约07:00离店、目标08:00到T3；本人票面要求4小时则提前。23点落地后仍有入境和到校交通。",
-            "实际凌晨04:35版才采用9/3夜出发：保床短休23:30离店约00:15到T3，或退房寄包20:45离店约21:30到T3。"
-          ]
-        }
-      ]
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
+      "requiresBookingTime": false
     },
     {
       "id": "day57",
       "date": "2027-09-05",
-      "label": "已返杭州·开学前休整",
-      "title": "9月5日抵杭·返校",
-      "name": "9月5日抵杭·返校",
-      "country": "中国",
-      "countryCode": "CN",
-      "timezone": "Asia/Shanghai",
-      "city": "杭州",
-      "defaultCity": "杭州",
-      "priority": "9月5日完成入境、地面交通和返校；到浦东还需另算机场至杭州全段。",
+      "label": "棕榈岛·Marina·朱美拉→机场",
+      "title": "棕榈岛·Marina·朱美拉→机场",
+      "name": "棕榈岛·Marina·朱美拉→机场",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "city": "迪拜",
+      "defaultCity": "迪拜",
+      "priority": "保棕榈岛/海滨；单轨未恢复则不依赖，晚上回取主包赴机场",
       "status": "planned",
-      "note": "按白天参考版9/4晚到杭州、9/5凌晨完成地面返程安排恢复；若实际早班更早抵达，可多休息。最迟9/5须可靠到校。",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
         {
-          "id": "d57v2-01",
-          "time": "09:00–10:00",
-          "title": "睡醒、早餐与确认已返校",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "睡醒、早餐与确认已返校  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d57v2-02",
-          "time": "10:00–10:30",
-          "title": "整理护照、票据及加密备份",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "整理护照、票据及加密备份  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d57v2-03",
-          "time": "10:30–11:00",
-          "title": "补洗衣物与晾晒",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "补洗衣物与晾晒  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
+          "id": "d57r58-01",
+          "time": "08:00–09:30",
+          "title": "退房存主包并前往Dubai Marina",
+          "detail": "<p>青旅退房后约定当晚取包时间，主包寄存是否收费按住宿条款，不保证所有青旅免费。乘地铁赴Sobha Realty/DMCC后步行或电车接驳。</p>",
+          "plain": "退房存主包并前往Dubai Marina 青旅退房后约定当晚取包时间，主包寄存是否收费按住宿条款，不保证所有青旅免费。乘地铁赴Sobha Realty/DMCC后步行或电车接驳。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Marina%20Walk%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
+            }
+          ],
+          "place": "rev58-d57-1",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d57v2-04",
-          "time": "11:00–12:00",
-          "title": "整理教材、课程与宿舍用品",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "整理教材、课程与宿舍用品  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d57v2-05",
-          "time": "12:00–13:00",
-          "title": "学校附近午餐",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "学校附近午餐  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d57v2-06",
-          "time": "13:00–15:00",
-          "title": "午休与恢复作息",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "午休与恢复作息  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d57v2-07",
-          "time": "15:00–16:00",
-          "title": "开学事务和必要采购",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "开学事务和必要采购  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d57v2-08",
-          "time": "16:00–18:00",
-          "title": "晚餐、轻量走动与充电",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "晚餐、轻量走动与充电  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
+          "id": "d57r58-02",
+          "time": "09:30–10:30",
+          "title": "Marina与JBR海滨步道",
+          "detail": "<p>把D54跨城码头夜游移到今日同一海岸线串游，上午拍游艇港和海滨建筑。</p>",
+          "plain": "Marina与JBR海滨步道 把D54跨城码头夜游移到今日同一海岸线串游，上午拍游艇港和海滨建筑。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=JBR%20The%20Walk%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.visitdubai.com/"
+            }
+          ],
+          "place": "rev58-d57-2",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d57v2-09",
-          "time": "20:00–21:30",
-          "title": "9月6日开学准备、早睡",
-          "detail": "<p>本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。</p>",
-          "plain": "9月6日开学准备、早睡  本页是9月5日返校后的休整计划，按9月4日已抵杭安排。若改其他返程航班，最迟仍须9月5日完成到校；具体学校地址不放入公开计划。 ",
-          "links": [],
-          "place": null,
-          "highlight": true,
+          "id": "d57r58-03",
+          "time": "10:30–12:00",
+          "title": "电车赴Palm Jumeirah站、棕榈岛入口与West Beach",
+          "detail": "<p>默认电车＋步行/短程出租车接驳West Beach，不依赖棕榈单轨。运营商官网当前仍公告维护暂停，只有出发前确认恢复才改用单轨去Atlantis；未恢复时不承诺到亚特兰蒂斯。</p>",
+          "plain": "电车赴Palm Jumeirah站、棕榈岛入口与West Beach 默认电车＋步行/短程出租车接驳West Beach，不依赖棕榈单轨。运营商官网当前仍公告维护暂停，只有出发前确认恢复才改用单轨去Atlantis；未恢复时不承诺到亚特兰蒂斯。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Palm%20West%20Beach%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.palmmonorail.com/"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
+            }
+          ],
+          "place": "rev58-d57-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d57r58-04",
+          "time": "12:00–15:00",
+          "title": "午餐、商场室内逛展与超市采购",
+          "detail": "<p>选Mall of the Emirates的Carrefour一站完成午餐、空调室内活动和椰枣等采购；伴手礼预算单列自选，不因有托运额就默认买满。</p>",
+          "plain": "午餐、商场室内逛展与超市采购 选Mall of the Emirates的Carrefour一站完成午餐、空调室内活动和椰枣等采购；伴手礼预算单列自选，不因有托运额就默认买满。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Carrefour%20Mall%20of%20the%20Emirates%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.malloftheemirates.com/"
+            }
+          ],
+          "place": "rev58-d57-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d57r58-05",
+          "time": "15:00–18:45",
+          "title": "Madinat Jumeirah古堡市集与帆船酒店外观",
+          "detail": "<p>公交/短程车到古堡市集，在公共可走区域拍运河和Burj Al Arab外观；海滩机位按实际开放入口选择，不把酒店私有海滩写成免费。</p>",
+          "plain": "Madinat Jumeirah古堡市集与帆船酒店外观 公交/短程车到古堡市集，在公共可走区域拍运河和Burj Al Arab外观；海滩机位按实际开放入口选择，不把酒店私有海滩写成免费。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Souk%20Madinat%20Jumeirah%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.visitdubai.com/"
+            }
+          ],
+          "place": "rev58-d57-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d57r58-06",
+          "time": "18:45–21:30",
+          "title": "晚餐、返回青旅取50L主包",
+          "detail": "<p>先回住宿片区吃饭，21:30前取齐寄存行李、套托运保护袋。晚上不再横穿城市加景点。</p>",
+          "plain": "晚餐、返回青旅取50L主包 先回住宿片区吃饭，21:30前取齐寄存行李、套托运保护袋。晚上不再横穿城市加景点。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=BurJuman%20Metro%20Station%20Dubai"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
+            }
+          ],
+          "place": "rev58-d54-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d57r58-07",
+          "time": "21:30–23:00",
+          "title": "红线赴DXB T3，提前完成候机准备",
+          "detail": "<p>按已选青旅核定地铁上车站和去机场方向；目标22:30–23:00抵T3。D57不再加一晚酒店，按用户偏好机场跨夜候机。</p>",
+          "plain": "红线赴DXB T3，提前完成候机准备 按已选青旅核定地铁上车站和去机场方向；目标22:30–23:00抵T3。D57不再加一晚酒店，按用户偏好机场跨夜候机。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20International%20Airport%20Terminal%203%20Metro%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.rta.ae/"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/english/before-you-fly/check-in/"
+            }
+          ],
+          "place": "rev58-d54-6",
+          "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>本版按9月4日EK310参考航班当日返杭，9月5日只做休整。若改经浦东入境的票，要重排机场联络线、高铁和学校最后接驳，不能把40分钟机场线当作浦东到学校全程。</p>",
+      "extras": "",
       "places": [
-        "hgh"
+        "rev58-d57-1",
+        "rev58-d57-2",
+        "rev58-d57-3",
+        "rev58-d57-4",
+        "rev58-d57-5",
+        "rev58-d54-7",
+        "rev58-d54-6"
       ],
       "accent": "#547C68",
       "lodging": "学校/家中",
       "transportStatus": "待核 / 待订",
       "flightStatus": "待用户观察填写",
-      "scheduleBasis": "具体钟点计划；已核现行样例与购票目标分开标注，2027按实际出票更新。",
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
+      "requiresBookingTime": false
+    },
+    {
+      "id": "day58",
+      "date": "2027-09-06",
+      "label": "EK310直飞杭州·返校",
+      "title": "EK310直飞杭州·返校",
+      "name": "EK310直飞杭州·返校",
+      "country": "中国",
+      "countryCode": "CN",
+      "timezone": "Asia/Shanghai",
+      "city": "杭州",
+      "defaultCity": "杭州",
+      "priority": "已出票返杭日；9月7日开学，9月6日晚到校成立",
+      "status": "planned",
+      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
+      "rows": [
+        {
+          "id": "d58r58-01",
+          "time": "00:00–03:35",
+          "title": "DXB T3值机、托运、出境与候机",
+          "detail": "<p>在航司允许的开放窗口办理值机托运，03:35前前往登机口，严格按登机牌关闭时间执行。学生身份原件随身备查，不上传公开网站。</p>",
+          "plain": "DXB T3值机、托运、出境与候机 在航司允许的开放窗口办理值机托运，03:35前前往登机口，严格按登机牌关闭时间执行。学生身份原件随身备查，不上传公开网站。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20International%20Airport%20Terminal%203"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/english/before-you-fly/check-in/"
+            }
+          ],
+          "place": "rev58-d54-5",
+          "highlight": true,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "endTimezone": "Asia/Dubai",
+          "startTimezone": "Asia/Dubai"
+        },
+        {
+          "id": "d58r58-02",
+          "time": "03:35–04:35",
+          "title": "EK310登机",
+          "detail": "<p>航班时间按用户报告已出票确认；计划机型A350-900，航司可能调整。</p>",
+          "plain": "EK310登机 航班时间按用户报告已出票确认；计划机型A350-900，航司可能调整。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20International%20Airport%20Terminal%203"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/eg/english/"
+            }
+          ],
+          "place": "rev58-d54-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "user-confirmed-schedule",
+          "endTimezone": "Asia/Dubai",
+          "startTimezone": "Asia/Dubai"
+        },
+        {
+          "id": "d58r58-03",
+          "time": "04:35–17:05",
+          "title": "EK310 迪拜→杭州直飞",
+          "detail": "<p>使用两地当地时间；抵杭州HGH T4，按用户最新票据报告执行，不继续沿用旧稿9月4/5日返程。</p>",
+          "plain": "EK310 迪拜→杭州直飞 使用两地当地时间；抵杭州HGH T4，按用户最新票据报告执行，不继续沿用旧稿9月4/5日返程。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hangzhou%20Xiaoshan%20International%20Airport%20Terminal%204"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.emirates.com/eg/english/"
+            }
+          ],
+          "place": "rev58-d58-3",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "user-confirmed-schedule",
+          "endTimezone": "Asia/Shanghai",
+          "startTimezone": "Asia/Dubai"
+        },
+        {
+          "id": "d58r58-04",
+          "time": "17:05–18:30",
+          "title": "杭州入境、取行李与步行至地铁站",
+          "detail": "<p>预留国际到达入境、托运行李与机场步行时间，不把17:05落地当成17:05已经出航站楼。</p>",
+          "plain": "杭州入境、取行李与步行至地铁站 预留国际到达入境、托运行李与机场步行时间，不把17:05落地当成17:05已经出航站楼。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hangzhou%20Xiaoshan%20International%20Airport%20Metro%20Station"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://www.hzairport.com/"
+            }
+          ],
+          "place": "rev58-d58-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "endTimezone": "Asia/Shanghai",
+          "startTimezone": "Asia/Shanghai"
+        },
+        {
+          "id": "d58r58-05",
+          "time": "18:30–20:15",
+          "title": "19号线→创景路换5号线→杭师大仓前站",
+          "detail": "<p>机场乘19号线西行至创景路，同站换5号线姑娘桥方向，杭师大仓前站下车再步行至校门。19号线本身不直达校门。按用户最新说明9月7日开学，因此今晚返校有衔接空间；公开版隐去宿舍楼、房号与乘机人资料。</p>",
+          "plain": "19号线→创景路换5号线→杭师大仓前站 机场乘19号线西行至创景路，同站换5号线姑娘桥方向，杭师大仓前站下车再步行至校门。19号线本身不直达校门。按用户最新说明9月7日开学，因此今晚返校有衔接空间；公开版隐去宿舍楼、房号与乘机人资料。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hangzhou%20Normal%20University%20Cangqian%20Campus%20South%20Gate"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://undergrad.hznu.edu.cn/Details/20260410/110919202604100919220235.html"
+            },
+            {
+              "label": "开放时间／运营依据",
+              "url": "https://sxxy.hznu.edu.cn/upload/resources/file/2025/04/08/7878638.pdf"
+            }
+          ],
+          "place": "rev58-d58-5",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "endTimezone": "Asia/Shanghai",
+          "startTimezone": "Asia/Shanghai"
+        }
+      ],
+      "extras": "",
+      "places": [
+        "rev58-d54-5",
+        "rev58-d58-3",
+        "rev58-d58-4",
+        "rev58-d58-5"
+      ],
+      "accent": "#547C68",
+      "lodging": "学校/家中",
+      "transportStatus": "待核 / 待订",
+      "flightStatus": "待用户观察填写",
+      "scheduleBasis": "2026-11-08核查后的建议钟点；已确认航空时刻与未购交通分开",
       "requiresBookingTime": false
     }
   ],
@@ -16194,6 +16713,4406 @@ window.TRIP_DATA = {
       "coordinateAccuracy": "city-reference",
       "coordinateNote": "城市/地区参考点，非景点精确坐标",
       "coordinateSource": "计划示意用城市/地区参考点；导航目的地使用具体名称检索"
+    },
+    "rev58-d5-1": {
+      "id": "rev58-d5-1",
+      "name": "潘菲洛夫公园与升天大教堂",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Ascension Cathedral Almaty",
+      "keywords": [
+        "潘菲洛夫公园与升天大教堂",
+        "Ascension Cathedral Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d5-2": {
+      "id": "rev58-d5-2",
+      "name": "民族乐器博物馆",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Museum of Folk Musical Instruments Almaty",
+      "keywords": [
+        "民族乐器博物馆",
+        "Museum of Folk Musical Instruments Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d5-3": {
+      "id": "rev58-d5-3",
+      "name": "绿巴扎与本地小吃",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Green Bazaar Almaty",
+      "keywords": [
+        "绿巴扎与本地小吃",
+        "Green Bazaar Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d5-4": {
+      "id": "rev58-d5-4",
+      "name": "Qazpost寄明信片与午餐",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Central Post Office Almaty",
+      "keywords": [
+        "Qazpost寄明信片与午餐",
+        "Central Post Office Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d5-5": {
+      "id": "rev58-d5-5",
+      "name": "转往Samal-1国家中央博物馆",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "National Central Museum of the Republic of Kazakhstan",
+      "keywords": [
+        "转往Samal-1国家中央博物馆",
+        "National Central Museum of the Republic of Kazakhstan",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d5-7": {
+      "id": "rev58-d5-7",
+      "name": "共和国广场与独立纪念碑",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Republic Square Almaty",
+      "keywords": [
+        "共和国广场与独立纪念碑",
+        "Republic Square Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d5-8": {
+      "id": "rev58-d5-8",
+      "name": "早晚餐与Kok-Tobe缆车站",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Kok Tobe Cableway Almaty",
+      "keywords": [
+        "早晚餐与Kok-Tobe缆车站",
+        "Kok Tobe Cableway Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d5-9": {
+      "id": "rev58-d5-9",
+      "name": "Kok-Tobe天山全景与日落",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Kok Tobe Almaty",
+      "keywords": [
+        "Kok-Tobe天山全景与日落",
+        "Kok Tobe Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d6-1": {
+      "id": "rev58-d6-1",
+      "name": "早餐、补水并到峡谷团集合点",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Almaty Kazakhstan",
+      "keywords": [
+        "早餐、补水并到峡谷团集合点",
+        "Almaty Kazakhstan",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d6-2": {
+      "id": "rev58-d6-2",
+      "name": "阿拉木图出城赴恰伦",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Charyn Canyon Kazakhstan",
+      "keywords": [
+        "阿拉木图出城赴恰伦",
+        "Charyn Canyon Kazakhstan",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d6-3": {
+      "id": "rev58-d6-3",
+      "name": "城堡谷徒步与河谷观景",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Valley of Castles Charyn Canyon",
+      "keywords": [
+        "城堡谷徒步与河谷观景",
+        "Valley of Castles Charyn Canyon",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d6-5": {
+      "id": "rev58-d6-5",
+      "name": "黑峡谷观景与沿途停靠",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Black Canyon Kazakhstan",
+      "keywords": [
+        "黑峡谷观景与沿途停靠",
+        "Black Canyon Kazakhstan",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d6-7": {
+      "id": "rev58-d6-7",
+      "name": "阿尔巴特片区晚餐",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Arbat Almaty",
+      "keywords": [
+        "阿尔巴特片区晚餐",
+        "Arbat Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d6-8": {
+      "id": "rev58-d6-8",
+      "name": "阿尔巴特步行街与街头艺术",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Zhibek Zholy Almaty",
+      "keywords": [
+        "阿尔巴特步行街与街头艺术",
+        "Zhibek Zholy Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d7-1": {
+      "id": "rev58-d7-1",
+      "name": "早餐后出发赴麦迪奥",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Medeu Almaty",
+      "keywords": [
+        "早餐后出发赴麦迪奥",
+        "Medeu Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d7-2": {
+      "id": "rev58-d7-2",
+      "name": "城内公交前往Medeu",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Medeu Ice Rink Almaty",
+      "keywords": [
+        "城内公交前往Medeu",
+        "Medeu Ice Rink Almaty",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d7-3": {
+      "id": "rev58-d7-3",
+      "name": "Medeu与Shymbulak雪山观景",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Shymbulak Ski Resort",
+      "keywords": [
+        "Medeu与Shymbulak雪山观景",
+        "Shymbulak Ski Resort",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d7-7": {
+      "id": "rev58-d7-7",
+      "name": "赴阿拉木图2站与国际车票核验",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Almaty-2 Railway Station",
+      "keywords": [
+        "赴阿拉木图2站与国际车票核验",
+        "Almaty-2 Railway Station",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d7-9": {
+      "id": "rev58-d7-9",
+      "name": "跨国卧铺赴塔什干",
+      "lat": 43.2389,
+      "lng": 76.8897,
+      "city": "阿拉木图",
+      "country": "哈萨克斯坦",
+      "countryCode": "KZ",
+      "timezone": "Asia/Almaty",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Tashkent Central Railway Station",
+      "keywords": [
+        "跨国卧铺赴塔什干",
+        "Tashkent Central Railway Station",
+        "阿拉木图"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d8-3": {
+      "id": "rev58-d8-3",
+      "name": "市中心午餐",
+      "lat": 41.2995,
+      "lng": 69.2401,
+      "city": "塔什干",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Tashkent",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Tashkent Uzbekistan",
+      "keywords": [
+        "市中心午餐",
+        "Tashkent Uzbekistan",
+        "塔什干"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d8-4": {
+      "id": "rev58-d8-4",
+      "name": "乌兹别克斯坦国家历史博物馆",
+      "lat": 41.2995,
+      "lng": 69.2401,
+      "city": "塔什干",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Tashkent",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "State Museum of History of Uzbekistan",
+      "keywords": [
+        "乌兹别克斯坦国家历史博物馆",
+        "State Museum of History of Uzbekistan",
+        "塔什干"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d8-5": {
+      "id": "rev58-d8-5",
+      "name": "艺术地铁：Mustaqillik与Alisher Navoi",
+      "lat": 41.2995,
+      "lng": 69.2401,
+      "city": "塔什干",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Tashkent",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Mustaqillik Maydoni Metro Station Tashkent",
+      "keywords": [
+        "艺术地铁：Mustaqillik与Alisher Navoi",
+        "Mustaqillik Maydoni Metro Station Tashkent",
+        "塔什干"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d8-6": {
+      "id": "rev58-d8-6",
+      "name": "琼苏巴扎",
+      "lat": 41.2995,
+      "lng": 69.2401,
+      "city": "塔什干",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Tashkent",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Chorsu Bazaar Tashkent",
+      "keywords": [
+        "琼苏巴扎",
+        "Chorsu Bazaar Tashkent",
+        "塔什干"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d8-7": {
+      "id": "rev58-d8-7",
+      "name": "哈斯特伊玛目广场与建筑外观",
+      "lat": 41.2995,
+      "lng": 69.2401,
+      "city": "塔什干",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Tashkent",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hazrati Imam Complex Tashkent",
+      "keywords": [
+        "哈斯特伊玛目广场与建筑外观",
+        "Hazrati Imam Complex Tashkent",
+        "塔什干"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d8-9": {
+      "id": "rev58-d8-9",
+      "name": "帖木儿广场与百老汇步行街",
+      "lat": 41.2995,
+      "lng": 69.2401,
+      "city": "塔什干",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Tashkent",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Amir Temur Square Tashkent",
+      "keywords": [
+        "帖木儿广场与百老汇步行街",
+        "Amir Temur Square Tashkent",
+        "塔什干"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d9-2": {
+      "id": "rev58-d9-2",
+      "name": "塔什干→布哈拉铁路移动",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Bukhara-1 Railway Station",
+      "keywords": [
+        "塔什干→布哈拉铁路移动",
+        "Bukhara-1 Railway Station",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d9-3": {
+      "id": "rev58-d9-3",
+      "name": "Kagan站→布哈拉老城寄50L包",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Lyabi Hauz Bukhara",
+      "keywords": [
+        "Kagan站→布哈拉老城寄50L包",
+        "Lyabi Hauz Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d9-5": {
+      "id": "rev58-d9-5",
+      "name": "三座圆顶巴扎",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Toqi Sarrofon Bukhara",
+      "keywords": [
+        "三座圆顶巴扎",
+        "Toqi Sarrofon Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d9-6": {
+      "id": "rev58-d9-6",
+      "name": "兀鲁伯与阿卜杜拉齐兹汗经学院",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Abdulaziz Khan Madrasa Bukhara",
+      "keywords": [
+        "兀鲁伯与阿卜杜拉齐兹汗经学院",
+        "Abdulaziz Khan Madrasa Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d9-7": {
+      "id": "rev58-d9-7",
+      "name": "卡扬清真寺、宣礼塔与米尔阿拉伯",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Po-i-Kalyan Bukhara",
+      "keywords": [
+        "卡扬清真寺、宣礼塔与米尔阿拉伯",
+        "Po-i-Kalyan Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d9-8": {
+      "id": "rev58-d9-8",
+      "name": "老城晚餐",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Old Bukhara Restaurant",
+      "keywords": [
+        "老城晚餐",
+        "Old Bukhara Restaurant",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d10-1": {
+      "id": "rev58-d10-1",
+      "name": "早餐与城堡方向步行",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Ark of Bukhara",
+      "keywords": [
+        "早餐与城堡方向步行",
+        "Ark of Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d10-3": {
+      "id": "rev58-d10-3",
+      "name": "Bolo Hauz清真寺与周边",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Bolo Hauz Mosque Bukhara",
+      "keywords": [
+        "Bolo Hauz清真寺与周边",
+        "Bolo Hauz Mosque Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d10-4": {
+      "id": "rev58-d10-4",
+      "name": "萨曼王陵与Chashma Ayub",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Ismail Samani Mausoleum Bukhara",
+      "keywords": [
+        "萨曼王陵与Chashma Ayub",
+        "Ismail Samani Mausoleum Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d10-5": {
+      "id": "rev58-d10-5",
+      "name": "午餐",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Bukhara Uzbekistan",
+      "keywords": [
+        "午餐",
+        "Bukhara Uzbekistan",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d10-6": {
+      "id": "rev58-d10-6",
+      "name": "叫车往返预定：Sitorai Mokhi-Khosa",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Sitorai Mokhi Khosa Bukhara",
+      "keywords": [
+        "叫车往返预定：Sitorai Mokhi-Khosa",
+        "Sitorai Mokhi Khosa Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d10-8": {
+      "id": "rev58-d10-8",
+      "name": "返城与Chor Minor",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Chor Minor Bukhara",
+      "keywords": [
+        "返城与Chor Minor",
+        "Chor Minor Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d10-9": {
+      "id": "rev58-d10-9",
+      "name": "Magoki-Attori与晚餐",
+      "lat": 39.7681,
+      "lng": 64.4556,
+      "city": "布哈拉",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Magoki Attori Mosque Bukhara",
+      "keywords": [
+        "Magoki-Attori与晚餐",
+        "Magoki Attori Mosque Bukhara",
+        "布哈拉"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d12-1": {
+      "id": "rev58-d12-1",
+      "name": "早餐并去夏伊辛达",
+      "lat": 39.6542,
+      "lng": 66.9597,
+      "city": "撒马尔罕",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Shah-i-Zinda Samarkand",
+      "keywords": [
+        "早餐并去夏伊辛达",
+        "Shah-i-Zinda Samarkand",
+        "撒马尔罕"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d12-3": {
+      "id": "rev58-d12-3",
+      "name": "比比哈努姆与Siyob巴扎",
+      "lat": 39.6542,
+      "lng": 66.9597,
+      "city": "撒马尔罕",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Bibi-Khanym Mosque Samarkand",
+      "keywords": [
+        "比比哈努姆与Siyob巴扎",
+        "Bibi-Khanym Mosque Samarkand",
+        "撒马尔罕"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d12-4": {
+      "id": "rev58-d12-4",
+      "name": "撒马尔罕抓饭午餐",
+      "lat": 39.6542,
+      "lng": 66.9597,
+      "city": "撒马尔罕",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Samarkand Uzbekistan",
+      "keywords": [
+        "撒马尔罕抓饭午餐",
+        "Samarkand Uzbekistan",
+        "撒马尔罕"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d12-5": {
+      "id": "rev58-d12-5",
+      "name": "阿夫拉西阿卜博物馆",
+      "lat": 39.6542,
+      "lng": 66.9597,
+      "city": "撒马尔罕",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Afrasiab Museum Samarkand",
+      "keywords": [
+        "阿夫拉西阿卜博物馆",
+        "Afrasiab Museum Samarkand",
+        "撒马尔罕"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d12-6": {
+      "id": "rev58-d12-6",
+      "name": "但以理墓与返城接驳",
+      "lat": 39.6542,
+      "lng": 66.9597,
+      "city": "撒马尔罕",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Khodja Daniyar Mausoleum Samarkand",
+      "keywords": [
+        "但以理墓与返城接驳",
+        "Khodja Daniyar Mausoleum Samarkand",
+        "撒马尔罕"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d12-7": {
+      "id": "rev58-d12-7",
+      "name": "中央邮局寄卡与经学院补遗",
+      "lat": 39.6542,
+      "lng": 66.9597,
+      "city": "撒马尔罕",
+      "country": "乌兹别克斯坦",
+      "countryCode": "UZ",
+      "timezone": "Asia/Samarkand",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Registan Samarkand",
+      "keywords": [
+        "中央邮局寄卡与经学院补遗",
+        "Registan Samarkand",
+        "撒马尔罕"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-1": {
+      "id": "rev58-d17-1",
+      "name": "巴库卧铺抵第比利斯",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Tbilisi Central Railway Station",
+      "keywords": [
+        "巴库卧铺抵第比利斯",
+        "Tbilisi Central Railway Station",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-2": {
+      "id": "rev58-d17-2",
+      "name": "青旅寄存与冲澡早餐",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Tbilisi Georgia",
+      "keywords": [
+        "青旅寄存与冲澡早餐",
+        "Tbilisi Georgia",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-3": {
+      "id": "rev58-d17-3",
+      "name": "旱桥旧货市场",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dry Bridge Market Tbilisi",
+      "keywords": [
+        "旱桥旧货市场",
+        "Dry Bridge Market Tbilisi",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-4": {
+      "id": "rev58-d17-4",
+      "name": "罗斯塔韦利邮局寄明信片",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Georgian Post Rustaveli Avenue Tbilisi",
+      "keywords": [
+        "罗斯塔韦利邮局寄明信片",
+        "Georgian Post Rustaveli Avenue Tbilisi",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-5": {
+      "id": "rev58-d17-5",
+      "name": "格鲁吉亚国家博物馆",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Georgian National Museum Tbilisi",
+      "keywords": [
+        "格鲁吉亚国家博物馆",
+        "Georgian National Museum Tbilisi",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-7": {
+      "id": "rev58-d17-7",
+      "name": "圣三一大教堂",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Holy Trinity Cathedral Tbilisi",
+      "keywords": [
+        "圣三一大教堂",
+        "Holy Trinity Cathedral Tbilisi",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-8": {
+      "id": "rev58-d17-8",
+      "name": "梅特希→和平桥→浴场与瀑布",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Abanotubani Tbilisi",
+      "keywords": [
+        "梅特希→和平桥→浴场与瀑布",
+        "Abanotubani Tbilisi",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d17-10": {
+      "id": "rev58-d17-10",
+      "name": "Rike缆车与格鲁吉亚母亲像日落",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "city": "第比利斯",
+      "country": "格鲁吉亚",
+      "countryCode": "GE",
+      "timezone": "Asia/Tbilisi",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Rike Narikala Cable Car Tbilisi",
+      "keywords": [
+        "Rike缆车与格鲁吉亚母亲像日落",
+        "Rike Narikala Cable Car Tbilisi",
+        "第比利斯"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d23-1": {
+      "id": "rev58-d23-1",
+      "name": "格雷梅日出热气球地面摄影",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "city": "格雷梅",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Sunrise Point Goreme",
+      "keywords": [
+        "格雷梅日出热气球地面摄影",
+        "Sunrise Point Goreme",
+        "格雷梅"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d23-2": {
+      "id": "rev58-d23-2",
+      "name": "早餐与赴露天博物馆",
+      "lat": 38.6407,
+      "lng": 34.8455,
+      "city": "格雷梅",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Goreme Open Air Museum",
+      "keywords": [
+        "早餐与赴露天博物馆",
+        "Goreme Open Air Museum",
+        "格雷梅"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d23-4": {
+      "id": "rev58-d23-4",
+      "name": "格雷梅午餐",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "city": "格雷梅",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Goreme Turkey",
+      "keywords": [
+        "格雷梅午餐",
+        "Goreme Turkey",
+        "格雷梅"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d23-5": {
+      "id": "rev58-d23-5",
+      "name": "小巴去阿瓦诺斯",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "city": "格雷梅",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Avanos Turkey",
+      "keywords": [
+        "小巴去阿瓦诺斯",
+        "Avanos Turkey",
+        "格雷梅"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d23-6": {
+      "id": "rev58-d23-6",
+      "name": "阿瓦诺斯陶瓷工坊与克孜勒河",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "city": "格雷梅",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Avanos Pottery Workshop",
+      "keywords": [
+        "阿瓦诺斯陶瓷工坊与克孜勒河",
+        "Avanos Pottery Workshop",
+        "格雷梅"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d23-7": {
+      "id": "rev58-d23-7",
+      "name": "Paşabağ仙人烟囱谷",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "city": "格雷梅",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Pasabag Monks Valley",
+      "keywords": [
+        "Paşabağ仙人烟囱谷",
+        "Pasabag Monks Valley",
+        "格雷梅"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d23-9": {
+      "id": "rev58-d23-9",
+      "name": "红谷与玫瑰谷一条连续短线",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "city": "格雷梅",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Red Valley Cappadocia",
+      "keywords": [
+        "红谷与玫瑰谷一条连续短线",
+        "Red Valley Cappadocia",
+        "格雷梅"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-1": {
+      "id": "rev58-d25-1",
+      "name": "夜巴抵安塔利亚、寄包早餐",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Antalya Otogar",
+      "keywords": [
+        "夜巴抵安塔利亚、寄包早餐",
+        "Antalya Otogar",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-2": {
+      "id": "rev58-d25-2",
+      "name": "哈德良门、钟楼与卡莱伊奇老城",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hadrian Gate Antalya",
+      "keywords": [
+        "哈德良门、钟楼与卡莱伊奇老城",
+        "Hadrian Gate Antalya",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-3": {
+      "id": "rev58-d25-3",
+      "name": "罗马旧港与海崖观景",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Old City Marina Antalya",
+      "keywords": [
+        "罗马旧港与海崖观景",
+        "Old City Marina Antalya",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-4": {
+      "id": "rev58-d25-4",
+      "name": "老城午餐",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Kaleici Antalya",
+      "keywords": [
+        "老城午餐",
+        "Kaleici Antalya",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-5": {
+      "id": "rev58-d25-5",
+      "name": "Suna–Inan Kirac老城博物馆",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Suna Inan Kirac Kaleici Museum",
+      "keywords": [
+        "Suna–Inan Kirac老城博物馆",
+        "Suna Inan Kirac Kaleici Museum",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-6": {
+      "id": "rev58-d25-6",
+      "name": "安塔利亚Nekropol博物馆",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Antalya Nekropol Museum",
+      "keywords": [
+        "安塔利亚Nekropol博物馆",
+        "Antalya Nekropol Museum",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-7": {
+      "id": "rev58-d25-7",
+      "name": "市内交通赴下杜登瀑布",
+      "lat": 36.8508,
+      "lng": 30.7835,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Lower Duden Waterfalls Antalya",
+      "keywords": [
+        "市内交通赴下杜登瀑布",
+        "Lower Duden Waterfalls Antalya",
+        "安塔利亚"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d25-9": {
+      "id": "rev58-d25-9",
+      "name": "Lara方向晚餐",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Lara Antalya",
+      "keywords": [
+        "Lara方向晚餐",
+        "Lara Antalya",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d25-10": {
+      "id": "rev58-d25-10",
+      "name": "Lara海岸日落与返老城",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "city": "安塔利亚",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Lara Beach Antalya",
+      "keywords": [
+        "Lara海岸日落与返老城",
+        "Lara Beach Antalya",
+        "安塔利亚"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d26-2": {
+      "id": "rev58-d26-2",
+      "name": "T1B至Aksu再短接驳佩尔盖",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "Kaş",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Perge Ancient City Antalya",
+      "keywords": [
+        "T1B至Aksu再短接驳佩尔盖",
+        "Perge Ancient City Antalya",
+        "Kaş"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d26-7": {
+      "id": "rev58-d26-7",
+      "name": "安塔利亚→Kaş D400海岸线",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "Kaş",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Kas Antalya Turkey",
+      "keywords": [
+        "安塔利亚→Kaş D400海岸线",
+        "Kas Antalya Turkey",
+        "Kaş"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d26-8": {
+      "id": "rev58-d26-8",
+      "name": "Kaş入住与晚餐",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "Kaş",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Kas Turkey",
+      "keywords": [
+        "Kaş入住与晚餐",
+        "Kas Turkey",
+        "Kaş"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d26-9": {
+      "id": "rev58-d26-9",
+      "name": "Antiphellos古剧场与港口日落",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "Kaş",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Antiphellos Ancient Theatre Kas",
+      "keywords": [
+        "Antiphellos古剧场与港口日落",
+        "Antiphellos Ancient Theatre Kas",
+        "Kaş"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-1": {
+      "id": "rev58-d29-1",
+      "name": "夜巴抵伊斯坦布尔与进老城",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Esenler Bus Station Istanbul",
+      "keywords": [
+        "夜巴抵伊斯坦布尔与进老城",
+        "Esenler Bus Station Istanbul",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-2": {
+      "id": "rev58-d29-2",
+      "name": "青旅寄包冲澡与早餐",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Sultanahmet Istanbul",
+      "keywords": [
+        "青旅寄包冲澡与早餐",
+        "Sultanahmet Istanbul",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-3": {
+      "id": "rev58-d29-3",
+      "name": "地下水宫",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Basilica Cistern Istanbul",
+      "keywords": [
+        "地下水宫",
+        "Basilica Cistern Istanbul",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-4": {
+      "id": "rev58-d29-4",
+      "name": "圣索菲亚外观与苏丹艾哈迈德广场",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hagia Sophia Istanbul",
+      "keywords": [
+        "圣索菲亚外观与苏丹艾哈迈德广场",
+        "Hagia Sophia Istanbul",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-6": {
+      "id": "rev58-d29-6",
+      "name": "伊斯坦布尔考古博物馆",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Istanbul Archaeological Museums",
+      "keywords": [
+        "伊斯坦布尔考古博物馆",
+        "Istanbul Archaeological Museums",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-7": {
+      "id": "rev58-d29-7",
+      "name": "居尔哈尼公园→埃米诺努",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Gulhane Park Istanbul",
+      "keywords": [
+        "居尔哈尼公园→埃米诺努",
+        "Gulhane Park Istanbul",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-8": {
+      "id": "rev58-d29-8",
+      "name": "Sirkeci或Karakoy晚餐",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Karakoy Istanbul",
+      "keywords": [
+        "Sirkeci或Karakoy晚餐",
+        "Karakoy Istanbul",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d29-9": {
+      "id": "rev58-d29-9",
+      "name": "加拉塔大桥与加拉塔街区日落",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "city": "伊斯坦布尔",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Galata Bridge Istanbul",
+      "keywords": [
+        "加拉塔大桥与加拉塔街区日落",
+        "Galata Bridge Istanbul",
+        "伊斯坦布尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d36-1": {
+      "id": "rev58-d36-1",
+      "name": "早餐与萨拉热窝站候车",
+      "lat": 43.3438,
+      "lng": 17.8078,
+      "city": "莫斯塔尔",
+      "country": "波黑",
+      "countryCode": "BA",
+      "timezone": "Europe/Sarajevo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Sarajevo Railway Station",
+      "keywords": [
+        "早餐与萨拉热窝站候车",
+        "Sarajevo Railway Station",
+        "莫斯塔尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d36-2": {
+      "id": "rev58-d36-2",
+      "name": "Neretva风景铁路赴莫斯塔尔",
+      "lat": 43.3438,
+      "lng": 17.8078,
+      "city": "莫斯塔尔",
+      "country": "波黑",
+      "countryCode": "BA",
+      "timezone": "Europe/Sarajevo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Mostar Railway Station",
+      "keywords": [
+        "Neretva风景铁路赴莫斯塔尔",
+        "Mostar Railway Station",
+        "莫斯塔尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d36-3": {
+      "id": "rev58-d36-3",
+      "name": "古桥、铜匠街与老城",
+      "lat": 43.3438,
+      "lng": 17.8078,
+      "city": "莫斯塔尔",
+      "country": "波黑",
+      "countryCode": "BA",
+      "timezone": "Europe/Sarajevo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Stari Most Mostar",
+      "keywords": [
+        "古桥、铜匠街与老城",
+        "Stari Most Mostar",
+        "莫斯塔尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d36-4": {
+      "id": "rev58-d36-4",
+      "name": "Koski Mehmed Pasha清真寺与塔顶",
+      "lat": 43.3438,
+      "lng": 17.8078,
+      "city": "莫斯塔尔",
+      "country": "波黑",
+      "countryCode": "BA",
+      "timezone": "Europe/Sarajevo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Koski Mehmed Pasha Mosque Mostar",
+      "keywords": [
+        "Koski Mehmed Pasha清真寺与塔顶",
+        "Koski Mehmed Pasha Mosque Mostar",
+        "莫斯塔尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d36-5": {
+      "id": "rev58-d36-5",
+      "name": "Tima–Irma或古桥片区午餐",
+      "lat": 43.3438,
+      "lng": 17.8078,
+      "city": "莫斯塔尔",
+      "country": "波黑",
+      "countryCode": "BA",
+      "timezone": "Europe/Sarajevo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Tima Irma Mostar",
+      "keywords": [
+        "Tima–Irma或古桥片区午餐",
+        "Tima Irma Mostar",
+        "莫斯塔尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d36-6": {
+      "id": "rev58-d36-6",
+      "name": "拼出租/预定接送去Blagaj",
+      "lat": 43.3438,
+      "lng": 17.8078,
+      "city": "莫斯塔尔",
+      "country": "波黑",
+      "countryCode": "BA",
+      "timezone": "Europe/Sarajevo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Blagaj Tekke",
+      "keywords": [
+        "拼出租/预定接送去Blagaj",
+        "Blagaj Tekke",
+        "莫斯塔尔"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-1": {
+      "id": "rev58-d41-1",
+      "name": "早餐与当日航班检查",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Belgrade Republic Square",
+      "keywords": [
+        "早餐与当日航班检查",
+        "Belgrade Republic Square",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-2": {
+      "id": "rev58-d41-2",
+      "name": "米哈伊洛大公街与共和国广场",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Knez Mihailova Belgrade",
+      "keywords": [
+        "米哈伊洛大公街与共和国广场",
+        "Knez Mihailova Belgrade",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-3": {
+      "id": "rev58-d41-3",
+      "name": "卡莱梅格丹补拍或街区咖啡",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Kalemegdan Belgrade",
+      "keywords": [
+        "卡莱梅格丹补拍或街区咖啡",
+        "Kalemegdan Belgrade",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-4": {
+      "id": "rev58-d41-4",
+      "name": "问号酒馆传统午餐",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Question Mark Kafana Belgrade",
+      "keywords": [
+        "问号酒馆传统午餐",
+        "Question Mark Kafana Belgrade",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-5": {
+      "id": "rev58-d41-5",
+      "name": "回住宿取50L主包",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Belgrade city centre",
+      "keywords": [
+        "回住宿取50L主包",
+        "Belgrade city centre",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-6": {
+      "id": "rev58-d41-6",
+      "name": "市中心前往BEG机场",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Belgrade Nikola Tesla Airport",
+      "keywords": [
+        "市中心前往BEG机场",
+        "Belgrade Nikola Tesla Airport",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-7": {
+      "id": "rev58-d41-7",
+      "name": "两段联程值机、托运与出境",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Belgrade Nikola Tesla Airport Terminal 2",
+      "keywords": [
+        "两段联程值机、托运与出境",
+        "Belgrade Nikola Tesla Airport Terminal 2",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-8": {
+      "id": "rev58-d41-8",
+      "name": "飞马BEG→SAW",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Sabiha Gokcen International Airport",
+      "keywords": [
+        "飞马BEG→SAW",
+        "Sabiha Gokcen International Airport",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d41-10": {
+      "id": "rev58-d41-10",
+      "name": "飞马SAW→HRG跨午夜飞行",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hurghada International Airport",
+      "keywords": [
+        "飞马SAW→HRG跨午夜飞行",
+        "Hurghada International Airport",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d42-2": {
+      "id": "rev58-d42-2",
+      "name": "早餐、埃及SIM与当日出门",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hurghada",
+      "keywords": [
+        "早餐、埃及SIM与当日出门",
+        "Hurghada",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d42-3": {
+      "id": "rev58-d42-3",
+      "name": "前往赫尔格达博物馆",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hurghada Museum",
+      "keywords": [
+        "前往赫尔格达博物馆",
+        "Hurghada Museum",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d42-5": {
+      "id": "rev58-d42-5",
+      "name": "午餐与补水",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Senzo Mall Hurghada",
+      "keywords": [
+        "午餐与补水",
+        "Senzo Mall Hurghada",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d42-7": {
+      "id": "rev58-d42-7",
+      "name": "南部片区返回码头一带",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hurghada Marina",
+      "keywords": [
+        "南部片区返回码头一带",
+        "Hurghada Marina",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d42-8": {
+      "id": "rev58-d42-8",
+      "name": "El Mina清真寺与鱼市场",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Mina Mosque Hurghada",
+      "keywords": [
+        "El Mina清真寺与鱼市场",
+        "Al Mina Mosque Hurghada",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d42-9": {
+      "id": "rev58-d42-9",
+      "name": "El Dahar老城与市场",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "city": "赫尔格达",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "El Dahar Hurghada",
+      "keywords": [
+        "El Dahar老城与市场",
+        "El Dahar Hurghada",
+        "赫尔格达"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-1": {
+      "id": "rev58-d44-1",
+      "name": "早餐、退房与前往大巴上车点",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Go Bus Hurghada",
+      "keywords": [
+        "早餐、退房与前往大巴上车点",
+        "Go Bus Hurghada",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-2": {
+      "id": "rev58-d44-2",
+      "name": "赫尔格达→卢克索",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Luxor Go Bus Station",
+      "keywords": [
+        "赫尔格达→卢克索",
+        "Luxor Go Bus Station",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-3": {
+      "id": "rev58-d44-3",
+      "name": "青旅寄存、洗漱与入住手续",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Luxor",
+      "keywords": [
+        "青旅寄存、洗漱与入住手续",
+        "Luxor",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-4": {
+      "id": "rev58-d44-4",
+      "name": "Al Sahaby Lane午餐",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Sahaby Lane Luxor",
+      "keywords": [
+        "Al Sahaby Lane午餐",
+        "Al Sahaby Lane Luxor",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-5": {
+      "id": "rev58-d44-5",
+      "name": "卢克索老巴扎与阿布哈加格街区",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Abu Haggag Mosque Luxor",
+      "keywords": [
+        "卢克索老巴扎与阿布哈加格街区",
+        "Abu Haggag Mosque Luxor",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-6": {
+      "id": "rev58-d44-6",
+      "name": "尼罗河滨河线与次日拼车确认",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Luxor Corniche",
+      "keywords": [
+        "尼罗河滨河线与次日拼车确认",
+        "Luxor Corniche",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-7": {
+      "id": "rev58-d44-7",
+      "name": "前往卢克索博物馆",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Luxor Museum",
+      "keywords": [
+        "前往卢克索博物馆",
+        "Luxor Museum",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-9": {
+      "id": "rev58-d44-9",
+      "name": "步行到木乃伊博物馆并参观",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Mummification Museum Luxor",
+      "keywords": [
+        "步行到木乃伊博物馆并参观",
+        "Mummification Museum Luxor",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d44-10": {
+      "id": "rev58-d44-10",
+      "name": "卢克索神庙亮灯夜景",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Luxor Temple",
+      "keywords": [
+        "卢克索神庙亮灯夜景",
+        "Luxor Temple",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d45-2": {
+      "id": "rev58-d45-2",
+      "name": "前往帝王谷",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Valley of the Kings Luxor",
+      "keywords": [
+        "前往帝王谷",
+        "Valley of the Kings Luxor",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d45-4": {
+      "id": "rev58-d45-4",
+      "name": "哈特谢普苏特女王庙",
+      "lat": 25.7381,
+      "lng": 32.6066,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Mortuary Temple of Hatshepsut",
+      "keywords": [
+        "哈特谢普苏特女王庙",
+        "Mortuary Temple of Hatshepsut",
+        "卢克索"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d45-5": {
+      "id": "rev58-d45-5",
+      "name": "工匠村与墓室",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Deir el-Medina",
+      "keywords": [
+        "工匠村与墓室",
+        "Deir el-Medina",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d45-6": {
+      "id": "rev58-d45-6",
+      "name": "哈布城拉美西斯三世神庙",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Medinet Habu",
+      "keywords": [
+        "哈布城拉美西斯三世神庙",
+        "Medinet Habu",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d45-7": {
+      "id": "rev58-d45-7",
+      "name": "门农巨像",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Colossi of Memnon",
+      "keywords": [
+        "门农巨像",
+        "Colossi of Memnon",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d45-8": {
+      "id": "rev58-d45-8",
+      "name": "西岸午餐",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Luxor West Bank",
+      "keywords": [
+        "西岸午餐",
+        "Luxor West Bank",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d45-9": {
+      "id": "rev58-d45-9",
+      "name": "西岸村落与尼罗河沿岸摄影",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Bairat Luxor",
+      "keywords": [
+        "西岸村落与尼罗河沿岸摄影",
+        "Al Bairat Luxor",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d45-10": {
+      "id": "rev58-d45-10",
+      "name": "尼罗河Felucca帆船",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "city": "卢克索",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Luxor Nile felucca",
+      "keywords": [
+        "尼罗河Felucca帆船",
+        "Luxor Nile felucca",
+        "卢克索"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d47-1": {
+      "id": "rev58-d47-1",
+      "name": "早餐与阿布辛贝正规拼车接人",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Aswan",
+      "keywords": [
+        "早餐与阿布辛贝正规拼车接人",
+        "Aswan",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d47-2": {
+      "id": "rev58-d47-2",
+      "name": "阿斯旺→阿布辛贝",
+      "lat": 22.3372,
+      "lng": 31.6258,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Abu Simbel Temples",
+      "keywords": [
+        "阿斯旺→阿布辛贝",
+        "Abu Simbel Temples",
+        "阿斯旺"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d47-6": {
+      "id": "rev58-d47-6",
+      "name": "努比亚博物馆",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Nubian Museum Aswan",
+      "keywords": [
+        "努比亚博物馆",
+        "Nubian Museum Aswan",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d47-7": {
+      "id": "rev58-d47-7",
+      "name": "滨河码头与公共渡轮",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Elephantine Island ferry Aswan",
+      "keywords": [
+        "滨河码头与公共渡轮",
+        "Elephantine Island ferry Aswan",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d47-8": {
+      "id": "rev58-d47-8",
+      "name": "象岛社区与尼罗河摄影",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Elephantine Island Aswan",
+      "keywords": [
+        "象岛社区与尼罗河摄影",
+        "Elephantine Island Aswan",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d47-9": {
+      "id": "rev58-d47-9",
+      "name": "渡轮返回东岸",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Aswan Corniche",
+      "keywords": [
+        "渡轮返回东岸",
+        "Aswan Corniche",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d47-10": {
+      "id": "rev58-d47-10",
+      "name": "阿斯旺晚餐与市集",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Aswan Souk",
+      "keywords": [
+        "阿斯旺晚餐与市集",
+        "Aswan Souk",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d48-2": {
+      "id": "rev58-d48-2",
+      "name": "前往菲莱登船码头",
+      "lat": 24.0258,
+      "lng": 32.8842,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Philae Temple Marina Aswan",
+      "keywords": [
+        "前往菲莱登船码头",
+        "Philae Temple Marina Aswan",
+        "阿斯旺"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d48-3": {
+      "id": "rev58-d48-3",
+      "name": "菲莱神庙船游与参观",
+      "lat": 24.0258,
+      "lng": 32.8842,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Philae Temple",
+      "keywords": [
+        "菲莱神庙船游与参观",
+        "Philae Temple",
+        "阿斯旺"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d48-4": {
+      "id": "rev58-d48-4",
+      "name": "阿斯旺高坝",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Aswan High Dam",
+      "keywords": [
+        "阿斯旺高坝",
+        "Aswan High Dam",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d48-5": {
+      "id": "rev58-d48-5",
+      "name": "未完成的方尖碑",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Unfinished Obelisk Aswan",
+      "keywords": [
+        "未完成的方尖碑",
+        "Unfinished Obelisk Aswan",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d48-8": {
+      "id": "rev58-d48-8",
+      "name": "植物园岛轻装游览",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Aswan Botanical Garden",
+      "keywords": [
+        "植物园岛轻装游览",
+        "Aswan Botanical Garden",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d48-10": {
+      "id": "rev58-d48-10",
+      "name": "前往正式夜车上车点",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "city": "阿斯旺",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Aswan Railway Station",
+      "keywords": [
+        "前往正式夜车上车点",
+        "Aswan Railway Station",
+        "阿斯旺"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d48-11": {
+      "id": "rev58-d48-11",
+      "name": "阿斯旺→开罗夜间交通",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Cairo Ramses Railway Station",
+      "keywords": [
+        "阿斯旺→开罗夜间交通",
+        "Cairo Ramses Railway Station",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-1": {
+      "id": "rev58-d49-1",
+      "name": "抵开罗、寄存50L与洗漱",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Downtown Cairo",
+      "keywords": [
+        "抵开罗、寄存50L与洗漱",
+        "Downtown Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-2": {
+      "id": "rev58-d49-2",
+      "name": "解放广场老埃及博物馆",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Egyptian Museum Tahrir Cairo",
+      "keywords": [
+        "解放广场老埃及博物馆",
+        "Egyptian Museum Tahrir Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-3": {
+      "id": "rev58-d49-3",
+      "name": "解放广场附近午餐",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Tahrir Square Cairo",
+      "keywords": [
+        "解放广场附近午餐",
+        "Tahrir Square Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-4": {
+      "id": "rev58-d49-4",
+      "name": "乘车前往萨拉丁城堡",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Cairo Citadel",
+      "keywords": [
+        "乘车前往萨拉丁城堡",
+        "Cairo Citadel",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-5": {
+      "id": "rev58-d49-5",
+      "name": "萨拉丁城堡与穆罕默德阿里清真寺",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Mosque of Muhammad Ali Cairo",
+      "keywords": [
+        "萨拉丁城堡与穆罕默德阿里清真寺",
+        "Mosque of Muhammad Ali Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-6": {
+      "id": "rev58-d49-6",
+      "name": "苏丹哈桑与里法伊双清真寺",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Mosque Madrassa of Sultan Hassan Cairo",
+      "keywords": [
+        "苏丹哈桑与里法伊双清真寺",
+        "Mosque Madrassa of Sultan Hassan Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-7": {
+      "id": "rev58-d49-7",
+      "name": "伊本图伦清真寺",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Mosque of Ibn Tulun Cairo",
+      "keywords": [
+        "伊本图伦清真寺",
+        "Mosque of Ibn Tulun Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-8": {
+      "id": "rev58-d49-8",
+      "name": "穆卡塔姆圣西蒙洞穴教堂",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Saint Simon the Tanner Monastery Cairo",
+      "keywords": [
+        "穆卡塔姆圣西蒙洞穴教堂",
+        "Saint Simon the Tanner Monastery Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-9": {
+      "id": "rev58-d49-9",
+      "name": "爱资哈尔公园日落",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Azhar Park Cairo",
+      "keywords": [
+        "爱资哈尔公园日落",
+        "Al Azhar Park Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-10": {
+      "id": "rev58-d49-10",
+      "name": "穆伊兹街与哈利利市场",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Muizz Street Cairo",
+      "keywords": [
+        "穆伊兹街与哈利利市场",
+        "Al Muizz Street Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d49-11": {
+      "id": "rev58-d49-11",
+      "name": "老城晚餐并返宿",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Khan el Khalili Cairo",
+      "keywords": [
+        "老城晚餐并返宿",
+        "Khan el Khalili Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d50-1": {
+      "id": "rev58-d50-1",
+      "name": "早餐、带水与学生证件",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Giza",
+      "keywords": [
+        "早餐、带水与学生证件",
+        "Giza",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d50-2": {
+      "id": "rev58-d50-2",
+      "name": "前往吉萨高原正式入口",
+      "lat": 29.9792,
+      "lng": 31.1342,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Giza Pyramids Ticket Office",
+      "keywords": [
+        "前往吉萨高原正式入口",
+        "Giza Pyramids Ticket Office",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d50-3": {
+      "id": "rev58-d50-3",
+      "name": "吉萨三大金字塔",
+      "lat": 29.9792,
+      "lng": 31.1342,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Great Pyramid of Giza",
+      "keywords": [
+        "吉萨三大金字塔",
+        "Great Pyramid of Giza",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d50-4": {
+      "id": "rev58-d50-4",
+      "name": "全景观景点",
+      "lat": 29.9792,
+      "lng": 31.1342,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Giza Pyramids Panorama View",
+      "keywords": [
+        "全景观景点",
+        "Giza Pyramids Panorama View",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d50-5": {
+      "id": "rev58-d50-5",
+      "name": "狮身人面像与出景区",
+      "lat": 29.9753,
+      "lng": 31.1376,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Great Sphinx of Giza",
+      "keywords": [
+        "狮身人面像与出景区",
+        "Great Sphinx of Giza",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d50-7": {
+      "id": "rev58-d50-7",
+      "name": "吉萨入口区→GEM入口与安检",
+      "lat": 29.9937,
+      "lng": 31.1199,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Grand Egyptian Museum Entrance",
+      "keywords": [
+        "吉萨入口区→GEM入口与安检",
+        "Grand Egyptian Museum Entrance",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d50-8": {
+      "id": "rev58-d50-8",
+      "name": "GEM主展厅与大阶梯",
+      "lat": 29.9937,
+      "lng": 31.1199,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Grand Egyptian Museum",
+      "keywords": [
+        "GEM主展厅与大阶梯",
+        "Grand Egyptian Museum",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d51-1": {
+      "id": "rev58-d51-1",
+      "name": "退房寄存50L并赴拉美西斯站",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Ramses Railway Station Cairo",
+      "keywords": [
+        "退房寄存50L并赴拉美西斯站",
+        "Ramses Railway Station Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d51-2": {
+      "id": "rev58-d51-2",
+      "name": "开罗→亚历山大早班铁路",
+      "lat": 31.1929,
+      "lng": 29.9055,
+      "city": "亚历山大",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Alexandria Misr Railway Station",
+      "keywords": [
+        "开罗→亚历山大早班铁路",
+        "Alexandria Misr Railway Station",
+        "亚历山大"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Alexandria_railway_station_(Egypt)"
+    },
+    "rev58-d51-3": {
+      "id": "rev58-d51-3",
+      "name": "车站→孔苏佳法地下墓穴",
+      "lat": 31.178558,
+      "lng": 29.892954,
+      "city": "亚历山大",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Catacombs of Kom el Shoqafa Alexandria",
+      "keywords": [
+        "车站→孔苏佳法地下墓穴",
+        "Catacombs of Kom el Shoqafa Alexandria",
+        "亚历山大"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Catacombs_of_Kom_El_Shoqafa"
+    },
+    "rev58-d51-5": {
+      "id": "rev58-d51-5",
+      "name": "庞培柱与塞拉皮斯神庙遗址",
+      "lat": 31.1825,
+      "lng": 29.896417,
+      "city": "亚历山大",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Pompey's Pillar Alexandria",
+      "keywords": [
+        "庞培柱与塞拉皮斯神庙遗址",
+        "Pompey's Pillar Alexandria",
+        "亚历山大"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Pompey%27s_Pillar"
+    },
+    "rev58-d51-6": {
+      "id": "rev58-d51-6",
+      "name": "前往海滨与午餐",
+      "lat": 31.20889,
+      "lng": 29.90917,
+      "city": "亚历山大",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Bibliotheca Alexandrina",
+      "keywords": [
+        "前往海滨与午餐",
+        "Bibliotheca Alexandrina",
+        "亚历山大"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Bibliotheca_Alexandrina"
+    },
+    "rev58-d51-8": {
+      "id": "rev58-d51-8",
+      "name": "奎特贝城堡与海滨",
+      "lat": 31.213,
+      "lng": 29.8852,
+      "city": "亚历山大",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Citadel of Qaitbay Alexandria",
+      "keywords": [
+        "奎特贝城堡与海滨",
+        "Citadel of Qaitbay Alexandria",
+        "亚历山大"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Citadel_of_Qaitbay"
+    },
+    "rev58-d51-9": {
+      "id": "rev58-d51-9",
+      "name": "前往正式马特鲁大巴站并简餐",
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "city": "亚历山大",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Moharam Bek Bus Station Alexandria",
+      "keywords": [
+        "前往正式马特鲁大巴站并简餐",
+        "Moharam Bek Bus Station Alexandria",
+        "亚历山大"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d51-10": {
+      "id": "rev58-d51-10",
+      "name": "亚历山大→马特鲁",
+      "lat": 31.3543,
+      "lng": 27.2373,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Marsa Matrouh Bus Station",
+      "keywords": [
+        "亚历山大→马特鲁",
+        "Marsa Matrouh Bus Station",
+        "马特鲁"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d51-11": {
+      "id": "rev58-d51-11",
+      "name": "马特鲁入住与次晨车辆确认",
+      "lat": 31.3543,
+      "lng": 27.2373,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Marsa Matrouh",
+      "keywords": [
+        "马特鲁入住与次晨车辆确认",
+        "Marsa Matrouh",
+        "马特鲁"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d52-2": {
+      "id": "rev58-d52-2",
+      "name": "艳后浴池与海蚀岩岸",
+      "lat": 31.3738114,
+      "lng": 27.1906029,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Cleopatra's Bath Marsa Matrouh",
+      "keywords": [
+        "艳后浴池与海蚀岩岸",
+        "Cleopatra's Bath Marsa Matrouh",
+        "马特鲁"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://www.openstreetmap.org/node/2283167271"
+    },
+    "rev58-d52-3": {
+      "id": "rev58-d52-3",
+      "name": "沿西海岸前往阿吉巴",
+      "lat": 31.4142856,
+      "lng": 27.0062352,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Agiba Beach Marsa Matrouh",
+      "keywords": [
+        "沿西海岸前往阿吉巴",
+        "Agiba Beach Marsa Matrouh",
+        "马特鲁"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://www.openstreetmap.org/relation/8858338"
+    },
+    "rev58-d52-4": {
+      "id": "rev58-d52-4",
+      "name": "阿吉巴悬崖海滩",
+      "lat": 31.4142856,
+      "lng": 27.0062352,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "地标/海滩区域参考，实际入口打开名称导航。",
+      "query": "Agiba Beach",
+      "keywords": [
+        "阿吉巴悬崖海滩",
+        "Agiba Beach",
+        "马特鲁"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标或海滩区域参考，不是精确入口",
+      "coordinateSource": "https://www.openstreetmap.org/relation/8858338"
+    },
+    "rev58-d52-5": {
+      "id": "rev58-d52-5",
+      "name": "阿吉巴→奥拜德白沙滩",
+      "lat": 31.3543,
+      "lng": 27.2373,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Obayed Beach Marsa Matrouh",
+      "keywords": [
+        "阿吉巴→奥拜德白沙滩",
+        "Al Obayed Beach Marsa Matrouh",
+        "马特鲁"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d52-6": {
+      "id": "rev58-d52-6",
+      "name": "奥拜德白沙滩",
+      "lat": 31.3543,
+      "lng": 27.2373,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Obayed Beach",
+      "keywords": [
+        "奥拜德白沙滩",
+        "Al Obayed Beach",
+        "马特鲁"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d52-8": {
+      "id": "rev58-d52-8",
+      "name": "海鲜午餐",
+      "lat": 31.3543,
+      "lng": 27.2373,
+      "city": "马特鲁",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Marsa Matrouh city centre",
+      "keywords": [
+        "海鲜午餐",
+        "Marsa Matrouh city centre",
+        "马特鲁"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d52-10": {
+      "id": "rev58-d52-10",
+      "name": "马特鲁→开罗",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Cairo Go Bus Station",
+      "keywords": [
+        "马特鲁→开罗",
+        "Cairo Go Bus Station",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d53-2": {
+      "id": "rev58-d53-2",
+      "name": "开罗→达舒尔",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dahshur",
+      "keywords": [
+        "开罗→达舒尔",
+        "Dahshur",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d53-3": {
+      "id": "rev58-d53-3",
+      "name": "达舒尔红金字塔与弯曲金字塔",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dahshur Red Pyramid",
+      "keywords": [
+        "达舒尔红金字塔与弯曲金字塔",
+        "Dahshur Red Pyramid",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d53-4": {
+      "id": "rev58-d53-4",
+      "name": "达舒尔→萨卡拉",
+      "lat": 29.8713,
+      "lng": 31.2165,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Saqqara Necropolis",
+      "keywords": [
+        "达舒尔→萨卡拉",
+        "Saqqara Necropolis",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d53-6": {
+      "id": "rev58-d53-6",
+      "name": "萨卡拉附近午餐",
+      "lat": 29.8713,
+      "lng": 31.2165,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Saqqara",
+      "keywords": [
+        "萨卡拉附近午餐",
+        "Saqqara",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d53-7": {
+      "id": "rev58-d53-7",
+      "name": "南郊返回科普特老开罗",
+      "lat": 30.0055,
+      "lng": 31.23,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Coptic Cairo",
+      "keywords": [
+        "南郊返回科普特老开罗",
+        "Coptic Cairo",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d53-8": {
+      "id": "rev58-d53-8",
+      "name": "悬空教堂与巴比伦要塞外观",
+      "lat": 30.0055,
+      "lng": 31.23,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "The Hanging Church Cairo",
+      "keywords": [
+        "悬空教堂与巴比伦要塞外观",
+        "The Hanging Church Cairo",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d53-9": {
+      "id": "rev58-d53-9",
+      "name": "科普特→NMEC",
+      "lat": 30.0081,
+      "lng": 31.2483,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "National Museum of Egyptian Civilization",
+      "keywords": [
+        "科普特→NMEC",
+        "National Museum of Egyptian Civilization",
+        "开罗"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d53-12": {
+      "id": "rev58-d53-12",
+      "name": "扎马雷克岛与尼罗河晚景",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Zamalek Cairo",
+      "keywords": [
+        "扎马雷克岛与尼罗河晚景",
+        "Zamalek Cairo",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d54-1": {
+      "id": "rev58-d54-1",
+      "name": "早餐、退房与提取50L主包",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Downtown Cairo Egypt",
+      "keywords": [
+        "早餐、退房与提取50L主包",
+        "Downtown Cairo Egypt",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d54-2": {
+      "id": "rev58-d54-2",
+      "name": "开罗市中心→CAI T2航站楼",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "city": "开罗",
+      "country": "埃及",
+      "countryCode": "EG",
+      "timezone": "Africa/Cairo",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Cairo International Airport Terminal 2",
+      "keywords": [
+        "开罗市中心→CAI T2航站楼",
+        "Cairo International Airport Terminal 2",
+        "开罗"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d54-5": {
+      "id": "rev58-d54-5",
+      "name": "EK928 开罗→迪拜直飞",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dubai International Airport Terminal 3",
+      "keywords": [
+        "EK928 开罗→迪拜直飞",
+        "Dubai International Airport Terminal 3",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d54-6": {
+      "id": "rev58-d54-6",
+      "name": "迪拜入境、取包与购买/充值交通卡",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dubai International Airport Terminal 3 Metro Station",
+      "keywords": [
+        "迪拜入境、取包与购买/充值交通卡",
+        "Dubai International Airport Terminal 3 Metro Station",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d54-7": {
+      "id": "rev58-d54-7",
+      "name": "红线前往已选地铁口青旅并入住",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "BurJuman Metro Station Dubai",
+      "keywords": [
+        "红线前往已选地铁口青旅并入住",
+        "BurJuman Metro Station Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d54-8": {
+      "id": "rev58-d54-8",
+      "name": "晚餐＋迪拜湾或Al Seef夜景",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Seef Dubai",
+      "keywords": [
+        "晚餐＋迪拜湾或Al Seef夜景",
+        "Al Seef Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d55-1": {
+      "id": "rev58-d55-1",
+      "name": "早餐并前往Al Ghubaiba城际巴士站",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Ghubaiba Bus Station Dubai",
+      "keywords": [
+        "早餐并前往Al Ghubaiba城际巴士站",
+        "Al Ghubaiba Bus Station Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d55-2": {
+      "id": "rev58-d55-2",
+      "name": "E100/E101 迪拜→阿布扎比中央车站",
+      "lat": 24.4539,
+      "lng": 54.3773,
+      "city": "阿布扎比",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Abu Dhabi Central Bus Station",
+      "keywords": [
+        "E100/E101 迪拜→阿布扎比中央车站",
+        "Abu Dhabi Central Bus Station",
+        "阿布扎比"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d55-3": {
+      "id": "rev58-d55-3",
+      "name": "Qasr Al Watan总统府",
+      "lat": 24.4627,
+      "lng": 54.3051,
+      "city": "阿布扎比",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Qasr Al Watan Abu Dhabi",
+      "keywords": [
+        "Qasr Al Watan总统府",
+        "Qasr Al Watan Abu Dhabi",
+        "阿布扎比"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d55-4": {
+      "id": "rev58-d55-4",
+      "name": "午餐＋出租车赴卢浮宫",
+      "lat": 24.5339,
+      "lng": 54.3982,
+      "city": "阿布扎比",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Louvre Abu Dhabi",
+      "keywords": [
+        "午餐＋出租车赴卢浮宫",
+        "Louvre Abu Dhabi",
+        "阿布扎比"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d55-6": {
+      "id": "rev58-d55-6",
+      "name": "卢浮宫→谢赫扎耶德大清真寺",
+      "lat": 24.4539,
+      "lng": 54.3773,
+      "city": "阿布扎比",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Sheikh Zayed Grand Mosque Abu Dhabi",
+      "keywords": [
+        "卢浮宫→谢赫扎耶德大清真寺",
+        "Sheikh Zayed Grand Mosque Abu Dhabi",
+        "阿布扎比"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d56-1": {
+      "id": "rev58-d56-1",
+      "name": "Al Fahidi历史街区与Al Seef",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Al Fahidi Historical Neighbourhood Dubai",
+      "keywords": [
+        "Al Fahidi历史街区与Al Seef",
+        "Al Fahidi Historical Neighbourhood Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d56-2": {
+      "id": "rev58-d56-2",
+      "name": "Abra木船→香料市场与黄金市场",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Deira Old Souk Abra Station Dubai",
+      "keywords": [
+        "Abra木船→香料市场与黄金市场",
+        "Deira Old Souk Abra Station Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d56-3": {
+      "id": "rev58-d56-3",
+      "name": "Deira午餐后乘地铁赴Emirates Towers",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Emirates Towers Metro Station Dubai",
+      "keywords": [
+        "Deira午餐后乘地铁赴Emirates Towers",
+        "Emirates Towers Metro Station Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d56-4": {
+      "id": "rev58-d56-4",
+      "name": "未来博物馆建筑外观与可进入的公共区",
+      "lat": 25.2194,
+      "lng": 55.2821,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Museum of the Future Dubai",
+      "keywords": [
+        "未来博物馆建筑外观与可进入的公共区",
+        "Museum of the Future Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "沿用已核地标坐标，非具体入口",
+      "coordinateSource": "已知地标位置参考；2027具体入口、航站楼与集合点按导航和正式单据核实"
+    },
+    "rev58-d56-5": {
+      "id": "rev58-d56-5",
+      "name": "Dubai Mall、免费水族馆幕墙与室内商业空间",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dubai Aquarium and Underwater Zoo Dubai Mall",
+      "keywords": [
+        "Dubai Mall、免费水族馆幕墙与室内商业空间",
+        "Dubai Aquarium and Underwater Zoo Dubai Mall",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d56-6": {
+      "id": "rev58-d56-6",
+      "name": "Souk Al Bahar桥与哈利法塔外观",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Souk Al Bahar Bridge Dubai",
+      "keywords": [
+        "Souk Al Bahar桥与哈利法塔外观",
+        "Souk Al Bahar Bridge Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d56-7": {
+      "id": "rev58-d56-7",
+      "name": "晚餐、喷泉与Downtown夜景",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dubai Fountain Dubai Mall",
+      "keywords": [
+        "晚餐、喷泉与Downtown夜景",
+        "Dubai Fountain Dubai Mall",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d57-1": {
+      "id": "rev58-d57-1",
+      "name": "退房存主包并前往Dubai Marina",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Dubai Marina Walk Dubai",
+      "keywords": [
+        "退房存主包并前往Dubai Marina",
+        "Dubai Marina Walk Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d57-2": {
+      "id": "rev58-d57-2",
+      "name": "Marina与JBR海滨步道",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "JBR The Walk Dubai",
+      "keywords": [
+        "Marina与JBR海滨步道",
+        "JBR The Walk Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d57-3": {
+      "id": "rev58-d57-3",
+      "name": "电车赴Palm Jumeirah站、棕榈岛入口与West Beach",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Palm West Beach Dubai",
+      "keywords": [
+        "电车赴Palm Jumeirah站、棕榈岛入口与West Beach",
+        "Palm West Beach Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d57-4": {
+      "id": "rev58-d57-4",
+      "name": "午餐、商场室内逛展与超市采购",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Carrefour Mall of the Emirates Dubai",
+      "keywords": [
+        "午餐、商场室内逛展与超市采购",
+        "Carrefour Mall of the Emirates Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d57-5": {
+      "id": "rev58-d57-5",
+      "name": "Madinat Jumeirah古堡市集与帆船酒店外观",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "city": "迪拜",
+      "country": "阿联酋",
+      "countryCode": "AE",
+      "timezone": "Asia/Dubai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Souk Madinat Jumeirah Dubai",
+      "keywords": [
+        "Madinat Jumeirah古堡市集与帆船酒店外观",
+        "Souk Madinat Jumeirah Dubai",
+        "迪拜"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d58-3": {
+      "id": "rev58-d58-3",
+      "name": "EK310 迪拜→杭州直飞",
+      "lat": 30.2741,
+      "lng": 120.1551,
+      "city": "杭州",
+      "country": "中国",
+      "countryCode": "CN",
+      "timezone": "Asia/Shanghai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hangzhou Xiaoshan International Airport Terminal 4",
+      "keywords": [
+        "EK310 迪拜→杭州直飞",
+        "Hangzhou Xiaoshan International Airport Terminal 4",
+        "杭州"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d58-4": {
+      "id": "rev58-d58-4",
+      "name": "杭州入境、取行李与步行至地铁站",
+      "lat": 30.2741,
+      "lng": 120.1551,
+      "city": "杭州",
+      "country": "中国",
+      "countryCode": "CN",
+      "timezone": "Asia/Shanghai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hangzhou Xiaoshan International Airport Metro Station",
+      "keywords": [
+        "杭州入境、取行李与步行至地铁站",
+        "Hangzhou Xiaoshan International Airport Metro Station",
+        "杭州"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "rev58-d58-5": {
+      "id": "rev58-d58-5",
+      "name": "19号线→创景路换5号线→杭师大仓前站",
+      "lat": 30.2741,
+      "lng": 120.1551,
+      "city": "杭州",
+      "country": "中国",
+      "countryCode": "CN",
+      "timezone": "Asia/Shanghai",
+      "kind": "reference",
+      "address": "城市参考点；实际入口请打开地点名称导航。",
+      "query": "Hangzhou Normal University Cangqian Campus South Gate",
+      "keywords": [
+        "19号线→创景路换5号线→杭师大仓前站",
+        "Hangzhou Normal University Cangqian Campus South Gate",
+        "杭州"
+      ],
+      "coordinateType": "city-reference",
+      "coordinateAccuracy": "city-reference",
+      "coordinateNote": "城市参考坐标，不是景点入口",
+      "coordinateSource": "计划示意；实际导航使用具体名称"
     }
   },
   "guides": [],
@@ -16248,7 +21167,7 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-evn-cappadocia",
-      "label": "待用户观察填写：8/1埃里温经SAW至ASR/NAV，飞马8kg登机包",
+      "label": "待购：8/1飞马EVN04:15→SAW→ASR09:15，含20kg托运＋8kg手提套餐",
       "done": false,
       "status": "pending"
     },
@@ -16284,7 +21203,7 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-beg-hrg",
-      "label": "待用户观察填写：8/20贝尔格莱德→赫尔格达，2027排班与行李",
+      "label": "待购：8/20飞马BEG16:50→SAW19:35／21:50→HRG次日00:30，SAVER含20kg＋8kg",
       "done": false,
       "status": "pending"
     },
@@ -16302,7 +21221,7 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-egypt-uae",
-      "label": "待用户观察填写：9/1 SPX/CAI→SHJ/AUH，Air Arabia候选及机场接驳",
+      "label": "9/2 EK928 CAI T2 13:10→DXB T3 17:30；订单与凭证在本机私密区",
       "done": false,
       "status": "pending"
     },
@@ -16314,7 +21233,7 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-return",
-      "label": "待用户观察填写：9/4 DXB/AUH→HGH或PVG，最迟9/5当天到校",
+      "label": "9/6 EK310 DXB T3 04:35→HGH T4 17:05；9/7开学",
       "done": false,
       "status": "pending"
     },
@@ -16326,7 +21245,7 @@ window.TRIP_DATA = {
     },
     {
       "id": "insurance",
-      "label": "待办：离开中国前投保全程57天，核医疗、红海浮潜及英文保单",
+      "label": "待办：离开中国前投保全程58天，核医疗、红海浮潜及英文保单",
       "done": false,
       "status": "pending"
     },
@@ -16338,7 +21257,7 @@ window.TRIP_DATA = {
     },
     {
       "id": "bag-weight",
-      "label": "待办：20L主包＋单肩包实装称重；Air Arabia主包7kg＋小包3kg",
+      "label": "50L登山主包＋10L日用包；主包托运保护袋、锂电与证件放随身包",
       "done": false,
       "status": "pending"
     },
@@ -16350,7 +21269,7 @@ window.TRIP_DATA = {
     },
     {
       "id": "cash-card-data",
-      "label": "待核：境外银行卡、备用现金、eSIM覆盖与应急资金；579元备用偏低",
+      "label": "待核：境外银行卡、备用现金、eSIM覆盖与应急资金；按修订预算保留机动额度",
       "done": false,
       "status": "pending"
     }
@@ -16407,44 +21326,83 @@ window.TRIP_DATA = {
       "summary": "任意180天内累计免签停留不超过90天，2027行前复核；21岁仍须逐店核入住资格。"
     }
   ],
-  "transportNote": "57天具体钟点版；火车/夜巴/航班样例与购票目标均附来源。未订任何机票或住宿，最迟9月5日到校。",
+  "transportNote": "本轮采用已确认的9/2与9/6航空时刻；其余票价/时刻分别标用户观察或现行参考。001Х中午抵塔什干，巴库夜车已恢复；不把未售2027交通写成已出票。",
   "budget": {
     "currency": "CNY",
-    "total": 21750,
-    "status": "draft",
+    "total": 22000,
+    "status": "target-not-locked",
     "locked": false,
-    "emergency": 579,
-    "warning": "21,750元仅表内复算草案，尚未锁价；579元应急储备偏低，不能视为足够或实付封顶。2027航空、夜车、住宿及门票差额待补。",
+    "emergency": 717,
+    "executionReferenceTotal": 24883,
+    "warning": "22000元是压价目标，不是全景点已锁价。按本轮路线完整执行分配约24883元；差2883元须实际压住宿、收费入内及接驳，不能记作已节省。",
     "categories": [
       {
-        "name": "入境首段与跨国航空",
-        "amount": 7071
+        "name": "首段及跨国航空",
+        "amount": 7543
       },
       {
-        "name": "城际及接驳",
-        "amount": 2700
+        "name": "城际与地面接驳",
+        "amount": 2650
       },
       {
-        "name": "青旅住宿",
-        "amount": 3860
+        "name": "49晚住宿",
+        "amount": 3500
       },
       {
         "name": "餐饮饮水",
-        "amount": 3340
+        "amount": 3000
       },
       {
-        "name": "门票与团游",
-        "amount": 3050
+        "name": "门票、团游与船游",
+        "amount": 2950
       },
       {
-        "name": "签证保险证件通讯",
-        "amount": 1150
+        "name": "签证保险装备通讯洗衣明信片",
+        "amount": 1640
       },
       {
-        "name": "应急机动",
-        "amount": 579
+        "name": "机动金",
+        "amount": 717
       }
-    ]
+    ],
+    "fullRouteReference": [
+      {
+        "name": "首段及跨国航空",
+        "amount": 7543
+      },
+      {
+        "name": "城际与地面接驳",
+        "amount": 3000
+      },
+      {
+        "name": "49晚住宿",
+        "amount": 4200
+      },
+      {
+        "name": "餐饮饮水",
+        "amount": 3400
+      },
+      {
+        "name": "门票、团游与船游",
+        "amount": 4300
+      },
+      {
+        "name": "签证保险装备通讯洗衣明信片",
+        "amount": 1640
+      },
+      {
+        "name": "机动金",
+        "amount": 800
+      }
+    ],
+    "audit": {
+      "originalDocumentTotal": 21880,
+      "transportArithmeticCorrection": -200,
+      "airfareOwnTargetGap": 592,
+      "backpacksOmitted": 309.8,
+      "documentCorrectedMinimum": 22581.8,
+      "source": "2026-11-08按原稿自身低端机票目标和漏项复算；不含新增门票/接驳补足"
+    }
   },
   "flightWatch": [
     {
@@ -16519,9 +21477,9 @@ window.TRIP_DATA = {
     },
     {
       "id": "egypt-uae",
-      "date": "2027-09-01",
-      "route": "SPX/CAI → SHJ/AUH（Air Arabia候选）",
-      "status": "待用户观察填写",
+      "date": "2027-09-02",
+      "route": "开罗CAI T2 → 迪拜DXB T3 · EK928 13:10–17:30",
+      "status": "时刻已纳入计划；本人订单见加密区",
       "price": null,
       "currency": null,
       "airline": "",
@@ -16533,9 +21491,9 @@ window.TRIP_DATA = {
     },
     {
       "id": "uae-hangzhou",
-      "date": "2027-09-04",
-      "route": "DXB/AUH → HGH（或PVG＋地面交通，9/5到校）",
-      "status": "待用户观察填写",
+      "date": "2027-09-06",
+      "route": "迪拜DXB T3 → 杭州HGH T4 · EK310 04:35–17:05",
+      "status": "时刻已纳入计划；本人订单见加密区",
       "price": null,
       "currency": null,
       "airline": "",
@@ -16547,13 +21505,12 @@ window.TRIP_DATA = {
     }
   ],
   "coordinateNotice": "地图含地标位置参考及已明确标注的城市/地区参考点，不能当作精确入口。导航按具体名称query检索；集合点、入口及航站楼以正式单据和运营方通知为准。",
-  "returnDeadline": "2027-09-05",
+  "returnDeadline": "2027-09-06",
   "contingency": {
-    "name": "新疆增加1天的压缩调整",
+    "name": "新疆增1天时从中途游览日调剂",
     "extraXinjiangDays": 1,
-    "reduceUaeDays": 1,
-    "returnDeadline": "2027-09-05",
-    "note": "不整体顺延至9月6日到校；从阿联酋减1天并重排交通。古籍馆遇周日改纪念馆；托普卡帕遇周二改8/12周四。"
+    "returnDeadline": "2027-09-06",
+    "note": "9月2日开罗飞迪拜与9月6日返杭按最新已确认时刻排程；不自动整体顺延。9月7日开学。"
   },
   "sources": [
     {
@@ -16561,9 +21518,359 @@ window.TRIP_DATA = {
       "document": "57天路线主稿（个人文件不随公开站点上传）",
       "reviewed": "2026-11-04",
       "scope": "日程与预算来源；已按当前任务修正政策、船游衔接和返校边界"
+    },
+    {
+      "title": "www.csmrk.kz · 本轮核查",
+      "url": "https://www.csmrk.kz/en/category/contacts",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "nta.visitalmaty.kz · 本轮核查",
+      "url": "https://nta.visitalmaty.kz/en/guides/charyn-canyon-from-almaty",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "t.me · 本轮核查",
+      "url": "https://t.me/s/railways_kz?before=14387",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "rasp.yandex.kz · 本轮核查",
+      "url": "https://rasp.yandex.kz/train/almaty--tashkent",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "gov.uz · 本轮核查",
+      "url": "https://gov.uz/en/uzbektourism/news/view/197142",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.history-museum.uz · 本轮核查",
+      "url": "https://www.history-museum.uz/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "uzbekistan.travel · 本轮核查",
+      "url": "https://uzbekistan.travel/en/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "samarkandmuseum.uz · 本轮核查",
+      "url": "https://samarkandmuseum.uz/en/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.railway.ge · 本轮核查",
+      "url": "https://www.railway.ge/baqodan-tbilisshi-pirveli-matarebeli-chamovida/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "migration.gov.az · 本轮核查",
+      "url": "https://migration.gov.az/en/news_detail/16833",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "georgia.travel · 本轮核查",
+      "url": "https://georgia.travel/coming-to-georgia/opening-hours-in-georgia",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "museum.ge · 本轮核查",
+      "url": "https://museum.ge/index.php?lng=eng&m=318",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "goturkiye.com · 本轮核查",
+      "url": "https://goturkiye.com/cappadocia/routes",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "kvmgm.ktb.gov.tr · 本轮核查",
+      "url": "https://kvmgm.ktb.gov.tr/TR-46782/gecici-sureyle-kapali-olan-muzeler-ve-bagli-birimler.html",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "antalya.ktb.gov.tr · 本轮核查",
+      "url": "https://antalya.ktb.gov.tr/TR-310233/suna--inan-kirac-kaleici-muzesi.html",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.kulturportali.gov.tr · 本轮核查",
+      "url": "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/nekropol-muzesi",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "pergeprojects.org · 本轮核查",
+      "url": "https://pergeprojects.org/kentin-konumu",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.muze.gov.tr · 本轮核查",
+      "url": "https://www.muze.gov.tr/muze-detay?DistId=PRG&SectionId=PRG01",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "batiantalyatur.com.tr · 本轮核查",
+      "url": "https://batiantalyatur.com.tr/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.obilet.com · 本轮核查",
+      "url": "https://www.obilet.com/otobus-bileti/antalya-kas",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "yerebatan.com · 本轮核查",
+      "url": "https://yerebatan.com/en/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "muze.gov.tr · 本轮核查",
+      "url": "https://muze.gov.tr/muze-detay?SectionId=IAR01&DistId=IAR",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.zfbh.ba · 本轮核查",
+      "url": "https://www.zfbh.ba/en/time-table/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "mostarbus.ba · 本轮核查",
+      "url": "https://mostarbus.ba/nedjeljne-linije-za-blagaj-i-medugorje/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "mostarbus.ba · 本轮核查",
+      "url": "https://mostarbus.ba/timetable/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.flypgs.com · 本轮核查",
+      "url": "https://www.flypgs.com/en/travel-glossary/connecting-flight-transit-flight",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.gov.eg · 本轮核查",
+      "url": "https://egymonuments.gov.eg/en/museums/hurghada-museum/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "hurghadagrandaquarium.com · 本轮核查",
+      "url": "https://hurghadagrandaquarium.com/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "go-bus.com · 本轮核查",
+      "url": "https://go-bus.com/en",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/locations/details/LuxorMuseum",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/details/MummificationMuseumLuxor",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.gov.eg · 本轮核查",
+      "url": "https://egymonuments.gov.eg/monuments/luxor-temple",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/locations/details/MedinetHabu",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/locations/details/AbuSimbelTemple",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/locations/details/NubiaMuseum",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.gov.eg · 本轮核查",
+      "url": "https://egymonuments.gov.eg/en/monuments/philae/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/locations/details/UnfinishedObelisk",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/locations/details/EgyptianMuseum",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.gov.eg · 本轮核查",
+      "url": "https://egymonuments.gov.eg/en/archaeological-sites/cairo-citadel",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "tickets.gem.eg · 本轮核查",
+      "url": "https://tickets.gem.eg/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "obs.enr.gov.eg · 本轮核查",
+      "url": "https://obs.enr.gov.eg/o-city/obs/enr/railway/en/home",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/details/KomelShoqafaCatacombs",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "antiquities.bibalex.org · 本轮核查",
+      "url": "https://antiquities.bibalex.org/Antiquities/Admission.aspx",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/details/CitadelofQaitbay",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.com · 本轮核查",
+      "url": "https://egymonuments.com/locations/details/Dahshur",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.gov.eg · 本轮核查",
+      "url": "https://egymonuments.gov.eg/en/monuments/serapeum/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "egymonuments.gov.eg · 本轮核查",
+      "url": "https://egymonuments.gov.eg/monuments/the-hanging-church/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "nmec.gov.eg · 本轮核查",
+      "url": "https://nmec.gov.eg/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.emirates.com · 本轮核查",
+      "url": "https://www.emirates.com/english/before-you-fly/check-in/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.emirates.com · 本轮核查",
+      "url": "https://www.emirates.com/au/english/special-offers/student-special-fares/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.emirates.com · 本轮核查",
+      "url": "https://www.emirates.com/eg/english/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.rta.ae · 本轮核查",
+      "url": "https://www.rta.ae/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.visitdubai.com · 本轮核查",
+      "url": "https://www.visitdubai.com/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "admobility.gov.ae · 本轮核查",
+      "url": "https://admobility.gov.ae/en/inter-emirates-services",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.rta.ae · 本轮核查",
+      "url": "https://www.rta.ae/wps/portal/rta/ae/home/promotion/intercity-e-ticketing",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.qasralwatan.ae · 本轮核查",
+      "url": "https://www.qasralwatan.ae/en/tickets",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "visitabudhabi.ae · 本轮核查",
+      "url": "https://visitabudhabi.ae/en/things-to-do/culture/landmarks-and-architecture/qasr-al-watan",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.louvreabudhabi.ae · 本轮核查",
+      "url": "https://www.louvreabudhabi.ae/en/visit-us",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.szgmc.gov.ae · 本轮核查",
+      "url": "https://www.szgmc.gov.ae/en/individual-booking",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.szgmc.gov.ae · 本轮核查",
+      "url": "https://www.szgmc.gov.ae/en/worshippers/en-v-faqs",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "museumofthefuture.ae · 本轮核查",
+      "url": "https://museumofthefuture.ae/en/plan-your-visit",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "museumofthefuture.ae · 本轮核查",
+      "url": "https://museumofthefuture.ae/en/ticket-terms-and-conditions",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "thedubaimall.com · 本轮核查",
+      "url": "https://thedubaimall.com/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.dubaiframe.ae · 本轮核查",
+      "url": "https://www.dubaiframe.ae/en/plan-your-visit",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.burjkhalifa.ae · 本轮核查",
+      "url": "https://www.burjkhalifa.ae/en/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.palmmonorail.com · 本轮核查",
+      "url": "https://www.palmmonorail.com/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.malloftheemirates.com · 本轮核查",
+      "url": "https://www.malloftheemirates.com/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "www.hzairport.com · 本轮核查",
+      "url": "https://www.hzairport.com/",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "undergrad.hznu.edu.cn · 本轮核查",
+      "url": "https://undergrad.hznu.edu.cn/Details/20260410/110919202604100919220235.html",
+      "checked": "2026-11-08"
+    },
+    {
+      "title": "sxxy.hznu.edu.cn · 本轮核查",
+      "url": "https://sxxy.hznu.edu.cn/upload/resources/file/2025/04/08/7878638.pdf",
+      "checked": "2026-11-08"
     }
   ],
-  "scheduleRevision": "concrete-v4",
+  "scheduleRevision": "verified-58-v1",
   "ticketBundle": null,
   "privacy": {
     "publicPlanOnly": true,
@@ -16682,8 +21989,8 @@ window.TRIP_DATA = {
       "route": "阿拉木图2站（Алматы-2） → 塔什干中央站（Ташкент-Центральный）",
       "operator": "KTZ / AO Passenger Transportation（АО «Пассажирские перевозки»）",
       "service": "国际列车№1/2；阿拉木图出发方向平台显示001Х",
-      "departure": "19:05（当地时间；KTZ 2026公开公告参考）",
-      "arrival": "12:53（次日塔什干当地时间；KTZ 2026公开公告参考）",
+      "departure": "19:05阿拉木图2站·现行参考",
+      "arrival": "次日约12:55塔什干·现行参考",
       "dayOffset": 1,
       "evidenceStatus": "已核KTZ官方PRESS频道公开公告，支持19:05→次日12:53；Yandex现公开路线页为19:05→12:58。官方动态售票表未取得，差异未消除，均不代表2027时刻。",
       "sources": [
@@ -17158,10 +22465,10 @@ window.TRIP_DATA = {
     {
       "id": "spx-shj-g9344",
       "route": "吉萨斯芬克斯SPX → 沙迦SHJ",
-      "operator": "Air Arabia（G9，沙迦航司）",
+      "operator": "Emirates",
       "service": "G9 344 / G9344",
-      "departure": "01:55（SPX当地UTC+2；2026-11-05冬季样例）",
-      "arrival": "07:05（SHJ当地UTC+4；当日）",
+      "departure": "9/2 13:10 CAI T2",
+      "arrival": "9/2 17:30 DXB T3",
       "dayOffset": 0,
       "evidenceStatus": "Air Arabia官方开航公告核到SPX—SHJ及G9344，但公告时刻为2023历史表；01:55→07:05是第三方2026-11公开样例，非2027夏季已核时刻。",
       "sources": [
@@ -17183,7 +22490,9 @@ window.TRIP_DATA = {
         "SPX和CAI是不同机场；SHJ和DXB也不同，之后前往迪拜或阿布扎比需另留陆路交通时间与预算。",
         "现参考日可早晨抵沙迦，上午转城；实际2027年可能改为其他钟点，不把历史22:50或冬季01:55写成全年班次。",
         "未核2027年出行日库存、行李和价格；航司G9也不要与Air Arabia Abu Dhabi的3L混淆。"
-      ]
+      ],
+      "title": "开罗CAI → 迪拜DXB",
+      "flight": "EK928"
     },
     {
       "id": "dxb-hgh-ek310",
@@ -17349,8 +22658,52 @@ window.TRIP_DATA = {
     {
       "id": "transport-specific",
       "title": "具体车次、航班与大巴",
-      "subtitle": "现行样例与购票目标分开看",
-      "html": "<h2>具体班次与推荐钟点</h2><p>返杭段于2026-11-06局部复核；其他交通沿用11/5资料。未订2027票，所有样例/目标分别标明。</p><section class=\"transport-reference\"><h3>杭州站 → 乌鲁木齐站</h3><p><strong>中国铁路；具体担当信息以12306当次列车为准 · Z594（沿途亦有Z595车次编号）</strong></p><p>10:46（北京时间） → 06:28（北京时间，第3日）</p><p>已核到携程现公开时刻表与路线页；12306本次仅能读取查询入口，没有取得2027年7月具体日期售票结果。</p><ul><li>以上为2026年11月可读公开参考时刻，不是2027年7月已公布或已购买的车票。</li><li>跨2个日历日、约43小时42分，需把杭州出发算D1、乌鲁木齐到达算D3，不能写成次日到。</li><li>杭州站与杭州东站不同，乌鲁木齐站与乌鲁木齐南站不同；购票时逐项核站名。</li><li>未查询指定日期余票、卧铺价格和学生票资格，最终以12306当次订单为准。</li></ul><p><a href=\"https://trains.ctrip.com/TrainSchedule/Z594\" target=\"_blank\" rel=\"noopener noreferrer\">携程Z594车次时刻表：杭州10:46、乌鲁木齐06:28 ↗</a> · <a href=\"https://trains.ctrip.com/TrainBooking/hangzhou-wulumuqinan/dongche\" target=\"_blank\" rel=\"noopener noreferrer\">携程杭州方向路线页：列Z594杭州10:46至乌鲁木齐06:28 +2，注意终点并非乌鲁木齐南 ↗</a> · <a href=\"https://www.12306.cn/index/\" target=\"_blank\" rel=\"noopener noreferrer\">中国铁路12306官方查询入口；动态指定日期结果未取得 ↗</a></p></section><section class=\"transport-reference\"><h3>乌鲁木齐站 → 伊宁站</h3><p><strong>中国铁路；具体担当信息以12306当次列车为准 · C845（2026-11-05携程路线页参考）</strong></p><p>09:56（北京时间） → 15:03（北京时间，当日）</p><p>已核到携程2026-11-05路线页的具体车次与时刻；同站静态车次页旧缓存有差异，未将其当作2027时刻。</p><ul><li>若Z594当前06:28到站，接09:56的C845在纸面上间隔3小时28分；此为计划缓冲计算，不保证前车准点或换乘成功。</li><li>两段均应核为乌鲁木齐站，不能把乌鲁木齐南的列车直接视为同站换乘。</li><li>优先保留上午09:00–11:00出发、下午抵达伊宁并住1晚的结构；若售票调图，以实际开行列车替换，不锁死C845。</li><li>本次没有取得2027年7月12306时刻、联程方案、余票与报价。</li></ul><p><a href=\"https://trains.ctrip.com/TrainBooking/wulumuqi-yining/dongche\" target=\"_blank\" rel=\"noopener noreferrer\">携程2026-11-05乌鲁木齐至伊宁：C845 09:56→15:03，历时5小时7分 ↗</a> · <a href=\"https://trains.ctrip.com/TrainSchedule/C845\" target=\"_blank\" rel=\"noopener noreferrer\">携程C845静态车次页旧缓存仍为10:05→15:04，与当日路线页不同 ↗</a> · <a href=\"https://www.12306.cn/index/\" target=\"_blank\" rel=\"noopener noreferrer\">12306最终核对站名、开行日期、时刻与余票的官方入口 ↗</a></p></section><section class=\"transport-reference\"><h3>伊犁州汽车客运总站（伊宁） → 都拉塔口岸 → 阿拉木图Sayran国际客运站；霍尔果斯出发为另一条线路</h3><p><strong>伊犁伊通涉外汽车运输公司（2026中国交通报采访核到运营企业）；具体班次承运人以车站出票为准 · 伊宁—阿拉木图国际道路旅客班车；没有核到固定公开班次编号</strong></p><p>09:30（北京时间；中国驻阿拉木图总领馆2023-07-10历史官方公告参考） → </p><p>班线、承运企业与到达车站有官方/交通行业媒体证据；09:30只有2023官方历史公告，当前及2027年具体时刻与固定到达时间未确认。</p><ul><li>不能把伊宁09:30、霍尔果斯11:00和阿拉木图返程当地09:00混为一班；北京时间与阿拉木图当地时间也须分清。</li><li>历史官方购票入口是“伊犁州汽车客运总站”微信公众号，伊宁车站电话0999-6765532；霍尔果斯国际客运站0999-8791092。使用前核营业状态、实际站址和发车日。</li><li>历史官方到达站为Sayran，地址Töle Bi 294 / Utegen Batyr 64；需向售票方确认2027年是否仍在此终到。</li><li>2026采访说明约10小时，但跨境排队可能变化，因此arrival留空；当日到达仅是行程预留方式。不要在抵达当晚衔接不可退的火车或飞机。</li><li>不把历史200元票价当2027报价；需核含行李、取票方式、口岸及当天是否运行。</li></ul><p><a href=\"https://almaty.china-consulate.gov.cn/lsfw/lqgk/202307/t20230710_11110566.htm\" target=\"_blank\" rel=\"noopener noreferrer\">中国驻阿拉木图总领馆2023-07-10：伊宁经都拉塔09:30、霍尔果斯11:00、抵达Sayran、购票渠道与电话 ↗</a> · <a href=\"https://www.zgjtb.com/2026-07/01/content_526047.html\" target=\"_blank\" rel=\"noopener noreferrer\">中国交通报2026-07-01采访：伊犁伊通涉外汽车运输公司运营伊宁至阿拉木图班线，全程约430公里、约10小时 ↗</a></p></section><section class=\"transport-reference\"><h3>阿拉木图2站（Алматы-2） → 塔什干中央站（Ташкент-Центральный）</h3><p><strong>KTZ / AO Passenger Transportation（АО «Пассажирские перевозки»） · 国际列车№1/2；阿拉木图出发方向平台显示001Х</strong></p><p>19:05（当地时间；KTZ 2026公开公告参考） → 12:53（次日塔什干当地时间；KTZ 2026公开公告参考）</p><p>已核KTZ官方PRESS频道公开公告，支持19:05→次日12:53；Yandex现公开路线页为19:05→12:58。官方动态售票表未取得，差异未消除，均不代表2027时刻。</p><ul><li>主字段采用有官方公开公告依据的12:53；12:58是另一平台现表，不能说已被官方动态售票核实。页面还列未来调图18:45，因此行程只能锚定傍晚出发、次日中午抵达。</li><li>办理时核对Алматы-2，不是Алматы-1；到站核Ташкент-Центральный，最终以票面为准。</li><li>KTZ公告同时介绍ЖН女性专用车厢；21岁男性应选普通车厢床位。</li><li>KTZ该公告写提前45天售票，2027年实际预售期、开行日、票价、车厢和边检安排须临近出发再核。</li><li>塔什干抵达日留作半日市区步行/地铁，不安排紧贴中午到站的不可退接续。</li></ul><p><a href=\"https://t.me/s/railways_kz?before=14387\" target=\"_blank\" rel=\"noopener noreferrer\">KTZ PRESS官方频道公告#14386：№1/2，阿拉木图19:05、塔什干12:53及45天预售说明 ↗</a> · <a href=\"https://t.me/railways_kz/14386\" target=\"_blank\" rel=\"noopener noreferrer\">KTZ公告直接定位；正文可在频道网页的before=14387页面读取 ↗</a> · <a href=\"https://rail-news.kz/index.php/ru/passenger-transportation/24677-zenskii-vagon-vpervye-poiavitsia-v-poezde-almaty-taskent.html\" target=\"_blank\" rel=\"noopener noreferrer\">哈萨克铁路行业报2026-08-27转述KTZ新闻处：19:05→12:53，路线№1/2 Алматы-2—Ташкент ↗</a> · <a href=\"https://rasp.yandex.kz/train/almaty-2--tashkent-tsentralniy\" target=\"_blank\" rel=\"noopener noreferrer\">Yandex时刻页：001Х当前19:05→12:58；另列12月13日起18:45发车，显示季节调图风险 ↗</a> · <a href=\"https://bilet.railways.kz/\" target=\"_blank\" rel=\"noopener noreferrer\">KTZ官方售票入口，本次只读取查询表单，未获得指定日期时刻/库存 ↗</a></p></section><section class=\"transport-reference\"><h3>Göreme → Antalya</h3><p><strong>Topçam Turizm · Obilet 公共路线页当前夜巴例示；Göreme Otogarı → Antalya Otogarı，2+1 座位</strong></p><p>22:30 → 07:00</p><p>verified_current_route_page_example_not_2027</p><ul><li>这是抓取当日公开路线页所列例示，未选定旅行日期，不能标成 2027 已确认班次或保证每日开行。</li><li>同页其他当前例示：Kamil Koç 21:30→05:45、Öz Sivas Turizm 22:00→06:00；若希望约 07:00 到达，目前证据最贴合的是 22:30 班，不应把 21:30 班的到达硬改成 07:00。</li><li>行程预留开车前 30–45 分钟到 Göreme Otogarı；夜巴抵 Antalya Otogarı 后还需进城，不是 07:00 已到老城。</li><li>Antalya 青旅通常下午才能入住；提前确认清晨寄存／洗漱安排。不要把车站到达时间当成可入住时间。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/goreme-antalya\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Göreme–Antalya 路线页 ↗</a></p></section><section class=\"transport-reference\"><h3>Antalya → Kaş</h3><p><strong>Batı Antalya · Obilet 公共路线页当前日间例示；Antalya Otogarı → Kaş Askerlik Şubesi Otobüs Kalkış-Varış Noktası，2+2 座位</strong></p><p>13:30 → 17:35</p><p>verified_current_route_page_example_not_2027</p><ul><li>同页当前例示还有 Kumluca Seyahat 14:15→18:25 与 15:00→19:10，可作为 13:30 售罄后的检索参考。</li><li>这条沿海路段按约 4 小时规划；不能把 15:00 出发写成 17:00 到达。</li><li>票面可能写镇内 Askerlik Şubesi 停靠点；下一段 Kaş→Fethiye 的所选例示却从 Ağullu 新客运站发车，两段不应视为同一站。</li><li>从 Kaleiçi 住宿到 Antalya Otogarı 另留市内交通和到站缓冲；尽量 12:45 前到站检票。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/antalya-kas\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Antalya–Kaş 路线页 ↗</a> · <a href=\"https://www.batiantalyatur.com.tr/\" target=\"_blank\" rel=\"noopener noreferrer\">Batı Antalya 官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>Kaş → Fethiye</h3><p><strong>Fethiye Seyahat · Obilet 公共路线页当前例示；Kaş Otobüs Terminali (Ağullu) → Fethiye Otogarı，2+2 座位</strong></p><p>15:20 → 17:20</p><p>verified_current_route_page_example_not_2027</p><ul><li>D28 的“15:00 出发”应标为约时目标；本次找到的近似当前例示是 15:20，不是已证实 15:00 班。</li><li>核心站点风险：Ağullu 新客运站与 Kaş 镇中心旧站／Askerlik Şubesi 停靠点不同。提前一天向运营商／住宿核对到 Ağullu 的接驳、实际登车点与发车时间。</li><li>建议镇内约 13:45–14:00 结束活动并取包，目标 14:30–14:45 到 Ağullu；这些是人为预留的接驳与候车窗口，不是已核实的 dolmuş 时刻。</li><li>17:20 抵达后距离 21:00 夜巴有约 3 小时 40 分钟；两张分开购买的票不属于联程保障，延误时后段不会自动等候。</li><li>同页更早的当前例示：Batı Antalya Tur 13:50→16:10；更晚 16:50→19:10 对后段的缓冲较少，不作首选。</li><li>若实际 2027 班次到达站不是 Fethiye Otogarı，需重新计算市内转站时间；出发前先确认后段座位。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/kas-fethiye\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Kaş–Fethiye 路线页 ↗</a></p></section><section class=\"transport-reference\"><h3>Fethiye → İstanbul Europe (Esenler)</h3><p><strong>Metro Turizm · Obilet 公共路线页当前夜巴例示；Fethiye Otogarı → Esenler Otogarı，2+1 座位</strong></p><p>21:00 → 09:30</p><p>verified_current_route_page_example_not_2027</p><ul><li>21:00→次日09:30 是抓取当日公开路线页例示，贴合“21:00→约10:00”的规划；未查询 2027 日期，也未锁票。</li><li>务必选择 Istanbul Europe / Esenler；Ataşehir、Dudullu、Sultanbeyli 在亚洲侧，Alibeyköy 也与 Esenler 不同，不能套用同一住宿接驳。</li><li>当前备选例示：Balıkesir Uludağ Turizm 20:00→Esenler10:00；若选择它，需同步提前 Kaş→Fethiye 段。</li><li>目标 20:00–20:15 到 Fethiye Otogarı 候车，并先完成晚餐／卫生间；这是行程缓冲建议。</li><li>到 Esenler 后另留去 Sultanahmet 住宿的交通、早餐与寄存时间，D29 首个需定时入场的景点不要紧贴 10:00。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/fethiye-istanbul\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet：Fethiye–Istanbul 路线页 ↗</a> · <a href=\"https://www.pamukkale.com.tr/bilet/fethiye-istanbul-esenler-otobus-bileti/\" target=\"_blank\" rel=\"noopener noreferrer\">Pamukkale Turizm：Fethiye–İstanbul Esenler 官方路线订票页 ↗</a></p></section><section class=\"transport-reference\"><h3>Istočno Sarajevo (East Sarajevo / Lukavica) → Beograd</h3><p><strong>Centrotrans a.d. Istočno Sarajevo · 运营商官网所挂 Istočno Sarajevo–Beograd 公布时刻表；经 Pale、Sokolac、Zvornik、Loznica、Šabac</strong></p><p>08:00 → 15:35</p><p>verified_operator_published_undated_timetable_not_2027</p><ul><li>出发必须按票面核对 Istočno Sarajevo / Lukavica 东萨拉热窝客运站，不是火车站旁的 Sarajevo 中央客运站。搜索只输入“Sarajevo bus station”有误到风险。</li><li>优先使用运营商全名 Centrotrans a.d. Istočno Sarajevo；同名 Centrotrans 品牌并不自动意味着同一家、同一个站。</li><li>官网PDF无发布日期：08:00→15:35 是公开时刻表证据，不是 2027 已开售或已向车站确认的服务。出发前复核发车日、班次及最终下客站。</li><li>行程可以按08:00出发、约16:00到达做目标，但边检和道路状况可能延误；抵达日晚餐可弹性安排，不接不可退款的紧凑活动。</li><li>建议提前一天确认去东站的接驳，D36 约07:00–07:15到站；从老城／Kucha出发的接驳时间另留，不把08:00作为离开住宿的时间。</li><li>PDF到达只写 Beograd，未给当前具体下客站地址；购票时让运营商确认是否为 BAS 新站及地图针，别直接导航到历史旧站。</li><li>官方当前其他公布班次：09:45→17:45、12:30→20:00。</li></ul><p><a href=\"https://centrotrans-ad.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Centrotrans a.d. Istočno Sarajevo 官网：国际线路及东站联系信息 ↗</a> · <a href=\"https://centrotrans-ad.com/Beograd.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Centrotrans a.d. 官方 Istočno Sarajevo–Beograd 时刻表 PDF ↗</a></p></section><section class=\"transport-reference\"><h3>Hurghada → Luxor</h3><p><strong>Go Bus（市场页面也写Go Bus 1；最终以车票运营商为准） · 白天空调长途巴士；El Sakala Street 1出发的公开时刻示例</strong></p><p>08:30 → 12:20</p><p>current_published_marketplace_example_not_2027_service</p><ul><li>当前可见示例耗时3小时50分；规划时为道路检查、途中停靠及市内接驳预留，门到门按约5小时安排更稳妥。不要把08:30→13:30写成运营商已发布时刻。</li><li>同一页面列08:15→12:15、08:20→12:20等记录，可能是不同站点或供应商，不能互换站名；必须核对实际上车office位置。</li><li>建议至少提前30—45分钟到车站，护照随身；行李额度、额外收费和退改规则以票面及运营商为准。</li><li>2027年8—9月重新查询实际日期；埃及时区/夏令时和运营时钟可能变化，按当时票面当地时间。</li></ul><p><a href=\"https://www.obilet.com/en/bus-ticket/hurghada-luxor\" target=\"_blank\" rel=\"noopener noreferrer\">Obilet公开路线页：Go Bus El Sakala Street 1 08:30→Luxor 12:20 ↗</a> · <a href=\"https://go-bus.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">Go Bus官网：最终日期、车站及班次的核对入口 ↗</a></p></section><section class=\"transport-reference\"><h3>Luxor → Aswan</h3><p><strong>Egyptian National Railways（ENR，埃及国家铁路） · 1010次Russian AC空调座席列车的第三方时刻示例；具体车次/等级以ENR和车票为准</strong></p><p>11:05 → 14:20</p><p>third_party_timetable_example_14h_target_unverified_foreigner_booking_restricted</p><ul><li>未找到可稳妥指认的14:00左右出发班次；不能把原目标14:00→18:00写成已核实车次。当前所查第三方表在11:05后下一条列18:55→22:25，不能据此断言所有日期绝无午后车，只说明本次未证实。</li><li>若使用11:05示例，卢克索最后半天仅安排早间活动，约10:15回住宿取行李并去站，避免把中午神庙项目与乘车挤在一起。若只能订到18:55示例，到阿斯旺很晚，应事先确认住宿接待。</li><li>中国护照旅客不要按埃及居民EGP票价预算，也不要冒填Egyptian nationality购票。先凭护照原件向卢克索站外国旅客售票窗口核对适用车次、外籍票价、币种、支付方式和席位；需提前锁票时可比较正规代理手续费。</li><li>在线可查时刻不等于能以中国护照完成官网购买；购票渠道和开售天数到2027再核实，当前未给本次实时票价。</li><li>夏季选择明确标注AC的座席等级，至少提前30—45分钟到站；车次可能晚点，阿斯旺当日下午不排需要准点到达的付费预约。</li></ul><p><a href=\"https://egypttrains.com/luxor/aswan?lang=en\" target=\"_blank\" rel=\"noopener noreferrer\">EgyptTrains：自述2026-10-22更新的Luxor→Aswan表，1010次11:05→14:20，980次18:55→22:25 ↗</a> · <a href=\"https://obs.enr.gov.eg/o-city/obs/enr/railway/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">ENR官方订票页面：当前在线预订仅限埃及国籍，其他国籍功能建设中 ↗</a> · <a href=\"https://www.seat61.com/Egypt.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Seat61：外国旅客车站或代理购票、外国人票价及应先核对ENR实际时刻的说明 ↗</a></p></section><section class=\"transport-reference\"><h3>Aswan → Cairo</h3><p><strong>Super Jet（Arab Union for Land Transport） · Standard AC长途夜巴的第三方公开时刻示例；到达开罗具体车站待订票时选择</strong></p><p>17:00 → 06:00</p><p>current_published_marketplace_example_not_2027_service</p><ul><li>公开示例为17:00→次日06:00，13小时；原先18:00左右只可作为想乘夜巴的目标，不能冠名Go Bus并写成已证实班次。</li><li>同一页面另列El Eman Jet 16:00→次日06:00（14小时），可作为重新比价方向；没有为2027查到这些班次的可售保证。</li><li>必须核对Aswan上车office和Cairo到达站，不能默认Tahrir或Ramses。开罗远郊站到市中心的接驳时间和车费另留。</li><li>夜巴按13—15小时规划并留进一步延误余量；到开罗当天以寄存、休息和弹性活动为主，不衔接当日上午国际航班或不可改签的预约。</li><li>下单核对护照姓名、空调、座位、行李额度、厕所/停车安排及取消规则；空调可能偏冷，准备薄外套。2027实际时刻和票价临近出发重查。</li></ul><p><a href=\"https://12go.asia/en/bus/aswan/cairo\" target=\"_blank\" rel=\"noopener noreferrer\">12Go公开Aswan→Cairo时刻表：Super Jet Standard AC 17:00→06:00 ↗</a> · <a href=\"https://www.superjet-eg.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">Super Jet官网：公司、Aswan/Cairo目的地及最终查询入口 ↗</a> · <a href=\"https://superjetcapital.org/services/\" target=\"_blank\" rel=\"noopener noreferrer\">Arab Union for Land Transport官网：Super Jet运营身份 ↗</a></p></section><section class=\"transport-reference\"><h3>塔什干TAS → 巴库GYD</h3><p><strong>Uzbekistan Airways / 乌兹别克斯坦航空 · HY755</strong></p><p>12:30（塔什干当地UTC+5；2026-11-05官方出发板样例） → 14:25（巴库当地UTC+4；第三方对应周四参考时刻，非当日实际落地）</p><p>官方2026-11-05出发板核到HY755赴Baku 12:30；该表两列12:30均为出发相关列，不是到达。到达14:25来自Flight.info同航班周四时刻；未核2027年7月指定日期。</p><ul><li>适合上午退房、午间直飞、下午抵达巴库的计划结构。建议目标是当地12:00–16:00起飞、傍晚前抵达，实际按当日售票替换。</li><li>同一HY755在不同星期有15:15→17:10等时刻，不能把周四样例写成每天固定。</li><li>机场时刻均为各地当地时间；时差使12:30至14:25对应约2小时55分飞行。</li><li>没有查询2027年指定日期余票、价格、行李或实际落地时间。</li></ul><p><a href=\"https://www.uzairways.com/en/schedule\" target=\"_blank\" rel=\"noopener noreferrer\">Uzbekistan Airways官方出发板：05.11.2026 HY755 Baku，计划12:30 ↗</a> · <a href=\"https://www.flight.info/HY755\" target=\"_blank\" rel=\"noopener noreferrer\">第三方时刻：HY755周四TAS12:30→GYD14:25，列有效期至2027-03-25 ↗</a></p></section><section class=\"transport-reference\"><h3>埃里温EVN → 伊斯坦布尔萨比哈SAW → 开塞利ASR</h3><p><strong>Pegasus Airlines / 飞马航空 · PC551 + PC2732（当前样例候选）；午间PC2736可作为更长换乘的搜索候选</strong></p><p>04:15（EVN当地UTC+4；现公开冬季样例） → 09:15（ASR当地UTC+3；接PC2732的现公开样例，联程未出票）</p><p>已核PC551与PC2732/2736各自公开航班时刻，并读Pegasus官方联程规则和网络资料；未取得2027日期EVN—ASR一张PNR的可售联程结果，因此是组合搜索参考，不能视作已确认联程。</p><ul><li>第一段样例04:15EVN→05:40SAW；第二段08:00SAW→09:15ASR，纸面衔接2小时20分。此时间差计算不证明航司最低衔接时间、联程可售或前序准点。</li><li>优先在Pegasus官网直接搜EVN→ASR的一张订单，要求两段均为SAW，确认行李额度和行李条终点。若只能分开买票，重新安排充足换乘时间，不沿用这组紧凑样例。</li><li>国际转土耳其国内需在SAW办理入境等程序，不能按纯国际转机理解；行李是否直挂以订单、机场和航司指引为准。</li><li>面向旅行工具的目标结构：清晨离开EVN，SAW白天中转，下午前抵ASR；保留PC2736午间候选可增加缓冲。</li><li>冬季样例不能直接承诺2027年夏季时刻；实际日期也可能显示其他班次，应以出票结果替换。</li><li>凌晨04:15起飞意味着前一晚需安排去EVN机场，不能把该晚写成完整睡眠后再赶早班机。</li></ul><p><a href=\"https://www.flypgs.com/en/useful-info/info-about-flights/our-network\" target=\"_blank\" rel=\"noopener noreferrer\">Pegasus官方航线网络：包含Yerevan、Istanbul Sabiha Gokcen、Kayseri ↗</a> · <a href=\"https://www.flypgs.com/en/what-should-you-do-when-connecting-flights\" target=\"_blank\" rel=\"noopener noreferrer\">Pegasus官方转机指引：国际接国内、行李处理和不同票号情形 ↗</a> · <a href=\"https://www.flight.info/PC551\" target=\"_blank\" rel=\"noopener noreferrer\">PC551参考：EVN04:15→SAW05:40，现公开冬季时刻 ↗</a> · <a href=\"https://www.flight.info/PC2732\" target=\"_blank\" rel=\"noopener noreferrer\">PC2732参考：SAW08:00→ASR09:15，2026-11上旬部分开行日样例 ↗</a> · <a href=\"https://www.flight.info/PC2736\" target=\"_blank\" rel=\"noopener noreferrer\">PC2736参考：SAW13:00→ASR14:15的部分日期样例 ↗</a></p></section><section class=\"transport-reference\"><h3>伊斯坦布尔萨比哈SAW → 萨拉热窝SJJ</h3><p><strong>Pegasus Airlines / 飞马航空 · PC293（下午航班参考）</strong></p><p>15:20（SAW当地UTC+3；2026-11-05冬季样例） → 15:15（SJJ当地CET/UTC+1；当日）</p><p>Pegasus官方目的地页支持伊斯坦布尔直飞萨拉热窝；航班号与钟点来自当前第三方时刻，冬季钟点仅为样例。未取得2027年实际日期官网时刻和机票。</p><ul><li>到达钟点比出发钟点早5分钟是当地时区差异，飞行参考时长约1小时55分，不是负飞行时间。</li><li>夏季萨拉热窝采用不同钟点，不能把11月15:15直接搬进2027年7–8月行程。推荐安排下午飞、傍晚前抵达的窗口。</li><li>该航班从SAW出发，不是IST；市区去机场交通应按SAW另排。</li><li>没有锁定2027年开行日、库存、行李或价格。</li></ul><p><a href=\"https://www.flypgs.com/en/airports/sarajevo-international-airport\" target=\"_blank\" rel=\"noopener noreferrer\">Pegasus官方Sarajevo机场页：从Istanbul直飞 ↗</a> · <a href=\"https://www.flight.info/PC293\" target=\"_blank\" rel=\"noopener noreferrer\">PC293参考：2026-11上旬部分日期15:20SAW→15:15SJJ，其他日期钟点有变化 ↗</a> · <a href=\"https://www.flightstats.com/v2/flight-tracker/PC/293?date=04&amp;flightId=1418019692&amp;month=11&amp;year=2026\" target=\"_blank\" rel=\"noopener noreferrer\">FlightStats：邻近日样例和2026-11-05列表；11月4日另为15:50→15:45，说明并非每天固定 ↗</a></p></section><section class=\"transport-reference\"><h3>贝尔格莱德BEG → 赫尔格达HRG</h3><p><strong>Air Cairo / 开罗航空 · SM388</strong></p><p>05:30（BEG当地CET/UTC+1；2026-11周三样例） → 09:50（HRG当地UTC+2；当日）</p><p>Air Cairo官网可核BEG→HRG航线；SM388及钟点来自第三方现公开样例，官网本次未给指定日期航班时刻。未核2027暑期的开行日和可售价格。</p><ul><li>适合清晨离开贝尔格莱德、上午抵赫尔格达，但意味着前一晚/凌晨需去机场；不要安排到达当天很早的收费出海项目。</li><li>不保证每日都有SM388。先用实际日期确认直飞再固定前后城市住宿；取消与改期条款以航司订单为准。</li><li>部分追踪器显示UTC时刻，不能直接把04:30/07:50当作当地出发/到达；本字段采用明确机场当地钟点的时刻样例。</li><li>夏令时和季节排班会改变钟点；官网当期起价不当作2027报价。</li></ul><p><a href=\"https://aircairo.com/en-rs/offer-info/beg-hrg-o\" target=\"_blank\" rel=\"noopener noreferrer\">Air Cairo官方航线优惠页：Belgrade Nikola Tesla→Hurghada International；条款属当期活动 ↗</a> · <a href=\"https://www.flight.info/SM388\" target=\"_blank\" rel=\"noopener noreferrer\">SM388参考：2026-11-04至11-25周三05:30BEG→09:50HRG；另有周日05:30→09:45 ↗</a></p></section><section class=\"transport-reference\"><h3>吉萨斯芬克斯SPX → 沙迦SHJ</h3><p><strong>Air Arabia（G9，沙迦航司） · G9 344 / G9344</strong></p><p>01:55（SPX当地UTC+2；2026-11-05冬季样例） → 07:05（SHJ当地UTC+4；当日）</p><p>Air Arabia官方开航公告核到SPX—SHJ及G9344，但公告时刻为2023历史表；01:55→07:05是第三方2026-11公开样例，非2027夏季已核时刻。</p><ul><li>凌晨01:55的航班需在前一日深夜到SPX；行程日期按起飞日计，不能等起飞日白天才离开开罗市区。</li><li>SPX和CAI是不同机场；SHJ和DXB也不同，之后前往迪拜或阿布扎比需另留陆路交通时间与预算。</li><li>现参考日可早晨抵沙迦，上午转城；实际2027年可能改为其他钟点，不把历史22:50或冬季01:55写成全年班次。</li><li>未核2027年出行日库存、行李和价格；航司G9也不要与Air Arabia Abu Dhabi的3L混淆。</li></ul><p><a href=\"https://press.airarabia.com/air-arabia-launches-non-stop-flights-between-sharjah-and-egypts-sphinx-international-airport/\" target=\"_blank\" rel=\"noopener noreferrer\">Air Arabia官方2023开航公告：SPX—SHJ、G9344；历史22:50→04:10不能当当前时刻 ↗</a> · <a href=\"https://www.flight.info/G9344\" target=\"_blank\" rel=\"noopener noreferrer\">G9344第三方现表：2026-11-05样例SPX01:55→SHJ07:05；列有效期至2027-03-27 ↗</a></p></section><section class=\"transport-reference\"><h3>迪拜DXB → 杭州HGH</h3><p><strong>Emirates / 阿联酋航空 · EK310</strong></p><p>11:00（DXB当地；当前官方通用页参考，2027-09-04待查） → 23:00（杭州当地；同一日落地，地面返校可能跨到9/5）</p><p>2026-11-06官方通用路线页11:00→23:00，未对应2027指定日期；旧04:35→17:05仅条件备选。</p><ul><li>先取得2027/9/4正式航班与抵达日期，再决定9/3是否省一晚；未出票前保留可取消床位。</li><li>日间版9/4约07:00离店、目标08:00到T3；本人票面要求4小时则提前。23点落地后仍有入境和到校交通。</li><li>实际凌晨04:35版才采用9/3夜出发：保床短休23:30离店约00:15到T3，或退房寄包20:45离店约21:30到T3。</li></ul><p><a href=\"https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/\" target=\"_blank\" rel=\"noopener noreferrer\">Emirates官方DXB→HGH航线入口；当前抓取没有可读取的EK310指定日期钟点 ↗</a> · <a href=\"https://www.emirates.com/english/book/flight-schedules/\" target=\"_blank\" rel=\"noopener noreferrer\">Emirates官方时刻表查询，已访问；动态日期/航线结果未取得 ↗</a> · <a href=\"https://www.flight.info/EK310\" target=\"_blank\" rel=\"noopener noreferrer\">第三方表明确列：2027-06-01至09-30 EK310 DXB04:35→HGH17:05，同日 ↗</a> · <a href=\"https://www.ehangzhou.gov.cn/2024-10/25/c_291354.htm\" target=\"_blank\" rel=\"noopener noreferrer\">杭州官方新闻2024-10-25核到国航CA762曾从迪拜抵杭；仅证明历史存在，不确认2027运行 ↗</a> · <a href=\"https://www.trip.com/flights/status-ca762/\" target=\"_blank\" rel=\"noopener noreferrer\">CA762近期第三方状态出现取消，不能据历史航线直接列为2027可订备选 ↗</a></p></section><section class=\"transport-reference\"><h3>塔什干 → 布哈拉</h3><p><strong>Uzbekistan Railways · Afrosiyob上午班·购票目标</strong></p><p>07:30目标 → 11:30目标</p><p></p><ul><li>钟点是推荐检索目标，未取得2027指定日期班次；选不到上午车时顺延布哈拉当日游览。</li></ul><p><a href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">乌兹别克铁路官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>布哈拉 → 撒马尔罕</h3><p><strong>Uzbekistan Railways · Afrosiyob上午班·购票目标</strong></p><p>09:00目标 → 10:45目标</p><p></p><ul><li>未核实该钟点为现行实际班次，保留上午出发、午前后到城的购票目标。</li></ul><p><a href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">乌兹别克铁路官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>撒马尔罕 → 塔什干</h3><p><strong>Uzbekistan Railways · Afrosiyob下午班·购票目标</strong></p><p>15:30目标 → 18:00目标</p><p></p><ul><li>下午车购票目标；必须在次日国际航班前一日回塔什干。</li></ul><p><a href=\"https://eticket.railway.uz/en/home\" target=\"_blank\" rel=\"noopener noreferrer\">乌兹别克铁路官方订票入口 ↗</a></p></section><section class=\"transport-reference\"><h3>巴库 → 第比利斯</h3><p><strong>Azerbaijan Railways / ADY · 38次夜间卧铺·现行参考</strong></p><p>23:10 巴库时间 → 次日08:41 第比利斯时间</p><p>当前报道援引ADY的时刻；官网订票复核，非2027已售</p><ul><li>两地同为UTC+4。不要把新闻恢复开行等同2027当日可售，必须按中国护照入境/出境资格和正式车票核准。</li></ul><p><a href=\"https://ticket.ady.az/\" target=\"_blank\" rel=\"noopener noreferrer\">ADY官方订票入口 ↗</a> · <a href=\"https://report.az/en/amp/infrastructure/ady-resumes-baku-tbilisi-baku-passenger-transportation\" target=\"_blank\" rel=\"noopener noreferrer\">Report.az援引ADY恢复夜车公告 ↗</a></p></section><section class=\"transport-reference\"><h3>第比利斯 → 埃里温</h3><p><strong>Caucasus Travel（当前平台列名） · 日间跨境小巴·09:00购票目标</strong></p><p>09:00 第比利斯·目标 → 16:00 埃里温·含边检缓冲</p><p>已核路线运营商页面，09:00是建议购票目标，不是已确认班次</p><ul><li>双方同UTC+4，具体上车点按车票，先从Fabrika赴确认站点，不能默认Avlabari发车。</li></ul><p><a href=\"https://transport2.run.am/trip/tbilisi-to-yerevan\" target=\"_blank\" rel=\"noopener noreferrer\">TMS当前线路与承运商入口 ↗</a></p></section><section class=\"transport-reference\"><h3>萨拉热窝 → 莫斯塔尔 → 萨拉热窝</h3><p><strong>ŽFBH · 07:15去程；回程先查暑期周日表</strong></p><p>07:15 Sarajevo（现行） → 约09:15 Mostar；返程19:00→21:00为购票目标</p><p>官网2025/26表可读；2026暑期周五六日增开1390，2027待核</p><ul><li>D36是2027-08-15周日，不能直接套普通日17:09返程。官方2026暑期1390全段到Sarajevo21:54；2027开售后先落实莫斯塔尔返程列车或正规巴士，再排下午。</li><li>本日返程暂以19:00→21:00公路/铁路购票目标留位，无已核具体19:00班次。若只能21:54到萨城，应直接回Kucha，次日08:00东站巴士照常需要05:00起床。</li></ul><p><a href=\"https://www.zfbh.ba/en/red-voznje/\" target=\"_blank\" rel=\"noopener noreferrer\">ŽFBH官方时刻表与暑期周末注释 ↗</a></p></section>"
+      "html": "<h2>本轮交通衔接</h2><p>001Х现行19:05阿拉木图出发、次日约12:55抵塔什干；巴库夜车现行23:10→08:41。2027铁路未放票，保留运营方入口。8/20飞马16:50经SAW，次日00:30到赫尔格达；9/2 EK928 13:10→17:30，9/6 EK310 04:35→17:05采用本轮确认时刻。个人订单、PNR和实付只进本机区。</p><h3>D7 · 2027-07-17 · 阿拉木图→塔什干</h3><ul><li>13:30–15:00 返城取50L主包</li><li>15:00–16:00 采购车上晚餐早餐与水</li><li>16:00–17:30 赴阿拉木图2站与国际车票核验</li><li>17:30–19:05 进站候车与登001Х卧铺</li></ul><h3>D8 · 2027-07-18 · 塔什干·老城与地铁</h3><ul><li>08:00–12:55 仍在阿拉木图→塔什干列车上</li><li>12:55–14:00 抵塔什干、青旅寄包洗漱</li></ul><h3>D16 · 2027-07-26 · 巴库老城→第比利斯</h3><ul><li>08:00～08:45 早餐、退房与主包寄存</li><li>17:00～18:30 早晚餐与车上食品</li><li>18:30～19:45 取主包与最后洗漱</li><li>19:45～21:10（候选窗） 老城拟住片区→巴库火车站</li><li>21:10～22:40（候选窗） 国际夜车报到、护照与保险核验</li><li>22:40～23:10／23:10后（候选） 上车与赴第比利斯夜行</li></ul><h3>D17 · 2027-07-27 · 第比利斯·老城休整</h3><ul><li>18:30–20:45 Rike缆车与格鲁吉亚母亲像日落</li></ul><h3>D22 · 2027-08-01 · 埃里温→卡帕多奇亚</h3><ul><li>00:45–01:15 · 埃里温时间 埃里温住处 → EVN机场</li><li>05:40–08:00 伊城时间 萨比哈机场转机与午餐</li><li>10:15–12:00 机场 → 格雷梅；办理入住</li></ul><h3>D24 · 2027-08-03 · 卡帕绿线→夜巴</h3><ul><li>08:30–09:30 绿线团接车与行程确认</li><li>11:30–12:30 团车 → Ihlara峡谷方向</li><li>16:00–21:30 团车回格雷梅、晚餐与取包</li><li>21:30–22:30 格雷梅镇 → 票面汽车站报到</li></ul><h3>D26 · 2027-08-05 · 安塔利亚→Kaş·第1晚</h3><ul><li>06:30–07:00 早餐退房、主包留前台</li><li>10:30–12:15 返青旅取50L包并转Otogar</li><li>12:15–13:00 汽车站午餐并买水</li><li>13:00–13:30 核票与海岸巴士登车</li></ul><h3>D28 · 2027-08-07 · Kaş→费特希耶→夜巴</h3><ul><li>11:00–12:00 回老镇午餐、退房取包</li><li>13:30–14:45 Can Mocamp → Kaş Ağullu新汽车站</li><li>17:20–20:00 站内晚餐与候车休息</li><li>20:00–21:00 费特希耶站核车、装行李</li></ul><h3>D34 · 2027-08-13 · 伊斯坦布尔→萨拉热窝</h3><ul><li>09:20–10:20 · 伊城时间 早餐、退房与机场核验</li><li>10:20–12:20 · 伊城时间 老城 → 票面机场IST或SAW</li><li>16:15–17:15 萨城时间 入境、取包与机场补给</li></ul><h3>D36 · 2027-08-15 · 莫斯塔尔·当日往返</h3><ul><li>06:15–07:15 早餐与萨拉热窝站候车</li><li>07:15–09:15 Neretva风景铁路赴莫斯塔尔</li><li>16:15–17:09 候车与简餐</li><li>17:09–19:30 火车返萨拉热窝</li></ul><h3>D37 · 2027-08-16 · 萨拉热窝→贝尔格莱德</h3><ul><li>08:00–11:30 现行样例 Centrotrans a.d.：东萨拉热窝08:00发车</li><li>15:35–17:00 贝尔格莱德巴士站 → 青旅</li></ul><h3>D41 · 2027-08-20 · 贝尔格莱德→红海</h3><ul><li>08:30–09:15 早餐与当日航班检查</li><li>12:15–12:45 回住宿取50L主包</li><li>12:45–13:45 市中心前往BEG机场</li><li>13:45–15:50 两段联程值机、托运与出境</li><li>19:35–21:10 SAW国际转国际与简餐</li></ul><h3>D48 · 2027-08-27 · 菲莱神庙→候选夜车</h3><ul><li>17:00–18:30 取50L主包、晚餐与更衣</li><li>18:30–20:00 前往正式夜车上车点</li></ul><h3>D49 · 2027-08-28 · 开罗·老埃博与伊斯兰老城</h3><ul><li>12:00–12:45 乘车前往萨拉丁城堡</li></ul><h3>D51 · 2027-08-30 · 开罗→亚历山大→马特鲁</h3><ul><li>05:45–09:15 开罗→亚历山大早班铁路</li><li>09:15–09:45 车站→孔苏佳法地下墓穴</li><li>22:00–22:45 马特鲁入住与次晨车辆确认</li></ul><h3>D52 · 2027-08-31 · 马特鲁果冻海→开罗</h3><ul><li>06:30–07:00 早餐、退房与轻装装车</li><li>13:30–14:15 前往返开罗大巴上车点</li></ul><h3>D54 · 2027-09-02 · 开罗→迪拜 EK928</h3><ul><li>07:30–08:15 早餐、退房与提取50L主包</li><li>08:15–09:30 开罗市中心→CAI T2航站楼</li><li>09:30–12:20 EK928值机、托运、出境及候机</li><li>13:10–17:30 EK928 开罗→迪拜直飞</li><li>17:30–19:15 迪拜入境、取包与购买/充值交通卡</li></ul><h3>D57 · 2027-09-05 · 棕榈岛·Marina·朱美拉→机场</h3><ul><li>08:00–09:30 退房存主包并前往Dubai Marina</li><li>10:30–12:00 电车赴Palm Jumeirah站、棕榈岛入口与West Beach</li><li>18:45–21:30 晚餐、返回青旅取50L主包</li></ul><h3>D58 · 2027-09-06 · EK310直飞杭州·返校</h3><ul><li>00:00–03:35 DXB T3值机、托运、出境与候机</li><li>03:35–04:35 EK310登机</li><li>04:35–17:05 EK310 迪拜→杭州直飞</li></ul>"
     }
-  ]
+  ],
+  "schoolStartDate": "2027-09-07",
+  "revision58": {
+    "checked": "2026-11-08",
+    "patchedDays": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      17,
+      23,
+      25,
+      26,
+      29,
+      36,
+      41,
+      42,
+      44,
+      45,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "schoolStart": "2027-09-07",
+    "publicOrdersIncluded": false,
+    "nightCount": 57,
+    "paidNights": 49,
+    "notes": [
+      "亚历山大与马特鲁2天1晚保留",
+      "白天不安排洗衣与强制午睡",
+      "航空计划时刻与本机订单分开",
+      "机型为航司计划，可替换"
+    ]
+  }
 };
