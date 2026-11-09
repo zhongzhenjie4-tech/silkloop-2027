@@ -1,5 +1,5 @@
 window.TRIP_DATA = {
-  "version": "2026-11-09 · 卢克索衔接修订",
+  "version": "2026-11-09 · 预算取舍与伊城去重",
   "reviewed": "2026/11/9 · 票务最后入场与单轨状态再核",
   "title": "丝路随行",
   "subtitle": "58天 · 跨亚欧非10国 · 2027年7月11日—9月6日",
@@ -5609,9 +5609,9 @@ window.TRIP_DATA = {
         {
           "id": "d29r58-03",
           "time": "11:15–12:30",
-          "title": "地下水宫",
-          "detail": "<p>提前查本日场次与票价；普通/夜场、学生优惠不可混用，不能把室内项目都算免费。</p>",
-          "plain": "地下水宫 提前查本日场次与票价；普通/夜场、学生优惠不可混用，不能把室内项目都算免费。",
+          "title": "地下水宫（付费可选）",
+          "detail": "<p>是否入内按当日正式票价决定，旧1300TL和1950TL资料不当作2027报价。省钱方案可提前向Nakkaş确认Nakilbent古水窖的开放、预约、费用和是否可独立参观；店铺地址Nakilbent Sokak No:13，店铺当前09:00–18:00，不等于水窖保证开放。获确认后留20–30分钟，未确认不专程绕行。它是店内的小型历史展区，不等同地下水宫的规模与展示。</p>",
+          "plain": "地下水宫（付费可选）  是否入内按当日正式票价决定，旧1300TL和1950TL资料不当作2027报价。省钱方案可提前向Nakkaş确认Nakilbent古水窖的开放、预约、费用和是否可独立参观；店铺地址Nakilbent Sokak No:13，店铺当前09:00–18:00，不等于水窖保证开放。获确认后留20–30分钟，未确认不专程绕行。它是店内的小型历史展区，不等同地下水宫的规模与展示。 ",
           "links": [
             {
               "label": "打开具体地点导航",
@@ -5620,6 +5620,14 @@ window.TRIP_DATA = {
             {
               "label": "开放时间／运营依据",
               "url": "https://yerebatan.com/en/"
+            },
+            {
+              "label": "Nakkaş官方联系与店址",
+              "url": "https://nakkasrug.com/contact-us/"
+            },
+            {
+              "label": "Nakkaş古水窖候选导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Nakkas%20Nakilbent%20Sokak%2013%20Sultanahmet%20Istanbul"
             }
           ],
           "place": "rev58-d29-3",
@@ -5879,16 +5887,20 @@ window.TRIP_DATA = {
         {
           "id": "d30v2-08",
           "time": "13:30–14:30 建议",
-          "title": "伊斯坦布尔考古馆展厅",
-          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
-          "plain": "伊斯坦布尔考古馆展厅 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "title": "冷泉街 Soğukçeşme Sokağı→圣索菲亚外观",
+          "detail": "<p>午餐后沿托普卡帕宫墙与圣索菲亚之间的冷泉街步行，拍木屋外观与街巷，再走到圣索菲亚外侧。只走公共街道，不进入酒店、餐馆或收费展层；烈日时缩短街巷停留，在附近买水后接蓝色清真寺。伊斯坦布尔考古馆已在D29完整安排，今天不再次购票入馆。</p>",
+          "plain": "冷泉街 Soğukçeşme Sokağı→圣索菲亚外观  午餐后沿托普卡帕宫墙与圣索菲亚之间的冷泉街步行，拍木屋外观与街巷，再走到圣索菲亚外侧。只走公共街道，不进入酒店、餐馆或收费展层；烈日时缩短街巷停留，在附近买水后接蓝色清真寺。伊斯坦布尔考古馆已在D29完整安排，今天不再次购票入馆。 ",
           "links": [
             {
-              "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Archaeology%20Museums%20Turkey"
+              "label": "冷泉街具体位置",
+              "url": "https://www.google.com/maps/search/?api=1&query=So%C4%9Fuk%C3%A7e%C5%9Fme%20Soka%C4%9F%C4%B1%20Sultanahmet%20Istanbul"
+            },
+            {
+              "label": "街区修复机构介绍",
+              "url": "https://turing.tr/turing-mekanlari/"
             }
           ],
-          "place": null,
+          "place": "rev58-d29-4",
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -11579,9 +11591,9 @@ window.TRIP_DATA = {
         {
           "id": "d55r58-03",
           "time": "10:15–12:00",
-          "title": "Qasr Al Watan总统府",
-          "detail": "<p>将总统府从晚下午提前至上午，避免每日临时关门/最后入场时刻挤压。成人当前65AED，无已核实通用ISIC单次优惠。场地公务活动可能调整开放，以所订日期公告为准。</p>",
-          "plain": "Qasr Al Watan总统府 将总统府从晚下午提前至上午，避免每日临时关门/最后入场时刻挤压。成人当前65AED，无已核实通用ISIC单次优惠。场地公务活动可能调整开放，以所订日期公告为准。",
+          "title": "Qasr Al Watan总统府（付费可选）",
+          "detail": "<p>将总统府从晚下午提前至上午，避免每日临时关门/最后入场时刻挤压。成人当前65AED，无已核实通用ISIC单次优惠。场地公务活动可能调整开放，以所订日期公告为准。</p><p>预算优先时可跳过入内，改同一上午Corniche海滨公共步道；下一段去卢浮宫的起点随之改为实际海滨位置。当前65AED是门票参考，不把“不买票”登记为已经发生的退款或节省。</p>",
+          "plain": "Qasr Al Watan总统府（付费可选）  将总统府从晚下午提前至上午，避免每日临时关门/最后入场时刻挤压。成人当前65AED，无已核实通用ISIC单次优惠。场地公务活动可能调整开放，以所订日期公告为准。  预算优先时可跳过入内，改同一上午Corniche海滨公共步道；下一段去卢浮宫的起点随之改为实际海滨位置。当前65AED是门票参考，不把“不买票”登记为已经发生的退款或节省。 ",
           "links": [
             {
               "label": "打开具体地点导航",
@@ -11594,6 +11606,10 @@ window.TRIP_DATA = {
             {
               "label": "开放时间／运营依据",
               "url": "https://visitabudhabi.ae/en/things-to-do/culture/landmarks-and-architecture/qasr-al-watan"
+            },
+            {
+              "label": "不入总统府的海滨替代",
+              "url": "https://www.google.com/maps/search/?api=1&query=Corniche%20Beach%20Abu%20Dhabi"
             }
           ],
           "place": "rev58-d55-3",
@@ -21463,10 +21479,11 @@ window.TRIP_DATA = {
       "source": "2026-11-08按原稿自身低端机票目标和漏项复算；不含新增门票/接驳补足"
     },
     "unbookedAirfareTargetRangeCny": [
-      3972,
+      3772,
       4572
     ],
-    "executionWithAirfareUpperCny": 25483
+    "executionWithAirfareUpperCny": 25483,
+    "unbookedAirfarePurchaseTargetCny": 3772
   },
   "flightWatch": [
     {
@@ -21934,7 +21951,7 @@ window.TRIP_DATA = {
       "checked": "2026-11-08"
     }
   ],
-  "scheduleRevision": "verified-58-v2",
+  "scheduleRevision": "verified-58-v3",
   "ticketBundle": null,
   "privacy": {
     "publicPlanOnly": true,
