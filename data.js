@@ -1,5 +1,5 @@
 window.TRIP_DATA = {
-  "version": "2026-11-09 · 预算取舍与伊城去重",
+  "version": "2026-11-09 · 用餐拆分与夜游动线",
   "reviewed": "2026/11/9 · 票务最后入场与单轨状态再核",
   "title": "丝路随行",
   "subtitle": "58天 · 跨亚欧非10国 · 2027年7月11日—9月6日",
@@ -389,28 +389,83 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d3v2-09",
-          "time": "17:30–20:00",
-          "title": "返住宿片区晚餐、买过境干粮",
-          "detail": "<p>回六星街拟住片区吃面食或米饭，采购密封干粮和饮水；班车是否提供餐食不得默认。若班车未落实，不自行去边境赌现场车辆。</p>",
-          "plain": "返住宿片区晚餐、买过境干粮  回六星街拟住片区吃面食或米饭，采购密封干粮和饮水；班车是否提供餐食不得默认。若班车未落实，不自行去边境赌现场车辆。 ",
+          "id": "d3-meal-transfer-v17",
+          "time": "17:30–18:00",
+          "title": "客运核验点→晚餐店",
+          "detail": "<p>从已核验的国际班车站点返回餐厅片区；核验拖延时缩短后续街区步行，保留吃饭与证件整理。</p>",
+          "plain": "客运核验点→晚餐店 从已核验的国际班车站点返回餐厅片区；核验拖延时缩短后续街区步行，保留吃饭与证件整理。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=%E4%BC%8A%E7%8A%81%E5%B7%9E%E5%AE%A2%E8%BF%90%E6%80%BB%E7%AB%99%20%E4%BC%8A%E5%AE%81%E5%B8%82&destination=Liuxing%20Street%20Yining%20Xinjiang%20China&travelmode=driving"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E7%96%86%20%E8%A7%81%E9%9D%A2%20%E4%BC%8A%E7%8A%81%E5%91%B3%E9%81%93%20%E4%BC%8A%E5%AE%81"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d3v2-09",
+          "time": "18:00–19:00",
+          "title": "晚餐：疆·见面伊犁味道（斯大林街三巷店）",
+          "detail": "<p>一小时晚餐，过境干粮在店旁便利补给；餐厅临时关门或排队过长就改同片区便餐。</p>",
+          "plain": "晚餐：疆·见面伊犁味道（斯大林街三巷店） 一小时晚餐，过境干粮在店旁便利补给；餐厅临时关门或排队过长就改同片区便餐。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E7%96%86%20%E8%A7%81%E9%9D%A2%20%E4%BC%8A%E7%8A%81%E5%91%B3%E9%81%93%20%E6%96%AF%E5%A4%A7%E6%9E%97%E8%A1%97%E4%B8%89%E5%B7%B714%E5%8F%B7%20%E4%BC%8A%E5%AE%81%E5%B8%82"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d3-kazanqi-v17",
+          "time": "19:00–20:15",
+          "title": "喀赞其公共街巷与汉人街",
+          "detail": "<p>从餐厅按地图去喀赞其，拍公共街道与建筑外观；博物馆、民居院落和手风琴馆夜间入内均不作保证。</p>",
+          "plain": "喀赞其公共街巷与汉人街 从餐厅按地图去喀赞其，拍公共街道与建筑外观；博物馆、民居院落和手风琴馆夜间入内均不作保证。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E5%96%80%E8%B5%9E%E5%85%B6%E6%B0%91%E4%BF%97%E6%97%85%E6%B8%B8%E5%8C%BA%20%E4%BC%8A%E5%AE%81"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d3-six-v17",
+          "time": "20:15–21:15",
+          "title": "喀赞其→六星街街区",
+          "detail": "<p>先留约30分钟市内接驳，再走六星街公共街区。新疆钟表时间与日照有差异，不把21点写成保证夜色全黑。</p>",
+          "plain": "喀赞其→六星街街区 先留约30分钟市内接驳，再走六星街公共街区。新疆钟表时间与日照有差异，不把21点写成保证夜色全黑。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AD%E6%98%9F%E8%A1%97%20%E4%BC%8A%E5%AE%81"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d3v2-10",
-          "time": "20:00–21:30",
-          "title": "整理跨境证件与早睡",
-          "detail": "<p>护照、车票、阿拉木图住宿单和紧急联系资料离线保存；按已确认报到时间设闹钟。若当日未抵伊宁，整段顺延并同步调整后续订单。</p>",
-          "plain": "整理跨境证件与早睡  护照、车票、阿拉木图住宿单和紧急联系资料离线保存；按已确认报到时间设闹钟。若当日未抵伊宁，整段顺延并同步调整后续订单。 ",
+          "time": "21:15–21:45",
+          "title": "返回住宿并整理跨境材料",
+          "detail": "<p>核次日国际班车报到站点、护照与简餐，洗漱后休息；若今晚班车核验未完成，减少街区活动。</p>",
+          "plain": "返回住宿并整理跨境材料 核次日国际班车报到站点、护照与简餐，洗漱后休息；若今晚班车核验未完成，减少街区活动。",
           "links": [],
           "place": null,
           "highlight": false,
@@ -499,6 +554,18 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
+          "id": "d4v2-05",
+          "time": "09:00–12:00 哈国时间·弹性边检",
+          "title": "中国出境与哈萨克斯坦入境",
+          "detail": "<p>跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。</p>",
+          "plain": "中国出境与哈萨克斯坦入境  跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。 ",
+          "links": [],
+          "place": "khorgos",
+          "highlight": true,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
           "id": "d4v2-04",
           "time": "09:30–12:00 中国时间",
           "title": "伊宁→霍尔果斯口岸",
@@ -512,18 +579,6 @@ window.TRIP_DATA = {
           ],
           "place": "khorgos",
           "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d4v2-05",
-          "time": "09:00–12:00 哈国时间·弹性边检",
-          "title": "中国出境与哈萨克斯坦入境",
-          "detail": "<p>跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。</p>",
-          "plain": "中国出境与哈萨克斯坦入境  跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。 ",
-          "links": [],
-          "place": "khorgos",
-          "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
@@ -583,7 +638,8 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         }
       ],
       "extras": "T为国际客运票面开车；中国侧用北京时间，哈萨克斯坦侧切换当地时区。导航跨境线路只表示走廊，不代表口岸可自行步行通行。",
@@ -715,7 +771,8 @@ window.TRIP_DATA = {
           "place": "rev58-d5-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d5r58-05",
@@ -791,7 +848,8 @@ window.TRIP_DATA = {
           "place": "rev58-d5-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d5r58-09",
@@ -981,7 +1039,8 @@ window.TRIP_DATA = {
           "place": "rev58-d6-7",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d6r58-08",
@@ -1305,7 +1364,8 @@ window.TRIP_DATA = {
           "place": "rev58-d8-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d8r58-04",
@@ -1398,7 +1458,8 @@ window.TRIP_DATA = {
           "place": "rev58-d8-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d8r58-09",
@@ -1527,7 +1588,8 @@ window.TRIP_DATA = {
           "place": "rev58-d9-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d9r58-05",
@@ -1603,7 +1665,8 @@ window.TRIP_DATA = {
           "place": "rev58-d9-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d9r58-09",
@@ -1753,7 +1816,8 @@ window.TRIP_DATA = {
           "place": "rev58-d10-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d10r58-06",
@@ -1815,21 +1879,40 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d10r58-09",
-          "time": "17:30–19:00",
-          "title": "Magoki-Attori与晚餐",
-          "detail": "<p>如馆已停止售票便看建筑外观，再到Lyabi-Hauz附近吃饭。</p>",
-          "plain": "Magoki-Attori与晚餐 如馆已停止售票便看建筑外观，再到Lyabi-Hauz附近吃饭。",
+          "id": "d10-magoki-v17",
+          "time": "17:30–18:00",
+          "title": "Magoki-Attori外观→Lyabi-Hauz",
+          "detail": "<p>馆若已闭则看公共外观，随后步行到晚餐片区；不把闭馆后入内当作保证。</p>",
+          "plain": "Magoki-Attori外观→Lyabi-Hauz 馆若已闭则看公共外观，随后步行到晚餐片区；不把闭馆后入内当作保证。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Magoki%20Attori%20Mosque%20Bukhara"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Magoki%20Attori%20Bukhara"
             }
           ],
           "place": "rev58-d10-9",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d10r58-09",
+          "time": "18:00–19:00",
+          "title": "晚餐：Old Bukhara（布哈拉老城店）",
+          "detail": "<p>在Lyabi-Hauz一带的已列分店用餐一小时，之后接原池畔晚景。</p>",
+          "plain": "晚餐：Old Bukhara（布哈拉老城店） 在Lyabi-Hauz一带的已列分店用餐一小时，之后接原池畔晚景。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d10r58-10",
@@ -1959,31 +2042,32 @@ window.TRIP_DATA = {
         },
         {
           "id": "d11v2-06",
-          "time": "11:45–14:30",
-          "title": "午餐与顺路补给",
-          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
-          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "time": "11:45–12:45",
+          "title": "午餐：Emirhan Restaurant（Mahmudjanov 1/18店）",
+          "detail": "<p>抵达后到已列餐店午餐；主包寄存和入住登记在实际青旅完成，不以用餐卡覆盖整个下午。</p>",
+          "plain": "午餐：Emirhan Restaurant（Mahmudjanov 1/18店） 抵达后到已列餐店午餐；主包寄存和入住登记在实际青旅完成，不以用餐卡覆盖整个下午。",
           "links": [
             {
-              "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=%E6%92%92%E9%A9%AC%E5%B0%94%E7%BD%95"
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d11v2-07",
-          "time": "14:30–15:00",
-          "title": "拟住片区→雷吉斯坦售票入口",
-          "detail": "<p>短步行到广场，先核当天门票、学生票与闭馆时间；护照和实体ISIC备查，不预设优惠。</p>",
-          "plain": "拟住片区→雷吉斯坦售票入口  短步行到广场，先核当天门票、学生票与闭馆时间；护照和实体ISIC备查，不预设优惠。 ",
+          "time": "12:45–13:15",
+          "title": "餐厅→雷吉斯坦售票入口",
+          "detail": "<p>步行或短接驳到正式入口，先核票项及是否可重复入场。</p>",
+          "plain": "餐厅→雷吉斯坦售票入口 步行或短接驳到正式入口，先核票项及是否可重复入场。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Tashkent%20Street%20Samarkand%20Uzbekistan&destination=Registan%20Square%20Samarkand%20Uzbekistan&travelmode=walking"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Registan%20Samarkand"
             }
           ],
           "place": "registan",
@@ -1993,11 +2077,16 @@ window.TRIP_DATA = {
         },
         {
           "id": "d11v2-08",
-          "time": "15:00–17:30",
+          "time": "13:15–16:00",
           "title": "雷吉斯坦三座经学院",
-          "detail": "<p>停留2.5小时，先看主院落与建筑细节，再按体力看展；室外段穿插阴凉喝水。迟到则缩为90分钟重点，取消购物和附加讲解。</p>",
-          "plain": "雷吉斯坦三座经学院  停留2.5小时，先看主院落与建筑细节，再按体力看展；室外段穿插阴凉喝水。迟到则缩为90分钟重点，取消购物和附加讲解。 ",
-          "links": [],
+          "detail": "<p>留2小时45分钟看三座经学院的开放区域，午间以展厅和回廊串联，不默认每间房都有冷气。</p>",
+          "plain": "雷吉斯坦三座经学院 留2小时45分钟看三座经学院的开放区域，午间以展厅和回廊串联，不默认每间房都有冷气。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Registan%20Samarkand"
+            }
+          ],
           "place": "registan",
           "highlight": true,
           "status": "planned",
@@ -2005,14 +2094,14 @@ window.TRIP_DATA = {
         },
         {
           "id": "d11v2-09",
-          "time": "17:30–18:00",
+          "time": "16:00–16:30",
           "title": "雷吉斯坦→古尔埃米尔",
-          "detail": "<p>只有确认尚可入内且至少留45分钟才前往；否则将本段与下一段移D12，直接晚餐。</p>",
-          "plain": "雷吉斯坦→古尔埃米尔  只有确认尚可入内且至少留45分钟才前往；否则将本段与下一段移D12，直接晚餐。 ",
+          "detail": "<p>给步行、过街与售票留30分钟，避免18点才赶到陵墓。</p>",
+          "plain": "雷吉斯坦→古尔埃米尔 给步行、过街与售票留30分钟，避免18点才赶到陵墓。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Registan%20Square%20Samarkand%20Uzbekistan&destination=Gur%20e%20Amir%20Mausoleum%20Samarkand%20Uzbekistan&travelmode=walking"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gur%20e%20Amir%20Samarkand"
             }
           ],
           "place": "gur-emir",
@@ -2022,22 +2111,45 @@ window.TRIP_DATA = {
         },
         {
           "id": "d11v2-10",
-          "time": "18:00–18:45",
-          "title": "古尔埃米尔陵可选入内",
-          "detail": "<p>预计45分钟，先核门票和最后入场；若闭馆只看外观，不把已付雷吉斯坦票与陵墓票混为联票。拍摄尊重陵墓空间。</p>",
-          "plain": "古尔埃米尔陵可选入内  预计45分钟，先核门票和最后入场；若闭馆只看外观，不把已付雷吉斯坦票与陵墓票混为联票。拍摄尊重陵墓空间。 ",
-          "links": [],
+          "time": "16:30–17:30",
+          "title": "古尔埃米尔陵",
+          "detail": "<p>按实际售票与开放入内，无法入馆时看外观；不把晚间灯光当第二次免费入场。</p>",
+          "plain": "古尔埃米尔陵 按实际售票与开放入内，无法入馆时看外观；不把晚间灯光当第二次免费入场。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gur%20e%20Amir%20Samarkand"
+            }
+          ],
           "place": "gur-emir",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
+          "id": "d11-ruhobod-v17",
+          "time": "17:30–18:15",
+          "title": "Ruhobod陵墓周边外观",
+          "detail": "<p>从古尔埃米尔走到附近公共街区，参观外观，不增买未经取舍的门票。</p>",
+          "plain": "Ruhobod陵墓周边外观 从古尔埃米尔走到附近公共街区，参观外观，不增买未经取舍的门票。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Rukhobod%20Mausoleum%20Samarkand"
+            }
+          ],
+          "place": "gur-emir",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
           "id": "d11v2-11",
-          "time": "18:45–21:00",
-          "title": "返住宿片区、晚餐与休息",
-          "detail": "<p>返回雷吉斯坦拟住片区，吃热餐、登记住宿；备明日早起的饮水、防晒和学生证。陵墓未进则明确记到D12清单。</p>",
-          "plain": "返住宿片区、晚餐与休息  返回雷吉斯坦拟住片区，吃热餐、登记住宿；备明日早起的饮水、防晒和学生证。陵墓未进则明确记到D12清单。 ",
+          "time": "18:15–19:15",
+          "title": "晚餐与补水",
+          "detail": "<p>在雷吉斯坦或古尔埃米尔之间顺路便餐，一小时后接公共街区晚景。</p>",
+          "plain": "晚餐与补水 在雷吉斯坦或古尔埃米尔之间顺路便餐，一小时后接公共街区晚景。",
           "links": [
             {
               "label": "步行起终点导航",
@@ -2047,7 +2159,26 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d11-evening-v17",
+          "time": "19:15–21:15",
+          "title": "古尔埃米尔外观→雷吉斯坦晚景",
+          "detail": "<p>看傍晚和天色转暗的广场外观；灯光秀仅按当日正式公告选看，不承诺2027固定3D场次，也不默认二次入馆免费。</p>",
+          "plain": "古尔埃米尔外观→雷吉斯坦晚景 看傍晚和天色转暗的广场外观；灯光秀仅按当日正式公告选看，不承诺2027固定3D场次，也不默认二次入馆免费。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Registan%20Samarkand"
+            }
+          ],
+          "place": "registan",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "T/A分别是实际发车/抵达；若A晚于14:00，古尔埃米尔移D12，不把两个收费景点挤到闭馆前。",
@@ -2228,7 +2359,8 @@ window.TRIP_DATA = {
           "place": "rev58-d12-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d12r58-09",
@@ -2413,16 +2545,48 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d13v2-10",
-          "time": "19:00–20:30",
-          "title": "入住与晚餐",
-          "detail": "<p>先登记、取付款凭证，再就近晚餐；休息后整理登机所需行李，避免最后一晚远行逛街。</p>",
-          "plain": "入住与晚餐  先登记、取付款凭证，再就近晚餐；休息后整理登机所需行李，避免最后一晚远行逛街。 ",
+          "id": "d13-checkin-v17",
+          "time": "19:00–19:15",
+          "title": "青旅登记与放主包",
+          "detail": "<p>先办理登记、取得住宿凭证再去晚餐；晚到时改简餐，保留明日航班核验。</p>",
+          "plain": "青旅登记与放主包 先办理登记、取得住宿凭证再去晚餐；晚到时改简餐，保留明日航班核验。",
           "links": [],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d13v2-10",
+          "time": "19:15–20:15",
+          "title": "晚餐：Besh Qozon（Glinka 41A分店）",
+          "detail": "<p>按已列分店吃晚餐，不把住宿登记和后续称包算成就餐。</p>",
+          "plain": "晚餐：Besh Qozon（Glinka 41A分店） 按已列分店吃晚餐，不把住宿登记和后续称包算成就餐。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Besh%20Qozon%20Glinka%2041A%20Tashkent"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d13-return-v17",
+          "time": "20:15–20:30",
+          "title": "餐厅→青旅",
+          "detail": "<p>返回实际住宿，随后执行原航班值机、称包和闹钟任务。</p>",
+          "plain": "餐厅→青旅 返回实际住宿，随后执行原航班值机、称包和闹钟任务。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d13v2-11",
@@ -2601,21 +2765,53 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d14v2-10",
-          "time": "19:10–21:00",
-          "title": "返住宿、晚餐与铁路核票",
-          "detail": "<p>从海滨回老城拟住片区，确认D15团与D16夜车；ADY账号、OTP和国际车票是否可售均待核，不能因可登录就认为已购票。</p>",
-          "plain": "返住宿、晚餐与铁路核票  从海滨回老城拟住片区，确认D15团与D16夜车；ADY账号、OTP和国际车票是否可售均待核，不能因可登录就认为已购票。 ",
+          "id": "d14-dinner-transfer-v17",
+          "time": "19:10–19:30",
+          "title": "海滨→Firuze餐厅",
+          "detail": "<p>从实际海滨位置前往喷泉广场餐厅，转场不计作吃饭。</p>",
+          "plain": "海滨→Firuze餐厅 从实际海滨位置前往喷泉广场餐厅，转场不计作吃饭。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Baku%20Boulevard%20Denizkenari%20Milli%20Park%20Azerbaijan&destination=Icherisheher%20Metro%20Station%20Baku%20Azerbaijan&travelmode=walking"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Firuze%20Restaurant%20Baku"
+            }
+          ],
+          "place": "sebilj",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d14v2-10",
+          "time": "19:30–20:30",
+          "title": "晚餐：Firuzə Restaurant · 喷泉广场店",
+          "detail": "<p>一小时晚餐，先看总价和份量，不默认套餐或学生优惠。</p>",
+          "plain": "晚餐：Firuzə Restaurant · 喷泉广场店 一小时晚餐，先看总价和份量，不默认套餐或学生优惠。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Firuze%20Restaurant%20Tarlan%20Aliyarbeyov%2014%20Baku"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d14-return-v17",
+          "time": "20:30–21:00",
+          "title": "返宿与次日小团核验",
+          "detail": "<p>回住宿后确认Gobustan集合点与接车时间；国际夜车仍以实际出票和口岸规则为准。</p>",
+          "plain": "返宿与次日小团核验 回住宿后确认Gobustan集合点与接车时间；国际夜车仍以实际出票和口岸规则为准。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "F为TAS实际起飞时刻，B为巴库实际落地当地时间；不预填航班号或飞行时长。若B晚于18:00，删海滨散步。",
@@ -2815,21 +3011,71 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d15v2-12",
-          "time": "18:30–21:30",
-          "title": "回住宿、晚餐与夜车材料",
-          "detail": "<p>从高地公园回拟住老城片区，吃热餐、准备次日退房寄存；检查格鲁吉亚医疗险从7月26日过境日起有效，保存英文保单。</p>",
-          "plain": "回住宿、晚餐与夜车材料  从高地公园回拟住老城片区，吃热餐、准备次日退房寄存；检查格鲁吉亚医疗险从7月26日过境日起有效，保存英文保单。 ",
+          "id": "d15-dinner-transfer-v17",
+          "time": "18:30–19:00",
+          "title": "高地公园→喷泉广场餐厅",
+          "detail": "<p>下山和市内转场留30分钟，不能把18:30同时写成仍在高地公园和已在Araz用餐。</p>",
+          "plain": "高地公园→喷泉广场餐厅 下山和市内转场留30分钟，不能把18:30同时写成仍在高地公园和已在Araz用餐。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Highland%20Park%20Baku%20Azerbaijan&destination=Icherisheher%20Metro%20Station%20Baku%20Azerbaijan&travelmode=driving"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Araz%20Terrace%20Islam%20Safarli%201%20Baku"
+            }
+          ],
+          "place": "sebilj",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d15v2-12",
+          "time": "19:00–20:00",
+          "title": "晚餐：Araz Terrace / 原Araz Cafe · İslam Səfərli1店",
+          "detail": "<p>一小时晚餐后沿喷泉广场走向海滨，铁路和保险材料放回宿后核验。</p>",
+          "plain": "晚餐：Araz Terrace / 原Araz Cafe · İslam Səfərli1店 一小时晚餐后沿喷泉广场走向海滨，铁路和保险材料放回宿后核验。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Araz%20Terrace%201%20Islam%20Safarli%20Fountains%20Square%20Baku"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d15-evening-v17",
+          "time": "20:00–21:15",
+          "title": "喷泉广场→Baku Boulevard滨海步道",
+          "detail": "<p>在公共步道看傍晚与城市灯光；能看见时远观火焰塔，不承诺LED固定开演时间。</p>",
+          "plain": "喷泉广场→Baku Boulevard滨海步道 在公共步道看傍晚与城市灯光；能看见时远观火焰塔，不承诺LED固定开演时间。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Baku%20Boulevard"
+            }
+          ],
+          "place": "baku-boulevard",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d15-return-v17",
+          "time": "21:15–21:45",
+          "title": "返宿核保险与次日夜车",
+          "detail": "<p>确认次日退房寄存、格鲁吉亚保险生效日期与国际车票，不在夜游中丢掉必要准备。</p>",
+          "plain": "返宿核保险与次日夜车 确认次日退房寄存、格鲁吉亚保险生效日期与国际车票，不在夜游中丢掉必要准备。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "团内时间为操作窗口，接送与门票以运营方确认；泥火山是否到达、道路与安全开放受当天条件影响。",
@@ -2963,20 +3209,21 @@ window.TRIP_DATA = {
         },
         {
           "id": "d16v2-08",
-          "time": "12:40～14:00",
-          "title": "午餐与顺路补给",
-          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
-          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "time": "12:40–13:55",
+          "title": "午餐：Dolma Restaurant · 喷泉广场店",
+          "detail": "<p>用餐最多75分钟，之后按原时段接下午参观及夜车准备。</p>",
+          "plain": "午餐：Dolma Restaurant · 喷泉广场店 用餐最多75分钟，之后按原时段接下午参观及夜车准备。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Palace%20of%20the%20Shirvanshahs%20Baku%20Azerbaijan&destination=Icherisheher%20Metro%20Station%20Baku%20Azerbaijan&travelmode=walking"
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dolma%20Restaurant%208%20Mammadamin%20Rasulzade%20Baku"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d16v2-09",
@@ -3289,7 +3536,8 @@ window.TRIP_DATA = {
           "place": "tbilisi-oldtown",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d17r58-10",
@@ -3527,21 +3775,71 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d18v2-12",
-          "time": "16:00–21:30 含返城晚餐",
-          "title": "Gergeti→第比利斯、晚餐休息",
-          "detail": "<p>返程长且可能堵车，途中休息按导游安排；回Avlabari拟住片区吃简餐，核D19实际跨境客运站、发时和报到，晚归取消所有夜游。</p>",
-          "plain": "Gergeti→第比利斯、晚餐休息  返程长且可能堵车，途中休息按导游安排；回Avlabari拟住片区吃简餐，核D19实际跨境客运站、发时和报到，晚归取消所有夜游。 ",
+          "id": "d18-return-v17",
+          "time": "16:00–19:30 建议返城窗口",
+          "title": "Gergeti→第比利斯",
+          "detail": "<p>山区返程留完整路程及堵车窗口；Jvari不作必加停靠，只按实际团单。返城迟延则餐饮顺延，20:30后返城取消夜游。</p>",
+          "plain": "Gergeti→第比利斯 山区返程留完整路程及堵车窗口；Jvari不作必加停靠，只按实际团单。返城迟延则餐饮顺延，20:30后返城取消夜游。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gergeti%20Trinity%20Church%20Stepantsminda%20Georgia&destination=Avlabari%20Metro%20Station%20Tbilisi%20Georgia&travelmode=driving"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tbilisi%20Georgia"
+            }
+          ],
+          "place": "peace-bridge",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d18v2-12",
+          "time": "19:30–20:30 返城准时才执行",
+          "title": "晚餐：Maspindzelo · Gorgasali老城店",
+          "detail": "<p>确认回到第比利斯后用餐一小时；不是从16点起吃5.5小时。若团晚返，在实际下车片区吃便餐并取消夜游。</p>",
+          "plain": "晚餐：Maspindzelo · Gorgasali老城店 确认回到第比利斯后用餐一小时；不是从16点起吃5.5小时。若团晚返，在实际下车片区吃便餐并取消夜游。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Maspindzelo%207%20Gorgasali%20Tbilisi"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d18-evening-v17",
+          "time": "20:30–21:15 条件夜游",
+          "title": "和平桥与Rike Park短夜游",
+          "detail": "<p>只在团已准时返城、晚餐完成后走老城附近公共夜景，不再跨城加Fabrika。</p>",
+          "plain": "和平桥与Rike Park短夜游 只在团已准时返城、晚餐完成后走老城附近公共夜景，不再跨城加Fabrika。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Peace%20Bridge%20Tbilisi"
+            }
+          ],
+          "place": "peace-bridge",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d18-prepare-v17",
+          "time": "21:15–21:45",
+          "title": "返宿核次日跨境客运",
+          "detail": "<p>保存实际车站、发时和报到要求，夜游晚到时直接执行此项。</p>",
+          "plain": "返宿核次日跨境客运 保存实际车站、发时和报到要求，夜游晚到时直接执行此项。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "下列是团内顺序建议，实际停靠与集合遵从导游；雪山段不自行脱团徒步。",
@@ -3702,21 +4000,71 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d19v2-10",
-          "time": "19:15–21:30",
-          "title": "Cascade→共和国广场、晚餐与回住处",
-          "detail": "<p>从阶梯步行回广场方向吃热餐，看公共夜景即可；喷泉演出时刻与运营待核，不为演出熬夜。晚到版本广场只停15分钟。</p>",
-          "plain": "Cascade→共和国广场、晚餐与回住处  从阶梯步行回广场方向吃热餐，看公共夜景即可；喷泉演出时刻与运营待核，不为演出熬夜。晚到版本广场只停15分钟。 ",
+          "id": "d19-dinner-transfer-v17",
+          "time": "19:15–19:30",
+          "title": "Cascade→Tun Lahmajo餐厅",
+          "detail": "<p>从阶梯片区走向已列Teryan街分店；跨境晚到时删阶梯，不压缩通关或入住。</p>",
+          "plain": "Cascade→Tun Lahmajo餐厅 从阶梯片区走向已列Teryan街分店；跨境晚到时删阶梯，不压缩通关或入住。",
           "links": [
             {
-              "label": "步行起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Cascade%20Complex%20Yerevan%20Armenia&destination=Nalbandyan%20Street%20Yerevan%20Armenia&travelmode=walking"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tun%20Lahmajo%20Teryan%20Yerevan"
+            }
+          ],
+          "place": "cascade",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d19v2-10",
+          "time": "19:30–20:30",
+          "title": "晚餐：Tun Lahmajo · Teryan街店",
+          "detail": "<p>一小时晚餐，随后走北方大道回共和国广场，不把回住处和喷泉都藏在用餐卡。</p>",
+          "plain": "晚餐：Tun Lahmajo · Teryan街店 一小时晚餐，随后走北方大道回共和国广场，不把回住处和喷泉都藏在用餐卡。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tun%20Lahmajo%20Teryan%2023%20Yerevan"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d19-evening-v17",
+          "time": "20:30–21:30",
+          "title": "北方大道→共和国广场夜景",
+          "detail": "<p>先步行至广场，再按当天公告选择喷泉；不写2027每天固定演出保证，无演出也可看广场建筑夜景。</p>",
+          "plain": "北方大道→共和国广场夜景 先步行至广场，再按当天公告选择喷泉；不写2027每天固定演出保证，无演出也可看广场建筑夜景。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Republic%20Square%20Yerevan"
             }
           ],
           "place": "republic-square",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d19-return-v17",
+          "time": "21:30–21:45",
+          "title": "共和国广场→实际住宿",
+          "detail": "<p>结束夜游后回住宿，避免为等喷泉无限延长。</p>",
+          "plain": "共和国广场→实际住宿 结束夜游后回住宿，避免为等喷泉无限延长。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "T为实际巴士发车，A为埃里温到达当地时间。约6–8小时只是道路与过境规划区间，不能保证。客运站须向运营方确认。",
@@ -3927,16 +4275,89 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
+          "id": "d20-market-v17",
+          "time": "16:30–17:45 返团准时才执行",
+          "title": "Vernissage工艺品市场",
+          "detail": "<p>按当日摊位营业逛市场；若要改历史馆，须17:15最后入场前到、18:00闭馆前离开，门票另计，二者不同时强塞。</p>",
+          "plain": "Vernissage工艺品市场 按当日摊位营业逛市场；若要改历史馆，须17:15最后入场前到、18:00闭馆前离开，门票另计，二者不同时强塞。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Vernissage%20Yerevan"
+            }
+          ],
+          "place": "republic-square",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d20-square-v17",
+          "time": "17:45–18:30",
+          "title": "共和国广场周边→SAS餐店",
+          "detail": "<p>沿公共街段步行和补水，不重复昨天的Cascade必去项。</p>",
+          "plain": "共和国广场周边→SAS餐店 沿公共街段步行和补水，不重复昨天的Cascade必去项。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=SAS%20Food%20Court%20Amiryan%207%20Yerevan"
+            }
+          ],
+          "place": "republic-square",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
           "id": "d20v2-12",
-          "time": "16:30–21:00",
-          "title": "晚餐、休整与次日核验",
-          "detail": "<p>先吃饭洗漱，核Khor Virap半日交通往返、Matenadaran周六开放和最后入场；不把未核公共小巴时刻作为执行基准。</p>",
-          "plain": "晚餐、休整与次日核验  先吃饭洗漱，核Khor Virap半日交通往返、Matenadaran周六开放和最后入场；不把未核公共小巴时刻作为执行基准。 ",
+          "time": "18:30–19:30",
+          "title": "晚餐：SAS Food Court · Amiryan 7/1店",
+          "detail": "<p>在Amiryan街已列SAS分店用餐一小时，之后接市中心公共街区夜游。</p>",
+          "plain": "晚餐：SAS Food Court · Amiryan 7/1店 在Amiryan街已列SAS分店用餐一小时，之后接市中心公共街区夜游。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=SAS%20Food%20Court%207%2F1%20Amiryan%20Street%20Yerevan"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d20-evening-v17",
+          "time": "19:30–21:15",
+          "title": "歌剧院广场→天鹅湖→萨良街",
+          "detail": "<p>步行看广场、公共湖畔与街景；Cascade仅在D19没去时替换其中一段，不当重复必游。</p>",
+          "plain": "歌剧院广场→天鹅湖→萨良街 步行看广场、公共湖畔与街景；Cascade仅在D19没去时替换其中一段，不当重复必游。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Yerevan%20Opera%20Swan%20Lake"
+            }
+          ],
+          "place": "cascade",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d20-return-v17",
+          "time": "21:15–21:45",
+          "title": "返宿核次日半日交通",
+          "detail": "<p>确认Khor Virap半日往返和Matenadaran开放，按实际预约时间起床。</p>",
+          "plain": "返宿核次日半日交通 确认Khor Virap半日往返和Matenadaran开放，按实际预约时间起床。",
           "links": [],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "团内顺序、接送与具体停留按实际产品；门票、学生优惠、午餐是否已含须订团时核清。",
@@ -4053,31 +4474,32 @@ window.TRIP_DATA = {
         },
         {
           "id": "d21v2-07",
-          "time": "11:30～13:30",
-          "title": "午餐与顺路补给",
-          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
-          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "time": "11:30–12:30",
+          "title": "午餐：Tun Lahmajo · Teryan街店",
+          "detail": "<p>上午半日活动返城后吃一小时午餐，餐后直接去古籍馆。</p>",
+          "plain": "午餐：Tun Lahmajo · Teryan街店 上午半日活动返城后吃一小时午餐，餐后直接去古籍馆。",
           "links": [
             {
-              "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Matenadaran%20Yerevan"
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tun%20Lahmajo%20Teryan%2023%20Yerevan"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d21v2-08",
-          "time": "13:30～14:00",
-          "title": "拟住片区→Matenadaran",
-          "detail": "<p>公交或正规车前往，留30分钟含找入口；台阶前先补水，确认实体学生证/ISIC适用票种再购买。</p>",
-          "plain": "拟住片区→Matenadaran  公交或正规车前往，留30分钟含找入口；台阶前先补水，确认实体学生证/ISIC适用票种再购买。 ",
+          "time": "12:30–13:00",
+          "title": "餐厅→Matenadaran古籍馆",
+          "detail": "<p>给市内交通和找入口留30分钟，确认当天开放和最后入场。</p>",
+          "plain": "餐厅→Matenadaran古籍馆 给市内交通和找入口留30分钟，确认当天开放和最后入场。",
           "links": [
             {
-              "label": "驾车/接送起终点导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Nalbandyan%20Street%20Yerevan%20Armenia&destination=Matenadaran%20Mesrop%20Mashtots%20Avenue%20Yerevan&travelmode=driving"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Matenadaran%20Yerevan"
             }
           ],
           "place": "matenadaran",
@@ -4087,7 +4509,7 @@ window.TRIP_DATA = {
         },
         {
           "id": "d21v2-09",
-          "time": "14:00～16:00",
+          "time": "13:00–15:00",
           "title": "Matenadaran古籍馆；闭馆则二选一替代",
           "detail": "<p>计划2小时，重点看主要手稿与展厅，门票和拍摄政策以现场为准；最后入场较早则提前到或缩短午餐后机动。若13:30仍未能出发，先电话核接待再去。</p><p>闭馆替代：先核种族灭绝纪念馆当日营业，再从拟住片区乘车去，计划约90分钟，参观保持安静；与古籍馆严格二选一，两馆都关闭改室内休息与纪念区域外观。</p>",
           "plain": "Matenadaran古籍馆；闭馆则二选一替代  计划2小时，重点看主要手稿与展厅，门票和拍摄政策以现场为准；最后入场较早则提前到或缩短午餐后机动。若13:30仍未能出发，先电话核接待再去。  闭馆替代：先核种族灭绝纪念馆当日营业，再从拟住片区乘车去，计划约90分钟，参观保持安静；与古籍馆严格二选一，两馆都关闭改室内休息与纪念区域外观。 ",
@@ -4104,7 +4526,7 @@ window.TRIP_DATA = {
         },
         {
           "id": "d21v2-10",
-          "time": "16:00～16:30",
+          "time": "15:00–15:30",
           "title": "博物馆→拟住共和国广场片区",
           "detail": "<p>本链接从古籍馆返程；若选纪念馆，导航起点改该馆。回住处整理主包，不再加远处景点。</p>",
           "plain": "博物馆→拟住共和国广场片区  本链接从古籍馆返程；若选纪念馆，导航起点改该馆。回住处整理主包，不再加远处景点。 ",
@@ -4120,16 +4542,43 @@ window.TRIP_DATA = {
           "timeBasis": "suggested-window"
         },
         {
-          "id": "d21v2-11",
-          "time": "16:30～18:30",
-          "title": "洗漱、晚餐与轻量补给",
-          "detail": "<p>吃容易消化的晚餐，购次晨简餐；主包称重并把单肩包合包，飞马最低档座下包与8kg登机包并非同一种额度。</p>",
-          "plain": "洗漱、晚餐与轻量补给  吃容易消化的晚餐，购次晨简餐；主包称重并把单肩包合包，飞马最低档座下包与8kg登机包并非同一种额度。 ",
+          "id": "d21-wash-v17",
+          "time": "15:30–16:00",
+          "title": "返宿洗漱与购买次晨食品",
+          "detail": "<p>次晨红眼飞行，先买好不易洒漏的简餐，再整理托运和随身物品。</p>",
+          "plain": "返宿洗漱与购买次晨食品 次晨红眼飞行，先买好不易洒漏的简餐，再整理托运和随身物品。",
           "links": [],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d21v2-11",
+          "time": "16:00–17:00",
+          "title": "轻晚餐",
+          "detail": "<p>在青旅厨房或附近买已备简餐，控制一小时；今晚的提前睡眠用于应对次晨红眼航班。</p>",
+          "plain": "轻晚餐 在青旅厨房或附近买已备简餐，控制一小时；今晚的提前睡眠用于应对次晨红眼航班。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
+        },
+        {
+          "id": "d21-pack-v17",
+          "time": "17:00–18:30",
+          "title": "核航班、分装双包与预约凌晨接送",
+          "detail": "<p>核对04:15目标班次、联程机场、护照和当地时间；若实际票面变化则重排，不再加远处夜游。</p>",
+          "plain": "核航班、分装双包与预约凌晨接送 核对04:15目标班次、联程机场、护照和当地时间；若实际票面变化则重排，不再加远处夜游。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d21v2-12",
@@ -4283,15 +4732,39 @@ window.TRIP_DATA = {
         },
         {
           "id": "d22v2-09",
-          "time": "17:30–19:00",
-          "title": "Diadem附近晚餐、看球准备与早睡",
-          "detail": "<p>若抵达尚早，在格雷梅镇中心吃简餐、买饮水，向青旅确认明晨地面观球步行入口；晚到则直接休息，不追日落。住宿地址尚未确定，导航终点暂为镇中心，订房后须替换成实际酒店。</p>",
-          "plain": "Diadem附近晚餐、看球准备与早睡  若抵达尚早，在格雷梅镇中心吃简餐、买饮水，向青旅确认明晨地面观球步行入口；晚到则直接休息，不追日落。住宿地址尚未确定，导航终点暂为镇中心，订房后须替换成实际酒店。 ",
-          "links": [],
+          "time": "17:30–18:30",
+          "title": "晚餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店",
+          "detail": "<p>抵格雷梅后在镇中心已列分店吃一小时晚餐，红眼抵达日不追远端夜景。</p>",
+          "plain": "晚餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店 抵格雷梅后在镇中心已列分店吃一小时晚餐，红眼抵达日不追远端夜景。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d22-prepare-v17",
+          "time": "18:30–19:00",
+          "title": "格雷梅镇中心→青旅与次晨看球准备",
+          "detail": "<p>就近短走后回住宿，向青旅核地面观球入口、时间与风况；天气取消时不强求。</p>",
+          "plain": "格雷梅镇中心→青旅与次晨看球准备 就近短走后回住宿，向青旅核地面观球入口、时间与风况；天气取消时不强求。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Turkey"
+            }
+          ],
           "place": "goreme-ref",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "联程与分开票的行李、过境和误机保护不同，付款前核实。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p><p>D22不填虚构航班时刻。若机票为NAV，机场接驳请使用NAV→格雷梅而非ASR路线；国际及转机顺序以正式订单为准。</p>",
@@ -4404,7 +4877,8 @@ window.TRIP_DATA = {
           "place": "rev58-d23-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d23r58-05",
@@ -4480,7 +4954,8 @@ window.TRIP_DATA = {
           "place": "rev58-d23-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d23r58-09",
@@ -4637,21 +5112,89 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d24v2-08",
-          "time": "16:00–21:30",
-          "title": "团车回格雷梅、晚餐与取包",
-          "detail": "<p>通常需预留较长返程，实际回镇以团方确认。回镇先吃晚餐，再取主包、换干衣、充电和整理夜巴用品；至少给夜巴报到留2小时以上，不再追加日落徒步。</p>",
-          "plain": "团车回格雷梅、晚餐与取包  通常需预留较长返程，实际回镇以团方确认。回镇先吃晚餐，再取主包、换干衣、充电和整理夜巴用品；至少给夜巴报到留2小时以上，不再追加日落徒步。 ",
+          "id": "d24-return-v17",
+          "time": "16:00–18:30 按实际团单",
+          "title": "绿线末段与返格雷梅",
+          "detail": "<p>运营商常见18:00–18:30返酒店；保留峡谷返程及实际停靠，不把该路程算作晚餐。晚返时取消下面观景短访。</p>",
+          "plain": "绿线末段与返格雷梅 运营商常见18:00–18:30返酒店；保留峡谷返程及实际停靠，不把该路程算作晚餐。晚返时取消下面观景短访。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Ihlara%20Valley%20Entrance%20Turkey&destination=Goreme%20Town%20Centre%20Nevsehir%20Turkey&travelmode=driving"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Turkey"
+            }
+          ],
+          "place": "goreme-ref",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d24v2-08",
+          "time": "18:30–19:30 返团准时才执行",
+          "title": "晚餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店",
+          "detail": "<p>绿线返镇后吃一小时晚餐；如19点后才回来，餐饮顺延并取消观景，保留取包和车站报到。</p>",
+          "plain": "晚餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店 绿线返镇后吃一小时晚餐；如19点后才回来，餐饮顺延并取消观景，保留取包和车站报到。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d24-view-v17",
+          "time": "19:30–20:15 条件加项",
+          "title": "格雷梅镇边观景台短访",
+          "detail": "<p>仅准时返团、已确认往返步行且体力允许时去近处观景点；不承诺19:45已进入蓝调，不登远处山谷，20:15前开始取包。</p>",
+          "plain": "格雷梅镇边观景台短访 仅准时返团、已确认往返步行且体力允许时去近处观景点；不承诺19:45已进入蓝调，不登远处山谷，20:15前开始取包。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Sunset%20View%20Point"
+            }
+          ],
+          "place": "goreme-ref",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d24-bags-v17",
+          "time": "20:15–21:15",
+          "title": "取50L包、换干衣与整理夜巴用品",
+          "detail": "<p>按寄存点营业取齐行李，证件和充电宝随身；若团晚返，先完成这些动作，观景直接取消。</p>",
+          "plain": "取50L包、换干衣与整理夜巴用品 按寄存点营业取齐行李，证件和充电宝随身；若团晚返，先完成这些动作，观景直接取消。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d24-station-v17",
+          "time": "21:15–21:30",
+          "title": "实际青旅→票面格雷梅上车点",
+          "detail": "<p>按票面核Göreme Otogar或其他上车点，不能把镇内任意巴士站当正式登车点。</p>",
+          "plain": "实际青旅→票面格雷梅上车点 按票面核Göreme Otogar或其他上车点，不能把镇内任意巴士站当正式登车点。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Otogar"
             }
           ],
           "place": "goreme-bus",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d24v2-09",
@@ -4799,7 +5342,8 @@ window.TRIP_DATA = {
           "place": "rev58-d25-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d25r58-05",
@@ -4878,38 +5422,75 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25r58-09",
-          "time": "17:30–18:30",
-          "title": "Lara方向晚餐",
-          "detail": "<p>在东侧海岸顺路吃饭，保后续海岸日落窗口。</p>",
-          "plain": "Lara方向晚餐 在东侧海岸顺路吃饭，保后续海岸日落窗口。",
+          "id": "d25-food-transfer-v17",
+          "time": "17:30–18:00",
+          "title": "下杜登→TerraCity",
+          "detail": "<p>同侧公交或短接驳赴Fener片区商场，不折返老城Can Can。</p>",
+          "plain": "下杜登→TerraCity 同侧公交或短接驳赴Fener片区商场，不折返老城Can Can。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Lara%20Antalya"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=TerraCity%20Antalya"
             }
           ],
-          "place": "rev58-d25-9",
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d25r58-09",
+          "time": "18:00–19:00",
+          "title": "晚餐：Tavuk Dünyası · TerraCity分店",
+          "detail": "<p>TerraCity具名分店一小时晚餐，菜单超预算或排队超过15–20分钟时改商场便餐。</p>",
+          "plain": "晚餐：Tavuk Dünyası · TerraCity分店 TerraCity具名分店一小时晚餐，菜单超预算或排队超过15–20分钟时改商场便餐。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tavuk%20Dunyasi%20TerraCity%20Antalya"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d25r58-10",
+          "time": "19:00–20:15",
+          "title": "Fener海崖公共步道晚霞",
+          "detail": "<p>从商场步行/短接驳到Fener海崖公共区域，按实际日落看晚霞；不把远端Lara沙滩与Konyaaltı西滩塞进同一晚。</p>",
+          "plain": "Fener海崖公共步道晚霞 从商场步行/短接驳到Fener海崖公共区域，按实际日落看晚霞；不把远端Lara沙滩与Konyaaltı西滩塞进同一晚。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fener%20Parki%20Antalya"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d25r58-10",
-          "time": "18:30–20:30",
-          "title": "Lara海岸日落与返老城",
-          "detail": "<p>同侧海岸看晚霞后回住处；Konyaalti在城西，本日不折返。21:30后可洗衣并取次日用品。</p>",
-          "plain": "Lara海岸日落与返老城 同侧海岸看晚霞后回住处；Konyaalti在城西，本日不折返。21:30后可洗衣并取次日用品。",
+          "id": "d25-return-v17",
+          "time": "20:15–21:15",
+          "title": "Fener片区→老城青旅",
+          "detail": "<p>按实际公交及步行返老城，随后洗漱；保留必要交通而非把海岸与老城当步行相邻。</p>",
+          "plain": "Fener片区→老城青旅 按实际公交及步行返老城，随后洗漱；保留必要交通而非把海岸与老城当步行相邻。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Lara%20Beach%20Antalya"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kaleici%20Antalya"
             }
           ],
-          "place": "rev58-d25-10",
+          "place": "kaleici",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "<p>早到先问寄存/付费早入住，不默认免费床位；下杜登瀑布与老城有距离，疲劳优先补觉，海滩按体力择一。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
@@ -5111,7 +5692,8 @@ window.TRIP_DATA = {
           "place": "rev58-d26-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d26r58-09",
@@ -5318,7 +5900,8 @@ window.TRIP_DATA = {
           "place": "kas-harbour",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d27v2-12",
@@ -5423,7 +6006,8 @@ window.TRIP_DATA = {
           "place": "kas-oldtown",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d28v2-05",
@@ -5477,16 +6061,76 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d28v2-08",
-          "time": "17:20–20:00",
-          "title": "站内晚餐与候车休息",
-          "detail": "<p>到站先核承运柜台、下一程上车位置和行李寄存，吃晚餐、充电、上洗手间。保留至少2.5小时换乘余量，不去远端海滩绕行。</p>",
-          "plain": "站内晚餐与候车休息  到站先核承运柜台、下一程上车位置和行李寄存，吃晚餐、充电、上洗手间。保留至少2.5小时换乘余量，不去远端海滩绕行。 ",
-          "links": [],
+          "id": "d28-arrive-v17",
+          "time": "17:20–17:45",
+          "title": "费特希耶到站核后程与寄存条件",
+          "detail": "<p>先认后程柜台、上车点和行李保管条件；15:20→17:20只是现行样例，晚到时压缩站边短走。</p>",
+          "plain": "费特希耶到站核后程与寄存条件 先认后程柜台、上车点和行李保管条件；15:20→17:20只是现行样例，晚到时压缩站边短走。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar"
+            }
+          ],
           "place": "fethiye-bus",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d28v2-08",
+          "time": "17:45–18:45",
+          "title": "费特希耶站旁晚餐",
+          "detail": "<p>在站内或站旁先看菜单吃一小时便餐，不为找特定餐厅往返Ölüdeniz；不是坐着吃到20点。</p>",
+          "plain": "费特希耶站旁晚餐 在站内或站旁先看菜单吃一小时便餐，不为找特定餐厅往返Ölüdeniz；不是坐着吃到20点。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar"
+            }
+          ],
+          "place": "fethiye-bus",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d28-nearby-v17",
+          "time": "18:45–19:30",
+          "title": "Erasta站旁补给与短走",
+          "detail": "<p>前段准时且寄存明确时步行去邻近Erasta商场补水、补夜巴食品；不加入Ölüdeniz与岩墓远绕，19:30前回站。</p>",
+          "plain": "Erasta站旁补给与短走 前段准时且寄存明确时步行去邻近Erasta商场补水、补夜巴食品；不加入Ölüdeniz与岩墓远绕，19:30前回站。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Erasta%20Fethiye%20AVM"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d28-bags-v17",
+          "time": "19:30–20:00",
+          "title": "取包、洗手间与夜巴用品分装",
+          "detail": "<p>取50L包、核随身贵重物品，20点开始按票面报到；不取消一小时核车装包余量。</p>",
+          "plain": "取包、洗手间与夜巴用品分装 取50L包、核随身贵重物品，20点开始按票面报到；不取消一小时核车装包余量。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar"
+            }
+          ],
+          "place": "fethiye-bus",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d28v2-09",
@@ -5516,7 +6160,7 @@ window.TRIP_DATA = {
               "url": "https://www.google.com/maps/dir/?api=1&origin=Fethiye%20Otogar%20Bus%20Terminal%20Turkey&destination=Esenler%20Otogari%20Istanbul%20Turkey&travelmode=driving"
             }
           ],
-          "place": "alibeykoy",
+          "place": "esenler",
           "highlight": true,
           "status": "planned",
           "timeBasis": "clock-plan"
@@ -5667,7 +6311,8 @@ window.TRIP_DATA = {
           "place": "rev58-d29-2",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d29r58-06",
@@ -5726,7 +6371,8 @@ window.TRIP_DATA = {
           "place": "rev58-d29-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d29r58-09",
@@ -5882,7 +6528,8 @@ window.TRIP_DATA = {
           "place": "hippodrome",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d30v2-08",
@@ -6000,7 +6647,8 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         }
       ],
       "extras": "<p>主案周一托普卡帕宫、周二多尔玛巴赫切宫；新疆+1时前者移至8/12周四，8/10周二改Fener/Balat，8/11周三多尔玛巴赫切。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
@@ -6130,7 +6778,8 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d31v2-08",
@@ -6217,7 +6866,8 @@ window.TRIP_DATA = {
           "place": "istiklal",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d31v2-14",
@@ -6347,7 +6997,8 @@ window.TRIP_DATA = {
           "place": "balat",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d32v2-07",
@@ -6446,7 +7097,8 @@ window.TRIP_DATA = {
           "place": "spice-bazaar",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d32v2-14",
@@ -6584,21 +7236,40 @@ window.TRIP_DATA = {
           "timeBasis": "suggested-window"
         },
         {
-          "id": "d33v2-07",
-          "time": "12:15–13:30 建议",
-          "title": "午餐与顺路补给",
-          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
-          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "id": "d33-lunch-transfer-v17",
+          "time": "12:15–12:30",
+          "title": "Moda→Kadıköy餐厅街",
+          "detail": "<p>按实时步行路线返回Güneşlibahçe街具体店，移动时间与午餐分开。</p>",
+          "plain": "Moda→Kadıköy餐厅街 按实时步行路线返回Güneşlibahçe街具体店，移动时间与午餐分开。",
           "links": [
             {
               "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Istanbul"
+              "url": "https://www.google.com/maps/search/?api=1&query=Ciya%20Sofrasi%20Kadikoy%20Istanbul"
             }
           ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d33v2-07",
+          "time": "12:30–13:30",
+          "title": "午餐：Çiya Sofrası · Kadıköy Güneşlibahçe店",
+          "detail": "<p>在Kadıköy市集具名店吃一小时午餐，餐后再去Üsküdar，不把Moda和餐厅当同一位置。</p>",
+          "plain": "午餐：Çiya Sofrası · Kadıköy Güneşlibahçe店 在Kadıköy市集具名店吃一小时午餐，餐后再去Üsküdar，不把Moda和餐厅当同一位置。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%C3%87iya%20Sofras%C4%B1%20G%C3%BCne%C5%9Flibah%C3%A7e%20Sokak%2043%20Kad%C4%B1k%C3%B6y%20Istanbul"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d33v2-08",
@@ -6677,15 +7348,57 @@ window.TRIP_DATA = {
         },
         {
           "id": "d33v2-13",
-          "time": "17:30–20:00",
-          "title": "Salacak晚餐与日落",
-          "detail": "<p>先在近处吃晚餐，再在开放海岸看少女塔方向夕色；日落真实时刻届时核对。若天气差或回程班次不利，提前离开，不为等日落赌末班。</p>",
-          "plain": "Salacak晚餐与日落  先在近处吃晚餐，再在开放海岸看少女塔方向夕色；日落真实时刻届时核对。若天气差或回程班次不利，提前离开，不为等日落赌末班。 ",
-          "links": [],
+          "time": "17:30–18:30",
+          "title": "晚餐：Kanaat Lokantası · Üsküdar Selmani Pak总店",
+          "detail": "<p>在Üsküdar Selmani Pak 9号Kanaat总店吃一小时，随后去Salacak；它不是Salacak海边店。</p>",
+          "plain": "晚餐：Kanaat Lokantası · Üsküdar Selmani Pak总店 在Üsküdar Selmani Pak 9号Kanaat总店吃一小时，随后去Salacak；它不是Salacak海边店。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kanaat%20Lokantas%C4%B1%20Selmani%20Pak%20Caddesi%209%20%C3%9Csk%C3%BCdar%20Istanbul"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
+        },
+        {
+          "id": "d33-salacak-transfer-v17",
+          "time": "18:30–19:00",
+          "title": "Kanaat→Salacak海岸",
+          "detail": "<p>步行或短接驳到公共海岸，给少女塔方向摄影留独立时段。</p>",
+          "plain": "Kanaat→Salacak海岸 步行或短接驳到公共海岸，给少女塔方向摄影留独立时段。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salacak%20Istanbul"
+            }
+          ],
           "place": "salacak",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d33-salacak-view-v17",
+          "time": "19:00–20:00",
+          "title": "Salacak海岸与少女塔外观",
+          "detail": "<p>按实际天光看海岸外观，不含登塔票；20点按原渡轮/地铁方案回老城。</p>",
+          "plain": "Salacak海岸与少女塔外观 按实际天光看海岸外观，不含登塔票；20点按原渡轮/地铁方案回老城。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Salacak%20Istanbul"
+            }
+          ],
+          "place": "salacak",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d33v2-14",
@@ -6866,7 +7579,8 @@ window.TRIP_DATA = {
           "place": "sebilj",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d34v2-09",
@@ -7002,7 +7716,8 @@ window.TRIP_DATA = {
           "place": "bascarsija",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d35v2-07",
@@ -7119,7 +7834,8 @@ window.TRIP_DATA = {
           "place": "bascarsija",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d35v2-14",
@@ -7254,7 +7970,8 @@ window.TRIP_DATA = {
           "place": "rev58-d36-5",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d36r58-06",
@@ -7524,7 +8241,8 @@ window.TRIP_DATA = {
           "place": "belgrade-republic",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d37v2-09",
@@ -7658,7 +8376,8 @@ window.TRIP_DATA = {
           "place": "belgrade-republic",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d38v2-07",
@@ -7737,15 +8456,39 @@ window.TRIP_DATA = {
         },
         {
           "id": "d38v2-13",
-          "time": "18:30–20:00 建议",
-          "title": "市中心晚餐与傍晚短走",
-          "detail": "<p>在共和国广场周围吃晚餐、看街景天光，疲劳就取消晚走；日落时刻届时核，不另外跨城追夕阳。</p>",
-          "plain": "市中心晚餐与傍晚短走  在共和国广场周围吃晚餐、看街景天光，疲劳就取消晚走；日落时刻届时核，不另外跨城追夕阳。 ",
-          "links": [],
-          "place": "belgrade-republic",
+          "time": "18:30–19:30",
+          "title": "晚餐：Walter · Dorćol店",
+          "detail": "<p>在已列Dorćol分店吃一小时，之后再走街区，不把散步算成用餐。</p>",
+          "plain": "晚餐：Walter · Dorćol店 在已列Dorćol分店吃一小时，之后再走街区，不把散步算成用餐。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Walter%20Sarajevski%20Cevap%20Strahinjica%20Bana%2057%20Belgrade"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
+        },
+        {
+          "id": "d38-evening-v17",
+          "time": "19:30–20:00",
+          "title": "Dorćol→Skadarlija公共街区",
+          "detail": "<p>沿中心城区顺路短走，20点接原返宿安排，不额外跨城追日落。</p>",
+          "plain": "Dorćol→Skadarlija公共街区 沿中心城区顺路短走，20点接原返宿安排，不额外跨城追日落。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Skadarlija%20Belgrade"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d38v2-14",
@@ -7895,7 +8638,8 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d39v2-08",
@@ -7977,7 +8721,8 @@ window.TRIP_DATA = {
           "place": "knez",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d39v2-14",
@@ -8143,7 +8888,8 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d40v2-08",
@@ -8213,7 +8959,8 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d40v2-13",
@@ -8415,28 +9162,68 @@ window.TRIP_DATA = {
           "place": "rev58-d41-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Belgrade",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d41r58-09",
-          "time": "19:35–21:10",
-          "title": "SAW国际转国际与简餐",
-          "detail": "<p>跟随国际转机标志，确认HRG航班登机口后再吃简餐；2小时15分钟为航班之间的计划间隔。</p>",
-          "plain": "SAW国际转国际与简餐 跟随国际转机标志，确认HRG航班登机口后再吃简餐；2小时15分钟为航班之间的计划间隔。",
+          "time": "19:35–20:10 伊城时间",
+          "title": "SAW国际转机安检与确认登机口",
+          "detail": "<p>跟随国际转机标志，先完成转机安检并确认21:50目标航班登机口；仍在伊城机场，不导航到赫尔格达餐厅。</p>",
+          "plain": "SAW国际转机安检与确认登机口 跟随国际转机标志，先完成转机安检并确认21:50目标航班登机口；仍在伊城机场，不导航到赫尔格达餐厅。",
           "links": [
             {
-              "label": "打开具体地点导航",
+              "label": "具体地点导航",
               "url": "https://www.google.com/maps/search/?api=1&query=Sabiha%20Gokcen%20International%20Airport"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://www.flypgs.com/en/travel-glossary/connecting-flight-transit-flight"
             }
           ],
-          "place": "rev58-d41-8",
+          "place": "saw",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
+        },
+        {
+          "id": "d41-meal-v17",
+          "time": "20:10–20:40 伊城时间",
+          "title": "SAW空侧简餐",
+          "detail": "<p>只选已确认可达的国际出发空侧店，30分钟简餐；晚点或排队就用自备食品，不离开空侧。</p>",
+          "plain": "SAW空侧简餐 只选已确认可达的国际出发空侧店，30分钟简餐；晚点或排队就用自备食品，不离开空侧。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Simit%20Sarayi%20Sabiha%20Gokcen%20International%20Departures"
+            }
+          ],
+          "place": "saw",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "meal",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
+        },
+        {
+          "id": "d41-gate-v17",
+          "time": "20:40–21:50 伊城时间",
+          "title": "前往HRG登机口与登机",
+          "detail": "<p>目标21:10前到登机口，按登机牌截止时间执行；21:50是计划起飞时刻，不是到登机口的时刻。</p>",
+          "plain": "前往HRG登机口与登机 目标21:10前到登机口，按登机牌截止时间执行；21:50是计划起飞时刻，不是到登机口的时刻。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sabiha%20Gokcen%20International%20Airport"
+            }
+          ],
+          "place": "saw",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d41r58-10",
@@ -8457,7 +9244,9 @@ window.TRIP_DATA = {
           "place": "rev58-d41-10",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Africa/Cairo"
         }
       ],
       "extras": "<p>准备：护照、已生效e-Visa、离境机票、住宿单、保险英文版、埃及数据与少量EGP；住宿地址未定，不提供虚构酒店导航。</p><p>删减：晚到取消Marina；若BEG→HRG改日期，重排埃及接续并保住2027-09-05到校，不自动整体顺延。全部航空待用户观察填写。</p>",
@@ -8672,24 +9461,61 @@ window.TRIP_DATA = {
         },
         {
           "id": "d42r58-10",
-          "time": "17:30–19:30",
-          "title": "码头日落与晚餐",
-          "detail": "<p>回Marina片区看夕光，晚餐沿用已筛餐厅；当天不再加收费水族馆。</p>",
-          "plain": "码头日落与晚餐 回Marina片区看夕光，晚餐沿用已筛餐厅；当天不再加收费水族馆。",
+          "time": "17:30–18:30",
+          "title": "晚餐：Koshary El Tahrir · El Dahar老城店",
+          "detail": "<p>先在El Dahar已筛店用餐，确认门头与价格后吃；若改Sheraton备选，后续交通起点一并改，不在老城和码头之间来回找店。</p>",
+          "plain": "晚餐：Koshary El Tahrir · El Dahar老城店 先在El Dahar已筛店用餐，确认门头与价格后吃；若改Sheraton备选，后续交通起点一并改，不在老城和码头之间来回找店。",
           "links": [
             {
-              "label": "打开具体地点导航",
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Koshary%20El%20Tahrir%20El%20Dahar%20Church%20Street%20Mafesh%20Moshkla%20Hurghada"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d42-marina-transfer-v17",
+          "time": "18:30–19:00",
+          "title": "El Dahar→Hurghada Marina",
+          "detail": "<p>按公交/正规短接驳返码头片区，交通与吃饭分开；晚点就缩短码头摄影。</p>",
+          "plain": "El Dahar→Hurghada Marina 按公交/正规短接驳返码头片区，交通与吃饭分开；晚点就缩短码头摄影。",
+          "links": [
+            {
+              "label": "具体地点导航",
               "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Marina"
             }
           ],
-          "place": "rev58-d42-7",
+          "place": "hurghada-marina",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d42-marina-view-v17",
+          "time": "19:00–19:45",
+          "title": "Marina游艇港晚景",
+          "detail": "<p>走公共开放滨水区域，不承诺此时仍是日落前；摄影后回实际住宿。</p>",
+          "plain": "Marina游艇港晚景 走公共开放滨水区域，不承诺此时仍是日落前；摄影后回实际住宿。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Marina"
+            }
+          ],
+          "place": "hurghada-marina",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d42r58-11",
-          "time": "19:30–20:30",
+          "time": "19:45–20:30",
           "title": "确认次日出海接人信息",
           "detail": "<p>回青旅核对接人位置、救生衣、浮潜装备及午餐是否包含；充电和机洗放在返宿后的晚间操作。</p>",
           "plain": "确认次日出海接人信息 回青旅核对接人位置、救生衣、浮潜装备及午餐是否包含；充电和机洗放在返宿后的晚间操作。",
@@ -8852,14 +9678,14 @@ window.TRIP_DATA = {
         },
         {
           "id": "d43v2-10",
-          "time": "15:30–17:30建议",
-          "title": "正规红海出海团",
-          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
-          "plain": "正规红海出海团 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "time": "15:30–17:30 按团单返港",
+          "title": "返港接驳、洗漱与Sheraton短走",
+          "detail": "<p>接上前段点名返送；按实际团单完成返宿洗漱，早到可在Sheraton Road顺路短走，不重复安排第二轮出海。</p>",
+          "plain": "返港接驳、洗漱与Sheraton短走 接上前段点名返送；按实际团单完成返宿洗漱，早到可在Sheraton Road顺路短走，不重复安排第二轮出海。",
           "links": [
             {
               "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Hurghada%20Marina%20Egypt"
+              "url": "https://www.google.com/maps/search/?api=1&query=Sheraton%20Road%20Hurghada"
             }
           ],
           "place": null,
@@ -8869,15 +9695,21 @@ window.TRIP_DATA = {
         },
         {
           "id": "d43v2-11",
-          "time": "18:00–19:00建议",
-          "title": "晚餐：烤鸡、米饭与蔬菜",
-          "detail": "<p>选择住宿附近明码标价店，晚餐预算180–300 EGP；为明早准备面包、水和便携食物。检查主包尽量干燥，湿物独立包好。</p>",
-          "plain": "晚餐：烤鸡、米饭与蔬菜  选择住宿附近明码标价店，晚餐预算180–300 EGP；为明早准备面包、水和便携食物。检查主包尽量干燥，湿物独立包好。 ",
-          "links": [],
+          "time": "18:00–19:00",
+          "title": "晚餐：Star Fish Restaurant · Sheraton Street主店",
+          "detail": "<p>出海后在Sheraton Street的Star Fish主店用餐，海鲜先核重量及加工总价，超预算改简餐。</p>",
+          "plain": "晚餐：Star Fish Restaurant · Sheraton Street主店 出海后在Sheraton Street的Star Fish主店用餐，海鲜先核重量及加工总价，超预算改简餐。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Star%20Fish%20Restaurant%20Sheraton%20Street%20Wahib%20Stores%20Hurghada"
+            }
+          ],
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window"
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
         },
         {
           "id": "d43v2-12",
@@ -9127,7 +9959,8 @@ window.TRIP_DATA = {
           "place": "rev58-d44-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         }
       ],
       "extras": "<p>卢克索神庙当前19点最后入场、文物部页面20点闭馆；不把19点当出发去买票的时间。若大巴晚到，先保17:55神庙，小馆改D45晚场前半段；不重复购票入神庙。</p>",
@@ -9422,7 +10255,8 @@ window.TRIP_DATA = {
           "place": "rev58-d44-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         }
       ],
       "extras": "<p>上午保留帝王谷、女王庙、工匠村、哈布城和门农巨像；下午不安排强制午睡。晚场大馆与帆船按先馆后船衔接，门票不重复计费。</p>",
@@ -9610,7 +10444,8 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d46v2-12",
@@ -9756,7 +10591,8 @@ window.TRIP_DATA = {
           "place": "rev58-d47-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d47r58-06",
@@ -9988,7 +10824,8 @@ window.TRIP_DATA = {
           "place": "rev58-d47-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d48r58-07",
@@ -10178,7 +11015,8 @@ window.TRIP_DATA = {
           "place": "rev58-d49-3",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d49r58-04",
@@ -10537,7 +11375,8 @@ window.TRIP_DATA = {
           "place": "rev58-d49-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d50r58-11",
@@ -10684,25 +11523,62 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d51r58-06",
-          "time": "11:30–12:30",
-          "title": "前往海滨与午餐",
-          "detail": "<p>吃饭和横穿市区合计留1小时，不把老城到新图书馆当10分钟固定车程。</p>",
-          "plain": "前往海滨与午餐 吃饭和横穿市区合计留1小时，不把老城到新图书馆当10分钟固定车程。",
+          "id": "d51-lunch-transfer-v17",
+          "time": "11:30–11:50",
+          "title": "庞培柱→Mansheya海滨午餐店",
+          "detail": "<p>留市内接驳，不把离开遗址的时间当已经坐到餐桌；交通延误就缩短用餐并用午餐备用。</p>",
+          "plain": "庞培柱→Mansheya海滨午餐店 留市内接驳，不把离开遗址的时间当已经坐到餐桌；交通延误就缩短用餐并用午餐备用。",
           "links": [
             {
-              "label": "打开具体地点导航",
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kadoura%20Mansheya%20Alexandria"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d51r58-06",
+          "time": "11:50–12:35",
+          "title": "午餐：Kadoura Seafood · Mansheya海滨分店",
+          "detail": "<p>午餐控制45分钟；报价过高或等位超过15分钟则换便餐，保图书馆与上车截止时间。</p>",
+          "plain": "午餐：Kadoura Seafood · Mansheya海滨分店 午餐控制45分钟；报价过高或等位超过15分钟则换便餐，保图书馆与上车截止时间。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kadoura%206V2P%2BVRQ%20El%20Gaish%20Road%20Mansheya%20Alexandria"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d51-library-transfer-v17",
+          "time": "12:35–13:00",
+          "title": "餐厅→亚历山大新图书馆",
+          "detail": "<p>按实时市内交通到图书馆入口，核实际开放与安检排队。</p>",
+          "plain": "餐厅→亚历山大新图书馆 按实时市内交通到图书馆入口，核实际开放与安检排队。",
+          "links": [
+            {
+              "label": "具体地点导航",
               "url": "https://www.google.com/maps/search/?api=1&query=Bibliotheca%20Alexandrina"
             }
           ],
           "place": "rev58-d51-6",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d51r58-07",
-          "time": "12:30–14:15",
+          "time": "13:00–14:00",
           "title": "亚历山大新图书馆与馆内展览",
           "detail": "<p>周一在官方开放日；外国学生联票当前120EGP可含主馆/古迹馆/手稿馆，古迹馆周日至周四09:30–16:45。</p>",
           "plain": "亚历山大新图书馆与馆内展览 周一在官方开放日；外国学生联票当前120EGP可含主馆/古迹馆/手稿馆，古迹馆周日至周四09:30–16:45。",
@@ -10722,8 +11598,26 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
+          "id": "d51-qaitbay-transfer-v17",
+          "time": "14:00–14:25",
+          "title": "新图书馆→奎特贝海角",
+          "detail": "<p>留海滨道路交通时间，堵车时缩短城堡停留，不压缩正式汽车站报到。</p>",
+          "plain": "新图书馆→奎特贝海角 留海滨道路交通时间，堵车时缩短城堡停留，不压缩正式汽车站报到。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Qaitbay%20Citadel%20Alexandria"
+            }
+          ],
+          "place": "rev58-d51-8",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
           "id": "d51r58-08",
-          "time": "14:15–15:45",
+          "time": "14:25–15:30",
           "title": "奎特贝城堡与海滨",
           "detail": "<p>先用30分钟沿海接驳，再参观约1小时；官方当前学生100EGP。</p>",
           "plain": "奎特贝城堡与海滨 先用30分钟沿海接驳，再参观约1小时；官方当前学生100EGP。",
@@ -10743,11 +11637,29 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
+          "id": "d51-bus-transfer-v17",
+          "time": "15:30–16:45",
+          "title": "海角→所购车票的正式上车站",
+          "detail": "<p>按车票核Moharam Bek、Smouha或其他站，最迟16:45到；不再绕Raml Station堂食。</p>",
+          "plain": "海角→所购车票的正式上车站 按车票核Moharam Bek、Smouha或其他站，最迟16:45到；不再绕Raml Station堂食。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Moharam%20Bek%20Bus%20Station%20Alexandria"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
           "id": "d51r58-09",
-          "time": "15:45–17:15",
-          "title": "前往正式马特鲁大巴站并简餐",
-          "detail": "<p>从海角到Moharam Bek或Smouha等售票指定上车点预留45–60分钟；只认所购车票站点。</p>",
-          "plain": "前往正式马特鲁大巴站并简餐 从海角到Moharam Bek或Smouha等售票指定上车点预留45–60分钟；只认所购车票站点。",
+          "time": "16:45–17:10",
+          "title": "站前便携晚餐与补水",
+          "detail": "<p>在已到达的汽车站吃提前准备或现场便餐；Mohamed Ahmed只保留为午餐备用，不强制另去堂食。</p>",
+          "plain": "站前便携晚餐与补水 在已到达的汽车站吃提前准备或现场便餐；Mohamed Ahmed只保留为午餐备用，不强制另去堂食。",
           "links": [
             {
               "label": "打开具体地点导航",
@@ -10761,7 +11673,21 @@ window.TRIP_DATA = {
           "place": "rev58-d51-9",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d51-board-v17",
+          "time": "17:10–17:30",
+          "title": "核车号与登马特鲁大巴",
+          "detail": "<p>按正式票面站点和截止时间登车，17:30仍是选班目标。</p>",
+          "plain": "核车号与登马特鲁大巴 按正式票面站点和截止时间登车，17:30仍是选班目标。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d51r58-10",
@@ -10970,7 +11896,8 @@ window.TRIP_DATA = {
           "place": "rev58-d52-8",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d52r58-09",
@@ -11029,7 +11956,8 @@ window.TRIP_DATA = {
           "place": "rev58-d49-1",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         }
       ],
       "extras": "",
@@ -11258,21 +12186,40 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d53r58-11",
-          "time": "17:00–18:30",
-          "title": "晚餐与尼罗河畔街区",
-          "detail": "<p>寄卡保留为可选：仅在已确认营业的柜台投寄；不假定17点后邮局仍开，也不为寄卡挤占NMEC参观。</p>",
-          "plain": "晚餐与尼罗河畔街区 寄卡保留为可选：仅在已确认营业的柜台投寄；不假定17点后邮局仍开，也不为寄卡挤占NMEC参观。",
+          "id": "d53-dinner-transfer-v17",
+          "time": "17:00–17:30",
+          "title": "NMEC→开罗市中心餐店",
+          "detail": "<p>留实际回市中心路程，堵车时顺延晚餐并缩短扎马雷克夜景。</p>",
+          "plain": "NMEC→开罗市中心餐店 留实际回市中心路程，堵车时顺延晚餐并缩短扎马雷克夜景。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Cairo"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Koshary%20Abou%20Tarek%20Downtown%20Cairo"
             }
           ],
-          "place": "rev58-d49-1",
+          "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d53r58-11",
+          "time": "17:30–18:30",
+          "title": "晚餐：Koshary Abou Tarek · Shamblion市中心总店",
+          "detail": "<p>在市中心总店吃一小时，餐后再去扎马雷克，不在餐卡里藏回程交通。</p>",
+          "plain": "晚餐：Koshary Abou Tarek · Shamblion市中心总店 在市中心总店吃一小时，餐后再去扎马雷克，不在餐卡里藏回程交通。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d53r58-12",
@@ -11488,27 +12435,64 @@ window.TRIP_DATA = {
           "startTimezone": "Asia/Dubai"
         },
         {
-          "id": "d54r58-08",
-          "time": "20:30–22:00",
-          "title": "晚餐＋迪拜湾或Al Seef夜景",
-          "detail": "<p>以青旅所在片区选择步行可达晚餐与夜景，保留活动内容，不安排白天午睡或额外洗衣卡。</p>",
-          "plain": "晚餐＋迪拜湾或Al Seef夜景 以青旅所在片区选择步行可达晚餐与夜景，保留活动内容，不安排白天午睡或额外洗衣卡。",
+          "id": "d54-dinner-transfer-v17",
+          "time": "20:30–20:45",
+          "title": "Satwa住宿片区→晚餐分店",
+          "detail": "<p>以现有Satwa/DWTC住宿候选为前提步行去附近分店；实际改住别区时先重排餐店。</p>",
+          "plain": "Satwa住宿片区→晚餐分店 以现有Satwa/DWTC住宿候选为前提步行去附近分店；实际改住别区时先重排餐店。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Al%20Seef%20Dubai"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://www.visitdubai.com/"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Karachi%20Darbar%20Satwa%20284%20Dubai"
             }
           ],
-          "place": "rev58-d54-8",
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity",
+          "startTimezone": "Asia/Dubai",
+          "endTimezone": "Asia/Dubai"
+        },
+        {
+          "id": "d54r58-08",
+          "time": "20:45–21:45",
+          "title": "晚餐：Karachi Darbar · Satwa / 284D90店",
+          "detail": "<p>入住后在Satwa284分店吃一小时晚餐，不再横城赴Deira。</p>",
+          "plain": "晚餐：Karachi Darbar · Satwa / 284D90店 入住后在Satwa284分店吃一小时晚餐，不再横城赴Deira。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Karachi%20Darbar%20Satwa%20284%20D90%20Dubai%20043490202"
+            }
+          ],
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan",
           "endTimezone": "Asia/Dubai",
-          "startTimezone": "Asia/Dubai"
+          "startTimezone": "Asia/Dubai",
+          "activityType": "meal"
+        },
+        {
+          "id": "d54-evening-v17",
+          "time": "21:45–22:15",
+          "title": "Al Dhiyafah／2nd December街短走返宿",
+          "detail": "<p>在住宿附近公共街道看夜景，22:15左右返宿；Marina远端夜游留在D57同侧行程。</p>",
+          "plain": "Al Dhiyafah／2nd December街短走返宿 在住宿附近公共街道看夜景，22:15左右返宿；Marina远端夜游留在D57同侧行程。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=2nd%20December%20Street%20Satwa%20Dubai"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity",
+          "startTimezone": "Asia/Dubai",
+          "endTimezone": "Asia/Dubai"
         }
       ],
       "extras": "",
@@ -11648,7 +12632,8 @@ window.TRIP_DATA = {
           "place": "rev58-d55-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d55r58-05",
@@ -11813,28 +12798,43 @@ window.TRIP_DATA = {
         },
         {
           "id": "d56r58-03",
-          "time": "11:30–12:30",
-          "title": "Deira午餐后乘地铁赴Emirates Towers",
-          "detail": "<p>留完整午餐及地铁转乘窗口，避免把Al Fahidi到未来博物馆误写成紧邻步行。</p>",
-          "plain": "Deira午餐后乘地铁赴Emirates Towers 留完整午餐及地铁转乘窗口，避免把Al Fahidi到未来博物馆误写成紧邻步行。",
+          "time": "11:30–12:15",
+          "title": "午餐：Aroos Damascus · Al Muraqqabat / Deira店",
+          "detail": "<p>黄金/香料市场后在Deira分店吃45分钟，餐后另留地铁去未来馆的时间。</p>",
+          "plain": "午餐：Aroos Damascus · Al Muraqqabat / Deira店 黄金/香料市场后在Deira分店吃45分钟，餐后另留地铁去未来馆的时间。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Emirates%20Towers%20Metro%20Station%20Dubai"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://www.rta.ae/"
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Aroos%20Damascus%20Green%20Palace%20Hotel%20Al%20Muraqqabat%20Deira%20Dubai"
             }
           ],
-          "place": "rev58-d56-3",
+          "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d56-metro-v17",
+          "time": "12:15–13:15",
+          "title": "Deira→Emirates Towers站与未来馆外侧",
+          "detail": "<p>包含地铁、换乘及步行，不能把Deira午餐和未来馆当紧邻地点。</p>",
+          "plain": "Deira→Emirates Towers站与未来馆外侧 包含地铁、换乘及步行，不能把Deira午餐和未来馆当紧邻地点。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20the%20Future%20Dubai"
+            }
+          ],
+          "place": "future-museum",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d56r58-04",
-          "time": "12:30–14:00",
+          "time": "13:15–14:15",
           "title": "未来博物馆建筑外观与可进入的公共区",
           "detail": "<p>主线拍书法环建筑与现场开放的公共区域，不把付费展层写成免费参观；是否可进大厅按现场管理。入展当前169AED，属于另选项目；若买票，使用约2–3小时并删去其他加项。</p>",
           "plain": "未来博物馆建筑外观与可进入的公共区 主线拍书法环建筑与现场开放的公共区域，不把付费展层写成免费参观；是否可进大厅按现场管理。入展当前169AED，属于另选项目；若买票，使用约2–3小时并删去其他加项。",
@@ -11858,71 +12858,141 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d56r58-05",
-          "time": "14:00–17:00",
-          "title": "Dubai Mall、免费水族馆幕墙与室内商业空间",
-          "detail": "<p>走商场公共区域和水族馆外侧幕墙，不包括收费隧道与水下动物园。主线不再额外塞Dubai Frame和登哈利法塔两张票；相框成人50AED可另选替换未来馆段。</p>",
-          "plain": "Dubai Mall、免费水族馆幕墙与室内商业空间 走商场公共区域和水族馆外侧幕墙，不包括收费隧道与水下动物园。主线不再额外塞Dubai Frame和登哈利法塔两张票；相框成人50AED可另选替换未来馆段。",
+          "id": "d56-mall-transfer-v17",
+          "time": "14:15–14:45",
+          "title": "未来馆→Dubai Mall",
+          "detail": "<p>乘地铁/接驳到商场，计入站内及长连廊步行。</p>",
+          "plain": "未来馆→Dubai Mall 乘地铁/接驳到商场，计入站内及长连廊步行。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Aquarium%20and%20Underwater%20Zoo%20Dubai%20Mall"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://thedubaimall.com/"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://www.dubaiframe.ae/en/plan-your-visit"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Mall"
             }
           ],
-          "place": "rev58-d56-5",
+          "place": "dubai-mall",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d56r58-05",
+          "time": "14:45–15:45",
+          "title": "Dubai Mall免费水族馆幕墙",
+          "detail": "<p>只看公共区域巨大玻璃幕墙，不包括收费隧道、动物园或其他体验票。</p>",
+          "plain": "Dubai Mall免费水族馆幕墙 只看公共区域巨大玻璃幕墙，不包括收费隧道、动物园或其他体验票。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Aquarium%20Dubai%20Mall"
+            }
+          ],
+          "place": "dubai-mall",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d56r58-06",
-          "time": "17:00–18:30",
-          "title": "Souk Al Bahar桥与哈利法塔外观",
-          "detail": "<p>从商场步行到湖畔与桥面机位，保留傍晚摄影；主线是塔外观，不含At the Top付费登塔。</p>",
-          "plain": "Souk Al Bahar桥与哈利法塔外观 从商场步行到湖畔与桥面机位，保留傍晚摄影；主线是塔外观，不含At the Top付费登塔。",
+          "id": "d56-indoor-v17",
+          "time": "15:45–17:15",
+          "title": "Dubai Mall室内瀑布→恐龙化石公共展区",
+          "detail": "<p>按商场导览走公共瀑布和Dino化石区域，包含大商场步行与去二楼餐饮区；临时围挡就改其他公共空间，不新增收费项目。</p>",
+          "plain": "Dubai Mall室内瀑布→恐龙化石公共展区 按商场导览走公共瀑布和Dino化石区域，包含大商场步行与去二楼餐饮区；临时围挡就改其他公共空间，不新增收费项目。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Souk%20Al%20Bahar%20Bridge%20Dubai"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://www.burjkhalifa.ae/en/"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Dino%20Dubai%20Mall"
             }
           ],
-          "place": "rev58-d56-6",
+          "place": "dubai-mall",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d56r58-07",
-          "time": "18:30–21:30",
-          "title": "晚餐、喷泉与Downtown夜景",
-          "detail": "<p>按当天喷泉正式演出公告看场次，不写2027固定保证时刻。今晚第三个付费住宿夜，回青旅后可顺手机洗，白天不设洗衣卡。</p>",
-          "plain": "晚餐、喷泉与Downtown夜景 按当天喷泉正式演出公告看场次，不写2027固定保证时刻。今晚第三个付费住宿夜，回青旅后可顺手机洗，白天不设洗衣卡。",
+          "time": "17:15–18:15",
+          "title": "晚餐：ALBAIK · Dubai Mall Second Floor店",
+          "detail": "<p>ALBAIK二楼/P7 Cinema方向分店，一小时含排队与出餐；15–20分钟明显超时就换同层便餐，不挤掉湖畔夜景。</p>",
+          "plain": "晚餐：ALBAIK · Dubai Mall Second Floor店 ALBAIK二楼/P7 Cinema方向分店，一小时含排队与出餐；15–20分钟明显超时就换同层便餐，不挤掉湖畔夜景。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Fountain%20Dubai%20Mall"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://thedubaimall.com/"
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=ALBAIK%20Dubai%20Mall%20Second%20Floor%20Food%20Court%20P7%20Cinema%20Parking"
             }
           ],
-          "place": "rev58-d56-7",
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d56-lake-transfer-v17",
+          "time": "18:15–18:45",
+          "title": "ALBAIK→Souk Al Bahar桥与湖畔",
+          "detail": "<p>给商场楼层、出口和湖畔步行留30分钟，不把餐厅与喷泉机位当同一点。</p>",
+          "plain": "ALBAIK→Souk Al Bahar桥与湖畔 给商场楼层、出口和湖畔步行留30分钟，不把餐厅与喷泉机位当同一点。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Souk%20Al%20Bahar%20Bridge%20Dubai"
+            }
+          ],
+          "place": "sebilj",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d56r58-06",
+          "time": "18:45–20:30",
+          "title": "哈利法塔湖畔与音乐喷泉夜景",
+          "detail": "<p>按当天正式公告选看喷泉；现行晚间半小时一场仅作参考，不保证2027固定场次、塔身整点灯光或每个方向都无遮挡。</p>",
+          "plain": "哈利法塔湖畔与音乐喷泉夜景 按当天正式公告选看喷泉；现行晚间半小时一场仅作参考，不保证2027固定场次、塔身整点灯光或每个方向都无遮挡。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20Fountain"
+            }
+          ],
+          "place": "dubai-fountain",
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d56-boulevard-v17",
+          "time": "20:30–21:00",
+          "title": "Sheikh Mohammed bin Rashid Boulevard短走",
+          "detail": "<p>沿Downtown公共步道看城市夜景，再去地铁或接驳点；不再付费登塔。</p>",
+          "plain": "Sheikh Mohammed bin Rashid Boulevard短走 沿Downtown公共步道看城市夜景，再去地铁或接驳点；不再付费登塔。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sheikh%20Mohammed%20bin%20Rashid%20Boulevard%20Dubai"
+            }
+          ],
+          "place": "dubai-mall",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d56-return-v17",
+          "time": "21:00–22:15",
+          "title": "Downtown→实际青旅",
+          "detail": "<p>留地铁、步行和末段接驳回Satwa/DWTC等实际住宿片区；不是21:30已经自动回到青旅。</p>",
+          "plain": "Downtown→实际青旅 留地铁、步行和末段接驳回Satwa/DWTC等实际住宿片区；不是21:30已经自动回到青旅。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         }
       ],
       "extras": "",
@@ -12026,30 +13096,45 @@ window.TRIP_DATA = {
         },
         {
           "id": "d57r58-04",
-          "time": "12:00–15:00",
-          "title": "午餐、商场室内逛展与超市采购",
-          "detail": "<p>选Mall of the Emirates的Carrefour一站完成午餐、空调室内活动和椰枣等采购；伴手礼预算单列自选，不因有托运额就默认买满。</p>",
-          "plain": "午餐、商场室内逛展与超市采购 选Mall of the Emirates的Carrefour一站完成午餐、空调室内活动和椰枣等采购；伴手礼预算单列自选，不因有托运额就默认买满。",
+          "time": "12:00–13:00",
+          "title": "午餐：Mall of the Emirates／Carrefour便携餐",
+          "detail": "<p>在该商场同一地点吃一小时现成简餐或美食广场便餐，随后再采购；不把3小时超市与商场时间都标成午餐。</p>",
+          "plain": "午餐：Mall of the Emirates／Carrefour便携餐 在该商场同一地点吃一小时现成简餐或美食广场便餐，随后再采购；不把3小时超市与商场时间都标成午餐。",
           "links": [
             {
-              "label": "打开具体地点导航",
+              "label": "具体地点导航",
               "url": "https://www.google.com/maps/search/?api=1&query=Carrefour%20Mall%20of%20the%20Emirates%20Dubai"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://www.malloftheemirates.com/"
             }
           ],
           "place": "rev58-d57-4",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d57-shopping-v17",
+          "time": "13:00–15:00",
+          "title": "Mall of the Emirates室内与Carrefour采购",
+          "detail": "<p>同一商场完成室内步行、饮水和自选采购，伴手礼另计；不是因为有托运额就默认购买满额。</p>",
+          "plain": "Mall of the Emirates室内与Carrefour采购 同一商场完成室内步行、饮水和自选采购，伴手礼另计；不是因为有托运额就默认购买满额。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Carrefour%20Mall%20of%20the%20Emirates%20Dubai"
+            }
+          ],
+          "place": "rev58-d57-4",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d57r58-05",
           "time": "15:00–18:45",
           "title": "Madinat Jumeirah古堡市集与帆船酒店外观",
-          "detail": "<p>公交/短程车到古堡市集，在公共可走区域拍运河和Burj Al Arab外观；海滩机位按实际开放入口选择，不把酒店私有海滩写成免费。</p>",
+          "detail": "<p>从商场乘公交/短接驳到Madinat Jumeirah，公共步道看运河、帆船酒店外观及晚霞。只走实际开放的海滨入口；最晚18:45开始返住宿片区，若要留到19:15，晚餐改45分钟便携餐，不能同时保证一小时堂食与宽松取包。</p>",
           "plain": "Madinat Jumeirah古堡市集与帆船酒店外观 公交/短程车到古堡市集，在公共可走区域拍运河和Burj Al Arab外观；海滩机位按实际开放入口选择，不把酒店私有海滩写成免费。",
           "links": [
             {
@@ -12067,25 +13152,53 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d57r58-06",
-          "time": "18:45–21:30",
-          "title": "晚餐、返回青旅取50L主包",
-          "detail": "<p>先回住宿片区吃饭，21:30前取齐寄存行李、套托运保护袋。晚上不再横穿城市加景点。</p>",
-          "plain": "晚餐、返回青旅取50L主包 先回住宿片区吃饭，21:30前取齐寄存行李、套托运保护袋。晚上不再横穿城市加景点。",
+          "id": "d57-return-v17",
+          "time": "18:45–20:00",
+          "title": "Madinat→实际青旅片区",
+          "detail": "<p>先回Satwa/DWTC等已选住宿片区，乘车和步行留75分钟；不要把返程隐藏在晚餐卡。</p>",
+          "plain": "Madinat→实际青旅片区 先回Satwa/DWTC等已选住宿片区，乘车和步行留75分钟；不要把返程隐藏在晚餐卡。",
           "links": [
             {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=BurJuman%20Metro%20Station%20Dubai"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://www.rta.ae/"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Satwa%20Dubai"
             }
           ],
-          "place": "rev58-d54-7",
+          "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d57r58-06",
+          "time": "20:00–21:00",
+          "title": "晚餐：Karachi Darbar · Satwa / 284D90店",
+          "detail": "<p>在住宿附近已列分店吃一小时收官餐；晚返改外带，保留21:30赴机场。</p>",
+          "plain": "晚餐：Karachi Darbar · Satwa / 284D90店 在住宿附近已列分店吃一小时收官餐；晚返改外带，保留21:30赴机场。",
+          "links": [
+            {
+              "label": "餐厅具体分店导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Karachi%20Darbar%20Satwa%20284%20D90%20Dubai%20043490202"
+            }
+          ],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d57-bags-v17",
+          "time": "21:00–21:30",
+          "title": "取50L主包与套托运保护袋",
+          "detail": "<p>按与青旅约定的寄存和取包时间取齐行李，分装电池和证件后赴机场；寄存是否收费、晚取是否允许须事先确认。</p>",
+          "plain": "取50L主包与套托运保护袋 按与青旅约定的寄存和取包时间取齐行李，分装电池和证件后赴机场；寄存是否收费、晚取是否允许须事先确认。",
+          "links": [],
+          "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
         },
         {
           "id": "d57r58-07",
@@ -21951,7 +23064,7 @@ window.TRIP_DATA = {
       "checked": "2026-11-08"
     }
   ],
-  "scheduleRevision": "verified-58-v3",
+  "scheduleRevision": "verified-58-v4-meals",
   "ticketBundle": null,
   "privacy": {
     "publicPlanOnly": true,
@@ -22790,6 +23903,7 @@ window.TRIP_DATA = {
     "luxorSplit": [
       44,
       45
-    ]
+    ],
+    "mealSplitReview": "2026-11-09"
   }
 };

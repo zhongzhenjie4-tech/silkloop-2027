@@ -26,10 +26,10 @@
  // These two route texts must lead to the chosen restaurant before Salacak.
  const r33=D.days[32].rows.find(r=>r.id==='d33v2-12');
  if(r33){r33.title='Kuzguncuk → Üsküdar Kanaat餐厅';r33.detail='<p>16:45–17:30用公交/正规接驳返Üsküdar中心SelmaniPak9号Kanaat总店，按实时导航。先吃晚餐再去Salacak，不先到海岸再走回餐厅。</p>';r33.links=[{label:'前往Kanaat餐厅',url:'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent('Kuzguncuk Istanbul')+'&destination='+encodeURIComponent(shops['istanbul-kanaat-uskudar'].mapQuery)+'&travelmode=transit'}];}
- for(const [id,label] of [['d6v2-10','晚餐与洗衣'],['d8v2-04','午餐与到站补给'],['d8v2-11','晚餐与返宿登记'],['d9v2-06','入住、午餐与室内参观'],['d10v2-09','午餐后继续游览'],['d11v2-06','午餐与入住'],['d13v2-10','入住与晚餐'],['d17v2-11','晚餐后返住处'],['d18v2-12','返城晚餐与休息'],['d19v2-10','晚餐与返回住处'],['d20v2-12','晚餐与休整'],['d24v2-08','晚餐、取包与赴站'],['d28v2-04','午餐、退房取包'],['d37v2-08','入住、洗澡与晚餐']]){const m=mealsByRow[id];if(m)getRow(m).title=label+'：'+short(shops[m.shop]);}
+ // Meal rows are separate activities; never rename a transfer, queue or night walk as dinner.
  for(const d of D.days)for(const r of d.rows)if(r.dining||r===r33)r.plain=r.title+' '+(r.originalDiningTitle||'')+' '+r.detail.replace(/<[^>]+>/g,' ')+(r.dining?' '+shops[r.dining.shop].address+' '+shops[r.dining.shop].dishes:'');
  F.summary=id=>{const m=mealsByRow[id];return m?'<p class="meal-hint">'+E(shops[m.shop].address)+' · 食物'+range(shops[m.shop].budgetCny)+'</p>':base.summary(id);};
- F.details=id=>{const m=mealsByRow[id];return m?'<section class="meal-block"><p class="dining-small">本时段也保留：'+E(getRow(m).originalDiningTitle)+'</p>'+mealHTML(m,true)+'<p class="dining-small">现场自付，饮水与饮品另计；2027价格/营业须再核。未核冷气强度、插座与餐厅学生折扣。等位＋出餐超过15–20分钟换自备简餐，赶车更早放弃。</p></section>':base.details(id);};
+ F.details=id=>{const m=mealsByRow[id];return m?'<section class="meal-block"><p class="dining-small">用餐安排：'+E(getRow(m).originalDiningTitle)+'</p>'+mealHTML(m,true)+'<p class="dining-small">现场自付，饮水与饮品另计；2027价格/营业须再核。未核冷气强度、插座与餐厅学生折扣。等位＋出餐超过15–20分钟换自备简餐，赶车更早放弃。</p></section>':base.details(id);};
  F.overview=dayHTML;Object.assign(F.shops,shops);
  const g=D.guides.find(g=>g.id==='food');if(g){g.title='具体餐厅、三餐与饮水';g.html=guideHTML();}
  const sourceGuide=D.guides.find(g=>g.id==='sources');if(sourceGuide)sourceGuide.html=sourceGuide.html.replace('本次制作没有新增网络查询、购票、投保或商家联系。','本次餐厅与明信片模块另有2026-11-05网络核查来源；没有购票、订餐、投保或联系商家。').replace('餐饮、水果与厕所仅为方向与现场准备，不是实时营业或卫生检查。','餐厅采用具体分店参考并逐家标注证据；水果与厕所仍为方向参考，均不是实地卫生检查。');

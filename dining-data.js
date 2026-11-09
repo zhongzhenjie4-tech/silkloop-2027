@@ -1,6 +1,6 @@
 window.TRIP_DINING_DATA = {
-  "checked": "2026-11-08",
-  "reviewNote": "2026/11/8按新日历重绑午晚餐，新增北岸具名门店；保留菜单证据边界。",
+  "checked": "2026-11-09",
+  "reviewNote": "2026-11-09完成餐饮时段和城市动线复核；其余餐店菜单与营业仍按各自证据日期，不代表全店重新核价。",
   "restaurants": [
     {
       "id": "yining-jiang-jianmian",
@@ -38,9 +38,7 @@ window.TRIP_DINING_DATA = {
       "name": "古兰丹姆百年手工冰淇淋（六星街店）",
       "address": "伊宁市六星街黎光街四巷，东正教堂斜对面",
       "mapQuery": "古兰丹姆 百年手工冰淇淋 六星街 黎光街四巷 伊宁",
-      "days": [
-        3
-      ],
+      "days": [],
       "dishes": [
         "可选一小份原味手工冰淇淋；先看杯型标价"
       ],
@@ -71,8 +69,7 @@ window.TRIP_DINING_DATA = {
       "days": [
         4,
         5,
-        6,
-        7
+        6
       ],
       "dishes": [
         "看当天价签选一份抓饭或热荤配主食；汤/熟蔬菜按预算加，不默认全套"
@@ -107,8 +104,7 @@ window.TRIP_DINING_DATA = {
       "address": "Алматы, проспект Достык, 108",
       "mapQuery": "Qaganat Достык 108 Алматы",
       "days": [
-        5,
-        6
+        5
       ],
       "dishes": [
         "自选一份热主菜和主食；可用红菜汤或饺子替换，不将马肉面当作保证供应"
@@ -143,8 +139,7 @@ window.TRIP_DINING_DATA = {
       "address": "Алматы, Dostyk Avenue 48",
       "mapQuery": "NAVAT Dostyk Avenue 48 Almaty",
       "days": [
-        5,
-        7
+        5
       ],
       "dishes": [
         "改善餐可点一份lagman或当地面食；若要马肉面先问单人份、当日价和是否售罄"
@@ -292,9 +287,7 @@ window.TRIP_DINING_DATA = {
       "address": "Samarkand, So'zangaron ko'chasi 40（Yandex）；GoldenPages同电话列Suzangaranskaya6，门牌有冲突",
       "mapQuery": "Shokhrukh Nur Sozangaron Samarkand +998937316666",
       "days": [
-        11,
-        12,
-        13
+        12
       ],
       "dishes": [
         "羊肉串先点一串，再配汤或一份lagman；用叉勺进餐，留意串上油脂"
@@ -329,10 +322,7 @@ window.TRIP_DINING_DATA = {
       "name": "Karimbek（Gagarin 194店）",
       "address": "Samarkand, Gagarin Street 194",
       "mapQuery": "Restaurant Karimbek Gagarin 194 Samarkand",
-      "days": [
-        11,
-        12
-      ],
+      "days": [],
       "dishes": [
         "看QR菜单选一份当地面食或烤肉配主食；先问服务费及一人份"
       ],
@@ -409,7 +399,8 @@ window.TRIP_DINING_DATA = {
       "mapQuery": "Firuze Restaurant Tarlan Aliyarbeyov 14 Baku",
       "days": [
         14,
-        15
+        15,
+        16
       ],
       "rowIds": [
         "d14v2-10",
@@ -812,9 +803,7 @@ window.TRIP_DINING_DATA = {
       "name": "Ferdinand Knedle · Zemun店（甜点备选）",
       "address": "Bežanijska 46, Zemun, Belgrade",
       "mapQuery": "Ferdinand Knedle Bezanijska 46 Zemun",
-      "days": [
-        39
-      ],
+      "days": [],
       "rowIds": [
         "d39v2-07"
       ],
@@ -849,9 +838,7 @@ window.TRIP_DINING_DATA = {
       "address": "Aydınlı Mahallesi, Aydınlı Sokak No:1, Göreme 50180",
       "mapQuery": "Turkish Ravioli Restaurant Aydınlı Sokak No 1 Goreme",
       "days": [
-        22,
-        23,
-        24
+        23
       ],
       "dishes": "一份Mantı酸奶肉馅小饺子，或鸡肉陶盘饭；用叉勺。特色饮品Ayran另点。",
       "budgetCny": [
@@ -918,10 +905,7 @@ window.TRIP_DINING_DATA = {
       "name": "Piyazcı Ahmet · Altındağ店",
       "address": "Altındağ Mahallesi, 166 Sokak No:29/A, Muratpaşa, Antalya",
       "mapQuery": "Piyazcı Ahmet Altındağ 166 Sokak 29 A Antalya",
-      "days": [
-        25,
-        26
-      ],
+      "days": [],
       "dishes": "安塔利亚芝麻酱白豆沙拉Tahinli Piyaz＋一份Şiş Köfte烤肉丸；先问小份与总价，用叉勺。",
       "budgetCny": [
         45,
@@ -953,8 +937,7 @@ window.TRIP_DINING_DATA = {
       "mapQuery": "Bi Lokma Restaurant Uğur Mumcu Caddesi 21 Kaş",
       "days": [
         26,
-        27,
-        28
+        27
       ],
       "dishes": "Ev Mantısı酸奶小饺子或Etli Yaprak Sarma肉馅葡萄叶卷，选一份主食即可；Ayran或柠檬水另计。",
       "budgetCny": [
@@ -994,9 +977,7 @@ window.TRIP_DINING_DATA = {
       "days": [
         29,
         30,
-        31,
-        32,
-        33
+        32
       ],
       "dishes": "看明码柜台选一份Kuru Fasulye白豆炖菜＋Pilav米饭，或一份鸡肉饭；按需要加汤，不默认面包无限。",
       "budgetCny": [
@@ -1059,9 +1040,8 @@ window.TRIP_DINING_DATA = {
       "address": "Sheraton Street, opposite Wahib Stores, Hurghada",
       "mapQuery": "Star Fish Restaurant Sheraton Street Wahib Stores Hurghada",
       "days": [
-        41,
-        42,
-        43
+        43,
+        42
       ],
       "dishes": "先问海鲜汤价格，或问一份带米饭的鱼排/小鱼固定套餐；整鱼称重先核每公斤价、重量和加工费。",
       "budgetCny": [
@@ -1096,8 +1076,7 @@ window.TRIP_DINING_DATA = {
       "mapQuery": "Al Sahaby Lane Restaurant Nefertiti Hotel Al Sahaby Street Luxor",
       "days": [
         44,
-        45,
-        46
+        45
       ],
       "dishes": "扁豆汤＋鸡肉Freekeh小麦陶锅/鸡肉饭选一；若预算紧只点一份主食。Karkadeh洛神花饮另计。",
       "budgetCny": [
@@ -1167,7 +1146,7 @@ window.TRIP_DINING_DATA = {
       "days": [
         49,
         50,
-        51,
+        53,
         52
       ],
       "dishes": "一份小/中碗Koshary扁豆米饭通心粉；辣酱和蒜醋单独放，先少量。用勺吃，饮料另计。",
@@ -1202,8 +1181,7 @@ window.TRIP_DINING_DATA = {
       "address": "Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai",
       "mapQuery": "Aroos Damascus Green Palace Hotel Al Muraqqabat Deira Dubai",
       "days": [
-        53,
-        55
+        56
       ],
       "dishes": "单份鸡肉Shawarma或小份烤鸡饭；先问配菜份量和单人价。特色无酒精饮品单独核价。",
       "budgetCny": [
@@ -1240,10 +1218,7 @@ window.TRIP_DINING_DATA = {
       "name": "Al Mallah Dhiyafah · Satwa / Al Hudaiba店",
       "address": "Al Dhiyafa Road / 2nd December Street, Al Hudaiba, Dubai",
       "mapQuery": "Al Mallah Dhiyafah Al Hudaiba 2nd December Street Dubai",
-      "days": [
-        53,
-        55
-      ],
+      "days": [],
       "dishes": "预算吃法选单份鸡肉Shawarma；改善餐可选官网半鸡餐或混烤餐。鲜榨牛油果饮另计，不默认每天点。",
       "budgetCny": [
         30,
@@ -1275,7 +1250,7 @@ window.TRIP_DINING_DATA = {
       "address": "Dubai Mall, Second Floor food court；靠P7 Cinema Parking",
       "mapQuery": "ALBAIK Dubai Mall Second Floor Food Court P7 Cinema Parking",
       "days": [
-        55
+        56
       ],
       "dishes": "选一份单人鸡肉餐/鸡块餐，优先按柜台套餐牌点，不额外叠多份小吃；用叉子或吃后洗手。",
       "budgetCny": [
@@ -1308,7 +1283,7 @@ window.TRIP_DINING_DATA = {
       "address": "Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi",
       "mapQuery": "Museum Cafe Louvre Abu Dhabi Saadiyat Island",
       "days": [
-        54
+        55
       ],
       "dishes": "先看Grab & Go柜台的单份三明治/沙拉或轻食，不点酒；可直接把D54卢浮宫前午餐安排在此。",
       "budgetCny": [
@@ -1337,9 +1312,7 @@ window.TRIP_DINING_DATA = {
       "name": "McDonald's / McCafé · Souq Al Jami清真寺游客中心店",
       "address": "Souq Al Jami food court, Sheikh Zayed Grand Mosque Visitor Centre, Al Maqtaa, Abu Dhabi",
       "mapQuery": "McDonald's McCafe Souq Al Jami Sheikh Zayed Grand Mosque Abu Dhabi",
-      "days": [
-        54
-      ],
+      "days": [],
       "dishes": "在离开大清真寺前吃一份单人鸡肉汉堡餐或简餐；餐后再乘车到卢浮宫。",
       "budgetCny": [
         35,
@@ -1474,8 +1447,7 @@ window.TRIP_DINING_DATA = {
       "address": "Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100",
       "mapQuery": "Can Can Pide Yemek Salonu Arık Caddesi 4 A Antalya",
       "days": [
-        25,
-        26
+        25
       ],
       "dishes": "省钱组合：一份Kıymalı Pide肉末船饼，或白豆炖菜＋米饭；需要时加扁豆汤。用刀叉，Ayran另计。",
       "budgetCny": [
@@ -1617,7 +1589,7 @@ window.TRIP_DINING_DATA = {
       "address": "47 Dahbed Street, Samarkand, Uzbekistan",
       "mapQuery": "EVOS 47 Dahbed Street Samarkand",
       "days": [
-        12
+        11
       ],
       "rowIds": [
         "d12v2-07"
@@ -1658,8 +1630,7 @@ window.TRIP_DINING_DATA = {
       "address": "1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan",
       "mapQuery": "Araz Terrace 1 Islam Safarli Fountains Square Baku",
       "days": [
-        15,
-        16
+        15
       ],
       "rowIds": [
         "d15v2-12",
@@ -1697,8 +1668,7 @@ window.TRIP_DINING_DATA = {
       "address": "7/1 Amiryan Street, Yerevan, Armenia",
       "mapQuery": "SAS Food Court 7/1 Amiryan Street Yerevan",
       "days": [
-        20,
-        21
+        20
       ],
       "rowIds": [
         "d20v2-12",
@@ -1787,7 +1757,6 @@ window.TRIP_DINING_DATA = {
       "address": "Television Street与Al Manshiya交叉口、Winter Palace/Pavillon后门方向，Luxor East Bank；OpenAlfa写Television39，门牌和当前经营须重核",
       "mapQuery": "El Zaeem Television Street Al Manshiya Luxor Winter Palace",
       "days": [
-        44,
         45
       ],
       "rowIds": [
@@ -1836,8 +1805,7 @@ window.TRIP_DINING_DATA = {
       "address": "38 Sabry Abou Alam Street, off Talaat Harb Square, Downtown Cairo；部分平台写28/39号，订前/临行核门头",
       "mapQuery": "El Kazaz 38 Sabry Abou Alam Street Talaat Harb Cairo 16903",
       "days": [
-        49,
-        51,
+        53,
         52
       ],
       "rowIds": [
@@ -1886,7 +1854,8 @@ window.TRIP_DINING_DATA = {
       "address": "Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202",
       "mapQuery": "Karachi Darbar Satwa 284 D90 Dubai 043490202",
       "days": [
-        53
+        54,
+        57
       ],
       "rowIds": [
         "d53v2-09"
@@ -2006,7 +1975,6 @@ window.TRIP_DINING_DATA = {
       "address": "Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店",
       "mapQuery": "Magdy Seafood Omar El Mokhtar Mersa Matruh",
       "days": [
-        51,
         52
       ],
       "dishes": [
@@ -2042,7 +2010,6 @@ window.TRIP_DINING_DATA = {
       "address": "12 El Galaa Street, Downtown, beside Oriental Weavers, Mersa Matruh",
       "mapQuery": "Sahar Restaurant 12 El Galaa Street Marsa Matruh",
       "days": [
-        51,
         52
       ],
       "dishes": [
@@ -2070,6 +2037,78 @@ window.TRIP_DINING_DATA = {
       ],
       "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
       "selectionOrigin": "本轮北岸具名补充"
+    },
+    {
+      "id": "saw-simit-airside",
+      "city": "伊斯坦布尔SAW机场",
+      "name": "Simit Sarayı · SAW国际出发空侧店",
+      "address": "Sabiha Gökçen Airport，International Departures Airside；按国际转机区现场导向选择可达分店",
+      "mapQuery": "Simit Sarayi Sabiha Gokcen International Departures",
+      "days": [
+        41
+      ],
+      "budgetCny": [
+        40,
+        80
+      ],
+      "dishes": [
+        "芝麻圈或三明治",
+        "密封瓶装水"
+      ],
+      "hours": "机场官方目录确认空侧店；2027营业时间与登机口可达性待核",
+      "menuEvidence": "仅确认机场分区有店，未取得该分店当前菜单价；40–80元是采购控制范围，超额则用已备简餐。",
+      "verified": "2026-11-09 官方机场餐饮/航站楼目录",
+      "selectionOrigin": "本次独立补充",
+      "cautions": [
+        "先确认登机口，再决定是否购买。",
+        "不为找店离开空侧或错过登机；排队超过10–15分钟即用自备食品。"
+      ],
+      "sources": [
+        {
+          "title": "SAW官方航站楼目录",
+          "url": "https://www.sabihagokcen.aero/passengers-and-visitors/passenger-guide/terminal-guide"
+        },
+        {
+          "title": "SAW官方餐饮目录",
+          "url": "https://www.sabihagokcen.aero/passengers-and-visitors/passenger-guide/cafes-and-restaurants"
+        }
+      ]
+    },
+    {
+      "id": "antalya-tavuk-terracity",
+      "city": "安塔利亚",
+      "name": "Tavuk Dünyası · TerraCity分店",
+      "address": "TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店",
+      "mapQuery": "Tavuk Dunyasi TerraCity Antalya",
+      "days": [
+        25
+      ],
+      "budgetCny": [
+        35,
+        65
+      ],
+      "dishes": [
+        "鸡肉意面配沙拉",
+        "水或Ayran"
+      ],
+      "hours": "商场官方当前列此分店；具体2027营业与最后接单待核",
+      "menuEvidence": "官方商场确认分店，品牌官网可查菜式；未取得该分店当前含税套餐价。35–65元为计划范围，超预算改同商场便餐。",
+      "verified": "2026-11-09 TerraCity官方商户目录",
+      "selectionOrigin": "本次独立补充",
+      "cautions": [
+        "此店在Lara/Fener一侧，不是老城Can Can。",
+        "不保证插座、低价套餐或无需排队；超过15–20分钟换便餐。"
+      ],
+      "sources": [
+        {
+          "title": "TerraCity官方分店",
+          "url": "https://www.terracity.com.tr/en/gastronomy/restaurants/tavuk-duenyasi/"
+        },
+        {
+          "title": "品牌官方菜式",
+          "url": "https://www.tavukdunyasi.com/lezzetler/tavuklar"
+        }
+      ]
     }
   ],
   "meals": [
@@ -2103,7 +2142,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "almaty-qaganat-dostyk108",
       "backup": "almaty-navat-dostyk48",
-      "note": "Kok-Tobe下山后按Dostyk108分店导航；NAVAT48是改善伙食备选，不能把两家价格相加。"
+      "note": "按本卡先在市区分店吃晚餐，再赴Kok-Tobe，餐饮和上山交通分开。"
     },
     {
       "day": 6,
@@ -2112,14 +2151,6 @@ window.TRIP_DINING_DATA = {
       "shop": "almaty-qaganat-gogol39",
       "backup": null,
       "note": "峡谷团返城后再吃，洗衣与睡眠优先；团晚到则打包一份，不再排队。"
-    },
-    {
-      "day": 7,
-      "rowId": "d7r58-04",
-      "meal": "午餐",
-      "shop": "almaty-qaganat-gogol39",
-      "backup": null,
-      "note": "11:30–12:10内解决，留时间买国际卧铺简餐；12:10仍未出餐就取消堂食。"
     },
     {
       "day": 8,
@@ -2143,7 +2174,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "bukhara-old-bukhara",
       "backup": "bukhara-afsona",
-      "note": "入住寄包后吃一份正餐，再回室内午休；单店不能保证冷气或允许充电。"
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
     },
     {
       "day": 9,
@@ -2159,7 +2190,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "bukhara-afsona",
       "backup": "bukhara-old-bukhara",
-      "note": "午餐后回住处长午休；Afsona餐价留量较高，超预算改Old Bukhara，不默认强冷气或插座。"
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
     },
     {
       "day": 10,
@@ -2175,7 +2206,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "samarkand-emirhan",
       "backup": "samarkand-evos-dahbed47",
-      "note": "放主包后从老城向Mahmudjanov1/18店导航；午餐和午休不被参观挤掉。EVOS Dahbed47是省钱便餐备选，另查实际路程，不假定就在老城门口。"
+      "note": "抵撒马尔罕寄包后按本卡吃一小时午餐，随后去雷吉斯坦。"
     },
     {
       "day": 12,
@@ -2223,7 +2254,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "maspindzelo-oldtown",
       "backup": null,
-      "note": "老城/Narikala下山后先到Gorgasali7吃，再返回住处；原17:45–19:15窗口含步行与吃饭。"
+      "note": "按本卡先吃晚餐，再执行后续缆车/要塞活动，不写成下山后才吃。"
     },
     {
       "day": 18,
@@ -2255,7 +2286,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "tun-lahmajo-yerevan",
       "backup": "lahmajun-gaidz",
-      "note": "11:30–12:20午餐，随后午休；Gaidz只作先查营业的午餐备选，不依赖未经核实的1500AMD套餐。"
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
     },
     {
       "day": 22,
@@ -2279,7 +2310,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "goreme-pide-house",
       "backup": null,
-      "note": "峡谷返镇后吃，留出洗衣取件和早睡；超时则打包。"
+      "note": "按本卡先吃晚餐，再走傍晚山谷短线；不是徒步结束后才吃。"
     },
     {
       "day": 24,
@@ -2295,15 +2326,15 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "antalya-cancan",
       "backup": null,
-      "note": "老港结束后到Arık街具名店；用餐后回Flaneur休息，不把餐厅当免费午睡场所。"
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
     },
     {
       "day": 25,
       "rowId": "d25r58-09",
       "meal": "晚餐",
-      "shop": "antalya-cancan",
-      "backup": "antalya-piyazci-ahmet",
-      "note": "回老城后用餐；Piyazcı Ahmet Altındağ店只作愿意额外移动的体验备选。"
+      "shop": "antalya-tavuk-terracity",
+      "backup": null,
+      "note": "从下杜登到TerraCity同侧分店吃饭，再走Fener海崖；不折返老城吃晚餐后再回Lara。"
     },
     {
       "day": 26,
@@ -2311,7 +2342,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "kas-kasim-homefood",
       "backup": "kas-bilokma",
-      "note": "古剧场夕色后回老镇，用家常菜小份；Bi’Lokma作较高预算备选。"
+      "note": "入住放50L包后按本卡吃晚餐，再去古剧场和港口。"
     },
     {
       "day": 27,
@@ -2383,7 +2414,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "istanbul-forno-balat",
       "backup": null,
-      "note": "Fener/Balat街区内就餐，不在午间跨区回Sirkeci；午休回住宿另留实际路程。"
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
     },
     {
       "day": 32,
@@ -2498,12 +2529,12 @@ window.TRIP_DINING_DATA = {
       "note": "17:30早晚餐，18:30前回宿收包早睡；不依赖夜宵店。"
     },
     {
-      "day": 41,
-      "rowId": "d41r58-09",
+      "day": 43,
+      "rowId": "d43v2-11",
       "meal": "晚餐",
       "shop": "hurghada-starfish",
       "backup": null,
-      "note": "Marina傍晚短走后去Sheraton Street主店；按重量海鲜先确认含烹饪费的总价。"
+      "note": "红海出海返宿洗漱后到Sheraton Street主店用餐；先问含加工的总价，超预算改简餐，不再挂到SAW转机日。"
     },
     {
       "day": 42,
@@ -2527,7 +2558,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "luxor-alsahaby",
       "backup": "luxor-elzaeem-television",
-      "note": "东岸傍晚再用餐；午间回住处降温，不能把这家露台写成已核强空调。ElZaeem仅作先核门店与菜单的便餐线索，不默认它开门或有空调。"
+      "note": "晚场卢克索馆及帆船返岸后在东岸用餐，次日准备回宿后完成。"
     },
     {
       "day": 46,
@@ -2551,7 +2582,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "aswan-makka",
       "backup": null,
-      "note": "11:30–12:10结束，午睡和17:00候选夜巴优先；下午早晚餐用已备食品，不重复跑市中心。"
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
     },
     {
       "day": 49,
@@ -2573,9 +2604,9 @@ window.TRIP_DINING_DATA = {
       "day": 54,
       "rowId": "d54r58-08",
       "meal": "晚餐",
-      "shop": "dubai-aroos-deira",
-      "backup": "dubai-karachidarbar-satwa284",
-      "note": "保留迪拜湾路线时，核Deira正餐能否在19:30前结束。若晚到取消迪拜湾、留在Alphatel/Satwa一带，则可换KarachiDarbar Satwa284D90便餐；两条动线二选一，不能把它说成Deira步行备选。"
+      "shop": "dubai-karachidarbar-satwa284",
+      "backup": null,
+      "note": "以现有Satwa/DWTC住宿候选为前提，入住后在Satwa284分店吃饭。实际改住别区时重排，不再在20:30后强行赴Deira。"
     },
     {
       "day": 55,
@@ -2615,15 +2646,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "alex-kadoura-mansheya",
       "backup": "alex-mohamed-ahmed",
-      "note": "11:30–12:30在地下墓穴/庞培柱之后、去新图书馆之前吃；Kadoura仅选Mansheya海滨分店。若等位超过15分钟、鱼按重量报价超过预算或需现做很久，立即改Raml Station的Mohamed Ahmed，保12:30左右到图书馆。"
-    },
-    {
-      "day": 51,
-      "rowId": "d51r58-09",
-      "meal": "晚餐",
-      "shop": "alex-mohamed-ahmed",
-      "backup": null,
-      "note": "亚历山大上车前吃便餐并补水，16:15前结束就餐；到马特鲁若很晚不再强制等海鲜加工。"
+      "note": "按本卡45分钟午餐，报价或等位超过个人上限就用便餐；Mohamed Ahmed仅作这顿午餐备用，不在上车前再绕去堂食。"
     },
     {
       "day": 52,
@@ -2640,6 +2663,22 @@ window.TRIP_DINING_DATA = {
       "shop": "cairo-abou-tarek",
       "backup": "cairo-kazaz-sabry38",
       "note": "先看实际返开罗时间；能及时到市中心店才去，车晚到用途中简餐，不为餐厅另绕路。"
+    },
+    {
+      "day": 41,
+      "rowId": "d41-meal-v17",
+      "meal": "晚餐",
+      "shop": "saw-simit-airside",
+      "backup": null,
+      "note": "国际转机与登机口确认完成后，空侧近处简餐30分钟；找店/排队超过10–15分钟就用自备食品。"
+    },
+    {
+      "day": 57,
+      "rowId": "d57r58-06",
+      "meal": "晚餐",
+      "shop": "dubai-karachidarbar-satwa284",
+      "backup": null,
+      "note": "先从Madinat回Satwa实际住宿片区，再按本卡吃一小时；随后取包赴机场，不再横城追餐厅。"
     }
   ],
   "optionalShops": [
@@ -2658,7 +2697,10 @@ window.TRIP_DINING_DATA = {
     "没有核到通用ISIC餐饮折扣；所有餐费按不打折规划。学生身份不自动带来餐厅优惠。",
     "Khinkali不强制徒手，先拍照收好相机，再按习惯或请店员给餐具用餐。随身纸巾、洗手与相机收纳比只筛刀叉菜更实用。",
     "不将散装格瓦斯标成已核0酒精。要求严格不含酒精时看瓶身标识；特色饮品单独点单，不默认每餐必买。",
-    "不加冰也不能保证街头鲜榨饮料安全；水源、清洁和保存同样重要。优先封口瓶装饮水与现做热食。"
+    "不加冰也不能保证街头鲜榨饮料安全；水源、清洁和保存同样重要。优先封口瓶装饮水与现做热食。",
+    "综合卡拆为用餐、返城、取包、候车和夜游；所有具名餐饮卡最多75分钟，不压缩必要交通。",
+    "山站不导航到市区Qaganat；SAW转机不导航到埃及餐厅；Can Can保老城午餐，Lara晚餐改TerraCity同侧分店。",
+    "Star Fish移至红海出海后的D43；亚历山大上车前改站前便携餐；迪拜入住晚餐采用Satwa同区已核分店。"
   ],
   "budgetApplied": false,
   "revision58": true,
