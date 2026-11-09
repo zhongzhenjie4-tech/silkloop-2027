@@ -1,6 +1,6 @@
 window.TRIP_DINING_DATA = {
   "checked": "2026-11-09",
-  "reviewNote": "2026-11-09完成餐饮时段和城市动线复核；其余餐店菜单与营业仍按各自证据日期，不代表全店重新核价。",
+  "reviewNote": "2026-11-09时段与动线复核；D28提前到Fethiye，午餐改Erasta分店；原菜单现价和营业证据仍按各店记录。",
   "restaurants": [
     {
       "id": "yining-jiang-jianmian",
@@ -1481,8 +1481,7 @@ window.TRIP_DINING_DATA = {
       "mapQuery": "Kaşım Restaurant Ev Yemekleri Hükümet Caddesi 12 Kaş",
       "days": [
         26,
-        27,
-        28
+        27
       ],
       "dishes": "家常热菜柜台选一份豆类/蔬菜炖菜＋米饭，或一份当日肉菜；问小份与份量，不按自助随取误结账。",
       "budgetCny": [
@@ -2109,6 +2108,42 @@ window.TRIP_DINING_DATA = {
           "url": "https://www.tavukdunyasi.com/lezzetler/tavuklar"
         }
       ]
+    },
+    {
+      "id": "fethiye-tavuk-erasta",
+      "city": "费特希耶",
+      "name": "Tavuk Dünyası · Erasta Fethiye分店",
+      "address": "Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口",
+      "mapQuery": "Tavuk Dunyasi Erasta Fethiye AVM",
+      "days": [
+        28
+      ],
+      "budgetCny": [
+        35,
+        65
+      ],
+      "dishes": [
+        "鸡肉、意面与沙拉拼盘",
+        "水或Ayran"
+      ],
+      "hours": "Erasta官网当前10:00–22:00；2027及最后接单待核",
+      "menuEvidence": "商场与品牌官方均列Fethiye Erasta分店，未取得该分店含税菜单现价；35–65元为规划范围。",
+      "verified": "2026-11-09 官网分店目录与商场地址",
+      "selectionOrigin": "本次独立补充",
+      "cautions": [
+        "Fethiye与Antalya TerraCity为不同分店，不混用地址。",
+        "先看菜单；超预算或长队则用同商场便餐，13点按计划去海滩。"
+      ],
+      "sources": [
+        {
+          "title": "Erasta Fethiye官方分店",
+          "url": "https://erastafethiye.com/en/detail/brand/tavuk-dunyasi"
+        },
+        {
+          "title": "品牌官方分店表",
+          "url": "https://www.tavukdunyasi.com/tr-en/restaurants"
+        }
+      ]
     }
   ],
   "meals": [
@@ -2356,9 +2391,9 @@ window.TRIP_DINING_DATA = {
       "day": 28,
       "rowId": "d28v2-04",
       "meal": "午餐",
-      "shop": "kas-kasim-homefood",
+      "shop": "fethiye-tavuk-erasta",
       "backup": null,
-      "note": "11:00–11:40先吃，12:00前取包；不把甜品或第二家等位挤进转车余量。"
+      "note": "早班抵Fethiye、确认寄存后，在Otogar旁Erasta Fethiye分店午餐；不再停留Kaş吃午饭。"
     },
     {
       "day": 29,

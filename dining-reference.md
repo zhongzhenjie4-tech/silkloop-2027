@@ -1,6 +1,6 @@
 # 具体餐厅与用餐卡 · 2026-11-09
 
-2026-11-09完成餐饮时段和城市动线复核；其余餐店菜单与营业仍按各自证据日期，不代表全店重新核价。。58天7/11—9/6，均未订餐；个人预算不自动覆盖。
+2026-11-09时段与动线复核；D28提前到Fethiye，午餐改Erasta分店；原菜单现价和营业证据仍按各店记录。。58天7/11—9/6，均未订餐；个人预算不自动覆盖。
 
 ## 当前逐餐安排
 
@@ -36,7 +36,7 @@
 |D25|18:00–19:00|晚餐|Tavuk Dünyası · TerraCity分店|TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店|
 |D26|18:00–19:00|晚餐|Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店|Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580|
 |D27|19:15–20:15 建议|晚餐|Bi'Lokma Restaurant · Uğur Mumcu Caddesi店|Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya|
-|D28|11:00–12:00|午餐|Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店|Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580|
+|D28|12:00–13:00|午餐|Tavuk Dünyası · Erasta Fethiye分店|Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口|
 |D29|13:15–14:15|午餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
 |D29|17:30–18:30|晚餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
 |D30|12:45–13:30 建议|午餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
@@ -52,7 +52,7 @@
 |D35|19:45–20:30|晚餐|Ćevabdžinica Željo · Kundurdžiluk19|Kundurdžiluk 19, Baščaršija, Sarajevo|
 |D36|12:00–13:00|午餐|Tima–Irma · 老桥西岸店|Onešćukova bb, 88000 Mostar|
 |D37|17:00–18:00|晚餐|Walter · Dorćol店|Strahinjića Bana 57, Belgrade|
-|D38|12:00–12:30 建议|午餐|Pizza Bucko · Francuska18店|Francuska 18, Beograd Stari Grad|
+|D38|12:00–12:45|午餐|Pizza Bucko · Francuska18店|Francuska 18, Beograd Stari Grad|
 |D38|18:30–19:30|晚餐|Walter · Dorćol店|Strahinjića Bana 57, Belgrade|
 |D39|12:00–13:15 建议|午餐|Walter · Zemun centar店|Magistralni trg 18, Zemun, Belgrade|
 |D39|18:15–19:15 建议|晚餐|Walter · Dorćol店|Strahinjića Bana 57, Belgrade|
@@ -98,7 +98,7 @@
 ### 伊宁 · 疆·见面伊犁味道（斯大林街三巷店）
 
 - 地址：伊宁市斯大林街三巷14号
-- 餐费规划：¥35–60，饮水饮品及实际份量另核。
+- 餐费规划：¥35–60
 - 点单：先问一人份碎肉/羊腿抓饭或丁丁炒面价，二选一；仍饿再加一串烤肉
 - 菜单证据：未取得2026单菜价；伊犁州政府2024旅游页列人均45元，仅作历史店铺资料。预算为单人一餐食物留量，饮水/饮料另计。
 - 营业：2024官方旅游页曾列08:00–22:30，2027出发前重核
@@ -110,7 +110,7 @@
 ### 伊宁 · 古兰丹姆百年手工冰淇淋（六星街店）
 
 - 地址：伊宁市六星街黎光街四巷，东正教堂斜对面
-- 餐费规划：¥15–30，饮水饮品及实际份量另核。
+- 餐费规划：¥15–30
 - 点单：可选一小份原味手工冰淇淋；先看杯型标价
 - 菜单证据：不是正餐预算；2024伊犁州政府旅游页列人均25元，未取得2026单杯价。冰淇淋属额外零食，不与正餐重复计入。
 - 营业：2024旅游页列09:00–次日03:00；仅历史参考，2027重核
@@ -122,7 +122,7 @@
 ### 阿拉木图 · Qaganat（Зенкова / Gogol 39分店）
 
 - 地址：Алматы, улица Гоголя, 39
-- 餐费规划：¥25–45，饮水饮品及实际份量另核。
+- 餐费规划：¥25–45
 - 点单：看当天价签选一份抓饭或热荤配主食；汤/熟蔬菜按预算加，不默认全套
 - 菜单证据：未取得39号店独立现价；Wolt名为Qaganat Гоголя的网页实际是86号店，不能把86号菜单价贴到39号。预算为单人食物留量，饮水和Kompot另计。
 - 营业：Qaganat官网当前地址表列该店24/7；2027重核
@@ -136,7 +136,7 @@
 ### 阿拉木图 · Qaganat（Dostyk 108分店）
 
 - 地址：Алматы, проспект Достык, 108
-- 餐费规划：¥25–45，饮水饮品及实际份量另核。
+- 餐费规划：¥25–45
 - 点单：自选一份热主菜和主食；可用红菜汤或饺子替换，不将马肉面当作保证供应
 - 菜单证据：本店Wolt外送菜单当前红菜汤有1130/1390 KZT不同份型、饺子1890/2300 KZT；外送价不等于堂食，配菜/饮料另算。稿中2370 KZT马肉面可在Astana Dostyk店菜单查到，未在此阿拉木图108店当前页面找到，不能串店。
 - 营业：Qaganat官网当前列24/7；2027重核
@@ -150,7 +150,7 @@
 ### 阿拉木图 · NAVAT（Dostyk 48分店）
 
 - 地址：Алматы, Dostyk Avenue 48
-- 餐费规划：¥45–75，饮水饮品及实际份量另核。
+- 餐费规划：¥45–75
 - 点单：改善餐可点一份lagman或当地面食；若要马肉面先问单人份、当日价和是否售罄
 - 菜单证据：官网挂有Chaihana Menu（Google Drive PDF）；本次只读到链接，未可靠提取现价，不照录旧价。单人一餐食物规划留量，饮水、茶壶和服务费现场核。
 - 营业：官方分店页10:00–00:00；2027重核
@@ -164,7 +164,7 @@
 ### 塔什干 · Besh Qozon（Glinka 41A分店）
 
 - 地址：Ташкент, ул. Глинки, 41А
-- 餐费规划：¥35–55，饮水饮品及实际份量另核。
+- 餐费规划：¥35–55
 - 点单：婚礼抓饭单人份；看套餐实际包含内容后再决定是否另加Achichuk、蛋或马肠，避免重复加价
 - 菜单证据：官网网络点单现列婚礼抓饭一份53000 UZS、0.7份51000 UZS、单人婚礼抓饭套餐70000 UZS（另有Set1为78000）。只证明网站点单价，不保证分店堂食同价；饮水/饮料另计。
 - 营业：官网分店页未提供可靠具体营业时段；不照录09:00–00:00
@@ -178,7 +178,7 @@
 ### 布哈拉 · Old Bukhara（布哈拉老城店）
 
 - 地址：Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3
-- 餐费规划：¥30–55，饮水饮品及实际份量另核。
+- 餐费规划：¥30–55
 - 点单：一人份抓饭或热汤配馕；想吃烤串先问一串克数与起点量
 - 菜单证据：本次官网old-bukhara.uz返回502；未取得现价菜单，旧稿50000–70000 UZS不可当2026核定价。人民币仅单人食物规划留量，水、饮料及服务费另看。
 - 营业：具体全日时段未可靠核实；Yandex当前显示当日23:00关门，2027再核
@@ -193,7 +193,7 @@
 ### 布哈拉 · Afsona Bukhara（Murod Avliyo 4分店）
 
 - 地址：Бухара, улица Мурод Авлиё, 4（以集团官网门店地址为准）
-- 餐费规划：¥50–85，饮水饮品及实际份量另核。
+- 餐费规划：¥50–85
 - 点单：先看菜单选一份抓饭、热汤或烤肉主食组合；作为改善餐，别默认是便宜食堂
 - 菜单证据：ABNMB集团官网确认布哈拉分店，但未提供可读现价；不使用30,000 UZS饺子汤等未经核定值。单人一餐食物留量，饮水、特色饮品和服务费另计。
 - 营业：未取得官方分店营业时段，2027重核
@@ -208,7 +208,7 @@
 ### 撒马尔罕 · Shokhrukh Nur（So'zangaron街店）
 
 - 地址：Samarkand, So'zangaron ko'chasi 40（Yandex）；GoldenPages同电话列Suzangaranskaya6，门牌有冲突
-- 餐费规划：¥30–55，饮水饮品及实际份量另核。
+- 餐费规划：¥30–55
 - 点单：羊肉串先点一串，再配汤或一份lagman；用叉勺进餐，留意串上油脂
 - 菜单证据：未取得可核实经营者现价菜单；地图均价不是菜单报价，不照录45000–65000 UZS已核实套餐。预算只含一人食物，饮水/饮料另计。
 - 营业：地图与商业名录时段不同，不写死；先电话/地图核实当晚营业
@@ -222,7 +222,7 @@
 ### 撒马尔罕 · Karimbek（Gagarin 194店）
 
 - 地址：Samarkand, Gagarin Street 194
-- 餐费规划：¥40–70，饮水饮品及实际份量另核。
+- 餐费规划：¥40–70
 - 点单：看QR菜单选一份当地面食或烤肉配主食；先问服务费及一人份
 - 菜单证据：经营者QR菜单页搜索索引确认Karimbek/Gagarin194，但页面为动态内容未读到价格；只给食物预算留量，不把旧稿价格套用本店。
 - 营业：未取得经营者可靠时段，2027重核
@@ -236,7 +236,7 @@
 ### 撒马尔罕 · Emirhan Restaurant（Mahmudjanov 1/18店）
 
 - 地址：1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）
-- 餐费规划：¥50–85，饮水饮品及实际份量另核。
+- 餐费规划：¥50–85
 - 点单：先看当日菜单，选择一份当地热主食（抓饭/lagman如有供应）或热汤配馕；不为景观位额外点酒水、多道菜或甜品
 - 菜单证据：未取得可独立读取的经营者现价菜单。Yandex平均账单80000–140000 UZS只是平台均价，不是单菜报价；人民币50–85仅为一次单人食物留量，饮水/特色饮料、服务费另核。若单人正餐超留量，改已核入口的Shokhrukh或超市便餐，不承诺此店是低价食堂。
 - 营业：2026撒马尔罕国际论坛官方指南列每日11:00–23:00；2027出发前重核
@@ -252,7 +252,7 @@
 ### 巴库 · Firuzə Restaurant · 喷泉广场店
 
 - 地址：Tərlan Əliyarbəyov 14, Bakı 1005
-- 餐费规划：¥50–80，饮水饮品及实际份量另核。
+- 餐费规划：¥50–80
 - 点单：一人先点葡萄叶卷Dolma或Düşbərə汤＋一份主食；两种重肉主菜不必叠加。无酒精饮料另点瓶装水/茶。
 - 菜单证据：官网确认菜单以AZN计价，菜单是图片；本次未读到可引用的单品金额。原稿9AZN葡萄叶卷、10AZN肉串不能作为已核价。人民币区间为单人一餐食物留量，饮料另计。
 - 营业：官网现示每日12:00–01:00；2027再核，不作早餐店。
@@ -265,7 +265,7 @@
 ### 巴库 · Dolma Restaurant · 喷泉广场店
 
 - 地址：8 M. Rasulzade St., Sabail District, Baku
-- 餐费规划：¥50–85，饮水饮品及实际份量另核。
+- 餐费规划：¥50–85
 - 点单：Düşbərə小水饺汤或葡萄叶卷＋单人主食，菜量足再加面包；茶/梨汽水另计。
 - 菜单证据：官网菜单明确账单另加10%服务费；动态菜品未返回可核金额，不能沿用原稿28/38元当实价。区间是单人食物规划并留服务费，饮品另计。
 - 营业：官网未取得可靠营业时段；D16建议12:40–13:30就餐，出门前核开门。
@@ -279,7 +279,7 @@
 ### 第比利斯 · Maspindzelo · Gorgasali老城店
 
 - 地址：7 Vakhtang Gorgasali Street, Tbilisi
-- 餐费规划：¥40–75，饮水饮品及实际份量另核。
+- 餐费规划：¥40–75
 - 点单：先点5个肉汤包Khinkali，问最低起点数；可改一份罐炖豆。核桃茄子卷和奶酪饼可选其一，不要全部叠加。用餐前收相机，汤包可请店员提供餐具。
 - 菜单证据：官方电子菜单嵌入数据：肉Khinkali 2.45GEL/个、核桃茄子19GEL、罐炖豆21GEL、Imeretian奶酪饼24GEL。以5只汤包计12.25GEL，尚未加饮品/可能服务费。核查2026-11-05；未显示生效日，不保证2027价。
 - 营业：集团门店页现列09:00–02:00、周五六24h；电子菜单时间字段却写10:30–12:00，第一方互有冲突，须电话重核。
@@ -294,7 +294,7 @@
 ### 埃里温 · Tun Lahmajo · Teryan街店
 
 - 地址：23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）
-- 餐费规划：¥25–55，饮水饮品及实际份量另核。
+- 餐费规划：¥25–55
 - 点单：先点1–2张Lahmajo肉末薄饼，配一份熟蔬菜或汤；Tan咸酸奶饮另计。按菜单核一张大小，不默认点多人烤肉拼盘。
 - 菜单证据：市官方旅游页证实店与地址，OddMenu链接可打开但未取得菜价正文；原稿500–800AMD和凌晨4点不能当本次已核。食物区间为规划，饮品与服务费看现场菜单。
 - 营业：营业时间未取得第一方可靠证明；D19约20:00、D20约17:00、D21须18:00前吃完，均先电话确认。
@@ -309,7 +309,7 @@
 ### 埃里温 · Lahmajun Gaidz · Tumanyan9/9（午餐备选）
 
 - 地址：Tumanyan Street 9/9, Yerevan
-- 餐费规划：¥20–40，饮水饮品及实际份量另核。
+- 餐费规划：¥20–40
 - 点单：一张Lahmajun先点，不够再加；酸奶饮另计。只作D21返回城后的快速午餐备选。
 - 菜单证据：官方Facebook被拦截，未核到1500AMD套餐或现行单价；地址由地图条目交叉确认。原稿套餐不视为报价。
 - 营业：第三方现列周一至六11:00–18:30、周日休，但本次未获店方直接确认；只作待重核午餐候选，不安排D19晚餐。
@@ -322,7 +322,7 @@
 ### 萨拉热窝 · Ćevabdžinica Željo · Kundurdžiluk19
 
 - 地址：Kundurdžiluk 19, Baščaršija, Sarajevo
-- 餐费规划：¥30–50，饮水饮品及实际份量另核。
+- 餐费规划：¥30–50
 - 点单：小份5根Ćevapi配Somun，先问Kajmak奶油和酸奶是否另收费；有刀叉可摊在盘中吃，不必手抓。
 - 菜单证据：旅游局确认Kundurdžiluk门店；本次未取得可靠现行数字菜单，原稿5根28元、10根45元未作为实价。
 - 营业：未取得店方营业表；D34约19:00或D35约20:00前先查当天营业。
@@ -336,7 +336,7 @@
 ### 萨拉热窝 · Ferhatović Petica · Bravadžiluk21
 
 - 地址：Bravadžiluk 21, 71000 Sarajevo
-- 餐费规划：¥30–50，饮水饮品及实际份量另核。
+- 餐费规划：¥30–50
 - 点单：Ćevapčići petica小份5根配Somun，先一份；饮水或酸奶另计。
 - 菜单证据：Ferhatović官方在线菜单小份Ćevapčići petica7.00BAM、Ćevapčići14.00BAM；页面为在线订餐，堂食份量/价格须现场核。不要把14BAM再次当小份。
 - 营业：官网Petica现列周一12:00–21:00；周二至六08:00–23:00；周日12:00–21:00。注意不是FAN分店的时段。
@@ -349,7 +349,7 @@
 ### 莫斯塔尔 · Tima–Irma · 老桥西岸店
 
 - 地址：Onešćukova bb, 88000 Mostar
-- 餐费规划：¥35–60，饮水饮品及实际份量另核。
+- 餐费规划：¥35–60
 - 点单：小份Ćevapi或单人烤鸡＋熟蔬菜，避免一人点大混合肉盘；饮水另计。
 - 菜单证据：官网证明老城店地址与烧烤品类，未提供可核数值价表；原稿未给本店单品实价，不能按28元套入。
 - 营业：官网未列可核营业表；D36周日12:15前先看当天开门，未开就用自带简餐，别拖到回程前。
@@ -362,7 +362,7 @@
 ### 贝尔格莱德 · Pizza Bucko · Francuska18店
 
 - 地址：Francuska 18, Beograd Stari Grad
-- 餐费规划：¥15–30，饮水饮品及实际份量另核。
+- 餐费规划：¥15–30
 - 点单：一片披萨＋一份50g沙拉浇料，不够再添；牛肉/鸡肉馅料按当日柜台确认。用纸托和餐巾，吃前收相机。
 - 菜单证据：官网现价：单片150RSD、每份50g附加配料60RSD、整张6片900RSD；一片加一份配料合210RSD，饮料另计。网页未标生效日期，2027须重核。
 - 营业：官网门店周日至周四07:00–00:00，周五六07:00–01:00；不等于全年24h。
@@ -375,7 +375,7 @@
 ### 贝尔格莱德 · Walter · Dorćol店
 
 - 地址：Strahinjića Bana 57, Belgrade
-- 餐费规划：¥35–60，饮水饮品及实际份量另核。
+- 餐费规划：¥35–60
 - 点单：5根Ćevapi小份配半张饼，或一份汤配主食；不够再加。官网确认5根125g/10根250g，不要把两者混为同价。
 - 菜单证据：官网把塞尔维亚菜单分Central/Commercial/Regional/Tourist/Airport多档，本次未取得本分店对应价，不能全连锁统一报45元；人民币是单人食物规划，饮品另计。
 - 营业：官方分店页未给可靠营业时间；各日晚餐前核开门，D40须18:30前结束。
@@ -390,7 +390,7 @@
 ### 泽蒙 · Walter · Zemun centar店
 
 - 地址：Magistralni trg 18, Zemun, Belgrade
-- 餐费规划：¥35–60，饮水饮品及实际份量另核。
+- 餐费规划：¥35–60
 - 点单：5根Ćevapi或一人肉饼；饮水/酸奶单独看价。午餐后再去河岸，不需要为了正餐返回贝尔格莱德中心。
 - 菜单证据：同品牌多档价表，Zemun centar当前单品价未取得；不能直接套Dorćol、机场或外卖其他店价。
 - 营业：官方分店页未列可靠时段；D39建议12:00–12:45就餐，先核当日营业。
@@ -404,7 +404,7 @@
 ### 泽蒙 · Ferdinand Knedle · Zemun店（甜点备选）
 
 - 地址：Bežanijska 46, Zemun, Belgrade
-- 餐费规划：¥17–28，饮水饮品及实际份量另核。
+- 餐费规划：¥17–28
 - 点单：一颗李子甜团子Šljiva，或开心果口味；当甜点加停，不替代含蔬菜与蛋白质的午餐。
 - 菜单证据：官网贝尔格莱德在线店价：李子250RSD/颗、开心果340RSD/颗；未证实Zemun堂食完全同价。官网特殊纯素/无麸质订购有至少5颗及提前一天条件，现场普通单颗供应另问。
 - 营业：本次未取得Zemun分店明确可靠时段；不要把官网动态显示的市区自营店11:00–01:30套到它。
@@ -418,7 +418,7 @@
 ### 格雷梅 · Turkish Ravioli Restaurant · Aydınlı Sokak店
 
 - 地址：Aydınlı Mahallesi, Aydınlı Sokak No:1, Göreme 50180
-- 餐费规划：¥95–150，饮水饮品及实际份量另核。
+- 餐费规划：¥95–150
 - 点单：一份Mantı酸奶肉馅小饺子，或鸡肉陶盘饭；用叉勺。特色饮品Ayran另点。
 - 菜单证据：2026-11-05官网电子菜单可读：当日汤200 TRY、Mantı800 TRY、鸡肉陶盘饭700 TRY、牛肉瓦罐1350 TRY；Ayran75 TRY另计。均为网页显示价，未载明确生效日，2027须重核。
 - 营业：官网主站列每日11:00–22:30；2027复核。
@@ -432,7 +432,7 @@
 ### 格雷梅 · Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店
 
 - 地址：Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180
-- 餐费规划：¥45–90，饮水饮品及实际份量另核。
+- 餐费规划：¥45–90
 - 点单：先看价点一份Pide土耳其长船披萨，或扁豆汤加主食；Ayran另计。
 - 菜单证据：未取得可靠现行原币菜单，不照搬Gemini人民币实价。
 - 营业：店家管理的Tripadvisor资料列每日10:00–次日00:00，仅营业参考。
@@ -446,7 +446,7 @@
 ### 安塔利亚 · Piyazcı Ahmet · Altındağ店
 
 - 地址：Altındağ Mahallesi, 166 Sokak No:29/A, Muratpaşa, Antalya
-- 餐费规划：¥45–80，饮水饮品及实际份量另核。
+- 餐费规划：¥45–80
 - 点单：安塔利亚芝麻酱白豆沙拉Tahinli Piyaz＋一份Şiş Köfte烤肉丸；先问小份与总价，用叉勺。
 - 菜单证据：官网菜单确认Piyaz、烤肉丸和南瓜甜点；未取得数字价格。
 - 营业：未取得可核实营业时段。
@@ -459,7 +459,7 @@
 ### Kaş · Bi'Lokma Restaurant · Uğur Mumcu Caddesi店
 
 - 地址：Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya
-- 餐费规划：¥55–100，饮水饮品及实际份量另核。
+- 餐费规划：¥55–100
 - 点单：Ev Mantısı酸奶小饺子或Etli Yaprak Sarma肉馅葡萄叶卷，选一份主食即可；Ayran或柠檬水另计。
 - 菜单证据：官网索引可确认Mantı、Sarma、烤鱼等菜名，价格未取得；不引用旧土耳其低价。
 - 营业：官网有营业栏目但当前抓取未得到可靠具体时段。
@@ -475,7 +475,7 @@
 ### 伊斯坦布尔 · Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店
 
 - 地址：Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112
-- 餐费规划：¥30–60，饮水饮品及实际份量另核。
+- 餐费规划：¥30–60
 - 点单：看明码柜台选一份Kuru Fasulye白豆炖菜＋Pilav米饭，或一份鸡肉饭；按需要加汤，不默认面包无限。
 - 菜单证据：官网菜单网页列扁豆汤30 TRY、白豆75 TRY、米饭60 TRY、鸡肉饭150 TRY、Ayran35 TRY；网页未载明确生效日，价格偏低，作为官网挂牌记录而非2027实价。
 - 营业：官网列10:00–23:00，2027到店前复核。
@@ -488,7 +488,7 @@
 ### 伊斯坦布尔 · Çiya Sofrası · Kadıköy Güneşlibahçe店
 
 - 地址：Caferağa, Güneşlibahçe Sokak No:43, Kadıköy, İstanbul 34710
-- 餐费规划：¥65–120，饮水饮品及实际份量另核。
+- 餐费规划：¥65–120
 - 点单：选一份当日安纳托利亚炖菜＋米饭；看柜台计价，先问每份/按重量。可用叉勺。
 - 菜单证据：官网确认Kadıköy鱼市内多家Çiya相邻，未取得可核现行数字菜单。
 - 营业：营业时段未取得一手证据。
@@ -503,7 +503,7 @@
 ### 赫尔格达 · Star Fish Restaurant · Sheraton Street主店
 
 - 地址：Sheraton Street, opposite Wahib Stores, Hurghada
-- 餐费规划：¥45–90，饮水饮品及实际份量另核。
+- 餐费规划：¥45–90
 - 点单：先问海鲜汤价格，或问一份带米饭的鱼排/小鱼固定套餐；整鱼称重先核每公斤价、重量和加工费。
 - 菜单证据：官方店址与海鲜菜单入口可查，未取得可核实当前价单；不照搬20元海鲜浓汤。
 - 营业：未取得官方具体营业时间。
@@ -518,7 +518,7 @@
 ### 卢克索 · Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店
 
 - 地址：Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor
-- 餐费规划：¥40–65，饮水饮品及实际份量另核。
+- 餐费规划：¥40–65
 - 点单：扁豆汤＋鸡肉Freekeh小麦陶锅/鸡肉饭选一；若预算紧只点一份主食。Karkadeh洛神花饮另计。
 - 菜单证据：官网电子菜单：扁豆汤80 EGP、鸡肉Freekeh陶锅350 EGP、半鸡380 EGP、米饭50 EGP；Karkadeh70 EGP、水25/50 EGP另计。网页读取日2026-11-05，2027复核。
 - 营业：官网要求联系团队确认服务时间，未锁具体营业时段。
@@ -532,7 +532,7 @@
 ### 阿斯旺 · Makka / Mekka Restaurant · Abtal El Tahrir店
 
 - 地址：143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）
-- 餐费规划：¥25–50，饮水饮品及实际份量另核。
+- 餐费规划：¥25–50
 - 点单：一份烤鸡配米饭，先问单人份与配菜总价；汤、沙拉是否包含现场确认。
 - 菜单证据：未取得店家一手现行菜单，价、税与服务费均待核。
 - 营业：未取得官方营业时间。
@@ -546,7 +546,7 @@
 ### 开罗 · Koshary Abou Tarek · Shamblion市中心总店
 
 - 地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
-- 餐费规划：¥15–30，饮水饮品及实际份量另核。
+- 餐费规划：¥15–30
 - 点单：一份小/中碗Koshary扁豆米饭通心粉；辣酱和蒜醋单独放，先少量。用勺吃，饮料另计。
 - 菜单证据：官网分店页可核16 Maarouf总店，未取得当前官方65 EGP报价；Gemini65 EGP只是未证现价，不能锁定。
 - 营业：未取得可核一手营业时间。
@@ -561,7 +561,7 @@
 ### 迪拜 · Aroos Damascus · Al Muraqqabat / Deira店
 
 - 地址：Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai
-- 餐费规划：¥35–70，饮水饮品及实际份量另核。
+- 餐费规划：¥35–70
 - 点单：单份鸡肉Shawarma或小份烤鸡饭；先问配菜份量和单人价。特色无酒精饮品单独核价。
 - 菜单证据：官网菜单页暂无数字菜单（No posts found），不把Gemini48元鸡肉拼盘当现价。
 - 营业：官方分店表列Al Muraqqabat 07:00–次日04:00，2027复核。
@@ -577,7 +577,7 @@
 ### 迪拜 · Al Mallah Dhiyafah · Satwa / Al Hudaiba店
 
 - 地址：Al Dhiyafa Road / 2nd December Street, Al Hudaiba, Dubai
-- 餐费规划：¥30–85，饮水饮品及实际份量另核。
+- 餐费规划：¥30–85
 - 点单：预算吃法选单份鸡肉Shawarma；改善餐可选官网半鸡餐或混烤餐。鲜榨牛油果饮另计，不默认每天点。
 - 菜单证据：官网列半鸡餐40 AED、3串混烤餐40 AED、早餐套餐27 AED；官网未给当前单卷9 AED证据。区间下端仅单卷餐规划、上端是套餐规划，饮品另计。
 - 营业：官网列周六–周四07:00–次日02:00，周五09:00–次日02:00；不是24小时。
@@ -591,7 +591,7 @@
 ### 迪拜 · ALBAIK · Dubai Mall Second Floor店
 
 - 地址：Dubai Mall, Second Floor food court；靠P7 Cinema Parking
-- 餐费规划：¥25–45，饮水饮品及实际份量另核。
+- 餐费规划：¥25–45
 - 点单：选一份单人鸡肉餐/鸡块餐，优先按柜台套餐牌点，不额外叠多份小吃；用叉子或吃后洗手。
 - 菜单证据：商场官方页确认分店及菜单入口，但挂出的旧PDF非2026新价；不拿旧菜单锁2027金额。
 - 营业：门店当前具体时间未独立核实，不能简单以商场时间替代。
@@ -605,7 +605,7 @@
 ### 阿布扎比 · Museum Café · Louvre Abu Dhabi馆内店
 
 - 地址：Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi
-- 餐费规划：¥90–140，饮水饮品及实际份量另核。
+- 餐费规划：¥90–140
 - 点单：先看Grab & Go柜台的单份三明治/沙拉或轻食，不点酒；可直接把D54卢浮宫前午餐安排在此。
 - 菜单证据：官方确认Grab & Go及餐厅存在；当前可核菜单入口未取得明确新价，预算是馆内餐规划额，不能当平价食堂。
 - 营业：官网列周一–四10:00–19:00（末点18:15），周五–日10:00–21:00（末点20:00）。D54为周四，2027复核。
@@ -619,7 +619,7 @@
 ### 阿布扎比 · McDonald's / McCafé · Souq Al Jami清真寺游客中心店
 
 - 地址：Souq Al Jami food court, Sheikh Zayed Grand Mosque Visitor Centre, Al Maqtaa, Abu Dhabi
-- 餐费规划：¥35–60，饮水饮品及实际份量另核。
+- 餐费规划：¥35–60
 - 点单：在离开大清真寺前吃一份单人鸡肉汉堡餐或简餐；餐后再乘车到卢浮宫。
 - 菜单证据：麦当劳UAE官方McCafé门店表明确列Souq Al Jami, Abu Dhabi；未取得该分店数字菜单，按现场套餐牌。
 - 营业：未取得该分店官方营业时间；不套用另一家Abu Dhabi Mall的时间。
@@ -633,7 +633,7 @@
 ### 伊斯坦布尔 · Hayvore · Beyoğlu Turnacıbaşı店
 
 - 地址：İstiklal Caddesi, Turnacıbaşı Sokak No:4, Beyoğlu, İstanbul
-- 餐费规划：¥45–85，饮水饮品及实际份量另核。
+- 餐费规划：¥45–85
 - 点单：黑海家常食堂：一份Kuru Fasulye白豆炖菜＋米饭，或一份当日肉/蔬菜炖菜。先看当日套餐价；用勺叉。
 - 菜单证据：官网链接到QRDOS菜单，可核白豆米饭套餐、扁豆汤、羽衣甘蓝卷等，当前页面未显示数字价格；按现场明码。
 - 营业：未取得可核具体营业时段，D31晚餐前复核是否仍供餐。
@@ -648,7 +648,7 @@
 ### 伊斯坦布尔 · Forno Balat · Fener Kireçhane店
 
 - 地址：Balat Mahallesi, Fener Kireçhane Sokak No:13/A, Fatih, İstanbul
-- 餐费规划：¥45–85，饮水饮品及实际份量另核。
+- 餐费规划：¥45–85
 - 点单：一份Lahmacun肉末薄饼或Pide＋按需要加扁豆汤；单人不点整桌早餐。饮品Ayran另计。
 - 菜单证据：官网列扁豆汤、Lahmacun、各类Pide及Ayran等，当前文字页没有数字价，先看柜台/菜单图。
 - 营业：具体营业时段未取得；官网说明自助早餐仅周六日，D32周三不套用。
@@ -662,7 +662,7 @@
 ### 伊斯坦布尔 · Kanaat Lokantası · Üsküdar Selmani Pak总店
 
 - 地址：Sultantepe Mahallesi, Selmani Pak Caddesi No:9, Üsküdar, İstanbul 34674
-- 餐费规划：¥50–90，饮水饮品及实际份量另核。
+- 餐费规划：¥50–90
 - 点单：预算选一份蔬菜/豆类家常菜＋米饭，或汤＋一份主食；先问小份和总价，避开同时点烤肉甜品整套。
 - 菜单证据：官网确认每日家常热菜、橄榄油冷菜与甜品，提供菜单入口；现行数字菜单未取得，不能称最便宜店。
 - 营业：官网列07:00–22:30，2027重核；官方明确只在Üsküdar此地址经营。
@@ -676,7 +676,7 @@
 ### 安塔利亚 · Can Can Pide & Yemek Salonu · Arık Caddesi店
 
 - 地址：Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100
-- 餐费规划：¥35–65，饮水饮品及实际份量另核。
+- 餐费规划：¥35–65
 - 点单：省钱组合：一份Kıymalı Pide肉末船饼，或白豆炖菜＋米饭；需要时加扁豆汤。用刀叉，Ayran另计。
 - 菜单证据：餐厅电子菜单读取2026-11-05：扁豆汤110 TRY、白豆180 TRY、米饭110 TRY、肉末Pide280 TRY、肉末薄饼160 TRY、Ayran60 TRY。网页无明确生效日，2027复核。
 - 营业：餐厅电子菜单列10:00–23:30，周日休；D25周三、D26周四按现规则可用但须2027重核。
@@ -690,7 +690,7 @@
 ### Kaş · Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店
 
 - 地址：Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580
-- 餐费规划：¥35–65，饮水饮品及实际份量另核。
+- 餐费规划：¥35–65
 - 点单：家常热菜柜台选一份豆类/蔬菜炖菜＋米饭，或一份当日肉菜；问小份与份量，不按自助随取误结账。
 - 菜单证据：店家管理的餐厅资料确认家常锅菜、蔬菜、卷菜等品类；未取得现行原币菜单价格。
 - 营业：未取得可靠具体时间；管理资料出现00:00–23:59占位式时间，不能据此称24h。
@@ -704,7 +704,7 @@
 ### 伊斯坦布尔 · Tarihi Karadeniz Döner · Beşiktaş Köyiçi6店
 
 - 地址：Sinanpaşa, Köyiçi Caddesi No:6, Beşiktaş, İstanbul
-- 餐费规划：¥60–100，饮水饮品及实际份量另核。
+- 餐费规划：¥60–100
 - 点单：单人点70g小面包夹Döner，或100g Dürüm；配水即可。先问份量，不默认150g大份。
 - 菜单证据：官网标注2026-10-10更新；菜单图人工查看：70g四分之一面包360TRY、70g三明治380TRY、80g半面包400TRY、100g卷饼500TRY、100g肉配饭580TRY、汤120TRY；水30TRY/Ayran60TRY另计。2027重核。
 - 营业：官网未列可靠开门/售罄时间；D31午餐前查营业，排队超过15分钟改自备简餐，不等售罄。
@@ -718,7 +718,7 @@
 ### 塔什干 · Oqtepa Lavash · Shahrisabz 5A店
 
 - 地址：Shahrisabz Street 5A, Mirabad District, Tashkent；Westminster Lyceum对面
-- 餐费规划：¥25–40，饮水饮品及实际份量另核。
+- 餐费规划：¥25–40
 - 点单：一份大鸡肉lavash（куриный большой лаваш）或一份鸡肉pita doner二选一；想补菜加一小份红卷心菜沙拉，先问能否单点，不买双人优惠套餐。
 - 菜单证据：2026-11-06读取品牌官网菜单：大鸡肉lavash 35,000 UZS、鸡肉pita doner 33,000 UZS、红卷心菜沙拉10,000 UZS。是品牌公开菜单，未完成Shahrisabz5A现场点单，分店价格/库存须核；出现0 UZS的活动条目不视作免费。budgetCny为2027单人食物规划留量，饮水另计。
 - 营业：该分店第三方资料列每日09:00–03:00；官网分店表未能把Shahrisabz门牌与营业钟点直接配对，出发前复核。
@@ -733,7 +733,7 @@
 ### 撒马尔罕 · EVOS · Dahbed 47店
 
 - 地址：47 Dahbed Street, Samarkand, Uzbekistan
-- 餐费规划：¥25–45，饮水饮品及实际份量另核。
+- 餐费规划：¥25–45
 - 点单：点一份鸡肉或牛肉lavash卷饼；不叠加汉堡、薯条、汽水套餐。先看当地菜单选最小够吃的一份，打包后尽快吃。
 - 菜单证据：已访问EVOS官网，但菜单需选实际配送地址后动态返回，本次未得到Dahbed分店可读取单菜现价，故不填虚构UZS数字。sam.uz只列under 70k UZS的价格级别，不当作一份lavash报价。budgetCny为一人食物规划留量，饮水另计。
 - 营业：sam.uz列每日08:00–23:00，为第三方2026-10核查资料；2027前复核，不能用其他EVOS分店的03:00收店时间套用。
@@ -748,7 +748,7 @@
 ### 巴库 · Araz Terrace / 原Araz Cafe · İslam Səfərli1店
 
 - 地址：1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan
-- 餐费规划：¥45–85，饮水饮品及实际份量另核。
+- 餐费规划：¥45–85
 - 点单：先问一人份qutab薄饼与汤的当日价，选两三张薄饼加一碗汤，或一份小主食；不点Shah plov等多人宴席菜。
 - 菜单证据：已读官方Araz Terrace页面：确认qutab、plov、dolma与烤肉方向、菜单币种AZN，并明确账单加10%服务费。单菜价在动态菜单/图片中，文本未取到；30–100 AZN是宴会每人价，不是便餐套餐，不能冒用。budgetCny为单人食物含服务费的规划留量，饮水另计；并不保证比Firuzə更便宜。
 - 营业：官网每日10:00–01:00；早餐10:00–13:00、午餐13:00–15:00、其余单点，2027前重核。
@@ -762,7 +762,7 @@
 ### 埃里温 · SAS Food Court · Amiryan 7/1店
 
 - 地址：7/1 Amiryan Street, Yerevan, Armenia
-- 餐费规划：¥30–50，饮水饮品及实际份量另核。
+- 餐费规划：¥30–50
 - 点单：省钱点一份土豆泥配烤时蔬Combo6，或两张普通牛肉lahmacun二选一；不为了套餐额外购买饮料。想少吃肉可选前者，柜台确认份量。
 - 菜单证据：品牌官网单品页读取：普通牛肉lahmacun900 AMD/张；Combo6（土豆泥+烤时蔬）1,700 AMD。官网Our Food Courts列Amiryan7/1门店；这是线上品牌菜单参考，堂食价格、供应和份量需店内核。budgetCny仅单人食物，饮水另计；不拿含tan饮料的Combo21当纯食物价。
 - 营业：品牌官网Amiryan7/1列09:00–01:00；单品页23:30–09:00不配送是配送限制，不能等同堂食收店时间。
@@ -777,7 +777,7 @@
 ### 赫尔格达 · Koshary El Tahrir · El Dahar老城店
 
 - 地址：El Kanisa / Church Street, El Dahar Square一带，Mafish/Mafesh Moshkla商店旁，Hurghada；新地图针写شارع اللواء سلمات مظهر（Salamat Mazhar街），须对照地图针与门头
-- 餐费规划：¥15–30，饮水饮品及实际份量另核。
+- 餐费规划：¥15–30
 - 点单：一人先点中/小碗koshary（米饭、意面、扁豆、鹰嘴豆与炸洋葱），酱和辣油分开；吃完仍饿再加，不默认加甜点。
 - 菜单证据：已访问品牌官网但仅得到需JavaScript页面，未取得可核的ElDahar单碗EGP现价。第三方18–30LE说法无清楚菜单日期，不用于预算实价；也不套开罗同名连锁菜单到此店。budgetCny为一人食物规划留量，饮水另计。
 - 营业：RestaurantGuru/Spinach地图资料列12:00–次日01:00，属第三方参考；2027前核实际店面。
@@ -794,7 +794,7 @@
 ### 卢克索 · El Zaeem / Al Zaeem 2 · Television与AlManshiya路口候选
 
 - 地址：Television Street与Al Manshiya交叉口、Winter Palace/Pavillon后门方向，Luxor East Bank；OpenAlfa写Television39，门牌和当前经营须重核
-- 餐费规划：¥15–35，饮水饮品及实际份量另核。
+- 餐费规划：¥15–35
 - 点单：先看标价，点一份小/中碗koshary；想换口味可问一份hawawshi肉馅烤饼，二选一。只在总价明确时购买，不凭旧攻略点整桌。
 - 菜单证据：未取得官方菜单。2026搜索到的本地指南聚合旅客记录有大碗koshary80EGP，但这只是用户报告，存在游客/本地价争议，不能标成已核店家报价。2015–2022年的5–25LE/12LE旧价全部弃用。budgetCny为一人食物规划留量，饮水另计。
 - 营业：本地指南地图聚合列08:00–次日03:00，但与其他平台时间不一致；本次不视作已核营业，须临行联系/实地核实。
@@ -811,7 +811,7 @@
 ### 开罗 · El Kazaz · Sabry Abou Alam38店
 
 - 地址：38 Sabry Abou Alam Street, off Talaat Harb Square, Downtown Cairo；部分平台写28/39号，订前/临行核门头
-- 餐费规划：¥20–40，饮水饮品及实际份量另核。
+- 餐费规划：¥20–40
 - 点单：点一份foul蚕豆盒配面包，再加一份taameya炸蚕豆球或一小份茄子配菜；想换成肉类则一份鸡肉shawarma饭/卷即可，不把两套叠加。
 - 菜单证据：Talabat商家Downtown–TalaatHarb线上菜单读取：普通调味foul盒46EGP、橄榄油foul盒59EGP、babaGhannoug33EGP；页面还有折后价，但本条只保留原标价作线上参考，不保证堂食分店同价/含面包/含税。官方Facebook被登录页阻拦，未取得官方现价。budgetCny是一人食物规划留量，饮水另计。
 - 营业：Hotlines目录列每日07:00–次日02:30；elmenus另一Alwey分店列07:00–22:00，不能互套；本Sabry38具体营业临行复核。
@@ -827,7 +827,7 @@
 ### 迪拜 · Karachi Darbar · Satwa / 284D90店
 
 - 地址：Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202
-- 餐费规划：¥35–65，饮水饮品及实际份量另核。
+- 餐费规划：¥35–65
 - 点单：一人点dal豆咖喱配两张roti，或一份chickenbiryani二选一；先问单份总价，不点多人karahi/混合烤肉大盘。
 - 菜单证据：品牌官网菜单搜索索引可确认BiryaniandRice等栏目，但正文抓取反复超时，未取得可核的Satwa单菜AED现价。Talabat店页确认Satwa经营与biryani菜品方向，读取时价格未展开；不采用互相矛盾的菜单聚合价。budgetCny为2027单人食物规划留量，饮水另计；先看牌价，超预算继续AlMallah备选。
 - 营业：Zomato Satwa当前页列05:00–次日01:00；其他目录转述官网05:00–02:30，存在差异。本任务18:30晚餐不依赖凌晨时段，但仍需临行重核。
@@ -844,7 +844,7 @@
 ### 亚历山大 · Kadoura Seafood · Mansheya海滨分店
 
 - 地址：6V2P+VRQ, El-Gaish Road, Souq at Tork, Mansheya, Alexandria；仅选Mansheya海滨店，不去远处Montaza/Mandara分店
-- 餐费规划：¥40–80，饮水饮品及实际份量另核。
+- 餐费规划：¥40–80
 - 点单：单人小份烤鱼或一份鱼片＋一份米饭，酱料/沙拉先问是否另收费；整鱼先称重、确认每公斤价与烹饪费，拒绝自动上整桌海鲜拼盘。预算是目标，不是菜单报价。
 - 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
 - 营业：按实际到店日确认；深夜不保证营业
@@ -857,7 +857,7 @@
 ### 亚历山大 · Foul Mohamed Ahmed · Raml Station老店
 
 - 地址：17 Shakour Street, off Saad Zaghloul Street, Raml Station, Alexandria
-- 餐费规划：¥15–30，饮水饮品及实际份量另核。
+- 餐费规划：¥15–30
 - 点单：Ful蚕豆泥＋Ta'ameya蚕豆丸子＋面饼；想吃热汤可选扁豆汤。适合单人便餐，不点多份拼盘；用勺叉和纸巾，微单收好再吃。
 - 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
 - 营业：按实际到店日确认；深夜不保证营业
@@ -871,7 +871,7 @@
 ### 马特鲁 · Magdy Seafood · Omar El-Mokhtar街店
 
 - 地址：Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店
-- 餐费规划：¥40–75，饮水饮品及实际份量另核。
+- 餐费规划：¥40–75
 - 点单：单人份烤鲻鱼/当日鱼＋米饭，或小碗海鲜汤＋米饭。按重量售鱼则先问完整总价，烤制/沙拉/服务费分别确认；不默认点大虾龙虾或海鲜大拼盘。
 - 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
 - 营业：按实际到店日确认；深夜不保证营业
@@ -884,7 +884,7 @@
 ### 马特鲁 · Sahar Restaurant · El Galaa街店
 
 - 地址：12 El Galaa Street, Downtown, beside Oriental Weavers, Mersa Matruh
-- 餐费规划：¥30–60，饮水饮品及实际份量另核。
+- 餐费规划：¥30–60
 - 点单：单人小份Kofta烤肉末串或烤鸡＋面饼/米饭，若只按公斤售卖先问能否四分之一公斤；不点家庭拼盘。此店是有名址的预算备选，未读到官方最新菜单价。
 - 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
 - 营业：按实际到店日确认；深夜不保证营业
@@ -897,7 +897,7 @@
 ### 伊斯坦布尔SAW机场 · Simit Sarayı · SAW国际出发空侧店
 
 - 地址：Sabiha Gökçen Airport，International Departures Airside；按国际转机区现场导向选择可达分店
-- 餐费规划：¥40–80，饮水饮品及实际份量另核。
+- 餐费规划：¥40–80
 - 点单：芝麻圈或三明治；密封瓶装水
 - 菜单证据：仅确认机场分区有店，未取得该分店当前菜单价；40–80元是采购控制范围，超额则用已备简餐。
 - 营业：机场官方目录确认空侧店；2027营业时间与登机口可达性待核
@@ -910,7 +910,7 @@
 ### 安塔利亚 · Tavuk Dünyası · TerraCity分店
 
 - 地址：TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店
-- 餐费规划：¥35–65，饮水饮品及实际份量另核。
+- 餐费规划：¥35–65
 - 点单：鸡肉意面配沙拉；水或Ayran
 - 菜单证据：官方商场确认分店，品牌官网可查菜式；未取得该分店当前含税套餐价。35–65元为计划范围，超预算改同商场便餐。
 - 营业：商场官方当前列此分店；具体2027营业与最后接单待核
@@ -919,3 +919,16 @@
 - 不保证插座、低价套餐或无需排队；超过15–20分钟换便餐。
 - [TerraCity官方分店](https://www.terracity.com.tr/en/gastronomy/restaurants/tavuk-duenyasi/)
 - [品牌官方菜式](https://www.tavukdunyasi.com/lezzetler/tavuklar)
+
+### 费特希耶 · Tavuk Dünyası · Erasta Fethiye分店
+
+- 地址：Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口
+- 餐费规划：¥35–65
+- 点单：鸡肉、意面与沙拉拼盘；水或Ayran
+- 菜单证据：商场与品牌官方均列Fethiye Erasta分店，未取得该分店含税菜单现价；35–65元为规划范围。
+- 营业：Erasta官网当前10:00–22:00；2027及最后接单待核
+- 核查：2026-11-09 官网分店目录与商场地址
+- Fethiye与Antalya TerraCity为不同分店，不混用地址。
+- 先看菜单；超预算或长队则用同商场便餐，13点按计划去海滩。
+- [Erasta Fethiye官方分店](https://erastafethiye.com/en/detail/brand/tavuk-dunyasi)
+- [品牌官方分店表](https://www.tavukdunyasi.com/tr-en/restaurants)

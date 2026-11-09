@@ -1,5 +1,5 @@
 window.TRIP_DATA = {
-  "version": "2026-11-09 · 用餐拆分与夜游动线",
+  "version": "2026-11-09 · 早班Ölüdeniz与时间线自查",
   "reviewed": "2026/11/9 · 票务最后入场与单轨状态再核",
   "title": "丝路随行",
   "subtitle": "58天 · 跨亚欧非10国 · 2027年7月11日—9月6日",
@@ -199,16 +199,11 @@ window.TRIP_DATA = {
         },
         {
           "id": "d2v2-04",
-          "time": "13:00～15:00",
-          "title": "当日已选展馆与街区补充参观",
-          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
-          "plain": "当日已选展馆与街区补充参观 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
-          "links": [
-            {
-              "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%AD%E5%B7%9E"
-            }
-          ],
+          "time": "13:00–15:00",
+          "title": "列车上阅读、备份与沿途观景",
+          "detail": "<p>今天仍在杭州→乌鲁木齐列车上；离线阅读目的地资料、整理导航与照片备份，间隔起身活动。没有下车参观展馆或返回青旅的安排。</p>",
+          "plain": "列车上阅读、备份与沿途观景 今天仍在杭州→乌鲁木齐列车上；离线阅读目的地资料、整理导航与照片备份，间隔起身活动。没有下车参观展馆或返回青旅的安排。",
+          "links": [],
           "place": null,
           "highlight": false,
           "status": "planned",
@@ -522,7 +517,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Shanghai",
+          "endTimezone": "Asia/Shanghai"
         },
         {
           "id": "d4v2-02",
@@ -539,7 +536,9 @@ window.TRIP_DATA = {
           "place": "yili-bus",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Shanghai",
+          "endTimezone": "Asia/Shanghai"
         },
         {
           "id": "d4v2-03",
@@ -551,19 +550,9 @@ window.TRIP_DATA = {
           "place": "yili-bus",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d4v2-05",
-          "time": "09:00–12:00 哈国时间·弹性边检",
-          "title": "中国出境与哈萨克斯坦入境",
-          "detail": "<p>跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。</p>",
-          "plain": "中国出境与哈萨克斯坦入境  跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。 ",
-          "links": [],
-          "place": "khorgos",
-          "highlight": true,
-          "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Shanghai",
+          "endTimezone": "Asia/Shanghai"
         },
         {
           "id": "d4v2-04",
@@ -580,7 +569,23 @@ window.TRIP_DATA = {
           "place": "khorgos",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Shanghai",
+          "endTimezone": "Asia/Shanghai"
+        },
+        {
+          "id": "d4v2-05",
+          "time": "09:00–12:00 哈国时间·弹性边检",
+          "title": "中国出境与哈萨克斯坦入境",
+          "detail": "<p>跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。</p>",
+          "plain": "中国出境与哈萨克斯坦入境  跟随运营方办理，不在边检拍摄；核护照、行程和住宿单，行李按要求受检。两侧排队均不可预估保证，午餐用自带简餐解决。 ",
+          "links": [],
+          "place": "khorgos",
+          "highlight": true,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Almaty",
+          "endTimezone": "Asia/Almaty"
         },
         {
           "id": "d4v2-06",
@@ -597,7 +602,9 @@ window.TRIP_DATA = {
           "place": "almaty-ref",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Almaty",
+          "endTimezone": "Asia/Almaty"
         },
         {
           "id": "d4v2-07",
@@ -614,7 +621,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Almaty",
+          "endTimezone": "Asia/Almaty"
         },
         {
           "id": "d4v2-08",
@@ -626,7 +635,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Almaty",
+          "endTimezone": "Asia/Almaty"
         },
         {
           "id": "d4v2-09",
@@ -639,7 +650,9 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan",
-          "activityType": "meal"
+          "activityType": "meal",
+          "startTimezone": "Asia/Almaty",
+          "endTimezone": "Asia/Almaty"
         }
       ],
       "extras": "T为国际客运票面开车；中国侧用北京时间，哈萨克斯坦侧切换当地时区。导航跨境线路只表示走廊，不代表口岸可自行步行通行。",
@@ -2651,7 +2664,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Tashkent",
+          "endTimezone": "Asia/Tashkent"
         },
         {
           "id": "d14v2-02",
@@ -2668,7 +2683,9 @@ window.TRIP_DATA = {
           "place": "tashkent-airport",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Tashkent",
+          "endTimezone": "Asia/Tashkent"
         },
         {
           "id": "d14v2-03",
@@ -2680,7 +2697,9 @@ window.TRIP_DATA = {
           "place": "tashkent-airport",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Tashkent",
+          "endTimezone": "Asia/Tashkent"
         },
         {
           "id": "d14v2-04",
@@ -2692,7 +2711,9 @@ window.TRIP_DATA = {
           "place": "tashkent-airport",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Tashkent",
+          "endTimezone": "Asia/Tashkent"
         },
         {
           "id": "d14v2-05",
@@ -2704,7 +2725,9 @@ window.TRIP_DATA = {
           "place": "baku-airport",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Tashkent",
+          "endTimezone": "Asia/Baku"
         },
         {
           "id": "d14v2-06",
@@ -2716,7 +2739,9 @@ window.TRIP_DATA = {
           "place": "baku-airport",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Baku",
+          "endTimezone": "Asia/Baku"
         },
         {
           "id": "d14v2-07",
@@ -2733,7 +2758,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Baku",
+          "endTimezone": "Asia/Baku"
         },
         {
           "id": "d14v2-08",
@@ -2745,7 +2772,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Baku",
+          "endTimezone": "Asia/Baku"
         },
         {
           "id": "d14v2-09",
@@ -2762,7 +2791,9 @@ window.TRIP_DATA = {
           "place": "baku-boulevard",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Baku",
+          "endTimezone": "Asia/Baku"
         },
         {
           "id": "d14-dinner-transfer-v17",
@@ -2780,7 +2811,9 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window",
-          "activityType": "activity"
+          "activityType": "activity",
+          "startTimezone": "Asia/Baku",
+          "endTimezone": "Asia/Baku"
         },
         {
           "id": "d14v2-10",
@@ -2798,7 +2831,9 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan",
-          "activityType": "meal"
+          "activityType": "meal",
+          "startTimezone": "Asia/Baku",
+          "endTimezone": "Asia/Baku"
         },
         {
           "id": "d14-return-v17",
@@ -2811,7 +2846,9 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window",
-          "activityType": "activity"
+          "activityType": "activity",
+          "startTimezone": "Asia/Baku",
+          "endTimezone": "Asia/Baku"
         }
       ],
       "extras": "F为TAS实际起飞时刻，B为巴库实际落地当地时间；不预填航班号或飞行时长。若B晚于18:00，删海滨散步。",
@@ -3227,14 +3264,14 @@ window.TRIP_DATA = {
         },
         {
           "id": "d16v2-09",
-          "time": "14:00～17:00",
-          "title": "当日已选展馆与街区补充参观",
-          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
-          "plain": "当日已选展馆与街区补充参观 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "time": "14:00–15:30",
+          "title": "喷泉广场→Deniz Mall公共室内空间",
+          "detail": "<p>午餐后沿海滨或短接驳到Deniz Mall，在公共室内空间和书店走访；不把周一常见闭馆的博物馆写成必入，不新增付费娱乐。</p>",
+          "plain": "喷泉广场→Deniz Mall公共室内空间 午餐后沿海滨或短接驳到Deniz Mall，在公共室内空间和书店走访；不把周一常见闭馆的博物馆写成必入，不新增付费娱乐。",
           "links": [
             {
               "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%B4%E5%BA%93"
+              "url": "https://www.google.com/maps/search/?api=1&query=Deniz%20Mall%20Baku"
             }
           ],
           "place": null,
@@ -3243,13 +3280,62 @@ window.TRIP_DATA = {
           "timeBasis": "suggested-window"
         },
         {
+          "id": "d16-venice-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "15:30–16:15",
+          "title": "Deniz Mall→小威尼斯水城外观",
+          "detail": "<p>沿公共滨水步道回小威尼斯区域，只看外观，游船另计；热时缩短户外停留。</p>",
+          "plain": "Deniz Mall→小威尼斯水城外观 沿公共滨水步道回小威尼斯区域，只看外观，游船另计；热时缩短户外停留。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mini%20Venice%20Baku"
+            }
+          ],
+          "place": "baku-boulevard",
+          "activityType": "activity"
+        },
+        {
+          "id": "d16-return-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "16:15–17:00",
+          "title": "海滨→老城与夜车食品采购",
+          "detail": "<p>返回老城拟住片区，在17点开始原晚餐和食品补给，不拖50L主包逛街。</p>",
+          "plain": "海滨→老城与夜车食品采购 返回老城拟住片区，在17点开始原晚餐和食品补给，不拖50L主包逛街。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Icherisheher%20Baku"
+            }
+          ],
+          "place": "icherisheher",
+          "activityType": "activity"
+        },
+        {
           "id": "d16v2-10",
-          "time": "17:00～18:30",
-          "title": "早晚餐与车上食品",
-          "detail": "<p>吃热餐，采购封装饮水与简餐；安排洗手间。边检可能在夜间，贵重物品放随身内袋，证件不塞行李架。</p>",
-          "plain": "早晚餐与车上食品  吃热餐，采购封装饮水与简餐；安排洗手间。边检可能在夜间，贵重物品放随身内袋，证件不塞行李架。 ",
+          "time": "17:00–18:00",
+          "title": "早晚餐·老城顺路便餐",
+          "detail": "<p>一小时热餐，食品采购另列，餐后按原约定回住宿取包。</p>",
+          "plain": "早晚餐·老城顺路便餐 一小时热餐，食品采购另列。",
           "links": [],
           "place": null,
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "meal"
+        },
+        {
+          "id": "d16-food-v18",
+          "time": "18:00–18:30",
+          "title": "夜车干粮与饮水采购",
+          "detail": "<p>买封装食品和饮水、使用洗手间，再回住宿取50L包；不把购物隐藏成90分钟用餐。</p>",
+          "plain": "夜车干粮与饮水采购",
+          "links": [],
+          "place": "icherisheher",
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -4616,7 +4702,7 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "格雷梅",
       "defaultCity": "格雷梅",
-      "priority": "04:15 EVN经SAW联程，09:15抵ASR；国际接国内需在SAW入境。抵格雷梅后保留最多2小时小憩，再走乌奇希萨尔与鸽子谷。",
+      "priority": "红眼联程抵达后午餐、最多90分钟条件小憩；下午Uçhisar城堡／外观与鸽子谷短访，17:30回镇晚餐。",
       "status": "planned",
       "note": "PC551 04:15→05:40 SAW、PC2732 08:00→09:15 ASR为当前冬季样例，两地夏季时差不变；优先同一订单联程。7月31日18:30提前睡觉，8月1日00:15起床去机场。",
       "rows": [
@@ -4630,7 +4716,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Yerevan",
+          "endTimezone": "Asia/Yerevan"
         },
         {
           "id": "d22v2-02",
@@ -4647,7 +4735,9 @@ window.TRIP_DATA = {
           "place": "evn",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Yerevan",
+          "endTimezone": "Asia/Yerevan"
         },
         {
           "id": "d22v2-03",
@@ -4659,7 +4749,9 @@ window.TRIP_DATA = {
           "place": "evn",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Yerevan",
+          "endTimezone": "Asia/Yerevan"
         },
         {
           "id": "d22v2-04",
@@ -4671,7 +4763,9 @@ window.TRIP_DATA = {
           "place": "saw",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Asia/Yerevan",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d22v2-05",
@@ -4683,7 +4777,9 @@ window.TRIP_DATA = {
           "place": "saw",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d22v2-06",
@@ -4695,7 +4791,9 @@ window.TRIP_DATA = {
           "place": "asr",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d22v2-07",
@@ -4707,7 +4805,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d22v2-08",
@@ -4728,7 +4828,112 @@ window.TRIP_DATA = {
           "place": "goreme-ref",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
+        },
+        {
+          "id": "d22-lunch-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "12:00–12:45",
+          "title": "格雷梅简餐与入住",
+          "detail": "<p>机场接驳准时抵镇后吃简餐、放主包；床位能否提前使用按住宿回复，不保证早入住。</p>",
+          "plain": "格雷梅简餐与入住 机场接驳准时抵镇后吃简餐、放主包；床位能否提前使用按住宿回复，不保证早入住。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Turkey"
+            }
+          ],
+          "place": "goreme-ref",
+          "activityType": "meal"
+        },
+        {
+          "id": "d22-red-eye-rest-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "12:45–14:15 条件小憩",
+          "title": "红眼抵达后最多90分钟小憩",
+          "detail": "<p>仅本次红眼抵达日保留最多90分钟；床位可用才执行。晚到时缩减下午短线，不把这段延长到整个下午。</p>",
+          "plain": "红眼抵达后最多90分钟小憩 仅本次红眼抵达日保留最多90分钟；床位可用才执行。晚到时缩减下午短线，不把这段延长到整个下午。",
+          "place": "goreme-ref",
+          "activityType": "activity",
+          "links": []
+        },
+        {
+          "id": "d22-uchisar-transfer-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "14:15–14:45",
+          "title": "格雷梅→Uçhisar",
+          "detail": "<p>按当日小巴或短接驳赴城堡所在小镇，含候车留30分钟，晚点时优先删谷底步行。</p>",
+          "plain": "格雷梅→Uçhisar 按当日小巴或短接驳赴城堡所在小镇，含候车留30分钟，晚点时优先删谷底步行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Uchisar%20Castle%20Turkey"
+            }
+          ],
+          "place": "uchisar-v18",
+          "activityType": "activity"
+        },
+        {
+          "id": "d22-uchisar-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "14:45–15:45",
+          "title": "乌奇希萨尔城堡与周边观景",
+          "detail": "<p>按当日门票和开放选择登城堡；不愿加票可在镇内公共观景点看石堡外观，不追远线。</p>",
+          "plain": "乌奇希萨尔城堡与周边观景 按当日门票和开放选择登城堡；不愿加票可在镇内公共观景点看石堡外观，不追远线。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Uchisar%20Castle%20Turkey"
+            }
+          ],
+          "place": "uchisar-v18",
+          "activityType": "activity"
+        },
+        {
+          "id": "d22-pigeon-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "15:45–16:15",
+          "title": "城堡→鸽子谷观景点",
+          "detail": "<p>步行到Uçhisar一侧观景区看鸽子洞与谷地；不把此处与整个谷底徒步等同。</p>",
+          "plain": "城堡→鸽子谷观景点 步行到Uçhisar一侧观景区看鸽子洞与谷地；不把此处与整个谷底徒步等同。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Pigeon%20Valley%20Viewpoint%20Uchisar"
+            }
+          ],
+          "place": "pigeon-v18",
+          "activityType": "activity"
+        },
+        {
+          "id": "d22-goreme-return-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "16:15–17:15",
+          "title": "鸽子谷短访后返格雷梅",
+          "detail": "<p>只选短距离可原路返回段，随后小巴/短接驳回镇；交通不明或疲劳就从观景点直接返镇，保17:30晚餐。</p>",
+          "plain": "鸽子谷短访后返格雷梅 只选短距离可原路返回段，随后小巴/短接驳回镇；交通不明或疲劳就从观景点直接返镇，保17:30晚餐。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Goreme%20Turkey"
+            }
+          ],
+          "place": "goreme-ref",
+          "activityType": "activity"
         },
         {
           "id": "d22v2-09",
@@ -4746,7 +4951,9 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan",
-          "activityType": "meal"
+          "activityType": "meal",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d22-prepare-v17",
@@ -4764,7 +4971,9 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window",
-          "activityType": "activity"
+          "activityType": "activity",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         }
       ],
       "extras": "联程与分开票的行李、过境和误机保护不同，付款前核实。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p><p>D22不填虚构航班时刻。若机票为NAV，机场接驳请使用NAV→格雷梅而非ASR路线；国际及转机顺序以正式订单为准。</p>",
@@ -4772,7 +4981,9 @@ window.TRIP_DATA = {
         "evn",
         "saw",
         "asr",
-        "goreme-ref"
+        "goreme-ref",
+        "uchisar-v18",
+        "pigeon-v18"
       ],
       "accent": "#B56948",
       "lodging": "格雷梅（付费夜18）",
@@ -5907,7 +6118,7 @@ window.TRIP_DATA = {
           "id": "d27v2-12",
           "time": "20:15–21:15 建议",
           "title": "回宿；确认D28转车后早睡",
-          "detail": "<p>回Kaş青旅第2晚，确认次日Ağullu→费特希耶、21:00–22:30候选夜巴及准确上车站。湿衣晾干，今晚不转费特希耶。</p>",
+          "detail": "<p>今晚仍住Kaş第2晚，提前确认次日08:50／09:00从Ağullu发车及早间接驳，整理湿衣与50L包；次晨早出不压缩今天Kekova船游。</p>",
           "plain": "回宿；确认D28转车后早睡  回Kaş青旅第2晚，确认次日Ağullu→费特希耶、21:00–22:30候选夜巴及准确上车站。湿衣晾干，今晚不转费特希耶。 ",
           "links": [
             {
@@ -5938,104 +6149,40 @@ window.TRIP_DATA = {
     {
       "id": "day28",
       "date": "2027-08-07",
-      "label": "Kaş→费特希耶→夜巴",
-      "title": "Kaş→费特希耶→夜巴",
-      "name": "Kaş→费特希耶→夜巴",
+      "label": "Kaş早班→Ölüdeniz→伊城夜巴",
+      "title": "Kaş早班→Ölüdeniz→伊城夜巴",
+      "name": "Kaş早班→Ölüdeniz→伊城夜巴",
       "country": "土耳其",
       "countryCode": "TR",
       "timezone": "Europe/Istanbul",
-      "city": "Kaş",
-      "defaultCity": "Kaş",
-      "priority": "上午Kaş短逛，下午提前去费特希耶；至少留2.5小时接夜巴，不追加出海。",
+      "city": "费特希耶",
+      "defaultCity": "费特希耶",
+      "priority": "保Kaş两晚与Kekova；D28改08:50／09:00早班，下午Ölüdeniz公共海岸，17点返程，接21点夜巴。",
       "status": "planned",
       "note": "具体钟点按推荐班次排程；标“现行样例”的为当前参考，标“购票目标”的尚未核到对应班次。2027出票后按实际时刻调整。",
       "rows": [
         {
           "id": "d28v2-01",
-          "time": "08:00–09:00",
-          "title": "睡醒早餐、核夜巴票面",
-          "detail": "<p>今天从Kaş离开，主案晚间费特希耶→伊斯坦布尔夜巴21:00–22:30候选，未锁定2027班次；先核Alibeyköy还是Esenler到站。</p>",
-          "plain": "睡醒早餐、核夜巴票面  今天从Kaş离开，主案晚间费特希耶→伊斯坦布尔夜巴21:00–22:30候选，未锁定2027班次；先核Alibeyköy还是Esenler到站。 ",
+          "time": "06:30–07:15",
+          "title": "早餐、退房与核早班票面",
+          "detail": "<p>前晚备好简餐，吃早餐退房；今天主案08:50 Fethiye Seyahat或09:00 Pamukkale早班，均从Ağullu新站上车。不能保证青旅此时已供应早餐。</p>",
+          "plain": "早餐、退房与核早班票面 前晚备好简餐，吃早餐退房；今天主案08:50 Fethiye Seyahat或09:00 Pamukkale早班，均从Ağullu新站上车。不能保证青旅此时已供应早餐。",
           "links": [],
           "place": "kas-oldtown",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d28v2-02",
-          "time": "09:00–09:30",
-          "title": "老镇 → Küçük Çakıl海湾",
-          "detail": "<p>轻装步行至镇边海湾；台阶与海况按现场，转车日前不游远。若不下水可在咖啡馆休息。</p>",
-          "plain": "老镇 → Küçük Çakıl海湾  轻装步行至镇边海湾；台阶与海况按现场，转车日前不游远。若不下水可在咖啡馆休息。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kas%20Old%20Town%20Andifli%20Kas%20Antalya%20Turkey&destination=Kucuk%20Cakil%20Beach%20Kas%20Turkey&travelmode=walking"
-            }
-          ],
-          "place": "kas-beach",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d28v2-03",
-          "time": "09:30–11:00",
-          "title": "海湾短泳或咖啡馆休整",
-          "detail": "<p>只在开放且海况允许区域短泳，留足洗澡换衣时间；主包已寄存时确认贵重物保管。</p>",
-          "plain": "海湾短泳或咖啡馆休整  只在开放且海况允许区域短泳，留足洗澡换衣时间；主包已寄存时确认贵重物保管。 ",
-          "links": [],
-          "place": "kas-beach",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d28v2-04",
-          "time": "11:00–12:00",
-          "title": "午餐与顺路补给",
-          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
-          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
-          "links": [
-            {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kucuk%20Cakil%20Beach%20Kas%20Turkey&destination=Kas%20Old%20Town%20Andifli%20Kas%20Antalya%20Turkey&travelmode=walking"
-            }
-          ],
-          "place": "kas-oldtown",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan",
-          "activityType": "meal"
-        },
-        {
-          "id": "d28v2-05",
-          "time": "12:00–13:30",
-          "title": "Kaş考古街巷与港区",
-          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
-          "plain": "Kaş考古街巷与港区 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
-          "links": [
-            {
-              "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Antiphellos%20Ancient%20City%20Kas%20Turkey"
-            }
-          ],
-          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan"
         },
         {
           "id": "d28v2-06",
-          "time": "13:30–14:45",
-          "title": "Can Mocamp → Kaş Ağullu新汽车站",
-          "detail": "<p>13:30离开住宿，先到镇内正确接驳点；14:45前抵Ağullu新站，留35分钟候车。不要把镇中心旧站当作15:20长途车发车点。</p>",
-          "plain": "Can Mocamp → Kaş Ağullu新汽车站  13:30离开住宿，先到镇内正确接驳点；14:45前抵Ağullu新站，留35分钟候车。不要把镇中心旧站当作15:20长途车发车点。 ",
+          "time": "07:15–08:15",
+          "title": "Can Mocamp／实际青旅→Ağullu新汽车站",
+          "detail": "<p>前一晚确认早间接驳，08:15前到Ağullu；未核实免费承运接送，必要时预约正规出租。地图起点按实际青旅替换，不去镇中心旧站等长途车。</p>",
+          "plain": "Can Mocamp／实际青旅→Ağullu新汽车站 前一晚确认早间接驳，08:15前到Ağullu；未核实免费承运接送，必要时预约正规出租。地图起点按实际青旅替换，不去镇中心旧站等长途车。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kas%20Old%20Town%20Andifli%20Kas%20Antalya%20Turkey&destination=Kas%20Otobus%20Terminali%20Agullu%20Antalya%20Turkey&travelmode=driving"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ka%C5%9F%20Otob%C3%BCs%20Terminali%20A%C4%9Fullu"
             }
           ],
           "place": "agullu",
@@ -6044,15 +6191,36 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d28v2-07",
-          "time": "15:20–17:20 现行样例",
-          "title": "Fethiye Seyahat 15:20：Kaş → 费特希耶",
-          "detail": "<p>当前例示15:20从Kaş Otobüs Terminali（Ağullu）出发、17:20到费特希耶。到站至21:00夜巴有3小时40分纸面余量，仍需核站台与行李。</p>",
-          "plain": "Fethiye Seyahat 15:20：Kaş → 费特希耶  当前例示15:20从Kaş Otobüs Terminali（Ağullu）出发、17:20到费特希耶。到站至21:00夜巴有3小时40分纸面余量，仍需核站台与行李。 ",
+          "id": "d28v2-02",
+          "time": "08:15–08:50",
+          "title": "Ağullu报到、核车与装包",
+          "detail": "<p>核对运营商、Fethiye Otogarı终点和包牌；08:50为优先早班样例，若买09:00车此段延至09点。</p>",
+          "plain": "Ağullu报到、核车与装包 核对运营商、Fethiye Otogarı终点和包牌；08:50为优先早班样例，若买09:00车此段延至09点。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Kas%20Otobus%20Terminali%20Agullu%20Antalya%20Turkey&destination=Fethiye%20Otogar%20Bus%20Terminal%20Turkey&travelmode=driving"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ka%C5%9F%20Otob%C3%BCs%20Terminali%20A%C4%9Fullu"
+            }
+          ],
+          "place": "agullu",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d28v2-07",
+          "time": "08:50–11:00 现行样例",
+          "title": "Fethiye Seyahat早班：Kaş→费特希耶",
+          "detail": "<p>Obilet当前可见08:50→11:00、2+2、€7.15；另有Pamukkale 09:00→11:15、2+1、€8.22。不是2027-08-07已售或已出票班次，按实际票面执行。</p>",
+          "plain": "Fethiye Seyahat早班：Kaş→费特希耶 Obilet当前可见08:50→11:00、2+2、€7.15；另有Pamukkale 09:00→11:15、2+1、€8.22。不是2027-08-07已售或已出票班次，按实际票面执行。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar%C4%B1"
+            },
+            {
+              "label": "早班时刻与运营商原页",
+              "url": "https://www.obilet.com/en/bus-ticket/kas-fethiye"
             }
           ],
           "place": "fethiye-bus",
@@ -6061,15 +6229,111 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d28-arrive-v17",
-          "time": "17:20–17:45",
-          "title": "费特希耶到站核后程与寄存条件",
-          "detail": "<p>先认后程柜台、上车点和行李保管条件；15:20→17:20只是现行样例，晚到时压缩站边短走。</p>",
-          "plain": "费特希耶到站核后程与寄存条件 先认后程柜台、上车点和行李保管条件；15:20→17:20只是现行样例，晚到时压缩站边短走。",
+          "id": "d28v2-03",
+          "time": "11:00–12:00",
+          "title": "核夜巴上车点、寄存50L包与取件规则",
+          "detail": "<p>FTSO及站经营资料确认有Emanet寄存服务，但没有确认免费或20点一定开门。先问清收费、最晚取件时间并取凭条；若09点车11:15抵达，本段仍留45分钟。晚取无法落实时先换可靠寄存，再决定海滩行程。</p>",
+          "plain": "核夜巴上车点、寄存50L包与取件规则 FTSO及站经营资料确认有Emanet寄存服务，但没有确认免费或20点一定开门。先问清收费、最晚取件时间并取凭条；若09点车11:15抵达，本段仍留45分钟。晚取无法落实时先换可靠寄存，再决定海滩行程。",
           "links": [
             {
               "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar"
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar%C4%B1"
+            },
+            {
+              "label": "FTSO汽车站设施与3-40上车说明",
+              "url": "https://fethiyeharitasi.com/mekan/fethiye-otogari"
+            }
+          ],
+          "place": "fethiye-bus",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d28v2-04",
+          "time": "12:00–13:00",
+          "title": "午餐：Tavuk Dünyası · Erasta Fethiye分店",
+          "detail": "<p>从汽车站步行到旁边Erasta一楼具名店用餐一小时；超预算或等位超过15–20分钟就换同层便餐。不要继续导航到Kaş餐厅。</p>",
+          "plain": "午餐：Tavuk Dünyası · Erasta Fethiye分店 从汽车站步行到旁边Erasta一楼具名店用餐一小时；超预算或等位超过15–20分钟就换同层便餐。不要继续导航到Kaş餐厅。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tavuk%20Dunyasi%20Erasta%20Fethiye"
+            }
+          ],
+          "place": "fethiye-erasta",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
+        },
+        {
+          "id": "d28v2-05",
+          "time": "13:00–14:15",
+          "title": "Otogar门前3-40→Ölüdeniz／Belcekız",
+          "detail": "<p>从汽车站门前Ölüdeniz Caddesi一侧按实际站牌搭3-40，确认Ölüdeniz/Belcekız方向；含候车和暑期拥堵留75分钟，不把时刻表发车间隔当作车程。</p>",
+          "plain": "Otogar门前3-40→Ölüdeniz／Belcekız 从汽车站门前Ölüdeniz Caddesi一侧按实际站牌搭3-40，确认Ölüdeniz/Belcekız方向；含候车和暑期拥堵留75分钟，不把时刻表发车间隔当作车程。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar%20Oludeniz%20Caddesi"
+            },
+            {
+              "label": "MUTTAŞ官方3-40线路",
+              "url": "https://ulasim.muttas.com.tr/hat/3-40-fethiye-oludeniz-61"
+            }
+          ],
+          "place": "fethiye-bus",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d28-belcekiz-v18",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "time": "14:15–16:45",
+          "title": "Belcekız公共海岸·游泳与滑翔伞观景",
+          "detail": "<p>主线走公共海岸，自带毛巾，不默认租躺椅或遮阳伞。只在允许区域且海况合适时下水，避开滑翔伞降落区；看见降落不作保证。Kumburnu蓝湖公园与私人beach club收费另计，截图Golden Beach名称未核实，不标免费。</p>",
+          "plain": "Belcekız公共海岸·游泳与滑翔伞观景 主线走公共海岸，自带毛巾，不默认租躺椅或遮阳伞。只在允许区域且海况合适时下水，避开滑翔伞降落区；看见降落不作保证。Kumburnu蓝湖公园与私人beach club收费另计，截图Golden Beach名称未核实，不标免费。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Belcek%C4%B1z%20Halk%20Plaj%C4%B1%20%C3%96l%C3%BCdeniz"
+            }
+          ],
+          "place": "oludeniz-belcekiz",
+          "activityType": "activity"
+        },
+        {
+          "id": "d28-nearby-v17",
+          "time": "16:45–17:00",
+          "title": "换干衣、补水并到返程车站",
+          "detail": "<p>离海后换好干衣，带齐相机和随身物品；17点开始返费特希耶，不等到日落，也不再叠加岩墓。</p>",
+          "plain": "换干衣、补水并到返程车站 离海后换好干衣，带齐相机和随身物品；17点开始返费特希耶，不等到日落，也不再叠加岩墓。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=%C3%96l%C3%BCdeniz%20Dolmu%C5%9F%20Dura%C4%9F%C4%B1"
+            }
+          ],
+          "place": "oludeniz-belcekiz",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "suggested-window",
+          "activityType": "activity"
+        },
+        {
+          "id": "d28-arrive-v17",
+          "time": "17:00–18:30",
+          "title": "3-40返费特希耶Otogar",
+          "detail": "<p>含候车、Hisarönü一带拥堵留90分钟，目标18:30前回站；若当天返程交通异常，提前结束海滩。已确认有21点夜巴时，以它的报到截止为边界。</p>",
+          "plain": "3-40返费特希耶Otogar 含候车、Hisarönü一带拥堵留90分钟，目标18:30前回站；若当天返程交通异常，提前结束海滩。已确认有21点夜巴时，以它的报到截止为边界。",
+          "links": [
+            {
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar%C4%B1"
             }
           ],
           "place": "fethiye-bus",
@@ -6080,50 +6344,32 @@ window.TRIP_DATA = {
         },
         {
           "id": "d28v2-08",
-          "time": "17:45–18:45",
+          "time": "18:30–19:30",
           "title": "费特希耶站旁晚餐",
-          "detail": "<p>在站内或站旁先看菜单吃一小时便餐，不为找特定餐厅往返Ölüdeniz；不是坐着吃到20点。</p>",
-          "plain": "费特希耶站旁晚餐 在站内或站旁先看菜单吃一小时便餐，不为找特定餐厅往返Ölüdeniz；不是坐着吃到20点。",
-          "links": [
-            {
-              "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar"
-            }
-          ],
-          "place": "fethiye-bus",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan",
-          "activityType": "meal"
-        },
-        {
-          "id": "d28-nearby-v17",
-          "time": "18:45–19:30",
-          "title": "Erasta站旁补给与短走",
-          "detail": "<p>前段准时且寄存明确时步行去邻近Erasta商场补水、补夜巴食品；不加入Ölüdeniz与岩墓远绕，19:30前回站。</p>",
-          "plain": "Erasta站旁补给与短走 前段准时且寄存明确时步行去邻近Erasta商场补水、补夜巴食品；不加入Ölüdeniz与岩墓远绕，19:30前回站。",
+          "detail": "<p>在Erasta或站旁吃一小时便餐，预算优先可提前买好；不用为了第二家特色餐厅再绕市中心。</p>",
+          "plain": "费特希耶站旁晚餐 在Erasta或站旁吃一小时便餐，预算优先可提前买好；不用为了第二家特色餐厅再绕市中心。",
           "links": [
             {
               "label": "具体地点导航",
               "url": "https://www.google.com/maps/search/?api=1&query=Erasta%20Fethiye%20AVM"
             }
           ],
-          "place": null,
+          "place": "fethiye-erasta",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "suggested-window",
-          "activityType": "activity"
+          "timeBasis": "clock-plan",
+          "activityType": "meal"
         },
         {
           "id": "d28-bags-v17",
           "time": "19:30–20:00",
-          "title": "取包、洗手间与夜巴用品分装",
-          "detail": "<p>取50L包、核随身贵重物品，20点开始按票面报到；不取消一小时核车装包余量。</p>",
-          "plain": "取包、洗手间与夜巴用品分装 取50L包、核随身贵重物品，20点开始按票面报到；不取消一小时核车装包余量。",
+          "title": "取主包、洗手间与夜巴用品分装",
+          "detail": "<p>在已确认营业的寄存点取回50L包，核凭条和随身物品；若寄存更早关门，先取包再吃晚餐。</p>",
+          "plain": "取主包、洗手间与夜巴用品分装 在已确认营业的寄存点取回50L包，核凭条和随身物品；若寄存更早关门，先取包再吃晚餐。",
           "links": [
             {
               "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar"
+              "url": "https://www.google.com/maps/search/?api=1&query=Fethiye%20Otogar%C4%B1"
             }
           ],
           "place": "fethiye-bus",
@@ -6166,13 +6412,14 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>Kaş镇到Ağullu汽车站另需地面接驳；至少2.5小时换乘余量，再核费特希耶→伊城到站。小巴延误先联系承运方，不靠追车。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
+      "extras": "<p>新增公交往返＋寄存先留¥60–110，是控制留量，不是2027实价；不租椅伞的公共岸线不增景点门票。若换09:00 Pamukkale，当前样例比08:50车贵€1.07，实际按票面。蓝湖收费区、滑翔伞飞行、私人沙滩均另计，不含在本案。若12点仍未落实可靠寄存或早班严重晚点，改费特希耶市内短线。</p>",
       "places": [
         "kas-oldtown",
-        "kas-beach",
         "agullu",
         "fethiye-bus",
-        "alibeykoy"
+        "fethiye-erasta",
+        "oludeniz-belcekiz",
+        "esenler"
       ],
       "accent": "#B56948",
       "lodging": "车上（夜巴候选第2晚，待核待订）",
@@ -6184,10 +6431,10 @@ window.TRIP_DATA = {
         {
           "id": "kas-fethiye-connection",
           "route": "Kaş → Fethiye",
-          "operator": "Fethiye Seyahat",
-          "service": "Obilet 公共路线页当前例示；Kaş Otobüs Terminali (Ağullu) → Fethiye Otogarı，2+2 座位",
-          "departure": "15:20",
-          "arrival": "17:20",
+          "operator": "Fethiye Seyahat（08:50）／Pamukkale（09:00）",
+          "service": "当前样例：Ağullu→Fethiye Otogarı；08:50→11:00 €7.15，09:00→11:15 €8.22。2027-08-07待核待订。",
+          "departure": "08:50",
+          "arrival": "11:00",
           "url": "https://www.obilet.com/en/bus-ticket/kas-fethiye"
         },
         {
@@ -6198,6 +6445,15 @@ window.TRIP_DATA = {
           "departure": "21:00",
           "arrival": "09:30",
           "url": "https://www.obilet.com/en/bus-ticket/fethiye-istanbul"
+        }
+      ],
+      "transportAlternatives": [
+        {
+          "departure": "15:20",
+          "arrival": "17:20",
+          "operator": "Fethiye Seyahat",
+          "status": "备用；取消Ölüdeniz半日",
+          "reason": "早班或可靠寄存未落实时采用，保费特希耶市内与夜巴，不与海滩主案同时执行。"
         }
       ]
     },
@@ -7471,7 +7727,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d34v2-02",
@@ -7492,7 +7750,9 @@ window.TRIP_DATA = {
           "place": "saw",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d34v2-03",
@@ -7504,7 +7764,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Istanbul"
         },
         {
           "id": "d34v2-04",
@@ -7516,7 +7778,9 @@ window.TRIP_DATA = {
           "place": "sjj",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Istanbul",
+          "endTimezone": "Europe/Sarajevo"
         },
         {
           "id": "d34v2-05",
@@ -7528,7 +7792,9 @@ window.TRIP_DATA = {
           "place": "sjj",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Sarajevo",
+          "endTimezone": "Europe/Sarajevo"
         },
         {
           "id": "d34v2-06",
@@ -7545,7 +7811,9 @@ window.TRIP_DATA = {
           "place": "bascarsija",
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Sarajevo",
+          "endTimezone": "Europe/Sarajevo"
         },
         {
           "id": "d34v2-07",
@@ -7562,7 +7830,9 @@ window.TRIP_DATA = {
           "place": null,
           "highlight": false,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Sarajevo",
+          "endTimezone": "Europe/Sarajevo"
         },
         {
           "id": "d34v2-08",
@@ -7580,7 +7850,9 @@ window.TRIP_DATA = {
           "highlight": false,
           "status": "planned",
           "timeBasis": "clock-plan",
-          "activityType": "meal"
+          "activityType": "meal",
+          "startTimezone": "Europe/Sarajevo",
+          "endTimezone": "Europe/Sarajevo"
         },
         {
           "id": "d34v2-09",
@@ -7592,7 +7864,9 @@ window.TRIP_DATA = {
           "place": "sarajevo-station",
           "highlight": true,
           "status": "planned",
-          "timeBasis": "clock-plan"
+          "timeBasis": "clock-plan",
+          "startTimezone": "Europe/Sarajevo",
+          "endTimezone": "Europe/Sarajevo"
         }
       ],
       "extras": "<p>波黑90/180免签口径，2027行前复核；伊城机场IST与SAW不能混用，机票待用户填。提前核D36当季铁路返程。</p><p>预算21,750元仅草案、尚未锁价；579元备用偏低，航空及城际交通变动须另补差额。</p>",
@@ -8363,17 +8637,17 @@ window.TRIP_DATA = {
         },
         {
           "id": "d38v2-06",
-          "time": "12:00–12:30 建议",
-          "title": "午餐与顺路补给",
-          "detail": "<p>沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。</p>",
-          "plain": "午餐与顺路补给  沿本日所在街区用午餐、补水，随后接上当天展馆和步行动线；不安排强制午睡或跨城找店。 ",
+          "time": "12:00–12:45",
+          "title": "午餐：Pizza Bucko · Francuska店",
+          "detail": "<p>国家博物馆参观后去Francuska18分店吃45分钟，再走向Knez Mihailova街，不重复入国家博物馆。</p>",
+          "plain": "午餐：Pizza Bucko · Francuska店 国家博物馆参观后去Francuska18分店吃45分钟，再走向Knez Mihailova街，不重复入国家博物馆。",
           "links": [
             {
-              "label": "打开本段导航",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=National%20Museum%20Serbia%20Belgrade%20Republic%20Square&destination=Republic%20Square%20Belgrade%20Serbia&travelmode=walking"
+              "label": "具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Pizza%20Bucko%20Francuska%2018%20Belgrade"
             }
           ],
-          "place": "belgrade-republic",
+          "place": null,
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window",
@@ -8381,17 +8655,21 @@ window.TRIP_DATA = {
         },
         {
           "id": "d38v2-07",
-          "time": "12:30–14:00 建议",
-          "title": "塞尔维亚国家博物馆",
-          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
-          "plain": "塞尔维亚国家博物馆 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "time": "12:45–14:00",
+          "title": "SANU免费画廊候选→米哈伊洛大公街",
+          "detail": "<p>SANU Gallery位于Knez Mihailova35，官方当前列免费、周一闭馆，本日周二。按2027实际展览入内；若换展闭馆则走步行街与书店公共区域，不再回国家博物馆。</p>",
+          "plain": "SANU免费画廊候选→米哈伊洛大公街 SANU Gallery位于Knez Mihailova35，官方当前列免费、周一闭馆，本日周二。按2027实际展览入内；若换展闭馆则走步行街与书店公共区域，不再回国家博物馆。",
           "links": [
             {
               "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Serbia%20Belgrade"
+              "url": "https://www.google.com/maps/search/?api=1&query=SASA%20Gallery%20Knez%20Mihailova%2035%20Belgrade"
+            },
+            {
+              "label": "SANU官方开放与免费说明",
+              "url": "https://www.sanu.ac.rs/en/sasa-gallery-of-visual-arts-and-music/"
             }
           ],
-          "place": null,
+          "place": "knez",
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -8492,17 +8770,17 @@ window.TRIP_DATA = {
         },
         {
           "id": "d38v2-14",
-          "time": "20:00–21:00 建议",
-          "title": "塞尔维亚国家博物馆",
-          "detail": "<p>沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。</p>",
-          "plain": "塞尔维亚国家博物馆 沿当天路线补充参观，不另安排强制午睡；用餐与室内参观自然衔接。洗衣在回青旅后交付机洗或代洗，按物业最后受理时间执行。",
+          "time": "20:00–21:00",
+          "title": "Skadarlija石板街→共和国广场夜景",
+          "detail": "<p>沿历史街道与共和国广场公共区域步行，随后回住宿。国家博物馆已在上午参观，周二当前18点闭馆，不安排第三次夜间入馆。</p>",
+          "plain": "Skadarlija石板街→共和国广场夜景 沿历史街道与共和国广场公共区域步行，随后回住宿。国家博物馆已在上午参观，周二当前18点闭馆，不安排第三次夜间入馆。",
           "links": [
             {
               "label": "具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Serbia%20Belgrade"
+              "url": "https://www.google.com/maps/search/?api=1&query=Skadarlija%20Belgrade"
             }
           ],
-          "place": null,
+          "place": "belgrade-republic",
           "highlight": false,
           "status": "planned",
           "timeBasis": "suggested-window"
@@ -15398,8 +15676,8 @@ window.TRIP_DATA = {
     "fethiye-bus": {
       "id": "fethiye-bus",
       "name": "费特希耶汽车站",
-      "lat": 36.6226,
-      "lng": 29.115,
+      "lat": 36.6239,
+      "lng": 29.1314,
       "city": "费特希耶",
       "country": "土耳其",
       "countryCode": "TR",
@@ -15416,7 +15694,7 @@ window.TRIP_DATA = {
       "coordinateType": "city-reference",
       "coordinateAccuracy": "city-reference",
       "coordinateNote": "城市/地区参考点，非景点精确坐标",
-      "coordinateSource": "计划示意用城市/地区参考点；导航目的地使用具体名称检索"
+      "coordinateSource": "FTSO城市地图项目 Fethiye Otogarı：https://fethiyeharitasi.com/mekan/fethiye-otogari"
     },
     "alibeykoy": {
       "id": "alibeykoy",
@@ -22301,6 +22579,94 @@ window.TRIP_DATA = {
       "coordinateAccuracy": "city-reference",
       "coordinateNote": "城市参考坐标，不是景点入口",
       "coordinateSource": "计划示意；实际导航使用具体名称"
+    },
+    "oludeniz-belcekiz": {
+      "id": "oludeniz-belcekiz",
+      "name": "Ölüdeniz · Belcekız公共海岸",
+      "lat": 36.5472,
+      "lng": 29.1247,
+      "city": "Ölüdeniz",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "sight",
+      "address": "Belcekız Halk Plajı Ölüdeniz Fethiye",
+      "query": "Belcekız Halk Plajı Ölüdeniz Fethiye",
+      "keywords": [
+        "Ölüdeniz · Belcekız公共海岸",
+        "Ölüdeniz"
+      ],
+      "time": "具体入口和营业按出发前确认",
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标区域参考，非指定入口或上下车位置",
+      "coordinateSource": "公共海岸区域位置参考；实际公交站与可下水区按现场"
+    },
+    "fethiye-erasta": {
+      "id": "fethiye-erasta",
+      "name": "Erasta Fethiye AVM",
+      "lat": 36.6227,
+      "lng": 29.1303,
+      "city": "费特希耶",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "sight",
+      "address": "Erasta Fethiye AVM Taşyaka 180 Sokak 48",
+      "query": "Erasta Fethiye AVM Taşyaka 180 Sokak 48",
+      "keywords": [
+        "Erasta Fethiye AVM",
+        "费特希耶"
+      ],
+      "time": "具体入口和营业按出发前确认",
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标区域参考，非指定入口或上下车位置",
+      "coordinateSource": "商场地址与FTSO汽车站毗邻关系，地图仅作地标参考"
+    },
+    "uchisar-v18": {
+      "id": "uchisar-v18",
+      "name": "乌奇希萨尔城堡",
+      "lat": 38.6304,
+      "lng": 34.805,
+      "city": "Uçhisar",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "sight",
+      "address": "Uchisar Castle Nevsehir Turkey",
+      "query": "Uchisar Castle Nevsehir Turkey",
+      "keywords": [
+        "乌奇希萨尔城堡",
+        "Uçhisar"
+      ],
+      "time": "具体入口和营业按出发前确认",
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标区域参考，非指定入口或上下车位置",
+      "coordinateSource": "城堡区域参考；具体售票入口按现场导航"
+    },
+    "pigeon-v18": {
+      "id": "pigeon-v18",
+      "name": "鸽子谷观景点",
+      "lat": 38.6275,
+      "lng": 34.8035,
+      "city": "Uçhisar",
+      "country": "土耳其",
+      "countryCode": "TR",
+      "timezone": "Europe/Istanbul",
+      "kind": "sight",
+      "address": "Pigeon Valley Viewpoint Uchisar Turkey",
+      "query": "Pigeon Valley Viewpoint Uchisar Turkey",
+      "keywords": [
+        "鸽子谷观景点",
+        "Uçhisar"
+      ],
+      "time": "具体入口和营业按出发前确认",
+      "coordinateType": "landmark",
+      "coordinateAccuracy": "landmark",
+      "coordinateNote": "地标区域参考，非指定入口或上下车位置",
+      "coordinateSource": "谷地观景区域参考，不作徒步轨迹"
     }
   },
   "guides": [],
@@ -22596,7 +22962,17 @@ window.TRIP_DATA = {
       4572
     ],
     "executionWithAirfareUpperCny": 25483,
-    "unbookedAirfarePurchaseTargetCny": 3772
+    "unbookedAirfarePurchaseTargetCny": 3772,
+    "d28EarlyTransferAllowance": {
+      "additionalGroundCny": [
+        60,
+        110
+      ],
+      "status": "planning-allowance-not-quote",
+      "included": "Ölüdeniz往返公交与寄存",
+      "excluded": "蓝湖收费区、躺椅、滑翔伞、早班出租车新增差额",
+      "note": "与原地面接驳预留核对后计实际差额；不登记为已付或已节省。"
+    }
   },
   "flightWatch": [
     {
@@ -23064,7 +23440,7 @@ window.TRIP_DATA = {
       "checked": "2026-11-08"
     }
   ],
-  "scheduleRevision": "verified-58-v4-meals",
+  "scheduleRevision": "verified-58-v5-early-fethiye",
   "ticketBundle": null,
   "privacy": {
     "publicPlanOnly": true,
