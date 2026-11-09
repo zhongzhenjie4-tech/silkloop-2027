@@ -1,6 +1,6 @@
 window.TRIP_DATA = {
-  "version": "2026-11-08 · 58天高密度核查修订",
-  "reviewed": "2026/11/8 · 官方开放时间与交通复核",
+  "version": "2026-11-09 · 卢克索衔接修订",
+  "reviewed": "2026/11/9 · 票务最后入场与单轨状态再核",
   "title": "丝路随行",
   "subtitle": "58天 · 跨亚欧非10国 · 2027年7月11日—9月6日",
   "startDate": "2027-07-11",
@@ -8902,7 +8902,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "卢克索",
       "defaultCity": "卢克索",
-      "priority": "卢克索两馆夏季午后不接新客，改晚场连逛；午后不虚构冷气博物馆。",
+      "priority": "17点木乃伊馆→17:55入卢克索神庙，留住斜阳和夜景；卢克索大馆移到D45。",
       "status": "planned",
       "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
@@ -9018,59 +9018,17 @@ window.TRIP_DATA = {
         },
         {
           "id": "d44r58-07",
-          "time": "16:15–16:50",
-          "title": "前往卢克索博物馆",
-          "detail": "<p>到开门前抵达入口，准备护照和实体学生证明；不在13:30闭馆窗口去排队。</p>",
-          "plain": "前往卢克索博物馆 到开门前抵达入口，准备护照和实体学生证明；不在13:30闭馆窗口去排队。",
-          "links": [
-            {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Museum"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://egymonuments.com/locations/details/LuxorMuseum"
-            }
-          ],
-          "place": "rev58-d44-7",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44r58-08",
-          "time": "17:00–18:15",
-          "title": "卢克索博物馆",
-          "detail": "<p>官方夏季17:00起晚场、19:00最后入场；外籍学生现200EGP，非2027锁价。</p>",
-          "plain": "卢克索博物馆 官方夏季17:00起晚场、19:00最后入场；外籍学生现200EGP，非2027锁价。",
-          "links": [
-            {
-              "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Museum"
-            },
-            {
-              "label": "开放时间／运营依据",
-              "url": "https://egymonuments.com/locations/details/LuxorMuseum"
-            }
-          ],
-          "place": "rev58-d44-7",
-          "highlight": false,
-          "status": "planned",
-          "timeBasis": "clock-plan"
-        },
-        {
-          "id": "d44r58-09",
-          "time": "18:15–19:00",
-          "title": "步行到木乃伊博物馆并参观",
-          "detail": "<p>两馆沿河相距约1公里，先步行15分钟，再用30分钟看小馆；官方票务晚场17点起、19点最后入场。</p>",
-          "plain": "步行到木乃伊博物馆并参观 两馆沿河相距约1公里，先步行15分钟，再用30分钟看小馆；官方票务晚场17点起、19点最后入场。",
+          "time": "16:15–16:55",
+          "title": "滨河街区→木乃伊博物馆入口",
+          "detail": "<p>从东岸滨河街区走到木乃伊博物馆，准备护照与实体学生证明，17点开门后入馆。</p>",
+          "plain": "滨河街区→木乃伊博物馆入口 从东岸滨河街区走到木乃伊博物馆，准备护照与实体学生证明，17点开门后入馆。",
           "links": [
             {
               "label": "打开具体地点导航",
               "url": "https://www.google.com/maps/search/?api=1&query=Mummification%20Museum%20Luxor"
             },
             {
-              "label": "开放时间／运营依据",
+              "label": "官方票务与最后入场",
               "url": "https://egymonuments.com/details/MummificationMuseumLuxor"
             }
           ],
@@ -9080,19 +9038,61 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d44r58-10",
-          "time": "19:00–20:30",
-          "title": "卢克索神庙亮灯夜景",
-          "detail": "<p>从小馆步行到神庙一次入场，保留夜景，不安排同日两次付费进神庙。</p>",
-          "plain": "卢克索神庙亮灯夜景 从小馆步行到神庙一次入场，保留夜景，不安排同日两次付费进神庙。",
+          "id": "d44r58-08",
+          "time": "17:00–17:40",
+          "title": "木乃伊博物馆",
+          "detail": "<p>先看规模较小的木乃伊馆；官方夏季晚场17点起，19点最后入场。卢克索大馆放到D45，今天不在三处间赶末班。</p>",
+          "plain": "木乃伊博物馆 先看规模较小的木乃伊馆；官方夏季晚场17点起，19点最后入场。卢克索大馆放到D45，今天不在三处间赶末班。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mummification%20Museum%20Luxor"
+            },
+            {
+              "label": "官方票务与最后入场",
+              "url": "https://egymonuments.com/details/MummificationMuseumLuxor"
+            }
+          ],
+          "place": "rev58-d44-9",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-09",
+          "time": "17:40–17:55",
+          "title": "木乃伊博物馆→卢克索神庙",
+          "detail": "<p>沿滨河道路向南步行至卢克索神庙，预留15分钟过街、购票与进入。</p>",
+          "plain": "木乃伊博物馆→卢克索神庙 沿滨河道路向南步行至卢克索神庙，预留15分钟过街、购票与进入。",
           "links": [
             {
               "label": "打开具体地点导航",
               "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Temple"
             },
             {
-              "label": "开放时间／运营依据",
-              "url": "https://egymonuments.gov.eg/monuments/luxor-temple"
+              "label": "官方票务与最后入场",
+              "url": "https://egymonuments.com/details/LuxorTemple"
+            }
+          ],
+          "place": "rev58-d44-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan"
+        },
+        {
+          "id": "d44r58-10",
+          "time": "17:55–19:45",
+          "title": "卢克索神庙·斜阳至夜景",
+          "detail": "<p>17:55入场，一次门票从晚间斜光拍到天色转暗；官方当前19点最后入场、文物部页面20点闭馆。不给18:00固定亮灯保证，按现场照明与日落执行，19:45离场。</p>",
+          "plain": "卢克索神庙·斜阳至夜景 17:55入场，一次门票从晚间斜光拍到天色转暗；官方当前19点最后入场、文物部页面20点闭馆。不给18:00固定亮灯保证，按现场照明与日落执行，19:45离场。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Temple"
+            },
+            {
+              "label": "官方票务与最后入场",
+              "url": "https://egymonuments.com/details/LuxorTemple"
             }
           ],
           "place": "rev58-d44-10",
@@ -9102,10 +9102,10 @@ window.TRIP_DATA = {
         },
         {
           "id": "d44r58-11",
-          "time": "20:30–21:15",
+          "time": "19:45–20:30",
           "title": "晚餐与返宿",
-          "detail": "<p>沿用卢克索已筛餐厅；次日早出门，夜间不再新增远点。</p>",
-          "plain": "晚餐与返宿 沿用卢克索已筛餐厅；次日早出门，夜间不再新增远点。",
+          "detail": "<p>神庙出场后就近晚餐，再回青旅；次日西岸车辆在21点前确认好。</p>",
+          "plain": "晚餐与返宿 神庙出场后就近晚餐，再回青旅；次日西岸车辆在21点前确认好。",
           "links": [
             {
               "label": "打开具体地点导航",
@@ -9118,7 +9118,7 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>今天以大巴T相对窗口为主，午后段只有早到时才成立。若到卢克索晚于16点或明显疲劳，神庙移D45，保留空调休息与早睡。</p><p>卢克索神庙末入19:00为当前参考，使用前查2027官方开放；价格均非已购门票。</p>",
+      "extras": "<p>卢克索神庙当前19点最后入场、文物部页面20点闭馆；不把19点当出发去买票的时间。若大巴晚到，先保17:55神庙，小馆改D45晚场前半段；不重复购票入神庙。</p>",
       "places": [
         "rev58-d44-1",
         "rev58-d44-2",
@@ -9126,7 +9126,6 @@ window.TRIP_DATA = {
         "rev58-d44-4",
         "rev58-d44-5",
         "rev58-d44-6",
-        "rev58-d44-7",
         "rev58-d44-9",
         "rev58-d44-10"
       ],
@@ -9159,7 +9158,7 @@ window.TRIP_DATA = {
       "timezone": "Africa/Cairo",
       "city": "卢克索",
       "defaultCity": "卢克索",
-      "priority": "西岸四处古迹保留；卡特故居仅作有余时替代，不用一顿3小时午餐假装新增体验。",
+      "priority": "清晨西岸四处核心古迹，午后返东岸；17点卢克索博物馆，再接18:30帆船。",
       "status": "planned",
       "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
       "rows": [
@@ -9321,15 +9320,74 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         },
         {
-          "id": "d45r58-10",
-          "time": "16:00–18:00",
-          "title": "尼罗河Felucca帆船",
-          "detail": "<p>按河风状况约1–1.5小时，费用按整船或拼船讲清；若风弱改常规河岸摄影，不承诺特定航线。</p>",
-          "plain": "尼罗河Felucca帆船 按河风状况约1–1.5小时，费用按整船或拼船讲清；若风弱改常规河岸摄影，不承诺特定航线。",
+          "id": "d45r58-east",
           "links": [
             {
               "label": "打开具体地点导航",
-              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Nile%20felucca"
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Museum"
+            },
+            {
+              "label": "官方票务与最后入场",
+              "url": "https://egymonuments.com/locations/details/LuxorMuseum"
+            }
+          ],
+          "place": "rev58-d44-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "time": "15:30–16:30",
+          "title": "西岸→东岸轮渡及博物馆片区",
+          "detail": "<p>结束西岸村落与河岸摄影，乘正规公共轮渡返回东岸，再步行或短途接驳赴卢克索博物馆。16:30左右到片区补水、准备票证，17点入馆。</p>",
+          "plain": "西岸→东岸轮渡及博物馆片区 结束西岸村落与河岸摄影，乘正规公共轮渡返回东岸，再步行或短途接驳赴卢克索博物馆。16:30左右到片区补水、准备票证，17点入馆。"
+        },
+        {
+          "id": "d45r58-museum",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Museum"
+            },
+            {
+              "label": "官方票务与最后入场",
+              "url": "https://egymonuments.com/locations/details/LuxorMuseum"
+            }
+          ],
+          "place": "rev58-d44-7",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "time": "17:00–18:15",
+          "title": "卢克索博物馆",
+          "detail": "<p>集中看新王国雕塑、王室文物等主展厅，留75分钟；官方夏季晚场17点起，19点最后入场。两天各逛一馆，不把18:15–20:45当作两馆均可随时入场。</p>",
+          "plain": "卢克索博物馆 集中看新王国雕塑、王室文物等主展厅，留75分钟；官方夏季晚场17点起，19点最后入场。两天各逛一馆，不把18:15–20:45当作两馆均可随时入场。"
+        },
+        {
+          "id": "d45r58-jetty",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Corniche"
+            }
+          ],
+          "place": "rev58-d45-10",
+          "highlight": false,
+          "status": "planned",
+          "timeBasis": "clock-plan",
+          "time": "18:15–18:30",
+          "title": "博物馆→已约定Felucca上船点",
+          "detail": "<p>与正规船家约好东岸实际码头与18:30出发，步行/短途接驳到指定上船点。不要只按泛称“尼罗河码头”找船。</p>",
+          "plain": "博物馆→已约定Felucca上船点 与正规船家约好东岸实际码头与18:30出发，步行/短途接驳到指定上船点。不要只按泛称“尼罗河码头”找船。"
+        },
+        {
+          "id": "d45r58-10",
+          "time": "18:30–19:45",
+          "title": "尼罗河Felucca帆船·傍晚航行",
+          "detail": "<p>约75分钟傍晚帆船，按出发日实际日落和风况执行。提前确认完整船价、人数、返岸点与时长；不把免费接送或必有强风写进安排。</p>",
+          "plain": "尼罗河Felucca帆船·傍晚航行 约75分钟傍晚帆船，按出发日实际日落和风况执行。提前确认完整船价、人数、返岸点与时长；不把免费接送或必有强风写进安排。",
+          "links": [
+            {
+              "label": "打开具体地点导航",
+              "url": "https://www.google.com/maps/search/?api=1&query=Luxor%20Corniche"
             }
           ],
           "place": "rev58-d45-10",
@@ -9339,10 +9397,10 @@ window.TRIP_DATA = {
         },
         {
           "id": "d45r58-11",
-          "time": "18:30–20:00",
+          "time": "19:45–20:30",
           "title": "东岸晚餐与老城夜景",
-          "detail": "<p>今天不再重复付费进卢克索神庙；洗衣并入返宿后。</p>",
-          "plain": "东岸晚餐与老城夜景 今天不再重复付费进卢克索神庙；洗衣并入返宿后。",
+          "detail": "<p>返岸后在东岸用晚餐，回住宿收拾次日卡纳克清晨参观和赴阿斯旺的行李。</p>",
+          "plain": "东岸晚餐与老城夜景 返岸后在东岸用晚餐，回住宿收拾次日卡纳克清晨参观和赴阿斯旺的行李。",
           "links": [
             {
               "label": "打开具体地点导航",
@@ -9355,7 +9413,7 @@ window.TRIP_DATA = {
           "timeBasis": "clock-plan"
         }
       ],
-      "extras": "<p>核心：帝王谷→女王庙→门农巨像全部放在清晨至上午；约11点前返东岸。体力差时先减墓室数量/门农停留，不挤占午休。</p><p>普通门票与特别墓票分开；学生票价格只作现价参考，2027核年龄、证件、支付与开放墓室。</p>",
+      "extras": "<p>上午保留帝王谷、女王庙、工匠村、哈布城和门农巨像；下午不安排强制午睡。晚场大馆与帆船按先馆后船衔接，门票不重复计费。</p>",
       "places": [
         "rev58-d44-3",
         "rev58-d45-2",
@@ -9365,6 +9423,7 @@ window.TRIP_DATA = {
         "rev58-d45-7",
         "rev58-d45-8",
         "rev58-d45-9",
+        "rev58-d44-7",
         "rev58-d45-10"
       ],
       "accent": "#AB8543",
@@ -11928,8 +11987,8 @@ window.TRIP_DATA = {
           "id": "d57r58-03",
           "time": "10:30–12:00",
           "title": "电车赴Palm Jumeirah站、棕榈岛入口与West Beach",
-          "detail": "<p>默认电车＋步行/短程出租车接驳West Beach，不依赖棕榈单轨。运营商官网当前仍公告维护暂停，只有出发前确认恢复才改用单轨去Atlantis；未恢复时不承诺到亚特兰蒂斯。</p>",
-          "plain": "电车赴Palm Jumeirah站、棕榈岛入口与West Beach 默认电车＋步行/短程出租车接驳West Beach，不依赖棕榈单轨。运营商官网当前仍公告维护暂停，只有出发前确认恢复才改用单轨去Atlantis；未恢复时不承诺到亚特兰蒂斯。",
+          "detail": "<p>默认电车＋步行/短程出租车接驳West Beach。运营商官网仍挂无日期暂停提示，2026年7月又有恢复报道，当前运营状态存在冲突；出发前核当日运营，能乘时可选单轨去Atlantis。未落实前不把单轨写成必坐，也不认定2027一定停运。</p>",
+          "plain": "电车赴Palm Jumeirah站、棕榈岛入口与West Beach  默认电车＋步行/短程出租车接驳West Beach。运营商官网仍挂无日期暂停提示，2026年7月又有恢复报道，当前运营状态存在冲突；出发前核当日运营，能乘时可选单轨去Atlantis。未落实前不把单轨写成必坐，也不认定2027一定停运。 ",
           "links": [
             {
               "label": "打开具体地点导航",
@@ -21402,7 +21461,12 @@ window.TRIP_DATA = {
       "backpacksOmitted": 309.8,
       "documentCorrectedMinimum": 22581.8,
       "source": "2026-11-08按原稿自身低端机票目标和漏项复算；不含新增门票/接驳补足"
-    }
+    },
+    "unbookedAirfareTargetRangeCny": [
+      3972,
+      4572
+    ],
+    "executionWithAirfareUpperCny": 25483
   },
   "flightWatch": [
     {
@@ -21870,7 +21934,7 @@ window.TRIP_DATA = {
       "checked": "2026-11-08"
     }
   ],
-  "scheduleRevision": "verified-58-v1",
+  "scheduleRevision": "verified-58-v2",
   "ticketBundle": null,
   "privacy": {
     "publicPlanOnly": true,
@@ -22704,6 +22768,11 @@ window.TRIP_DATA = {
       "白天不安排洗衣与强制午睡",
       "航空计划时刻与本机订单分开",
       "机型为航司计划，可替换"
+    ],
+    "latestReview": "2026-11-09",
+    "luxorSplit": [
+      44,
+      45
     ]
   }
 };
