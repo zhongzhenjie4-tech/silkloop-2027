@@ -12,30 +12,30 @@
   <link rel="icon" href="./icon-192.png">
   <link rel="apple-touch-icon" href="./icon-192.png">
   <link rel="stylesheet" href="./vendor/leaflet.css">
-  <link rel="stylesheet" href="./app.css?v=19">
-  <link rel="stylesheet" href="./stays.css?v=19">
-  <link rel="stylesheet" href="./postcards.css?v=19">
-  <script defer src="./data.js?v=19"></script>
-  <script defer src="./food.js?v=19"></script>
-  <link rel="stylesheet" href="./dining.css?v=19">
-  <script defer src="./dining-data.js?v=19"></script>
-  <script defer src="./dining.js?v=19"></script>
-  <script defer src="./fruit.js?v=19"></script>
-  <script defer src="./toilets.js?v=19"></script>
+  <link rel="stylesheet" href="./app.css?v=20">
+  <link rel="stylesheet" href="./stays.css?v=20">
+  <link rel="stylesheet" href="./postcards.css?v=20">
+  <script defer src="./data.js?v=20"></script>
+  <script defer src="./food.js?v=20"></script>
+  <link rel="stylesheet" href="./dining.css?v=20">
+  <script defer src="./dining-data.js?v=20"></script>
+  <script defer src="./dining.js?v=20"></script>
+  <script defer src="./fruit.js?v=20"></script>
+  <script defer src="./toilets.js?v=20"></script>
   <script defer src="./vendor/leaflet.js"></script>
-  <script defer src="./stays.js?v=19"></script>
-  <script defer src="./postcards.js?v=19"></script>
-  <script defer src="./private-vault.js?v=19"></script>
-  <script defer src="./preparation.js?v=19"></script>
-  <script defer src="./trip-tools.js?v=19"></script>
-  <script defer src="./planning.js?v=19"></script>
-  <script defer src="./flight-watch.js?v=19"></script>
-  <link rel="stylesheet" href="./booking-calendar.css?v=19">
-  <script defer src="./booking-data.js?v=19"></script>
-  <script defer src="./booking-calendar.js?v=19"></script>
-  <script defer src="./fare-targets.js?v=19"></script>
-  <script defer src="./revision58.js?v=19"></script>
-  <script defer src="./app.js?v=19"></script>
+  <script defer src="./stays.js?v=20"></script>
+  <script defer src="./postcards.js?v=20"></script>
+  <script defer src="./private-vault.js?v=20"></script>
+  <script defer src="./preparation.js?v=20"></script>
+  <script defer src="./trip-tools.js?v=20"></script>
+  <script defer src="./planning.js?v=20"></script>
+  <script defer src="./flight-watch.js?v=20"></script>
+  <link rel="stylesheet" href="./booking-calendar.css?v=20">
+  <script defer src="./booking-data.js?v=20"></script>
+  <script defer src="./booking-calendar.js?v=20"></script>
+  <script defer src="./fare-targets.js?v=20"></script>
+  <script defer src="./revision58.js?v=20"></script>
+  <script defer src="./app.js?v=20"></script>
 </head>
 <body data-view="journey">
   <header class="app-header">
@@ -69,7 +69,7 @@
     <button data-view="guide"><span data-icon="bag"></span><span>行前</span></button>
   </nav>
   <dialog id="search-dialog" class="search-dialog"><div class="dialog-top"><h2>找一找</h2><button class="icon-button" data-close="search-dialog" aria-label="关闭搜索" data-icon="close"></button></div><label class="search-box"><span data-icon="search"></span><input id="search-input" type="search" placeholder="厕所、餐店、瀑布、车站、时间…" autocomplete="off"></label><div id="search-results" class="search-results"></div></dialog>
-  <dialog id="help-dialog" class="help-dialog"><div class="dialog-top"><h2>放进口袋</h2><button class="icon-button" data-close="help-dialog" aria-label="关闭帮助" data-icon="close"></button></div><div class="help-content"><h3>像应用一样使用</h3><p>用手机的 Safari 或 Chrome 打开。在浏览器菜单中选择“添加到主屏幕”。微信里看不到这一项时，先用手机浏览器打开。</p><button class="primary-button" id="install-app" hidden>添加到主屏幕</button><p class="app-version">2027十国58天反向路线 v19 · 私密资料口令加密</p><button class="soft-button" id="update-app">检查更新并重新打开</button><h3>独立离线文件</h3><p><a href="./silkloop-offline.html" download="丝路随行_58天离线行程.html">下载完整离线行程 HTML</a>。包含计划、地图示意和行前资料，不含本机备忘、航班观察或票据。</p><h3>先联网打开一次</h3><p id="offline-state">正在准备离线内容…</p><p>行程、厕所位置参考、餐店预算与排队建议、地点示意、清单和备忘可以离线使用。街道底图、实时路线与官网需要网络；这里不会下载整座城市的离线地图。</p><h3>公开行程与加密私密区分开</h3><p>切换手机或浏览器不会自动同步。旅途中可以导出一份备份，之后合并导入；清理浏览器数据会清除本机备忘与票夹。更新应用会保留本机记录。</p><div class="help-actions"><button class="primary-button" id="export-data">导出公开清单进度</button><label class="soft-button file-label">导入备份<input type="file" id="import-data" accept="application/json,.json"></label></div><p class="minor">此导出只含公开清单进度。酒店、航班、私人备忘和实付记录请在私密区导出加密备份；票夹附件原件另存。</p><p class="saved-state" id="storage-state"></p><p class="minor">本轮更新2026/11/10；SJJ航段按本人确认，其他未购航班仍待落实，报价与营业时间需出发前复核。地标与城市参考坐标已区分；实际入口、道路和班次以导航及票面为准。底图 © OpenStreetMap 贡献者。</p></div></dialog>
+  <dialog id="help-dialog" class="help-dialog"><div class="dialog-top"><h2>放进口袋</h2><button class="icon-button" data-close="help-dialog" aria-label="关闭帮助" data-icon="close"></button></div><div class="help-content"><h3>像应用一样使用</h3><p>用手机的 Safari 或 Chrome 打开。在浏览器菜单中选择“添加到主屏幕”。微信里看不到这一项时，先用手机浏览器打开。</p><button class="primary-button" id="install-app" hidden>添加到主屏幕</button><p class="app-version">2027十国58天已购航班 v20 · 私密资料口令加密</p><button class="soft-button" id="update-app">检查更新并重新打开</button><h3>独立离线文件</h3><p><a href="./silkloop-offline.html" download="丝路随行_58天离线行程.html">下载完整离线行程 HTML</a>。包含计划、地图示意和行前资料，不含本机备忘、航班观察或票据。</p><h3>先联网打开一次</h3><p id="offline-state">正在准备离线内容…</p><p>行程、厕所位置参考、餐店预算与排队建议、地点示意、清单和备忘可以离线使用。街道底图、实时路线与官网需要网络；这里不会下载整座城市的离线地图。</p><h3>公开行程与加密私密区分开</h3><p>切换手机或浏览器不会自动同步。旅途中可以导出一份备份，之后合并导入；清理浏览器数据会清除本机备忘与票夹。更新应用会保留本机记录。</p><div class="help-actions"><button class="primary-button" id="export-data">导出公开清单进度</button><label class="soft-button file-label">导入备份<input type="file" id="import-data" accept="application/json,.json"></label></div><p class="minor">此导出只含公开清单进度。酒店、航班、私人备忘和实付记录请在私密区导出加密备份；票夹附件原件另存。</p><p class="saved-state" id="storage-state"></p><p class="minor">本轮更新2026/11/10；SJJ航段按本人确认，其他未购航班仍待落实，报价与营业时间需出发前复核。地标与城市参考坐标已区分；实际入口、道路和班次以导航及票面为准。底图 © OpenStreetMap 贡献者。</p></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <noscript><p class="no-script">请在支持 JavaScript 的手机浏览器中打开，以使用日期切换、地图与备忘。</p></noscript>
 </body>

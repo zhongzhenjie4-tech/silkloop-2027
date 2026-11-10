@@ -1,6 +1,6 @@
 window.TRIP_DATA = {
-  "version": "2026-11-10 · 巴尔干提前与土耳其反向 v19",
-  "reviewed": "2026/11/10 · 反向路线与SAW半日长转",
+  "version": "2026-11-10 · 三段机票已落实 v20",
+  "reviewed": "2026/11/10 · JU851、PC2733及PC620按本人确认",
   "title": "丝路随行",
   "subtitle": "58天 · 跨亚欧非10国 · 2027年7月11日—9月6日",
   "startDate": "2027-07-11",
@@ -4705,8 +4705,8 @@ window.TRIP_DATA = {
           "id": "d21-pack-v17",
           "time": "19:00–20:00",
           "title": "核JU851与预约次日上午机场接送",
-          "detail": "<p>候选8/1 JU851 EVN14:20→BEG15:35，10:00左右离市区、11:00到机场为本案目标。核护照、证件姓名和背包规格；夜间洗衣请确认收回时间。</p>",
-          "plain": "核JU851与预约次日上午机场接送  候选8/1 JU851 EVN14:20→BEG15:35，10:00左右离市区、11:00到机场为本案目标。核护照、证件姓名和背包规格；夜间洗衣请确认收回时间。 ",
+          "detail": "<p>核已购8/1 JU851 EVN14:20→BEG T2 15:35；10:00左右离市区、11:00到机场为接驳目标。核护照、姓名和所购包额；夜间洗衣确认收回时间。</p>",
+          "plain": "核JU851与预约次日上午机场接送  核已购8/1 JU851 EVN14:20→BEG T2 15:35；10:00左右离市区、11:00到机场为接驳目标。核护照、姓名和所购包额；夜间洗衣确认收回时间。 ",
           "links": [],
           "place": null,
           "highlight": false,
@@ -4758,16 +4758,16 @@ window.TRIP_DATA = {
       "timezone": "Europe/Belgrade",
       "city": "贝尔格莱德",
       "defaultCity": "贝尔格莱德",
-      "priority": "JU851 14:20→15:35为用户提供候选；上午EVN当地时间，落地后贝城时间。",
+      "priority": "已购JU851：EVN14:20→BEG T2 15:35；上午埃里温当地时间，落地后贝城时间。",
       "status": "planned",
-      "note": "JU851 14:20→15:35为用户提供候选；上午EVN当地时间，落地后贝城时间。",
+      "note": "已购JU851：EVN14:20→BEG T2 15:35；上午埃里温当地时间，落地后贝城时间。",
       "rows": [
         {
           "id": "d22v2-01",
           "time": "08:30–09:15 · 埃里温时间",
           "title": "早餐、退房与核JU851",
-          "detail": "<p>吃早餐、退房，核8/1埃里温EVN→贝尔格莱德BEG的JU851候选；此次没有SAW转机或卡帕入境段。寄存取件及离店按实际住宿约定。</p>",
-          "plain": "早餐、退房与核JU851  吃早餐、退房，核8/1埃里温EVN→贝尔格莱德BEG的JU851候选；此次没有SAW转机或卡帕入境段。寄存取件及离店按实际住宿约定。 ",
+          "detail": "<p>吃早餐、退房，核已购8/1 JU851埃里温EVN→贝尔格莱德BEG；没有SAW转机或卡帕段。按实际住宿约定取件离店。</p>",
+          "plain": "早餐、退房与核JU851  吃早餐、退房，核已购8/1 JU851埃里温EVN→贝尔格莱德BEG；没有SAW转机或卡帕段。按实际住宿约定取件离店。 ",
           "links": [],
           "place": null,
           "highlight": true,
@@ -4809,8 +4809,8 @@ window.TRIP_DATA = {
           "id": "d22v2-03",
           "time": "11:00–12:30 · 埃里温时间",
           "title": "JU851值机、证件核验与安检",
-          "detail": "<p>按实际航司柜台开放时间办理值机；核目的地BEG及登机口，背包是否符合所购票种按航司最终规则。</p>",
-          "plain": "JU851值机、证件核验与安检  按实际航司柜台开放时间办理值机；核目的地BEG及登机口，背包是否符合所购票种按航司最终规则。 ",
+          "detail": "<p>按柜台开放时间办理JU851值机、托运与安检；所选Standard按23kg托运＋8kg手提规划，以本人电子票为准。</p>",
+          "plain": "JU851值机、证件核验与安检  按柜台开放时间办理JU851值机、托运与安检；所选Standard按23kg托运＋8kg手提规划，以本人电子票为准。 ",
           "links": [
             {
               "label": "具体地点导航",
@@ -4858,8 +4858,8 @@ window.TRIP_DATA = {
           "activityType": "activity",
           "time": "13:15–14:20 · 埃里温时间",
           "title": "前往JU851登机口与登机",
-          "detail": "<p>登机口、关门时间与舱位以正式票面为准；14:20是用户提供候选，尚未视为已购。</p>",
-          "plain": "前往JU851登机口与登机  登机口、关门时间与舱位以正式票面为准；14:20是用户提供候选，尚未视为已购。 ",
+          "detail": "<p>按正式登机牌核登机口与截止时间；已购JU851计划14:20从EVN起飞，提前到口候机。</p>",
+          "plain": "前往JU851登机口与登机  按正式登机牌核登机口与截止时间；已购JU851计划14:20从EVN起飞，提前到口候机。 ",
           "place": "evn",
           "startTimezone": "Asia/Yerevan",
           "endTimezone": "Asia/Yerevan",
@@ -4869,9 +4869,9 @@ window.TRIP_DATA = {
         {
           "id": "d22v2-04",
           "time": "14:20 EVN → 15:35 BEG",
-          "title": "Air Serbia JU851：埃里温→贝尔格莱德",
-          "detail": "<p>8/1候选直飞：EVN当地14:20（UTC+4）→BEG当地15:35（UTC+2），飞行约3小时15分；未出票，付款前核实同日实际运行。</p>",
-          "plain": "Air Serbia JU851：埃里温→贝尔格莱德  8/1候选直飞：EVN当地14:20（UTC+4）→BEG当地15:35（UTC+2），飞行约3小时15分；未出票，付款前核实同日实际运行。 ",
+          "title": "已购JU851：埃里温→贝尔格莱德T2",
+          "detail": "<p>本人确认已购8/1塞尔维亚航空JU851：EVN当地14:20（UTC+4）→BEG T2当地15:35（UTC+2），飞行3小时15分。留意航变通知，实际支付与订单只存本机。</p>",
+          "plain": "已购JU851：埃里温→贝尔格莱德T2  本人确认已购8/1塞尔维亚航空JU851：EVN当地14:20（UTC+4）→BEG T2当地15:35（UTC+2），飞行3小时15分。留意航变通知，实际支付与订单只存本机。 ",
           "links": [
             {
               "label": "具体地点导航",
@@ -5006,20 +5006,23 @@ window.TRIP_DATA = {
       "accent": "#B56948",
       "lodging": "贝尔格莱德（付费夜18）",
       "transportStatus": "待核 / 待订",
-      "flightStatus": "候选，未出票",
+      "flightStatus": "用户确认已购JU851",
       "scheduleBasis": "当地具体钟点；候选时刻不等于已出票，正式订单在本机私密票夹。",
-      "requiresBookingTime": true,
+      "requiresBookingTime": false,
       "transportPlan": [
         {
           "id": "sw19-evn-beg-ju851",
           "route": "EVN → BEG",
           "operator": "Air Serbia",
-          "service": "JU851，8/1候选直飞，未出票",
+          "service": "JU851，8/1直飞，用户确认已购",
           "departure": "14:20 EVN（UTC+4）",
-          "arrival": "15:35 BEG（UTC+2）",
-          "url": "https://www.airserbia.com/"
+          "arrival": "15:35 BEG T2（UTC+2）",
+          "url": "https://www.airserbia.com/",
+          "status": "用户确认已购；实际金额与订单不公开",
+          "flightNumber": "JU851"
         }
-      ]
+      ],
+      "bookingStatus": "booked-user-reported"
     },
     {
       "id": "day23",
@@ -10477,7 +10480,7 @@ window.TRIP_DATA = {
           "endDate": "2027-08-20"
         }
       ],
-      "extras": "<p>绿线为未购产品窗口，景点顺序、地下城、午餐与门票以正式团单为准。今晚保同一青旅第3晚，取消旧22:30往安塔利亚夜巴。次日机场接送按ASR09:05候选倒推。</p>",
+      "extras": "<p>绿线为未购产品窗口，景点顺序、地下城、午餐与门票以正式团单为准。今晚保同一青旅第3晚，取消旧22:30往安塔利亚夜巴。次日机场接送按已购PC2733 ASR09:05倒推。</p>",
       "places": [
         "goreme-sunrise",
         "goreme-ref",
@@ -10503,9 +10506,9 @@ window.TRIP_DATA = {
       "timezone": "Europe/Istanbul",
       "city": "伊斯坦布尔",
       "defaultCity": "伊斯坦布尔",
-      "priority": "候选ASR09:05→SAW10:30、SAW21:50→HRG次日00:30；未出票。行李直达且可出机场才执行Kadıköy半日。",
+      "priority": "已购PC2733 ASR09:05→SAW10:30；PC620 SAW21:50→HRG T1次日00:30。行李直达且衔接条件允许时执行Kadıköy半日。",
       "status": "planned",
-      "note": "候选ASR09:05→SAW10:30、SAW21:50→HRG次日00:30；未出票。行李直达且可出机场才执行Kadıköy半日。",
+      "note": "已购PC2733 ASR09:05→SAW10:30；PC620 SAW21:50→HRG T1次日00:30。行李直达且衔接条件允许时执行Kadıköy半日。",
       "rows": [
         {
           "id": "sw19-d41-checkout",
@@ -10516,8 +10519,8 @@ window.TRIP_DATA = {
           "activityType": "activity",
           "time": "04:00–04:30",
           "title": "起床、退房与联程证件核验",
-          "detail": "<p>带齐主包、护照与有效埃及入境资料，门禁钥匙按住宿约定交接；本日两段航班仍为候选未购。</p>",
-          "plain": "起床、退房与联程证件核验  带齐主包、护照与有效埃及入境资料，门禁钥匙按住宿约定交接；本日两段航班仍为候选未购。 ",
+          "detail": "<p>带齐主包、护照、两段登机信息与有效埃及入境资料，按住宿约定交钥匙；本日PC2733和PC620已由本人购妥。</p>",
+          "plain": "起床、退房与联程证件核验  带齐主包、护照、两段登机信息与有效埃及入境资料，按住宿约定交钥匙；本日PC2733和PC620已由本人购妥。 ",
           "place": "goreme-ref",
           "startTimezone": "Europe/Istanbul",
           "endTimezone": "Europe/Istanbul",
@@ -10566,8 +10569,8 @@ window.TRIP_DATA = {
           "activityType": "activity",
           "time": "06:30–08:20",
           "title": "ASR联程值机、托运标签与安检",
-          "detail": "<p>核ASR09:05→SAW10:30、SAW21:50→HRG次日00:30为同一航司联程候选；若托运必须看标签HRG。本候选按50L主包托运计，含20kg托运＋8kg手提，额度以最终票面为准。后段登机牌/中途出机场条件未确认则不承诺城内半日。</p>",
-          "plain": "ASR联程值机、托运标签与安检  核ASR09:05→SAW10:30、SAW21:50→HRG次日00:30为同一航司联程候选；若托运必须看标签HRG。本候选按50L主包托运计，含20kg托运＋8kg手提，额度以最终票面为准。后段登机牌/中途出机场条件未确认则不承诺城内半日。 ",
+          "detail": "<p>已购PC2733 ASR09:05→SAW10:30、PC620 SAW21:50→HRG次日00:30。按此前所选20kg托运＋8kg手提规划，以本人票面为准；交主包时核HRG行李牌与后段登机牌，出机场半日仍须当场确认行李及航班状态。</p>",
+          "plain": "ASR联程值机、托运标签与安检  已购PC2733 ASR09:05→SAW10:30、PC620 SAW21:50→HRG次日00:30。按此前所选20kg托运＋8kg手提规划，以本人票面为准；交主包时核HRG行李牌与后段登机牌，出机场半日仍须当场确认行李及航班状态。 ",
           "place": "asr",
           "startTimezone": "Europe/Istanbul",
           "endTimezone": "Europe/Istanbul",
@@ -10588,8 +10591,8 @@ window.TRIP_DATA = {
           "activityType": "activity",
           "time": "08:20–09:05",
           "title": "ASR国内出发登机口候机",
-          "detail": "<p>按正式登机牌截止，至少提前到口；09:05仍是未购候选，航变时先保后段。</p>",
-          "plain": "ASR国内出发登机口候机  按正式登机牌截止，至少提前到口；09:05仍是未购候选，航变时先保后段。 ",
+          "detail": "<p>按正式登机牌截止提前到口；PC2733计划09:05起飞，若航变先保PC620后段。</p>",
+          "plain": "ASR国内出发登机口候机  按正式登机牌截止提前到口；PC2733计划09:05起飞，若航变先保PC620后段。 ",
           "place": "asr",
           "startTimezone": "Europe/Istanbul",
           "endTimezone": "Europe/Istanbul",
@@ -10599,9 +10602,9 @@ window.TRIP_DATA = {
         {
           "id": "d41r58-08",
           "time": "09:05 ASR → 10:30 SAW",
-          "title": "飞马候选：开塞利→伊斯坦布尔SAW",
-          "detail": "<p>8/20国内段ASR09:05→SAW10:30，未出票；这是从卡帕返SAW，不再从BEG入土。两地均Europe/Istanbul。</p>",
-          "plain": "飞马候选：开塞利→伊斯坦布尔SAW  8/20国内段ASR09:05→SAW10:30，未出票；这是从卡帕返SAW，不再从BEG入土。两地均Europe/Istanbul。 ",
+          "title": "已购PC2733：开塞利→伊斯坦布尔SAW",
+          "detail": "<p>8/20 PC2733已购：ASR09:05→SAW10:30，国内段，两地均Europe/Istanbul。此后为11小时20分中转；行李、登机牌及航班条件允许才出机场。</p>",
+          "plain": "已购PC2733：开塞利→伊斯坦布尔SAW  8/20 PC2733已购：ASR09:05→SAW10:30，国内段，两地均Europe/Istanbul。此后为11小时20分中转；行李、登机牌及航班条件允许才出机场。 ",
           "links": [
             {
               "label": "具体地点导航",
@@ -10896,9 +10899,9 @@ window.TRIP_DATA = {
         {
           "id": "d41r58-10",
           "time": "21:50 SAW → 次日00:30 HRG",
-          "title": "飞马候选：SAW→赫尔格达",
-          "detail": "<p>8/20 21:50起飞，8/21 00:30抵HRG；未出票。按埃及当日法定时区及正式票面核对。预订赫尔格达8/20那一晚，并提前约定8/21凌晨入住，D42原00:30入境流程继续。</p>",
-          "plain": "飞马候选：SAW→赫尔格达  8/20 21:50起飞，8/21 00:30抵HRG；未出票。按埃及当日法定时区及正式票面核对。预订赫尔格达8/20那一晚，并提前约定8/21凌晨入住，D42原00:30入境流程继续。 ",
+          "title": "已购PC620：SAW→赫尔格达T1",
+          "detail": "<p>8/20 PC620已购：21:50从SAW起飞，8/21 00:30抵HRG T1。按正式票面与埃及当日法定时区核时；住宿订8/20夜并约定8/21凌晨入住，D42入境流程继续。</p>",
+          "plain": "已购PC620：SAW→赫尔格达T1  8/20 PC620已购：21:50从SAW起飞，8/21 00:30抵HRG T1。按正式票面与埃及当日法定时区核时；住宿订8/20夜并约定8/21凌晨入住，D42入境流程继续。 ",
           "links": [
             {
               "label": "具体地点导航",
@@ -10915,7 +10918,7 @@ window.TRIP_DATA = {
           "endDate": "2027-08-21"
         }
       ],
-      "extras": "<p>仅在ASR已办妥HRG后段登机牌、确认行李直达HRG（或只带合规随身包）、可合法离开SAW且航班未延误时执行；不满足则留SAW机场按指引办理值机与候机，取消市区段。</p><p>赫尔格达住宿须订8/20晚、约定8/21凌晨入住。D42原00:30–02:30入境/接送流程与本候选一致；不因换路删除这晚床位。SAW市区半日可全部取消，不影响后段候机。</p>",
+      "extras": "<p>仅在ASR已办妥HRG后段登机牌、确认行李直达HRG（或只带合规随身包）、可合法离开SAW且航班未延误时执行；不满足则留SAW机场按指引办理值机与候机，取消市区段。</p><p>赫尔格达住宿须订8/20晚、约定8/21凌晨入住。D42原00:30–02:30入境/接送流程与已购PC620时刻一致；不因换路删除这晚床位。SAW市区半日可全部取消，不影响后段候机。</p>",
       "places": [
         "goreme-ref",
         "asr",
@@ -10929,21 +10932,26 @@ window.TRIP_DATA = {
       "accent": "#AB8543",
       "lodging": "赫尔格达（付费夜35，预订8/20，8/21凌晨入住）",
       "transportStatus": "待核 / 待订",
-      "flightStatus": "903元截图候选待购，未出票",
+      "flightStatus": "用户确认已购PC2733＋PC620",
       "scheduleBasis": "当地具体钟点；候选时刻不等于已出票，正式订单在本机私密票夹。",
-      "requiresBookingTime": true,
+      "requiresBookingTime": false,
       "transportPlan": [
         {
           "id": "sw19-asr-saw-hrg",
           "route": "ASR → SAW → HRG",
           "operator": "Pegasus Airlines",
-          "service": "09:05→10:30 + 21:50→次日00:30；用户选定候选，未购；需核行李直达及中途出机场条件",
+          "service": "PC2733 09:05→10:30＋PC620 21:50→次日00:30，用户确认已购；城内半日仍按衔接条件执行",
           "departure": "2027-08-20 09:05 ASR",
-          "arrival": "2027-08-21 00:30 HRG",
-          "url": "https://www.flypgs.com/"
+          "arrival": "2027-08-21 00:30 HRG T1",
+          "url": "https://www.flypgs.com/",
+          "status": "用户确认已购；实际金额与订单不公开",
+          "flightNumbers": [
+            "PC2733",
+            "PC620"
+          ]
         }
       ],
-      "bookingStatus": "candidate-not-booked"
+      "bookingStatus": "booked-user-reported"
     },
     {
       "id": "day42",
@@ -24175,8 +24183,8 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-evn-beg",
-      "label": "待购：8/1 EVN→BEG，优先JU85114:20→15:35，比较含主包托运最终价",
-      "done": false,
+      "label": "用户确认已购：8/1 JU851 EVN14:20→BEG T2 15:35；实付与订单只存本机",
+      "done": true,
       "status": "pending"
     },
     {
@@ -24211,8 +24219,8 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-asr-hrg",
-      "label": "待购候选：8/20 ASR09:05→SAW10:30／21:50→HRG次日00:30，核20kg＋8kg与行李直挂",
-      "done": false,
+      "label": "用户确认已购：8/20 PC2733 ASR09:05→SAW10:30／PC620 21:50→HRG T1次日00:30",
+      "done": true,
       "status": "pending"
     },
     {
@@ -24334,7 +24342,7 @@ window.TRIP_DATA = {
       "summary": "任意180天内累计免签停留不超过90天，2027行前复核；21岁仍须逐店核入住资格。"
     }
   ],
-  "transportNote": "本轮采用已确认的9/2与9/6航空时刻；其余票价/时刻分别标用户观察或现行参考。001Х中午抵塔什干，巴库夜车已恢复；不把未售2027交通写成已出票。",
+  "transportNote": "JU851、PC292、PC2733、PC620、EK928、EK310按用户已购截图与确认时刻排。塔什干→巴库仍待购，地面班次分别标现行参考或购票目标。实际金额与订单只存本机。",
   "budget": {
     "currency": "CNY",
     "total": 22000,
@@ -24412,11 +24420,11 @@ window.TRIP_DATA = {
       "source": "2026-11-08按原稿自身低端机票目标和漏项复算；不含新增门票/接驳补足"
     },
     "unbookedAirfareTargetRangeCny": [
-      3450,
-      3950
+      1100,
+      1300
     ],
     "executionWithAirfareUpperCny": null,
-    "unbookedAirfarePurchaseTargetCny": 3450,
+    "unbookedAirfarePurchaseTargetCny": 1100,
     "airfareRouteTargetRangeCny": [
       4050,
       4700
@@ -24451,22 +24459,23 @@ window.TRIP_DATA = {
     {
       "id": "evn-beg",
       "date": "2027-08-01",
-      "route": "埃里温EVN → 贝尔格莱德BEG · JU851候选",
-      "status": "待购／观察中",
+      "route": "JU851 埃里温EVN → 贝尔格莱德BEG T2",
+      "status": "用户确认已购；实际支付和订单只在本机",
       "price": null,
       "currency": null,
       "airline": "",
-      "flightNumber": "",
-      "departure": "",
-      "arrival": "",
+      "flightNumber": "JU851",
+      "departure": "14:20",
+      "arrival": "15:35",
       "bookingReference": "",
-      "done": false
+      "done": true,
+      "bookingStatus": "booked-user-reported"
     },
     {
       "id": "sjj-saw",
       "date": "2027-08-08",
       "route": "萨拉热窝SJJ → 伊斯坦布尔SAW",
-      "status": "用户报告已购；按PC292截图时刻安排，电子票待本人复核",
+      "status": "用户确认已购；实际支付和订单只在本机",
       "price": null,
       "currency": null,
       "airline": "",
@@ -24480,17 +24489,18 @@ window.TRIP_DATA = {
     {
       "id": "asr-hrg",
       "date": "2027-08-20",
-      "route": "开塞利ASR → SAW（入城半日）→ 赫尔格达HRG",
-      "status": "截图候选待购，未出票",
+      "route": "PC2733 ASR→SAW／PC620 SAW→HRG T1",
+      "status": "用户确认已购；实际支付和订单只在本机",
       "price": null,
       "currency": null,
       "airline": "",
-      "flightNumber": "",
-      "departure": "",
-      "arrival": "",
+      "flightNumber": "PC2733 / PC620",
+      "departure": "09:05",
+      "arrival": "00:30",
       "bookingReference": "",
-      "done": false,
-      "bookingStatus": "candidate-not-booked"
+      "done": true,
+      "bookingStatus": "booked-user-reported",
+      "arrivalDate": "2027-08-21"
     },
     {
       "id": "asw-cai",
@@ -25109,10 +25119,12 @@ window.TRIP_DATA = {
       "id": "sw19-evn-beg-ju851",
       "route": "EVN → BEG",
       "operator": "Air Serbia",
-      "service": "JU851，8/1候选直飞，未出票",
+      "service": "JU851，8/1直飞，用户确认已购",
       "departure": "14:20 EVN（UTC+4）",
-      "arrival": "15:35 BEG（UTC+2）",
+      "arrival": "15:35 BEG T2（UTC+2）",
       "url": "https://www.airserbia.com/",
+      "status": "用户确认已购；实际金额与订单不公开",
+      "flightNumber": "JU851",
       "dayId": "day22",
       "date": "2027-08-01"
     },
@@ -25200,10 +25212,15 @@ window.TRIP_DATA = {
       "id": "sw19-asr-saw-hrg",
       "route": "ASR → SAW → HRG",
       "operator": "Pegasus Airlines",
-      "service": "09:05→10:30 + 21:50→次日00:30；用户选定候选，未购；需核行李直达及中途出机场条件",
+      "service": "PC2733 09:05→10:30＋PC620 21:50→次日00:30，用户确认已购；城内半日仍按衔接条件执行",
       "departure": "2027-08-20 09:05 ASR",
-      "arrival": "2027-08-21 00:30 HRG",
+      "arrival": "2027-08-21 00:30 HRG T1",
       "url": "https://www.flypgs.com/",
+      "status": "用户确认已购；实际金额与订单不公开",
+      "flightNumbers": [
+        "PC2733",
+        "PC620"
+      ],
       "dayId": "day41",
       "date": "2027-08-20"
     },
@@ -25293,7 +25310,7 @@ window.TRIP_DATA = {
       "机型为航司计划，可替换",
       "D1–D20及D42–D58正文保持不变；D21–D41是21天。",
       "反向沿海保Kaş两晚与格雷梅三晚；D33/D37为夜巴。",
-      "D41 ASR09:05→SAW10:30和21:50→HRG次日00:30为未购候选。"
+      "D41 PC2733＋PC620按本人确认已购时刻排程；市区半日仍有条件执行。"
     ],
     "latestReview": "2026-11-10",
     "luxorSplit": [
@@ -25324,14 +25341,17 @@ window.TRIP_DATA = {
     ],
     "routeSwap": "EVN→BEG→SJJ→SAW→Fethiye→Kaş→Antalya→Göreme→ASR→SAW→HRG",
     "boughtPublicRoutes": [
-      "2027-08-08 PC292 SJJ11:05→SAW13:50"
+      "2027-08-01 JU851 EVN14:20→BEG15:35",
+      "2027-08-08 PC292 SJJ11:05→SAW13:50",
+      "2027-08-20 PC2733 ASR09:05→SAW10:30；PC620 SAW21:50→HRG次日00:30"
     ]
   },
   "routeRevision": {
     "id": "reverse19",
-    "version": 19,
+    "version": 20,
     "updated": "2026-11-10",
     "privateRecordsAutoMoved": false,
-    "note": "行程换序不会自动改动原订单日期；旧日期备忘和票夹请按城市复核。"
+    "note": "行程换序不会自动改动原订单日期；旧日期备忘和票夹请按城市复核。",
+    "bookingConfirmationUpdated": "2026-11-10"
   }
 };

@@ -3,7 +3,7 @@
   const D=window.TRIP_DATA,KEY='silkloop-2027-flightwatch-v1';
   const E=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   // SWAP_SUPPORT_20261110: new route IDs never inherit old booking state.
-  const routes=[["tas-bak","塔什干TAS → 巴库GYD","2027-07-24"],["evn-beg","埃里温EVN → 贝尔格莱德BEG","2027-08-01"],["sjj-saw","PC292 萨拉热窝SJJ → 伊斯坦布尔SAW · 11:05–13:50（用户确认已落实）","2027-08-08"],["asr-hrg","ASR09:05 → SAW10:30；21:50 → HRG次日00:30（待购）","2027-08-20"],["asw-cai","阿斯旺 → 开罗（与夜巴比较，可不买）","2027-08-28"],["cai-uae","EK928 CAI → DXB · 13:10–17:30（用户确认时刻）","2027-09-02"],["uae-hgh","EK310 DXB → HGH · 04:35–17:05（用户确认时刻）","2027-09-06"]];
+  const routes=[["tas-bak","塔什干TAS → 巴库GYD","2027-07-24"],["evn-beg","JU851 EVN14:20 → BEG15:35（用户确认已购）","2027-08-01"],["sjj-saw","PC292 萨拉热窝SJJ → 伊斯坦布尔SAW · 11:05–13:50（用户确认已落实）","2027-08-08"],["asr-hrg","PC2733 ASR09:05 → SAW10:30；PC620 21:50 → HRG次日00:30（用户确认已购）","2027-08-20"],["asw-cai","阿斯旺 → 开罗（与夜巴比较，可不买）","2027-08-28"],["cai-uae","EK928 CAI → DXB · 13:10–17:30（用户确认时刻）","2027-09-02"],["uae-hgh","EK310 DXB → HGH · 04:35–17:05（用户确认时刻）","2027-09-06"]];
   const legacyRoutes=[["evn-cap","旧方案归档 · EVN → SAW → ASR/NAV（记录保留，不代表新方案已订）","2027-08-01"],["ist-sjj","旧方案归档 · 伊斯坦布尔 → 萨拉热窝（原方向，记录保留）","2027-08-13"],["beg-hrg","旧方案归档 · 贝尔格莱德 → 赫尔格达（原方案，记录保留）","2027-08-20"]];
   const allRoutes=[...routes,...legacyRoutes];
   const fields=['date','flight','price','url','status','note','updated'];

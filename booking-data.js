@@ -5,7 +5,7 @@ window.TRIP_BOOKING_DATA = {
     "planDates": "2027-07-11—2027-09-06；9月6日17:05到杭州，9月7日开学",
     "automaticMonitoringCreated": false,
     "bookingPerformed": false,
-    "evidenceBoundary": "本轮更新路线方向和日历；PC292、EK928、EK310时刻来自用户确认，实际金额与订单编号不公开。其他票价、起降和住宿仍是规划或询价目标，指定日期库存及最终票规以航司/住宿为准。没有代用户下单或创建自动监控。",
+    "evidenceBoundary": "JU851、PC292、PC2733、PC620、EK928、EK310来自用户已购截图与确认；实际金额、乘机人及订单编号不公开。塔什干→巴库待购，住宿与地面交通仍按各自状态。未代用户下单或创建自动监控。",
     "saleWindow": {
       "emiratesDays": 328,
       "daysUntilReturnFromCheckedDate": 300,
@@ -22,7 +22,7 @@ window.TRIP_BOOKING_DATA = {
           "TAS",
           "GYD"
         ],
-        "priority": "待购主链：乌兹别克→高加索；与EVN→BEG一起定日期",
+        "priority": "主链唯一待购：7/24塔什干→巴库；后段已购日期作为锚点",
         "startWatching": "现在开始记含税基准；主链改日先检查两端住宿和后续跨境交通。",
         "recommendedDecision": "合适价格及完整行程可售时落实；2027春季仍未定则重新检查日期库存。",
         "flexibility": "以7/24为计划日；可比较前后1日，但不能只改机票不改巴库、铁路及签证日期。",
@@ -47,20 +47,25 @@ window.TRIP_BOOKING_DATA = {
           "EVN",
           "BEG"
         ],
-        "priority": "待购主链：先到塞尔维亚，随后陆路去波黑",
-        "startWatching": "现在查8/1航司可售行程，记录最终含税、所选包额与退改口径。",
-        "recommendedDecision": "与8/5贝城→萨城地面交通和8/8已落实PC292组成一组检查后落实。",
-        "flexibility": "8/1计划；若查前后1日，保持8/8萨城飞伊城锚点，不自动顺延后段。",
+        "priority": "用户确认已购；实际金额与订单只存本机",
+        "startWatching": "停止追这段价格，出发前检查航变及值机通知。",
+        "recommendedDecision": "保留电子客票和实际票规；不重复买票或加购已含行李。",
+        "flexibility": "8/1已购JU851；变更按本人客票，不自动顺延后段。",
         "checks": [
-          "本段终点是BEG，不是SAW/ASR/NAV；旧EVN→卡帕联程的时刻、报价和套餐不沿用。",
-          "以当日可售的直飞或完整联程为准；候选若经其他机场，检查护照、转机入境与同票保护。",
-          "本页仅给公开计划与比价口径；订单状态、实付和订位编号保留本机私密区。"
+          "8/1 JU851 EVN14:20→BEG T2 15:35已由本人购妥，按机场当地时间。",
+          "Standard按23kg托运＋8kg手提规划；以本人客票额度和承运方值机要求为准。",
+          "上午10点左右离市区、11点到EVN是接驳目标，实际接送另订。"
         ],
         "timeReference": "14:20 EVN → 15:35 BEG · Air Serbia JU851：埃里温→贝尔格莱德",
         "url": "https://www.airserbia.com/",
-        "compareUrls": [
-          "https://www.flypgs.com/en"
-        ]
+        "compareUrls": [],
+        "status": "user-confirmed",
+        "bookingStatus": "booked-user-reported",
+        "flight": "JU851",
+        "departureTime": "14:20",
+        "arrivalTime": "15:35",
+        "departureTimezone": "Asia/Yerevan",
+        "arrivalTimezone": "Europe/Belgrade"
       },
       {
         "id": "sjj-saw",
@@ -99,11 +104,11 @@ window.TRIP_BOOKING_DATA = {
           "SAW",
           "HRG"
         ],
-        "status": "planned-not-booked",
-        "priority": "待购主链：国内段到SAW后进Kadıköy，再回同一机场飞HRG",
-        "startWatching": "现在查8/20完整可售行程；同时比较同票与分票，但分票不能按联程保护理解。",
-        "recommendedDecision": "先核09:05→10:30和21:50→次日00:30均可售、包额和衔接规则，再落实。",
-        "flexibility": "8/20为锚点；候选改晚到或改机场即取消入城。目标18:30回SAW，最迟18:50；时间不足就改机场内候机。",
+        "status": "user-confirmed",
+        "priority": "用户确认已购；实际金额与订单只存本机",
+        "startWatching": "停止追这段价格，出发前检查航变及值机通知。",
+        "recommendedDecision": "保留电子客票和实际票规；不重复买票或加购已含行李。",
+        "flexibility": "8/20两段已购；目标18:30回SAW、最迟18:50；航变或衔接条件不足则取消市区段。",
         "departureTime": "09:05",
         "arrivalTime": "00:30",
         "arrivalDate": "2027-08-21",
@@ -114,7 +119,8 @@ window.TRIP_BOOKING_DATA = {
             "departureTime": "09:05",
             "arrivalTime": "10:30",
             "date": "2027-08-20",
-            "status": "planned-not-booked"
+            "status": "user-confirmed",
+            "flightNumber": "PC2733"
           },
           {
             "from": "SAW",
@@ -123,20 +129,21 @@ window.TRIP_BOOKING_DATA = {
             "arrivalTime": "00:30",
             "date": "2027-08-20",
             "arrivalDate": "2027-08-21",
-            "status": "planned-not-booked"
+            "status": "user-confirmed",
+            "flightNumber": "PC620"
           }
         ],
         "checks": [
-          "09:05 ASR→10:30 SAW、21:50 SAW→8/21 00:30 HRG是当前待购计划，未标成已出票。",
+          "8/20 PC2733 ASR09:05→SAW10:30；PC620 SAW21:50→8/21 HRG T1 00:30，已由本人购妥。",
           "上午ASR→SAW为土耳其国内到达；入城游览后仍需重新过出境安检飞埃及，不能把晚段当纯空侧中转。",
           "进Kadıköy前确认晚班运行、行李去向和寄存，17:00前开始返程，目标18:30、最迟18:50回到SAW。时间被压缩则删入城，不改夜间航班。",
-          "确认是否同票、能否在SAW取/直挂行李以及票种实际随身额度；分票延误不等于航司负责后段。",
+          "主包按此前所选20kg托运＋8kg手提，最终以客票为准；ASR交包确认HRG行李牌、后段登机牌和中途出机场条件。",
           "HRG 8/21凌晨抵达，青旅预订8/20夜并书面确认凌晨接待；不能只订8/21下午起的房。"
         ],
         "url": "https://www.flypgs.com/en",
-        "compareUrls": [
-          "https://www.flypgs.com/en/what-should-you-do-when-connecting-flights"
-        ]
+        "compareUrls": [],
+        "bookingStatus": "booked-user-reported",
+        "flight": "PC2733 / PC620"
       },
       {
         "id": "asw-cai",
@@ -212,9 +219,9 @@ window.TRIP_BOOKING_DATA = {
         "window": "现在—2027年春季",
         "title": "落实剩余主链，保留已确认航班",
         "actions": [
-          "重点查TAS→GYD、EVN→BEG、ASR→SAW及SAW→HRG；按最终所选票种与包额比完整含税总价。",
-          "PC292 8/8 SJJ→SAW、EK928 9/2 CAI→DXB、EK310 9/6 DXB→HGH按用户确认时刻排，实际支付和订单仅存本机。",
-          "贝城→萨城跨境大巴、反向土耳其两晚夜巴与马特鲁1人整间价同步核；当前没有自动盯价。"
+          "主链只剩7/24 TAS→GYD待购，比较含所需包额的单人含税最终价。",
+          "JU851、PC292、PC2733＋PC620、EK928及EK310按本人已购时刻安排，只查航变和行前要求，不再重复订。",
+          "继续核贝城→萨城跨境大巴、土耳其夜巴及马特鲁住宿，未创建自动盯价。"
         ]
       },
       {

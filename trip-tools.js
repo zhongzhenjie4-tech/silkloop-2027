@@ -29,7 +29,11 @@
     if(focus==='end'||!remaining.length)return {mode:'end',row:null,next:null};
     const manual=d.rows.find(r=>r.id===focus&&!state.done[r.id]);
     let row=manual,mode=manual?'manual':'preview';
-    const zonedRows=d.rows.some(hasRowTimezone),onDate=d.date===tripDate(now,d.timezone||'UTC')||(zonedRows&&d.rows.some(r=>[r.startTimezone,r.endTimezone,r.timezone].filter(Boolean).some(z=>d.date===tripDate(now,z))));
+    const zonedRows=d.rows.some(hasRowTimezone);
+    // Keep an overnight flight active only while its real UTC interval contains
+    // now; the previous day's page returns to preview after that interval ends.
+    const inActiveWindow=zonedRows&&remaining.some(r=>{const span=rowWindow(d,r);return span&&span.start<=now.getTime()&&now.getTime()<span.end;});
+    const onDate=d.date===tripDate(now,d.timezone||'UTC')||(zonedRows&&d.rows.some(r=>[r.startTimezone,r.endTimezone,r.timezone].filter(Boolean).some(z=>d.date===tripDate(now,z))))||inActiveWindow;
     if(!row&&!d.requiresBookingTime&&onDate){
       const minute=clockMinutes(now,d.timezone||'UTC');
       row=remaining.find(r=>{if(zonedRows){const span=rowWindow(d,r);return span&&span.end>now.getTime();}const t=times(r);return (t.length>1?(t[1]<t[0]?t[1]+1440:t[1]):Math.max(t[0]+30,1440))>minute;});
