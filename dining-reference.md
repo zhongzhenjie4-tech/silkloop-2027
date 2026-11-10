@@ -1,934 +1,2815 @@
-# 具体餐厅与用餐卡 · 2026-11-09
+# 反向路线 · 具名餐厅与逐餐安排
+更新：2026-11-10 · v19。2027-07-11—09-06，58天。公开建议行程；真实订单、实付及个人票据不在本文。
+SJJ→SAW按本人确认已购安排；EVN→BEG、ASR→SAW→HRG仍待购。候选时刻与价线不代表出票。
+换序不会自动更改原酒店/机票订单日期；旧私密记录保留，请按城市复核。
 
-2026-11-09时段与动线复核；D28提前到Fethiye，午餐改Erasta分店；原菜单现价和营业证据仍按各店记录。。58天7/11—9/6，均未订餐；个人预算不自动覆盖。
+59家餐厅、71次用餐关联。日期按v19重排；各店菜单和营业证据沿用原核查日，不声称取得2027菜单或重新实地核验。
 
-## 当前逐餐安排
+- 反向路线逐行关联具名餐厅：贝尔格莱德与波黑提前，Kaş两晚后赴安塔利亚，格雷梅放最后。
+- D36为周日：Can Can旧资料列周日休，移D37周一；D36按当天开放的备选店及实际菜单选择。
+- Kadıköy/Moda与Çiya午餐放D41长转半日；D32保欧洲侧考古馆与Üsküdar/Kuzguncuk，餐厅不在两个日期重复挂载。
+- 绿线D40、Kekova D35、红海D43的团内午餐仅在订单明确含餐时扣除，不保证某道菜。
+- 不照录未核评分、评论数、强冷气、插座、免费面包和固定出餐时间；每餐只留所需用餐时间，不把交通和夜游改成餐厅。
+- 所有人民币区间为规划留量；菜单原币与证据日期见店卡。学生证不自动获得餐饮优惠。
+- 当地日常饮水与特色饮品另计，密封饮用水优先；不加冰不能替代水源和卫生判断。
 
-|天|用餐时段|餐次|具体分店|地址|
-|---|---|---|---|---|
-|D3|18:00–19:00|晚餐|疆·见面伊犁味道（斯大林街三巷店）|伊宁市斯大林街三巷14号|
-|D4|20:00–21:00 哈国时间|晚餐|Qaganat（Зенкова / Gogol 39分店）|Алматы, улица Гоголя, 39|
-|D5|11:15–12:15|午餐|Qaganat（Зенкова / Gogol 39分店）|Алматы, улица Гоголя, 39|
-|D5|16:00–17:00|晚餐|Qaganat（Dostyk 108分店）|Алматы, проспект Достык, 108|
-|D6|18:00–19:00|晚餐|Qaganat（Зенкова / Gogol 39分店）|Алматы, улица Гоголя, 39|
-|D8|14:00–14:45|午餐|Besh Qozon（Glinka 41A分店）|Ташкент, ул. Глинки, 41А|
-|D8|19:00–20:00|晚餐|Oqtepa Lavash · Shahrisabz 5A店|Shahrisabz Street 5A, Mirabad District, Tashkent；Westminster Lyceum对面|
-|D9|12:15–13:15|午餐|Old Bukhara（布哈拉老城店）|Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3|
-|D9|18:30–19:30|晚餐|Old Bukhara（布哈拉老城店）|Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3|
-|D10|12:15–13:15|午餐|Afsona Bukhara（Murod Avliyo 4分店）|Бухара, улица Мурод Авлиё, 4（以集团官网门店地址为准）|
-|D10|18:00–19:00|晚餐|Old Bukhara（布哈拉老城店）|Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3|
-|D11|11:45–12:45|午餐|Emirhan Restaurant（Mahmudjanov 1/18店）|1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）|
-|D12|16:30–17:30|晚餐|Emirhan Restaurant（Mahmudjanov 1/18店）|1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）|
-|D13|19:15–20:15|晚餐|Besh Qozon（Glinka 41A分店）|Ташкент, ул. Глинки, 41А|
-|D14|19:30–20:30|晚餐|Firuzə Restaurant · 喷泉广场店|Tərlan Əliyarbəyov 14, Bakı 1005|
-|D15|19:00–20:00|晚餐|Araz Terrace / 原Araz Cafe · İslam Səfərli1店|1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan|
-|D16|12:40–13:55|午餐|Dolma Restaurant · 喷泉广场店|8 M. Rasulzade St., Sabail District, Baku|
-|D17|17:30–18:30|晚餐|Maspindzelo · Gorgasali老城店|7 Vakhtang Gorgasali Street, Tbilisi|
-|D18|19:30–20:30 返城准时才执行|晚餐|Maspindzelo · Gorgasali老城店|7 Vakhtang Gorgasali Street, Tbilisi|
-|D19|19:30–20:30|晚餐|Tun Lahmajo · Teryan街店|23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）|
-|D20|18:30–19:30|晚餐|SAS Food Court · Amiryan 7/1店|7/1 Amiryan Street, Yerevan, Armenia|
-|D21|11:30–12:30|午餐|Tun Lahmajo · Teryan街店|23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）|
-|D22|17:30–18:30|晚餐|Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店|Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180|
-|D23|11:00–12:00|午餐|Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店|Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180|
-|D23|16:00–17:00|晚餐|Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店|Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180|
-|D24|18:30–19:30 返团准时才执行|晚餐|Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店|Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180|
-|D25|11:30–12:30|午餐|Can Can Pide & Yemek Salonu · Arık Caddesi店|Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100|
-|D25|18:00–19:00|晚餐|Tavuk Dünyası · TerraCity分店|TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店|
-|D26|18:00–19:00|晚餐|Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店|Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580|
-|D27|19:15–20:15 建议|晚餐|Bi'Lokma Restaurant · Uğur Mumcu Caddesi店|Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya|
-|D28|12:00–13:00|午餐|Tavuk Dünyası · Erasta Fethiye分店|Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口|
-|D29|13:15–14:15|午餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
-|D29|17:30–18:30|晚餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
-|D30|12:45–13:30 建议|午餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
-|D30|19:00–20:00 建议|晚餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
-|D31|12:15–13:30 建议|午餐|Tarihi Karadeniz Döner · Beşiktaş Köyiçi6店|Sinanpaşa, Köyiçi Caddesi No:6, Beşiktaş, İstanbul|
-|D31|18:30–19:30 建议|晚餐|Hayvore · Beyoğlu Turnacıbaşı店|İstiklal Caddesi, Turnacıbaşı Sokak No:4, Beyoğlu, İstanbul|
-|D32|11:45–13:00 建议|午餐|Forno Balat · Fener Kireçhane店|Balat Mahallesi, Fener Kireçhane Sokak No:13/A, Fatih, İstanbul|
-|D32|18:15–19:30 建议|晚餐|Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店|Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112|
-|D33|12:30–13:30|午餐|Çiya Sofrası · Kadıköy Güneşlibahçe店|Caferağa, Güneşlibahçe Sokak No:43, Kadıköy, İstanbul 34710|
-|D33|17:30–18:30|晚餐|Kanaat Lokantası · Üsküdar Selmani Pak总店|Sultantepe Mahallesi, Selmani Pak Caddesi No:9, Üsküdar, İstanbul 34674|
-|D34|19:00–20:00|晚餐|Ćevabdžinica Željo · Kundurdžiluk19|Kundurdžiluk 19, Baščaršija, Sarajevo|
-|D35|11:30–12:15 建议|午餐|Ferhatović Petica · Bravadžiluk21|Bravadžiluk 21, 71000 Sarajevo|
-|D35|19:45–20:30|晚餐|Ćevabdžinica Željo · Kundurdžiluk19|Kundurdžiluk 19, Baščaršija, Sarajevo|
-|D36|12:00–13:00|午餐|Tima–Irma · 老桥西岸店|Onešćukova bb, 88000 Mostar|
-|D37|17:00–18:00|晚餐|Walter · Dorćol店|Strahinjića Bana 57, Belgrade|
-|D38|12:00–12:45|午餐|Pizza Bucko · Francuska18店|Francuska 18, Beograd Stari Grad|
-|D38|18:30–19:30|晚餐|Walter · Dorćol店|Strahinjića Bana 57, Belgrade|
-|D39|12:00–13:15 建议|午餐|Walter · Zemun centar店|Magistralni trg 18, Zemun, Belgrade|
-|D39|18:15–19:15 建议|晚餐|Walter · Dorćol店|Strahinjića Bana 57, Belgrade|
-|D40|12:45–14:00 建议|午餐|Pizza Bucko · Francuska18店|Francuska 18, Beograd Stari Grad|
-|D40|17:30–18:30 建议|晚餐|Walter · Dorćol店|Strahinjića Bana 57, Belgrade|
-|D41|20:10–20:40 伊城时间|晚餐|Simit Sarayı · SAW国际出发空侧店|Sabiha Gökçen Airport，International Departures Airside；按国际转机区现场导向选择可达分店|
-|D42|17:30–18:30|晚餐|Koshary El Tahrir · El Dahar老城店|El Kanisa / Church Street, El Dahar Square一带，Mafish/Mafesh Moshkla商店旁，Hurghada；新地图针写شارع اللواء سلمات مظهر（Salamat Mazhar街），须对照地图针与门头|
-|D43|18:00–19:00|晚餐|Star Fish Restaurant · Sheraton Street主店|Sheraton Street, opposite Wahib Stores, Hurghada|
-|D44|19:45–20:30|晚餐|Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店|Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor|
-|D45|19:45–20:30|晚餐|Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店|Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor|
-|D46|18:00–19:00|晚餐|Makka / Mekka Restaurant · Abtal El Tahrir店|143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）|
-|D47|13:30–14:15|午餐|Makka / Mekka Restaurant · Abtal El Tahrir店|143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）|
-|D48|12:30–13:30|午餐|Makka / Mekka Restaurant · Abtal El Tahrir店|143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）|
-|D49|11:15–12:00|午餐|Koshary Abou Tarek · Shamblion市中心总店|16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站|
-|D50|17:45–19:00|晚餐|Koshary Abou Tarek · Shamblion市中心总店|16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站|
-|D51|11:50–12:35|午餐|Kadoura Seafood · Mansheya海滨分店|6V2P+VRQ, El-Gaish Road, Souq at Tork, Mansheya, Alexandria；仅选Mansheya海滨店，不去远处Montaza/Mandara分店|
-|D52|12:45–13:30|午餐|Magdy Seafood · Omar El-Mokhtar街店|Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店|
-|D52|21:30–22:30|晚餐|Koshary Abou Tarek · Shamblion市中心总店|16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站|
-|D53|17:30–18:30|晚餐|Koshary Abou Tarek · Shamblion市中心总店|16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站|
-|D54|20:45–21:45|晚餐|Karachi Darbar · Satwa / 284D90店|Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202|
-|D55|12:45–13:15|午餐|Museum Café · Louvre Abu Dhabi馆内店|Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi|
-|D56|11:30–12:15|午餐|Aroos Damascus · Al Muraqqabat / Deira店|Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai|
-|D56|17:15–18:15|晚餐|ALBAIK · Dubai Mall Second Floor店|Dubai Mall, Second Floor food court；靠P7 Cinema Parking|
-|D57|20:00–21:00|晚餐|Karachi Darbar · Satwa / 284D90店|Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202|
+## 按行程用餐
+### D3 · 2027-07-13 · 18:00–19:00 · 晚餐：疆·见面伊犁味道（斯大林街三巷店）
+城市：伊宁；地址：伊宁市斯大林街三巷14号
+办完国际班车核验后再吃；先取干粮。六星街冰淇淋另作可选，不为甜品晚睡。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=%E7%96%86%20%E8%A7%81%E9%9D%A2%20%E4%BC%8A%E7%8A%81%E5%91%B3%E9%81%93%20%E6%96%AF%E5%A4%A7%E6%9E%97%E8%A1%97%E4%B8%89%E5%B7%B714%E5%8F%B7%20%E4%BC%8A%E5%AE%81%E5%B8%82)
+[晚餐导航 · 疆·见面伊犁味道（斯大林街三巷店）](https://www.google.com/maps/dir/?api=1&destination=%E7%96%86%20%E8%A7%81%E9%9D%A2%20%E4%BC%8A%E7%8A%81%E5%91%B3%E9%81%93%20%E6%96%AF%E5%A4%A7%E6%9E%97%E8%A1%97%E4%B8%89%E5%B7%B714%E5%8F%B7%20%E4%BC%8A%E5%AE%81%E5%B8%82)
 
-用餐最长75分钟，跨城、取包、候车和夜游另列。
+### D4 · 2027-07-14 · 20:00–21:00 哈国时间 · 晚餐：Qaganat（Зенкова / Gogol 39分店）
+城市：阿拉木图；地址：Алматы, улица Гоголя, 39
+仅在实际下车、入住后仍来得及时执行；晚到就用途中已备简餐，不跨城找店。
+[晚餐导航 · Qaganat（Зенкова / Gogol 39分店）](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2039%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)
 
-## 保留的菜单与核查说明
+### D5 · 2027-07-15 · 11:15–12:15 · 午餐：Qaganat（Зенкова / Gogol 39分店）
+城市：阿拉木图；地址：Алматы, улица Гоголя, 39
+从绿巴扎/公园方向前往Gogol39；市场只作采购，不再重复吃一顿早午餐。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2039%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)
+[午餐导航 · Qaganat（Зенкова / Gogol 39分店）](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2039%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)
 
-- 不照录未复核的Google评分、评论数量、强冷气、插座、免费面包或固定出餐速度。具名门店、菜单、营业分别标证据。
-- 菜单保留原币与取得日期；官网未写生效日、外送/在线订餐价格均不能当2027堂食报价。人民币区间只是单人一餐食物留量，饮水饮品另计。
-- Besh Qozon取Glinka41A店；官网抓饭一份53,000UZS、单人套餐70,000UZS。Qaganat阿斯塔纳与阿拉木图分店的2370KZT马肉面不能串用。
-- D31留Beşiktaş吃午餐，D32留Balat，D33按Kadıköy/Salacak分开；D55留DubaiMall，不把Satwa/Deira写成步行必经。
-- D24绿线、D27Kekova、D43红海是三顿候选团餐。仅订单明确写含餐时替代当餐预算；不保证瓦罐牛肉、海鱼或某种自助餐。
-- 没有核到通用ISIC餐饮折扣；所有餐费按不打折规划。学生身份不自动带来餐厅优惠。
-- Khinkali不强制徒手，先拍照收好相机，再按习惯或请店员给餐具用餐。随身纸巾、洗手与相机收纳比只筛刀叉菜更实用。
-- 不将散装格瓦斯标成已核0酒精。要求严格不含酒精时看瓶身标识；特色饮品单独点单，不默认每餐必买。
-- 不加冰也不能保证街头鲜榨饮料安全；水源、清洁和保存同样重要。优先封口瓶装饮水与现做热食。
-- 综合卡拆为用餐、返城、取包、候车和夜游；所有具名餐饮卡最多75分钟，不压缩必要交通。
-- 山站不导航到市区Qaganat；SAW转机不导航到埃及餐厅；Can Can保老城午餐，Lara晚餐改TerraCity同侧分店。
-- Star Fish移至红海出海后的D43；亚历山大上车前改站前便携餐；迪拜入住晚餐采用Satwa同区已核分店。
+### D5 · 2027-07-15 · 16:00–17:00 · 晚餐：Qaganat（Dostyk 108分店）
+城市：阿拉木图；地址：Алматы, проспект Достык, 108
+按本卡先在市区分店吃晚餐，再赴Kok-Tobe，餐饮和上山交通分开。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%94%D0%BE%D1%81%D1%82%D1%8B%D0%BA%20108%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)
+[晚餐导航 · Qaganat（Dostyk 108分店）](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%94%D0%BE%D1%81%D1%82%D1%8B%D0%BA%20108%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)
 
+### D6 · 2027-07-16 · 18:00–19:00 · 晚餐：Qaganat（Зенкова / Gogol 39分店）
+城市：阿拉木图；地址：Алматы, улица Гоголя, 39
+峡谷团返城后再吃，洗衣与睡眠优先；团晚到则打包一份，不再排队。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2039%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)
+[晚餐导航 · Qaganat（Зенкова / Gogol 39分店）](https://www.google.com/maps/dir/?api=1&destination=Qaganat%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2039%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B)
+
+### D8 · 2027-07-18 · 14:00–14:45 · 午餐：Besh Qozon（Glinka 41A分店）
+城市：塔什干；地址：Ташкент, ул. Глинки, 41А
+DRIMIN寄包后选Glinka41A分店，不跑电视塔总店。14:30–15:15包含前往和用餐，导航/等位不合就删哈斯特伊玛目，保住宿与休息。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Besh%20Qozon%20Glinka%2041A%20Tashkent)
+[午餐导航 · Besh Qozon（Glinka 41A分店）](https://www.google.com/maps/dir/?api=1&destination=Besh%20Qozon%20Glinka%2041A%20Tashkent)
+
+### D8 · 2027-07-18 · 19:00–20:00 · 晚餐：Oqtepa Lavash · Shahrisabz 5A店
+城市：塔什干；地址：Shahrisabz Street 5A, Mirabad District, Tashkent；Westminster Lyceum对面
+独立广场结束后按Shahrisabz5A分店导航，用一份鸡肉lavash或pita补蔬菜；19:15–20:15包含前往、用餐和回DRIMIN，若超时则打包，登记与睡眠优先。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Oqtepa%20Lavash%20Shahrisabz%20Street%205A%20Tashkent%20Westminster%20Lyceum)
+[晚餐导航 · Oqtepa Lavash · Shahrisabz 5A店](https://www.google.com/maps/dir/?api=1&destination=Oqtepa%20Lavash%20Shahrisabz%20Street%205A%20Tashkent%20Westminster%20Lyceum)
+
+### D9 · 2027-07-19 · 12:15–13:15 · 午餐：Old Bukhara（布哈拉老城店）
+城市：布哈拉；地址：Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3
+按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)
+[午餐导航 · Old Bukhara（布哈拉老城店）](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)
+
+### D9 · 2027-07-19 · 18:30–19:30 · 晚餐：Old Bukhara（布哈拉老城店）
+城市：布哈拉；地址：Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3
+Lyabi-Hauz/卡扬参观结束后步行按门店导航，不专程找第二家；不把露台作为冷气休息。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)
+[晚餐导航 · Old Bukhara（布哈拉老城店）](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)
+
+### D10 · 2027-07-20 · 12:15–13:15 · 午餐：Afsona Bukhara（Murod Avliyo 4分店）
+城市：布哈拉；地址：Бухара, улица Мурод Авлиё, 4（以集团官网门店地址为准）
+按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Afsona%20Bukhara%20Murod%20Avliyo%204)
+[午餐导航 · Afsona Bukhara（Murod Avliyo 4分店）](https://www.google.com/maps/dir/?api=1&destination=Afsona%20Bukhara%20Murod%20Avliyo%204)
+
+### D10 · 2027-07-20 · 18:00–19:00 · 晚餐：Old Bukhara（布哈拉老城店）
+城市：布哈拉；地址：Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3
+巴扎结束后按店名回老城吃；现场先看服务费与份量，饭后核火车。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)
+[晚餐导航 · Old Bukhara（布哈拉老城店）](https://www.google.com/maps/dir/?api=1&destination=Old%20Bukhara%20Restaurant%20Bukhara%20Samarkand%20Street%203)
+
+### D11 · 2027-07-21 · 11:45–12:45 · 午餐：Emirhan Restaurant（Mahmudjanov 1/18店）
+城市：撒马尔罕；地址：1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）
+抵撒马尔罕寄包后按本卡吃一小时午餐，随后去雷吉斯坦。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand)
+[午餐导航 · Emirhan Restaurant（Mahmudjanov 1/18店）](https://www.google.com/maps/dir/?api=1&destination=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand)
+
+### D12 · 2027-07-22 · 16:30–17:30 · 晚餐：Emirhan Restaurant（Mahmudjanov 1/18店）
+城市：撒马尔罕；地址：1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）
+雷吉斯坦补外观后按具体店名导航；Shokhrukh Nur只在当日地图与门牌核对一致时作便宜备选。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand)
+[晚餐导航 · Emirhan Restaurant（Mahmudjanov 1/18店）](https://www.google.com/maps/dir/?api=1&destination=Emirhan%20Restaurant%20Ahrorqul%20Mahmudjonov%201%2F18%20Samarkand)
+
+### D13 · 2027-07-23 · 19:15–20:15 · 晚餐：Besh Qozon（Glinka 41A分店）
+城市：塔什干；地址：Ташкент, ул. Глинки, 41А
+到塔什干先办登记；仍选Glinka41A而非电视塔总店，若从住宿往返不能在20:30前结束，就用已备简餐，不影响次日航班。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Besh%20Qozon%20Glinka%2041A%20Tashkent)
+[晚餐导航 · Besh Qozon（Glinka 41A分店）](https://www.google.com/maps/dir/?api=1&destination=Besh%20Qozon%20Glinka%2041A%20Tashkent)
+
+### D14 · 2027-07-24 · 19:30–20:30 · 晚餐：Firuzə Restaurant · 喷泉广场店
+城市：巴库；地址：Tərlan Əliyarbəyov 14, Bakı 1005
+海滨短走后去喷泉广场店；不要把机场晚到日排成餐厅打卡，延误先保入住休息。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Firuze%20Restaurant%20Tarlan%20Aliyarbeyov%2014%20Baku)
+[晚餐导航 · Firuzə Restaurant · 喷泉广场店](https://www.google.com/maps/dir/?api=1&destination=Firuze%20Restaurant%20Tarlan%20Aliyarbeyov%2014%20Baku)
+
+### D15 · 2027-07-25 · 19:00–20:00 · 晚餐：Araz Terrace / 原Araz Cafe · İslam Səfərli1店
+城市：巴库；地址：1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan
+高地公园回到喷泉广场后可尝Araz一份qutab/主食，10%服务费已在食物留量中考虑；它是口味备选，不声称一定比Firuzə便宜。饭后回宿整理夜车材料。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Araz%20Terrace%201%20Islam%20Safarli%20Fountains%20Square%20Baku)
+[晚餐导航 · Araz Terrace / 原Araz Cafe · İslam Səfərli1店](https://www.google.com/maps/dir/?api=1&destination=Araz%20Terrace%201%20Islam%20Safarli%20Fountains%20Square%20Baku)
+
+### D16 · 2027-07-26 · 12:40–13:55 · 午餐：Dolma Restaurant · 喷泉广场店
+城市：巴库；地址：8 M. Rasulzade St., Sabail District, Baku
+老城结束后去喷泉广场Rasulzade8店；账单另有10%服务费。晚上为夜车备餐，不重复远行吃第二家。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Dolma%20Restaurant%208%20Mammadamin%20Rasulzade%20Baku)
+[午餐导航 · Dolma Restaurant · 喷泉广场店](https://www.google.com/maps/dir/?api=1&destination=Dolma%20Restaurant%208%20Mammadamin%20Rasulzade%20Baku)
+
+### D17 · 2027-07-27 · 17:30–18:30 · 晚餐：Maspindzelo · Gorgasali老城店
+城市：第比利斯；地址：7 Vakhtang Gorgasali Street, Tbilisi
+按本卡先吃晚餐，再执行后续缆车/要塞活动，不写成下山后才吃。
+[打开具体地点导航](https://www.google.com/maps/search/?api=1&query=Old%20Tbilisi%20Georgia)
+[晚餐导航 · Maspindzelo · Gorgasali老城店](https://www.google.com/maps/dir/?api=1&destination=Maspindzelo%207%20Gorgasali%20Tbilisi)
+
+### D18 · 2027-07-28 · 19:30–20:30 返城准时才执行 · 晚餐：Maspindzelo · Gorgasali老城店
+城市：第比利斯；地址：7 Vakhtang Gorgasali Street, Tbilisi
+仅团车返第比利斯后且仍营业、交通允许时去；21:00后返城直接用随身简餐回宿，不再追店。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Maspindzelo%207%20Gorgasali%20Tbilisi)
+[晚餐导航 · Maspindzelo · Gorgasali老城店](https://www.google.com/maps/dir/?api=1&destination=Maspindzelo%207%20Gorgasali%20Tbilisi)
+
+### D19 · 2027-07-29 · 19:30–20:30 · 晚餐：Tun Lahmajo · Teryan街店
+城市：埃里温；地址：23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）
+Cascade往共和国广场方向经Teryan街；跨境晚到则取消Cascade，先登记吃饭。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Tun%20Lahmajo%20Teryan%2023%20Yerevan)
+[晚餐导航 · Tun Lahmajo · Teryan街店](https://www.google.com/maps/dir/?api=1&destination=Tun%20Lahmajo%20Teryan%2023%20Yerevan)
+
+### D20 · 2027-07-30 · 18:30–19:30 · 晚餐：SAS Food Court · Amiryan 7/1店
+城市：埃里温；地址：7/1 Amiryan Street, Yerevan, Armenia
+Garni/Geghard返城后在Amiryan7/1选lahmacun或蔬菜土豆便餐，与D19传统餐厅搭配；午餐仍按山区停靠/自带安排，不把城内店塞到山区。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=SAS%20Food%20Court%207%2F1%20Amiryan%20Street%20Yerevan)
+[晚餐导航 · SAS Food Court · Amiryan 7/1店](https://www.google.com/maps/dir/?api=1&destination=SAS%20Food%20Court%207%2F1%20Amiryan%20Street%20Yerevan)
+
+### D21 · 2027-07-31 · 11:30–12:30 · 午餐：Tun Lahmajo · Teryan街店
+城市：埃里温；地址：23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）
+按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Tun%20Lahmajo%20Teryan%2023%20Yerevan)
+[午餐导航 · Tun Lahmajo · Teryan街店](https://www.google.com/maps/dir/?api=1&destination=Tun%20Lahmajo%20Teryan%2023%20Yerevan)
+
+### D23 · 2027-08-02 · 12:00–13:15 建议 · 午餐：Walter · Zemun centar店
+城市：泽蒙；地址：Magistralni trg 18, Zemun, Belgrade
+Gardoš下坡到Magistralni trg18，吃后回河岸；Ferdinand Bežanijska46只作额外甜点，不是必经或替代完整正餐。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Zemun%20Belgrade%20Serbia)
+[午餐导航 · Walter · Zemun centar店](https://www.google.com/maps/dir/?api=1&destination=Walter%20Zemun%20centar%20Magistralni%20trg%2018)
+
+### D23 · 2027-08-02 · 18:15–19:15 建议 · 晚餐：Walter · Dorćol店
+城市：贝尔格莱德；地址：Strahinjića Bana 57, Belgrade
+回贝城中心后吃Dorćol店，避免一日两顿烤肉可改汤/蔬菜或厨房简餐。
+[晚餐导航 · Walter · Dorćol店](https://www.google.com/maps/dir/?api=1&destination=Walter%20Sarajevski%20Cevap%20Strahinjica%20Bana%2057%20Belgrade)
+
+### D24 · 2027-08-03 · 12:00–12:45 · 午餐：Pizza Bucko · Francuska18店
+城市：贝尔格莱德；地址：Francuska 18, Beograd Stari Grad
+国家博物馆出来去Francuska18，不把其他分店菜单套到此店；排队超过10分钟取消。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Pizza%20Bucko%20Francuska%2018%20Belgrade)
+[午餐导航 · Pizza Bucko · Francuska18店](https://www.google.com/maps/dir/?api=1&destination=Pizza%20Bucko%20Francuska%2018%20Belgrade)
+
+### D24 · 2027-08-03 · 18:30–19:30 · 晚餐：Walter · Dorćol店
+城市：贝尔格莱德；地址：Strahinjića Bana 57, Belgrade
+取洗衣前后用餐，半份烤肉配面包即可；饮料另计。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Walter%20Sarajevski%20Cevap%20Strahinjica%20Bana%2057%20Belgrade)
+[晚餐导航 · Walter · Dorćol店](https://www.google.com/maps/dir/?api=1&destination=Walter%20Sarajevski%20Cevap%20Strahinjica%20Bana%2057%20Belgrade)
+
+### D25 · 2027-08-04 · 12:45–14:00 建议 · 午餐：Pizza Bucko · Francuska18店
+城市：贝尔格莱德；地址：Francuska 18, Beograd Stari Grad
+参观主馆后回中心才去此店；不为披萨跨区来回赶馆。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Museum%20of%20Yugoslavia%20Belgrade)
+[午餐导航 · Pizza Bucko · Francuska18店](https://www.google.com/maps/dir/?api=1&destination=Pizza%20Bucko%20Francuska%2018%20Belgrade)
+
+### D25 · 2027-08-04 · 17:30–18:30 建议 · 晚餐：Walter · Dorćol店
+城市：贝尔格莱德；地址：Strahinjića Bana 57, Belgrade
+17:30早晚餐，18:30前回宿收包早睡；不依赖夜宵店。
+[晚餐导航 · Walter · Dorćol店](https://www.google.com/maps/dir/?api=1&destination=Walter%20Sarajevski%20Cevap%20Strahinjica%20Bana%2057%20Belgrade)
+
+### D26 · 2027-08-05 · 18:00–19:00 · 晚餐：Ćevabdžinica Željo · Kundurdžiluk19
+城市：萨拉热窝；地址：Kundurdžiluk 19, Baščaršija, Sarajevo
+入住后顺老城步行到Kundurdžiluk19；18:15那顿仅作必要小食，不再重复点一份正餐。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Sebilj%20Sarajevo)
+[晚餐导航 · Ćevabdžinica Željo · Kundurdžiluk19](https://www.google.com/maps/dir/?api=1&destination=Cevabdzinica%20Zeljo%20Kundurdziluk%2019%20Sarajevo)
+
+### D27 · 2027-08-06 · 11:30–12:15 建议 · 午餐：Ferhatović Petica · Bravadžiluk21
+城市：萨拉热窝；地址：Bravadžiluk 21, 71000 Sarajevo
+老城上午参观后11:30就餐；菜单7BAM是小份在线订餐记录，堂食看牌价。
+[午餐导航 · Ferhatović Petica · Bravadžiluk21](https://www.google.com/maps/dir/?api=1&destination=Petica%20Ferhatovic%20Bravadziluk%2021%20Sarajevo)
+
+### D27 · 2027-08-06 · 19:45–20:30 · 晚餐：Ćevabdžinica Željo · Kundurdžiluk19
+城市：萨拉热窝；地址：Kundurdžiluk 19, Baščaršija, Sarajevo
+黄堡下山后老城就餐，20:30前结束返宿，留明早往莫斯塔尔的睡眠。
+[打开本段导航](https://www.google.com/maps/dir/?api=1&origin=Yellow%20Fortress%20Zuta%20Tabija%20Sarajevo%20Bosnia%20Herzegovina&destination=Bascarsija%20Sarajevo%20Bosnia%20Herzegovina&travelmode=walking)
+[晚餐导航 · Ćevabdžinica Željo · Kundurdžiluk19](https://www.google.com/maps/dir/?api=1&destination=Cevabdzinica%20Zeljo%20Kundurdziluk%2019%20Sarajevo)
+
+### D28 · 2027-08-07 · 12:00–13:00 · 午餐：Tima–Irma · 老桥西岸店
+城市：莫斯塔尔；地址：Onešćukova bb, 88000 Mostar
+老桥西岸Onešćukova店；12:15–13:00内点一人小份烤肉，别默认多人混烤盘。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=National%20restaurant%20Tima%20Irma%20Onescukova%20Mostar)
+[午餐导航 · Tima–Irma · 老桥西岸店](https://www.google.com/maps/dir/?api=1&destination=National%20restaurant%20Tima%20Irma%20Onescukova%20Mostar)
+
+### D29 · 2027-08-08 · 18:00–19:00 · 晚餐：Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店
+城市：伊斯坦布尔；地址：Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112
+从滨水回老城途中在Sirkeci吃，吃完回宿，不额外跑亚洲岸。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Buyruk%20Esnaf%20Lokantas%C4%B1%20Hoca%20Pa%C5%9Fa%20Sokak%2012%20Sirkeci%20Istanbul)
+[晚餐导航 · Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店](https://www.google.com/maps/dir/?api=1&destination=Buyruk%20Esnaf%20Lokantas%C4%B1%20Hoca%20Pa%C5%9Fa%20Sokak%2012%20Sirkeci%20Istanbul)
+
+### D30 · 2027-08-09 · 12:45–13:30 建议 · 午餐：Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店
+城市：伊斯坦布尔；地址：Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112
+托宫上午参观后午餐。Sultanahmet→HocaPaşa需另计步行；13:30仍未吃完就缩短下午圣索菲亚外观，不挤喝水。
+[打开本段导航](https://www.google.com/maps/dir/?api=1&origin=Topkapi%20Palace%20Museum%20Istanbul%20Turkey&destination=Sultanahmet%20Square%20Hippodrome%20Istanbul%20Turkey&travelmode=walking)
+[午餐导航 · Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店](https://www.google.com/maps/dir/?api=1&destination=Buyruk%20Esnaf%20Lokantas%C4%B1%20Hoca%20Pa%C5%9Fa%20Sokak%2012%20Sirkeci%20Istanbul)
+
+### D30 · 2027-08-09 · 19:00–20:00 建议 · 晚餐：Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店
+城市：伊斯坦布尔；地址：Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112
+Eminönü晚霞后经Sirkeci回老城用餐；顺便邮局仅在柜台已确认营业时执行。
+[打开本段导航](https://www.google.com/maps/dir/?api=1&origin=Eminonu%20Ferry%20Terminal%20Istanbul%20Turkey&destination=Sultanahmet%20Square%20Istanbul%20Turkey&travelmode=transit)
+[晚餐导航 · Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店](https://www.google.com/maps/dir/?api=1&destination=Buyruk%20Esnaf%20Lokantas%C4%B1%20Hoca%20Pa%C5%9Fa%20Sokak%2012%20Sirkeci%20Istanbul)
+
+### D31 · 2027-08-10 · 12:15–13:30 建议 · 午餐：Tarihi Karadeniz Döner · Beşiktaş Köyiçi6店
+城市：伊斯坦布尔；地址：Sinanpaşa, Köyiçi Caddesi No:6, Beşiktaş, İstanbul
+多尔玛巴赫切结束后留在Beşiktaş的Köyiçi6店午餐，不返回Sirkeci吃再折返；午间可能排队，只买小份。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=National%20Palaces%20Painting%20Museum%20Istanbul)
+[午餐导航 · Tarihi Karadeniz Döner · Beşiktaş Köyiçi6店](https://www.google.com/maps/dir/?api=1&destination=Tarihi%20Karadeniz%20Doner%20Asim%20Usta%20Koyici%20Caddesi%206%20Besiktas%20Istanbul)
+
+### D31 · 2027-08-10 · 18:30–19:30 建议 · 晚餐：Hayvore · Beyoğlu Turnacıbaşı店
+城市：伊斯坦布尔；地址：İstiklal Caddesi, Turnacıbaşı Sokak No:4, Beyoğlu, İstanbul
+独立大街逛完到Turnacıbaşı4店，再回老城；问清按盘/按份收费和配菜。
+[晚餐导航 · Hayvore · Beyoğlu Turnacıbaşı店](https://www.google.com/maps/dir/?api=1&destination=Hayvore%20Turnac%C4%B1ba%C5%9F%C4%B1%20Sokak%204%20Beyo%C4%9Flu%20Istanbul)
+
+### D32 · 2027-08-11 · 12:00–13:00 · 午餐：Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店
+城市：伊斯坦布尔；地址：Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112
+先到Antique Hostel寄包，按体力赴HocaPaşa12店，步行与堂食共用12:00–13:00；夜巴疲劳时打包回宿。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Buyruk%20Esnaf%20Lokantas%C4%B1%20Hoca%20Pa%C5%9Fa%20Sokak%2012%20Sirkeci%20Istanbul)
+[午餐导航 · Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店](https://www.google.com/maps/dir/?api=1&destination=Buyruk%20Esnaf%20Lokantas%C4%B1%20Hoca%20Pa%C5%9Fa%20Sokak%2012%20Sirkeci%20Istanbul)
+
+### D32 · 2027-08-11 · 17:00–18:00 · 晚餐：Kanaat Lokantası · Üsküdar Selmani Pak总店
+城市：伊斯坦布尔；地址：Sultantepe Mahallesi, Selmani Pak Caddesi No:9, Üsküdar, İstanbul 34674
+Kuzguncuk返Üsküdar中心，17:30–18:15在SelmaniPak9先吃，18:15–20:00按体力去Salacak看日落；不是Salacak海边店，不折返Kadıköy。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Kanaat%20Lokantas%C4%B1%20Selmani%20Pak%20Caddesi%20%C3%9Csk%C3%BCdar)
+[晚餐导航 · Kanaat Lokantası · Üsküdar Selmani Pak总店](https://www.google.com/maps/dir/?api=1&destination=Kanaat%20Lokantas%C4%B1%20Selmani%20Pak%20Caddesi%209%20%C3%9Csk%C3%BCdar%20Istanbul)
+
+### D33 · 2027-08-12 · 11:00–12:00 · 午餐：Forno Balat · Fener Kireçhane店
+城市：伊斯坦布尔；地址：Balat Mahallesi, Fener Kireçhane Sokak No:13/A, Fatih, İstanbul
+按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。
+[午餐导航 · Forno Balat · Fener Kireçhane店](https://www.google.com/maps/dir/?api=1&destination=Forno%20Balat%20Fener%20Kire%C3%A7hane%20Sokak%2013%20A%20Istanbul)
+
+### D33 · 2027-08-12 · 16:30–17:30 · 晚餐：Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店
+城市：伊斯坦布尔；地址：Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112
+香料市场结束后到HocaPaşa12店吃，再回老城。
+[晚餐导航 · Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店](https://www.google.com/maps/dir/?api=1&destination=Buyruk%20Esnaf%20Lokantas%C4%B1%20Hoca%20Pa%C5%9Fa%20Sokak%2012%20Sirkeci%20Istanbul)
+
+### D34 · 2027-08-13 · 14:45–15:30 · 午餐：Tavuk Dünyası · Erasta Fethiye分店
+城市：费特希耶；地址：Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口
+早班抵Fethiye、确认寄存后，在Otogar旁Erasta Fethiye分店午餐；不再停留Kaş吃午饭。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Tavuk%20D%C3%BCnyas%C4%B1%20Erasta%20Fethiye)
+[午餐导航 · Tavuk Dünyası · Erasta Fethiye分店](https://www.google.com/maps/dir/?api=1&destination=Tavuk%20Dunyasi%20Erasta%20Fethiye%20AVM)
+
+### D34 · 2027-08-13 · 19:30–20:30 · 晚餐：Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店
+城市：Kaş；地址：Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580
+入住放50L包后按本卡吃晚餐，再去古剧场和港口。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Ka%C5%9F%C4%B1m%20Restaurant%20Ev%20Yemekleri%20H%C3%BCk%C3%BCmet%20Caddesi%2012%20Ka%C5%9F)
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Ka%C5%9F%C4%B1m%20Ev%20Yemekleri%20Ka%C5%9F)
+[晚餐导航 · Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店](https://www.google.com/maps/dir/?api=1&destination=Ka%C5%9F%C4%B1m%20Restaurant%20Ev%20Yemekleri%20H%C3%BCk%C3%BCmet%20Caddesi%2012%20Ka%C5%9F)
+
+### D35 · 2027-08-14 · 19:15–20:15 建议 · 晚餐：Bi'Lokma Restaurant · Uğur Mumcu Caddesi店
+城市：Kaş；地址：Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya
+船返Kaş、洗澡后去UğurMumcu21现址，不去旧Hükümet店址；想省钱改Kaşım家常菜。
+[打开本段导航](https://www.google.com/maps/dir/?api=1&origin=Kas%20Old%20Town%20Andifli%20Kas%20Antalya%20Turkey&destination=Kas%20Harbour%20Liman%20Andifli%20Kas%20Turkey&travelmode=walking)
+[晚餐导航 · Bi'Lokma Restaurant · Uğur Mumcu Caddesi店](https://www.google.com/maps/dir/?api=1&destination=Bi%20Lokma%20Restaurant%20U%C4%9Fur%20Mumcu%20Caddesi%2021%20Ka%C5%9F)
+
+### D36 · 2027-08-15 · 17:30–18:30 · 晚餐：Piyazcı Ahmet · Altındağ店
+城市：安塔利亚；地址：Altındağ Mahallesi, 166 Sokak No:29/A, Muratpaşa, Antalya
+按本日新动线就餐，预留一小时；等位超过15–20分钟或赶车时改便携简餐。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Piyazc%C4%B1%20Ahmet%20Alt%C4%B1nda%C4%9F%20Antalya)
+[晚餐导航 · Piyazcı Ahmet · Altındağ店](https://www.google.com/maps/dir/?api=1&destination=Piyazc%C4%B1%20Ahmet%20Alt%C4%B1nda%C4%9F%20166%20Sokak%2029%20A%20Antalya)
+
+### D37 · 2027-08-16 · 11:30–12:30 · 午餐：Can Can Pide & Yemek Salonu · Arık Caddesi店
+城市：安塔利亚；地址：Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100
+按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Can%20Can%20Pide%20Yemek%20Salonu%20Ar%C4%B1k%20Caddesi%204%20A%20Antalya)
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Can%20Can%20Pide%20Yemek%20Salonu%20Ar%C4%B1k%20Caddesi%20Antalya)
+[午餐导航 · Can Can Pide & Yemek Salonu · Arık Caddesi店](https://www.google.com/maps/dir/?api=1&destination=Can%20Can%20Pide%20Yemek%20Salonu%20Ar%C4%B1k%20Caddesi%204%20A%20Antalya)
+
+### D37 · 2027-08-16 · 17:15–18:15 · 晚餐：Tavuk Dünyası · TerraCity分店
+城市：安塔利亚；地址：TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店
+从下杜登到TerraCity同侧分店吃饭，再走Fener海崖；不折返老城吃晚餐后再回Lara。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Tavuk%20D%C3%BCnyas%C4%B1%20TerraCity%20Antalya)
+[晚餐导航 · Tavuk Dünyası · TerraCity分店](https://www.google.com/maps/dir/?api=1&destination=Tavuk%20Dunyasi%20TerraCity%20Antalya)
+
+### D38 · 2027-08-17 · 17:30–18:30 · 晚餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店
+城市：格雷梅；地址：Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180
+航班转机后只在格雷梅镇吃一顿简餐，不为瓦罐肉拖到晚睡。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+[晚餐导航 · Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+
+### D39 · 2027-08-18 · 11:00–12:00 · 午餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店
+城市：格雷梅；地址：Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180
+露天博物馆回镇后吃Pide/汤；Turkish Ravioli是价位较高的体验备选，不能算平价餐。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+[午餐导航 · Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+
+### D39 · 2027-08-18 · 16:00–17:00 · 晚餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店
+城市：格雷梅；地址：Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180
+按本卡先吃晚餐，再走傍晚山谷短线；不是徒步结束后才吃。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+[晚餐导航 · Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+
+### D40 · 2027-08-19 · 18:30–19:30 · 晚餐：Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店
+城市：格雷梅；地址：Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180
+绿线返镇后，先在19:30前解决晚餐并取包；若团晚到，已备干粮直接去汽车站，不挤检票。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+[晚餐导航 · Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店](https://www.google.com/maps/dir/?api=1&destination=Cappadocia%20Pide%20House%20Restaurant%20Hakki%20Pasa%20Meydani%2016%20Goreme)
+
+### D41 · 2027-08-20 · 12:30–13:30 · 午餐：Çiya Sofrası · Kadıköy Güneşlibahçe店
+城市：伊斯坦布尔；地址：Caferağa, Güneşlibahçe Sokak No:43, Kadıköy, İstanbul 34710
+从Moda返回Kadıköy市集边吃；把这段12:15–13:30用作移动和午餐，餐后继续室内参观，预算高于食堂。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=%C3%87iya%20Sofras%C4%B1%20G%C3%BCne%C5%9Flibah%C3%A7e%20Sokak%20Kad%C4%B1k%C3%B6y)
+[午餐导航 · Çiya Sofrası · Kadıköy Güneşlibahçe店](https://www.google.com/maps/dir/?api=1&destination=%C3%87iya%20Sofras%C4%B1%20G%C3%BCne%C5%9Flibah%C3%A7e%20Sokak%2043%20Kad%C4%B1k%C3%B6y%20Istanbul)
+
+### D41 · 2027-08-20 · 19:15–20:00 · 晚餐：Simit Sarayı · SAW国际出发空侧店
+城市：伊斯坦布尔SAW机场；地址：Sabiha Gökçen Airport，International Departures Airside；按国际转机区现场导向选择可达分店
+国际转机与登机口确认完成后，空侧近处简餐30分钟；找店/排队超过10–15分钟就用自备食品。
+[具体地点导航](https://www.google.com/maps/search/?api=1&query=Simit%20Saray%C4%B1%20Sabiha%20G%C3%B6k%C3%A7en%20Airport)
+[晚餐导航 · Simit Sarayı · SAW国际出发空侧店](https://www.google.com/maps/dir/?api=1&destination=Simit%20Sarayi%20Sabiha%20Gokcen%20International%20Departures)
+
+### D42 · 2027-08-21 · 17:30–18:30 · 晚餐：Koshary El Tahrir · El Dahar老城店
+城市：赫尔格达；地址：El Kanisa / Church Street, El Dahar Square一带，Mafish/Mafesh Moshkla商店旁，Hurghada；新地图针写شارع اللواء سلمات مظهر（Salamat Mazhar街），须对照地图针与门头
+ElDahar街市逛完先核地图针与ElTahrir门头、营业和当日价，能确认才吃koshary，随后返Marina。街名存在差异；若不营业就按原返程到Sheraton主店，不跨区追同名店。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Koshary%20El%20Tahrir%20El%20Dahar%20Church%20Street%20Mafesh%20Moshkla%20Hurghada)
+[晚餐导航 · Koshary El Tahrir · El Dahar老城店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20El%20Tahrir%20El%20Dahar%20Church%20Street%20Mafesh%20Moshkla%20Hurghada)
+
+### D43 · 2027-08-22 · 18:00–19:00 · 晚餐：Star Fish Restaurant · Sheraton Street主店
+城市：赫尔格达；地址：Sheraton Street, opposite Wahib Stores, Hurghada
+红海出海返宿洗漱后到Sheraton Street主店用餐；先问含加工的总价，超预算改简餐，不再挂到SAW转机日。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Star%20Fish%20Restaurant%20Sheraton%20Street%20Wahib%20Stores%20Hurghada)
+[晚餐导航 · Star Fish Restaurant · Sheraton Street主店](https://www.google.com/maps/dir/?api=1&destination=Star%20Fish%20Restaurant%20Sheraton%20Street%20Wahib%20Stores%20Hurghada)
+
+### D44 · 2027-08-23 · 19:45–20:30 · 晚餐：Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店
+城市：卢克索；地址：Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor
+卢克索神庙傍晚参观后再上酒店屋顶吃；屋顶露台不能代替午间空调休息。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Al%20Sahaby%20Lane%20Restaurant%20Nefertiti%20Hotel%20Al%20Sahaby%20Street%20Luxor)
+[晚餐导航 · Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店](https://www.google.com/maps/dir/?api=1&destination=Al%20Sahaby%20Lane%20Restaurant%20Nefertiti%20Hotel%20Al%20Sahaby%20Street%20Luxor)
+
+### D45 · 2027-08-24 · 19:45–20:30 · 晚餐：Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店
+城市：卢克索；地址：Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor
+晚场卢克索馆及帆船返岸后在东岸用餐，次日准备回宿后完成。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Al%20Sahaby%20Lane%20Restaurant%20Nefertiti%20Hotel%20Al%20Sahaby%20Street%20Luxor)
+[晚餐导航 · Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店](https://www.google.com/maps/dir/?api=1&destination=Al%20Sahaby%20Lane%20Restaurant%20Nefertiti%20Hotel%20Al%20Sahaby%20Street%20Luxor)
+
+### D46 · 2027-08-25 · 18:00–19:00 · 晚餐：Makka / Mekka Restaurant · Abtal El Tahrir店
+城市：阿斯旺；地址：143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）
+入住GoInn后赴东岸AbtalElTahrir143候选店，先看营业和完整价单；无菜单或不营业就买已标价热食，不付未问价套餐。
+[晚餐导航 · Makka / Mekka Restaurant · Abtal El Tahrir店](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)
+
+### D47 · 2027-08-26 · 13:30–14:15 · 午餐：Makka / Mekka Restaurant · Abtal El Tahrir店
+城市：阿斯旺；地址：143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）
+阿布辛贝返回后按实际返城时间就餐；强空调未核，若不够凉爽，打包回已确认空调住处。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)
+[午餐导航 · Makka / Mekka Restaurant · Abtal El Tahrir店](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)
+
+### D48 · 2027-08-27 · 12:30–13:30 · 午餐：Makka / Mekka Restaurant · Abtal El Tahrir店
+城市：阿斯旺；地址：143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）
+按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)
+[午餐导航 · Makka / Mekka Restaurant · Abtal El Tahrir店](https://www.google.com/maps/dir/?api=1&destination=Makka%20Restaurant%20143%20Abtal%20El%20Tahrir%20Aswan)
+
+### D49 · 2027-08-28 · 11:15–12:00 · 午餐：Koshary Abou Tarek · Shamblion市中心总店
+城市：开罗；地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
+老埃博后在16 Maarouf市中心总店用午餐，随后直接赴城堡；不再安排白天补觉。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+[午餐导航 · Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+
+### D50 · 2027-08-29 · 17:45–19:00 · 晚餐：Koshary Abou Tarek · Shamblion市中心总店
+城市：开罗；地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
+吉萨行程已返回市区后再去；不把市中心店塞进金字塔午餐而往返折腾。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+[晚餐导航 · Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+
+### D51 · 2027-08-30 · 11:50–12:35 · 午餐：Kadoura Seafood · Mansheya海滨分店
+城市：亚历山大；地址：6V2P+VRQ, El-Gaish Road, Souq at Tork, Mansheya, Alexandria；仅选Mansheya海滨店，不去远处Montaza/Mandara分店
+按本卡45分钟午餐，报价或等位超过个人上限就用便餐；Mohamed Ahmed仅作这顿午餐备用，不在上车前再绕去堂食。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Kadoura%206V2P%2BVRQ%20El%20Gaish%20Road%20Mansheya%20Alexandria)
+[午餐导航 · Kadoura Seafood · Mansheya海滨分店](https://www.google.com/maps/dir/?api=1&destination=Kadoura%206V2P%2BVRQ%20El%20Gaish%20Road%20Mansheya%20Alexandria)
+
+### D52 · 2027-08-31 · 12:45–13:30 · 午餐：Magdy Seafood · Omar El-Mokhtar街店
+城市：马特鲁；地址：Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店
+12:45–13:30西线回城后午餐；与司机约好直接送餐厅或车站方向，不再绕海湾。13:15仍未上菜就改Sahar小份现成餐/外带，确保13:30–14:15前往正式大巴站。D52晚餐已回开罗，应沿用原开罗具名餐厅，不能继续挂马特鲁门店。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Magdy%20Seafood%20Omar%20El%20Mokhtar%20Mersa%20Matruh)
+[午餐导航 · Magdy Seafood · Omar El-Mokhtar街店](https://www.google.com/maps/dir/?api=1&destination=Magdy%20Seafood%20Omar%20El%20Mokhtar%20Mersa%20Matruh)
+
+### D52 · 2027-08-31 · 21:30–22:30 · 晚餐：Koshary Abou Tarek · Shamblion市中心总店
+城市：开罗；地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
+先看实际返开罗时间；能及时到市中心店才去，车晚到用途中简餐，不为餐厅另绕路。
+[餐厅具体地址导航](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+[晚餐导航 · Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+
+### D53 · 2027-09-01 · 17:30–18:30 · 晚餐：Koshary Abou Tarek · Shamblion市中心总店
+城市：开罗；地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
+NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅折返南郊。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+[晚餐导航 · Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+
+### D54 · 2027-09-02 · 20:45–21:45 · 晚餐：Karachi Darbar · Satwa / 284D90店
+城市：迪拜；地址：Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202
+以现有Satwa/DWTC住宿候选为前提，入住后在Satwa284分店吃饭。实际改住别区时重排，不再在20:30后强行赴Deira。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Karachi%20Darbar%20Satwa%20284%20D90%20Dubai%20043490202)
+[晚餐导航 · Karachi Darbar · Satwa / 284D90店](https://www.google.com/maps/dir/?api=1&destination=Karachi%20Darbar%20Satwa%20284%20D90%20Dubai%20043490202)
+
+### D55 · 2027-09-03 · 12:45–13:15 · 午餐：Museum Café · Louvre Abu Dhabi馆内店
+城市：阿布扎比；地址：Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi
+总统府结束后直接到卢浮宫用餐，再参观展厅；不绕回清真寺食阁。
+[午餐导航 · Museum Café · Louvre Abu Dhabi馆内店](https://www.google.com/maps/dir/?api=1&destination=Museum%20Cafe%20Louvre%20Abu%20Dhabi%20Saadiyat%20Island)
+
+### D56 · 2027-09-04 · 11:30–12:15 · 午餐：Aroos Damascus · Al Muraqqabat / Deira店
+城市：迪拜；地址：Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai
+上午黄金/香料市场后在Deira午餐，再赴未来馆建筑；Dubai Mall餐放晚餐。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Aroos%20Damascus%20Green%20Palace%20Hotel%20Al%20Muraqqabat%20Deira%20Dubai)
+[午餐导航 · Aroos Damascus · Al Muraqqabat / Deira店](https://www.google.com/maps/dir/?api=1&destination=Aroos%20Damascus%20Green%20Palace%20Hotel%20Al%20Muraqqabat%20Deira%20Dubai)
+
+### D56 · 2027-09-04 · 17:15–18:15 · 晚餐：ALBAIK · Dubai Mall Second Floor店
+城市：迪拜；地址：Dubai Mall, Second Floor food court；靠P7 Cinema Parking
+Downtown晚餐，留喷泉夜景；当天不是赶飞机日。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=ALBAIK%20Dubai%20Mall%20Second%20Floor%20Food%20Court%20P7%20Cinema%20Parking)
+[晚餐导航 · ALBAIK · Dubai Mall Second Floor店](https://www.google.com/maps/dir/?api=1&destination=ALBAIK%20Dubai%20Mall%20Second%20Floor%20Food%20Court%20P7%20Cinema%20Parking)
+
+### D57 · 2027-09-05 · 20:00–21:00 · 晚餐：Karachi Darbar · Satwa / 284D90店
+城市：迪拜；地址：Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202
+先从Madinat回Satwa实际住宿片区，再按本卡吃一小时；随后取包赴机场，不再横城追餐厅。
+[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Karachi%20Darbar%20Satwa%20284%20D90%20Dubai%20043490202)
+[晚餐导航 · Karachi Darbar · Satwa / 284D90店](https://www.google.com/maps/dir/?api=1&destination=Karachi%20Darbar%20Satwa%20284%20D90%20Dubai%20043490202)
+
+## 各店证据与菜单边界
 ### 伊宁 · 疆·见面伊犁味道（斯大林街三巷店）
-
-- 地址：伊宁市斯大林街三巷14号
-- 餐费规划：¥35–60
-- 点单：先问一人份碎肉/羊腿抓饭或丁丁炒面价，二选一；仍饿再加一串烤肉
-- 菜单证据：未取得2026单菜价；伊犁州政府2024旅游页列人均45元，仅作历史店铺资料。预算为单人一餐食物留量，饮水/饮料另计。
-- 营业：2024官方旅游页曾列08:00–22:30，2027出发前重核
-- 核查：政府旅游页面确认店名、地址与菜品方向；现价、当前营业、2027存续和设施未保证。
-- 先完成D3次日国际客运核验；从实际住宿/报到点导航，单程绕行超过15分钟就用回住宿路线上的简餐。
-- 不能声称25–35元已包抓饭、烤串、冰淇淋三样；不要默认有可用插座或强冷气。
-- [伊犁州政府：吃遍伊犁美食（具名店、地址与历史人均）](https://www.xjyl.gov.cn/xjylz/c112874/202407/de55c45ba97a4afbbfc67c18c6272ecf.shtml)
+```json
+{
+  "id": "yining-jiang-jianmian",
+  "city": "伊宁",
+  "name": "疆·见面伊犁味道（斯大林街三巷店）",
+  "address": "伊宁市斯大林街三巷14号",
+  "mapQuery": "疆 见面 伊犁味道 斯大林街三巷14号 伊宁市",
+  "days": [
+    3
+  ],
+  "dishes": [
+    "先问一人份碎肉/羊腿抓饭或丁丁炒面价，二选一；仍饿再加一串烤肉"
+  ],
+  "budgetCny": [
+    35,
+    60
+  ],
+  "menuEvidence": "未取得2026单菜价；伊犁州政府2024旅游页列人均45元，仅作历史店铺资料。预算为单人一餐食物留量，饮水/饮料另计。",
+  "hours": "2024官方旅游页曾列08:00–22:30，2027出发前重核",
+  "sources": [
+    {
+      "title": "伊犁州政府：吃遍伊犁美食（具名店、地址与历史人均）",
+      "url": "https://www.xjyl.gov.cn/xjylz/c112874/202407/de55c45ba97a4afbbfc67c18c6272ecf.shtml"
+    }
+  ],
+  "cautions": [
+    "先完成D3次日国际客运核验；从实际住宿/报到点导航，单程绕行超过15分钟就用回住宿路线上的简餐。",
+    "不能声称25–35元已包抓饭、烤串、冰淇淋三样；不要默认有可用插座或强冷气。"
+  ],
+  "verified": "政府旅游页面确认店名、地址与菜品方向；现价、当前营业、2027存续和设施未保证。"
+}
+```
 
 ### 伊宁 · 古兰丹姆百年手工冰淇淋（六星街店）
-
-- 地址：伊宁市六星街黎光街四巷，东正教堂斜对面
-- 餐费规划：¥15–30
-- 点单：可选一小份原味手工冰淇淋；先看杯型标价
-- 菜单证据：不是正餐预算；2024伊犁州政府旅游页列人均25元，未取得2026单杯价。冰淇淋属额外零食，不与正餐重复计入。
-- 营业：2024旅游页列09:00–次日03:00；仅历史参考，2027重核
-- 核查：具名店与六星街位置有政府旅游来源；当年价格、营业和食品供应待重核。
-- 仅住宿六星街且已经顺路时可选；排队超过10分钟跳过。
-- 手持甜品前收好相机，吃完清洁手；不是无酒精饮料的替代报价。
-- [伊犁州政府旅游页：古兰丹姆冰激凌店](https://www.xjyl.gov.cn/xjylz/c112874/202407/de55c45ba97a4afbbfc67c18c6272ecf.shtml)
+```json
+{
+  "id": "yining-gulandam",
+  "city": "伊宁",
+  "name": "古兰丹姆百年手工冰淇淋（六星街店）",
+  "address": "伊宁市六星街黎光街四巷，东正教堂斜对面",
+  "mapQuery": "古兰丹姆 百年手工冰淇淋 六星街 黎光街四巷 伊宁",
+  "days": [],
+  "dishes": [
+    "可选一小份原味手工冰淇淋；先看杯型标价"
+  ],
+  "budgetCny": [
+    15,
+    30
+  ],
+  "menuEvidence": "不是正餐预算；2024伊犁州政府旅游页列人均25元，未取得2026单杯价。冰淇淋属额外零食，不与正餐重复计入。",
+  "hours": "2024旅游页列09:00–次日03:00；仅历史参考，2027重核",
+  "sources": [
+    {
+      "title": "伊犁州政府旅游页：古兰丹姆冰激凌店",
+      "url": "https://www.xjyl.gov.cn/xjylz/c112874/202407/de55c45ba97a4afbbfc67c18c6272ecf.shtml"
+    }
+  ],
+  "cautions": [
+    "仅住宿六星街且已经顺路时可选；排队超过10分钟跳过。",
+    "手持甜品前收好相机，吃完清洁手；不是无酒精饮料的替代报价。"
+  ],
+  "verified": "具名店与六星街位置有政府旅游来源；当年价格、营业和食品供应待重核。"
+}
+```
 
 ### 阿拉木图 · Qaganat（Зенкова / Gogol 39分店）
-
-- 地址：Алматы, улица Гоголя, 39
-- 餐费规划：¥25–45
-- 点单：看当天价签选一份抓饭或热荤配主食；汤/熟蔬菜按预算加，不默认全套
-- 菜单证据：未取得39号店独立现价；Wolt名为Qaganat Гоголя的网页实际是86号店，不能把86号菜单价贴到39号。预算为单人食物留量，饮水和Kompot另计。
-- 营业：Qaganat官网当前地址表列该店24/7；2027重核
-- 核查：官网确认具名地址和当前营业参考；菜单现价待到店看价签。
-- 选作潘菲洛夫公园/绿巴扎动线内的具名平价店；D4仅实际下车/住宿顺路且仍营业时用。
-- Google评分未独立核实，不展示旧稿星级/评价量；冷气、插座可用性未保证。
-- 与Dostyk108、Gogol86均为不同分店。
-- [Qaganat官方分店表：Gogol39与24/7](https://qaganat24.kz/contacts)
-- [Qaganat官方配送页：Зенкова对应Gogol39](https://qaganat24.kz/deliveryandpayment)
+```json
+{
+  "id": "almaty-qaganat-gogol39",
+  "city": "阿拉木图",
+  "name": "Qaganat（Зенкова / Gogol 39分店）",
+  "address": "Алматы, улица Гоголя, 39",
+  "mapQuery": "Qaganat Гоголя 39 Алматы",
+  "days": [
+    4,
+    5,
+    6
+  ],
+  "dishes": [
+    "看当天价签选一份抓饭或热荤配主食；汤/熟蔬菜按预算加，不默认全套"
+  ],
+  "budgetCny": [
+    25,
+    45
+  ],
+  "menuEvidence": "未取得39号店独立现价；Wolt名为Qaganat Гоголя的网页实际是86号店，不能把86号菜单价贴到39号。预算为单人食物留量，饮水和Kompot另计。",
+  "hours": "Qaganat官网当前地址表列该店24/7；2027重核",
+  "sources": [
+    {
+      "title": "Qaganat官方分店表：Gogol39与24/7",
+      "url": "https://qaganat24.kz/contacts"
+    },
+    {
+      "title": "Qaganat官方配送页：Зенкова对应Gogol39",
+      "url": "https://qaganat24.kz/deliveryandpayment"
+    }
+  ],
+  "cautions": [
+    "选作潘菲洛夫公园/绿巴扎动线内的具名平价店；D4仅实际下车/住宿顺路且仍营业时用。",
+    "Google评分未独立核实，不展示旧稿星级/评价量；冷气、插座可用性未保证。",
+    "与Dostyk108、Gogol86均为不同分店。"
+  ],
+  "verified": "官网确认具名地址和当前营业参考；菜单现价待到店看价签。"
+}
+```
 
 ### 阿拉木图 · Qaganat（Dostyk 108分店）
-
-- 地址：Алматы, проспект Достык, 108
-- 餐费规划：¥25–45
-- 点单：自选一份热主菜和主食；可用红菜汤或饺子替换，不将马肉面当作保证供应
-- 菜单证据：本店Wolt外送菜单当前红菜汤有1130/1390 KZT不同份型、饺子1890/2300 KZT；外送价不等于堂食，配菜/饮料另算。稿中2370 KZT马肉面可在Astana Dostyk店菜单查到，未在此阿拉木图108店当前页面找到，不能串店。
-- 营业：Qaganat官网当前列24/7；2027重核
-- 核查：官网地址及当前营业参考确认，商户外送菜单价格可查；堂食实价/2027价待核。
-- D5从Kok-Tobe下站返市区时作为晚餐候选，仍以实际导航路程判断，不称就在缆车门口。
-- 不能使用红菜汤600 KZT旧稿价；插座和强冷气未核。
-- 预算是单人一餐食物留量，饮水/特色饮料另计。
-- [Qaganat官方分店表：Dostyk108](https://qaganat24.kz/contacts)
-- [本店商户Wolt菜单（外送价）](https://wolt.com/ru/kaz/almaty/restaurant/qaganat-dostyk)
+```json
+{
+  "id": "almaty-qaganat-dostyk108",
+  "city": "阿拉木图",
+  "name": "Qaganat（Dostyk 108分店）",
+  "address": "Алматы, проспект Достык, 108",
+  "mapQuery": "Qaganat Достык 108 Алматы",
+  "days": [
+    5
+  ],
+  "dishes": [
+    "自选一份热主菜和主食；可用红菜汤或饺子替换，不将马肉面当作保证供应"
+  ],
+  "budgetCny": [
+    25,
+    45
+  ],
+  "menuEvidence": "本店Wolt外送菜单当前红菜汤有1130/1390 KZT不同份型、饺子1890/2300 KZT；外送价不等于堂食，配菜/饮料另算。稿中2370 KZT马肉面可在Astana Dostyk店菜单查到，未在此阿拉木图108店当前页面找到，不能串店。",
+  "hours": "Qaganat官网当前列24/7；2027重核",
+  "sources": [
+    {
+      "title": "Qaganat官方分店表：Dostyk108",
+      "url": "https://qaganat24.kz/contacts"
+    },
+    {
+      "title": "本店商户Wolt菜单（外送价）",
+      "url": "https://wolt.com/ru/kaz/almaty/restaurant/qaganat-dostyk"
+    }
+  ],
+  "cautions": [
+    "D5从Kok-Tobe下站返市区时作为晚餐候选，仍以实际导航路程判断，不称就在缆车门口。",
+    "不能使用红菜汤600 KZT旧稿价；插座和强冷气未核。",
+    "预算是单人一餐食物留量，饮水/特色饮料另计。"
+  ],
+  "verified": "官网地址及当前营业参考确认，商户外送菜单价格可查；堂食实价/2027价待核。"
+}
+```
 
 ### 阿拉木图 · NAVAT（Dostyk 48分店）
-
-- 地址：Алматы, Dostyk Avenue 48
-- 餐费规划：¥45–75
-- 点单：改善餐可点一份lagman或当地面食；若要马肉面先问单人份、当日价和是否售罄
-- 菜单证据：官网挂有Chaihana Menu（Google Drive PDF）；本次只读到链接，未可靠提取现价，不照录旧价。单人一餐食物规划留量，饮水、茶壶和服务费现场核。
-- 营业：官方分店页10:00–00:00；2027重核
-- 核查：官网确认地址、营业参考和菜单入口；单菜现价、当前空调/插座和Google评分未核。
-- 放作Qaganat外的改善餐备选，不强制两家都吃。
-- D7赶火车前不远途追店；餐费超过当餐留量则改食堂。
-- 官网未证明每桌都有插座，不把充电作为可依赖安排。
-- [NAVAT官方Dostyk48分店、时段及菜单入口](https://eng.navat.kz/almatymenu)
-- [NAVAT官方联系方式](https://eng.navat.kz/contacts)
+```json
+{
+  "id": "almaty-navat-dostyk48",
+  "city": "阿拉木图",
+  "name": "NAVAT（Dostyk 48分店）",
+  "address": "Алматы, Dostyk Avenue 48",
+  "mapQuery": "NAVAT Dostyk Avenue 48 Almaty",
+  "days": [
+    5
+  ],
+  "dishes": [
+    "改善餐可点一份lagman或当地面食；若要马肉面先问单人份、当日价和是否售罄"
+  ],
+  "budgetCny": [
+    45,
+    75
+  ],
+  "menuEvidence": "官网挂有Chaihana Menu（Google Drive PDF）；本次只读到链接，未可靠提取现价，不照录旧价。单人一餐食物规划留量，饮水、茶壶和服务费现场核。",
+  "hours": "官方分店页10:00–00:00；2027重核",
+  "sources": [
+    {
+      "title": "NAVAT官方Dostyk48分店、时段及菜单入口",
+      "url": "https://eng.navat.kz/almatymenu"
+    },
+    {
+      "title": "NAVAT官方联系方式",
+      "url": "https://eng.navat.kz/contacts"
+    }
+  ],
+  "cautions": [
+    "放作Qaganat外的改善餐备选，不强制两家都吃。",
+    "D7赶火车前不远途追店；餐费超过当餐留量则改食堂。",
+    "官网未证明每桌都有插座，不把充电作为可依赖安排。"
+  ],
+  "verified": "官网确认地址、营业参考和菜单入口；单菜现价、当前空调/插座和Google评分未核。"
+}
+```
 
 ### 塔什干 · Besh Qozon（Glinka 41A分店）
-
-- 地址：Ташкент, ул. Глинки, 41А
-- 餐费规划：¥35–55
-- 点单：婚礼抓饭单人份；看套餐实际包含内容后再决定是否另加Achichuk、蛋或马肠，避免重复加价
-- 菜单证据：官网网络点单现列婚礼抓饭一份53000 UZS、0.7份51000 UZS、单人婚礼抓饭套餐70000 UZS（另有Set1为78000）。只证明网站点单价，不保证分店堂食同价；饮水/饮料另计。
-- 营业：官网分店页未提供可靠具体营业时段；不照录09:00–00:00
-- 核查：官网确认分店、菜单类型和网站标价；2027营业/堂食同价/套餐细项待重核。
-- D8 14:30–15:15午餐优先考察此分店与实际DRIMIN入住点路线；不为拍大锅绕到北侧电视塔店。
-- D13仅当返塔什干后已确认晚间仍有餐且顺路时备选；抓饭不保证晚到仍有。
-- 拍摄厨房须先问店员，不因公开明档就默认可以进入操作区。
-- [Besh Qozon官方分店表（Glinka41A、电视塔Iftihor1为不同店）](https://beshqozon.uz/en/branches)
-- [Besh Qozon官方网络菜单现价](https://beshqozon.uz/en/menu)
+```json
+{
+  "id": "tashkent-beshqozon-glinka",
+  "city": "塔什干",
+  "name": "Besh Qozon（Glinka 41A分店）",
+  "address": "Ташкент, ул. Глинки, 41А",
+  "mapQuery": "Besh Qozon Glinka 41A Tashkent",
+  "days": [
+    8,
+    13
+  ],
+  "dishes": [
+    "婚礼抓饭单人份；看套餐实际包含内容后再决定是否另加Achichuk、蛋或马肠，避免重复加价"
+  ],
+  "budgetCny": [
+    35,
+    55
+  ],
+  "menuEvidence": "官网网络点单现列婚礼抓饭一份53000 UZS、0.7份51000 UZS、单人婚礼抓饭套餐70000 UZS（另有Set1为78000）。只证明网站点单价，不保证分店堂食同价；饮水/饮料另计。",
+  "hours": "官网分店页未提供可靠具体营业时段；不照录09:00–00:00",
+  "sources": [
+    {
+      "title": "Besh Qozon官方分店表（Glinka41A、电视塔Iftihor1为不同店）",
+      "url": "https://beshqozon.uz/en/branches"
+    },
+    {
+      "title": "Besh Qozon官方网络菜单现价",
+      "url": "https://beshqozon.uz/en/menu"
+    }
+  ],
+  "cautions": [
+    "D8 14:30–15:15午餐优先考察此分店与实际DRIMIN入住点路线；不为拍大锅绕到北侧电视塔店。",
+    "D13仅当返塔什干后已确认晚间仍有餐且顺路时备选；抓饭不保证晚到仍有。",
+    "拍摄厨房须先问店员，不因公开明档就默认可以进入操作区。"
+  ],
+  "verified": "官网确认分店、菜单类型和网站标价；2027营业/堂食同价/套餐细项待重核。"
+}
+```
 
 ### 布哈拉 · Old Bukhara（布哈拉老城店）
-
-- 地址：Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3
-- 餐费规划：¥30–55
-- 点单：一人份抓饭或热汤配馕；想吃烤串先问一串克数与起点量
-- 菜单证据：本次官网old-bukhara.uz返回502；未取得现价菜单，旧稿50000–70000 UZS不可当2026核定价。人民币仅单人食物规划留量，水、饮料及服务费另看。
-- 营业：具体全日时段未可靠核实；Yandex当前显示当日23:00关门，2027再核
-- 核查：两份地图/商业名录确认布哈拉此店；地址存在旧/新街名差异，导航按店名和具体地图点核门头。Google评分、强冷气/插座及现价未核。
-- 用于D9/D10返水池片区晚餐，不为吃网红店单独绕远。
-- 排队或预计出餐超过20分钟改Afsona前先看实际距离和价格，不默认两店相邻。
-- 不要串到美国NewJersey同名餐厅或塔什干Sergeli的同名Telegram账号。
-- [Old Bukhara具名地图地点、地址及店铺官网链接（地图补证）](https://yandex.com/maps/org/old_bukhara/228705593501/)
-- [商户官网（本次读取失败，不能作为已读菜单证据）](https://old-bukhara.uz/)
-- [布哈拉Old Bukhara商业名录地址交叉核对](https://www.goldenpages.uz/en/company/?Id=100387)
+```json
+{
+  "id": "bukhara-old-bukhara",
+  "city": "布哈拉",
+  "name": "Old Bukhara（布哈拉老城店）",
+  "address": "Bukhara, Samarkand Street 3；当前Yandex同一地点亦标Mustakillik Street 3",
+  "mapQuery": "Old Bukhara Restaurant Bukhara Samarkand Street 3",
+  "days": [
+    9,
+    10
+  ],
+  "dishes": [
+    "一人份抓饭或热汤配馕；想吃烤串先问一串克数与起点量"
+  ],
+  "budgetCny": [
+    30,
+    55
+  ],
+  "menuEvidence": "本次官网old-bukhara.uz返回502；未取得现价菜单，旧稿50000–70000 UZS不可当2026核定价。人民币仅单人食物规划留量，水、饮料及服务费另看。",
+  "hours": "具体全日时段未可靠核实；Yandex当前显示当日23:00关门，2027再核",
+  "sources": [
+    {
+      "title": "Old Bukhara具名地图地点、地址及店铺官网链接（地图补证）",
+      "url": "https://yandex.com/maps/org/old_bukhara/228705593501/"
+    },
+    {
+      "title": "商户官网（本次读取失败，不能作为已读菜单证据）",
+      "url": "https://old-bukhara.uz/"
+    },
+    {
+      "title": "布哈拉Old Bukhara商业名录地址交叉核对",
+      "url": "https://www.goldenpages.uz/en/company/?Id=100387"
+    }
+  ],
+  "cautions": [
+    "用于D9/D10返水池片区晚餐，不为吃网红店单独绕远。",
+    "排队或预计出餐超过20分钟改Afsona前先看实际距离和价格，不默认两店相邻。",
+    "不要串到美国NewJersey同名餐厅或塔什干Sergeli的同名Telegram账号。"
+  ],
+  "verified": "两份地图/商业名录确认布哈拉此店；地址存在旧/新街名差异，导航按店名和具体地图点核门头。Google评分、强冷气/插座及现价未核。"
+}
+```
 
 ### 布哈拉 · Afsona Bukhara（Murod Avliyo 4分店）
-
-- 地址：Бухара, улица Мурод Авлиё, 4（以集团官网门店地址为准）
-- 餐费规划：¥50–85
-- 点单：先看菜单选一份抓饭、热汤或烤肉主食组合；作为改善餐，别默认是便宜食堂
-- 菜单证据：ABNMB集团官网确认布哈拉分店，但未提供可读现价；不使用30,000 UZS饺子汤等未经核定值。单人一餐食物留量，饮水、特色饮品和服务费另计。
-- 营业：未取得官方分店营业时段，2027重核
-- 核查：集团官网确认具名分店；价格、当前入口、营业、强冷气与插座未锁定。
-- 官网确有布哈拉分店，不应误说Afsona只有塔什干。
-- 地理/目录有Bakhouddin Naqshband20等地址差异；出发前按官方电话+998935551075核具体入口，不凭连锁总名称导航。
-- 中午只在确认室内空调正常后选作避暑正餐；插座可用性未核。
-- 可与Old Bukhara二选一；不把¥50–85当每日固定两餐成本。
-- [ABNMB集团官网：Afsona Bukhara地址和电话](https://www.abnmbgroup.com/restaurants-boulangerie)
-- [ABNMB官方新闻：布哈拉新分店](https://www.abnmbgroup.com/news)
+```json
+{
+  "id": "bukhara-afsona",
+  "city": "布哈拉",
+  "name": "Afsona Bukhara（Murod Avliyo 4分店）",
+  "address": "Бухара, улица Мурод Авлиё, 4（以集团官网门店地址为准）",
+  "mapQuery": "Afsona Bukhara Murod Avliyo 4",
+  "days": [
+    9,
+    10
+  ],
+  "dishes": [
+    "先看菜单选一份抓饭、热汤或烤肉主食组合；作为改善餐，别默认是便宜食堂"
+  ],
+  "budgetCny": [
+    50,
+    85
+  ],
+  "menuEvidence": "ABNMB集团官网确认布哈拉分店，但未提供可读现价；不使用30,000 UZS饺子汤等未经核定值。单人一餐食物留量，饮水、特色饮品和服务费另计。",
+  "hours": "未取得官方分店营业时段，2027重核",
+  "sources": [
+    {
+      "title": "ABNMB集团官网：Afsona Bukhara地址和电话",
+      "url": "https://www.abnmbgroup.com/restaurants-boulangerie"
+    },
+    {
+      "title": "ABNMB官方新闻：布哈拉新分店",
+      "url": "https://www.abnmbgroup.com/news"
+    }
+  ],
+  "cautions": [
+    "官网确有布哈拉分店，不应误说Afsona只有塔什干。",
+    "地理/目录有Bakhouddin Naqshband20等地址差异；出发前按官方电话+998935551075核具体入口，不凭连锁总名称导航。",
+    "中午只在确认室内空调正常后选作避暑正餐；插座可用性未核。",
+    "可与Old Bukhara二选一；不把¥50–85当每日固定两餐成本。"
+  ],
+  "verified": "集团官网确认具名分店；价格、当前入口、营业、强冷气与插座未锁定。"
+}
+```
 
 ### 撒马尔罕 · Shokhrukh Nur（So'zangaron街店）
-
-- 地址：Samarkand, So'zangaron ko'chasi 40（Yandex）；GoldenPages同电话列Suzangaranskaya6，门牌有冲突
-- 餐费规划：¥30–55
-- 点单：羊肉串先点一串，再配汤或一份lagman；用叉勺进餐，留意串上油脂
-- 菜单证据：未取得可核实经营者现价菜单；地图均价不是菜单报价，不照录45000–65000 UZS已核实套餐。预算只含一人食物，饮水/饮料另计。
-- 营业：地图与商业名录时段不同，不写死；先电话/地图核实当晚营业
-- 核查：两来源有同店名同电话，但门牌冲突；属于具名候选，不是地址完全确认的主推荐。Google评分与现价未核。
-- 雷吉斯坦周边候选，按准确店名+电话核门头；不能把门牌40或6写成完全无冲突的已确认事实。
-- 没有可靠证据要求避开周五；不要把礼拜日等同餐厅闭店。
-- 若地址仍无法确认或导航绕行超过15分钟，选Karimbek仅在本就去新城时；否则留在现有路线买明码热食。
-- [Shokhrukh Nur具名地图地点、So'zangaron40及电话](https://yandex.com/maps/org/shokhrukh_nur/29928612335/)
-- [GoldenPages同名同电话：Suzangaranskaya6（地址差异补证）](https://www.goldenpages.uz/en/company/?Id=117325)
+```json
+{
+  "id": "samarkand-shokhrukh-nur",
+  "city": "撒马尔罕",
+  "name": "Shokhrukh Nur（So'zangaron街店）",
+  "address": "Samarkand, So'zangaron ko'chasi 40（Yandex）；GoldenPages同电话列Suzangaranskaya6，门牌有冲突",
+  "mapQuery": "Shokhrukh Nur Sozangaron Samarkand +998937316666",
+  "days": [
+    12
+  ],
+  "dishes": [
+    "羊肉串先点一串，再配汤或一份lagman；用叉勺进餐，留意串上油脂"
+  ],
+  "budgetCny": [
+    30,
+    55
+  ],
+  "menuEvidence": "未取得可核实经营者现价菜单；地图均价不是菜单报价，不照录45000–65000 UZS已核实套餐。预算只含一人食物，饮水/饮料另计。",
+  "hours": "地图与商业名录时段不同，不写死；先电话/地图核实当晚营业",
+  "sources": [
+    {
+      "title": "Shokhrukh Nur具名地图地点、So'zangaron40及电话",
+      "url": "https://yandex.com/maps/org/shokhrukh_nur/29928612335/"
+    },
+    {
+      "title": "GoldenPages同名同电话：Suzangaranskaya6（地址差异补证）",
+      "url": "https://www.goldenpages.uz/en/company/?Id=117325"
+    }
+  ],
+  "cautions": [
+    "雷吉斯坦周边候选，按准确店名+电话核门头；不能把门牌40或6写成完全无冲突的已确认事实。",
+    "没有可靠证据要求避开周五；不要把礼拜日等同餐厅闭店。",
+    "若地址仍无法确认或导航绕行超过15分钟，选Karimbek仅在本就去新城时；否则留在现有路线买明码热食。"
+  ],
+  "verified": "两来源有同店名同电话，但门牌冲突；属于具名候选，不是地址完全确认的主推荐。Google评分与现价未核。",
+  "planRole": "备选：出发前先核对门牌和入口"
+}
+```
 
 ### 撒马尔罕 · Karimbek（Gagarin 194店）
-
-- 地址：Samarkand, Gagarin Street 194
-- 餐费规划：¥40–70
-- 点单：看QR菜单选一份当地面食或烤肉配主食；先问服务费及一人份
-- 菜单证据：经营者QR菜单页搜索索引确认Karimbek/Gagarin194，但页面为动态内容未读到价格；只给食物预算留量，不把旧稿价格套用本店。
-- 营业：未取得经营者可靠时段，2027重核
-- 核查：具名QR菜单入口与地图均指向Gagarin194；菜单实价/营业待核，地理上不作为老城默认主餐。
-- 在新城Gagarin街，不是雷吉斯坦/比比哈努姆门口；仅在实际住宿或办事路线经过时作为备选。
-- 不为了吃这家增加专程往返车费；D13赶铁路不排此店。
-- 空调、插座及2027堂食现价未保证。
-- [Karimbek经营者QR菜单入口（有具名地址，价格未读出）](https://oddmenu.com/ru/p/bek/cl6vxwq6a6057587xnvkvfbisr9)
-- [具名地图地址交叉核对](https://yandex.com/maps/org/karimbek/234049585658/)
+```json
+{
+  "id": "samarkand-karimbek",
+  "city": "撒马尔罕",
+  "name": "Karimbek（Gagarin 194店）",
+  "address": "Samarkand, Gagarin Street 194",
+  "mapQuery": "Restaurant Karimbek Gagarin 194 Samarkand",
+  "days": [],
+  "dishes": [
+    "看QR菜单选一份当地面食或烤肉配主食；先问服务费及一人份"
+  ],
+  "budgetCny": [
+    40,
+    70
+  ],
+  "menuEvidence": "经营者QR菜单页搜索索引确认Karimbek/Gagarin194，但页面为动态内容未读到价格；只给食物预算留量，不把旧稿价格套用本店。",
+  "hours": "未取得经营者可靠时段，2027重核",
+  "sources": [
+    {
+      "title": "Karimbek经营者QR菜单入口（有具名地址，价格未读出）",
+      "url": "https://oddmenu.com/ru/p/bek/cl6vxwq6a6057587xnvkvfbisr9"
+    },
+    {
+      "title": "具名地图地址交叉核对",
+      "url": "https://yandex.com/maps/org/karimbek/234049585658/"
+    }
+  ],
+  "cautions": [
+    "在新城Gagarin街，不是雷吉斯坦/比比哈努姆门口；仅在实际住宿或办事路线经过时作为备选。",
+    "不为了吃这家增加专程往返车费；D13赶铁路不排此店。",
+    "空调、插座及2027堂食现价未保证。"
+  ],
+  "verified": "具名QR菜单入口与地图均指向Gagarin194；菜单实价/营业待核，地理上不作为老城默认主餐。"
+}
+```
 
 ### 撒马尔罕 · Emirhan Restaurant（Mahmudjanov 1/18店）
-
-- 地址：1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）
-- 餐费规划：¥50–85
-- 点单：先看当日菜单，选择一份当地热主食（抓饭/lagman如有供应）或热汤配馕；不为景观位额外点酒水、多道菜或甜品
-- 菜单证据：未取得可独立读取的经营者现价菜单。Yandex平均账单80000–140000 UZS只是平台均价，不是单菜报价；人民币50–85仅为一次单人食物留量，饮水/特色饮料、服务费另核。若单人正餐超留量，改已核入口的Shokhrukh或超市便餐，不承诺此店是低价食堂。
-- 营业：2026撒马尔罕国际论坛官方指南列每日11:00–23:00；2027出发前重核
-- 核查：2026官方活动指南与地图均指向Mahmudjanov1/18和同电话，地址比Shokhrukh门牌冲突更明确；菜单实价与设施不作保证。
-- 适合D11/D12雷吉斯坦动线午晚餐，实际步行从参观出口导航，不把200米直线距离当步行耗时。
-- 有景观餐厅属性，不是已核廉价国民食堂；先看含税、服务费后的一人总价。
-- 只进有空位的普通座位；排队+出餐预计超过20分钟就放弃，不为屋顶景观位排长队。
-- 官方指南与地图同列电话+998888916000；Google星级/评价数、冷气强度与可用插座未独立核验。
-- [2026撒马尔罕国际论坛官方指南：Emirhan地址、电话、营业参考](https://samarkand-guide.dfca.uz/)
-- [Emirhan具名地图点：相同1/18门牌和电话补证](https://yandex.com/maps/org/emirhan/226087137785/)
-- [经营者Instagram入口（本次页面未能读取，不冒充菜单证据）](https://www.instagram.com/emirhan.restaurant/)
+```json
+{
+  "id": "samarkand-emirhan",
+  "city": "撒马尔罕",
+  "name": "Emirhan Restaurant（Mahmudjanov 1/18店）",
+  "address": "1/18 Akhrarkula Mahmudjanov Street, Samarkand（地图拼写Ahrorqul Mahmudjonov koʻchasi）",
+  "mapQuery": "Emirhan Restaurant Ahrorqul Mahmudjonov 1/18 Samarkand",
+  "days": [
+    11,
+    12
+  ],
+  "planRole": "雷吉斯坦附近主餐厅候选：地址较明确，先看菜单控单餐上限",
+  "dishes": [
+    "先看当日菜单，选择一份当地热主食（抓饭/lagman如有供应）或热汤配馕；不为景观位额外点酒水、多道菜或甜品"
+  ],
+  "budgetCny": [
+    50,
+    85
+  ],
+  "menuEvidence": "未取得可独立读取的经营者现价菜单。Yandex平均账单80000–140000 UZS只是平台均价，不是单菜报价；人民币50–85仅为一次单人食物留量，饮水/特色饮料、服务费另核。若单人正餐超留量，改已核入口的Shokhrukh或超市便餐，不承诺此店是低价食堂。",
+  "hours": "2026撒马尔罕国际论坛官方指南列每日11:00–23:00；2027出发前重核",
+  "sources": [
+    {
+      "title": "2026撒马尔罕国际论坛官方指南：Emirhan地址、电话、营业参考",
+      "url": "https://samarkand-guide.dfca.uz/"
+    },
+    {
+      "title": "Emirhan具名地图点：相同1/18门牌和电话补证",
+      "url": "https://yandex.com/maps/org/emirhan/226087137785/"
+    },
+    {
+      "title": "经营者Instagram入口（本次页面未能读取，不冒充菜单证据）",
+      "url": "https://www.instagram.com/emirhan.restaurant/"
+    }
+  ],
+  "cautions": [
+    "适合D11/D12雷吉斯坦动线午晚餐，实际步行从参观出口导航，不把200米直线距离当步行耗时。",
+    "有景观餐厅属性，不是已核廉价国民食堂；先看含税、服务费后的一人总价。",
+    "只进有空位的普通座位；排队+出餐预计超过20分钟就放弃，不为屋顶景观位排长队。",
+    "官方指南与地图同列电话+998888916000；Google星级/评价数、冷气强度与可用插座未独立核验。"
+  ],
+  "verified": "2026官方活动指南与地图均指向Mahmudjanov1/18和同电话，地址比Shokhrukh门牌冲突更明确；菜单实价与设施不作保证。"
+}
+```
 
 ### 巴库 · Firuzə Restaurant · 喷泉广场店
-
-- 地址：Tərlan Əliyarbəyov 14, Bakı 1005
-- 餐费规划：¥50–80
-- 点单：一人先点葡萄叶卷Dolma或Düşbərə汤＋一份主食；两种重肉主菜不必叠加。无酒精饮料另点瓶装水/茶。
-- 菜单证据：官网确认菜单以AZN计价，菜单是图片；本次未读到可引用的单品金额。原稿9AZN葡萄叶卷、10AZN肉串不能作为已核价。人民币区间为单人一餐食物留量，饮料另计。
-- 营业：官网现示每日12:00–01:00；2027再核，不作早餐店。
-- 核查：2026-11-05核到官网地址及营业；未独立读取Google实时评价数量，2027菜单和营业须重核。
-- 从老城/海滨到喷泉广场后再吃；D15若一日团晚返便取消，不绕路追店。
-- 官网可证免费Wi-Fi，不能由此推断插座可用、强冷气或避免宰客保证。
-- 等位超过15–20分钟改Dolma；先核服务费、面包及桌面小菜。
-- [Firuzə官网：分店地址、营业与菜单入口](https://firuzerestoran.az/en/)
+```json
+{
+  "id": "firuze-baku",
+  "city": "巴库",
+  "name": "Firuzə Restaurant · 喷泉广场店",
+  "address": "Tərlan Əliyarbəyov 14, Bakı 1005",
+  "mapQuery": "Firuze Restaurant Tarlan Aliyarbeyov 14 Baku",
+  "days": [
+    14,
+    15,
+    16
+  ],
+  "rowIds": [
+    "d14v2-10",
+    "d15v2-12"
+  ],
+  "dishes": "一人先点葡萄叶卷Dolma或Düşbərə汤＋一份主食；两种重肉主菜不必叠加。无酒精饮料另点瓶装水/茶。",
+  "budgetCny": [
+    50,
+    80
+  ],
+  "menuEvidence": "官网确认菜单以AZN计价，菜单是图片；本次未读到可引用的单品金额。原稿9AZN葡萄叶卷、10AZN肉串不能作为已核价。人民币区间为单人一餐食物留量，饮料另计。",
+  "hours": "官网现示每日12:00–01:00；2027再核，不作早餐店。",
+  "sources": [
+    {
+      "title": "Firuzə官网：分店地址、营业与菜单入口",
+      "url": "https://firuzerestoran.az/en/"
+    }
+  ],
+  "cautions": [
+    "从老城/海滨到喷泉广场后再吃；D15若一日团晚返便取消，不绕路追店。",
+    "官网可证免费Wi-Fi，不能由此推断插座可用、强冷气或避免宰客保证。",
+    "等位超过15–20分钟改Dolma；先核服务费、面包及桌面小菜。"
+  ],
+  "verified": "2026-11-05核到官网地址及营业；未独立读取Google实时评价数量，2027菜单和营业须重核。"
+}
+```
 
 ### 巴库 · Dolma Restaurant · 喷泉广场店
-
-- 地址：8 M. Rasulzade St., Sabail District, Baku
-- 餐费规划：¥50–85
-- 点单：Düşbərə小水饺汤或葡萄叶卷＋单人主食，菜量足再加面包；茶/梨汽水另计。
-- 菜单证据：官网菜单明确账单另加10%服务费；动态菜品未返回可核金额，不能沿用原稿28/38元当实价。区间是单人食物规划并留服务费，饮品另计。
-- 营业：官网未取得可靠营业时段；D16建议12:40–13:30就餐，出门前核开门。
-- 核查：地址与10%服务费有第一方来源，菜单单品和营业未核；2027重核。
-- D16希尔万沙宫结束后往喷泉广场再回住宿，按实际青旅位置核步行；不是宫门口店。
-- 13:30前离店，保留原午休与夜车核验；等位超过15分钟换Firuzə或现成简餐。
-- 空调、可借插座、Google评分数量未实证。
-- [Dolma官网：喷泉广场8号地址](https://dolmarestaurant.az/en/)
-- [Dolma官方菜单：另加10%服务费](https://dolmarestaurant.az/en/menu/)
+```json
+{
+  "id": "dolma-baku",
+  "city": "巴库",
+  "name": "Dolma Restaurant · 喷泉广场店",
+  "address": "8 M. Rasulzade St., Sabail District, Baku",
+  "mapQuery": "Dolma Restaurant 8 Mammadamin Rasulzade Baku",
+  "days": [
+    16
+  ],
+  "rowIds": [
+    "d16v2-08"
+  ],
+  "dishes": "Düşbərə小水饺汤或葡萄叶卷＋单人主食，菜量足再加面包；茶/梨汽水另计。",
+  "budgetCny": [
+    50,
+    85
+  ],
+  "menuEvidence": "官网菜单明确账单另加10%服务费；动态菜品未返回可核金额，不能沿用原稿28/38元当实价。区间是单人食物规划并留服务费，饮品另计。",
+  "hours": "官网未取得可靠营业时段；D16建议12:40–13:30就餐，出门前核开门。",
+  "sources": [
+    {
+      "title": "Dolma官网：喷泉广场8号地址",
+      "url": "https://dolmarestaurant.az/en/"
+    },
+    {
+      "title": "Dolma官方菜单：另加10%服务费",
+      "url": "https://dolmarestaurant.az/en/menu/"
+    }
+  ],
+  "cautions": [
+    "D16希尔万沙宫结束后往喷泉广场再回住宿，按实际青旅位置核步行；不是宫门口店。",
+    "13:30前离店，保留原下午安排与夜车核验；等位超过15分钟换Firuzə或现成简餐。",
+    "空调、可借插座、Google评分数量未实证。"
+  ],
+  "verified": "地址与10%服务费有第一方来源，菜单单品和营业未核；2027重核。"
+}
+```
 
 ### 第比利斯 · Maspindzelo · Gorgasali老城店
-
-- 地址：7 Vakhtang Gorgasali Street, Tbilisi
-- 餐费规划：¥40–75
-- 点单：先点5个肉汤包Khinkali，问最低起点数；可改一份罐炖豆。核桃茄子卷和奶酪饼可选其一，不要全部叠加。用餐前收相机，汤包可请店员提供餐具。
-- 菜单证据：官方电子菜单嵌入数据：肉Khinkali 2.45GEL/个、核桃茄子19GEL、罐炖豆21GEL、Imeretian奶酪饼24GEL。以5只汤包计12.25GEL，尚未加饮品/可能服务费。核查2026-11-05；未显示生效日，不保证2027价。
-- 营业：集团门店页现列09:00–02:00、周五六24h；电子菜单时间字段却写10:30–12:00，第一方互有冲突，须电话重核。
-- 核查：集团第一方菜单确认具名老城门店与菜价；电子菜单时段异常已标出。
-- D17老城/Narikala结束后先在此吃，再过桥回Avlabari；调整原晚餐文字，不新增跨城。
-- D18团返城很晚则不赶此店，原返城休息优先。
-- 原稿Pasanauri Rustaveli46在地图平台有关闭冲突；Mafshalia Aghmashenebeli137离D17老城动线远，均不列为默认顺路店。
-- 空调强度、插座权限与Google评分数量未核。
-- [MGroup官方门店列表与营业](https://mgroup.ge/en/places/)
-- [Maspindzelo官方电子菜单、Gorgasali7地址](https://menu.mgroup.ge/maspindzelo)
+```json
+{
+  "id": "maspindzelo-oldtown",
+  "city": "第比利斯",
+  "name": "Maspindzelo · Gorgasali老城店",
+  "address": "7 Vakhtang Gorgasali Street, Tbilisi",
+  "mapQuery": "Maspindzelo 7 Gorgasali Tbilisi",
+  "days": [
+    17,
+    18
+  ],
+  "rowIds": [
+    "d17v2-11",
+    "d18v2-12"
+  ],
+  "dishes": "先点5个肉汤包Khinkali，问最低起点数；可改一份罐炖豆。核桃茄子卷和奶酪饼可选其一，不要全部叠加。用餐前收相机，汤包可请店员提供餐具。",
+  "budgetCny": [
+    40,
+    75
+  ],
+  "menuEvidence": "官方电子菜单嵌入数据：肉Khinkali 2.45GEL/个、核桃茄子19GEL、罐炖豆21GEL、Imeretian奶酪饼24GEL。以5只汤包计12.25GEL，尚未加饮品/可能服务费。核查2026-11-05；未显示生效日，不保证2027价。",
+  "hours": "集团门店页现列09:00–02:00、周五六24h；电子菜单时间字段却写10:30–12:00，第一方互有冲突，须电话重核。",
+  "sources": [
+    {
+      "title": "MGroup官方门店列表与营业",
+      "url": "https://mgroup.ge/en/places/"
+    },
+    {
+      "title": "Maspindzelo官方电子菜单、Gorgasali7地址",
+      "url": "https://menu.mgroup.ge/maspindzelo"
+    }
+  ],
+  "cautions": [
+    "D17老城/Narikala结束后先在此吃，再过桥回Avlabari；调整原晚餐文字，不新增跨城。",
+    "D18团返城很晚则不赶此店，原返城休息优先。",
+    "原稿Pasanauri Rustaveli46在地图平台有关闭冲突；Mafshalia Aghmashenebeli137离D17老城动线远，均不列为默认顺路店。",
+    "空调强度、插座权限与Google评分数量未核。"
+  ],
+  "verified": "集团第一方菜单确认具名老城门店与菜价；电子菜单时段异常已标出。"
+}
+```
 
 ### 埃里温 · Tun Lahmajo · Teryan街店
-
-- 地址：23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）
-- 餐费规划：¥25–55
-- 点单：先点1–2张Lahmajo肉末薄饼，配一份熟蔬菜或汤；Tan咸酸奶饮另计。按菜单核一张大小，不默认点多人烤肉拼盘。
-- 菜单证据：市官方旅游页证实店与地址，OddMenu链接可打开但未取得菜价正文；原稿500–800AMD和凌晨4点不能当本次已核。食物区间为规划，饮品与服务费看现场菜单。
-- 营业：营业时间未取得第一方可靠证明；D19约20:00、D20约17:00、D21须18:00前吃完，均先电话确认。
-- 核查：官方城市旅游机构确认店名和23号地址；未读取实时完整菜单/店方时段。
-- D19从Cascade返回共和国广场途中可经Teryan吃，不再另跑远店。
-- D21早睡18:30不变，17点前开始点餐；若排队就打包或换附近快餐。
-- 官方旅游页23号与部分地图25号不一致，导航用完整店名；联系电话+37410538717。
-- 冷气、插座和Google评分未核。
-- [埃里温市官方旅游页：TunLahmajo位于23Teryan](https://visityerevan.am/restaurants/details/259/en/)
-- [店家电子菜单入口（本次正文未读到）](https://oddmenu.com/p/tun-lahmajo/cm82saduv679166u5uuw1ydn33u)
+```json
+{
+  "id": "tun-lahmajo-yerevan",
+  "city": "埃里温",
+  "name": "Tun Lahmajo · Teryan街店",
+  "address": "23 Teryan Street, Yerevan（地图亦见25号，按店名与电话核入口）",
+  "mapQuery": "Tun Lahmajo Teryan 23 Yerevan",
+  "days": [
+    19,
+    20,
+    21
+  ],
+  "rowIds": [
+    "d19v2-10",
+    "d20v2-12",
+    "d21v2-11"
+  ],
+  "dishes": "先点1–2张Lahmajo肉末薄饼，配一份熟蔬菜或汤；Tan咸酸奶饮另计。按菜单核一张大小，不默认点多人烤肉拼盘。",
+  "budgetCny": [
+    25,
+    55
+  ],
+  "menuEvidence": "市官方旅游页证实店与地址，OddMenu链接可打开但未取得菜价正文；原稿500–800AMD和凌晨4点不能当本次已核。食物区间为规划，饮品与服务费看现场菜单。",
+  "hours": "店方营业时段待出发前确认；D19/D20/D21按当日日程就餐，D21已取消为旧凌晨航班而18:30强制早睡。",
+  "sources": [
+    {
+      "title": "埃里温市官方旅游页：TunLahmajo位于23Teryan",
+      "url": "https://visityerevan.am/restaurants/details/259/en/"
+    },
+    {
+      "title": "店家电子菜单入口（本次正文未读到）",
+      "url": "https://oddmenu.com/p/tun-lahmajo/cm82saduv679166u5uuw1ydn33u"
+    }
+  ],
+  "cautions": [
+    "D19从Cascade返回共和国广场途中可经Teryan吃，不再另跑远店。",
+    "D21在城内正常晚餐；8/1下午航班，不必为旧凌晨航班提前在17点吃晚饭。",
+    "官方旅游页23号与部分地图25号不一致，导航用完整店名；联系电话+37410538717。",
+    "冷气、插座和Google评分未核。"
+  ],
+  "verified": "官方城市旅游机构确认店名和23号地址；未读取实时完整菜单/店方时段。"
+}
+```
 
 ### 埃里温 · Lahmajun Gaidz · Tumanyan9/9（午餐备选）
-
-- 地址：Tumanyan Street 9/9, Yerevan
-- 餐费规划：¥20–40
-- 点单：一张Lahmajun先点，不够再加；酸奶饮另计。只作D21返回城后的快速午餐备选。
-- 菜单证据：官方Facebook被拦截，未核到1500AMD套餐或现行单价；地址由地图条目交叉确认。原稿套餐不视为报价。
-- 营业：第三方现列周一至六11:00–18:30、周日休，但本次未获店方直接确认；只作待重核午餐候选，不安排D19晚餐。
-- 核查：具名候选保留，证据弱于TunLahmajo；官方页受限，菜单与营业须重核。
-- D21半日KhorVirap回城若晚，直接TunLahmajo或住宿附近简餐，不为小店压缩午休与Matenadaran。
-- 本店无可证强冷气或充电保证；等位15分钟即放弃。
-- [店家官方Facebook（本次受限）](https://www.facebook.com/LahmajunGaidz)
-- [Yandex具名门店及9/9地址](https://yandex.com/maps/org/lahmajun_gaidz/146367931818/)
+```json
+{
+  "id": "lahmajun-gaidz",
+  "city": "埃里温",
+  "name": "Lahmajun Gaidz · Tumanyan9/9（午餐备选）",
+  "address": "Tumanyan Street 9/9, Yerevan",
+  "mapQuery": "Lahmajun Gaidz Tumanyan 9 9 Yerevan",
+  "days": [
+    21
+  ],
+  "rowIds": [
+    "d21v2-07"
+  ],
+  "dishes": "一张Lahmajun先点，不够再加；酸奶饮另计。只作D21返回城后的快速午餐备选。",
+  "budgetCny": [
+    20,
+    40
+  ],
+  "menuEvidence": "官方Facebook被拦截，未核到1500AMD套餐或现行单价；地址由地图条目交叉确认。原稿套餐不视为报价。",
+  "hours": "第三方现列周一至六11:00–18:30、周日休，但本次未获店方直接确认；只作待重核午餐候选，不安排D19晚餐。",
+  "sources": [
+    {
+      "title": "店家官方Facebook（本次受限）",
+      "url": "https://www.facebook.com/LahmajunGaidz"
+    },
+    {
+      "title": "Yandex具名门店及9/9地址",
+      "url": "https://yandex.com/maps/org/lahmajun_gaidz/146367931818/"
+    }
+  ],
+  "cautions": [
+    "D21半日KhorVirap回城若晚，直接TunLahmajo或住宿附近简餐，不为小店压缩Matenadaran。",
+    "本店无可证强冷气或充电保证；等位15分钟即放弃。"
+  ],
+  "verified": "具名候选保留，证据弱于TunLahmajo；官方页受限，菜单与营业须重核。"
+}
+```
 
 ### 萨拉热窝 · Ćevabdžinica Željo · Kundurdžiluk19
-
-- 地址：Kundurdžiluk 19, Baščaršija, Sarajevo
-- 餐费规划：¥30–50
-- 点单：小份5根Ćevapi配Somun，先问Kajmak奶油和酸奶是否另收费；有刀叉可摊在盘中吃，不必手抓。
-- 菜单证据：旅游局确认Kundurdžiluk门店；本次未取得可靠现行数字菜单，原稿5根28元、10根45元未作为实价。
-- 营业：未取得店方营业表；D34约19:00或D35约20:00前先查当天营业。
-- 核查：官方旅游局确认店及街道，19号用地方导航交叉；菜价与时段未实证。
-- D34Sebilj附近晚餐可步行进入老城；D35黄堡下来再吃。
-- 排队超过15分钟改Bravadžiluk21的Petica；不要把任意同名Željo店当成本店。
-- 冷气与插座均未核，不能当稳定充电站。
-- [萨拉热窝旅游局：Željo位于Kundurdžiluk](https://www.visitsarajevo.ba/bs/listings/zeljo/)
-- [Sarajevo Navigator：Kundurdžiluk19地址](https://www.sarajevonavigator.ba/en/place/776)
+```json
+{
+  "id": "zeljo-sarajevo",
+  "city": "萨拉热窝",
+  "name": "Ćevabdžinica Željo · Kundurdžiluk19",
+  "address": "Kundurdžiluk 19, Baščaršija, Sarajevo",
+  "mapQuery": "Cevabdzinica Zeljo Kundurdziluk 19 Sarajevo",
+  "days": [
+    34,
+    35
+  ],
+  "rowIds": [
+    "d34v2-08",
+    "d35v2-13"
+  ],
+  "dishes": "小份5根Ćevapi配Somun，先问Kajmak奶油和酸奶是否另收费；有刀叉可摊在盘中吃，不必手抓。",
+  "budgetCny": [
+    30,
+    50
+  ],
+  "menuEvidence": "旅游局确认Kundurdžiluk门店；本次未取得可靠现行数字菜单，原稿5根28元、10根45元未作为实价。",
+  "hours": "未取得店方营业表；D26约19:00或D27约20:00前先查当天营业。",
+  "sources": [
+    {
+      "title": "萨拉热窝旅游局：Željo位于Kundurdžiluk",
+      "url": "https://www.visitsarajevo.ba/bs/listings/zeljo/"
+    },
+    {
+      "title": "Sarajevo Navigator：Kundurdžiluk19地址",
+      "url": "https://www.sarajevonavigator.ba/en/place/776"
+    }
+  ],
+  "cautions": [
+    "D26Sebilj附近晚餐可步行进入老城；D27黄堡下来再吃。",
+    "排队超过15分钟改Bravadžiluk21的Petica；不要把任意同名Željo店当成本店。",
+    "冷气与插座均未核，不能当稳定充电站。"
+  ],
+  "verified": "官方旅游局确认店及街道，19号用地方导航交叉；菜价与时段未实证。"
+}
+```
 
 ### 萨拉热窝 · Ferhatović Petica · Bravadžiluk21
-
-- 地址：Bravadžiluk 21, 71000 Sarajevo
-- 餐费规划：¥30–50
-- 点单：Ćevapčići petica小份5根配Somun，先一份；饮水或酸奶另计。
-- 菜单证据：Ferhatović官方在线菜单小份Ćevapčići petica7.00BAM、Ćevapčići14.00BAM；页面为在线订餐，堂食份量/价格须现场核。不要把14BAM再次当小份。
-- 营业：官网Petica现列周一12:00–21:00；周二至六08:00–23:00；周日12:00–21:00。注意不是FAN分店的时段。
-- 核查：第一方具名门店、时段、订餐菜价可证；2027重核。
-- D35周六11:30老城午餐窗可用，距原老城参观方向近；等位超15分钟改Željo。
-- 同官网另有FAN Čizmedžiluk1，不能把FAN周日休息套到Petica。
-- 预算只含单人食物；酸奶、Kajmak及饮水另核。
-- [Ferhatović官网：Petica地址、营业与在线菜单](https://ferhatovic.ba/)
+```json
+{
+  "id": "petica-sarajevo",
+  "city": "萨拉热窝",
+  "name": "Ferhatović Petica · Bravadžiluk21",
+  "address": "Bravadžiluk 21, 71000 Sarajevo",
+  "mapQuery": "Petica Ferhatovic Bravadziluk 21 Sarajevo",
+  "days": [
+    34,
+    35
+  ],
+  "rowIds": [
+    "d35v2-06",
+    "d34v2-08"
+  ],
+  "dishes": "Ćevapčići petica小份5根配Somun，先一份；饮水或酸奶另计。",
+  "budgetCny": [
+    30,
+    50
+  ],
+  "menuEvidence": "Ferhatović官方在线菜单小份Ćevapčići petica7.00BAM、Ćevapčići14.00BAM；页面为在线订餐，堂食份量/价格须现场核。不要把14BAM再次当小份。",
+  "hours": "官网Petica现列周一12:00–21:00；周二至六08:00–23:00；周日12:00–21:00。注意不是FAN分店的时段。",
+  "sources": [
+    {
+      "title": "Ferhatović官网：Petica地址、营业与在线菜单",
+      "url": "https://ferhatovic.ba/"
+    }
+  ],
+  "cautions": [
+    "D27周五11:30老城午餐窗可用，距原老城参观方向近；等位超15分钟改Željo。",
+    "同官网另有FAN Čizmedžiluk1，不能把FAN周日休息套到Petica。",
+    "预算只含单人食物；酸奶、Kajmak及饮水另核。"
+  ],
+  "verified": "第一方具名门店、时段、订餐菜价可证；2027重核。"
+}
+```
 
 ### 莫斯塔尔 · Tima–Irma · 老桥西岸店
-
-- 地址：Onešćukova bb, 88000 Mostar
-- 餐费规划：¥35–60
-- 点单：小份Ćevapi或单人烤鸡＋熟蔬菜，避免一人点大混合肉盘；饮水另计。
-- 菜单证据：官网证明老城店地址与烧烤品类，未提供可核数值价表；原稿未给本店单品实价，不能按28元套入。
-- 营业：官网未列可核营业表；D36周日12:15前先看当天开门，未开就用自带简餐，别拖到回程前。
-- 核查：官网具名地址与品类可证；价格、星期日营业和冷气待核。
-- D36老桥参观后在西岸老城午餐，预留步行与排队；不是为了餐馆去另一城区。
-- 等位超过15–20分钟放弃；17:00开始去返程站的边界不变。
-- 室内冷气、插座未核，不能保证这里适合长时间午休。
-- [Tima–Irma官网：Onešćukova地址与菜品](https://www.cevabdzinica-tima.com/)
+```json
+{
+  "id": "tima-irma-mostar",
+  "city": "莫斯塔尔",
+  "name": "Tima–Irma · 老桥西岸店",
+  "address": "Onešćukova bb, 88000 Mostar",
+  "mapQuery": "National restaurant Tima Irma Onescukova Mostar",
+  "days": [
+    36
+  ],
+  "rowIds": [
+    "d36v2-07"
+  ],
+  "dishes": "小份Ćevapi或单人烤鸡＋熟蔬菜，避免一人点大混合肉盘；饮水另计。",
+  "budgetCny": [
+    35,
+    60
+  ],
+  "menuEvidence": "官网证明老城店地址与烧烤品类，未提供可核数值价表；原稿未给本店单品实价，不能按28元套入。",
+  "hours": "官网未列可核营业表；D28周日12:15前先看当天开门，未开就用自带简餐，别拖到回程前。",
+  "sources": [
+    {
+      "title": "Tima–Irma官网：Onešćukova地址与菜品",
+      "url": "https://www.cevabdzinica-tima.com/"
+    }
+  ],
+  "cautions": [
+    "D28老桥参观后在西岸老城午餐，预留步行与排队；不是为了餐馆去另一城区。",
+    "等位超过15–20分钟放弃；17:00开始去返程站的边界不变。",
+    "室内冷气、插座未核，不能保证这里适合长时间午休。"
+  ],
+  "verified": "官网具名地址与品类可证；价格、星期日营业和冷气待核。"
+}
+```
 
 ### 贝尔格莱德 · Pizza Bucko · Francuska18店
-
-- 地址：Francuska 18, Beograd Stari Grad
-- 餐费规划：¥15–30
-- 点单：一片披萨＋一份50g沙拉浇料，不够再添；牛肉/鸡肉馅料按当日柜台确认。用纸托和餐巾，吃前收相机。
-- 菜单证据：官网现价：单片150RSD、每份50g附加配料60RSD、整张6片900RSD；一片加一份配料合210RSD，饮料另计。网页未标生效日期，2027须重核。
-- 营业：官网门店周日至周四07:00–00:00，周五六07:00–01:00；不等于全年24h。
-- 核查：第一方分店、现示价与营业可读；无Google实时评价核验。
-- D38国家博物馆后沿Francuska街去指定分店；加步行10–15分钟规划余量，12:30前买到再回宿午休。
-- 偏窗口快餐，不能承诺堂食冷气和插座；不能因价格便宜把它安排为午休空间。
-- 本店与Bor市Wolt同名Bucko不是同一地址，不套用其菜单。
-- [PizzaBucko官网：Francuska18、价格及营业](https://bucko.pizza/)
+```json
+{
+  "id": "bucko-francuska",
+  "city": "贝尔格莱德",
+  "name": "Pizza Bucko · Francuska18店",
+  "address": "Francuska 18, Beograd Stari Grad",
+  "mapQuery": "Pizza Bucko Francuska 18 Belgrade",
+  "days": [
+    38,
+    40
+  ],
+  "rowIds": [
+    "d38v2-06",
+    "d40v2-07"
+  ],
+  "dishes": "一片披萨＋一份50g沙拉浇料，不够再添；牛肉/鸡肉馅料按当日柜台确认。用纸托和餐巾，吃前收相机。",
+  "budgetCny": [
+    15,
+    30
+  ],
+  "menuEvidence": "官网现价：单片150RSD、每份50g附加配料60RSD、整张6片900RSD；一片加一份配料合210RSD，饮料另计。网页未标生效日期，2027须重核。",
+  "hours": "官网门店周日至周四07:00–00:00，周五六07:00–01:00；不等于全年24h。",
+  "sources": [
+    {
+      "title": "PizzaBucko官网：Francuska18、价格及营业",
+      "url": "https://bucko.pizza/"
+    }
+  ],
+  "cautions": [
+    "D24国家博物馆后沿Francuska街去指定分店；加步行10–15分钟规划余量，12:30前买到再接下午安排。",
+    "偏窗口快餐，不能承诺堂食冷气和插座；不能因价格便宜把它安排为午休空间。",
+    "本店与Bor市Wolt同名Bucko不是同一地址，不套用其菜单。"
+  ],
+  "verified": "第一方分店、现示价与营业可读；无Google实时评价核验。"
+}
+```
 
 ### 贝尔格莱德 · Walter · Dorćol店
-
-- 地址：Strahinjića Bana 57, Belgrade
-- 餐费规划：¥35–60
-- 点单：5根Ćevapi小份配半张饼，或一份汤配主食；不够再加。官网确认5根125g/10根250g，不要把两者混为同价。
-- 菜单证据：官网把塞尔维亚菜单分Central/Commercial/Regional/Tourist/Airport多档，本次未取得本分店对应价，不能全连锁统一报45元；人民币是单人食物规划，饮品另计。
-- 营业：官方分店页未给可靠营业时间；各日晚餐前核开门，D40须18:30前结束。
-- 核查：官网确认具体分店与产品份量；价格须匹配分店菜单档。
-- 从共和国广场/步行街向Dorćol有步行绕行，按实际青旅位置选用，不把它写作米哈伊洛大公街店。
-- D37长巴士晚到或D40早睡日不排队，必要时打包。
-- 室内店不自动保证座位旁有插座；实时评分与冷气未核。
-- [Walter官方Dorćol店地址](https://walter.rs/portfolio/walter-dorcol-beograd/)
-- [Walter官方产品份量](https://walter.rs/en/home/)
-- [Walter官方分区菜单入口](https://walter.rs/en/menu-2/)
+```json
+{
+  "id": "walter-dorcol",
+  "city": "贝尔格莱德",
+  "name": "Walter · Dorćol店",
+  "address": "Strahinjića Bana 57, Belgrade",
+  "mapQuery": "Walter Sarajevski Cevap Strahinjica Bana 57 Belgrade",
+  "days": [
+    37,
+    38,
+    39,
+    40
+  ],
+  "rowIds": [
+    "d37v2-08",
+    "d38v2-13",
+    "d39v2-13",
+    "d40v2-12"
+  ],
+  "dishes": "5根Ćevapi小份配半张饼，或一份汤配主食；不够再加。官网确认5根125g/10根250g，不要把两者混为同价。",
+  "budgetCny": [
+    35,
+    60
+  ],
+  "menuEvidence": "官网把塞尔维亚菜单分Central/Commercial/Regional/Tourist/Airport多档，本次未取得本分店对应价，不能全连锁统一报45元；人民币是单人食物规划，饮品另计。",
+  "hours": "官方分店页未给可靠营业时间；各日晚餐前核开门，D25须18:30前结束。",
+  "sources": [
+    {
+      "title": "Walter官方Dorćol店地址",
+      "url": "https://walter.rs/portfolio/walter-dorcol-beograd/"
+    },
+    {
+      "title": "Walter官方产品份量",
+      "url": "https://walter.rs/en/home/"
+    },
+    {
+      "title": "Walter官方分区菜单入口",
+      "url": "https://walter.rs/en/menu-2/"
+    }
+  ],
+  "cautions": [
+    "从共和国广场/步行街向Dorćol有步行绕行，按实际青旅位置选用，不把它写作米哈伊洛大公街店。",
+    "D22长巴士晚到或D25早睡日不排队，必要时打包。",
+    "室内店不自动保证座位旁有插座；实时评分与冷气未核。"
+  ],
+  "verified": "官网确认具体分店与产品份量；价格须匹配分店菜单档。"
+}
+```
 
 ### 泽蒙 · Walter · Zemun centar店
-
-- 地址：Magistralni trg 18, Zemun, Belgrade
-- 餐费规划：¥35–60
-- 点单：5根Ćevapi或一人肉饼；饮水/酸奶单独看价。午餐后再去河岸，不需要为了正餐返回贝尔格莱德中心。
-- 菜单证据：同品牌多档价表，Zemun centar当前单品价未取得；不能直接套Dorćol、机场或外卖其他店价。
-- 营业：官方分店页未列可靠时段；D39建议12:00–12:45就餐，先核当日营业。
-- 核查：官方具名分店与18号地址已证实，菜价和营业待核。
-- 从Gardoš下坡往老城广场，再回多瑙河岸，顺序可小调；该店不是Gospodska3。
-- 若午餐后想吃Ferdinand，甜点另计不当第二份正餐；没有饿就跳过。
-- 空调强度、充电和当日等位未验证。
-- [Walter官方Zemuncentar：Magistralni trg18](https://walter.rs/en/portfolio/walter-zemun-beograd-2/)
-- [Walter分区菜单入口](https://walter.rs/en/menu-2/)
+```json
+{
+  "id": "walter-zemun-centar",
+  "city": "泽蒙",
+  "name": "Walter · Zemun centar店",
+  "address": "Magistralni trg 18, Zemun, Belgrade",
+  "mapQuery": "Walter Zemun centar Magistralni trg 18",
+  "days": [
+    39
+  ],
+  "rowIds": [
+    "d39v2-07"
+  ],
+  "dishes": "5根Ćevapi或一人肉饼；饮水/酸奶单独看价。午餐后再去河岸，不需要为了正餐返回贝尔格莱德中心。",
+  "budgetCny": [
+    35,
+    60
+  ],
+  "menuEvidence": "同品牌多档价表，Zemun centar当前单品价未取得；不能直接套Dorćol、机场或外卖其他店价。",
+  "hours": "官方分店页未列可靠时段；D23建议12:00–12:45就餐，先核当日营业。",
+  "sources": [
+    {
+      "title": "Walter官方Zemuncentar：Magistralni trg18",
+      "url": "https://walter.rs/en/portfolio/walter-zemun-beograd-2/"
+    },
+    {
+      "title": "Walter分区菜单入口",
+      "url": "https://walter.rs/en/menu-2/"
+    }
+  ],
+  "cautions": [
+    "从Gardoš下坡往老城广场，再回多瑙河岸，顺序可小调；该店不是Gospodska3。",
+    "若午餐后想吃Ferdinand，甜点另计不当第二份正餐；没有饿就跳过。",
+    "空调强度、充电和当日等位未验证。"
+  ],
+  "verified": "官方具名分店与18号地址已证实，菜价和营业待核。"
+}
+```
 
 ### 泽蒙 · Ferdinand Knedle · Zemun店（甜点备选）
-
-- 地址：Bežanijska 46, Zemun, Belgrade
-- 餐费规划：¥17–28
-- 点单：一颗李子甜团子Šljiva，或开心果口味；当甜点加停，不替代含蔬菜与蛋白质的午餐。
-- 菜单证据：官网贝尔格莱德在线店价：李子250RSD/颗、开心果340RSD/颗；未证实Zemun堂食完全同价。官网特殊纯素/无麸质订购有至少5颗及提前一天条件，现场普通单颗供应另问。
-- 营业：本次未取得Zemun分店明确可靠时段；不要把官网动态显示的市区自营店11:00–01:30套到它。
-- 核查：官方证实泽蒙分店真实存在及地址，在线产品价不是保证到店价。
-- 泽蒙确有分店，但Bežanijska46不能称为去Gardoš塔必经；用导航核往返绕行，超过15分钟就放弃。
-- 若想保河岸午休与14:00返市区，把它留为可选而非必做餐。
-- Google评分/评价数、强冷气与插座均未实证。
-- [Ferdinand官网：Zemun Bežanijska46位置](https://ferdinandknedle.com/)
-- [Ferdinand官方在线甜团子价目](https://www.ferdinandknedle.com/sr/shop/bg/slatke-knedle/)
+```json
+{
+  "id": "ferdinand-zemun",
+  "city": "泽蒙",
+  "name": "Ferdinand Knedle · Zemun店（甜点备选）",
+  "address": "Bežanijska 46, Zemun, Belgrade",
+  "mapQuery": "Ferdinand Knedle Bezanijska 46 Zemun",
+  "days": [],
+  "rowIds": [
+    "d39v2-07"
+  ],
+  "dishes": "一颗李子甜团子Šljiva，或开心果口味；当甜点加停，不替代含蔬菜与蛋白质的午餐。",
+  "budgetCny": [
+    17,
+    28
+  ],
+  "menuEvidence": "官网贝尔格莱德在线店价：李子250RSD/颗、开心果340RSD/颗；未证实Zemun堂食完全同价。官网特殊纯素/无麸质订购有至少5颗及提前一天条件，现场普通单颗供应另问。",
+  "hours": "本次未取得Zemun分店明确可靠时段；不要把官网动态显示的市区自营店11:00–01:30套到它。",
+  "sources": [
+    {
+      "title": "Ferdinand官网：Zemun Bežanijska46位置",
+      "url": "https://ferdinandknedle.com/"
+    },
+    {
+      "title": "Ferdinand官方在线甜团子价目",
+      "url": "https://www.ferdinandknedle.com/sr/shop/bg/slatke-knedle/"
+    }
+  ],
+  "cautions": [
+    "泽蒙确有分店，但Bežanijska46不能称为去Gardoš塔必经；用导航核往返绕行，超过15分钟就放弃。",
+    "若想保河岸午休与14:00返市区，把它留为可选而非必做餐。",
+    "Google评分/评价数、强冷气与插座均未实证。"
+  ],
+  "verified": "官方证实泽蒙分店真实存在及地址，在线产品价不是保证到店价。"
+}
+```
 
 ### 格雷梅 · Turkish Ravioli Restaurant · Aydınlı Sokak店
-
-- 地址：Aydınlı Mahallesi, Aydınlı Sokak No:1, Göreme 50180
-- 餐费规划：¥95–150
-- 点单：一份Mantı酸奶肉馅小饺子，或鸡肉陶盘饭；用叉勺。特色饮品Ayran另点。
-- 菜单证据：2026-11-05官网电子菜单可读：当日汤200 TRY、Mantı800 TRY、鸡肉陶盘饭700 TRY、牛肉瓦罐1350 TRY；Ayran75 TRY另计。均为网页显示价，未载明确生效日，2027须重核。
-- 营业：官网主站列每日11:00–22:30；2027复核。
-- 核查：官网具名地址、菜单和营业参考已取得；预算为单人餐食规划额，饮品另计。
-- 属体验餐，价格明显高于普通食堂，不安排每顿吃。
-- 空调、可用插座及服务费未核，不承诺。
-- D24绿线团餐未订，不能把此店或瓦罐肉当免费团餐。
-- [餐厅官网地址与营业参考](https://turkishravioli.com/)
-- [餐厅现行电子菜单](https://menu.turkishravioli.com/tr)
+```json
+{
+  "id": "goreme-ravioli",
+  "city": "格雷梅",
+  "name": "Turkish Ravioli Restaurant · Aydınlı Sokak店",
+  "address": "Aydınlı Mahallesi, Aydınlı Sokak No:1, Göreme 50180",
+  "mapQuery": "Turkish Ravioli Restaurant Aydınlı Sokak No 1 Goreme",
+  "days": [
+    23
+  ],
+  "dishes": "一份Mantı酸奶肉馅小饺子，或鸡肉陶盘饭；用叉勺。特色饮品Ayran另点。",
+  "budgetCny": [
+    95,
+    150
+  ],
+  "menuEvidence": "2026-11-05官网电子菜单可读：当日汤200 TRY、Mantı800 TRY、鸡肉陶盘饭700 TRY、牛肉瓦罐1350 TRY；Ayran75 TRY另计。均为网页显示价，未载明确生效日，2027须重核。",
+  "hours": "官网主站列每日11:00–22:30；2027复核。",
+  "sources": [
+    {
+      "title": "餐厅官网地址与营业参考",
+      "url": "https://turkishravioli.com/"
+    },
+    {
+      "title": "餐厅现行电子菜单",
+      "url": "https://menu.turkishravioli.com/tr"
+    }
+  ],
+  "cautions": [
+    "属体验餐，价格明显高于普通食堂，不安排每顿吃。",
+    "空调、可用插座及服务费未核，不承诺。",
+    "D40绿线团餐未订，不能把此店或瓦罐肉当免费团餐。"
+  ],
+  "verified": "官网具名地址、菜单和营业参考已取得；预算为单人餐食规划额，饮品另计。"
+}
+```
 
 ### 格雷梅 · Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店
-
-- 地址：Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180
-- 餐费规划：¥45–90
-- 点单：先看价点一份Pide土耳其长船披萨，或扁豆汤加主食；Ayran另计。
-- 菜单证据：未取得可靠现行原币菜单，不照搬Gemini人民币实价。
-- 营业：店家管理的Tripadvisor资料列每日10:00–次日00:00，仅营业参考。
-- 核查：具名地址与店家管理资料已取得，菜单现价未核；适合作预算备选。
-- 地址可作具名候选；现价、空调、插座须到店确认。
-- 不要混成同城另一家Cappadocia Pide Salonu。
-- Pide有油，用刀叉或餐巾纸，吃前收相机。
-- [店家管理的餐厅资料：地址与电话](https://www.tripadvisor.com/Restaurant_Review-g297983-d3246770-Reviews-Cappadocia_Pide_House_Restaurant-Goreme_Nevsehir_Province_Cappadocia.html)
-- [店家Facebook入口](https://www.facebook.com/Cappadocia-Pide-House-Restaurant-207422646134569/)
+```json
+{
+  "id": "goreme-pide-house",
+  "city": "格雷梅",
+  "name": "Cappadocia Pide House & Restaurant · Hakkı Paşa Meydanı店",
+  "address": "Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180",
+  "mapQuery": "Cappadocia Pide House Restaurant Hakki Pasa Meydani 16 Goreme",
+  "days": [
+    22,
+    23,
+    24
+  ],
+  "dishes": "先看价点一份Pide土耳其长船披萨，或扁豆汤加主食；Ayran另计。",
+  "budgetCny": [
+    45,
+    90
+  ],
+  "menuEvidence": "未取得可靠现行原币菜单，不照搬Gemini人民币实价。",
+  "hours": "店家管理的Tripadvisor资料列每日10:00–次日00:00，仅营业参考。",
+  "sources": [
+    {
+      "title": "店家管理的餐厅资料：地址与电话",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g297983-d3246770-Reviews-Cappadocia_Pide_House_Restaurant-Goreme_Nevsehir_Province_Cappadocia.html"
+    },
+    {
+      "title": "店家Facebook入口",
+      "url": "https://www.facebook.com/Cappadocia-Pide-House-Restaurant-207422646134569/"
+    }
+  ],
+  "cautions": [
+    "地址可作具名候选；现价、空调、插座须到店确认。",
+    "不要混成同城另一家Cappadocia Pide Salonu。",
+    "Pide有油，用刀叉或餐巾纸，吃前收相机。"
+  ],
+  "verified": "具名地址与店家管理资料已取得，菜单现价未核；适合作预算备选。"
+}
+```
 
 ### 安塔利亚 · Piyazcı Ahmet · Altındağ店
-
-- 地址：Altındağ Mahallesi, 166 Sokak No:29/A, Muratpaşa, Antalya
-- 餐费规划：¥45–80
-- 点单：安塔利亚芝麻酱白豆沙拉Tahinli Piyaz＋一份Şiş Köfte烤肉丸；先问小份与总价，用叉勺。
-- 菜单证据：官网菜单确认Piyaz、烤肉丸和南瓜甜点；未取得数字价格。
-- 营业：未取得可核实营业时段。
-- 核查：官网地址及菜品可核；单人餐食预算非报价，饮品另计。
-- 在Altındağ，不能写成罗马港旁；D25若体力允许，先用导航核真实绕行，远则不专程。
-- 空调和插座未核，不用作已保证的午休场所。
-- [餐厅官网联系地址](https://piyazciahmet.com.tr/iletisim/)
-- [餐厅官网菜单](https://piyazciahmet.com.tr/menu/)
+```json
+{
+  "id": "antalya-piyazci-ahmet",
+  "city": "安塔利亚",
+  "name": "Piyazcı Ahmet · Altındağ店",
+  "address": "Altındağ Mahallesi, 166 Sokak No:29/A, Muratpaşa, Antalya",
+  "mapQuery": "Piyazcı Ahmet Altındağ 166 Sokak 29 A Antalya",
+  "days": [],
+  "dishes": "安塔利亚芝麻酱白豆沙拉Tahinli Piyaz＋一份Şiş Köfte烤肉丸；先问小份与总价，用叉勺。",
+  "budgetCny": [
+    45,
+    80
+  ],
+  "menuEvidence": "官网菜单确认Piyaz、烤肉丸和南瓜甜点；未取得数字价格。",
+  "hours": "未取得可核实营业时段。",
+  "sources": [
+    {
+      "title": "餐厅官网联系地址",
+      "url": "https://piyazciahmet.com.tr/iletisim/"
+    },
+    {
+      "title": "餐厅官网菜单",
+      "url": "https://piyazciahmet.com.tr/menu/"
+    }
+  ],
+  "cautions": [
+    "在Altındağ，不能写成罗马港旁；D36若体力允许，先用导航核真实绕行，远则不专程。",
+    "空调和插座未核，不用作已保证的午休场所。"
+  ],
+  "verified": "官网地址及菜品可核；单人餐食预算非报价，饮品另计。"
+}
+```
 
 ### Kaş · Bi'Lokma Restaurant · Uğur Mumcu Caddesi店
-
-- 地址：Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya
-- 餐费规划：¥55–100
-- 点单：Ev Mantısı酸奶小饺子或Etli Yaprak Sarma肉馅葡萄叶卷，选一份主食即可；Ayran或柠檬水另计。
-- 菜单证据：官网索引可确认Mantı、Sarma、烤鱼等菜名，价格未取得；不引用旧土耳其低价。
-- 营业：官网有营业栏目但当前抓取未得到可靠具体时段。
-- 核查：官网搜索索引及补充地址资料可核到21号店，官网直接打开超时；现价和营业仍待核。
-- 旧资料另有Hükümet Caddesi花园店，不混用地址；导航锁Uğur Mumcu21号候选并核营业。
-- D27船餐只有预订产品明确包含才可免去午餐外支出，不能保证菜单。
-- D28午餐后须按原时段取包转费特希耶，不为此店延迟出发。
-- 空调及插座未核。
-- [Bi'Lokma餐厅官网](https://www.bilokma.com.tr/)
-- [Bi'Lokma联系地址](https://www.bilokma.com.tr/iletisim)
-- [补充分店街名核对](https://www.kocaelilife.com/kas-lezzet-duraklari/)
+```json
+{
+  "id": "kas-bilokma",
+  "city": "Kaş",
+  "name": "Bi'Lokma Restaurant · Uğur Mumcu Caddesi店",
+  "address": "Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya",
+  "mapQuery": "Bi Lokma Restaurant Uğur Mumcu Caddesi 21 Kaş",
+  "days": [
+    26,
+    27
+  ],
+  "dishes": "Ev Mantısı酸奶小饺子或Etli Yaprak Sarma肉馅葡萄叶卷，选一份主食即可；Ayran或柠檬水另计。",
+  "budgetCny": [
+    55,
+    100
+  ],
+  "menuEvidence": "官网索引可确认Mantı、Sarma、烤鱼等菜名，价格未取得；不引用旧土耳其低价。",
+  "hours": "官网有营业栏目但当前抓取未得到可靠具体时段。",
+  "sources": [
+    {
+      "title": "Bi'Lokma餐厅官网",
+      "url": "https://www.bilokma.com.tr/"
+    },
+    {
+      "title": "Bi'Lokma联系地址",
+      "url": "https://www.bilokma.com.tr/iletisim"
+    },
+    {
+      "title": "补充分店街名核对",
+      "url": "https://www.kocaelilife.com/kas-lezzet-duraklari/"
+    }
+  ],
+  "cautions": [
+    "旧资料另有Hükümet Caddesi花园店，不混用地址；导航锁Uğur Mumcu21号候选并核营业。",
+    "D35船餐只有预订产品明确包含才可免去午餐外支出，不能保证菜单。",
+    "D34午餐后须按原时段取包转费特希耶，不为此店延迟出发。",
+    "空调及插座未核。"
+  ],
+  "verified": "官网搜索索引及补充地址资料可核到21号店，官网直接打开超时；现价和营业仍待核。"
+}
+```
 
 ### 伊斯坦布尔 · Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店
-
-- 地址：Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112
-- 餐费规划：¥30–60
-- 点单：看明码柜台选一份Kuru Fasulye白豆炖菜＋Pilav米饭，或一份鸡肉饭；按需要加汤，不默认面包无限。
-- 菜单证据：官网菜单网页列扁豆汤30 TRY、白豆75 TRY、米饭60 TRY、鸡肉饭150 TRY、Ayran35 TRY；网页未载明确生效日，价格偏低，作为官网挂牌记录而非2027实价。
-- 营业：官网列10:00–23:00，2027到店前复核。
-- 核查：官网地址、营业和历史/未注明生效日挂牌菜单已取得；餐食预算与报价分列，饮水另计。
-- 只适合Sirkeci/老城回宿方向，不能称Beşiktaş或Balat午餐顺路。
-- 未核Google评分/评价数、强空调及插座，不复制Gemini认证。
-- 点单前再问今日牌价及是否另收服务费。
-- [Buyruk官网菜单、地址与服务时间](https://www.sirkecilokanta.com.tr/sirkeci-lokanta-menu/)
+```json
+{
+  "id": "istanbul-buyruk",
+  "city": "伊斯坦布尔",
+  "name": "Buyruk Esnaf Lokantası · Sirkeci Hoca Paşa店",
+  "address": "Hoca Paşa Sokak No:12 D:12, Fatih, İstanbul 34112",
+  "mapQuery": "Buyruk Esnaf Lokantası Hoca Paşa Sokak 12 Sirkeci Istanbul",
+  "days": [
+    29,
+    30,
+    32
+  ],
+  "dishes": "看明码柜台选一份Kuru Fasulye白豆炖菜＋Pilav米饭，或一份鸡肉饭；按需要加汤，不默认面包无限。",
+  "budgetCny": [
+    30,
+    60
+  ],
+  "menuEvidence": "官网菜单网页列扁豆汤30 TRY、白豆75 TRY、米饭60 TRY、鸡肉饭150 TRY、Ayran35 TRY；网页未载明确生效日，价格偏低，作为官网挂牌记录而非2027实价。",
+  "hours": "官网列10:00–23:00，2027到店前复核。",
+  "sources": [
+    {
+      "title": "Buyruk官网菜单、地址与服务时间",
+      "url": "https://www.sirkecilokanta.com.tr/sirkeci-lokanta-menu/"
+    }
+  ],
+  "cautions": [
+    "只适合Sirkeci/老城回宿方向，不能称Beşiktaş或Balat午餐顺路。",
+    "未核Google评分/评价数、强空调及插座，不复制Gemini认证。",
+    "点单前再问今日牌价及是否另收服务费。"
+  ],
+  "verified": "官网地址、营业和历史/未注明生效日挂牌菜单已取得；餐食预算与报价分列，饮水另计。"
+}
+```
 
 ### 伊斯坦布尔 · Çiya Sofrası · Kadıköy Güneşlibahçe店
-
-- 地址：Caferağa, Güneşlibahçe Sokak No:43, Kadıköy, İstanbul 34710
-- 餐费规划：¥65–120
-- 点单：选一份当日安纳托利亚炖菜＋米饭；看柜台计价，先问每份/按重量。可用叉勺。
-- 菜单证据：官网确认Kadıköy鱼市内多家Çiya相邻，未取得可核现行数字菜单。
-- 营业：营业时段未取得一手证据。
-- 核查：官网确认鱼市位置与餐厅品牌，门牌由店家管理资料补充，现价未核。
-- 是体验升级备选，预算高于工匠食堂。
-- 认准Sofrası与43号，附近还有Çiya Kebap，不能只导航Çiya。
-- D33只在原Kadıköy市场段内吃，若当日行程改动则不跨海专程。
-- 插座空调及评分数量未核。
-- [Çiya官网介绍](https://www.ciya.com.tr/)
-- [店家管理的Çiya Sofrası地址资料](https://www.tripadvisor.com.tr/Restaurant_Review-g293974-d776065-Reviews-Ciya_Sofrasi-Istanbul.html)
+```json
+{
+  "id": "istanbul-ciya",
+  "city": "伊斯坦布尔",
+  "name": "Çiya Sofrası · Kadıköy Güneşlibahçe店",
+  "address": "Caferağa, Güneşlibahçe Sokak No:43, Kadıköy, İstanbul 34710",
+  "mapQuery": "Çiya Sofrası Güneşlibahçe Sokak 43 Kadıköy Istanbul",
+  "days": [
+    33
+  ],
+  "dishes": "选一份当日安纳托利亚炖菜＋米饭；看柜台计价，先问每份/按重量。可用叉勺。",
+  "budgetCny": [
+    65,
+    120
+  ],
+  "menuEvidence": "官网确认Kadıköy鱼市内多家Çiya相邻，未取得可核现行数字菜单。",
+  "hours": "营业时段未取得一手证据。",
+  "sources": [
+    {
+      "title": "Çiya官网介绍",
+      "url": "https://www.ciya.com.tr/"
+    },
+    {
+      "title": "店家管理的Çiya Sofrası地址资料",
+      "url": "https://www.tripadvisor.com.tr/Restaurant_Review-g293974-d776065-Reviews-Ciya_Sofrasi-Istanbul.html"
+    }
+  ],
+  "cautions": [
+    "是体验升级备选，预算高于工匠食堂。",
+    "认准Sofrası与43号，附近还有Çiya Kebap，不能只导航Çiya。",
+    "D41只在原Kadıköy市场段内吃，若当日行程改动则不跨海专程。",
+    "插座空调及评分数量未核。"
+  ],
+  "verified": "官网确认鱼市位置与餐厅品牌，门牌由店家管理资料补充，现价未核。"
+}
+```
 
 ### 赫尔格达 · Star Fish Restaurant · Sheraton Street主店
-
-- 地址：Sheraton Street, opposite Wahib Stores, Hurghada
-- 餐费规划：¥45–90
-- 点单：先问海鲜汤价格，或问一份带米饭的鱼排/小鱼固定套餐；整鱼称重先核每公斤价、重量和加工费。
-- 菜单证据：官方店址与海鲜菜单入口可查，未取得可核实当前价单；不照搬20元海鲜浓汤。
-- 营业：未取得官方具体营业时间。
-- 核查：官网分店位置明确；预算仅单人餐食规划，饮料另计。
-- 锁定Sheraton街主店，不导航到Sahl Hasheesh或酒店内分店。
-- 官方酒店内Neverland/Beach Albatros/Citadel/Serenity店须经主店提前联系，不作为自由步入替代。
-- 海鲜用刀叉，剥虾后洗手再拿相机。
-- 价格、空调、插座未核；一次体验即可，不用作天天低价餐。
-- [Star Fish官方分店表](https://starfish-restaurants.com/branches/)
-- [Star Fish官网菜单入口](https://starfish-restaurants.com/)
+```json
+{
+  "id": "hurghada-starfish",
+  "city": "赫尔格达",
+  "name": "Star Fish Restaurant · Sheraton Street主店",
+  "address": "Sheraton Street, opposite Wahib Stores, Hurghada",
+  "mapQuery": "Star Fish Restaurant Sheraton Street Wahib Stores Hurghada",
+  "days": [
+    43,
+    42
+  ],
+  "dishes": "先问海鲜汤价格，或问一份带米饭的鱼排/小鱼固定套餐；整鱼称重先核每公斤价、重量和加工费。",
+  "budgetCny": [
+    45,
+    90
+  ],
+  "menuEvidence": "官方店址与海鲜菜单入口可查，未取得可核实当前价单；不照搬20元海鲜浓汤。",
+  "hours": "未取得官方具体营业时间。",
+  "sources": [
+    {
+      "title": "Star Fish官方分店表",
+      "url": "https://starfish-restaurants.com/branches/"
+    },
+    {
+      "title": "Star Fish官网菜单入口",
+      "url": "https://starfish-restaurants.com/"
+    }
+  ],
+  "cautions": [
+    "锁定Sheraton街主店，不导航到Sahl Hasheesh或酒店内分店。",
+    "官方酒店内Neverland/Beach Albatros/Citadel/Serenity店须经主店提前联系，不作为自由步入替代。",
+    "海鲜用刀叉，剥虾后洗手再拿相机。",
+    "价格、空调、插座未核；一次体验即可，不用作天天低价餐。"
+  ],
+  "verified": "官网分店位置明确；预算仅单人餐食规划，饮料另计。"
+}
+```
 
 ### 卢克索 · Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店
-
-- 地址：Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor
-- 餐费规划：¥40–65
-- 点单：扁豆汤＋鸡肉Freekeh小麦陶锅/鸡肉饭选一；若预算紧只点一份主食。Karkadeh洛神花饮另计。
-- 菜单证据：官网电子菜单：扁豆汤80 EGP、鸡肉Freekeh陶锅350 EGP、半鸡380 EGP、米饭50 EGP；Karkadeh70 EGP、水25/50 EGP另计。网页读取日2026-11-05，2027复核。
-- 营业：官网要求联系团队确认服务时间，未锁具体营业时段。
-- 核查：官方地址、菜单原币价格和露台性质已核。
-- 明确是屋顶露台，不能当成已核强空调午休餐厅。优先D44/D45晚餐，午间要冷气就回实际青旅。
-- 餐厅有楼梯/露台环境，先问阴凉室内是否可用；不保证座位或插座。
-- D46赶火车前别为景观餐耽误取包。
-- [Al-Sahaby餐厅官方位置和屋顶环境](https://www.nefertitihotel.com/al-sahaby-lane-restaurant)
-- [Al-Sahaby官方菜单](https://www.nefertitihotel.com/our-menu)
+```json
+{
+  "id": "luxor-alsahaby",
+  "city": "卢克索",
+  "name": "Al-Sahaby Lane Restaurant · Nefertiti Hotel屋顶店",
+  "address": "Nefertiti Hotel, Al-Sahaby Street, via Karnak Temple Street, East Bank, Luxor",
+  "mapQuery": "Al Sahaby Lane Restaurant Nefertiti Hotel Al Sahaby Street Luxor",
+  "days": [
+    44,
+    45
+  ],
+  "dishes": "扁豆汤＋鸡肉Freekeh小麦陶锅/鸡肉饭选一；若预算紧只点一份主食。Karkadeh洛神花饮另计。",
+  "budgetCny": [
+    40,
+    65
+  ],
+  "menuEvidence": "官网电子菜单：扁豆汤80 EGP、鸡肉Freekeh陶锅350 EGP、半鸡380 EGP、米饭50 EGP；Karkadeh70 EGP、水25/50 EGP另计。网页读取日2026-11-05，2027复核。",
+  "hours": "官网要求联系团队确认服务时间，未锁具体营业时段。",
+  "sources": [
+    {
+      "title": "Al-Sahaby餐厅官方位置和屋顶环境",
+      "url": "https://www.nefertitihotel.com/al-sahaby-lane-restaurant"
+    },
+    {
+      "title": "Al-Sahaby官方菜单",
+      "url": "https://www.nefertitihotel.com/our-menu"
+    }
+  ],
+  "cautions": [
+    "明确是屋顶露台，不能当成已核强空调午休餐厅。优先D44/D45晚餐，午间要冷气就回实际青旅。",
+    "餐厅有楼梯/露台环境，先问阴凉室内是否可用；不保证座位或插座。",
+    "D46赶火车前别为景观餐耽误取包。"
+  ],
+  "verified": "官方地址、菜单原币价格和露台性质已核。"
+}
+```
 
 ### 阿斯旺 · Makka / Mekka Restaurant · Abtal El Tahrir店
-
-- 地址：143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）
-- 餐费规划：¥25–50
-- 点单：一份烤鸡配米饭，先问单人份与配菜总价；汤、沙拉是否包含现场确认。
-- 菜单证据：未取得店家一手现行菜单，价、税与服务费均待核。
-- 营业：未取得官方营业时间。
-- 核查：仅店名、143号地址和电话可交叉核对；价格、营业、餐厅空调/插座无一手证据。
-- 这是有限核实候选，位置由目录交叉确认；不标为官方已核价或强空调。
-- 先问清是否有正在开放的空调室内区。
-- D48早晚餐须不晚于原取包/报到时限，逾时就外带。
-- [埃及Yellow Pages具名店址与电话](https://yellowpages.com.eg/en/profile/mekka-restaurant/289144)
-- [Tripadvisor地址交叉核对（非店家已认证）](https://www.tripadvisor.com/Restaurant_Review-g294204-d1963061-Reviews-Makka_Restaurant-Aswan_Aswan_Governorate_Nile_River_Valley.html)
+```json
+{
+  "id": "aswan-makka",
+  "city": "阿斯旺",
+  "name": "Makka / Mekka Restaurant · Abtal El Tahrir店",
+  "address": "143 Abtal El Tahrir Street, Downtown, Aswan（Egyptian Syndicate of Engineers大楼对面）",
+  "mapQuery": "Makka Restaurant 143 Abtal El Tahrir Aswan",
+  "days": [
+    46,
+    47,
+    48
+  ],
+  "dishes": "一份烤鸡配米饭，先问单人份与配菜总价；汤、沙拉是否包含现场确认。",
+  "budgetCny": [
+    25,
+    50
+  ],
+  "menuEvidence": "未取得店家一手现行菜单，价、税与服务费均待核。",
+  "hours": "未取得官方营业时间。",
+  "sources": [
+    {
+      "title": "埃及Yellow Pages具名店址与电话",
+      "url": "https://yellowpages.com.eg/en/profile/mekka-restaurant/289144"
+    },
+    {
+      "title": "Tripadvisor地址交叉核对（非店家已认证）",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g294204-d1963061-Reviews-Makka_Restaurant-Aswan_Aswan_Governorate_Nile_River_Valley.html"
+    }
+  ],
+  "cautions": [
+    "这是有限核实候选，位置由目录交叉确认；不标为官方已核价或强空调。",
+    "先问清是否有正在开放的空调室内区。",
+    "D48早晚餐须不晚于原取包/报到时限，逾时就外带。"
+  ],
+  "verified": "仅店名、143号地址和电话可交叉核对；价格、营业、餐厅空调/插座无一手证据。"
+}
+```
 
 ### 开罗 · Koshary Abou Tarek · Shamblion市中心总店
-
-- 地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
-- 餐费规划：¥15–30
-- 点单：一份小/中碗Koshary扁豆米饭通心粉；辣酱和蒜醋单独放，先少量。用勺吃，饮料另计。
-- 菜单证据：官网分店页可核16 Maarouf总店，未取得当前官方65 EGP报价；Gemini65 EGP只是未证现价，不能锁定。
-- 营业：未取得可核一手营业时间。
-- 核查：官方索引中的具名分店地址已核，实时菜单未取得；2027价与营业重核。
-- 只在开罗Downtown回宿方向复用，不能称吉萨金字塔/GEM门口顺路。
-- D51午餐优先馆内，不能为本店中途退出GEM。
-- D49夜巴后不为了网红店额外赶路。
-- Google评分数量、空调、插座未核。
-- [Abou Tarek官方联系与分店](https://www.koshary-aboutarek.com/en/contact-us)
-- [Abou Tarek官方入口](https://www.koshary-aboutarek.com/en)
+```json
+{
+  "id": "cairo-abou-tarek",
+  "city": "开罗",
+  "name": "Koshary Abou Tarek · Shamblion市中心总店",
+  "address": "16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站",
+  "mapQuery": "Koshary Abou Tarek 16 Maarouf Champillion Downtown Cairo",
+  "days": [
+    49,
+    50,
+    53,
+    52
+  ],
+  "dishes": "一份小/中碗Koshary扁豆米饭通心粉；辣酱和蒜醋单独放，先少量。用勺吃，饮料另计。",
+  "budgetCny": [
+    15,
+    30
+  ],
+  "menuEvidence": "官网分店页可核16 Maarouf总店，未取得当前官方65 EGP报价；Gemini65 EGP只是未证现价，不能锁定。",
+  "hours": "未取得可核一手营业时间。",
+  "sources": [
+    {
+      "title": "Abou Tarek官方联系与分店",
+      "url": "https://www.koshary-aboutarek.com/en/contact-us"
+    },
+    {
+      "title": "Abou Tarek官方入口",
+      "url": "https://www.koshary-aboutarek.com/en"
+    }
+  ],
+  "cautions": [
+    "只在开罗Downtown回宿方向复用，不能称吉萨金字塔/GEM门口顺路。",
+    "D51午餐优先馆内，不能为本店中途退出GEM。",
+    "D49夜巴后不为了网红店额外赶路。",
+    "Google评分数量、空调、插座未核。"
+  ],
+  "verified": "官方索引中的具名分店地址已核，实时菜单未取得；2027价与营业重核。"
+}
+```
 
 ### 迪拜 · Aroos Damascus · Al Muraqqabat / Deira店
-
-- 地址：Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai
-- 餐费规划：¥35–70
-- 点单：单份鸡肉Shawarma或小份烤鸡饭；先问配菜份量和单人价。特色无酒精饮品单独核价。
-- 菜单证据：官网菜单页暂无数字菜单（No posts found），不把Gemini48元鸡肉拼盘当现价。
-- 营业：官方分店表列Al Muraqqabat 07:00–次日04:00，2027复核。
-- 核查：官方具体分店及时间可核，价格未核。
-- D53仅在实际青旅住Deira且顺路时用，不把Creek/Bur Dubai等同Deira。
-- D55若全日在Dubai Mall不为本店绕行；留作回Deira住宿晚餐替代。
-- 冷气与插座仍需问店，外部评分不复制。
-- 卷饼需上手，先收相机，用餐巾纸。
-- [Aroos官方分店地址和营业](https://aroosdamascus.ae/locations/)
-- [Aroos官方菜单入口](https://aroosdamascus.ae/menu/)
-- [迪拜旅游局分店地址](https://www.visitdubai.com/en/restaurants/aroos-damascus)
+```json
+{
+  "id": "dubai-aroos-deira",
+  "city": "迪拜",
+  "name": "Aroos Damascus · Al Muraqqabat / Deira店",
+  "address": "Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai",
+  "mapQuery": "Aroos Damascus Green Palace Hotel Al Muraqqabat Deira Dubai",
+  "days": [
+    56
+  ],
+  "dishes": "单份鸡肉Shawarma或小份烤鸡饭；先问配菜份量和单人价。特色无酒精饮品单独核价。",
+  "budgetCny": [
+    35,
+    70
+  ],
+  "menuEvidence": "官网菜单页暂无数字菜单（No posts found），不把Gemini48元鸡肉拼盘当现价。",
+  "hours": "官方分店表列Al Muraqqabat 07:00–次日04:00，2027复核。",
+  "sources": [
+    {
+      "title": "Aroos官方分店地址和营业",
+      "url": "https://aroosdamascus.ae/locations/"
+    },
+    {
+      "title": "Aroos官方菜单入口",
+      "url": "https://aroosdamascus.ae/menu/"
+    },
+    {
+      "title": "迪拜旅游局分店地址",
+      "url": "https://www.visitdubai.com/en/restaurants/aroos-damascus"
+    }
+  ],
+  "cautions": [
+    "D53仅在实际青旅住Deira且顺路时用，不把Creek/Bur Dubai等同Deira。",
+    "D55若全日在Dubai Mall不为本店绕行；留作回Deira住宿晚餐替代。",
+    "冷气与插座仍需问店，外部评分不复制。",
+    "卷饼需上手，先收相机，用餐巾纸。"
+  ],
+  "verified": "官方具体分店及时间可核，价格未核。"
+}
+```
 
 ### 迪拜 · Al Mallah Dhiyafah · Satwa / Al Hudaiba店
-
-- 地址：Al Dhiyafa Road / 2nd December Street, Al Hudaiba, Dubai
-- 餐费规划：¥30–85
-- 点单：预算吃法选单份鸡肉Shawarma；改善餐可选官网半鸡餐或混烤餐。鲜榨牛油果饮另计，不默认每天点。
-- 菜单证据：官网列半鸡餐40 AED、3串混烤餐40 AED、早餐套餐27 AED；官网未给当前单卷9 AED证据。区间下端仅单卷餐规划、上端是套餐规划，饮品另计。
-- 营业：官网列周六–周四07:00–次日02:00，周五09:00–次日02:00；不是24小时。
-- 核查：官方菜价及营业可核，街址由目录补充；仅留顺路条件备选。
-- Satwa分店不在Dubai Mall/Deira步行动线上，不为其增加专门打车。
-- 官网强调临街座位，不保证强空调；先询室内席位和插座。
-- 9 AED卷饼和2 AED Karak尚未获得该店一手价格，不作为锁价。
-- [Al Mallah官方菜单与营业参考](https://www.almallahuae.com/)
-- [分店地址补充核对](https://www.emirates-online.net/English/item/al-mallah-dhiyafah)
+```json
+{
+  "id": "dubai-almallah-satwa",
+  "city": "迪拜",
+  "name": "Al Mallah Dhiyafah · Satwa / Al Hudaiba店",
+  "address": "Al Dhiyafa Road / 2nd December Street, Al Hudaiba, Dubai",
+  "mapQuery": "Al Mallah Dhiyafah Al Hudaiba 2nd December Street Dubai",
+  "days": [],
+  "dishes": "预算吃法选单份鸡肉Shawarma；改善餐可选官网半鸡餐或混烤餐。鲜榨牛油果饮另计，不默认每天点。",
+  "budgetCny": [
+    30,
+    85
+  ],
+  "menuEvidence": "官网列半鸡餐40 AED、3串混烤餐40 AED、早餐套餐27 AED；官网未给当前单卷9 AED证据。区间下端仅单卷餐规划、上端是套餐规划，饮品另计。",
+  "hours": "官网列周六–周四07:00–次日02:00，周五09:00–次日02:00；不是24小时。",
+  "sources": [
+    {
+      "title": "Al Mallah官方菜单与营业参考",
+      "url": "https://www.almallahuae.com/"
+    },
+    {
+      "title": "分店地址补充核对",
+      "url": "https://www.emirates-online.net/English/item/al-mallah-dhiyafah"
+    }
+  ],
+  "cautions": [
+    "Satwa分店不在Dubai Mall/Deira步行动线上，不为其增加专门打车。",
+    "官网强调临街座位，不保证强空调；先询室内席位和插座。",
+    "9 AED卷饼和2 AED Karak尚未获得该店一手价格，不作为锁价。"
+  ],
+  "verified": "官方菜价及营业可核，街址由目录补充；仅留顺路条件备选。"
+}
+```
 
 ### 迪拜 · ALBAIK · Dubai Mall Second Floor店
-
-- 地址：Dubai Mall, Second Floor food court；靠P7 Cinema Parking
-- 餐费规划：¥25–45
-- 点单：选一份单人鸡肉餐/鸡块餐，优先按柜台套餐牌点，不额外叠多份小吃；用叉子或吃后洗手。
-- 菜单证据：商场官方页确认分店及菜单入口，但挂出的旧PDF非2026新价；不拿旧菜单锁2027金额。
-- 营业：门店当前具体时间未独立核实，不能简单以商场时间替代。
-- 核查：官方二层分店、影院P7方向已核，当前数字菜单未核。
-- D55午餐可直接替换商场区域餐，排队超过15–20分钟就换同层具名连锁店，不跨城觅食。
-- 不从搜索广告进入不明ALBAIK优惠支付站。
-- 美食广场室内可休息，但空位和插座不保证；水另计。
-- [Dubai Mall官方ALBAIK分店与楼层](https://thedubaimall.com/en/shop/albaik)
-- [Emaar Malls官方店铺](https://www.emaarmalls.ae/malls-shop-details/dubai-mall/albaik/)
+```json
+{
+  "id": "dubai-mall-albaik",
+  "city": "迪拜",
+  "name": "ALBAIK · Dubai Mall Second Floor店",
+  "address": "Dubai Mall, Second Floor food court；靠P7 Cinema Parking",
+  "mapQuery": "ALBAIK Dubai Mall Second Floor Food Court P7 Cinema Parking",
+  "days": [
+    56
+  ],
+  "dishes": "选一份单人鸡肉餐/鸡块餐，优先按柜台套餐牌点，不额外叠多份小吃；用叉子或吃后洗手。",
+  "budgetCny": [
+    25,
+    45
+  ],
+  "menuEvidence": "商场官方页确认分店及菜单入口，但挂出的旧PDF非2026新价；不拿旧菜单锁2027金额。",
+  "hours": "门店当前具体时间未独立核实，不能简单以商场时间替代。",
+  "sources": [
+    {
+      "title": "Dubai Mall官方ALBAIK分店与楼层",
+      "url": "https://thedubaimall.com/en/shop/albaik"
+    },
+    {
+      "title": "Emaar Malls官方店铺",
+      "url": "https://www.emaarmalls.ae/malls-shop-details/dubai-mall/albaik/"
+    }
+  ],
+  "cautions": [
+    "D55午餐可直接替换商场区域餐，排队超过15–20分钟就换同层具名连锁店，不跨城觅食。",
+    "不从搜索广告进入不明ALBAIK优惠支付站。",
+    "美食广场室内可休息，但空位和插座不保证；水另计。"
+  ],
+  "verified": "官方二层分店、影院P7方向已核，当前数字菜单未核。"
+}
+```
 
 ### 阿布扎比 · Museum Café · Louvre Abu Dhabi馆内店
-
-- 地址：Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi
-- 餐费规划：¥90–140
-- 点单：先看Grab & Go柜台的单份三明治/沙拉或轻食，不点酒；可直接把D54卢浮宫前午餐安排在此。
-- 菜单证据：官方确认Grab & Go及餐厅存在；当前可核菜单入口未取得明确新价，预算是馆内餐规划额，不能当平价食堂。
-- 营业：官网列周一–四10:00–19:00（末点18:15），周五–日10:00–21:00（末点20:00）。D54为周四，2027复核。
-- 核查：官方位置、轻食产品类型和营业可核，餐价未核；饮品另计。
-- 位于卢浮宫，不是大清真寺地下商城。
-- 若先检票才能进餐厅，应把检票前移，不先吃再重复检票；准入以馆方规则为准。
-- 馆内价可能高，预算紧改清真寺Souq Al Jami McDonald's，须先吃后移动并调整时段。
-- 不能把餐费算入博物馆门票。
-- [Louvre官方Museum Café与营业](https://www.louvreabudhabi.ae/en/visit/museum-cafe)
+```json
+{
+  "id": "abu-dhabi-museum-cafe",
+  "city": "阿布扎比",
+  "name": "Museum Café · Louvre Abu Dhabi馆内店",
+  "address": "Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi",
+  "mapQuery": "Museum Cafe Louvre Abu Dhabi Saadiyat Island",
+  "days": [
+    55
+  ],
+  "dishes": "先看Grab & Go柜台的单份三明治/沙拉或轻食，不点酒；可直接把D54卢浮宫前午餐安排在此。",
+  "budgetCny": [
+    90,
+    140
+  ],
+  "menuEvidence": "官方确认Grab & Go及餐厅存在；当前可核菜单入口未取得明确新价，预算是馆内餐规划额，不能当平价食堂。",
+  "hours": "官网列周一–四10:00–19:00（末点18:15），周五–日10:00–21:00（末点20:00）。D54为周四，2027复核。",
+  "sources": [
+    {
+      "title": "Louvre官方Museum Café与营业",
+      "url": "https://www.louvreabudhabi.ae/en/visit/museum-cafe"
+    }
+  ],
+  "cautions": [
+    "位于卢浮宫，不是大清真寺地下商城。",
+    "若先检票才能进餐厅，应把检票前移，不先吃再重复检票；准入以馆方规则为准。",
+    "馆内价可能高，预算紧改清真寺Souq Al Jami McDonald's，须先吃后移动并调整时段。",
+    "不能把餐费算入博物馆门票。"
+  ],
+  "verified": "官方位置、轻食产品类型和营业可核，餐价未核；饮品另计。"
+}
+```
 
 ### 阿布扎比 · McDonald's / McCafé · Souq Al Jami清真寺游客中心店
-
-- 地址：Souq Al Jami food court, Sheikh Zayed Grand Mosque Visitor Centre, Al Maqtaa, Abu Dhabi
-- 餐费规划：¥35–60
-- 点单：在离开大清真寺前吃一份单人鸡肉汉堡餐或简餐；餐后再乘车到卢浮宫。
-- 菜单证据：麦当劳UAE官方McCafé门店表明确列Souq Al Jami, Abu Dhabi；未取得该分店数字菜单，按现场套餐牌。
-- 营业：未取得该分店官方营业时间；不套用另一家Abu Dhabi Mall的时间。
-- 核查：品牌官方门店表与清真寺官方设施交叉核对；菜单、时段待核。
-- 此为D54省钱替代，必须把午餐移到11:30左右再前往卢浮宫，不能12:15已到卢浮宫又返回此店。
-- 是明确具名的便利补给店，不冒充当地必吃菜。
-- 空调商城环境可选，但座位/充电插座不保证。
-- [麦当劳UAE官方McCafé门店表](https://www.mcdonalds.com/ae/en-ae/mccafe-restaurants.html)
-- [大清真寺官方Souq Al Jami设施](https://www.szgmc.gov.ae/en/worshippers/en-v-souq-al-jami)
+```json
+{
+  "id": "abu-dhabi-souq-mcd",
+  "city": "阿布扎比",
+  "name": "McDonald's / McCafé · Souq Al Jami清真寺游客中心店",
+  "address": "Souq Al Jami food court, Sheikh Zayed Grand Mosque Visitor Centre, Al Maqtaa, Abu Dhabi",
+  "mapQuery": "McDonald's McCafe Souq Al Jami Sheikh Zayed Grand Mosque Abu Dhabi",
+  "days": [],
+  "dishes": "在离开大清真寺前吃一份单人鸡肉汉堡餐或简餐；餐后再乘车到卢浮宫。",
+  "budgetCny": [
+    35,
+    60
+  ],
+  "menuEvidence": "麦当劳UAE官方McCafé门店表明确列Souq Al Jami, Abu Dhabi；未取得该分店数字菜单，按现场套餐牌。",
+  "hours": "未取得该分店官方营业时间；不套用另一家Abu Dhabi Mall的时间。",
+  "sources": [
+    {
+      "title": "麦当劳UAE官方McCafé门店表",
+      "url": "https://www.mcdonalds.com/ae/en-ae/mccafe-restaurants.html"
+    },
+    {
+      "title": "大清真寺官方Souq Al Jami设施",
+      "url": "https://www.szgmc.gov.ae/en/worshippers/en-v-souq-al-jami"
+    }
+  ],
+  "cautions": [
+    "此为D54省钱替代，必须把午餐移到11:30左右再前往卢浮宫，不能12:15已到卢浮宫又返回此店。",
+    "是明确具名的便利补给店，不冒充当地必吃菜。",
+    "空调商城环境可选，但座位/充电插座不保证。"
+  ],
+  "verified": "品牌官方门店表与清真寺官方设施交叉核对；菜单、时段待核。"
+}
+```
 
 ### 伊斯坦布尔 · Hayvore · Beyoğlu Turnacıbaşı店
-
-- 地址：İstiklal Caddesi, Turnacıbaşı Sokak No:4, Beyoğlu, İstanbul
-- 餐费规划：¥45–85
-- 点单：黑海家常食堂：一份Kuru Fasulye白豆炖菜＋米饭，或一份当日肉/蔬菜炖菜。先看当日套餐价；用勺叉。
-- 菜单证据：官网链接到QRDOS菜单，可核白豆米饭套餐、扁豆汤、羽衣甘蓝卷等，当前页面未显示数字价格；按现场明码。
-- 营业：未取得可核具体营业时段，D31晚餐前复核是否仍供餐。
-- 核查：官方Beyoğlu4号店地址及菜单入口可核，现价未核；饮水另计。
-- D31独立大街晚餐顺路，不用于Beşiktaş午餐硬折返。
-- 不要误选Galataport另一店。
-- 菜单与份量当日变化，空调及插座未核。
-- [Hayvore官方具体地址](https://www.hayvore.com.tr/iletisim/)
-- [Hayvore官方链接的餐厅菜单](https://qrdos.tr/hayvore)
-- [Hayvore官网与菜单入口](https://www.hayvore.com.tr/)
+```json
+{
+  "id": "istanbul-hayvore",
+  "city": "伊斯坦布尔",
+  "name": "Hayvore · Beyoğlu Turnacıbaşı店",
+  "address": "İstiklal Caddesi, Turnacıbaşı Sokak No:4, Beyoğlu, İstanbul",
+  "mapQuery": "Hayvore Turnacıbaşı Sokak 4 Beyoğlu Istanbul",
+  "days": [
+    31
+  ],
+  "dishes": "黑海家常食堂：一份Kuru Fasulye白豆炖菜＋米饭，或一份当日肉/蔬菜炖菜。先看当日套餐价；用勺叉。",
+  "budgetCny": [
+    45,
+    85
+  ],
+  "menuEvidence": "官网链接到QRDOS菜单，可核白豆米饭套餐、扁豆汤、羽衣甘蓝卷等，当前页面未显示数字价格；按现场明码。",
+  "hours": "未取得可核具体营业时段，D31晚餐前复核是否仍供餐。",
+  "sources": [
+    {
+      "title": "Hayvore官方具体地址",
+      "url": "https://www.hayvore.com.tr/iletisim/"
+    },
+    {
+      "title": "Hayvore官方链接的餐厅菜单",
+      "url": "https://qrdos.tr/hayvore"
+    },
+    {
+      "title": "Hayvore官网与菜单入口",
+      "url": "https://www.hayvore.com.tr/"
+    }
+  ],
+  "cautions": [
+    "D31独立大街晚餐顺路，不用于Beşiktaş午餐硬折返。",
+    "不要误选Galataport另一店。",
+    "菜单与份量当日变化，空调及插座未核。"
+  ],
+  "verified": "官方Beyoğlu4号店地址及菜单入口可核，现价未核；饮水另计。"
+}
+```
 
 ### 伊斯坦布尔 · Forno Balat · Fener Kireçhane店
-
-- 地址：Balat Mahallesi, Fener Kireçhane Sokak No:13/A, Fatih, İstanbul
-- 餐费规划：¥45–85
-- 点单：一份Lahmacun肉末薄饼或Pide＋按需要加扁豆汤；单人不点整桌早餐。饮品Ayran另计。
-- 菜单证据：官网列扁豆汤、Lahmacun、各类Pide及Ayran等，当前文字页没有数字价，先看柜台/菜单图。
-- 营业：具体营业时段未取得；官网说明自助早餐仅周六日，D32周三不套用。
-- 核查：官网在Balat、菜单品类和地图入口可核，具体门牌由地图交叉；现价待核。
-- 替换D32 Balat午餐，可就地吃，不为午餐返回Sirkeci。
-- Lahmacun可请切块用刀叉，或餐巾纸包着拿，先收相机。
-- 室内空调和插座未核，饭后仍保留回宿/阴凉处休息安排。
-- [Forno Balat官网菜单与地图入口](https://fornobalat.com/?lang=en)
-- [官方地图对应13/A门牌的导航交叉](https://www.waze.com/live-map/directions/tr/i%CC%87stanbul/forno-balat%2C-i%CC%87stanbul-un-en-i%CC%87yi-kahvalti%2C-lahmacun-ve-pizza-and-pide-mekanlari%2C-sizinle%21?to=place.ChIJHYfN0gK6yhQRdbNODSVaZHg)
+```json
+{
+  "id": "istanbul-forno-balat",
+  "city": "伊斯坦布尔",
+  "name": "Forno Balat · Fener Kireçhane店",
+  "address": "Balat Mahallesi, Fener Kireçhane Sokak No:13/A, Fatih, İstanbul",
+  "mapQuery": "Forno Balat Fener Kireçhane Sokak 13 A Istanbul",
+  "days": [
+    32
+  ],
+  "dishes": "一份Lahmacun肉末薄饼或Pide＋按需要加扁豆汤；单人不点整桌早餐。饮品Ayran另计。",
+  "budgetCny": [
+    45,
+    85
+  ],
+  "menuEvidence": "官网列扁豆汤、Lahmacun、各类Pide及Ayran等，当前文字页没有数字价，先看柜台/菜单图。",
+  "hours": "具体营业时段未取得；官网说明自助早餐仅周六日，D33周三不套用。",
+  "sources": [
+    {
+      "title": "Forno Balat官网菜单与地图入口",
+      "url": "https://fornobalat.com/?lang=en"
+    },
+    {
+      "title": "官方地图对应13/A门牌的导航交叉",
+      "url": "https://www.waze.com/live-map/directions/tr/i%CC%87stanbul/forno-balat%2C-i%CC%87stanbul-un-en-i%CC%87yi-kahvalti%2C-lahmacun-ve-pizza-and-pide-mekanlari%2C-sizinle%21?to=place.ChIJHYfN0gK6yhQRdbNODSVaZHg"
+    }
+  ],
+  "cautions": [
+    "替换D33 Balat午餐，可就地吃，不为午餐返回Sirkeci。",
+    "Lahmacun可请切块用刀叉，或餐巾纸包着拿，先收相机。",
+    "室内空调和插座未核，饭后仍保留回宿/阴凉处休息安排。"
+  ],
+  "verified": "官网在Balat、菜单品类和地图入口可核，具体门牌由地图交叉；现价待核。"
+}
+```
 
 ### 伊斯坦布尔 · Kanaat Lokantası · Üsküdar Selmani Pak总店
-
-- 地址：Sultantepe Mahallesi, Selmani Pak Caddesi No:9, Üsküdar, İstanbul 34674
-- 餐费规划：¥50–90
-- 点单：预算选一份蔬菜/豆类家常菜＋米饭，或汤＋一份主食；先问小份和总价，避开同时点烤肉甜品整套。
-- 菜单证据：官网确认每日家常热菜、橄榄油冷菜与甜品，提供菜单入口；现行数字菜单未取得，不能称最便宜店。
-- 营业：官网列07:00–22:30，2027重核；官方明确只在Üsküdar此地址经营。
-- 核查：一手9号总店、品类与营业可核，价格待核；单人餐食预算饮料另计。
-- 放D33Üsküdar中心经过时，去Salacak之前吃或返码头时吃，不写成Salacak海边店。
-- 是就地家常餐备选，未证最低价；若超预算少点一道，不能靠ISIC自动打折。
-- 空调和插座未核。
-- [Kanaat官方地址、时间与菜单入口](https://www.kanaatlokantasi.com.tr/)
-- [Kanaat官方总店说明](https://www.kanaatlokantasi.com.tr/hakkimizda)
+```json
+{
+  "id": "istanbul-kanaat-uskudar",
+  "city": "伊斯坦布尔",
+  "name": "Kanaat Lokantası · Üsküdar Selmani Pak总店",
+  "address": "Sultantepe Mahallesi, Selmani Pak Caddesi No:9, Üsküdar, İstanbul 34674",
+  "mapQuery": "Kanaat Lokantası Selmani Pak Caddesi 9 Üsküdar Istanbul",
+  "days": [
+    33
+  ],
+  "dishes": "预算选一份蔬菜/豆类家常菜＋米饭，或汤＋一份主食；先问小份和总价，避开同时点烤肉甜品整套。",
+  "budgetCny": [
+    50,
+    90
+  ],
+  "menuEvidence": "官网确认每日家常热菜、橄榄油冷菜与甜品，提供菜单入口；现行数字菜单未取得，不能称最便宜店。",
+  "hours": "官网列07:00–22:30，2027重核；官方明确只在Üsküdar此地址经营。",
+  "sources": [
+    {
+      "title": "Kanaat官方地址、时间与菜单入口",
+      "url": "https://www.kanaatlokantasi.com.tr/"
+    },
+    {
+      "title": "Kanaat官方总店说明",
+      "url": "https://www.kanaatlokantasi.com.tr/hakkimizda"
+    }
+  ],
+  "cautions": [
+    "放D32Üsküdar中心经过时，去Salacak之前吃或返码头时吃，不写成Salacak海边店。",
+    "是就地家常餐备选，未证最低价；若超预算少点一道，不能靠ISIC自动打折。",
+    "空调和插座未核。"
+  ],
+  "verified": "一手9号总店、品类与营业可核，价格待核；单人餐食预算饮料另计。"
+}
+```
 
 ### 安塔利亚 · Can Can Pide & Yemek Salonu · Arık Caddesi店
-
-- 地址：Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100
-- 餐费规划：¥35–65
-- 点单：省钱组合：一份Kıymalı Pide肉末船饼，或白豆炖菜＋米饭；需要时加扁豆汤。用刀叉，Ayran另计。
-- 菜单证据：餐厅电子菜单读取2026-11-05：扁豆汤110 TRY、白豆180 TRY、米饭110 TRY、肉末Pide280 TRY、肉末薄饼160 TRY、Ayran60 TRY。网页无明确生效日，2027复核。
-- 营业：餐厅电子菜单列10:00–23:30，周日休；D25周三、D26周四按现规则可用但须2027重核。
-- 核查：具名店与电子菜单原币价、营业可核，门牌由目录补充；饮品另计。
-- 比AltındağPiyazcıAhmet更适合Kaleiçi东侧的行程，仍按实际住宿出口核步行。
-- D25用午/晚餐候选，D26只在去汽车站前窗口够时吃，不压报到余量。
-- 空调和插座未核，不把店家站列出的Google分数冒充独立实时Google核验。
-- [Can Can餐厅电子菜单与时间](https://www.cancanpideyemek.com/)
-- [门牌交叉核对](https://antalyacityguide.com/mekan/can-can-pide-ve-yemek-salonu/)
+```json
+{
+  "id": "antalya-cancan",
+  "city": "安塔利亚",
+  "name": "Can Can Pide & Yemek Salonu · Arık Caddesi店",
+  "address": "Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100",
+  "mapQuery": "Can Can Pide Yemek Salonu Arık Caddesi 4 A Antalya",
+  "days": [
+    25
+  ],
+  "dishes": "省钱组合：一份Kıymalı Pide肉末船饼，或白豆炖菜＋米饭；需要时加扁豆汤。用刀叉，Ayran另计。",
+  "budgetCny": [
+    35,
+    65
+  ],
+  "menuEvidence": "餐厅电子菜单读取2026-11-05：扁豆汤110 TRY、白豆180 TRY、米饭110 TRY、肉末Pide280 TRY、肉末薄饼160 TRY、Ayran60 TRY。网页无明确生效日，2027复核。",
+  "hours": "餐厅电子菜单列10:00–23:30，周日休；D36周三、D37周四按现规则可用但须2027重核。",
+  "sources": [
+    {
+      "title": "Can Can餐厅电子菜单与时间",
+      "url": "https://www.cancanpideyemek.com/"
+    },
+    {
+      "title": "门牌交叉核对",
+      "url": "https://antalyacityguide.com/mekan/can-can-pide-ve-yemek-salonu/"
+    }
+  ],
+  "cautions": [
+    "比AltındağPiyazcıAhmet更适合Kaleiçi东侧的行程，仍按实际住宿出口核步行。",
+    "D36用午/晚餐候选，D37只在去汽车站前窗口够时吃，不压报到余量。",
+    "空调和插座未核，不把店家站列出的Google分数冒充独立实时Google核验。"
+  ],
+  "verified": "具名店与电子菜单原币价、营业可核，门牌由目录补充；饮品另计。"
+}
+```
 
 ### Kaş · Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店
-
-- 地址：Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580
-- 餐费规划：¥35–65
-- 点单：家常热菜柜台选一份豆类/蔬菜炖菜＋米饭，或一份当日肉菜；问小份与份量，不按自助随取误结账。
-- 菜单证据：店家管理的餐厅资料确认家常锅菜、蔬菜、卷菜等品类；未取得现行原币菜单价格。
-- 营业：未取得可靠具体时间；管理资料出现00:00–23:59占位式时间，不能据此称24h。
-- 核查：店家管理资料可核12号地址、电话及菜品类型，未取得官方现价；饮水另计。
-- Gemini的Özlem Lokantası在Kaş未能核到匹配店，搜索结果指向Bergama/İzmir或Kumluca，不应直接导入。改为已核12号Kaşım具名候选。
-- 价格、营业、空调插座均待核，不能保证比BiLokma便宜，区间是预算选择。
-- D28留足取包和上Ağullu接驳时段，排队超15分钟换外带。
-- [Kaşım店家管理资料：地址、品类与电话](https://www.tripadvisor.com.tr/Restaurant_Review-g297965-d2216878-Reviews-KasIm_Restaurant-Kas_Turkish_Mediterranean_Coast.html)
-- [12号地址交叉核对](https://tr.restaurantguru.com/Kasim-Ev-Yemekleri-Kas-2)
+```json
+{
+  "id": "kas-kasim-homefood",
+  "city": "Kaş",
+  "name": "Kaşım Restaurant Ev Yemekleri · Hükümet Caddesi店",
+  "address": "Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580",
+  "mapQuery": "Kaşım Restaurant Ev Yemekleri Hükümet Caddesi 12 Kaş",
+  "days": [
+    26,
+    27
+  ],
+  "dishes": "家常热菜柜台选一份豆类/蔬菜炖菜＋米饭，或一份当日肉菜；问小份与份量，不按自助随取误结账。",
+  "budgetCny": [
+    35,
+    65
+  ],
+  "menuEvidence": "店家管理的餐厅资料确认家常锅菜、蔬菜、卷菜等品类；未取得现行原币菜单价格。",
+  "hours": "未取得可靠具体时间；管理资料出现00:00–23:59占位式时间，不能据此称24h。",
+  "sources": [
+    {
+      "title": "Kaşım店家管理资料：地址、品类与电话",
+      "url": "https://www.tripadvisor.com.tr/Restaurant_Review-g297965-d2216878-Reviews-KasIm_Restaurant-Kas_Turkish_Mediterranean_Coast.html"
+    },
+    {
+      "title": "12号地址交叉核对",
+      "url": "https://tr.restaurantguru.com/Kasim-Ev-Yemekleri-Kas-2"
+    }
+  ],
+  "cautions": [
+    "Gemini的Özlem Lokantası在Kaş未能核到匹配店，搜索结果指向Bergama/İzmir或Kumluca，不应直接导入。改为已核12号Kaşım具名候选。",
+    "价格、营业、空调插座均待核，不能保证比BiLokma便宜，区间是预算选择。",
+    "D34留足取包和上Ağullu接驳时段，排队超15分钟换外带。"
+  ],
+  "verified": "店家管理资料可核12号地址、电话及菜品类型，未取得官方现价；饮水另计。"
+}
+```
 
 ### 伊斯坦布尔 · Tarihi Karadeniz Döner · Beşiktaş Köyiçi6店
-
-- 地址：Sinanpaşa, Köyiçi Caddesi No:6, Beşiktaş, İstanbul
-- 餐费规划：¥60–100
-- 点单：单人点70g小面包夹Döner，或100g Dürüm；配水即可。先问份量，不默认150g大份。
-- 菜单证据：官网标注2026-10-10更新；菜单图人工查看：70g四分之一面包360TRY、70g三明治380TRY、80g半面包400TRY、100g卷饼500TRY、100g肉配饭580TRY、汤120TRY；水30TRY/Ayran60TRY另计。2027重核。
-- 营业：官网未列可靠开门/售罄时间；D31午餐前查营业，排队超过15分钟改自备简餐，不等售罄。
-- 核查：一手店址及标2026-10-10的菜单图已核；营业、当日供餐和2027价待核。
-- D31从多尔玛巴赫切往Beşiktaş中心方向吃，不回Sirkeci再折返。
-- 店小且可能排队，不保证空调座位、充电或午睡；正午休息回住宿/其他已确认室内空间。
-- 人民币是单餐食物留量，未按固定汇率冒充2027报价。
-- [餐厅官网：6号地址与2026-10-10价表更新](https://tarihikaradenizdonerasimusta.com/)
-- [官网菜单原图：份量与原币价](https://tarihikaradenizdonerasimusta.com/kcalgorsel.png)
+```json
+{
+  "id": "istanbul-karadeniz-besiktas",
+  "city": "伊斯坦布尔",
+  "name": "Tarihi Karadeniz Döner · Beşiktaş Köyiçi6店",
+  "address": "Sinanpaşa, Köyiçi Caddesi No:6, Beşiktaş, İstanbul",
+  "mapQuery": "Tarihi Karadeniz Doner Asim Usta Koyici Caddesi 6 Besiktas Istanbul",
+  "days": [
+    31
+  ],
+  "dishes": "单人点70g小面包夹Döner，或100g Dürüm；配水即可。先问份量，不默认150g大份。",
+  "budgetCny": [
+    60,
+    100
+  ],
+  "menuEvidence": "官网标注2026-10-10更新；菜单图人工查看：70g四分之一面包360TRY、70g三明治380TRY、80g半面包400TRY、100g卷饼500TRY、100g肉配饭580TRY、汤120TRY；水30TRY/Ayran60TRY另计。2027重核。",
+  "hours": "官网未列可靠开门/售罄时间；D31午餐前查营业，排队超过15分钟改自备简餐，不等售罄。",
+  "sources": [
+    {
+      "title": "餐厅官网：6号地址与2026-10-10价表更新",
+      "url": "https://tarihikaradenizdonerasimusta.com/"
+    },
+    {
+      "title": "官网菜单原图：份量与原币价",
+      "url": "https://tarihikaradenizdonerasimusta.com/kcalgorsel.png"
+    }
+  ],
+  "cautions": [
+    "D31从多尔玛巴赫切往Beşiktaş中心方向吃，不回Sirkeci再折返。",
+    "店小且可能排队，不保证空调座位、充电或午睡；正午休息回住宿/其他已确认室内空间。",
+    "人民币是单餐食物留量，未按固定汇率冒充2027报价。"
+  ],
+  "verified": "一手店址及标2026-10-10的菜单图已核；营业、当日供餐和2027价待核。"
+}
+```
 
 ### 塔什干 · Oqtepa Lavash · Shahrisabz 5A店
-
-- 地址：Shahrisabz Street 5A, Mirabad District, Tashkent；Westminster Lyceum对面
-- 餐费规划：¥25–40
-- 点单：一份大鸡肉lavash（куриный большой лаваш）或一份鸡肉pita doner二选一；想补菜加一小份红卷心菜沙拉，先问能否单点，不买双人优惠套餐。
-- 菜单证据：2026-11-06读取品牌官网菜单：大鸡肉lavash 35,000 UZS、鸡肉pita doner 33,000 UZS、红卷心菜沙拉10,000 UZS。是品牌公开菜单，未完成Shahrisabz5A现场点单，分店价格/库存须核；出现0 UZS的活动条目不视作免费。budgetCny为2027单人食物规划留量，饮水另计。
-- 营业：该分店第三方资料列每日09:00–03:00；官网分店表未能把Shahrisabz门牌与营业钟点直接配对，出发前复核。
-- 核查：2026-11-06：品牌单点菜单已读，具体分店地址经地图核对；2027营业和分店实价未锁定。
-- 用作D8广场散步结束后的便餐备选，替换原本未具名的晚餐；不要从DRIMIN寄包后为此北上吃午餐，也不硬塞D13返城晚上。
-- D8仍须留时间从店返回Mirabad的DRIMIN办理登记；若导航不能在20:15前回到住宿，则不执行，已备简餐优先。
-- 这是换口味、控制份量的便餐补充，保留Besh Qozon作乌兹别克抓饭体验；未核冷气和插座。
-- [Oqtepa Lavash品牌官网菜单：单点UZS价格](https://oqtepalavash.uz/en)
-- [Yandex Maps：Shahrisabz5A具体分店、地标及官网链接](https://yandex.com/maps/org/oqtepa_lavash/227487602179/)
-- [All Uzbekistan：Shahrisabz街分店与营业时间](https://alluzbekistan.com/en/restoranlar/oqtepa-lavash-shahrisabz-toshkent)
+```json
+{
+  "id": "tashkent-oqtepa-shahrisabz5a",
+  "city": "塔什干",
+  "name": "Oqtepa Lavash · Shahrisabz 5A店",
+  "address": "Shahrisabz Street 5A, Mirabad District, Tashkent；Westminster Lyceum对面",
+  "mapQuery": "Oqtepa Lavash Shahrisabz Street 5A Tashkent Westminster Lyceum",
+  "days": [
+    8
+  ],
+  "rowIds": [
+    "d8v2-11"
+  ],
+  "dishes": "一份大鸡肉lavash（куриный большой лаваш）或一份鸡肉pita doner二选一；想补菜加一小份红卷心菜沙拉，先问能否单点，不买双人优惠套餐。",
+  "budgetCny": [
+    25,
+    40
+  ],
+  "menuEvidence": "2026-11-06读取品牌官网菜单：大鸡肉lavash 35,000 UZS、鸡肉pita doner 33,000 UZS、红卷心菜沙拉10,000 UZS。是品牌公开菜单，未完成Shahrisabz5A现场点单，分店价格/库存须核；出现0 UZS的活动条目不视作免费。budgetCny为2027单人食物规划留量，饮水另计。",
+  "hours": "该分店第三方资料列每日09:00–03:00；官网分店表未能把Shahrisabz门牌与营业钟点直接配对，出发前复核。",
+  "sources": [
+    {
+      "title": "Oqtepa Lavash品牌官网菜单：单点UZS价格",
+      "url": "https://oqtepalavash.uz/en"
+    },
+    {
+      "title": "Yandex Maps：Shahrisabz5A具体分店、地标及官网链接",
+      "url": "https://yandex.com/maps/org/oqtepa_lavash/227487602179/"
+    },
+    {
+      "title": "All Uzbekistan：Shahrisabz街分店与营业时间",
+      "url": "https://alluzbekistan.com/en/restoranlar/oqtepa-lavash-shahrisabz-toshkent"
+    }
+  ],
+  "cautions": [
+    "用作D8广场散步结束后的便餐备选，替换原本未具名的晚餐；不要从DRIMIN寄包后为此北上吃午餐，也不硬塞D13返城晚上。",
+    "D8仍须留时间从店返回Mirabad的DRIMIN办理登记；若导航不能在20:15前回到住宿，则不执行，已备简餐优先。",
+    "这是换口味、控制份量的便餐补充，保留Besh Qozon作乌兹别克抓饭体验；未核冷气和插座。"
+  ],
+  "verified": "2026-11-06：品牌单点菜单已读，具体分店地址经地图核对；2027营业和分店实价未锁定。",
+  "selectionOrigin": "本次独立补充"
+}
+```
 
 ### 撒马尔罕 · EVOS · Dahbed 47店
-
-- 地址：47 Dahbed Street, Samarkand, Uzbekistan
-- 餐费规划：¥25–45
-- 点单：点一份鸡肉或牛肉lavash卷饼；不叠加汉堡、薯条、汽水套餐。先看当地菜单选最小够吃的一份，打包后尽快吃。
-- 菜单证据：已访问EVOS官网，但菜单需选实际配送地址后动态返回，本次未得到Dahbed分店可读取单菜现价，故不填虚构UZS数字。sam.uz只列under 70k UZS的价格级别，不当作一份lavash报价。budgetCny为一人食物规划留量，饮水另计。
-- 营业：sam.uz列每日08:00–23:00，为第三方2026-10核查资料；2027前复核，不能用其他EVOS分店的03:00收店时间套用。
-- 核查：2026-11-06：Dahbed47地址有地图和独立本地平台交叉，品牌官网可访问；分店价格未取得。
-- Siyob巴扎西北约1.1公里（第三方距离），不是巴扎出口即到；只有实测导航和等位容许12:30前回Old Radio才执行，否则在巴扎采购后回宿，不能用廉价名义制造绕路。
-- 仅作为D12午餐的具名备选，保留Emirhan/Shokhrukh Nur等当地正餐，不把撒马尔罕全部改成快餐链。
-- 未确认分店冷气、插座、支付状态或2027存续。
-- [EVOS官网：品牌与最终点餐/分店入口，价格动态加载](https://evos.uz/en)
-- [Yandex Maps：EVOS Dahbed47门牌](https://yandex.uz/maps/org/evos/179040376490/)
-- [sam.uz：Dahbed47分店、菜单方向和营业时间](https://sam.uz/en/restaurants/evos-dahbed-kochasi)
+```json
+{
+  "id": "samarkand-evos-dahbed47",
+  "city": "撒马尔罕",
+  "name": "EVOS · Dahbed 47店",
+  "address": "47 Dahbed Street, Samarkand, Uzbekistan",
+  "mapQuery": "EVOS 47 Dahbed Street Samarkand",
+  "days": [
+    11
+  ],
+  "rowIds": [
+    "d12v2-07"
+  ],
+  "dishes": "点一份鸡肉或牛肉lavash卷饼；不叠加汉堡、薯条、汽水套餐。先看当地菜单选最小够吃的一份，打包后尽快吃。",
+  "budgetCny": [
+    25,
+    45
+  ],
+  "menuEvidence": "已访问EVOS官网，但菜单需选实际配送地址后动态返回，本次未得到Dahbed分店可读取单菜现价，故不填虚构UZS数字。sam.uz只列under 70k UZS的价格级别，不当作一份lavash报价。budgetCny为一人食物规划留量，饮水另计。",
+  "hours": "sam.uz列每日08:00–23:00，为第三方2026-10核查资料；2027前复核，不能用其他EVOS分店的03:00收店时间套用。",
+  "sources": [
+    {
+      "title": "EVOS官网：品牌与最终点餐/分店入口，价格动态加载",
+      "url": "https://evos.uz/en"
+    },
+    {
+      "title": "Yandex Maps：EVOS Dahbed47门牌",
+      "url": "https://yandex.uz/maps/org/evos/179040376490/"
+    },
+    {
+      "title": "sam.uz：Dahbed47分店、菜单方向和营业时间",
+      "url": "https://sam.uz/en/restaurants/evos-dahbed-kochasi"
+    }
+  ],
+  "cautions": [
+    "Siyob巴扎西北约1.1公里（第三方距离），不是巴扎出口即到；只有实测导航和等位容许12:30前回Old Radio才执行，否则在巴扎采购后回宿，不能用廉价名义制造绕路。",
+    "仅作为D12午餐的具名备选，保留Emirhan/Shokhrukh Nur等当地正餐，不把撒马尔罕全部改成快餐链。",
+    "未确认分店冷气、插座、支付状态或2027存续。"
+  ],
+  "verified": "2026-11-06：Dahbed47地址有地图和独立本地平台交叉，品牌官网可访问；分店价格未取得。",
+  "selectionOrigin": "本次独立补充"
+}
+```
 
 ### 巴库 · Araz Terrace / 原Araz Cafe · İslam Səfərli1店
-
-- 地址：1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan
-- 餐费规划：¥45–85
-- 点单：先问一人份qutab薄饼与汤的当日价，选两三张薄饼加一碗汤，或一份小主食；不点Shah plov等多人宴席菜。
-- 菜单证据：已读官方Araz Terrace页面：确认qutab、plov、dolma与烤肉方向、菜单币种AZN，并明确账单加10%服务费。单菜价在动态菜单/图片中，文本未取到；30–100 AZN是宴会每人价，不是便餐套餐，不能冒用。budgetCny为单人食物含服务费的规划留量，饮水另计；并不保证比Firuzə更便宜。
-- 营业：官网每日10:00–01:00；早餐10:00–13:00、午餐13:00–15:00、其余单点，2027前重核。
-- 核查：2026-11-06：当前官网确认具体门牌、名称、菜单方向和服务费；未得到单菜现价，不作为已证低价食堂。
-- 同在喷泉广场片区，可替D15重复Firuzə晚餐；若现价明显更高，继续原店，不为换店增支。
-- 第三方旧条目有İslamSafarli3号和旧名称，优先按当前官网1号、电话+994503180207核定位，不能只搜Araz后随机进店。
-- D16午餐需留采购夜车便餐时间；只在老城回喷泉广场原路上安排。未声称冷气或插座。
-- [Araz Terrace官网：地址、菜品、营业与10%服务费](https://arazterrace.az/en/)
-- [gun.az：Araz Cafe旧名称、同一电话和İslamSafarli1地址](https://gun.az/en/company/araz-cafe)
+```json
+{
+  "id": "baku-araz-terrace-islam1",
+  "city": "巴库",
+  "name": "Araz Terrace / 原Araz Cafe · İslam Səfərli1店",
+  "address": "1 İslam Səfərli, Fountains Square, Baku AZ1000, Azerbaijan",
+  "mapQuery": "Araz Terrace 1 Islam Safarli Fountains Square Baku",
+  "days": [
+    15
+  ],
+  "rowIds": [
+    "d15v2-12",
+    "d16v2-08"
+  ],
+  "dishes": "先问一人份qutab薄饼与汤的当日价，选两三张薄饼加一碗汤，或一份小主食；不点Shah plov等多人宴席菜。",
+  "budgetCny": [
+    45,
+    85
+  ],
+  "menuEvidence": "已读官方Araz Terrace页面：确认qutab、plov、dolma与烤肉方向、菜单币种AZN，并明确账单加10%服务费。单菜价在动态菜单/图片中，文本未取到；30–100 AZN是宴会每人价，不是便餐套餐，不能冒用。budgetCny为单人食物含服务费的规划留量，饮水另计；并不保证比Firuzə更便宜。",
+  "hours": "官网每日10:00–01:00；早餐10:00–13:00、午餐13:00–15:00、其余单点，2027前重核。",
+  "sources": [
+    {
+      "title": "Araz Terrace官网：地址、菜品、营业与10%服务费",
+      "url": "https://arazterrace.az/en/"
+    },
+    {
+      "title": "gun.az：Araz Cafe旧名称、同一电话和İslamSafarli1地址",
+      "url": "https://gun.az/en/company/araz-cafe"
+    }
+  ],
+  "cautions": [
+    "同在喷泉广场片区，可替D15重复Firuzə晚餐；若现价明显更高，继续原店，不为换店增支。",
+    "第三方旧条目有İslamSafarli3号和旧名称，优先按当前官网1号、电话+994503180207核定位，不能只搜Araz后随机进店。",
+    "D16午餐需留采购夜车便餐时间；只在老城回喷泉广场原路上安排。未声称冷气或插座。"
+  ],
+  "verified": "2026-11-06：当前官网确认具体门牌、名称、菜单方向和服务费；未得到单菜现价，不作为已证低价食堂。",
+  "selectionOrigin": "本次独立补充"
+}
+```
 
 ### 埃里温 · SAS Food Court · Amiryan 7/1店
-
-- 地址：7/1 Amiryan Street, Yerevan, Armenia
-- 餐费规划：¥30–50
-- 点单：省钱点一份土豆泥配烤时蔬Combo6，或两张普通牛肉lahmacun二选一；不为了套餐额外购买饮料。想少吃肉可选前者，柜台确认份量。
-- 菜单证据：品牌官网单品页读取：普通牛肉lahmacun900 AMD/张；Combo6（土豆泥+烤时蔬）1,700 AMD。官网Our Food Courts列Amiryan7/1门店；这是线上品牌菜单参考，堂食价格、供应和份量需店内核。budgetCny仅单人食物，饮水另计；不拿含tan饮料的Combo21当纯食物价。
-- 营业：品牌官网Amiryan7/1列09:00–01:00；单品页23:30–09:00不配送是配送限制，不能等同堂食收店时间。
-- 核查：2026-11-06：品牌官网已核当前分店表及具名单品AMD价格；未做指定日期现场点单或确认2027供应。
-- 替D20第三次TunLahmajo便餐或D21午餐，仍在共和国广场/Amiryan中心片区；D19跨境初到夜晚无需为换店额外折腾。
-- 不采用Mashtots18旧第三方总部联系地址当成现餐厅地址：品牌当前分店表明确可用的是Amiryan7/1。
-- D21须12:20左右吃完并回宿午休，不能挤掉凌晨航班前睡眠；未核冷气与插座。
-- [SAS官网OurFoodCourts：Amiryan7/1与营业时间](https://www.sas.am/food/en/about/our-supermarkets/)
-- [SAS官网普通牛肉lahmacun900AMD](https://www.sas.am/food/en/catalog/lakhmadzhun/7170/)
-- [SAS官网Combo6土豆泥与烤时蔬1700AMD](https://www.sas.am/food/en/catalog/vkusnoe-kombo/754798/)
+```json
+{
+  "id": "yerevan-sas-amiryan7",
+  "city": "埃里温",
+  "name": "SAS Food Court · Amiryan 7/1店",
+  "address": "7/1 Amiryan Street, Yerevan, Armenia",
+  "mapQuery": "SAS Food Court 7/1 Amiryan Street Yerevan",
+  "days": [
+    20
+  ],
+  "rowIds": [
+    "d20v2-12",
+    "d21v2-07"
+  ],
+  "dishes": "省钱点一份土豆泥配烤时蔬Combo6，或两张普通牛肉lahmacun二选一；不为了套餐额外购买饮料。想少吃肉可选前者，柜台确认份量。",
+  "budgetCny": [
+    30,
+    50
+  ],
+  "menuEvidence": "品牌官网单品页读取：普通牛肉lahmacun900 AMD/张；Combo6（土豆泥+烤时蔬）1,700 AMD。官网Our Food Courts列Amiryan7/1门店；这是线上品牌菜单参考，堂食价格、供应和份量需店内核。budgetCny仅单人食物，饮水另计；不拿含tan饮料的Combo21当纯食物价。",
+  "hours": "品牌官网Amiryan7/1列09:00–01:00；单品页23:30–09:00不配送是配送限制，不能等同堂食收店时间。",
+  "sources": [
+    {
+      "title": "SAS官网OurFoodCourts：Amiryan7/1与营业时间",
+      "url": "https://www.sas.am/food/en/about/our-supermarkets/"
+    },
+    {
+      "title": "SAS官网普通牛肉lahmacun900AMD",
+      "url": "https://www.sas.am/food/en/catalog/lakhmadzhun/7170/"
+    },
+    {
+      "title": "SAS官网Combo6土豆泥与烤时蔬1700AMD",
+      "url": "https://www.sas.am/food/en/catalog/vkusnoe-kombo/754798/"
+    }
+  ],
+  "cautions": [
+    "替D20第三次TunLahmajo便餐或D21午餐，仍在共和国广场/Amiryan中心片区；D19跨境初到夜晚无需为换店额外折腾。",
+    "不采用Mashtots18旧第三方总部联系地址当成现餐厅地址：品牌当前分店表明确可用的是Amiryan7/1。",
+    "D21午餐按Matenadaran参观时间衔接，不再受旧凌晨航班影响。"
+  ],
+  "verified": "2026-11-06：品牌官网已核当前分店表及具名单品AMD价格；未做指定日期现场点单或确认2027供应。",
+  "selectionOrigin": "本次独立补充"
+}
+```
 
 ### 赫尔格达 · Koshary El Tahrir · El Dahar老城店
-
-- 地址：El Kanisa / Church Street, El Dahar Square一带，Mafish/Mafesh Moshkla商店旁，Hurghada；新地图针写شارع اللواء سلمات مظهر（Salamat Mazhar街），须对照地图针与门头
-- 餐费规划：¥15–30
-- 点单：一人先点中/小碗koshary（米饭、意面、扁豆、鹰嘴豆与炸洋葱），酱和辣油分开；吃完仍饿再加，不默认加甜点。
-- 菜单证据：已访问品牌官网但仅得到需JavaScript页面，未取得可核的ElDahar单碗EGP现价。第三方18–30LE说法无清楚菜单日期，不用于预算实价；也不套开罗同名连锁菜单到此店。budgetCny为一人食物规划留量，饮水另计。
-- 营业：RestaurantGuru/Spinach地图资料列12:00–次日01:00，属第三方参考；2027前核实际店面。
-- 核查：2026-11-06：两家目录均确认ElDahar具名店，但街名仍需定位交叉，菜单现价未取得；建议只作为D42条件性便餐。
-- 用于D42的ElDahar17:00–18:15街市之后，吃完返回Marina，替换第二次StarFish；不把它安排在Marina海滩午餐并制造往返。
-- ChurchStreet旧门牌与SalamatMazhar地图街名不同；出发前用电话/住宿前台核同一店的定位和门头，未核对前不认定二者同一入口。
-- Sheraton的KosharyStarElTahrir在elmenus标Closed，与本候选不是同一针；不要搜简称误入停业店。
-- 未核到本店和开罗19719品牌是否同一经营主体；不作连锁保证，不声称强冷气或插座。
-- [EgyptYellowPages：ElKanisa街、Dahar广场与商店地标](https://yellowpages.com.eg/en/profile/koshary-el-tahrir/689794)
-- [elmenus：ElDahar店ChurchStreet具体地址](https://www.elmenus.com/hurghada/koshary-el-tahrir-nw782)
-- [RestaurantGuru：新地图街名、电话与餐种，价格不采作菜单价](https://restaurantguru.com/Koshary-El-Tahrir-Hurghada)
-- [品牌官网：本次可访问但价格需JS，未读取菜单](https://www.koshary-eltahrir.com/)
+```json
+{
+  "id": "hurghada-koshary-tahrir-dahar",
+  "city": "赫尔格达",
+  "name": "Koshary El Tahrir · El Dahar老城店",
+  "address": "El Kanisa / Church Street, El Dahar Square一带，Mafish/Mafesh Moshkla商店旁，Hurghada；新地图针写شارع اللواء سلمات مظهر（Salamat Mazhar街），须对照地图针与门头",
+  "mapQuery": "Koshary El Tahrir El Dahar Church Street Mafesh Moshkla Hurghada",
+  "days": [
+    42
+  ],
+  "rowIds": [
+    "d42v2-11"
+  ],
+  "dishes": "一人先点中/小碗koshary（米饭、意面、扁豆、鹰嘴豆与炸洋葱），酱和辣油分开；吃完仍饿再加，不默认加甜点。",
+  "budgetCny": [
+    15,
+    30
+  ],
+  "menuEvidence": "已访问品牌官网但仅得到需JavaScript页面，未取得可核的ElDahar单碗EGP现价。第三方18–30LE说法无清楚菜单日期，不用于预算实价；也不套开罗同名连锁菜单到此店。budgetCny为一人食物规划留量，饮水另计。",
+  "hours": "RestaurantGuru/Spinach地图资料列12:00–次日01:00，属第三方参考；2027前核实际店面。",
+  "sources": [
+    {
+      "title": "EgyptYellowPages：ElKanisa街、Dahar广场与商店地标",
+      "url": "https://yellowpages.com.eg/en/profile/koshary-el-tahrir/689794"
+    },
+    {
+      "title": "elmenus：ElDahar店ChurchStreet具体地址",
+      "url": "https://www.elmenus.com/hurghada/koshary-el-tahrir-nw782"
+    },
+    {
+      "title": "RestaurantGuru：新地图街名、电话与餐种，价格不采作菜单价",
+      "url": "https://restaurantguru.com/Koshary-El-Tahrir-Hurghada"
+    },
+    {
+      "title": "品牌官网：本次可访问但价格需JS，未读取菜单",
+      "url": "https://www.koshary-eltahrir.com/"
+    }
+  ],
+  "cautions": [
+    "用于D42的ElDahar17:00–18:15街市之后，吃完返回Marina，替换第二次StarFish；不把它安排在Marina海滩午餐并制造往返。",
+    "ChurchStreet旧门牌与SalamatMazhar地图街名不同；出发前用电话/住宿前台核同一店的定位和门头，未核对前不认定二者同一入口。",
+    "Sheraton的KosharyStarElTahrir在elmenus标Closed，与本候选不是同一针；不要搜简称误入停业店。",
+    "未核到本店和开罗19719品牌是否同一经营主体；不作连锁保证，不声称强冷气或插座。"
+  ],
+  "verified": "2026-11-06：两家目录均确认ElDahar具名店，但街名仍需定位交叉，菜单现价未取得；建议只作为D42条件性便餐。",
+  "selectionOrigin": "本次独立补充",
+  "planRole": "门店/菜单先核再选"
+}
+```
 
 ### 卢克索 · El Zaeem / Al Zaeem 2 · Television与AlManshiya路口候选
-
-- 地址：Television Street与Al Manshiya交叉口、Winter Palace/Pavillon后门方向，Luxor East Bank；OpenAlfa写Television39，门牌和当前经营须重核
-- 餐费规划：¥15–35
-- 点单：先看标价，点一份小/中碗koshary；想换口味可问一份hawawshi肉馅烤饼，二选一。只在总价明确时购买，不凭旧攻略点整桌。
-- 菜单证据：未取得官方菜单。2026搜索到的本地指南聚合旅客记录有大碗koshary80EGP，但这只是用户报告，存在游客/本地价争议，不能标成已核店家报价。2015–2022年的5–25LE/12LE旧价全部弃用。budgetCny为一人食物规划留量，饮水另计。
-- 营业：本地指南地图聚合列08:00–次日03:00，但与其他平台时间不一致；本次不视作已核营业，须临行联系/实地核实。
-- 核查：2026-11-06：存在具体路口的平价店线索，官方现菜单、准确入口和营业未完成核验；仅条件性候选，建议出发前补核。
-- 证据弱于其他新增店，先作为卢克索廉价缺口的待复核备选，不自动替换AlSahaby主推荐。
-- YoussefHassan/旧市场/SalahElDin多个同名针混杂；本条限定Television×AlManshiya，不把别处分店的电话、菜单、营业时间合并成已核数据。
-- D44/D45从东岸神庙/河岸回住宿方向才选；门头/价格不清楚直接继续原AlSahaby，不为寻找旧店延误休息。
-- 没有核实堂食座位、冷气和插座；需要降温时打包回已确认空调住宿，不塞到D45空调午餐行。
-- [TheLuxorGuide：Television/AlManshiya路口具体分店方向](https://www.theluxorguide.com/areas/east-bank-el-awamya)
-- [TheLuxorGuide：koshary餐种与最新聚合价格报告（非官方价）](https://www.theluxorguide.com/city/luxor/el-zaeem)
-- [OpenAlfa地图目录：ElZaeem Television39条目](https://egypt-streets.openalfa.com/luxor-city/eating-drinking)
-- [Tripadvisor：历史点评明确AlZaeem2路口和其他同名地址混杂，旧价不采用](https://www.tripadvisor.com/Restaurant_Review-g294205-d2727669-Reviews-El_Zaeem_Restaurant-Luxor_Nile_River_Valley.html)
+```json
+{
+  "id": "luxor-elzaeem-television",
+  "city": "卢克索",
+  "name": "El Zaeem / Al Zaeem 2 · Television与AlManshiya路口候选",
+  "address": "Television Street与Al Manshiya交叉口、Winter Palace/Pavillon后门方向，Luxor East Bank；OpenAlfa写Television39，门牌和当前经营须重核",
+  "mapQuery": "El Zaeem Television Street Al Manshiya Luxor Winter Palace",
+  "days": [
+    45
+  ],
+  "rowIds": [
+    "d44v2-09",
+    "d45v2-13"
+  ],
+  "dishes": "先看标价，点一份小/中碗koshary；想换口味可问一份hawawshi肉馅烤饼，二选一。只在总价明确时购买，不凭旧攻略点整桌。",
+  "budgetCny": [
+    15,
+    35
+  ],
+  "menuEvidence": "未取得官方菜单。2026搜索到的本地指南聚合旅客记录有大碗koshary80EGP，但这只是用户报告，存在游客/本地价争议，不能标成已核店家报价。2015–2022年的5–25LE/12LE旧价全部弃用。budgetCny为一人食物规划留量，饮水另计。",
+  "hours": "本地指南地图聚合列08:00–次日03:00，但与其他平台时间不一致；本次不视作已核营业，须临行联系/实地核实。",
+  "sources": [
+    {
+      "title": "TheLuxorGuide：Television/AlManshiya路口具体分店方向",
+      "url": "https://www.theluxorguide.com/areas/east-bank-el-awamya"
+    },
+    {
+      "title": "TheLuxorGuide：koshary餐种与最新聚合价格报告（非官方价）",
+      "url": "https://www.theluxorguide.com/city/luxor/el-zaeem"
+    },
+    {
+      "title": "OpenAlfa地图目录：ElZaeem Television39条目",
+      "url": "https://egypt-streets.openalfa.com/luxor-city/eating-drinking"
+    },
+    {
+      "title": "Tripadvisor：历史点评明确AlZaeem2路口和其他同名地址混杂，旧价不采用",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g294205-d2727669-Reviews-El_Zaeem_Restaurant-Luxor_Nile_River_Valley.html"
+    }
+  ],
+  "cautions": [
+    "证据弱于其他新增店，先作为卢克索廉价缺口的待复核备选，不自动替换AlSahaby主推荐。",
+    "YoussefHassan/旧市场/SalahElDin多个同名针混杂；本条限定Television×AlManshiya，不把别处分店的电话、菜单、营业时间合并成已核数据。",
+    "D44/D45从东岸神庙/河岸回住宿方向才选；门头/价格不清楚直接继续原AlSahaby，不为寻找旧店延误休息。",
+    "没有核实堂食座位、冷气和插座；需要降温时打包回已确认空调住宿，不塞到D45空调午餐行。"
+  ],
+  "verified": "2026-11-06：存在具体路口的平价店线索，官方现菜单、准确入口和营业未完成核验；仅条件性候选，建议出发前补核。",
+  "selectionOrigin": "本次独立补充",
+  "planRole": "门店/菜单先核再选"
+}
+```
 
 ### 开罗 · El Kazaz · Sabry Abou Alam38店
-
-- 地址：38 Sabry Abou Alam Street, off Talaat Harb Square, Downtown Cairo；部分平台写28/39号，订前/临行核门头
-- 餐费规划：¥20–40
-- 点单：点一份foul蚕豆盒配面包，再加一份taameya炸蚕豆球或一小份茄子配菜；想换成肉类则一份鸡肉shawarma饭/卷即可，不把两套叠加。
-- 菜单证据：Talabat商家Downtown–TalaatHarb线上菜单读取：普通调味foul盒46EGP、橄榄油foul盒59EGP、babaGhannoug33EGP；页面还有折后价，但本条只保留原标价作线上参考，不保证堂食分店同价/含面包/含税。官方Facebook被登录页阻拦，未取得官方现价。budgetCny是一人食物规划留量，饮水另计。
-- 营业：Hotlines目录列每日07:00–次日02:30；elmenus另一Alwey分店列07:00–22:00，不能互套；本Sabry38具体营业临行复核。
-- 核查：2026-11-06：具名分店有两目录交叉，Talabat原标价可读；门牌跨平台有差异，官方Facebook未读到菜单，2027需重核。
-- 让开罗四顿AbouTarek有豆餐/鸡肉变化，推荐替D51回市区晚餐或D52回宿午餐；不从GEM或金字塔为此午间返回市中心。
-- 38号有两家独立目录支持，但MenuEgypt写28号、地图有39号；务必用Sabry街与16903核定位，不把Alwey2或AlBostan7分店当同一店。
-- 先问面包、配菜和服务费是否另收；Talabat配送与折扣不是2027堂食保证，不声称冷气/插座。
-- [Hotlines：Kazaz SabryAbouAlam38具名分店与热线16903](https://hotlines.tel/en/sps/1510)
-- [EgyptYellowPages：Kazaz38Sabry分店与另一Alwey分店区分](https://yellowpages.com.eg/en/profile/kazaz-restaurants/533654)
-- [Talabat商家Downtown–TalaatHarb线上菜单：EGP原标价，堂食待核](https://www.talabat.com/egypt/restaurant/637556/elkazaz-restaurants-downtown-talaat-harab?aid=10168)
-- [Kazaz店家Facebook：本次访问受登录限制，未读取菜单](https://www.facebook.com/kazazrestaurant/)
+```json
+{
+  "id": "cairo-kazaz-sabry38",
+  "city": "开罗",
+  "name": "El Kazaz · Sabry Abou Alam38店",
+  "address": "38 Sabry Abou Alam Street, off Talaat Harb Square, Downtown Cairo；部分平台写28/39号，订前/临行核门头",
+  "mapQuery": "El Kazaz 38 Sabry Abou Alam Street Talaat Harb Cairo 16903",
+  "days": [
+    53,
+    52
+  ],
+  "rowIds": [
+    "d49v2-06",
+    "d51v2-11",
+    "d52v2-07"
+  ],
+  "dishes": "点一份foul蚕豆盒配面包，再加一份taameya炸蚕豆球或一小份茄子配菜；想换成肉类则一份鸡肉shawarma饭/卷即可，不把两套叠加。",
+  "budgetCny": [
+    20,
+    40
+  ],
+  "menuEvidence": "Talabat商家Downtown–TalaatHarb线上菜单读取：普通调味foul盒46EGP、橄榄油foul盒59EGP、babaGhannoug33EGP；页面还有折后价，但本条只保留原标价作线上参考，不保证堂食分店同价/含面包/含税。官方Facebook被登录页阻拦，未取得官方现价。budgetCny是一人食物规划留量，饮水另计。",
+  "hours": "Hotlines目录列每日07:00–次日02:30；elmenus另一Alwey分店列07:00–22:00，不能互套；本Sabry38具体营业临行复核。",
+  "sources": [
+    {
+      "title": "Hotlines：Kazaz SabryAbouAlam38具名分店与热线16903",
+      "url": "https://hotlines.tel/en/sps/1510"
+    },
+    {
+      "title": "EgyptYellowPages：Kazaz38Sabry分店与另一Alwey分店区分",
+      "url": "https://yellowpages.com.eg/en/profile/kazaz-restaurants/533654"
+    },
+    {
+      "title": "Talabat商家Downtown–TalaatHarb线上菜单：EGP原标价，堂食待核",
+      "url": "https://www.talabat.com/egypt/restaurant/637556/elkazaz-restaurants-downtown-talaat-harab?aid=10168"
+    },
+    {
+      "title": "Kazaz店家Facebook：本次访问受登录限制，未读取菜单",
+      "url": "https://www.facebook.com/kazazrestaurant/"
+    }
+  ],
+  "cautions": [
+    "让开罗四顿AbouTarek有豆餐/鸡肉变化，推荐替D51回市区晚餐或D52回宿午餐；不从GEM或金字塔为此午间返回市中心。",
+    "38号有两家独立目录支持，但MenuEgypt写28号、地图有39号；务必用Sabry街与16903核定位，不把Alwey2或AlBostan7分店当同一店。",
+    "先问面包、配菜和服务费是否另收；Talabat配送与折扣不是2027堂食保证，不声称冷气/插座。"
+  ],
+  "verified": "2026-11-06：具名分店有两目录交叉，Talabat原标价可读；门牌跨平台有差异，官方Facebook未读到菜单，2027需重核。",
+  "selectionOrigin": "本次独立补充",
+  "planRole": "门店/菜单先核再选"
+}
+```
 
 ### 迪拜 · Karachi Darbar · Satwa / 284D90店
-
-- 地址：Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202
-- 餐费规划：¥35–65
-- 点单：一人点dal豆咖喱配两张roti，或一份chickenbiryani二选一；先问单份总价，不点多人karahi/混合烤肉大盘。
-- 菜单证据：品牌官网菜单搜索索引可确认BiryaniandRice等栏目，但正文抓取反复超时，未取得可核的Satwa单菜AED现价。Talabat店页确认Satwa经营与biryani菜品方向，读取时价格未展开；不采用互相矛盾的菜单聚合价。budgetCny为2027单人食物规划留量，饮水另计；先看牌价，超预算继续AlMallah备选。
-- 营业：Zomato Satwa当前页列05:00–次日01:00；其他目录转述官网05:00–02:30，存在差异。本任务18:30晚餐不依赖凌晨时段，但仍需临行重核。
-- 核查：2026-11-06：Satwa门牌、电话、经营与菜品方向交叉确认；官方单价和Alphatel末段实际交通尚未测得，条件性便餐备选。
-- 适合D53取消迪拜湾短走、留在住宿西侧Satwa吃便餐的版本；若已在Deira且交通顺畅，保留Aroos，不为本店跨区折返。
-- AlphatelDWTC在DWTCSheikhZayedRoad大厦区，Satwa284D90在道路另一侧街区；没有核到酒店门口直达的可靠步行时长或公交班次，不能标成下楼/步行即到。按实际入口规划正规短程公交/车，餐费外另计往返交通和等车时间，不能19:30前结束就跳过。
-- 本条不替换D55DubaiMall内两餐；午间不从商场跑Satwa，也不晚餐后再返回商场等喷泉。
-- 不把Talabat51779的Karama店菜单误套Satwa51773；未核冷气和插座。
-- [KarachiDarbar官网菜单：搜索索引可见栏目，正文超时未取得单价](https://karachidarbargroup.com/menu/)
-- [Zomato Satwa：AlSatwaBusStand附近地址、电话与营业时段](https://www.zomato.com/dubai/karachi-darbar-al-satwa/menu)
-- [RestaurantGuru：284D90具体Satwa门牌，非其他同名分店](https://restaurantguru.com/Karachi-Darbar-Restaurant-Dubai-5)
-- [Talabat Satwa商家页：分店与菜品方向，非Karama店](https://www.talabat.com/uae/restaurant/51773/karachi-darbar-al-satwa?aid=1302)
+```json
+{
+  "id": "dubai-karachidarbar-satwa284",
+  "city": "迪拜",
+  "name": "Karachi Darbar · Satwa / 284D90店",
+  "address": "Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202",
+  "mapQuery": "Karachi Darbar Satwa 284 D90 Dubai 043490202",
+  "days": [
+    54,
+    57
+  ],
+  "rowIds": [
+    "d53v2-09"
+  ],
+  "dishes": "一人点dal豆咖喱配两张roti，或一份chickenbiryani二选一；先问单份总价，不点多人karahi/混合烤肉大盘。",
+  "budgetCny": [
+    35,
+    65
+  ],
+  "menuEvidence": "品牌官网菜单搜索索引可确认BiryaniandRice等栏目，但正文抓取反复超时，未取得可核的Satwa单菜AED现价。Talabat店页确认Satwa经营与biryani菜品方向，读取时价格未展开；不采用互相矛盾的菜单聚合价。budgetCny为2027单人食物规划留量，饮水另计；先看牌价，超预算继续AlMallah备选。",
+  "hours": "Zomato Satwa当前页列05:00–次日01:00；其他目录转述官网05:00–02:30，存在差异。本任务18:30晚餐不依赖凌晨时段，但仍需临行重核。",
+  "sources": [
+    {
+      "title": "KarachiDarbar官网菜单：搜索索引可见栏目，正文超时未取得单价",
+      "url": "https://karachidarbargroup.com/menu/"
+    },
+    {
+      "title": "Zomato Satwa：AlSatwaBusStand附近地址、电话与营业时段",
+      "url": "https://www.zomato.com/dubai/karachi-darbar-al-satwa/menu"
+    },
+    {
+      "title": "RestaurantGuru：284D90具体Satwa门牌，非其他同名分店",
+      "url": "https://restaurantguru.com/Karachi-Darbar-Restaurant-Dubai-5"
+    },
+    {
+      "title": "Talabat Satwa商家页：分店与菜品方向，非Karama店",
+      "url": "https://www.talabat.com/uae/restaurant/51773/karachi-darbar-al-satwa?aid=1302"
+    }
+  ],
+  "cautions": [
+    "适合D53取消迪拜湾短走、留在住宿西侧Satwa吃便餐的版本；若已在Deira且交通顺畅，保留Aroos，不为本店跨区折返。",
+    "AlphatelDWTC在DWTCSheikhZayedRoad大厦区，Satwa284D90在道路另一侧街区；没有核到酒店门口直达的可靠步行时长或公交班次，不能标成下楼/步行即到。按实际入口规划正规短程公交/车，餐费外另计往返交通和等车时间，不能19:30前结束就跳过。",
+    "本条不替换D55DubaiMall内两餐；午间不从商场跑Satwa，也不晚餐后再返回商场等喷泉。",
+    "不把Talabat51779的Karama店菜单误套Satwa51773；未核冷气和插座。"
+  ],
+  "verified": "2026-11-06：Satwa门牌、电话、经营与菜品方向交叉确认；官方单价和Alphatel末段实际交通尚未测得，条件性便餐备选。",
+  "selectionOrigin": "本次独立补充"
+}
+```
 
 ### 亚历山大 · Kadoura Seafood · Mansheya海滨分店
-
-- 地址：6V2P+VRQ, El-Gaish Road, Souq at Tork, Mansheya, Alexandria；仅选Mansheya海滨店，不去远处Montaza/Mandara分店
-- 餐费规划：¥40–80
-- 点单：单人小份烤鱼或一份鱼片＋一份米饭，酱料/沙拉先问是否另收费；整鱼先称重、确认每公斤价与烹饪费，拒绝自动上整桌海鲜拼盘。预算是目标，不是菜单报价。
-- 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
-- 营业：按实际到店日确认；深夜不保证营业
-- 核查：2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。
-- 鱼按重量出售时先核总价、烹调费和服务费。
-- 赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。
-- [门店官方Linktree：Mansheya与Montaza分店定位、官方菜单入口](https://linktr.ee/kadoura_fish)
-- [官方Linktree链接的菜单（动态页面，本次未读到可复核菜价）](https://kadoura.food2go.online/)
+```json
+{
+  "id": "alex-kadoura-mansheya",
+  "city": "亚历山大",
+  "name": "Kadoura Seafood · Mansheya海滨分店",
+  "address": "6V2P+VRQ, El-Gaish Road, Souq at Tork, Mansheya, Alexandria；仅选Mansheya海滨店，不去远处Montaza/Mandara分店",
+  "mapQuery": "Kadoura 6V2P+VRQ El Gaish Road Mansheya Alexandria",
+  "days": [
+    51
+  ],
+  "dishes": [
+    "单人小份烤鱼或一份鱼片＋一份米饭，酱料/沙拉先问是否另收费；整鱼先称重、确认每公斤价与烹饪费，拒绝自动上整桌海鲜拼盘。预算是目标，不是菜单报价。"
+  ],
+  "budgetCny": [
+    40,
+    80
+  ],
+  "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+  "hours": "按实际到店日确认；深夜不保证营业",
+  "sources": [
+    {
+      "title": "门店官方Linktree：Mansheya与Montaza分店定位、官方菜单入口",
+      "url": "https://linktr.ee/kadoura_fish"
+    },
+    {
+      "title": "官方Linktree链接的菜单（动态页面，本次未读到可复核菜价）",
+      "url": "https://kadoura.food2go.online/"
+    }
+  ],
+  "cautions": [
+    "鱼按重量出售时先核总价、烹调费和服务费。",
+    "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+  ],
+  "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+  "selectionOrigin": "本轮北岸具名补充"
+}
+```
 
 ### 亚历山大 · Foul Mohamed Ahmed · Raml Station老店
-
-- 地址：17 Shakour Street, off Saad Zaghloul Street, Raml Station, Alexandria
-- 餐费规划：¥15–30
-- 点单：Ful蚕豆泥＋Ta'ameya蚕豆丸子＋面饼；想吃热汤可选扁豆汤。适合单人便餐，不点多份拼盘；用勺叉和纸巾，微单收好再吃。
-- 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
-- 营业：按实际到店日确认；深夜不保证营业
-- 核查：2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。
-- 鱼按重量出售时先核总价、烹调费和服务费。
-- 赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。
-- [亚历山大图书馆AlexMed饮食档案：17 Shakour Street、ful/falafel/扁豆汤与蛋类](https://www.bibalex.org/alexmed/gastronomy/Eateries/Details.aspx?id=OKxzvPaoi5Qhezr%2FOBDucg%3D%3D)
-- [elmenus原生分店页：17 Shokour St., Off Saad Zaghloul St.](https://www.elmenus.com/alexandria/mohamed-ahmed-a7a3/al-raml-station-7xzv)
-- [Waze门店导航：Shakour Street](https://www.waze.com/live-map/directions/eg/alexandria-governorate/mohamed-ahmed-restaurant?to=place.ChIJORKBme3D9RQRwzLK4q6WLKU)
+```json
+{
+  "id": "alex-mohamed-ahmed",
+  "city": "亚历山大",
+  "name": "Foul Mohamed Ahmed · Raml Station老店",
+  "address": "17 Shakour Street, off Saad Zaghloul Street, Raml Station, Alexandria",
+  "mapQuery": "Foul Mohamed Ahmed 17 Shakour Street Raml Station Alexandria",
+  "days": [
+    51
+  ],
+  "dishes": [
+    "Ful蚕豆泥＋Ta'ameya蚕豆丸子＋面饼；想吃热汤可选扁豆汤。适合单人便餐，不点多份拼盘；用勺叉和纸巾，微单收好再吃。"
+  ],
+  "budgetCny": [
+    15,
+    30
+  ],
+  "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+  "hours": "按实际到店日确认；深夜不保证营业",
+  "sources": [
+    {
+      "title": "亚历山大图书馆AlexMed饮食档案：17 Shakour Street、ful/falafel/扁豆汤与蛋类",
+      "url": "https://www.bibalex.org/alexmed/gastronomy/Eateries/Details.aspx?id=OKxzvPaoi5Qhezr%2FOBDucg%3D%3D"
+    },
+    {
+      "title": "elmenus原生分店页：17 Shokour St., Off Saad Zaghloul St.",
+      "url": "https://www.elmenus.com/alexandria/mohamed-ahmed-a7a3/al-raml-station-7xzv"
+    },
+    {
+      "title": "Waze门店导航：Shakour Street",
+      "url": "https://www.waze.com/live-map/directions/eg/alexandria-governorate/mohamed-ahmed-restaurant?to=place.ChIJORKBme3D9RQRwzLK4q6WLKU"
+    }
+  ],
+  "cautions": [
+    "鱼按重量出售时先核总价、烹调费和服务费。",
+    "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+  ],
+  "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+  "selectionOrigin": "本轮北岸具名补充"
+}
+```
 
 ### 马特鲁 · Magdy Seafood · Omar El-Mokhtar街店
-
-- 地址：Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店
-- 餐费规划：¥40–75
-- 点单：单人份烤鲻鱼/当日鱼＋米饭，或小碗海鲜汤＋米饭。按重量售鱼则先问完整总价，烤制/沙拉/服务费分别确认；不默认点大虾龙虾或海鲜大拼盘。
-- 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
-- 营业：按实际到店日确认；深夜不保证营业
-- 核查：2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。
-- 鱼按重量出售时先核总价、烹调费和服务费。
-- 赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。
-- [Waze：Magdy Seafood门店名、Omar El-Mokhtar地址与导航](https://www.waze.com/live-map/directions/eg/marsa-matrouh-governorate/magdy-seafood?to=place.ChIJm-x2p8v-YRQRz1MioYkiYS8)
-- [门店目录交叉：Omar El-Mokhtar街同名海鲜店；不沿用评分](https://lsteo.com/en/business/magdy-seafood/)
+```json
+{
+  "id": "matrouh-magdy-omar",
+  "city": "马特鲁",
+  "name": "Magdy Seafood · Omar El-Mokhtar街店",
+  "address": "Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店",
+  "mapQuery": "Magdy Seafood Omar El Mokhtar Mersa Matruh",
+  "days": [
+    52
+  ],
+  "dishes": [
+    "单人份烤鲻鱼/当日鱼＋米饭，或小碗海鲜汤＋米饭。按重量售鱼则先问完整总价，烤制/沙拉/服务费分别确认；不默认点大虾龙虾或海鲜大拼盘。"
+  ],
+  "budgetCny": [
+    40,
+    75
+  ],
+  "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+  "hours": "按实际到店日确认；深夜不保证营业",
+  "sources": [
+    {
+      "title": "Waze：Magdy Seafood门店名、Omar El-Mokhtar地址与导航",
+      "url": "https://www.waze.com/live-map/directions/eg/marsa-matrouh-governorate/magdy-seafood?to=place.ChIJm-x2p8v-YRQRz1MioYkiYS8"
+    },
+    {
+      "title": "门店目录交叉：Omar El-Mokhtar街同名海鲜店；不沿用评分",
+      "url": "https://lsteo.com/en/business/magdy-seafood/"
+    }
+  ],
+  "cautions": [
+    "鱼按重量出售时先核总价、烹调费和服务费。",
+    "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+  ],
+  "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+  "selectionOrigin": "本轮北岸具名补充"
+}
+```
 
 ### 马特鲁 · Sahar Restaurant · El Galaa街店
-
-- 地址：12 El Galaa Street, Downtown, beside Oriental Weavers, Mersa Matruh
-- 餐费规划：¥30–60
-- 点单：单人小份Kofta烤肉末串或烤鸡＋面饼/米饭，若只按公斤售卖先问能否四分之一公斤；不点家庭拼盘。此店是有名址的预算备选，未读到官方最新菜单价。
-- 菜单证据：未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。
-- 营业：按实际到店日确认；深夜不保证营业
-- 核查：2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。
-- 鱼按重量出售时先核总价、烹调费和服务费。
-- 赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。
-- [Egypt Yellow Pages门店条目：12 El Galaa St., Beside Oriental Weavers；烧烤与外带](https://yellowpages.com.eg/en/profile/Sahar-Restaurant/106292)
-- [Tripadvisor同名址物业页，仅用于身份交叉，不沿用评分或旧价](https://www.tripadvisor.com/Restaurant_Review-g424910-d2727091-Reviews-Sahar_Restaurant-Mersa_Matruh_Matrouh_Governorate.html)
+```json
+{
+  "id": "matrouh-sahar-galaa",
+  "city": "马特鲁",
+  "name": "Sahar Restaurant · El Galaa街店",
+  "address": "12 El Galaa Street, Downtown, beside Oriental Weavers, Mersa Matruh",
+  "mapQuery": "Sahar Restaurant 12 El Galaa Street Marsa Matruh",
+  "days": [
+    52
+  ],
+  "dishes": [
+    "单人小份Kofta烤肉末串或烤鸡＋面饼/米饭，若只按公斤售卖先问能否四分之一公斤；不点家庭拼盘。此店是有名址的预算备选，未读到官方最新菜单价。"
+  ],
+  "budgetCny": [
+    30,
+    60
+  ],
+  "menuEvidence": "未取得可复核最新菜单价；人民币区间为单人点餐规划，非2027报价。",
+  "hours": "按实际到店日确认；深夜不保证营业",
+  "sources": [
+    {
+      "title": "Egypt Yellow Pages门店条目：12 El Galaa St., Beside Oriental Weavers；烧烤与外带",
+      "url": "https://yellowpages.com.eg/en/profile/Sahar-Restaurant/106292"
+    },
+    {
+      "title": "Tripadvisor同名址物业页，仅用于身份交叉，不沿用评分或旧价",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g424910-d2727091-Reviews-Sahar_Restaurant-Mersa_Matruh_Matrouh_Governorate.html"
+    }
+  ],
+  "cautions": [
+    "鱼按重量出售时先核总价、烹调费和服务费。",
+    "赶车餐等位及出餐合计不超过15–20分钟，来不及用备选或外带。"
+  ],
+  "verified": "2026-11-08 核过具名门店与地址；未实地验证或认证空调、插座。",
+  "selectionOrigin": "本轮北岸具名补充"
+}
+```
 
 ### 伊斯坦布尔SAW机场 · Simit Sarayı · SAW国际出发空侧店
-
-- 地址：Sabiha Gökçen Airport，International Departures Airside；按国际转机区现场导向选择可达分店
-- 餐费规划：¥40–80
-- 点单：芝麻圈或三明治；密封瓶装水
-- 菜单证据：仅确认机场分区有店，未取得该分店当前菜单价；40–80元是采购控制范围，超额则用已备简餐。
-- 营业：机场官方目录确认空侧店；2027营业时间与登机口可达性待核
-- 核查：2026-11-09 官方机场餐饮/航站楼目录
-- 先确认登机口，再决定是否购买。
-- 不为找店离开空侧或错过登机；排队超过10–15分钟即用自备食品。
-- [SAW官方航站楼目录](https://www.sabihagokcen.aero/passengers-and-visitors/passenger-guide/terminal-guide)
-- [SAW官方餐饮目录](https://www.sabihagokcen.aero/passengers-and-visitors/passenger-guide/cafes-and-restaurants)
+```json
+{
+  "id": "saw-simit-airside",
+  "city": "伊斯坦布尔SAW机场",
+  "name": "Simit Sarayı · SAW国际出发空侧店",
+  "address": "Sabiha Gökçen Airport，International Departures Airside；按国际转机区现场导向选择可达分店",
+  "mapQuery": "Simit Sarayi Sabiha Gokcen International Departures",
+  "days": [
+    41
+  ],
+  "budgetCny": [
+    40,
+    80
+  ],
+  "dishes": [
+    "芝麻圈或三明治",
+    "密封瓶装水"
+  ],
+  "hours": "机场官方目录确认空侧店；2027营业时间与登机口可达性待核",
+  "menuEvidence": "仅确认机场分区有店，未取得该分店当前菜单价；40–80元是采购控制范围，超额则用已备简餐。",
+  "verified": "2026-11-09 官方机场餐饮/航站楼目录",
+  "selectionOrigin": "本次独立补充",
+  "cautions": [
+    "先确认登机口，再决定是否购买。",
+    "不为找店离开空侧或错过登机；排队超过10–15分钟即用自备食品。"
+  ],
+  "sources": [
+    {
+      "title": "SAW官方航站楼目录",
+      "url": "https://www.sabihagokcen.aero/passengers-and-visitors/passenger-guide/terminal-guide"
+    },
+    {
+      "title": "SAW官方餐饮目录",
+      "url": "https://www.sabihagokcen.aero/passengers-and-visitors/passenger-guide/cafes-and-restaurants"
+    }
+  ]
+}
+```
 
 ### 安塔利亚 · Tavuk Dünyası · TerraCity分店
-
-- 地址：TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店
-- 餐费规划：¥35–65
-- 点单：鸡肉意面配沙拉；水或Ayran
-- 菜单证据：官方商场确认分店，品牌官网可查菜式；未取得该分店当前含税套餐价。35–65元为计划范围，超预算改同商场便餐。
-- 营业：商场官方当前列此分店；具体2027营业与最后接单待核
-- 核查：2026-11-09 TerraCity官方商户目录
-- 此店在Lara/Fener一侧，不是老城Can Can。
-- 不保证插座、低价套餐或无需排队；超过15–20分钟换便餐。
-- [TerraCity官方分店](https://www.terracity.com.tr/en/gastronomy/restaurants/tavuk-duenyasi/)
-- [品牌官方菜式](https://www.tavukdunyasi.com/lezzetler/tavuklar)
+```json
+{
+  "id": "antalya-tavuk-terracity",
+  "city": "安塔利亚",
+  "name": "Tavuk Dünyası · TerraCity分店",
+  "address": "TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店",
+  "mapQuery": "Tavuk Dunyasi TerraCity Antalya",
+  "days": [
+    25
+  ],
+  "budgetCny": [
+    35,
+    65
+  ],
+  "dishes": [
+    "鸡肉意面配沙拉",
+    "水或Ayran"
+  ],
+  "hours": "商场官方当前列此分店；具体2027营业与最后接单待核",
+  "menuEvidence": "官方商场确认分店，品牌官网可查菜式；未取得该分店当前含税套餐价。35–65元为计划范围，超预算改同商场便餐。",
+  "verified": "2026-11-09 TerraCity官方商户目录",
+  "selectionOrigin": "本次独立补充",
+  "cautions": [
+    "此店在Lara/Fener一侧，不是老城Can Can。",
+    "不保证插座、低价套餐或无需排队；超过15–20分钟换便餐。"
+  ],
+  "sources": [
+    {
+      "title": "TerraCity官方分店",
+      "url": "https://www.terracity.com.tr/en/gastronomy/restaurants/tavuk-duenyasi/"
+    },
+    {
+      "title": "品牌官方菜式",
+      "url": "https://www.tavukdunyasi.com/lezzetler/tavuklar"
+    }
+  ]
+}
+```
 
 ### 费特希耶 · Tavuk Dünyası · Erasta Fethiye分店
+```json
+{
+  "id": "fethiye-tavuk-erasta",
+  "city": "费特希耶",
+  "name": "Tavuk Dünyası · Erasta Fethiye分店",
+  "address": "Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口",
+  "mapQuery": "Tavuk Dunyasi Erasta Fethiye AVM",
+  "days": [
+    28
+  ],
+  "budgetCny": [
+    35,
+    65
+  ],
+  "dishes": [
+    "鸡肉、意面与沙拉拼盘",
+    "水或Ayran"
+  ],
+  "hours": "Erasta官网当前10:00–22:00；2027及最后接单待核",
+  "menuEvidence": "商场与品牌官方均列Fethiye Erasta分店，未取得该分店含税菜单现价；35–65元为规划范围。",
+  "verified": "2026-11-09 官网分店目录与商场地址",
+  "selectionOrigin": "本次独立补充",
+  "cautions": [
+    "Fethiye与Antalya TerraCity为不同分店，不混用地址。",
+    "先看菜单；超预算或长队则用同商场便餐，13点按计划去海滩。"
+  ],
+  "sources": [
+    {
+      "title": "Erasta Fethiye官方分店",
+      "url": "https://erastafethiye.com/en/detail/brand/tavuk-dunyasi"
+    },
+    {
+      "title": "品牌官方分店表",
+      "url": "https://www.tavukdunyasi.com/tr-en/restaurants"
+    }
+  ]
+}
+```
 
-- 地址：Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口
-- 餐费规划：¥35–65
-- 点单：鸡肉、意面与沙拉拼盘；水或Ayran
-- 菜单证据：商场与品牌官方均列Fethiye Erasta分店，未取得该分店含税菜单现价；35–65元为规划范围。
-- 营业：Erasta官网当前10:00–22:00；2027及最后接单待核
-- 核查：2026-11-09 官网分店目录与商场地址
-- Fethiye与Antalya TerraCity为不同分店，不混用地址。
-- 先看菜单；超预算或长队则用同商场便餐，13点按计划去海滩。
-- [Erasta Fethiye官方分店](https://erastafethiye.com/en/detail/brand/tavuk-dunyasi)
-- [品牌官方分店表](https://www.tavukdunyasi.com/tr-en/restaurants)

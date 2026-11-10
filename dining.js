@@ -24,7 +24,7 @@
  for(const m of data.meals){const row=getRow(m),s=shops[m.shop];row.originalDiningTitle=row.title;row.dining=m;row.title=m.meal+'：'+short(s);row.plain=row.title+' '+row.originalDiningTitle+' '+row.detail.replace(/<[^>]+>/g,' ')+' '+s.address+' '+s.dishes;row.links.push({label:m.meal+'导航 · '+s.name,url:nav(s)});}
  // Rest stops, tour meals, tickets and task IDs stay in their existing slots.
  // These two route texts must lead to the chosen restaurant before Salacak.
- const r33=D.days[32].rows.find(r=>r.id==='d33v2-12');
+ const r33=D.days.flatMap(d=>d.rows).find(r=>r.id==='d33v2-12');
  if(r33){r33.title='Kuzguncuk → Üsküdar Kanaat餐厅';r33.detail='<p>16:45–17:30用公交/正规接驳返Üsküdar中心SelmaniPak9号Kanaat总店，按实时导航。先吃晚餐再去Salacak，不先到海岸再走回餐厅。</p>';r33.links=[{label:'前往Kanaat餐厅',url:'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent('Kuzguncuk Istanbul')+'&destination='+encodeURIComponent(shops['istanbul-kanaat-uskudar'].mapQuery)+'&travelmode=transit'}];}
  // Meal rows are separate activities; never rename a transfer, queue or night walk as dinner.
  for(const d of D.days)for(const r of d.rows)if(r.dining||r===r33)r.plain=r.title+' '+(r.originalDiningTitle||'')+' '+r.detail.replace(/<[^>]+>/g,' ')+(r.dining?' '+shops[r.dining.shop].address+' '+shops[r.dining.shop].dishes:'');

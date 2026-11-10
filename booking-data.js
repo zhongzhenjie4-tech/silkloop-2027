@@ -1,15 +1,15 @@
 window.TRIP_BOOKING_DATA = {
-  "checked": "2026-11-08",
+  "checked": "2026-11-10",
   "calendar": {
-    "checked": "2026-11-06",
-    "planDates": "2027-07-11—2027-09-05；目标9月4日到杭州，9月5日休整，9月6日开学",
+    "checked": "2026-11-10",
+    "planDates": "2027-07-11—2027-09-06；9月6日17:05到杭州，9月7日开学",
     "automaticMonitoringCreated": false,
     "bookingPerformed": false,
-    "evidenceBoundary": "核实官网入口、现行规则与路线方向；没有取得指定2027日期的可支付报价、联程库存或房态。下面月份是按本次返校和多段衔接给的执行建议，不是最低价预测。官网营销页No result不能直接解释成航班没开售或已售罄。",
+    "evidenceBoundary": "本轮更新路线方向和日历；PC292、EK928、EK310时刻来自用户确认，实际金额与订单编号不公开。其他票价、起降和住宿仍是规划或询价目标，指定日期库存及最终票规以航司/住宿为准。没有代用户下单或创建自动监控。",
     "saleWindow": {
       "emiratesDays": 328,
-      "daysUntilReturnFromCheckedDate": 302,
-      "conclusion": "按Emirates当前提前328天的在线购票规则，2027-09-04已在可查询时间范围内，可以现在开始查；不表示指定EK310已经有位、价格合适或时刻已确定。其他航司未取得统一开售天数，不编固定放票日。",
+      "daysUntilReturnFromCheckedDate": 300,
+      "conclusion": "返程已按用户确认的2027-09-06 EK310时刻排，不再以旧9/4日期判断开售。售票窗口只说明可查日期范围，不保证库存或票价。",
       "url": "https://www.emirates.com/english/help/faq-topics/booking-with-emirates/"
     },
     "routes": [
@@ -22,10 +22,10 @@ window.TRIP_BOOKING_DATA = {
           "TAS",
           "GYD"
         ],
-        "priority": "第二批主链：乌兹别克到高加索",
-        "startWatching": "现在（2026-11-06）开始，先记录基准；2026-12至2027-02每周手动比较一次",
-        "recommendedDecision": "目标2027-01至03比较并落实；争取2027-04前确定，主链其他日期先核完整",
-        "flexibility": "搜索7/23、7/24、7/25；改日要同步乌兹别克/巴库住宿和巴库出境，不向返校端顺延",
+        "priority": "待购主链：乌兹别克→高加索；与EVN→BEG一起定日期",
+        "startWatching": "现在开始记含税基准；主链改日先检查两端住宿和后续跨境交通。",
+        "recommendedDecision": "合适价格及完整行程可售时落实；2027春季仍未定则重新检查日期库存。",
+        "flexibility": "以7/24为计划日；可比较前后1日，但不能只改机票不改巴库、铁路及签证日期。",
         "checks": [
           "比较Uzbekistan Airways与AZAL承运/代码共享的含税单人总价，不只盯HY755号。",
           "核实际TAS出发机场/航站楼与GYD抵达日；HY755当前官网出发板只证明现行样例，不证明7/24时刻。",
@@ -35,86 +35,112 @@ window.TRIP_BOOKING_DATA = {
         "compareUrls": [
           "https://www.uzairways.com/en/schedule",
           "https://www.uzairways.com/en"
-        ]
+        ],
+        "timeReference": "12:30 塔什干 → 14:25 巴库·样例 · Uzbekistan Airways HY755：塔什干 → 巴库"
       },
       {
-        "id": "evn-cap",
-        "label": "埃里温EVN → 伊斯坦布尔SAW → 开塞利ASR / 内夫谢希尔NAV",
+        "id": "evn-beg",
+        "label": "埃里温EVN → 贝尔格莱德BEG",
         "date": "2027-08-01",
         "day": 22,
         "airports": [
           "EVN",
-          "SAW",
-          "ASR",
-          "NAV"
+          "BEG"
         ],
-        "priority": "第一批主链：同票转机与卡帕接驳",
-        "startWatching": "现在开始；若官网日期还无可售行程，隔2–4周复查，冬季航班页不替代夏季查询",
-        "recommendedDecision": "目标2027-01至03找到完整联程；2027-04前与卡帕住宿一起确认",
-        "flexibility": "搜索7/31—8/2及ASR/NAV两个终点；优先一张可保护衔接的联程，不为了便宜拆成两张短转机票",
+        "priority": "待购主链：先到塞尔维亚，随后陆路去波黑",
+        "startWatching": "现在查8/1航司可售行程，记录最终含税、所选包额与退改口径。",
+        "recommendedDecision": "与8/5贝城→萨城地面交通和8/8已落实PC292组成一组检查后落实。",
+        "flexibility": "8/1计划；若查前后1日，保持8/8萨城飞伊城锚点，不自动顺延后段。",
         "checks": [
-          "原04:15EVN—05:40SAW接08:00ASR只是现行冬季样例拼接；本次未取得2027-08-01可售联程或官方最低衔接证明。",
-          "国际转土耳其国内线需按转机路径过护照检查，不能当国际纯空侧转机；分别出票可能要重新值机。",
-          "只在SAW内转；若搜索结果变成IST，属于另一座机场，必须重新评估跨城移动。",
-          "05:40—08:00的2小时20分不能承诺够用；若不是航司同票可售连接，优先较晚国内段或更长缓冲。4小时以上可作个人规划目标，不冒充官方最低。",
-          "核实装主包/单肩包能否符合票种自带包额度，实际超限才查加购、ASR/NAV接驳费、凌晨EVN交通和前一晚睡眠。"
+          "本段终点是BEG，不是SAW/ASR/NAV；旧EVN→卡帕联程的时刻、报价和套餐不沿用。",
+          "以当日可售的直飞或完整联程为准；候选若经其他机场，检查护照、转机入境与同票保护。",
+          "本页仅给公开计划与比价口径；订单状态、实付和订位编号保留本机私密区。"
         ],
-        "url": "https://www.flypgs.com/en/useful-info/info-about-flights/our-network",
+        "timeReference": "14:20 EVN → 15:35 BEG · Air Serbia JU851：埃里温→贝尔格莱德",
+        "url": "https://www.airserbia.com/",
+        "compareUrls": [
+          "https://www.flypgs.com/en"
+        ]
+      },
+      {
+        "id": "sjj-saw",
+        "label": "PC292 萨拉热窝SJJ → 伊斯坦布尔SAW · 11:05–13:50",
+        "date": "2027-08-08",
+        "day": 29,
+        "airports": [
+          "SJJ",
+          "SAW"
+        ],
+        "status": "user-confirmed",
+        "flight": "PC292",
+        "departureTime": "11:05",
+        "arrivalTime": "13:50",
+        "departureTimezone": "Europe/Sarajevo",
+        "arrivalTimezone": "Europe/Istanbul",
+        "priority": "用户确认已落实；只公开始时刻，实际支付与订单仅在本机",
+        "startWatching": "不再作为待购目标；出发前检查航司通知。",
+        "recommendedDecision": "保留本人电子客票与实际票规，8/8按PC292执行；不从公开预算反推实付。",
+        "flexibility": "按本人订单处理任何改签；公开计划不自动改原订单日期。",
+        "checks": [
+          "8/8当地11:05从SJJ起飞、13:50到SAW；SJJ夏令时UTC+2、伊城UTC+3，飞行时间约1小时45分。",
+          "抵达SAW后入境取包再进老城；SAW与IST不同，不能沿用去IST的接驳。",
+          "航变、行李额度、值机与登机截止以电子客票及当日航司要求为准。"
+        ],
+        "url": "https://www.flypgs.com/en/manage-my-booking",
+        "compareUrls": []
+      },
+      {
+        "id": "asr-hrg",
+        "label": "开塞利ASR → SAW（入城半日）→ 赫尔格达HRG",
+        "date": "2027-08-20",
+        "day": 41,
+        "airports": [
+          "ASR",
+          "SAW",
+          "HRG"
+        ],
+        "status": "planned-not-booked",
+        "priority": "待购主链：国内段到SAW后进Kadıköy，再回同一机场飞HRG",
+        "startWatching": "现在查8/20完整可售行程；同时比较同票与分票，但分票不能按联程保护理解。",
+        "recommendedDecision": "先核09:05→10:30和21:50→次日00:30均可售、包额和衔接规则，再落实。",
+        "flexibility": "8/20为锚点；候选改晚到或改机场即取消入城。目标18:30回SAW，最迟18:50；时间不足就改机场内候机。",
+        "departureTime": "09:05",
+        "arrivalTime": "00:30",
+        "arrivalDate": "2027-08-21",
+        "legs": [
+          {
+            "from": "ASR",
+            "to": "SAW",
+            "departureTime": "09:05",
+            "arrivalTime": "10:30",
+            "date": "2027-08-20",
+            "status": "planned-not-booked"
+          },
+          {
+            "from": "SAW",
+            "to": "HRG",
+            "departureTime": "21:50",
+            "arrivalTime": "00:30",
+            "date": "2027-08-20",
+            "arrivalDate": "2027-08-21",
+            "status": "planned-not-booked"
+          }
+        ],
+        "checks": [
+          "09:05 ASR→10:30 SAW、21:50 SAW→8/21 00:30 HRG是当前待购计划，未标成已出票。",
+          "上午ASR→SAW为土耳其国内到达；入城游览后仍需重新过出境安检飞埃及，不能把晚段当纯空侧中转。",
+          "进Kadıköy前确认晚班运行、行李去向和寄存，17:00前开始返程，目标18:30、最迟18:50回到SAW。时间被压缩则删入城，不改夜间航班。",
+          "确认是否同票、能否在SAW取/直挂行李以及票种实际随身额度；分票延误不等于航司负责后段。",
+          "HRG 8/21凌晨抵达，青旅预订8/20夜并书面确认凌晨接待；不能只订8/21下午起的房。"
+        ],
+        "url": "https://www.flypgs.com/en",
         "compareUrls": [
           "https://www.flypgs.com/en/what-should-you-do-when-connecting-flights"
         ]
       },
       {
-        "id": "ist-sjj",
-        "label": "伊斯坦布尔SAW或IST → 萨拉热窝SJJ",
-        "date": "2027-08-13",
-        "day": 34,
-        "airports": [
-          "SAW",
-          "IST",
-          "SJJ"
-        ],
-        "priority": "第二批主链：土耳其到巴尔干",
-        "startWatching": "现在开始，2026-12至2027-02每周手动比较",
-        "recommendedDecision": "目标2027-01至03确定；与后续BEG→HRG日期成组检查，2027-04前落实",
-        "flexibility": "搜索8/12—14；SAW与IST分别算市区交通和行李后的总价，调整需同步两地住宿",
-        "checks": [
-          "Pegasus以SAW方向查，Turkish Airlines以IST方向查；不能把价格低的一机场套到另一机场路线。",
-          "PC293现行冬季下午样例不是8/13夏季时刻；萨拉热窝夏令时也要核对。",
-          "先比较票种自带随身包、值机费、改退和去机场的完整成本；至少保留航司要求的机场提前量。"
-        ],
-        "url": "https://www.flypgs.com/en/airports/sarajevo-international-airport",
-        "compareUrls": [
-          "https://www.turkishairlines.com/"
-        ]
-      },
-      {
-        "id": "beg-hrg",
-        "label": "贝尔格莱德BEG → 赫尔格达HRG",
-        "date": "2027-08-20",
-        "day": 41,
-        "airports": [
-          "BEG",
-          "HRG"
-        ],
-        "priority": "第一批主链：先核指定日开行，不能默认每天直飞",
-        "startWatching": "现在先查2027夏季可售日历；2026-12至2027-02重点比较",
-        "recommendedDecision": "目标2027-01至03确认实际开行日；如2027-03仍无可行直飞，比较8/19—21或一次合理中转并重排前后城市",
-        "flexibility": "8/19—21优先；若改成BEG→CAI，必须重算埃及游览顺序，不把CAI当HRG的等价替换",
-        "checks": [
-          "Air Cairo官网有BEG→HRG路线入口，只说明方向存在，不证明8/20星期五有航班。",
-          "原SM388 05:30→09:50为2026冬季周三样例；2027夏季日期、时区和班号均未核。",
-          "核7kg手提、是否季节/包机销售限制、真实承运人、到达时段与夜间去机场交通。",
-          "不要先买不可退的埃及首晚住宿再等罕见开行日；先把这段与国际返程主链对齐。"
-        ],
-        "url": "https://aircairo.com/en-rs/offer-info/beg-hrg-o",
-        "compareUrls": [
-          "https://aircairo.com/en-rs/book-flight/"
-        ]
-      },
-      {
         "id": "asw-cai",
-        "label": "阿斯旺ASW → 开罗CAI（夜巴替代，可不买）",
+        "label": "阿斯旺ASW → 开罗CAI（8/27夜巴替代，可不买）",
         "date": "2027-08-28",
         "day": 49,
         "airports": [
@@ -127,7 +153,7 @@ window.TRIP_BOOKING_DATA = {
         "flexibility": "8/27晚或8/28早均可检索，保住8/28开罗休整；改早班机须补8/27阿斯旺住宿",
         "checks": [
           "对比含税基础票+实际超限时才需要的加购+ASW/CAI两端接驳+额外住宿，与8/27夜巴+接驳+到店休息成本。",
-          "ASW→CAI到开罗国际机场，不是SPX；不把此国内段直接接9/1出境，仍保留开罗数日缓冲。",
+          "ASW→CAI到开罗国际机场，不是SPX；不把此国内段直接接9/2出境，仍保留开罗数日缓冲。",
           "EGYPTAIR官方提供日期Timetable入口，本次没有取得2027-08-28具体航班和报价；不要复制第三方当前航班号。"
         ],
         "url": "https://www.egyptair.com/en/Pages/HomePage.aspx",
@@ -137,117 +163,141 @@ window.TRIP_BOOKING_DATA = {
       },
       {
         "id": "cai-uae",
-        "label": "CAI→DXB EK928 13:10–17:30",
+        "label": "EK928 开罗CAI T2 → 迪拜DXB T3 · 13:10–17:30",
         "date": "2027-09-02",
         "day": 54,
         "airports": [
           "CAI",
-          "SPX",
-          "SHJ",
-          "AUH",
           "DXB"
         ],
-        "priority": "已确认时刻；真实订单只在本机区",
-        "startWatching": "现在开始，和9/4返中国组成一组看总价",
-        "recommendedDecision": "无需继续守候原廉航路线；保留本人的电子客票和票规。",
-        "flexibility": "改签前按本票规则核手续费与差价",
+        "priority": "用户确认已落实时刻；订单及实付仅本机保存",
+        "startWatching": "不再追原廉航替代线；留意航司航变通知。",
+        "recommendedDecision": "9/2按本人EK928客票执行；实际订单状态和退改条件保留本机。",
+        "flexibility": "本路线为CAI，不是SPX；任何改签按本人票规处理。",
         "checks": [
-          "CAI T2，不是SPX；09:30前到航站楼。"
+          "CAI T2，不是SPX；按主行程09:30前到航站楼，具体值机和登机要求以本人客票为准。"
         ],
         "url": "https://www.emirates.com/english/manage-booking/",
-        "compareUrls": [
-          "https://flights.airarabia.com/en/flights-from-giza-to-abu-dhabi",
-          "https://www.emirates.com/english/book/"
-        ]
+        "compareUrls": [],
+        "departureTime": "13:10",
+        "arrivalTime": "17:30",
+        "status": "user-confirmed"
       },
       {
         "id": "uae-hgh",
-        "label": "DXB T3→HGH T4 · EK310 04:35–17:05",
+        "label": "EK310 迪拜DXB T3 → 杭州HGH T4 · 04:35–17:05",
         "date": "2027-09-06",
         "day": 58,
         "airports": [
           "DXB",
-          "AUH",
-          "HGH",
-          "PVG"
+          "HGH"
         ],
-        "priority": "按最新确认时刻执行，9/7开学",
-        "startWatching": "现在就看（2026-11-06）；按Emirates328天规则，302天后的9/4已在查询范围",
-        "recommendedDecision": "9/5退房寄存，22:30–23:00到DXB T3；订单状态保存在本机。",
-        "flexibility": "不自动顺延返校日期",
+        "priority": "用户确认已落实时刻；9/6到杭，9/7开学",
+        "startWatching": "不继续追旧9/4日期；留意本人订单航变。",
+        "recommendedDecision": "9/5退房寄存，取包后22:30–23:00到DXB T3；9/6 04:35起飞。",
+        "flexibility": "不自动顺延返校日期；改签先核本人退改条款。",
         "checks": [
-          "9/2–9/4三晚床位；9/5不另计付费房。",
-          "杭州机场出站后地铁19号线换5号线，最后到校路段另计。"
+          "9/2、9/3、9/4三晚床位；9/5默认不再付一夜房费，寄存及洗浴另外向住宿确认。",
+          "9/6 17:05落地杭州；最后到校交通及校门/宿舍准入按本人情况核对。"
         ],
         "url": "https://www.emirates.com/english/manage-booking/",
-        "compareUrls": [
-          "https://www.emirates.com/english/book/",
-          "https://www.etihad.com/",
-          "https://www.emirates.com/english/special-offers/student-special-fares/"
-        ]
+        "compareUrls": [],
+        "departureTime": "04:35",
+        "arrivalTime": "17:05",
+        "status": "user-confirmed"
       }
     ],
     "phases": [
       {
         "window": "现在—2027年春季",
-        "title": "大交通与真实床型比价",
+        "title": "落实剩余主链，保留已确认航班",
         "actions": [
-          "剩余四段航空按20kg托运＋8kg手提套餐看最终总价。",
-          "两段阿航采用9/2与9/6新时刻，保电子票原件和本人的退改条款。",
-          "马特鲁询1人占用整间的含税价，不能用双人分摊价。"
+          "重点查TAS→GYD、EVN→BEG、ASR→SAW及SAW→HRG；按最终所选票种与包额比完整含税总价。",
+          "PC292 8/8 SJJ→SAW、EK928 9/2 CAI→DXB、EK310 9/6 DXB→HGH按用户确认时刻排，实际支付和订单仅存本机。",
+          "贝城→萨城跨境大巴、反向土耳其两晚夜巴与马特鲁1人整间价同步核；当前没有自动盯价。"
         ]
       },
       {
         "window": "2027年5—6月",
-        "title": "学生证明、签证与保险",
+        "title": "学生证明、入境材料与保险",
         "actions": [
-          "办有效实体ISIC并核两宫学生资格。",
-          "出境前完成覆盖58天及全部目的地的保险与格鲁吉亚英文证明。",
-          "按当年放票窗口订国际铁路和杭州—新疆学生硬卧。"
+          "办有效实体ISIC，逐景点核外国学生资格；未确认优惠不当作必然半价。",
+          "出境前落实覆盖58天及全部目的地的保险与格鲁吉亚英文证明。",
+          "按2027当期规则处理杭州—新疆学生硬卧与跨境铁路，原区间核验状态不重置。"
         ]
       },
       {
         "window": "临近各城市前7—14天",
-        "title": "落实具体班次与住宿",
+        "title": "复核车站、运营与晚到接待",
         "actions": [
-          "核夜车、北岸大巴和返程火车的实际发车站。",
-          "确认开罗隔夜寄包、HRG凌晨入住和青旅洗衣最后受理时间。",
-          "9/5取包去DXB，22:30–23:00到T3；9/7开学。"
+          "核贝城→萨城、莫斯塔尔往返、伊城→费特希耶与安塔利亚→格雷梅具体出发站及班次。",
+          "确认HRG预订8/20夜并接待8/21凌晨到店，夜巴日不重复计酒店。",
+          "9/5取包去DXB，22:30–23:00到T3；原日期私密酒店和票夹不会随公开换序自动改。"
         ]
       }
     ],
     "hotelStrategy": {
-      "principle": "现在可以看房并收藏；只有真实开放2027房态且取消条件合适时才先占可退床位。可退不等于不预付，按每张订单的当地取消截止执行。不要现在把48夜全买成不可退。",
+      "principle": "现在可收藏候选；仅在真实开放2027房态且取消条件合适时先占可退床位。当前49付费夜，候选不等于已订。可退不等于不预付，按每张订单当地取消截止执行。",
       "priorityCities": [
         {
-          "city": "Kaş",
+          "city": "贝尔格莱德",
+          "checkIn": "2027-08-01",
+          "checkOut": "2027-08-05",
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
+        },
+        {
+          "city": "萨拉热窝",
           "checkIn": "2027-08-05",
-          "checkOut": "2027-08-07",
-          "action": "先锁可取消房；实际订单与完整地址仅放本机加密区。"
+          "checkOut": "2027-08-08",
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
         },
         {
           "city": "伊斯坦布尔",
           "checkIn": "2027-08-08",
-          "checkOut": "2027-08-13",
-          "action": "先锁可取消房；实际订单与完整地址仅放本机加密区。"
+          "checkOut": "2027-08-12",
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
+        },
+        {
+          "city": "Kaş",
+          "checkIn": "2027-08-13",
+          "checkOut": "2027-08-15",
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
+        },
+        {
+          "city": "格雷梅",
+          "checkIn": "2027-08-17",
+          "checkOut": "2027-08-20",
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
+        },
+        {
+          "city": "赫尔格达",
+          "checkIn": "2027-08-20",
+          "checkOut": "2027-08-23",
+          "action": "8/20夜保留供8/21凌晨到店，必须提前确认接待；真实订单只在本机加密区。"
         },
         {
           "city": "开罗",
           "checkIn": "2027-08-28",
+          "checkOut": "2027-08-30",
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
+        },
+        {
+          "city": "开罗",
+          "checkIn": "2027-08-31",
           "checkOut": "2027-09-02",
-          "action": "先锁可取消房；实际订单与完整地址仅放本机加密区。"
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
         },
         {
           "city": "马特鲁",
           "checkIn": "2027-08-30",
           "checkOut": "2027-08-31",
-          "action": "先锁可取消房；实际订单与完整地址仅放本机加密区。"
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
         },
         {
           "city": "迪拜",
           "checkIn": "2027-09-02",
           "checkOut": "2027-09-05",
-          "action": "先锁可取消房；实际订单与完整地址仅放本机加密区。"
+          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
         }
       ],
       "rolling": "其他城市的床位先收藏2家，主链确定后于2027-03至05处理首晚、晚到或小型青旅；余下低风险连住段可以出发前2–4周按实际库存滚动补。若价格/库存变紧则提前，不机械等最后一周。",
@@ -710,66 +760,45 @@ window.TRIP_BOOKING_DATA = {
       ]
     },
     {
-      "id": "goreme",
-      "city": "格雷梅",
-      "name": "Diadem Cappadocia Guest House & Hostel",
-      "url": "https://www.hostelworld.com/hostels/p/309518/diadem-cappadocia-guest-house-and-hostel/",
+      "id": "belgrade",
+      "city": "贝尔格莱德",
+      "name": "Balkan Soul Hostel",
+      "url": "https://balkansoulhostel.com/",
+      "planCny": [
+        85,
+        150
+      ],
+      "periods": [
+        {
+          "checkIn": "2027-08-01",
+          "checkOut": "2027-08-05",
+          "nights": 4
+        }
+      ],
+      "previousCny": [
+        130,
+        240
+      ]
+    },
+    {
+      "id": "sarajevo",
+      "city": "萨拉热窝",
+      "name": "Hostel Kucha（优先Tramvaj 8床混合间比价）",
+      "url": "https://hostelkucha.com/",
       "planCny": [
         90,
         150
       ],
       "periods": [
         {
-          "checkIn": "2027-08-01",
-          "checkOut": "2027-08-03",
-          "nights": 2
-        }
-      ],
-      "previousCny": [
-        120,
-        220
-      ]
-    },
-    {
-      "id": "antalya",
-      "city": "安塔利亚",
-      "name": "Flaneur Hostel",
-      "url": "https://www.hostelworld.com/hostels/p/308595/flaneur-hostel/",
-      "planCny": [
-        80,
-        140
-      ],
-      "periods": [
-        {
-          "checkIn": "2027-08-04",
-          "checkOut": "2027-08-05",
-          "nights": 1
+          "checkIn": "2027-08-05",
+          "checkOut": "2027-08-08",
+          "nights": 3
         }
       ],
       "previousCny": [
         110,
         200
-      ]
-    },
-    {
-      "id": "kas",
-      "city": "Kaş",
-      "name": "Ates Pension / Ateş Pansiyon（4床混合宿舍，条件候选）",
-      "url": "https://www.booking.com/hotel/tr/ates-pension.html",
-      "planCny": [
-        110,
-        180
-      ],
-      "periods": [
-        {
-          "checkIn": "2027-08-05",
-          "checkOut": "2027-08-07",
-          "nights": 2
-        }
-      ],
-      "previousCny": [
-        160,
-        280
       ]
     },
     {
@@ -784,8 +813,8 @@ window.TRIP_BOOKING_DATA = {
       "periods": [
         {
           "checkIn": "2027-08-08",
-          "checkOut": "2027-08-13",
-          "nights": 5
+          "checkOut": "2027-08-12",
+          "nights": 4
         }
       ],
       "previousCny": [
@@ -794,19 +823,40 @@ window.TRIP_BOOKING_DATA = {
       ]
     },
     {
-      "id": "sarajevo",
-      "city": "萨拉热窝",
-      "name": "Hostel Kucha（优先Tramvaj 8床混合间比价）",
-      "url": "https://hostelkucha.com/",
+      "id": "kas",
+      "city": "Kaş",
+      "name": "Ates Pension / Ateş Pansiyon（4床混合宿舍，条件候选）",
+      "url": "https://www.booking.com/hotel/tr/ates-pension.html",
       "planCny": [
-        90,
-        150
+        110,
+        180
       ],
       "periods": [
         {
           "checkIn": "2027-08-13",
+          "checkOut": "2027-08-15",
+          "nights": 2
+        }
+      ],
+      "previousCny": [
+        160,
+        280
+      ]
+    },
+    {
+      "id": "antalya",
+      "city": "安塔利亚",
+      "name": "Flaneur Hostel",
+      "url": "https://www.hostelworld.com/hostels/p/308595/flaneur-hostel/",
+      "planCny": [
+        80,
+        140
+      ],
+      "periods": [
+        {
+          "checkIn": "2027-08-15",
           "checkOut": "2027-08-16",
-          "nights": 3
+          "nights": 1
         }
       ],
       "previousCny": [
@@ -815,24 +865,24 @@ window.TRIP_BOOKING_DATA = {
       ]
     },
     {
-      "id": "belgrade",
-      "city": "贝尔格莱德",
-      "name": "Balkan Soul Hostel",
-      "url": "https://balkansoulhostel.com/",
+      "id": "goreme",
+      "city": "格雷梅",
+      "name": "Diadem Cappadocia Guest House & Hostel",
+      "url": "https://www.hostelworld.com/hostels/p/309518/diadem-cappadocia-guest-house-and-hostel/",
       "planCny": [
-        85,
+        90,
         150
       ],
       "periods": [
         {
-          "checkIn": "2027-08-16",
+          "checkIn": "2027-08-17",
           "checkOut": "2027-08-20",
-          "nights": 4
+          "nights": 3
         }
       ],
       "previousCny": [
-        130,
-        240
+        120,
+        220
       ]
     },
     {
@@ -968,8 +1018,8 @@ window.TRIP_BOOKING_DATA = {
     }
   ],
   "totalStayTargetCny": [
-    3925,
-    6835
+    3935,
+    6845
   ],
   "previousStayPlanCny": [
     5160,

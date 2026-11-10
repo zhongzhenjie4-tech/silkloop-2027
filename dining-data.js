@@ -1,6 +1,6 @@
 window.TRIP_DINING_DATA = {
-  "checked": "2026-11-09",
-  "reviewNote": "2026-11-09时段与动线复核；D28提前到Fethiye，午餐改Erasta分店；原菜单现价和营业证据仍按各店记录。",
+  "checked": "2026-11-10",
+  "reviewNote": "2026-11-10按反向路线重排餐厅日期与用餐卡；门店和菜单证据沿用各店原核查日，未声称重新实地核验或取得2027价格。",
   "restaurants": [
     {
       "id": "yining-jiang-jianmian",
@@ -457,7 +457,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "D16希尔万沙宫结束后往喷泉广场再回住宿，按实际青旅位置核步行；不是宫门口店。",
-        "13:30前离店，保留原午休与夜车核验；等位超过15分钟换Firuzə或现成简餐。",
+        "13:30前离店，保留原下午安排与夜车核验；等位超过15分钟换Firuzə或现成简餐。",
         "空调、可借插座、Google评分数量未实证。"
       ],
       "verified": "地址与10%服务费有第一方来源，菜单单品和营业未核；2027重核。"
@@ -523,7 +523,7 @@ window.TRIP_DINING_DATA = {
         55
       ],
       "menuEvidence": "市官方旅游页证实店与地址，OddMenu链接可打开但未取得菜价正文；原稿500–800AMD和凌晨4点不能当本次已核。食物区间为规划，饮品与服务费看现场菜单。",
-      "hours": "营业时间未取得第一方可靠证明；D19约20:00、D20约17:00、D21须18:00前吃完，均先电话确认。",
+      "hours": "店方营业时段待出发前确认；D19/D20/D21按当日日程就餐，D21已取消为旧凌晨航班而18:30强制早睡。",
       "sources": [
         {
           "title": "埃里温市官方旅游页：TunLahmajo位于23Teryan",
@@ -536,7 +536,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "D19从Cascade返回共和国广场途中可经Teryan吃，不再另跑远店。",
-        "D21早睡18:30不变，17点前开始点餐；若排队就打包或换附近快餐。",
+        "D21在城内正常晚餐；8/1下午航班，不必为旧凌晨航班提前在17点吃晚饭。",
         "官方旅游页23号与部分地图25号不一致，导航用完整店名；联系电话+37410538717。",
         "冷气、插座和Google评分未核。"
       ],
@@ -572,7 +572,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D21半日KhorVirap回城若晚，直接TunLahmajo或住宿附近简餐，不为小店压缩午休与Matenadaran。",
+        "D21半日KhorVirap回城若晚，直接TunLahmajo或住宿附近简餐，不为小店压缩Matenadaran。",
         "本店无可证强冷气或充电保证；等位15分钟即放弃。"
       ],
       "verified": "具名候选保留，证据弱于TunLahmajo；官方页受限，菜单与营业须重核。"
@@ -597,7 +597,7 @@ window.TRIP_DINING_DATA = {
         50
       ],
       "menuEvidence": "旅游局确认Kundurdžiluk门店；本次未取得可靠现行数字菜单，原稿5根28元、10根45元未作为实价。",
-      "hours": "未取得店方营业表；D34约19:00或D35约20:00前先查当天营业。",
+      "hours": "未取得店方营业表；D26约19:00或D27约20:00前先查当天营业。",
       "sources": [
         {
           "title": "萨拉热窝旅游局：Željo位于Kundurdžiluk",
@@ -609,7 +609,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D34Sebilj附近晚餐可步行进入老城；D35黄堡下来再吃。",
+        "D26Sebilj附近晚餐可步行进入老城；D27黄堡下来再吃。",
         "排队超过15分钟改Bravadžiluk21的Petica；不要把任意同名Željo店当成本店。",
         "冷气与插座均未核，不能当稳定充电站。"
       ],
@@ -643,7 +643,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D35周六11:30老城午餐窗可用，距原老城参观方向近；等位超15分钟改Željo。",
+        "D27周五11:30老城午餐窗可用，距原老城参观方向近；等位超15分钟改Željo。",
         "同官网另有FAN Čizmedžiluk1，不能把FAN周日休息套到Petica。",
         "预算只含单人食物；酸奶、Kajmak及饮水另核。"
       ],
@@ -667,7 +667,7 @@ window.TRIP_DINING_DATA = {
         60
       ],
       "menuEvidence": "官网证明老城店地址与烧烤品类，未提供可核数值价表；原稿未给本店单品实价，不能按28元套入。",
-      "hours": "官网未列可核营业表；D36周日12:15前先看当天开门，未开就用自带简餐，别拖到回程前。",
+      "hours": "官网未列可核营业表；D28周日12:15前先看当天开门，未开就用自带简餐，别拖到回程前。",
       "sources": [
         {
           "title": "Tima–Irma官网：Onešćukova地址与菜品",
@@ -675,7 +675,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D36老桥参观后在西岸老城午餐，预留步行与排队；不是为了餐馆去另一城区。",
+        "D28老桥参观后在西岸老城午餐，预留步行与排队；不是为了餐馆去另一城区。",
         "等位超过15–20分钟放弃；17:00开始去返程站的边界不变。",
         "室内冷气、插座未核，不能保证这里适合长时间午休。"
       ],
@@ -709,7 +709,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D38国家博物馆后沿Francuska街去指定分店；加步行10–15分钟规划余量，12:30前买到再回宿午休。",
+        "D24国家博物馆后沿Francuska街去指定分店；加步行10–15分钟规划余量，12:30前买到再接下午安排。",
         "偏窗口快餐，不能承诺堂食冷气和插座；不能因价格便宜把它安排为午休空间。",
         "本店与Bor市Wolt同名Bucko不是同一地址，不套用其菜单。"
       ],
@@ -739,7 +739,7 @@ window.TRIP_DINING_DATA = {
         60
       ],
       "menuEvidence": "官网把塞尔维亚菜单分Central/Commercial/Regional/Tourist/Airport多档，本次未取得本分店对应价，不能全连锁统一报45元；人民币是单人食物规划，饮品另计。",
-      "hours": "官方分店页未给可靠营业时间；各日晚餐前核开门，D40须18:30前结束。",
+      "hours": "官方分店页未给可靠营业时间；各日晚餐前核开门，D25须18:30前结束。",
       "sources": [
         {
           "title": "Walter官方Dorćol店地址",
@@ -756,7 +756,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "从共和国广场/步行街向Dorćol有步行绕行，按实际青旅位置选用，不把它写作米哈伊洛大公街店。",
-        "D37长巴士晚到或D40早睡日不排队，必要时打包。",
+        "D22长巴士晚到或D25早睡日不排队，必要时打包。",
         "室内店不自动保证座位旁有插座；实时评分与冷气未核。"
       ],
       "verified": "官网确认具体分店与产品份量；价格须匹配分店菜单档。"
@@ -779,7 +779,7 @@ window.TRIP_DINING_DATA = {
         60
       ],
       "menuEvidence": "同品牌多档价表，Zemun centar当前单品价未取得；不能直接套Dorćol、机场或外卖其他店价。",
-      "hours": "官方分店页未列可靠时段；D39建议12:00–12:45就餐，先核当日营业。",
+      "hours": "官方分店页未列可靠时段；D23建议12:00–12:45就餐，先核当日营业。",
       "sources": [
         {
           "title": "Walter官方Zemuncentar：Magistralni trg18",
@@ -860,7 +860,7 @@ window.TRIP_DINING_DATA = {
       "cautions": [
         "属体验餐，价格明显高于普通食堂，不安排每顿吃。",
         "空调、可用插座及服务费未核，不承诺。",
-        "D24绿线团餐未订，不能把此店或瓦罐肉当免费团餐。"
+        "D40绿线团餐未订，不能把此店或瓦罐肉当免费团餐。"
       ],
       "verified": "官网具名地址、菜单和营业参考已取得；预算为单人餐食规划额，饮品另计。"
     },
@@ -924,7 +924,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "在Altındağ，不能写成罗马港旁；D25若体力允许，先用导航核真实绕行，远则不专程。",
+        "在Altındağ，不能写成罗马港旁；D36若体力允许，先用导航核真实绕行，远则不专程。",
         "空调和插座未核，不用作已保证的午休场所。"
       ],
       "verified": "官网地址及菜品可核；单人餐食预算非报价，饮品另计。"
@@ -962,8 +962,8 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "旧资料另有Hükümet Caddesi花园店，不混用地址；导航锁Uğur Mumcu21号候选并核营业。",
-        "D27船餐只有预订产品明确包含才可免去午餐外支出，不能保证菜单。",
-        "D28午餐后须按原时段取包转费特希耶，不为此店延迟出发。",
+        "D35船餐只有预订产品明确包含才可免去午餐外支出，不能保证菜单。",
+        "D34午餐后须按原时段取包转费特希耶，不为此店延迟出发。",
         "空调及插座未核。"
       ],
       "verified": "官网搜索索引及补充地址资料可核到21号店，官网直接打开超时；现价和营业仍待核。"
@@ -1028,7 +1028,7 @@ window.TRIP_DINING_DATA = {
       "cautions": [
         "是体验升级备选，预算高于工匠食堂。",
         "认准Sofrası与43号，附近还有Çiya Kebap，不能只导航Çiya。",
-        "D33只在原Kadıköy市场段内吃，若当日行程改动则不跨海专程。",
+        "D41只在原Kadıköy市场段内吃，若当日行程改动则不跨海专程。",
         "插座空调及评分数量未核。"
       ],
       "verified": "官网确认鱼市位置与餐厅品牌，门牌由店家管理资料补充，现价未核。"
@@ -1389,7 +1389,7 @@ window.TRIP_DINING_DATA = {
         85
       ],
       "menuEvidence": "官网列扁豆汤、Lahmacun、各类Pide及Ayran等，当前文字页没有数字价，先看柜台/菜单图。",
-      "hours": "具体营业时段未取得；官网说明自助早餐仅周六日，D32周三不套用。",
+      "hours": "具体营业时段未取得；官网说明自助早餐仅周六日，D33周三不套用。",
       "sources": [
         {
           "title": "Forno Balat官网菜单与地图入口",
@@ -1401,7 +1401,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "替换D32 Balat午餐，可就地吃，不为午餐返回Sirkeci。",
+        "替换D33 Balat午餐，可就地吃，不为午餐返回Sirkeci。",
         "Lahmacun可请切块用刀叉，或餐巾纸包着拿，先收相机。",
         "室内空调和插座未核，饭后仍保留回宿/阴凉处休息安排。"
       ],
@@ -1434,7 +1434,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "放D33Üsküdar中心经过时，去Salacak之前吃或返码头时吃，不写成Salacak海边店。",
+        "放D32Üsküdar中心经过时，去Salacak之前吃或返码头时吃，不写成Salacak海边店。",
         "是就地家常餐备选，未证最低价；若超预算少点一道，不能靠ISIC自动打折。",
         "空调和插座未核。"
       ],
@@ -1455,7 +1455,7 @@ window.TRIP_DINING_DATA = {
         65
       ],
       "menuEvidence": "餐厅电子菜单读取2026-11-05：扁豆汤110 TRY、白豆180 TRY、米饭110 TRY、肉末Pide280 TRY、肉末薄饼160 TRY、Ayran60 TRY。网页无明确生效日，2027复核。",
-      "hours": "餐厅电子菜单列10:00–23:30，周日休；D25周三、D26周四按现规则可用但须2027重核。",
+      "hours": "餐厅电子菜单列10:00–23:30，周日休；D36周三、D37周四按现规则可用但须2027重核。",
       "sources": [
         {
           "title": "Can Can餐厅电子菜单与时间",
@@ -1468,7 +1468,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "比AltındağPiyazcıAhmet更适合Kaleiçi东侧的行程，仍按实际住宿出口核步行。",
-        "D25用午/晚餐候选，D26只在去汽车站前窗口够时吃，不压报到余量。",
+        "D36用午/晚餐候选，D37只在去汽车站前窗口够时吃，不压报到余量。",
         "空调和插座未核，不把店家站列出的Google分数冒充独立实时Google核验。"
       ],
       "verified": "具名店与电子菜单原币价、营业可核，门牌由目录补充；饮品另计。"
@@ -1503,7 +1503,7 @@ window.TRIP_DINING_DATA = {
       "cautions": [
         "Gemini的Özlem Lokantası在Kaş未能核到匹配店，搜索结果指向Bergama/İzmir或Kumluca，不应直接导入。改为已核12号Kaşım具名候选。",
         "价格、营业、空调插座均待核，不能保证比BiLokma便宜，区间是预算选择。",
-        "D28留足取包和上Ağullu接驳时段，排队超15分钟换外带。"
+        "D34留足取包和上Ağullu接驳时段，排队超15分钟换外带。"
       ],
       "verified": "店家管理资料可核12号地址、电话及菜品类型，未取得官方现价；饮水另计。"
     },
@@ -1697,7 +1697,7 @@ window.TRIP_DINING_DATA = {
       "cautions": [
         "替D20第三次TunLahmajo便餐或D21午餐，仍在共和国广场/Amiryan中心片区；D19跨境初到夜晚无需为换店额外折腾。",
         "不采用Mashtots18旧第三方总部联系地址当成现餐厅地址：品牌当前分店表明确可用的是Amiryan7/1。",
-        "D21须12:20左右吃完并回宿午休，不能挤掉凌晨航班前睡眠；未核冷气与插座。"
+        "D21午餐按Matenadaran参观时间衔接，不再受旧凌晨航班影响。"
       ],
       "verified": "2026-11-06：品牌官网已核当前分店表及具名单品AMD价格；未做指定日期现场点单或确认2027供应。",
       "selectionOrigin": "本次独立补充"
@@ -2324,84 +2324,84 @@ window.TRIP_DINING_DATA = {
       "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
     },
     {
-      "day": 22,
-      "rowId": "d22v2-09",
-      "meal": "晚餐",
-      "shop": "goreme-pide-house",
-      "backup": null,
-      "note": "航班转机后只在格雷梅镇吃一顿简餐，不为瓦罐肉拖到晚睡。"
-    },
-    {
       "day": 23,
-      "rowId": "d23r58-04",
+      "rowId": "d39v2-07",
       "meal": "午餐",
-      "shop": "goreme-pide-house",
-      "backup": "goreme-ravioli",
-      "note": "露天博物馆回镇后吃Pide/汤；Turkish Ravioli是价位较高的体验备选，不能算平价餐。"
+      "shop": "walter-zemun-centar",
+      "backup": null,
+      "note": "Gardoš下坡到Magistralni trg18，吃后回河岸；Ferdinand Bežanijska46只作额外甜点，不是必经或替代完整正餐。"
     },
     {
       "day": 23,
-      "rowId": "d23r58-08",
+      "rowId": "d39v2-13",
       "meal": "晚餐",
-      "shop": "goreme-pide-house",
+      "shop": "walter-dorcol",
       "backup": null,
-      "note": "按本卡先吃晚餐，再走傍晚山谷短线；不是徒步结束后才吃。"
+      "note": "回贝城中心后吃Dorćol店，避免一日两顿烤肉可改汤/蔬菜或厨房简餐。"
     },
     {
       "day": 24,
-      "rowId": "d24v2-08",
-      "meal": "晚餐",
-      "shop": "goreme-pide-house",
-      "backup": null,
-      "note": "绿线返镇后，先在19:30前解决晚餐并取包；若团晚到，已备干粮直接去汽车站，不挤检票。"
-    },
-    {
-      "day": 25,
-      "rowId": "d25r58-04",
+      "rowId": "d38v2-06",
       "meal": "午餐",
-      "shop": "antalya-cancan",
+      "shop": "bucko-francuska",
       "backup": null,
-      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
+      "note": "国家博物馆出来去Francuska18，不把其他分店菜单套到此店；排队超过10分钟取消。"
+    },
+    {
+      "day": 24,
+      "rowId": "d38v2-13",
+      "meal": "晚餐",
+      "shop": "walter-dorcol",
+      "backup": null,
+      "note": "取洗衣前后用餐，半份烤肉配面包即可；饮料另计。"
     },
     {
       "day": 25,
-      "rowId": "d25r58-09",
-      "meal": "晚餐",
-      "shop": "antalya-tavuk-terracity",
+      "rowId": "d40v2-07",
+      "meal": "午餐",
+      "shop": "bucko-francuska",
       "backup": null,
-      "note": "从下杜登到TerraCity同侧分店吃饭，再走Fener海崖；不折返老城吃晚餐后再回Lara。"
+      "note": "参观主馆后回中心才去此店；不为披萨跨区来回赶馆。"
+    },
+    {
+      "day": 25,
+      "rowId": "d40v2-12",
+      "meal": "晚餐",
+      "shop": "walter-dorcol",
+      "backup": null,
+      "note": "17:30早晚餐，18:30前回宿收包早睡；不依赖夜宵店。"
     },
     {
       "day": 26,
-      "rowId": "d26r58-08",
+      "rowId": "d34v2-08",
       "meal": "晚餐",
-      "shop": "kas-kasim-homefood",
-      "backup": "kas-bilokma",
-      "note": "入住放50L包后按本卡吃晚餐，再去古剧场和港口。"
+      "shop": "zeljo-sarajevo",
+      "backup": "petica-sarajevo",
+      "note": "入住后顺老城步行到Kundurdžiluk19；18:15那顿仅作必要小食，不再重复点一份正餐。"
     },
     {
       "day": 27,
-      "rowId": "d27v2-11",
+      "rowId": "d35v2-06",
+      "meal": "午餐",
+      "shop": "petica-sarajevo",
+      "backup": "zeljo-sarajevo",
+      "note": "老城上午参观后11:30就餐；菜单7BAM是小份在线订餐记录，堂食看牌价。"
+    },
+    {
+      "day": 27,
+      "rowId": "d35v2-13",
       "meal": "晚餐",
-      "shop": "kas-bilokma",
-      "backup": "kas-kasim-homefood",
-      "note": "船返Kaş、洗澡后去UğurMumcu21现址，不去旧Hükümet店址；想省钱改Kaşım家常菜。"
+      "shop": "zeljo-sarajevo",
+      "backup": "petica-sarajevo",
+      "note": "黄堡下山后老城就餐，20:30前结束返宿，留明早往莫斯塔尔的睡眠。"
     },
     {
       "day": 28,
-      "rowId": "d28v2-04",
+      "rowId": "d36r58-05",
       "meal": "午餐",
-      "shop": "fethiye-tavuk-erasta",
+      "shop": "tima-irma-mostar",
       "backup": null,
-      "note": "早班抵Fethiye、确认寄存后，在Otogar旁Erasta Fethiye分店午餐；不再停留Kaş吃午饭。"
-    },
-    {
-      "day": 29,
-      "rowId": "d29r58-05",
-      "meal": "午餐",
-      "shop": "istanbul-buyruk",
-      "backup": null,
-      "note": "先到Antique Hostel寄包，按体力赴HocaPaşa12店，步行与堂食共用12:00–13:00；夜巴疲劳时打包回宿。"
+      "note": "老桥西岸Onešćukova店；12:15–13:00内点一人小份烤肉，别默认多人混烤盘。"
     },
     {
       "day": 29,
@@ -2445,30 +2445,14 @@ window.TRIP_DINING_DATA = {
     },
     {
       "day": 32,
-      "rowId": "d32v2-06",
+      "rowId": "d29r58-05",
       "meal": "午餐",
-      "shop": "istanbul-forno-balat",
+      "shop": "istanbul-buyruk",
       "backup": null,
-      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
+      "note": "先到Antique Hostel寄包，按体力赴HocaPaşa12店，步行与堂食共用12:00–13:00；夜巴疲劳时打包回宿。"
     },
     {
       "day": 32,
-      "rowId": "d32v2-13",
-      "meal": "晚餐",
-      "shop": "istanbul-buyruk",
-      "backup": null,
-      "note": "香料市场结束后到HocaPaşa12店吃，再回老城。"
-    },
-    {
-      "day": 33,
-      "rowId": "d33v2-07",
-      "meal": "午餐",
-      "shop": "istanbul-ciya",
-      "backup": null,
-      "note": "从Moda返回Kadıköy市集边吃；把这段12:15–13:30用作移动和午餐，餐后继续室内参观，预算高于食堂。"
-    },
-    {
-      "day": 33,
       "rowId": "d33v2-13",
       "meal": "晚餐",
       "shop": "istanbul-kanaat-uskudar",
@@ -2476,100 +2460,115 @@ window.TRIP_DINING_DATA = {
       "note": "Kuzguncuk返Üsküdar中心，17:30–18:15在SelmaniPak9先吃，18:15–20:00按体力去Salacak看日落；不是Salacak海边店，不折返Kadıköy。"
     },
     {
-      "day": 34,
-      "rowId": "d34v2-08",
-      "meal": "晚餐",
-      "shop": "zeljo-sarajevo",
-      "backup": "petica-sarajevo",
-      "note": "入住后顺老城步行到Kundurdžiluk19；18:15那顿仅作必要小食，不再重复点一份正餐。"
-    },
-    {
-      "day": 35,
-      "rowId": "d35v2-06",
+      "day": 33,
+      "rowId": "d32v2-06",
       "meal": "午餐",
-      "shop": "petica-sarajevo",
-      "backup": "zeljo-sarajevo",
-      "note": "老城上午参观后11:30就餐；菜单7BAM是小份在线订餐记录，堂食看牌价。"
+      "shop": "istanbul-forno-balat",
+      "backup": null,
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
+    },
+    {
+      "day": 33,
+      "rowId": "d32v2-13",
+      "meal": "晚餐",
+      "shop": "istanbul-buyruk",
+      "backup": null,
+      "note": "香料市场结束后到HocaPaşa12店吃，再回老城。"
+    },
+    {
+      "day": 34,
+      "rowId": "d28v2-04",
+      "meal": "午餐",
+      "shop": "fethiye-tavuk-erasta",
+      "backup": null,
+      "note": "早班抵Fethiye、确认寄存后，在Otogar旁Erasta Fethiye分店午餐；不再停留Kaş吃午饭。"
+    },
+    {
+      "day": 34,
+      "rowId": "d26r58-08",
+      "meal": "晚餐",
+      "shop": "kas-kasim-homefood",
+      "backup": "kas-bilokma",
+      "note": "入住放50L包后按本卡吃晚餐，再去古剧场和港口。"
     },
     {
       "day": 35,
-      "rowId": "d35v2-13",
+      "rowId": "d27v2-11",
       "meal": "晚餐",
-      "shop": "zeljo-sarajevo",
-      "backup": "petica-sarajevo",
-      "note": "黄堡下山后老城就餐，20:30前结束返宿，留明早往莫斯塔尔的睡眠。"
+      "shop": "kas-bilokma",
+      "backup": "kas-kasim-homefood",
+      "note": "船返Kaş、洗澡后去UğurMumcu21现址，不去旧Hükümet店址；想省钱改Kaşım家常菜。"
     },
     {
       "day": 36,
-      "rowId": "d36r58-05",
-      "meal": "午餐",
-      "shop": "tima-irma-mostar",
-      "backup": null,
-      "note": "老桥西岸Onešćukova店；12:15–13:00内点一人小份烤肉，别默认多人混烤盘。"
+      "rowId": "sw19-d36-dinner",
+      "meal": "晚餐",
+      "shop": "antalya-piyazci-ahmet",
+      "note": "按本日新动线就餐，预留一小时；等位超过15–20分钟或赶车时改便携简餐。"
     },
     {
       "day": 37,
-      "rowId": "d37v2-08",
-      "meal": "晚餐",
-      "shop": "walter-dorcol",
+      "rowId": "d25r58-04",
+      "meal": "午餐",
+      "shop": "antalya-cancan",
       "backup": null,
-      "note": "跨境到贝城入住后选Dorćol57分店；晚到则打包，取消附加夜逛。"
+      "note": "按本卡用餐时段在所列分店就餐，后续活动和交通另列；排队或出餐明显超过15–20分钟时换便餐，不挤占下一段。"
+    },
+    {
+      "day": 37,
+      "rowId": "d25r58-09",
+      "meal": "晚餐",
+      "shop": "antalya-tavuk-terracity",
+      "backup": null,
+      "note": "从下杜登到TerraCity同侧分店吃饭，再走Fener海崖；不折返老城吃晚餐后再回Lara。"
     },
     {
       "day": 38,
-      "rowId": "d38v2-06",
-      "meal": "午餐",
-      "shop": "bucko-francuska",
-      "backup": null,
-      "note": "国家博物馆出来去Francuska18，不把其他分店菜单套到此店；排队超过10分钟取消。"
-    },
-    {
-      "day": 38,
-      "rowId": "d38v2-13",
+      "rowId": "d22v2-09",
       "meal": "晚餐",
-      "shop": "walter-dorcol",
+      "shop": "goreme-pide-house",
       "backup": null,
-      "note": "取洗衣前后用餐，半份烤肉配面包即可；饮料另计。"
+      "note": "航班转机后只在格雷梅镇吃一顿简餐，不为瓦罐肉拖到晚睡。"
     },
     {
       "day": 39,
-      "rowId": "d39v2-07",
+      "rowId": "d23r58-04",
       "meal": "午餐",
-      "shop": "walter-zemun-centar",
-      "backup": null,
-      "note": "Gardoš下坡到Magistralni trg18，吃后回河岸；Ferdinand Bežanijska46只作额外甜点，不是必经或替代完整正餐。"
+      "shop": "goreme-pide-house",
+      "backup": "goreme-ravioli",
+      "note": "露天博物馆回镇后吃Pide/汤；Turkish Ravioli是价位较高的体验备选，不能算平价餐。"
     },
     {
       "day": 39,
-      "rowId": "d39v2-13",
+      "rowId": "d23r58-08",
       "meal": "晚餐",
-      "shop": "walter-dorcol",
+      "shop": "goreme-pide-house",
       "backup": null,
-      "note": "回贝城中心后吃Dorćol店，避免一日两顿烤肉可改汤/蔬菜或厨房简餐。"
+      "note": "按本卡先吃晚餐，再走傍晚山谷短线；不是徒步结束后才吃。"
     },
     {
       "day": 40,
-      "rowId": "d40v2-07",
+      "rowId": "d24v2-08",
+      "meal": "晚餐",
+      "shop": "goreme-pide-house",
+      "backup": null,
+      "note": "绿线返镇后，先在19:30前解决晚餐并取包；若团晚到，已备干粮直接去汽车站，不挤检票。"
+    },
+    {
+      "day": 41,
+      "rowId": "d33v2-07",
       "meal": "午餐",
-      "shop": "bucko-francuska",
+      "shop": "istanbul-ciya",
       "backup": null,
-      "note": "参观主馆后回中心才去此店；不为披萨跨区来回赶馆。"
+      "note": "从Moda返回Kadıköy市集边吃；把这段12:15–13:30用作移动和午餐，餐后继续室内参观，预算高于食堂。"
     },
     {
-      "day": 40,
-      "rowId": "d40v2-12",
+      "day": 41,
+      "rowId": "d41-meal-v17",
       "meal": "晚餐",
-      "shop": "walter-dorcol",
+      "shop": "saw-simit-airside",
       "backup": null,
-      "note": "17:30早晚餐，18:30前回宿收包早睡；不依赖夜宵店。"
-    },
-    {
-      "day": 43,
-      "rowId": "d43v2-11",
-      "meal": "晚餐",
-      "shop": "hurghada-starfish",
-      "backup": null,
-      "note": "红海出海返宿洗漱后到Sheraton Street主店用餐；先问含加工的总价，超预算改简餐，不再挂到SAW转机日。"
+      "note": "国际转机与登机口确认完成后，空侧近处简餐30分钟；找店/排队超过10–15分钟就用自备食品。"
     },
     {
       "day": 42,
@@ -2578,6 +2577,14 @@ window.TRIP_DINING_DATA = {
       "shop": "hurghada-koshary-tahrir-dahar",
       "backup": "hurghada-starfish",
       "note": "ElDahar街市逛完先核地图针与ElTahrir门头、营业和当日价，能确认才吃koshary，随后返Marina。街名存在差异；若不营业就按原返程到Sheraton主店，不跨区追同名店。"
+    },
+    {
+      "day": 43,
+      "rowId": "d43v2-11",
+      "meal": "晚餐",
+      "shop": "hurghada-starfish",
+      "backup": null,
+      "note": "红海出海返宿洗漱后到Sheraton Street主店用餐；先问含加工的总价，超预算改简餐，不再挂到SAW转机日。"
     },
     {
       "day": 44,
@@ -2636,6 +2643,38 @@ window.TRIP_DINING_DATA = {
       "note": "吉萨行程已返回市区后再去；不把市中心店塞进金字塔午餐而往返折腾。"
     },
     {
+      "day": 51,
+      "rowId": "d51r58-06",
+      "meal": "午餐",
+      "shop": "alex-kadoura-mansheya",
+      "backup": "alex-mohamed-ahmed",
+      "note": "按本卡45分钟午餐，报价或等位超过个人上限就用便餐；Mohamed Ahmed仅作这顿午餐备用，不在上车前再绕去堂食。"
+    },
+    {
+      "day": 52,
+      "rowId": "d52r58-08",
+      "meal": "午餐",
+      "shop": "matrouh-magdy-omar",
+      "backup": "matrouh-sahar-galaa",
+      "note": "12:45–13:30西线回城后午餐；与司机约好直接送餐厅或车站方向，不再绕海湾。13:15仍未上菜就改Sahar小份现成餐/外带，确保13:30–14:15前往正式大巴站。D52晚餐已回开罗，应沿用原开罗具名餐厅，不能继续挂马特鲁门店。"
+    },
+    {
+      "day": 52,
+      "rowId": "d52r58-11",
+      "meal": "晚餐",
+      "shop": "cairo-abou-tarek",
+      "backup": "cairo-kazaz-sabry38",
+      "note": "先看实际返开罗时间；能及时到市中心店才去，车晚到用途中简餐，不为餐厅另绕路。"
+    },
+    {
+      "day": 53,
+      "rowId": "d53r58-11",
+      "meal": "晚餐",
+      "shop": "cairo-abou-tarek",
+      "backup": "cairo-kazaz-sabry38",
+      "note": "NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅折返南郊。"
+    },
+    {
       "day": 54,
       "rowId": "d54r58-08",
       "meal": "晚餐",
@@ -2668,46 +2707,6 @@ window.TRIP_DINING_DATA = {
       "note": "Downtown晚餐，留喷泉夜景；当天不是赶飞机日。"
     },
     {
-      "day": 53,
-      "rowId": "d53r58-11",
-      "meal": "晚餐",
-      "shop": "cairo-abou-tarek",
-      "backup": "cairo-kazaz-sabry38",
-      "note": "NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅折返南郊。"
-    },
-    {
-      "day": 51,
-      "rowId": "d51r58-06",
-      "meal": "午餐",
-      "shop": "alex-kadoura-mansheya",
-      "backup": "alex-mohamed-ahmed",
-      "note": "按本卡45分钟午餐，报价或等位超过个人上限就用便餐；Mohamed Ahmed仅作这顿午餐备用，不在上车前再绕去堂食。"
-    },
-    {
-      "day": 52,
-      "rowId": "d52r58-08",
-      "meal": "午餐",
-      "shop": "matrouh-magdy-omar",
-      "backup": "matrouh-sahar-galaa",
-      "note": "12:45–13:30西线回城后午餐；与司机约好直接送餐厅或车站方向，不再绕海湾。13:15仍未上菜就改Sahar小份现成餐/外带，确保13:30–14:15前往正式大巴站。D52晚餐已回开罗，应沿用原开罗具名餐厅，不能继续挂马特鲁门店。"
-    },
-    {
-      "day": 52,
-      "rowId": "d52r58-11",
-      "meal": "晚餐",
-      "shop": "cairo-abou-tarek",
-      "backup": "cairo-kazaz-sabry38",
-      "note": "先看实际返开罗时间；能及时到市中心店才去，车晚到用途中简餐，不为餐厅另绕路。"
-    },
-    {
-      "day": 41,
-      "rowId": "d41-meal-v17",
-      "meal": "晚餐",
-      "shop": "saw-simit-airside",
-      "backup": null,
-      "note": "国际转机与登机口确认完成后，空侧近处简餐30分钟；找店/排队超过10–15分钟就用自备食品。"
-    },
-    {
       "day": 57,
       "rowId": "d57r58-06",
       "meal": "晚餐",
@@ -2724,18 +2723,13 @@ window.TRIP_DINING_DATA = {
     "dubai-almallah-satwa"
   ],
   "corrections": [
-    "不照录未复核的Google评分、评论数量、强冷气、插座、免费面包或固定出餐速度。具名门店、菜单、营业分别标证据。",
-    "菜单保留原币与取得日期；官网未写生效日、外送/在线订餐价格均不能当2027堂食报价。人民币区间只是单人一餐食物留量，饮水饮品另计。",
-    "Besh Qozon取Glinka41A店；官网抓饭一份53,000UZS、单人套餐70,000UZS。Qaganat阿斯塔纳与阿拉木图分店的2370KZT马肉面不能串用。",
-    "D31留Beşiktaş吃午餐，D32留Balat，D33按Kadıköy/Salacak分开；D55留DubaiMall，不把Satwa/Deira写成步行必经。",
-    "D24绿线、D27Kekova、D43红海是三顿候选团餐。仅订单明确写含餐时替代当餐预算；不保证瓦罐牛肉、海鱼或某种自助餐。",
-    "没有核到通用ISIC餐饮折扣；所有餐费按不打折规划。学生身份不自动带来餐厅优惠。",
-    "Khinkali不强制徒手，先拍照收好相机，再按习惯或请店员给餐具用餐。随身纸巾、洗手与相机收纳比只筛刀叉菜更实用。",
-    "不将散装格瓦斯标成已核0酒精。要求严格不含酒精时看瓶身标识；特色饮品单独点单，不默认每餐必买。",
-    "不加冰也不能保证街头鲜榨饮料安全；水源、清洁和保存同样重要。优先封口瓶装饮水与现做热食。",
-    "综合卡拆为用餐、返城、取包、候车和夜游；所有具名餐饮卡最多75分钟，不压缩必要交通。",
-    "山站不导航到市区Qaganat；SAW转机不导航到埃及餐厅；Can Can保老城午餐，Lara晚餐改TerraCity同侧分店。",
-    "Star Fish移至红海出海后的D43；亚历山大上车前改站前便携餐；迪拜入住晚餐采用Satwa同区已核分店。"
+    "反向路线逐行关联具名餐厅：贝尔格莱德与波黑提前，Kaş两晚后赴安塔利亚，格雷梅放最后。",
+    "D36为周日：Can Can旧资料列周日休，移D37周一；D36按当天开放的备选店及实际菜单选择。",
+    "Kadıköy/Moda与Çiya午餐放D41长转半日；D32保欧洲侧考古馆与Üsküdar/Kuzguncuk，餐厅不在两个日期重复挂载。",
+    "绿线D40、Kekova D35、红海D43的团内午餐仅在订单明确含餐时扣除，不保证某道菜。",
+    "不照录未核评分、评论数、强冷气、插座、免费面包和固定出餐时间；每餐只留所需用餐时间，不把交通和夜游改成餐厅。",
+    "所有人民币区间为规划留量；菜单原币与证据日期见店卡。学生证不自动获得餐饮优惠。",
+    "当地日常饮水与特色饮品另计，密封饮用水优先；不加冰不能替代水源和卫生判断。"
   ],
   "budgetApplied": false,
   "revision58": true,
