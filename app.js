@@ -45,7 +45,11 @@
   let extras=null;
   let sketchMode=false, tileFailures=0, userMarker, offlineReady=false, pendingPlace='', toastTimer;
   const day=()=>D.days[state.day];
-  const currentPlaces=()=>day().places.map(id=>D.places[id]).filter(p=>p.city===city);
+  const dayPlaces=()=>window.TripGeo?.pointsForDay(day())||day().places.map(id=>D.places[id]).filter(p=>p&&!p.mapHidden&&p.coordinateAccuracy!=='city-reference'&&Number.isFinite(p.lat)&&Number.isFinite(p.lng));
+  const currentPlaces=()=>dayPlaces().filter(p=>p.city===city);
+  const pendingPlaces=()=>window.TripGeo?.unresolvedForDay(day(),city)||[];
+  const selectedMapPlace=()=>window.TripGeo?.find(day(),selectedPlace,city)||D.places[selectedPlace];
+  const mapSummary=d=>{const n=window.TripGeo?.pointsForDay(d).length??d.places.length,u=window.TripGeo?.unresolvedForDay(d).length||0;return n+' 个地图站点'+(u?' · '+u+' 个地点待核实':'')+' · 重复到访合并显示';};
   const dateText=s=>s.slice(5).split('-').map(Number).join('月')+'日';
   const dayLabel=i=>['周日','周一','周二','周三','周四','周五','周六'][new Date(D.days[i].date+'T12:00:00Z').getUTCDay()];
   function savePublic(){
@@ -103,26 +107,31 @@
   function mountPlanning(){window.TripPlanning?.mountAll(document,{day:day()});window.TripFlightWatch?.mountAll(document);window.TripPreparation?.mountAll(document,{state,save,toast});window.TripVault?.mountAll(document);}
   function renderJourney(){
     const d=day(),done=d.rows.filter(r=>state.done[r.id]).length;
-    $('#journey-view').innerHTML=`<div class="day-heading"><p class="date-label">${dateText(d.date)} ${dayLabel(state.day)} · ${E(d.country)} · ${E(d.timezone)} 当地时间</p><h1>${E(d.label)}</h1><p>${E(d.note)}</p><div class="day-status"><span>${['day22','day29','day41','day54','day58'].includes(d.id)?'按用户确认航空时刻':'具体时段 · 路线计划'}</span><span>D${state.day+1} / ${D.days.length}</span></div><div class="day-highlights">${priority()}</div></div><div id="next-stop">${TripTools.nextHTML(D,state)}</div><button class="map-peek" data-view="map"><span><strong>在地图上看看今天</strong><small>${d.places.length} 个地点 · 点选地点可导航、记备忘</small></span>${icon('map')}</button>${window.TripStay?.dayHTML(d)||''}${transportHTML(d)}${window.TripBooking?.returnHTML(d)||''}${TripFood.overview(d)}<div class="schedule-heading"><h2>当天行程</h2><span class="progress-label">已完成 ${done} / ${d.rows.length}</span></div><div class="schedule">${d.rows.map(row=>{
+    $('#journey-view').innerHTML=`<div class="day-heading"><p class="date-label">${dateText(d.date)} ${dayLabel(state.day)} · ${E(d.country)} · ${E(d.timezone)} 当地时间</p><h1>${E(d.label)}</h1><p>${E(d.note)}</p><div class="day-status"><span>${['day22','day29','day41','day54','day58'].includes(d.id)?'按用户确认航空时刻':'具体时段 · 路线计划'}</span><span>D${state.day+1} / ${D.days.length}</span></div><div class="day-highlights">${priority()}</div></div><div id="next-stop">${TripTools.nextHTML(D,state)}</div><button class="map-peek" data-view="map"><span><strong>在地图上看看今天</strong><small>${mapSummary(d)}</small></span>${icon('map')}</button>${window.TripStay?.dayHTML(d)||''}${transportHTML(d)}${window.TripBooking?.returnHTML(d)||''}${TripFood.overview(d)}<div class="schedule-heading"><h2>当天行程</h2><span class="progress-label">已完成 ${done} / ${d.rows.length}</span></div><div class="schedule">${d.rows.map(row=>{
       const open=expanded.has(row.id);
       return `<article class="step ${row.highlight?'highlight ':''}${state.done[row.id]?'is-done':''}" id="step-${row.id}"><label class="step-check"><input type="checkbox" data-done="${row.id}" ${state.done[row.id]?'checked':''} aria-label="完成：${E(row.title)}"></label><div class="step-panel"><button class="step-toggle" data-expand="${row.id}" aria-expanded="${open}" aria-controls="detail-${row.id}"><span class="step-time">${E(row.time.replace(/\s+/g,''))}</span><span class="step-title">${E(row.title)}</span><span class="step-expand"><span>${row.links.length?'含具体路线与导航':'查看安排与提醒'}</span>${icon(open?'down':'chevron')}</span></button>${TripFood.summary(row.id)}<div class="step-detail" id="detail-${row.id}" ${open?'':'hidden'}>${row.detail}${row.links.length?'<div class="route-actions">'+row.links.filter(l=>/^https:\/\//.test(l.url||l.href||'')).map(l=>'<a class="soft-button" href="'+E(l.url||l.href)+'" target="_blank" rel="noopener noreferrer">'+E(l.label||'打开这段路线')+' ↗</a>').join('')+'</div>':''}${TripFood.details(row.id)}<div class="step-controls">${row.place?`<button class="soft-button" data-open-place="${row.place}">${icon('map')}地图</button>`:''}<button class="soft-button" data-focus-row="${row.id}">从这一步继续</button><button class="soft-button" data-note-place="${row.place||''}">${icon('note')}记一下</button></div></div></div></article>`;
     }).join('')}</div><div class="extras prose"><h3>当天备选与交通补充</h3>${d.extras||'<p>当天按上方的具体动线与缓冲执行。</p>'}</div>${window.TripPostcards?.dayHTML(d)||''}<div class="route-actions"><button class="primary-button" data-ledger-compose>＋ 记一笔当天花销</button><button class="soft-button" data-view="ledger">查看旅行账本</button></div><details class="day-account"><summary>原版人民币记账与预算</summary><div data-trip-planning></div></details>`;
     mountPlanning();
   }
   function openRow(id){if(!day().rows.some(r=>r.id===id))return;setView('journey');expanded.add(id);renderJourney();requestAnimationFrame(()=>$('#step-'+id)?.scrollIntoView({block:'start',behavior:'instant'}));}
-  function ensureSelection(){const list=currentPlaces();if(!list.some(p=>p.id===selectedPlace))selectedPlace=list[0]?.id||'';}
+  function ensureSelection(){const list=currentPlaces(),group=list.find(p=>p.id===selectedPlace||p.members?.includes(selectedPlace));if(group)selectedPlace=group.id;else if(!pendingPlaces().some(p=>p.id===selectedPlace))selectedPlace=list[0]?.id||pendingPlaces()[0]?.id||'';}
   function renderMapUI(){
     ensureSelection();
     if($('#dining-map-list'))$('#dining-map-list').innerHTML=window.TripDining?.mapHTML(day())||'';
     $('#map-title').textContent=day().label;
-    const cities=[...new Set(day().places.map(id=>D.places[id].city))];
+    const cities=[...new Set(day().places.map(id=>D.places[id]).filter(p=>p&&p.mapReason!=='reminder').map(p=>p.city))];
     $('#city-tabs').innerHTML=cities.map(c=>`<button class="chip" data-city="${E(c)}" aria-pressed="${city===c}">${E(c)}</button>`).join('');
-    const list=currentPlaces();
-    $('#place-strip').innerHTML=list.map((p,i)=>`<button class="place-chip" data-poi="${p.id}" aria-pressed="${p.id===selectedPlace}">${i+1}. ${E(p.name)}</button>`).join('');
-    const p=D.places[selectedPlace];
-    if(!p){$('#place-card').innerHTML='';return;}
-    const maps='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(p.query);
-    $('#place-card').innerHTML=`<div class="place-meta"><span>${E(p.city)}</span><span>${E(p.time||'当天顺路安排')}</span></div><h3>${E(p.name)}</h3><p>${E(p.address)}</p><p class="coordinate-note">${p.coordinateAccuracy==='city-reference'?'城市参考坐标；具体地点请打开导航确认。':'地标参考坐标；实际入口以现场与导航为准。'}</p><div class="place-actions"><a class="primary-button" href="${E(maps)}" target="_blank" rel="noopener noreferrer">${icon('pin')}打开地点导航</a><button class="soft-button" data-note-place="${p.id}">${icon('note')}记备忘</button><button class="soft-button" data-show-step="${p.id}">看行程</button></div>`;
+    const list=currentPlaces(),pending=pendingPlaces();
+    $('#place-strip').innerHTML=list.map((p,i)=>`<button class="place-chip" data-poi="${p.id}" aria-pressed="${p.id===selectedPlace}">${i+1}. ${E(p.name)}${p.members?.length>1?' · 合并'+p.members.length+'项':''}</button>`).join('');
+    let unresolved=$('#map-unresolved');if(!unresolved){unresolved=document.createElement('div');unresolved.id='map-unresolved';$('#place-strip').after(unresolved);}
+    const unresolvedOpen=!!unresolved.querySelector('details[open]');
+    unresolved.innerHTML=pending.length?`<details class="map-unresolved" ${unresolvedOpen?'open':''}><summary>${pending.length} 个地点坐标待核实 · 暂不上图</summary><p>保留原行程；可按名称搜索，不用城市中心代替。</p><div>${pending.map(p=>`<button class="soft-button" data-poi="${p.id}" aria-pressed="${p.id===selectedPlace}">${E(p.name)}</button>`).join('')}</div></details>`:'';
+    const p=selectedMapPlace();
+    if(!p){$('#place-card').innerHTML='<p class="coordinate-note">该城市尚无已确认的地图站点，请从当天行程打开地点搜索。</p>';drawSketch();refreshMapMode();return;}
+    const resolved=!p.mapHidden&&Number.isFinite(p.lat)&&Number.isFinite(p.lng),maps=resolved?'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(p.lat+','+p.lng):'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.query||p.name);
+    const names=[...new Set(p.memberNames||[p.name])];
+    const source=/^https:\/\//.test(p.coordinateSource||'')?` <a href="${E(p.coordinateSource)}" target="_blank" rel="noopener noreferrer">坐标来源 ↗</a>`:'';
+    $('#place-card').innerHTML=`<div class="place-meta"><span>${E(p.city)}</span><span>${E(p.time||'当天顺路安排')}</span></div><h3>${E(p.name)}</h3><p>${E(p.address||'具体入口请结合导航与现场标识确认')}</p><p class="coordinate-note">${resolved?E(p.coordinateNote||(p.coordinateAccuracy==='osm-poi'?'具名地点坐标；建筑中心不等于入口。':'保留的地标参考坐标；实际入口以现场与导航为准。')):'坐标待核实，暂不上图；下方按地点名称搜索。'}${source}</p>${names.length>1?'<details class="map-members"><summary>同一站点合并的安排（'+p.members.length+'项）</summary><ul>'+names.map(n=>'<li>'+E(n)+'</li>').join('')+'</ul></details>':''}<div class="place-actions"><a class="primary-button" href="${E(maps)}" target="_blank" rel="noopener noreferrer">${icon('pin')}${resolved?'打开坐标导航':'搜索具体地点'}</a><button class="soft-button" data-note-place="${p.id}">${icon('note')}记备忘</button><button class="soft-button" data-show-step="${p.id}">看行程</button></div>`;
     drawSketch();refreshMapMode();
   }
   function mapVisible(){return state.view==='map'||(state.view==='journey'&&window.innerWidth>760);}
@@ -136,32 +145,48 @@
       tileLayer=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>',updateWhenIdle:true});
       tileLayer.on('tileerror',()=>{if(++tileFailures>=3){sketchMode=true;refreshMapMode();}});
       markerLayer=L.layerGroup().addTo(leafletMap);
+      if(typeof leafletMap.on==='function')leafletMap.on('zoomend moveend',()=>drawMapLayers());
     }
-    markerLayer.clearLayers();markers={};
+    drawMapLayers();
     const list=currentPlaces();
-    list.forEach((p,i)=>{
-      const active=p.id===selectedPlace;
-      const marker=L.marker([p.lat,p.lng],{title:p.name,keyboard:true,icon:L.divIcon({className:'route-marker'+(active?' selected':''),html:`<span>${i+1}</span>`,iconSize:active?[34,34]:[29,29],iconAnchor:[15,15]})});
+    requestAnimationFrame(()=>{leafletMap.invalidateSize();if(fit&&list.length)leafletMap.fitBounds(L.latLngBounds(list.map(p=>[p.lat,p.lng])),{padding:[38,38],maxZoom:14,animate:false});drawMapLayers();refreshMapMode();});
+  }
+  function drawMapLayers(){
+    if(!leafletMap||!markerLayer)return;
+    markerLayer.clearLayers();markers={};
+    const list=currentPlaces(),projected=typeof leafletMap.latLngToContainerPoint==='function'&&typeof leafletMap.containerPointToLatLng==='function'&&window.TripGeo?.spreadPixels&&Number.isFinite(leafletMap.getZoom?.());
+    let display;
+    if(projected){
+      const size=leafletMap.getSize?.()||{};
+      display=window.TripGeo.spreadPixels(list.map(p=>{const q=leafletMap.latLngToContainerPoint([p.lat,p.lng]);return {...p,x:q.x,y:q.y};}),{width:size.x,height:size.y});
+    }else display=window.TripGeo?.displayPoints(list)||list.map(p=>({...p,displayLat:p.lat,displayLng:p.lng}));
+    display.forEach((p,i)=>{
+      const active=p.id===selectedPlace,size=active?34:29,offsetX=p.offsetX||0,offsetY=p.offsetY||0;
+      const marker=L.marker(projected?[p.lat,p.lng]:[p.displayLat,p.displayLng],{title:p.name,keyboard:true,icon:L.divIcon({className:'route-marker'+(active?' selected':''),html:`<span>${i+1}</span>`,iconSize:[size,size],iconAnchor:[size/2-offsetX,size/2-offsetY]})});
       marker.on('click',()=>selectPlace(p.id,true));marker.addTo(markerLayer);markers[p.id]=marker;
+      let end=null;
+      if(projected&&(Math.abs(offsetX)>.1||Math.abs(offsetY)>.1)){const q=leafletMap.containerPointToLatLng([p.x+offsetX,p.y+offsetY]);end=[q.lat,q.lng];}
+      else if(!projected&&p.displayOffset)end=[p.displayLat,p.displayLng];
+      if(end)L.polyline([[p.lat,p.lng],end],{color:day().accent,weight:1,opacity:.6,interactive:false}).addTo(markerLayer);
     });
     if(list.length>1)L.polyline(list.map(p=>[p.lat,p.lng]),{color:day().accent,weight:3,dashArray:'6 8',opacity:.7,interactive:false}).addTo(markerLayer);
-    requestAnimationFrame(()=>{leafletMap.invalidateSize();if(fit&&list.length)leafletMap.fitBounds(L.latLngBounds(list.map(p=>[p.lat,p.lng])),{padding:[38,38],maxZoom:14,animate:false});refreshMapMode();});
   }
   function drawSketch(){
-    const list=currentPlaces();if(!list.length)return;
+    const list=currentPlaces();if(!list.length){$('#map-sketch').innerHTML='<div class="map-empty">暂无已确认坐标<br>待核实地点保留在下方，点击可按名称搜索。</div>';return;}
     let minx=Math.min(...list.map(p=>p.lng)),maxx=Math.max(...list.map(p=>p.lng)),miny=Math.min(...list.map(p=>p.lat)),maxy=Math.max(...list.map(p=>p.lat));
     const dx=Math.max(maxx-minx,.005),dy=Math.max(maxy-miny,.005),scale=Math.min(560/dx,300/dy);
-    const pts=list.map(p=>[350+(p.lng-(minx+maxx)/2)*scale,225-(p.lat-(miny+maxy)/2)*scale]);
-    $('#map-sketch').innerHTML=`<svg viewBox="0 0 700 450" role="img" aria-label="${E(city)}地点顺序示意"><defs><pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#cfdfe1" stroke-width=".7"/></pattern></defs><rect width="700" height="450" fill="url(#grid)"/><text x="25" y="35" font-size="16" fill="#63838b">${E(city)} · 地点示意，非道路导航</text><polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="${day().accent}" stroke-width="3" stroke-dasharray="8 8"/>${pts.map(([x,y],i)=>`<g data-poi="${list[i].id}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="${list[i].id===selectedPlace?18:15}" fill="${list[i].id===selectedPlace?'#c45d32':day().accent}" stroke="#fff" stroke-width="3"/><text x="${x}" y="${y+5}" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14">${i+1}</text></g>`).join('')}<text x="25" y="427" font-size="13" fill="#63838b">点下方地点名称，查看地址与具体行程。</text></svg>`;
+    const realPts=list.map(p=>[350+(p.lng-(minx+maxx)/2)*scale,225-(p.lat-(miny+maxy)/2)*scale]);
+    const pts=realPts.map(([x,y],i)=>{const near=realPts.map((q,j)=>({q,j})).filter(({q})=>Math.hypot(q[0]-x,q[1]-y)<35);if(near.length<2)return [x,y];const a=2*Math.PI*near.findIndex(({j})=>j===i)/near.length;return [x+24*Math.cos(a),y+24*Math.sin(a)];});
+    $('#map-sketch').innerHTML=`<svg viewBox="0 0 700 450" role="img" aria-label="${E(city)}地点顺序示意"><defs><pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#cfdfe1" stroke-width=".7"/></pattern></defs><rect width="700" height="450" fill="url(#grid)"/><text x="25" y="35" font-size="16" fill="#63838b">${E(city)} · 地点示意，非道路导航</text><polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="${day().accent}" stroke-width="3" stroke-dasharray="8 8"/>${pts.map(([x,y],i)=>`<g data-poi="${list[i].id}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="${list[i].id===selectedPlace?18:15}" fill="${list[i].id===selectedPlace?'#c45d32':day().accent}" stroke="#fff" stroke-width="3"/><text x="${x}" y="${y+5}" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14">${i+1}</text></g>`).join('')}<text x="25" y="427" font-size="13" fill="#63838b">近邻标记仅在示意图中展开；坐标与导航保持原值。</text></svg>`;
   }
   function refreshMapMode(){
     const sketch=sketchMode||!navigator.onLine||!window.L;
     $('#map-sketch').hidden=!sketch;
     $('#map-mode').textContent=sketch?'在线地图':'路线示意';
-    $('#map-caption').innerHTML=(sketch?'离线地点示意；街道底图与导航需要联网。':'景点连线仅示意顺序，实际道路与换乘请打开导航。')+' 底图 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
+    $('#map-caption').innerHTML=(sketch?'离线地点示意；街道底图与导航需要联网。':'连线保留真实坐标；近邻标记按屏幕距离展开，细线指回真实地点。')+' 底图 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
     if(leafletMap&&tileLayer){if(sketch&&leafletMap.hasLayer(tileLayer))leafletMap.removeLayer(tileLayer);else if(!sketch&&!leafletMap.hasLayer(tileLayer))tileLayer.addTo(leafletMap);}
   }
-  function selectPlace(id,zoom=false){if(!D.places[id])return;selectedPlace=id;city=D.places[id].city;updateMap(false);if(zoom&&leafletMap&&mapVisible())leafletMap.setView([D.places[id].lat,D.places[id].lng],15,{animate:false});}
+  function selectPlace(id,zoom=false){const original=D.places[id];if(!original||!day().places.includes(id))return;selectedPlace=id;city=original.city;updateMap(false);const p=selectedMapPlace();if(zoom&&leafletMap&&mapVisible()&&p&&!p.mapHidden&&Number.isFinite(p.lat)&&Number.isFinite(p.lng))leafletMap.setView([p.lat,p.lng],15,{animate:false});if(original.mapHidden&&original.mapReason==='reminder')toast('这是一项行程提醒，不单独生成地图标记。');}
   function bookingDone(b){return Object.hasOwn(state.bookings,b.id)?state.bookings[b.id]:b.done;}
   function todoHTML(){return `<div class="todo-panel"><h3>出发清单</h3><p class="minor">勾选只更新你的清单，不会替你购票或提交资料。</p>${D.bookings.map(b=>{const done=bookingDone(b);return `<div class="todo-row ${done?'done':''}"><label><input type="checkbox" data-booking="${b.id}" ${done?'checked':''}><span>${E(done?b.label.replace('待购','已购（自行确认）'):b.label)}</span></label></div>`;}).join('')}${(privateReady()?state.todos:[]).map(t=>`<div class="todo-row ${t.done?'done':''}"><label><input type="checkbox" data-todo="${E(t.id)}" ${t.done?'checked':''}><span>${E(t.text)}</span></label><button class="danger-quiet" data-delete-todo="${E(t.id)}" aria-label="删除待办">移除</button></div>`).join('')}${privateReady()?'<form class="todo-add todo-form"><input type="text" name="todo" maxlength="300" placeholder="再加一件要记得的事" aria-label="新待办"><button class="soft-button" type="submit">添加</button></form>':'<p class="minor">解锁后可添加自己的私密待办。</p>'}</div>`;}
   function renderNotes(){
@@ -187,7 +212,7 @@
   function setDay(i){if(!Number.isInteger(i)||!D.days[i])return;state.day=i;city=day().defaultCity;selectedPlace='';pendingPlace='';expanded=new Set();renderTabs();renderJourney();setView(state.view,false);updateMap(true);save();}
   function noteAt(place){pendingPlace=place||'';setView('notes');requestAnimationFrame(()=>$('#memo-text')?.focus({preventScroll:false}));}
   function showStep(place){
-    const p=D.places[place];let r=day().rows.find(r=>r.place===place)||day().rows.find(r=>p?.keywords.some(k=>r.title.includes(k)));
+    const p=D.places[place],members=window.TripGeo?.find(day(),place)?.members||[place];let r=day().rows.find(r=>members.includes(r.place))||day().rows.find(r=>p?.keywords?.some(k=>r.title.includes(k)));
     setView('journey');if(r){expanded.add(r.id);renderJourney();requestAnimationFrame(()=>$('#step-'+r.id)?.scrollIntoView({block:'center',behavior:'instant'}));}else toast('该地点的具体动线见当天行程。');
   }
   function exportData(){
@@ -237,7 +262,7 @@
     if(b.dataset.foodRow){openRow(b.dataset.foodRow);return;}
     if(b.dataset.city){city=b.dataset.city;selectedPlace='';tileFailures=0;updateMap(true);return;}
     const poi=e.target.closest('[data-poi]');if(poi){selectPlace(poi.dataset.poi,true);return;}
-    if(b.dataset.openPlace){selectPlace(b.dataset.openPlace);setView('map');updateMap(false);if(leafletMap){const p=D.places[b.dataset.openPlace];leafletMap.setView([p.lat,p.lng],15,{animate:false});}return;}
+    if(b.dataset.openPlace){setView('map');selectPlace(b.dataset.openPlace,true);return;}
     if(b.hasAttribute('data-note-place')){noteAt(b.dataset.notePlace);return;}
     if(b.dataset.showStep){showStep(b.dataset.showStep);return;}
     if(b.dataset.guide){guide=b.dataset.guide;setView('guide');return;}
