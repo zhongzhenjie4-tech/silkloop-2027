@@ -4,24 +4,28 @@
   const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const defaults=[{"id":"air","label":"首段及跨国航空","amount":7543},{"id":"intercity","label":"城际与地面接驳","amount":2650},{"id":"stay","label":"49晚住宿","amount":3500},{"id":"food","label":"餐饮饮水","amount":3000},{"id":"tickets","label":"门票、团游与船游","amount":2950},{"id":"misc","label":"签证保险装备通讯洗衣明信片","amount":1640},{"id":"reserve","label":"机动金","amount":717}];
   const actualCategories=[...defaults.filter(c=>c.id!=='reserve'),{id:'other',label:'其他实际支出'}];
-  const initial=()=>({version:1,budget:defaults.map(x=>({...x})),records:[],updated:''});
+  const ledgerDefaults=()=>window.TripLedgerCore?.defaults()||{version:1,rates:{CNY:1},rateDate:'',accounts:[{id:'unknown',label:'未指定账户',type:'unknown'}],transfers:[]};
+  const initial=()=>({version:1,budget:defaults.map(x=>({...x})),records:[],ledger:ledgerDefaults(),updated:''});
   const copy=v=>JSON.parse(JSON.stringify(v));
   const unlocked=()=>!!window.TripVault?.isUnlocked();
-  const validMoney=v=>v!==null&&v!==''&&Number.isFinite(Number(v))&&Number(v)>=0&&Number(v)<=10000000;
+  const validMoney=v=>['number','string'].includes(typeof v)&&String(v).trim()!==''&&Number.isFinite(Number(v))&&Number(v)>=0&&Number(v)<=10000000;
   let state=initial(),notice='',loaded=false,loading=null,session=0,wasUnlocked=unlocked(),queue=Promise.resolve(),writing=0;
   const mounted=new Map();
   function normalize(parsed,strict=false){
     if(!parsed||parsed.version!==1||!Array.isArray(parsed.budget)||!Array.isArray(parsed.records))throw Error('预算备份格式不兼容，原资料已保留。');
     const fresh=initial();
     for(const item of fresh.budget){const found=parsed.budget.find(x=>x&&x.id===item.id);if(found&&validMoney(found.amount))item.amount=Number(found.amount);else if(strict)throw Error('预算字段无效，原资料已保留。');}
+    const recordIds=new Set();
     for(const r of parsed.records){
       if(!r||typeof r.id!=='string'||!validMoney(r.cny)||!actualCategories.some(c=>c.id===r.category))throw Error('实付字段无效，原资料已保留。');
-      fresh.records.push({id:r.id,date:String(r.date||'').slice(0,10),category:r.category,city:String(r.city||'').slice(0,100),original:String(r.original||'').slice(0,80),cny:Number(r.cny),note:String(r.note||'').slice(0,300)});
+      if(recordIds.has(r.id))throw Error('实付编号重复，原资料已保留。');recordIds.add(r.id);
+      fresh.records.push(window.TripLedgerCore?window.TripLedgerCore.normalizeRecord(r):{id:r.id,date:String(r.date||'').slice(0,10),category:r.category,city:String(r.city||'').slice(0,100),original:String(r.original||'').slice(0,80),cny:Number(r.cny),note:String(r.note||'').slice(0,300)});
     }
+    if(window.TripLedgerCore)fresh.ledger=window.TripLedgerCore.normalizeLedger(parsed.ledger);
     fresh.updated=typeof parsed.updated==='string'?parsed.updated:'';return fresh;
   }
   function checkSession(g){if(g!==session||!unlocked())throw Error('私密区已锁定或已切换，未提交此操作。请解锁后重试。');}
-  function repaint(){for(const [el,options] of mounted){if(el.isConnected===false){mounted.delete(el);continue;}try{mount(el,options);}catch{el.textContent='预算界面暂时无法显示，请重新打开；加密资料未改动。';}}}
+  function repaint(){for(const [el,options] of mounted){if(el.isConnected===false){mounted.delete(el);continue;}try{mount(el,options);}catch{el.textContent='预算界面暂时无法显示，请重新打开；加密资料未改动。';}}window.dispatchEvent(new CustomEvent('tripplanningchange',{detail:{loaded,unlocked:unlocked()}}));}
   async function encrypt(next,g){checkSession(g);writing++;try{await window.TripVault.writeSection('planning',next);checkSession(g);}finally{writing--;}}
   function ensureLoaded(){
     if(!unlocked())return Promise.reject(Error('请先解锁本机私密区。'));
@@ -50,13 +54,13 @@
   }
   function change(update,success){
     const g=session;
-    const run=async()=>{checkSession(g);await ensureLoaded();checkSession(g);const next=update(copy(state));next.updated=new Date().toISOString();await encrypt(next,g);state=next;notice=success;repaint();return true;};
+    const run=async()=>{checkSession(g);await ensureLoaded();checkSession(g);const draft=copy(state),returned=update(draft);if(returned&&typeof returned.then==='function')throw Error('账本更新函数必须同步完成');const next=normalize(returned===undefined?draft:returned,true);next.updated=new Date().toISOString();await encrypt(next,g);state=next;notice=success;repaint();return true;};
     const result=queue.then(run,run);queue=result.catch(()=>{});
     return result.catch(error=>{if(g===session){notice='未保存：'+(error.message||'加密存储失败')+' 当前已保存资料未被覆盖。';repaint();}return false;});
   }
   const amount=n=>'¥'+Number(n).toLocaleString('zh-CN',{minimumFractionDigits:0,maximumFractionDigits:2});
   function visible(){return unlocked()&&loaded?state:initial();}
-  function totals(){const s=visible(),planned=s.budget.reduce((n,r)=>n+r.amount,0),spent=s.records.reduce((n,r)=>n+r.cny,0);return {planned,spent,balance:planned-spent};}
+  function totals(){const s=visible(),cent=n=>Math.round((n+Number.EPSILON)*100),planned=s.budget.reduce((n,r)=>n+cent(r.amount),0),spent=s.records.reduce((n,r)=>n+(r.kind==='refund'?-1:1)*cent(r.cny),0);return {planned:planned/100,spent:spent/100,balance:(planned-spent)/100};}
   function categoryLabel(id){return actualCategories.find(c=>c.id===id)?.label||id;}
   async function exportEncrypted(){
     const g=session;try{checkSession(g);await queue;await ensureLoaded();checkSession(g);const blob=await window.TripVault.exportBackup();checkSession(g);const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='丝路随行-私密区加密备份-'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);notice='已导出统一加密备份；不含票夹附件，请另保留票据原件。';repaint();}catch(error){if(g===session){notice='加密备份未导出：'+(error.message||'请在私密区重试');repaint();}}
@@ -74,7 +78,7 @@
       const t=event.target;if(!unlocked()){repaint();return;}
       if(t.matches('[data-budget-id]')){const id=t.dataset.budgetId,value=t.value;if(!validMoney(value)){notice='请输入0至10000000之间的人民币金额。';repaint();return;}await change(next=>{const cat=next.budget.find(c=>c.id===id);if(!cat)throw Error('预算类别无效');cat.amount=Number(value);return next;},'私人预算已加密保存到本机。');}
       if(t.matches('[data-planning-import]')&&t.files?.[0]){
-        const g=session,file=t.files[0];try{if(file.size>5*1048576)throw Error('旧备份超过5MB');const parsed=normalize(JSON.parse(await file.text()),true);checkSession(g);await change(next=>{const merged=new Map(next.records.map(r=>[r.id,r]));for(const r of parsed.records)merged.set(r.id,r);next.budget=parsed.budget;next.records=[...merged.values()];return next;},'旧JSON已加密迁入，实付按ID合并，现有记录保留。旧备份文件仍是明文，请自行妥善处理。');}catch(error){if(g===session){notice='旧JSON未导入：'+(error.message||'格式无效')+' 当前资料已保留。';repaint();}}
+        const g=session,file=t.files[0];try{if(file.size>5*1048576)throw Error('旧备份超过5MB');const raw=JSON.parse(await file.text()),parsed=normalize(raw,true);checkSession(g);await change(next=>{const merged=new Map(next.records.map(r=>[r.id,r]));for(const r of parsed.records)merged.set(r.id,r);next.budget=parsed.budget;next.records=[...merged.values()];if(raw.ledger&&window.TripLedgerCore){const accounts=new Map(next.ledger.accounts.map(a=>[a.id,a])),transfers=new Map(next.ledger.transfers.map(r=>[r.id,r]));for(const a of parsed.ledger.accounts)accounts.set(a.id,a);for(const r of parsed.ledger.transfers)transfers.set(r.id,r);next.ledger={...parsed.ledger,accounts:[...accounts.values()],transfers:[...transfers.values()]};}return next;},'旧JSON已加密迁入，实付和资金调拨按ID合并，现有记录保留。旧备份文件仍是明文，请自行妥善处理。');}catch(error){if(g===session){notice='旧JSON未导入：'+(error.message||'格式无效')+' 当前资料已保留。';repaint();}}
       }
     };
     el.onsubmit=async event=>{
@@ -97,5 +101,5 @@
     else if(loaded){try{const stored=window.TripVault.readSection('planning');state=stored==null?initial():normalize(stored);}catch(error){state=initial();loaded=false;notice='私密预算读取失败：'+error.message;}}
     wasUnlocked=open;repaint();if(open&&!loaded&&!loading)ensureLoaded().catch(()=>{});
   });
-  window.TripPlanning={KEY,mount,mountAll,totals,getState:()=>copy(visible())};
+  window.TripPlanning={KEY,mount,mountAll,totals,getState:()=>copy(visible()),ready:async()=>{await ensureLoaded();return copy(visible());},update:fn=>change(fn,'账本已加密保存到本机。'),subscribe:listener=>{if(typeof listener!=='function')throw Error('订阅函数无效');const handler=event=>listener(copy(visible()),event);window.addEventListener('tripplanningchange',handler);return ()=>window.removeEventListener('tripplanningchange',handler);}};
 })();

@@ -32,7 +32,7 @@
   try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch{storeOK=false;}
   const state={...defaults,...saved};
   if(!Number.isInteger(state.day)||state.day<0||state.day>=D.days.length)state.day=0;
-  if(!['journey','map','vault','notes','guide'].includes(state.view))state.view='journey';
+  if(!['journey','map','vault','notes','guide','ledger'].includes(state.view))state.view='journey';
   for(const key of ['done','bookings','dayNotes','focus','reminders'])if(!state[key]||typeof state[key]!=='object'||Array.isArray(state[key]))state[key]={};
   for(const key of ['notes','todos'])if(!Array.isArray(state[key]))state[key]=[];
   const legacySensitive={notes:state.notes,dayNotes:state.dayNotes,todos:state.todos,reminders:state.reminders};
@@ -106,7 +106,7 @@
     $('#journey-view').innerHTML=`<div class="day-heading"><p class="date-label">${dateText(d.date)} ${dayLabel(state.day)} · ${E(d.country)} · ${E(d.timezone)} 当地时间</p><h1>${E(d.label)}</h1><p>${E(d.note)}</p><div class="day-status"><span>${['day22','day29','day41','day54','day58'].includes(d.id)?'按用户确认航空时刻':'具体时段 · 路线计划'}</span><span>D${state.day+1} / ${D.days.length}</span></div><div class="day-highlights">${priority()}</div></div><div id="next-stop">${TripTools.nextHTML(D,state)}</div><button class="map-peek" data-view="map"><span><strong>在地图上看看今天</strong><small>${d.places.length} 个地点 · 点选地点可导航、记备忘</small></span>${icon('map')}</button>${window.TripStay?.dayHTML(d)||''}${transportHTML(d)}${window.TripBooking?.returnHTML(d)||''}${TripFood.overview(d)}<div class="schedule-heading"><h2>当天行程</h2><span class="progress-label">已完成 ${done} / ${d.rows.length}</span></div><div class="schedule">${d.rows.map(row=>{
       const open=expanded.has(row.id);
       return `<article class="step ${row.highlight?'highlight ':''}${state.done[row.id]?'is-done':''}" id="step-${row.id}"><label class="step-check"><input type="checkbox" data-done="${row.id}" ${state.done[row.id]?'checked':''} aria-label="完成：${E(row.title)}"></label><div class="step-panel"><button class="step-toggle" data-expand="${row.id}" aria-expanded="${open}" aria-controls="detail-${row.id}"><span class="step-time">${E(row.time.replace(/\s+/g,''))}</span><span class="step-title">${E(row.title)}</span><span class="step-expand"><span>${row.links.length?'含具体路线与导航':'查看安排与提醒'}</span>${icon(open?'down':'chevron')}</span></button>${TripFood.summary(row.id)}<div class="step-detail" id="detail-${row.id}" ${open?'':'hidden'}>${row.detail}${row.links.length?'<div class="route-actions">'+row.links.filter(l=>/^https:\/\//.test(l.url||l.href||'')).map(l=>'<a class="soft-button" href="'+E(l.url||l.href)+'" target="_blank" rel="noopener noreferrer">'+E(l.label||'打开这段路线')+' ↗</a>').join('')+'</div>':''}${TripFood.details(row.id)}<div class="step-controls">${row.place?`<button class="soft-button" data-open-place="${row.place}">${icon('map')}地图</button>`:''}<button class="soft-button" data-focus-row="${row.id}">从这一步继续</button><button class="soft-button" data-note-place="${row.place||''}">${icon('note')}记一下</button></div></div></div></article>`;
-    }).join('')}</div><div class="extras prose"><h3>当天备选与交通补充</h3>${d.extras||'<p>当天按上方的具体动线与缓冲执行。</p>'}</div>${window.TripPostcards?.dayHTML(d)||''}<details class="day-account"><summary>记一笔今天的花销</summary><div data-trip-planning></div></details>`;
+    }).join('')}</div><div class="extras prose"><h3>当天备选与交通补充</h3>${d.extras||'<p>当天按上方的具体动线与缓冲执行。</p>'}</div>${window.TripPostcards?.dayHTML(d)||''}<div class="route-actions"><button class="primary-button" data-ledger-compose>＋ 记一笔当天花销</button><button class="soft-button" data-view="ledger">查看旅行账本</button></div><details class="day-account"><summary>原版人民币记账与预算</summary><div data-trip-planning></div></details>`;
     mountPlanning();
   }
   function openRow(id){if(!day().rows.some(r=>r.id===id))return;setView('journey');expanded.add(id);renderJourney();requestAnimationFrame(()=>$('#step-'+id)?.scrollIntoView({block:'start',behavior:'instant'}));}
@@ -173,13 +173,13 @@
   function renderGuide(){
     const g=D.guides.find(g=>g.id===guide);
     if(g){$('#guide-view').innerHTML=`<button class="back-button" data-guide-back>‹ 返回行前资料</button><article class="guide-article prose">${g.html}</article>`;mountPlanning();return;}
-    $('#guide-view').innerHTML=`<div class="view-title"><div><h2>出发前，心里有数</h2><p>基础资料 ${D.version} · 复核 ${D.reviewed} · 交通与费用待出票确认</p></div></div><div class="day-highlights"><b>行程进度</b><br>${E(D.transportNote)}</div><div class="travel-tools"><button class="soft-button" data-view="vault">打开离线票夹</button><button class="soft-button" data-open-reminders>设置出发提醒</button></div><div class="guide-grid" style="margin-top:20px">${D.guides.map(g=>`<button class="guide-tile" data-guide="${g.id}">${icon((guideMeta[g.id]||['bag',g.subtitle||'十国随行资料'])[0])}<span><strong>${E(g.title)}</strong><small>${E((guideMeta[g.id]||['bag',g.subtitle||'十国随行资料'])[1])}</small></span></button>`).join('')}</div>${todoHTML()}`;
+    $('#guide-view').innerHTML=`<div class="view-title"><div><h2>出发前，心里有数</h2><p>基础资料 ${D.version} · 复核 ${D.reviewed} · 交通与费用待出票确认</p></div></div><div class="day-highlights"><b>行程进度</b><br>${E(D.transportNote)}</div><div class="travel-tools"><button class="soft-button" data-view="ledger">打开旅行账本</button><button class="soft-button" data-view="vault">打开离线票夹</button><button class="soft-button" data-open-reminders>设置出发提醒</button></div><div class="guide-grid" style="margin-top:20px">${D.guides.map(g=>`<button class="guide-tile" data-guide="${g.id}">${icon((guideMeta[g.id]||['bag',g.subtitle||'十国随行资料'])[0])}<span><strong>${E(g.title)}</strong><small>${E((guideMeta[g.id]||['bag',g.subtitle||'十国随行资料'])[1])}</small></span></button>`).join('')}</div>${todoHTML()}`;
   }
   function setView(view,scroll=true){
-    if(!['journey','map','vault','notes','guide'].includes(view))return;
+    if(!['journey','map','vault','notes','guide','ledger'].includes(view))return;
     state.view=view;document.body.dataset.view=view;
     $$('.bottom-nav button').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
-    if(view==='notes')renderNotes();if(view==='guide')renderGuide();if(view==='vault')extras?.renderVault();
+    if(view==='notes')renderNotes();if(view==='guide')renderGuide();if(view==='vault')extras?.renderVault();if(view==='ledger')window.TripLedger?.mount($('#ledger-view'),{day:day()});
     try{history.replaceState(null,'','#'+view+'/'+day().id);}catch{/* Local files may not allow history updates. */}save();
     if(scroll)window.scrollTo({top:0,behavior:'instant'});
     requestAnimationFrame(()=>updateMap(view==='map'));
@@ -230,6 +230,7 @@
 
   document.addEventListener('click',e=>{
     const b=e.target.closest('button,a,label,g');if(!b)return;
+    if(b.hasAttribute('data-ledger-compose')){setView('ledger');window.TripLedger?.open({day:day(),compose:true});return;}
     if(b.matches('button[data-view]')){setView(b.dataset.view);return;}
     if(b.dataset.day!==undefined){setDay(Number(b.dataset.day));return;}
     if(b.dataset.expand){const id=b.dataset.expand;expanded.has(id)?expanded.delete(id):expanded.add(id);const article=$('#step-'+id);const open=expanded.has(id);$('.step-detail',article).hidden=!open;b.setAttribute('aria-expanded',String(open));$('.step-expand',b).innerHTML=`<span>${$('.step-detail',article).querySelector('a')?'含具体路线与导航':'查看安排与提醒'}</span>${icon(open?'down':'chevron')}`;return;}
@@ -287,7 +288,7 @@
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;$('#install-app').hidden=false;});
   $('#install-app').addEventListener('click',async()=>{if(deferredInstall){await deferredInstall.prompt();deferredInstall=null;$('#install-app').hidden=true;}});
   let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>updateMap(false),180);});
-  const hash=location.hash.match(/^#(journey|map|vault|notes|guide)\/day(\d{1,2})$/);if(hash&&D.days[Number(hash[2])-1]){state.view=hash[1];state.day=Number(hash[2])-1;city=day().defaultCity;}
+  const hash=location.hash.match(/^#(journey|map|vault|notes|guide|ledger)\/day(\d{1,2})$/);if(hash&&D.days[Number(hash[2])-1]){state.view=hash[1];state.day=Number(hash[2])-1;city=day().defaultCity;}
   $('#country-filter').addEventListener('change',e=>{countryFilter=e.target.value;const i=D.days.findIndex(d=>d.country===countryFilter);if(countryFilter!=='all'&&day().country!==countryFilter&&i>=0)setDay(i);else renderTabs();});
   $('#day-jump').addEventListener('change',e=>{countryFilter='all';setDay(Number(e.target.value));});
   $('#day-prev').addEventListener('click',()=>{countryFilter='all';setDay(state.day-1);});
