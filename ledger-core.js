@@ -1,8 +1,7 @@
 (()=>{
   'use strict';
-  // Rates are uncalibrated, editable examples in CNY per unit from the user's
-  // reference, never live quotes. A saved
-  // record's amount, rate and actual CNY are snapshots and are not recalculated.
+  // User-supplied offline references, CNY per foreign unit. Online daily
+  // references are separate. Historical actual CNY/rate snapshots never reprice.
   const currencies=[
     {code:'CNY',label:'人民币'},{code:'KZT',label:'哈萨克斯坦坚戈'},{code:'UZS',label:'乌兹别克斯坦苏姆'},
     {code:'AZN',label:'阿塞拜疆马纳特'},{code:'GEL',label:'格鲁吉亚拉里'},{code:'AMD',label:'亚美尼亚德拉姆'},
@@ -12,7 +11,9 @@
   const categories=[{id:'air',label:'航空'},{id:'intercity',label:'交通'},{id:'stay',label:'住宿'},{id:'food',label:'餐饮'},{id:'tickets',label:'门票与活动'},{id:'misc',label:'装备与杂项'},{id:'other',label:'其他'}];
   const countryCodes={CN:'中国',KZ:'哈萨克斯坦',UZ:'乌兹别克斯坦',AZ:'阿塞拜疆',GE:'格鲁吉亚',AM:'亚美尼亚',RS:'塞尔维亚',BA:'波黑',TR:'土耳其',EG:'埃及',AE:'阿联酋'};
   const countryCurrencies={'中国':'CNY','哈萨克斯坦':'KZT','乌兹别克斯坦':'UZS','阿塞拜疆':'AZN','格鲁吉亚':'GEL','亚美尼亚':'AMD','塞尔维亚':'RSD','波黑':'BAM','土耳其':'TRY','埃及':'EGP','阿联酋':'AED'};
-  const exampleRates={CNY:1,KZT:1/68,UZS:1/1780,AZN:4.25,GEL:2.65,AMD:1/54,RSD:1/15.5,BAM:3.82,TRY:0.133,EGP:0.123,AED:1.97,EUR:7.47,USD:7.22};
+  const legacyRates={CNY:1,KZT:1/68,UZS:1/1780,AZN:4.25,GEL:2.65,AMD:1/54,RSD:1/15.5,BAM:3.82,TRY:0.133,EGP:0.123,AED:1.97,EUR:7.47,USD:7.22};
+  const baselineVersion='2026-11-15';
+  const baselineRates={CNY:1,USD:6.6714,EUR:7.3540,AED:1.8167,AZN:3.9238,BAM:3.7600,GEL:2.5746,EGP:0.1248,TRY:0.1330,RSD:0.0626,AMD:0.018358,KZT:0.014987,UZS:0.0005541};
   const copy=value=>JSON.parse(JSON.stringify(value));
   const text=(value,max=300)=>String(value??'').slice(0,max);
   const money=(value,name='金额')=>{if(!['number','string'].includes(typeof value)||(typeof value==='string'&&!value.trim())||!Number.isFinite(Number(value))||Number(value)<0||Number(value)>10000000)throw Error(name+'必须为0至10000000之间的数字');return Number(value);};
@@ -37,7 +38,7 @@
   }
   function countries(value){if(value==null||value==='')return [];if(!Array.isArray(value)||value.length>30)throw Error('国家必须是数组');return [...new Set(value.map(country).filter(Boolean))];}
   function defaults(){
-    return {version:1,rates:{...exampleRates},rateDate:'',accounts:[
+    return {version:1,rates:{...baselineRates},rateDate:baselineVersion,rateInfo:{kind:'baseline',provider:'用户提供的离线基准',source:'',quotedAt:'',syncedAt:'',nextUpdateAt:'',baselineVersion},accounts:[
       {id:'card',label:'银行卡',type:'card'},{id:'alipay',label:'支付宝',type:'wallet'},{id:'wechat',label:'微信',type:'wallet'},
       ...currencies.map(c=>({id:'cash-'+c.code,label:c.code+' 现金',type:'cash',currency:c.code})),{id:'unknown',label:'未指定账户',type:'unknown'}
     ],transfers:[]};
@@ -74,6 +75,16 @@
     if(typeof input!=='object'||input.version!==1)throw Error('账本版本不兼容');
     if(input.rates!=null){if(typeof input.rates!=='object'||Array.isArray(input.rates))throw Error('汇率设置无效');for(const c of currencies)if(Object.prototype.hasOwnProperty.call(input.rates,c.code))result.rates[c.code]=rate(input.rates[c.code]);result.rates.CNY=1;}
     result.rateDate=date(input.rateDate);
+    if(input.rateInfo!=null){
+      const info=input.rateInfo;if(!info||typeof info!=='object'||!['baseline','manual','online','imported'].includes(info.kind))throw Error('汇率来源无效');
+      const stamp=value=>{if(!value)return '';if(typeof value!=='string'||!Number.isFinite(Date.parse(value)))throw Error('汇率时间无效');return new Date(value).toISOString();};
+      const source=text(info.source,300);if(source&&!/^https:\/\//.test(source))throw Error('汇率来源链接无效');
+      result.rateInfo={kind:info.kind,provider:text(info.provider,100),source,quotedAt:stamp(info.quotedAt),syncedAt:stamp(info.syncedAt),nextUpdateAt:stamp(info.nextUpdateAt),baselineVersion:text(info.baselineVersion,20)};
+    }else if(input.rates){
+      const unchangedLegacy=!input.rateDate&&currencies.every(c=>Object.hasOwn(input.rates,c.code)&&Math.abs(Number(input.rates[c.code])-legacyRates[c.code])<1e-12);
+      if(unchangedLegacy){result.rates={...baselineRates};result.rateDate=baselineVersion;}
+      else result.rateInfo={kind:'manual',provider:'原本机汇率设置',source:'',quotedAt:'',syncedAt:'',nextUpdateAt:'',baselineVersion:''};
+    }
     if(input.accounts!=null){
       if(!Array.isArray(input.accounts)||input.accounts.length>100)throw Error('账户设置无效');
       const byId=new Map(result.accounts.map(a=>[a.id,a]));
@@ -131,5 +142,5 @@
     const normalized=records.map(normalizeRecord),ids=new Set();for(const r of normalized){if(ids.has(r.id))throw Error('导入记录编号重复');ids.add(r.id);}
     const result={records:normalized};if(!Array.isArray(input)&&input.ledger!=null)result.ledger=normalizeLedger(input.ledger);return result;
   }
-  window.TripLedgerCore={currencies,categories,defaults,normalizeRecord,normalizeLedger,normalizeTransfer,countryForDay,currencyForDay,recordCountries,phaseForRecord,summarize,toCSV,parseCSV,normalizeImport};
+  window.TripLedgerCore={currencies,categories,baselineVersion,baselineRates:{...baselineRates},defaults,normalizeRecord,normalizeLedger,normalizeTransfer,countryForDay,currencyForDay,recordCountries,phaseForRecord,summarize,toCSV,parseCSV,normalizeImport};
 })();
