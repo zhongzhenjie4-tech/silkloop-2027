@@ -462,81 +462,75 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
 }
 ```
 
-## D30 · 2027-08-09 · 伊斯坦布尔
+## D24 · 2027-08-03 · 贝尔格莱德
 ```json
 {
-  "id": "istanbul",
-  "country": "土耳其",
-  "city": "伊斯坦布尔",
-  "day": 30,
+  "id": "belgrade",
+  "country": "塞尔维亚",
+  "city": "贝尔格莱德",
+  "day": 24,
   "alternateDay": [],
-  "name": "Sirkeci PTT Müdürlüğü / Büyük Postane（Sirkeci大邮局寄件柜台）",
-  "address": "Hobyar Mahallesi, Büyük Postane Caddesi No:9, Sirkeci, Fatih, İstanbul（PTT 2024公告确认历史大邮局门牌；2027寄件柜台入口仍需复核）",
-  "query": "Sirkeci Tarihi Büyük Postane Hobyar Büyük Postane Caddesi No 9 Fatih Istanbul",
+  "name": "Pošta 11101 Beograd 1 / Glavna pošta",
+  "address": "Takovska 2, Beograd, Serbia",
+  "query": "Posta 11101 Beograd 1 Takovska 2 Belgrade",
   "hours": {
-    "text": "当前国际信函收寄柜台常规营业时间待核；不采用PTT博物馆时间。",
-    "status": "unverified",
-    "source": "https://www.turkiye.gov.tr/iletisim?hizli=CozumMerkeziV2&nodeId=42",
-    "statusLabel": "收寄窗口/对应星期时段待确认"
+    "text": "2025-10-20官方公告：自2025-11-01至另行通知，每日08:00–21:30（含周末节日），大柜台厅服务；同址夜邮小厅暂关。2027重核。",
+    "status": "official_current_until_further_notice",
+    "source": "https://www.posta.rs/lat/info/servisne-informacije.aspx?Item=20063",
+    "statusLabel": "当前公开网点参考；2027行前复核"
   },
   "postage": {
-    "product": "PTT国际明信片 POSTA KARTLARI / POST CARDS（普通/挂号）；寄中国大陆及航空适用性仍须确认",
-    "weight": "明信片按件列价，无重量档；尺寸9×14至12×23.5cm，长宽比≥1.4，尺寸允许±2mm",
-    "amount": 90,
-    "currency": "TRY",
-    "registeredAmount": 170,
-    "status": "partially_verified",
-    "effectiveDate": null,
-    "source": "https://pttwebdosya.ptt.gov.tr/api/file/getFile?FileName=95964723-0dbc-42f9-bf21-8240e13dfc9b%2A2026_Yurt_Disi_Tarife_ve_Ek_Hizmet_Tarifesi.pdf",
+    "product": "国际普通明信片 Dopisnica（寄中国大陆）；航空是否另加费待核",
+    "weight": "≤20g；90×140mm至120×235mm",
+    "amount": 140,
+    "currency": "RSD",
+    "registeredAmount": null,
+    "status": "official_2026_card_base_rate_verified_air_scope_unverified",
+    "effectiveDate": "2026-01-01",
+    "source": "https://www.posta.rs/DocumentViewer.aspx?Dokument=stanovnistvo-pismonosne-inostranstvo-dopisnica-01-01-2026-cir.pdf&IdDokument=2763",
     "notes": [
-      "2026官方国际表列普通卡90 TRY、挂号整件170 TRY；原75 TRY估数不沿用。",
-      "普通航空、对中国受理及该表当前适用状态仍需交寄前确认；170 TRY不当作普通航空附加费。",
-      "规格参考9×14至12×23.5cm，长宽比至少1.4；异形卡先问能否按卡片计费。"
+      "官方2026国际普通明信片≤20g基础价140 RSD；是否另收航空费尚待确认。",
+      "140 RSD不是2027保证价，卡片另算；现场先问寄中国普通航空卡的总价。"
     ],
-    "statusLabel": "2026官方国际表参考；航空/寄中国及当前生效状态待核"
+    "statusLabel": "官方普通国际卡基础价；航空是否另收费待核"
   },
   "cardCost": {
     "status": "unverified",
-    "note": "卡片零售价及柜台库存未核实，现场另付。"
+    "note": "卡片本体价格、库存未核。"
   },
   "sources": [
     {
-      "url": "https://www.ptt.gov.tr/duyurular/12-ulastirma-ve-haberlesme-s%C3%BBrasi-konulu-anma-pulu-47bfa594f78d404898f3e16ca6e8c07c",
-      "title": "PTT官方公告（旧审计已核Sirkeci PTT Müdürlüğü名称）",
+      "url": "https://www.posta.rs/DocumentViewer.aspx?IdDokument=1002893",
+      "title": "Pošta Srbije官方网点清单：11101 Beograd 1，Takovska 2",
       "checked": "2026-11-05"
     },
     {
-      "url": "https://www.ptt.gov.tr/tarifeler",
-      "title": "PTT官方资费入口（索引显示2026新费表，页面直读502）",
+      "url": "https://www.posta.rs/lat/info/servisne-informacije.aspx?Item=20063",
+      "title": "2025-10-20官方公告：中央邮局08:00–21:30，夜邮暂关，至另行通知",
       "checked": "2026-11-05"
     },
     {
-      "url": "https://www.ptt.gov.tr/duyurular/selam-olsun-gidenlere-2-konulu-ozelgun-zarfi-19aa770788f44373aee8b4ef48825c4a",
-      "title": "PTT 2024官方公告（搜索索引可读，历史大邮局No:9地址；不是当前营业时间证明）",
+      "url": "https://www.posta.rs/DocumentViewer.aspx?Dokument=stanovnistvo-pismonosne-inostranstvo-dopisnica-01-01-2026-cir.pdf&IdDokument=2763",
+      "title": "2026-01-01国际个人明信片价目表：≤20g 140 RSD",
       "checked": "2026-11-05"
     },
     {
-      "url": "https://pttwebdosya.ptt.gov.tr/api/file/getFile?FileName=95964723-0dbc-42f9-bf21-8240e13dfc9b%2A2026_Yurt_Disi_Tarife_ve_Ek_Hizmet_Tarifesi.pdf",
-      "title": "PTT官方2026国际明信片与附加服务资费表（土文索引缓存可读，90/170 TRY）",
-      "checked": "2026-11-05"
-    },
-    {
-      "url": "https://pttwebdosya.ptt.gov.tr/api/file/getFile?FileName=9d38269e-ffc2-4f7b-a8e2-273514b786bf%2AINTERNATIONAL_ITEM_CHARGES_AND_ADDITIONAL_SERVICE_TARIFFS.pdf",
-      "title": "PTT官方2026国际资费英文版（索引缓存可读，与土文90/170 TRY一致）",
+      "url": "https://www.posta.rs/lat/stanovnistvo/usluga.aspx?usluga=postanske-usluge%2Fpismonosne-usluge-inostranstvo%2Fdopisnica",
+      "title": "Pošta Srbije官方国际明信片产品页",
       "checked": "2026-11-05"
     }
   ],
-  "routeAdvice": "保留D30 Sirkeci老城区域可选停留；柜台开放和寄中国产品均确认后再绕入，不承诺零绕路。",
-  "decision": "保留D30具名候选，历史大邮局门牌已得PTT公告支持；取得官方2026普通/挂号明信片90/170 TRY表，但航空寄中国、具体生效日、柜台时段仍待核。",
-  "visitWindow": "D30白天，前一日通过PTT定位器复核；本轮不给出伪精确营业时段。",
+  "routeAdvice": "D24国家博物馆与圣萨瓦/议会周边动线择15–30分钟加停Takovska 2中央邮局；它不在共和国广场正旁。实际转场和柜台开放先核，寄卡不挤主参观。",
+  "decision": "可选加停15–30分钟；到柜台问ordinary AIR postcard to mainland China，确认当日总邮资再贴票。",
+  "visitWindow": "D24 · 8/3周二，按当天具体参观转场择15–30分钟；晚间窗口仍须行前复核，不依赖夜邮。",
   "backup": null,
   "limitations": [
-    "PTT页面和PDF实时直读多次502/503/SSL异常；成功读取的是官方文件的搜索索引缓存。",
-    "2026表中90/170 TRY未等同于2027实价，也未完成中国大陆普通航空产品验证。",
-    "2027年营业、邮资、卡片库存、China通邮及实际收寄均未实测。"
+    "每日08:00–21:30是当前至另行通知安排，不保证2027。",
+    "140 RSD已核为2026国际普通卡基础价；航空计价与2027对华收寄仍待核。",
+    "未实测导航、卡片库存、排队与收寄。"
   ],
-  "number": 8,
-  "alternateDayAdvice": ""
+  "number": 6,
+  "alternateDayAdvice": "D24 · 2027-08-03 周二；当天若排队太长即跳过，不占白天洗衣时间。"
 }
 ```
 
@@ -630,75 +624,81 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
 }
 ```
 
-## D24 · 2027-08-03 · 贝尔格莱德
+## D30 · 2027-08-09 · 伊斯坦布尔
 ```json
 {
-  "id": "belgrade",
-  "country": "塞尔维亚",
-  "city": "贝尔格莱德",
-  "day": 24,
+  "id": "istanbul",
+  "country": "土耳其",
+  "city": "伊斯坦布尔",
+  "day": 30,
   "alternateDay": [],
-  "name": "Pošta 11101 Beograd 1 / Glavna pošta",
-  "address": "Takovska 2, Beograd, Serbia",
-  "query": "Posta 11101 Beograd 1 Takovska 2 Belgrade",
+  "name": "Sirkeci PTT Müdürlüğü / Büyük Postane（Sirkeci大邮局寄件柜台）",
+  "address": "Hobyar Mahallesi, Büyük Postane Caddesi No:9, Sirkeci, Fatih, İstanbul（PTT 2024公告确认历史大邮局门牌；2027寄件柜台入口仍需复核）",
+  "query": "Sirkeci Tarihi Büyük Postane Hobyar Büyük Postane Caddesi No 9 Fatih Istanbul",
   "hours": {
-    "text": "2025-10-20官方公告：自2025-11-01至另行通知，每日08:00–21:30（含周末节日），大柜台厅服务；同址夜邮小厅暂关。2027重核。",
-    "status": "official_current_until_further_notice",
-    "source": "https://www.posta.rs/lat/info/servisne-informacije.aspx?Item=20063",
-    "statusLabel": "当前公开网点参考；2027行前复核"
+    "text": "当前国际信函收寄柜台常规营业时间待核；不采用PTT博物馆时间。",
+    "status": "unverified",
+    "source": "https://www.turkiye.gov.tr/iletisim?hizli=CozumMerkeziV2&nodeId=42",
+    "statusLabel": "收寄窗口/对应星期时段待确认"
   },
   "postage": {
-    "product": "国际普通明信片 Dopisnica（寄中国大陆）；航空是否另加费待核",
-    "weight": "≤20g；90×140mm至120×235mm",
-    "amount": 140,
-    "currency": "RSD",
-    "registeredAmount": null,
-    "status": "official_2026_card_base_rate_verified_air_scope_unverified",
-    "effectiveDate": "2026-01-01",
-    "source": "https://www.posta.rs/DocumentViewer.aspx?Dokument=stanovnistvo-pismonosne-inostranstvo-dopisnica-01-01-2026-cir.pdf&IdDokument=2763",
+    "product": "PTT国际明信片 POSTA KARTLARI / POST CARDS（普通/挂号）；寄中国大陆及航空适用性仍须确认",
+    "weight": "明信片按件列价，无重量档；尺寸9×14至12×23.5cm，长宽比≥1.4，尺寸允许±2mm",
+    "amount": 90,
+    "currency": "TRY",
+    "registeredAmount": 170,
+    "status": "partially_verified",
+    "effectiveDate": null,
+    "source": "https://pttwebdosya.ptt.gov.tr/api/file/getFile?FileName=95964723-0dbc-42f9-bf21-8240e13dfc9b%2A2026_Yurt_Disi_Tarife_ve_Ek_Hizmet_Tarifesi.pdf",
     "notes": [
-      "官方2026国际普通明信片≤20g基础价140 RSD；是否另收航空费尚待确认。",
-      "140 RSD不是2027保证价，卡片另算；现场先问寄中国普通航空卡的总价。"
+      "2026官方国际表列普通卡90 TRY、挂号整件170 TRY；原75 TRY估数不沿用。",
+      "普通航空、对中国受理及该表当前适用状态仍需交寄前确认；170 TRY不当作普通航空附加费。",
+      "规格参考9×14至12×23.5cm，长宽比至少1.4；异形卡先问能否按卡片计费。"
     ],
-    "statusLabel": "官方普通国际卡基础价；航空是否另收费待核"
+    "statusLabel": "2026官方国际表参考；航空/寄中国及当前生效状态待核"
   },
   "cardCost": {
     "status": "unverified",
-    "note": "卡片本体价格、库存未核。"
+    "note": "卡片零售价及柜台库存未核实，现场另付。"
   },
   "sources": [
     {
-      "url": "https://www.posta.rs/DocumentViewer.aspx?IdDokument=1002893",
-      "title": "Pošta Srbije官方网点清单：11101 Beograd 1，Takovska 2",
+      "url": "https://www.ptt.gov.tr/duyurular/12-ulastirma-ve-haberlesme-s%C3%BBrasi-konulu-anma-pulu-47bfa594f78d404898f3e16ca6e8c07c",
+      "title": "PTT官方公告（旧审计已核Sirkeci PTT Müdürlüğü名称）",
       "checked": "2026-11-05"
     },
     {
-      "url": "https://www.posta.rs/lat/info/servisne-informacije.aspx?Item=20063",
-      "title": "2025-10-20官方公告：中央邮局08:00–21:30，夜邮暂关，至另行通知",
+      "url": "https://www.ptt.gov.tr/tarifeler",
+      "title": "PTT官方资费入口（索引显示2026新费表，页面直读502）",
       "checked": "2026-11-05"
     },
     {
-      "url": "https://www.posta.rs/DocumentViewer.aspx?Dokument=stanovnistvo-pismonosne-inostranstvo-dopisnica-01-01-2026-cir.pdf&IdDokument=2763",
-      "title": "2026-01-01国际个人明信片价目表：≤20g 140 RSD",
+      "url": "https://www.ptt.gov.tr/duyurular/selam-olsun-gidenlere-2-konulu-ozelgun-zarfi-19aa770788f44373aee8b4ef48825c4a",
+      "title": "PTT 2024官方公告（搜索索引可读，历史大邮局No:9地址；不是当前营业时间证明）",
       "checked": "2026-11-05"
     },
     {
-      "url": "https://www.posta.rs/lat/stanovnistvo/usluga.aspx?usluga=postanske-usluge%2Fpismonosne-usluge-inostranstvo%2Fdopisnica",
-      "title": "Pošta Srbije官方国际明信片产品页",
+      "url": "https://pttwebdosya.ptt.gov.tr/api/file/getFile?FileName=95964723-0dbc-42f9-bf21-8240e13dfc9b%2A2026_Yurt_Disi_Tarife_ve_Ek_Hizmet_Tarifesi.pdf",
+      "title": "PTT官方2026国际明信片与附加服务资费表（土文索引缓存可读，90/170 TRY）",
+      "checked": "2026-11-05"
+    },
+    {
+      "url": "https://pttwebdosya.ptt.gov.tr/api/file/getFile?FileName=9d38269e-ffc2-4f7b-a8e2-273514b786bf%2AINTERNATIONAL_ITEM_CHARGES_AND_ADDITIONAL_SERVICE_TARIFFS.pdf",
+      "title": "PTT官方2026国际资费英文版（索引缓存可读，与土文90/170 TRY一致）",
       "checked": "2026-11-05"
     }
   ],
-  "routeAdvice": "D24国家博物馆与圣萨瓦/议会周边动线择15–30分钟加停Takovska 2中央邮局；它不在共和国广场正旁。实际转场和柜台开放先核，寄卡不挤主参观。",
-  "decision": "可选加停15–30分钟；到柜台问ordinary AIR postcard to mainland China，确认当日总邮资再贴票。",
-  "visitWindow": "D24 · 8/3周二，按当天具体参观转场择15–30分钟；晚间窗口仍须行前复核，不依赖夜邮。",
+  "routeAdvice": "保留D30 Sirkeci老城区域可选停留；柜台开放和寄中国产品均确认后再绕入，不承诺零绕路。",
+  "decision": "保留D30具名候选，历史大邮局门牌已得PTT公告支持；取得官方2026普通/挂号明信片90/170 TRY表，但航空寄中国、具体生效日、柜台时段仍待核。",
+  "visitWindow": "D30白天，前一日通过PTT定位器复核；本轮不给出伪精确营业时段。",
   "backup": null,
   "limitations": [
-    "每日08:00–21:30是当前至另行通知安排，不保证2027。",
-    "140 RSD已核为2026国际普通卡基础价；航空计价与2027对华收寄仍待核。",
-    "未实测导航、卡片库存、排队与收寄。"
+    "PTT页面和PDF实时直读多次502/503/SSL异常；成功读取的是官方文件的搜索索引缓存。",
+    "2026表中90/170 TRY未等同于2027实价，也未完成中国大陆普通航空产品验证。",
+    "2027年营业、邮资、卡片库存、China通邮及实际收寄均未实测。"
   ],
-  "number": 6,
-  "alternateDayAdvice": "D24 · 2027-08-03 周二；当天若排队太长即跳过，不占白天洗衣时间。"
+  "number": 8,
+  "alternateDayAdvice": ""
 }
 ```
 
@@ -713,7 +713,7 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
     50,
     51
   ],
-  "name": "Cairo Main Post Office / Attaba（القاهرة الرئيسي / العتبة；11511）",
+  "name": "开罗邮政总局（Cairo Main Post Office, Attaba 11511）",
   "address": "1 Abdel-Khaleq Tharwat Street, Attaba Square, Cairo, Egypt",
   "query": "Cairo Main Post Office 1 Abdel Khaleq Tharwat Attaba 11511",
   "hours": {

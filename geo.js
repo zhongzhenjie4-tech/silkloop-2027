@@ -21,6 +21,16 @@
    const key=p.lat.toFixed(6)+','+p.lng.toFixed(6);let group=groups.get(key);
    if(!group){group={...p,name:p.mapName||p.name,members:[],memberNames:[]};groups.set(key,group);}group.members.push(id);group.memberNames.push(p.name);
   }
+  // D54 arrival and onward metro share one airport stop. Keep the metro's
+  // own coordinates for its directions link and the original itinerary row.
+  if(day.id==='day54'){
+   const airport=[...groups.values()].find(p=>p.members.includes('rev58-d54-5'));
+   const metro=[...groups.entries()].find(([,p])=>p.members.length===1&&p.id==='rev58-d54-6');
+   if(airport&&metro){
+    airport.relatedStops=[{id:metro[1].id,name:'机场 T3 地铁站',lat:metro[1].lat,lng:metro[1].lng}];
+    groups.delete(metro[0]);
+   }
+  }
   return [...groups.values()];
  }
  function unresolvedForDay(day,city){return day.places.map(id=>D.places[id]).filter(p=>p&&p.mapHidden&&p.mapReason!=='reminder'&&(!city||p.city===city));}
@@ -54,7 +64,7 @@
   }
   return output;
  }
- function find(day,id,city){return pointsForDay(day,city).find(p=>p.members.includes(id))||null;}
+ function find(day,id,city){return pointsForDay(day,city).find(p=>p.members.includes(id)||p.relatedStops?.some(stop=>stop.id===id))||null;}
  function assertUnique(){for(const day of D.days){const seen=new Set();for(const p of pointsForDay(day)){const key=p.lat.toFixed(6)+','+p.lng.toFixed(6);if(seen.has(key))throw Error(day.id+'存在重复地图站点');seen.add(key);if(p.coordinateAccuracy==='city-reference')throw Error('城市参考点不得上图');}}return true;}
  window.TripGeo={pointsForDay,unresolvedForDay,displayPoints,spreadPixels,find,assertUnique};assertUnique();
 })();

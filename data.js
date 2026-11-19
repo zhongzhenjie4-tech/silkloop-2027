@@ -1,5 +1,5 @@
 window.TRIP_DATA = {
-  "version": "2026-11-10 · 三段机票已落实 v20",
+  "version": "2026-11-10 · 六段机票已落实 v20",
   "reviewed": "2026/11/10 · JU851、PC2733及PC620按本人确认",
   "title": "丝路随行",
   "subtitle": "58天 · 跨亚欧非10国 · 2027年7月11日—9月6日",
@@ -4765,9 +4765,9 @@ window.TRIP_DATA = {
         {
           "id": "d22v2-01",
           "time": "08:30–09:15 · 埃里温时间",
-          "title": "早餐、退房与核JU851",
+          "title": "早餐、退房与核对JU851",
           "detail": "<p>吃早餐、退房，核已购8/1 JU851埃里温EVN→贝尔格莱德BEG；没有SAW转机或卡帕段。按实际住宿约定取件离店。</p>",
-          "plain": "早餐、退房与核JU851  吃早餐、退房，核已购8/1 JU851埃里温EVN→贝尔格莱德BEG；没有SAW转机或卡帕段。按实际住宿约定取件离店。 ",
+          "plain": "早餐、退房与核对JU851  吃早餐、退房，核已购8/1 JU851埃里温EVN→贝尔格莱德BEG；没有SAW转机或卡帕段。按实际住宿约定取件离店。 ",
           "links": [],
           "place": null,
           "highlight": true,
@@ -14930,7 +14930,7 @@ window.TRIP_DATA = {
       "defaultCity": "杭州",
       "priority": "已出票返杭日；9月7日开学，9月6日晚到校成立",
       "status": "planned",
-      "note": "按当地时间执行；具体交通班次仍以本人正式车票为准。白天安排游览与正餐，洗衣交给夜间机洗或代洗。",
+      "note": "凌晨在迪拜 T3 候机，搭乘 EK310 直飞杭州。抵杭入境取包后，乘地铁 19 号线到创景路换 5 号线返校。",
       "rows": [
         {
           "id": "d58r58-01",
@@ -24237,9 +24237,9 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-egypt-uae",
-      "label": "9/2 EK928 CAI T2 13:10→DXB T3 17:30；订单与凭证在本机私密区",
-      "done": false,
-      "status": "pending"
+      "label": "已出票 · 9/2 EK928 CAI T2 13:10→DXB T3 17:30",
+      "done": true,
+      "status": "ticketed"
     },
     {
       "id": "uae-bus",
@@ -24249,9 +24249,9 @@ window.TRIP_DATA = {
     },
     {
       "id": "flight-return",
-      "label": "9/6 EK310 DXB T3 04:35→HGH T4 17:05；9/7开学",
-      "done": false,
-      "status": "pending"
+      "label": "已出票 · 9/6 EK310 DXB T3 04:35→HGH T4 17:05 · 9/7开学",
+      "done": true,
+      "status": "ticketed"
     },
     {
       "id": "hostels-reverse19",

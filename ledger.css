@@ -5,3 +5,5 @@
 .ledger-rate-status{font-size:12px;line-height:1.8;color:var(--teal);margin:10px 0;overflow-wrap:anywhere}.ledger-rate-refresh:disabled{opacity:.65;cursor:progress}.ledger-rate-refresh{min-height:42px}
 
 .ledger-rate-grid>span{min-width:0;white-space:normal}.ledger-rate-grid>span>span{display:block;white-space:nowrap}.ledger-rate-grid small{display:block;font-size:10px;line-height:1.6;margin-top:3px;color:var(--muted);overflow-wrap:anywhere}
+
+@media(max-width:760px){.ledger-view{padding-bottom:84px}}
