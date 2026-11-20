@@ -708,7 +708,7 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
   "day": 49,
   "alternateDay": [
     50,
-    51
+    54
   ],
   "name": "开罗邮政总局（Cairo Main Post Office, Attaba 11511）",
   "address": "1 Abdel-Khaleq Tharwat Street, Attaba Square, Cairo, Egypt",
@@ -731,7 +731,7 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
     "notes": [
       "未取得寄中国大陆普通航空明信片的可核实官方现价，原70 EGP不作为已核价格。",
       "先问当天是否收寄中国大陆、普通航空与挂号各多少钱；不要拿快递报价代替明信片邮资。",
-      "周六的国际收寄窗口未确认，D49休整优先，可转D50/D51有营业时再寄。"
+      "周六国际收寄窗口待确认；可在D50或D54开罗在地白天补寄。"
     ],
     "statusLabel": "未取得寄中国明信片的可核实官方报价"
   },
@@ -751,12 +751,12 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
       "checked": "2026-11-05"
     }
   ],
-  "routeAdvice": "若D49进入Attaba时已确认国际信函窗口开放再寄；未确认则把补寄安排在D50或D51白天，避免仅为明信片折返。不能凭全国性/斋月/养老金公告判断本柜台周六开放。",
+  "routeAdvice": "D49 进入Attaba前先确认国际信函窗口，周六时段待核。D50或D54若在开罗市区、柜台营业且时间允许再补寄。D51一早赴亚历山大。",
   "decision": "候选保留；不把D49周六列为已锁定寄件。",
-  "visitWindow": "优先在D50/D51白天预留；准确时间需通过Egypt Post行前复查。",
+  "visitWindow": "优先在D50安排；D54从南郊返市区且不影响博物馆关门时间时补寄，营业需复核。",
   "backup": {
     "name": "同一Cairo Main柜台择日补寄",
-    "day": "D50或D51",
+    "day": "D50或D54",
     "note": "本轮未得到更好且官方时段完整的具名备选柜台。"
   },
   "limitations": [
@@ -764,25 +764,23 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
     "2027年营业、邮资、China通邮及实际收寄均未实测。"
   ],
   "number": 9,
-  "alternateDayAdvice": "D50 · 2027-08-29 周日 / D51 · 2027-08-30 周一"
+  "alternateDayAdvice": "D50 · 2027-08-29 周日 / D54 · 2027-09-02 周四"
 }
 ```
 
-## D55 · 2027-09-03 · 迪拜
+## D57 · 2027-09-05 · 迪拜
 ```json
 {
   "id": "dubai",
   "country": "阿联酋",
   "city": "迪拜",
-  "day": 55,
-  "alternateDay": [
-    53
-  ],
+  "day": 57,
+  "alternateDay": [],
   "name": "Dubai Central Post Office / NXN Karama（Dubai Central / Al Karama具名候选）",
-  "address": "Za’abeel Street, Al Karama, Dubai, UAE（具名候选，当前官方定位器地址未完整返回）；按NXN Dubai Central / Karama名称查询，具体门牌与周五收寄窗口未完成官方核实。",
+  "address": "Za’abeel Street, Al Karama, Dubai, UAE（具名候选，当前官方定位器地址未完整返回）；按NXN Dubai Central / Karama名称查询，具体门牌与周日收寄窗口未完成官方核实。",
   "query": "NXN Dubai Central Post Office Al Karama Dubai",
   "hours": {
-    "text": "周五及祈祷间歇、国际信函收寄窗口时间待官方复核；第三方08:00–20:00与08:00–18:30存在差异，不采用。",
+    "text": "周日国际信函收寄窗口时间待官方复核。",
     "status": "unverified",
     "source": "https://www.emiratespost.ae/find-us",
     "statusLabel": "收寄窗口/对应星期时段待确认"
@@ -799,7 +797,7 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
     "notes": [
       "未取得寄中国大陆国际明信片的可核实官方报价，原5 AED不作为已核价格。",
       "官网国内明信片2 AED、挂号加费4 AED不适用于寄中国；先问国际裸卡是否收寄、是否需要信封和总价。",
-      "周五具体柜台与祈祷间歇待核；可优先D53营业时询问，D56凌晨出境不能补寄。"
+      "先确认D57周日柜台是否受理国际明信片。D55傍晚才抵迪拜；D56阿布扎比一日往返。"
     ],
     "statusLabel": "未取得寄中国明信片的可核实官方报价"
   },
@@ -834,21 +832,17 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
       "checked": "2026-11-05"
     }
   ],
-  "routeAdvice": "Al Karama不是Al Fahidi/Deira步行必经点；D55须在老城与Dubai Mall之间为此单独留转场，先确认周五收寄。若D53早抵SHJ后体力与时间允许，可从实际Alphatel DWTC住宿候选另安排此站，减少D55失败风险。D54阿布扎比整日游不强塞；D56是返程日，不作为可靠的柜台补寄日；真实起飞时刻待出票。",
+  "routeAdvice": "D57在老城后、去JBR前，只有确认 Al Karama 柜台当日营业且实际顺路才停。以21:30取包、22:45前进机场为优先。",
   "decision": "用具名Dubai Central/Al Karama取代笼统的Bur Dubai/Deira；仍为待确认候选，不宣称零绕路或最快到家。",
-  "visitWindow": "D53白天优先核开放补寄；D55仅在查到当日柜台时间后安排。",
-  "backup": {
-    "name": "Dubai Central同柜台D53提前寄",
-    "day": "D53 · 2027-09-01 周三",
-    "note": "本轮未核出Al Fahidi/Deira更贴路线且有官方时段的完整邮政柜台。"
-  },
+  "visitWindow": "D57周日早午间，柜台确认接收、动线允许再安排。",
+  "backup": null,
   "limitations": [
     "官方国内费率页支持NXN Karama柜台名称，但Dubai Central与Karama的具体地址仍依第三方地图线索；官方定位器动态返回0条。",
-    "周五时段及祈祷间歇未官方核实。",
+    "D57周日柜台及国际收寄窗口时段未核实，安排前查营业。",
     "当前官方目的地页不能替代2027现场受理；国际航空明信片价格和实际交寄未实测。"
   ],
   "number": 10,
-  "alternateDayAdvice": "D53 · 2027-09-01 周三抵达后"
+  "alternateDayAdvice": ""
 }
 ```
 

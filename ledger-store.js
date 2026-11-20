@@ -2,7 +2,7 @@
   'use strict';
   const KEY='silkloop-2027-ledger-public-v1',C=window.TripLedgerCore,copy=v=>JSON.parse(JSON.stringify(v));
   const base=()=>C.normalizeImport(window.TRIP_LEDGER_PUBLIC||{records:[]}).records;
-  const budgets=[['air','首段及跨国航空',7543],['intercity','城际与地面接驳',2650],['stay','49晚住宿',3500],['food','餐饮饮水',3000],['tickets','门票、团游与船游',2950],['misc','签证保险装备通讯洗衣明信片',1640],['reserve','机动金',717]].map(([id,label,amount])=>({id,label,amount}));
+  const budgets=[['air','首段及跨国航空',7543],['intercity','城际与地面接驳',2650],['stay','48晚住宿',3500],['food','餐饮饮水',3000],['tickets','门票、团游与船游',2950],['misc','签证保险装备通讯洗衣明信片',1640],['reserve','机动金',717]].map(([id,label,amount])=>({id,label,amount}));
   let saved={version:1,budget:copy(budgets),records:[],hidden:[],ledger:C.defaults()},warning='',queue=Promise.resolve();
   function validate(input){
     if(!input||input.version!==1||!Array.isArray(input.budget)||!Array.isArray(input.records))throw Error('账本格式无效');

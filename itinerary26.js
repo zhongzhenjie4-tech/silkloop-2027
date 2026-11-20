@@ -88,7 +88,14 @@
     }
     window.TripStay.attach(D, {refreshRoutes:false});
   }
-  for (const n of changedDays) setRows(n, day(n).rows);
+  const revised26 = [...changedDays].sort((a,b) => a-b);
+  changedDays.clear();
+  window.TripStay.applySiwaPlan();
+  // Copy the original flight rows to D55 before the Egypt plan replaces D54.
+  window.TripItinerary27.uae(api);
+  window.TripItinerary27.egypt(api);
+  const revised27 = [...changedDays].sort((a,b) => a-b);
+  for (const n of new Set([...revised26,...revised27])) setRows(n, day(n).rows);
   for (const n of [14,15,16,28,38,46,48]) day(n).requiresBookingTime = true;
   meal(40,'晚餐',{note:'晚餐后返回同一家住宿，确认 D41 凌晨接车和上车地点。'});
   meal(41,'午餐',{note:'11:00–12:30 预留 SAW 到卡德柯伊地铁及步行，12:30–13:30 用餐。延误或未取得后段登机牌则改在机场吃。'});
@@ -101,19 +108,23 @@
   window.TripBooking?.refresh();
 
 
-  D.version = '2026-11-20 · 六大区域更新 v26';
-  D.transportNote = '六段已出票航班按票面执行。D14 塔什干→巴库待购；D15 巴库→第比利斯须落实跨境班次。2027 未购班次、入场时段与票价按实际复核。';
+  D.version = '2026-11-21 · 锡瓦观星与回程更新 v27';
+  D.transportNote = '六段机票已落实，EK928 已免费改签到 9/3（D55）。D14 塔什干→巴库待购；D15 夜车、D52 赴锡瓦以及 D53 锡瓦→开罗夜巴按实际售票。';
   const oldRoute = D.guides.find(g => g.id === 'revision58');
   if (oldRoute) {
     oldRoute.title = '58天路线 · 旧版与本轮更新';
-    oldRoute.html = '<p>当前每日卡片和下方六区更新优先。旧版分时表用于对照。</p><button class="soft-button" data-guide="itinerary26">本轮路线与待核事项</button>' + oldRoute.html;
+    oldRoute.html = '<p>旧版分时表供对照。当前埃及尾段与迪拜安排见 v27。</p><button class="soft-button" data-guide="itinerary27">锡瓦观星与回程更新</button>' + oldRoute.html;
   }
   const transport = D.days.flatMap(d => (d.transportPlan || []).map(l => ({d,l})));
   guide('transport-specific','逐段交通 · 班次与状态', '<h2>逐段车次、航班与状态</h2><p>各地钟点均为当地时间。参考班次在出票前复核。</p>' + transport.map(({d,l}) =>
     '<details><summary>D' + d.id.slice(3) + ' · ' + escape(d.date) + ' · ' + escape(l.route) + '</summary><p>' + escape(l.operator) + ' · ' + escape(l.service) + '</p><p>' + escape(l.departure) + ' → ' + escape(l.arrival) + '</p><p>' + escape(l.evidenceStatus || l.status || '') + '</p>' +
     (/^https:\/\//.test(l.url || '') ? '<a target="_blank" rel="noopener noreferrer" href="' + escape(l.url) + '">看运营方资料</a>' : '') + '</details>').join(''));
   const revisionGuide = {id:'itinerary26',title:'六区行程更新与待核事项', subtitle:'跨境班次、机场红线、开放时间和新增支出',
-    html:'<h2>六区行程更新</h2><ul><li>D6 查伦、黑峡谷、凯因迪与科尔赛按全天团安排。D9／D11／D13 从 5 月 20／22／24 日分别查看高铁。</li><li>D14 HY755 和 D15 巴库→第比利斯夜车待落实。夜车方案为巴库 1 晚、第比利斯 3 晚。</li><li>D27 白天先落实 D28 莫斯塔尔去回交通，保留巴士备选。</li><li>D39 热气球主窗口。D41 04:30–05:00 接车，17:00 离开卡德柯伊返 SAW。</li><li>D46、D48 按实际车票确定时间；D53 文明馆后赶 16:00 前的悬空教堂。</li><li>D56 阿布扎比按普通票和往返巴士预留 AED 230，另计市内接驳与餐费。D57 目标 22:45 前进迪拜机场 T3。</li></ul><p>去回班次、适用折扣及票价按 2027 当日核对。</p><a class="soft-button" href="./itinerary26-reference.md" download="丝路随行_六区更新核查.md">下载逐区核查与来源</a>'};
+    html:'<h2>六区行程更新</h2><ul><li>D6 查伦、黑峡谷、凯因迪与科尔赛按全天团安排。D9／D11／D13 从 5 月 20／22／24 日分别查看高铁。</li><li>D14 HY755 和 D15 巴库→第比利斯夜车待落实。夜车方案为巴库 1 晚、第比利斯 3 晚。</li><li>D27 白天先落实 D28 莫斯塔尔去回交通，保留巴士备选。</li><li>D39 热气球主窗口。D41 04:30–05:00 接车，17:00 离开卡德柯伊返 SAW。</li><li>D46、D48 按实际车票确定时间。</li></ul><p>D52–D57 见最新安排。去回班次、适用折扣及票价按 2027 当日核对。</p><button class="soft-button" data-guide="itinerary27">锡瓦观星与回程更新</button> <a class="soft-button" href="./itinerary26-reference.md" download="丝路随行_六区更新核查.md">下载 v26 核查记录</a>'};
+  const siwaGuide = {id:'itinerary27',title:'锡瓦观星、EK928 改签与回程',subtitle:'D52–D57 · 车次、晚返拼车与费用',
+    html:'<h2>锡瓦观星与回程更新</h2><ul><li>D51 把 50L 主包寄在开罗青旅三晚，D54 早上回开罗取回。</li><li>D52 先锁赴锡瓦车次，镇上住一晚；晚返 4×4 含住预算 ¥420、目标 ¥360。需含晚餐、许可和送回青旅，21:15 后离开观星点。单人可查 Sunny Egypt 两小时望远镜观星，$25 起。</li><li>D53 Fatnas 提前，按实际夜巴票回开罗。D54 先悬空教堂再文明馆，晚住开罗。</li><li>D55 EK928 已免费改签到 9/3，开罗 13:10 → 迪拜 17:30。迪拜住 9/3、9/4 两晚。D57 目标 22:45 前进 T3。</li></ul><a class="soft-button" href="./itinerary27-reference.md" download="丝路随行_v27锡瓦与改签参考.md">下载 v27 参考与来源</a>'};
   D.guides.splice(1,0,revisionGuide);
-  D.itineraryRevision26 = {updated:'2026-11-20', days:[...changedDays].sort((a,b) => a-b)};
+  D.guides.splice(1,0,siwaGuide);
+  D.itineraryRevision26 = {updated:'2026-11-20',days:revised26};
+  D.itineraryRevision27 = {updated:'2026-11-21',days:revised27};
 })();

@@ -1,13 +1,13 @@
 # 丝路随行 · 具名餐厅与逐餐安排
 
-更新于 2026-11-20（v26）。行程为 2027-07-11 至 09-06，共58天。
+更新于 2026-11-21（v27）。行程为 2027-07-11 至 09-06，共58天。
 
-59 家具名餐厅候选，67 段用餐已关联当日行程。各店地址、菜单和营业证据沿用店卡所列核查日期。2027 年营业和菜单以到访时为准。
+59 家具名餐厅候选，65 段用餐已关联当日行程。各店地址、菜单和营业证据沿用店卡所列核查日期。2027 年营业和菜单以到访时为准。
 
 - D6 四景拼团按所选套餐备午餐。晚餐预先打包，返阿拉木图后视时间补给。
 - D36（周日）安塔利亚按当天营业选餐厅。Can Can 参考资料列周日休，安排在 D37（周一）。
 - D32 午餐在 Sirkeci，渡轮过亚洲侧后在 Üsküdar 用晚餐。D41 长中转时才去 Kadıköy 吃 Çiya，按回机场的截止时间控制排队。
-- D35 Kekova、D40 卡帕绿线、D43 红海浮潜的团餐以订单为准。D56 卢浮宫后就近简餐，晚餐随返迪拜巴士时刻调整。
+- D35 Kekova、D40 卡帕绿线、D43 红海浮潜及 D52 锡瓦晚返 4×4 的团餐以订单为准。D52、D53 交通日用车站或镇内便餐。D56 卢浮宫后就近简餐，晚餐随返迪拜巴士时刻调整。
 - 每餐按当天路线选一家。等位加出餐超过15–20分钟，或接近赶车截止时，改用现成热食或便餐。
 - 人民币金额是规划留量。菜单原币、核查日期和具体证据见店卡。水、饮品和服务费按实际价格记录。
 
@@ -358,20 +358,9 @@ ElDahar街市逛完先核地图针与ElTahrir门头、营业和当日价，能�
 [餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Kadoura%206V2P%2BVRQ%20El%20Gaish%20Road%20Mansheya%20Alexandria)
 [午餐导航 · Kadoura Seafood · Mansheya海滨分店](https://www.google.com/maps/dir/?api=1&destination=Kadoura%206V2P%2BVRQ%20El%20Gaish%20Road%20Mansheya%20Alexandria)
 
-### D52 · 2027-08-31 · 12:45–13:30 · 午餐：Magdy Seafood · Omar El-Mokhtar街店
-城市：马特鲁；地址：Omar El-Mokhtar Street, Mersa Matruh, Matrouh Governorate 5057003；同名另有Goal Gamal街目录，按本Waze定位选店
-12:45–13:30西线回城后午餐；与司机约好直接送餐厅或车站方向，不再绕海湾。13:15仍未上菜就改Sahar小份现成餐/外带，确保13:30–14:15前往正式大巴站。D52晚餐已回开罗，应沿用原开罗具名餐厅，不能继续挂马特鲁门店。
-[午餐导航 · Magdy Seafood · Omar El-Mokhtar街店](https://www.google.com/maps/dir/?api=1&destination=Magdy%20Seafood%20Omar%20El%20Mokhtar%20Mersa%20Matruh)
-
-### D52 · 2027-08-31 · 21:30–22:30 · 晚餐：Koshary Abou Tarek · Shamblion市中心总店
+### D54 · 2027-09-02 · 17:45–18:45 · 晚餐：Koshary Abou Tarek · Shamblion市中心总店
 城市：开罗；地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
-先看实际返开罗时间；能及时到市中心店才去，车晚到用途中简餐，不为餐厅另绕路。
-[晚餐导航 · Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
-
-### D53 · 2027-09-01 · 17:45–18:45 · 晚餐：Koshary Abou Tarek · Shamblion市中心总店
-城市：开罗；地址：16 Maarouf Street, intersection of Champillion Street, Downtown Cairo；近Gamal Abdel Nasser地铁站
-NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅折返南郊。
-[餐厅具体分店导航](https://www.google.com/maps/search/?api=1&query=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
+D54 文明馆后回市中心用餐；堵车或太晚就改青旅附近便餐。
 [晚餐导航 · Koshary Abou Tarek · Shamblion市中心总店](https://www.google.com/maps/dir/?api=1&destination=Koshary%20Abou%20Tarek%2016%20Maarouf%20Champillion%20Downtown%20Cairo)
 
 ### D56 · 2027-09-04 · 13:00–13:30 · 午餐：Museum Café · Louvre Abu Dhabi馆内店
@@ -1722,7 +1711,7 @@ NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅�
     }
   ],
   "cautions": [
-    "D55走迪拜河老城，若当天已经到Deira且分店顺路，可把本店作晚餐备选。",
+    "D57走迪拜河老城，若当天已经到Deira且分店顺路，可作午餐备选。",
     "从Bur Dubai过河及从店返回住宿另计交通，当天核对返程末班。",
     "冷气与插座仍需问店，外部评分不复制。",
     "卷饼需上手，先收相机，用餐巾纸。"
@@ -1795,7 +1784,7 @@ NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅�
     }
   ],
   "cautions": [
-    "D54抵达后若按计划到Dubai Mall，可在商场选作同区晚餐。排队超过15–20分钟改就近便餐。",
+    "D55抵达后若按计划到Dubai Mall，可在商场选作同区晚餐。排队超过15–20分钟改就近便餐。",
     "不从搜索广告进入不明ALBAIK优惠支付站。",
     "美食广场室内可休息，但空位和插座不保证；水另计。"
   ],
@@ -2425,7 +2414,7 @@ NMEC后返回市中心吃饭，再决定是否走扎马雷克；不为了餐厅�
     }
   ],
   "cautions": [
-    "D52从马特鲁返回开罗后、或D53从南郊返回市区后，可作当日晚餐备选。按实际到店时刻确认是否仍营业。",
+    "D54从文明馆返回市区后，可作当日晚餐备选。按实际到店时刻确认是否仍营业。",
     "38号有两家独立目录支持，但MenuEgypt写28号、地图有39号；务必用Sabry街与16903核定位，不把Alwey2或AlBostan7分店当同一店。",
     "先问面包、配菜和服务费是否另收；Talabat配送与折扣不是2027堂食保证，不声称冷气/插座。"
   ],

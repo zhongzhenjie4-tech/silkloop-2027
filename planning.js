@@ -2,7 +2,7 @@
   'use strict';
   const KEY='silkloop-2027-planning-v1';
   const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const defaults=[{"id":"air","label":"首段及跨国航空","amount":7543},{"id":"intercity","label":"城际与地面接驳","amount":2650},{"id":"stay","label":"49晚住宿","amount":3500},{"id":"food","label":"餐饮饮水","amount":3000},{"id":"tickets","label":"门票、团游与船游","amount":2950},{"id":"misc","label":"签证保险装备通讯洗衣明信片","amount":1640},{"id":"reserve","label":"机动金","amount":717}];
+  const defaults=[{"id":"air","label":"首段及跨国航空","amount":7543},{"id":"intercity","label":"城际与地面接驳","amount":2650},{"id":"stay","label":"48晚住宿","amount":3500},{"id":"food","label":"餐饮饮水","amount":3000},{"id":"tickets","label":"门票、团游与船游","amount":2950},{"id":"misc","label":"签证保险装备通讯洗衣明信片","amount":1640},{"id":"reserve","label":"机动金","amount":717}];
   const actualCategories=[...defaults.filter(c=>c.id!=='reserve'),{id:'other',label:'其他实际支出'}];
   const ledgerDefaults=()=>window.TripLedgerCore?.defaults()||{version:1,rates:{CNY:1},rateDate:'',accounts:[{id:'unknown',label:'未指定账户',type:'unknown'}],transfers:[]};
   const initial=()=>({version:1,budget:defaults.map(x=>({...x})),records:[],ledger:ledgerDefaults(),updated:''});
@@ -68,7 +68,9 @@
   function mount(target,options={}){
     const el=typeof target==='string'?document.querySelector(target):target;if(!el)return null;mounted.set(el,options);
     const isOpen=unlocked(),editable=isOpen&&loaded,s=visible(),day=options.day||{},total=totals(),defaultDate=day.date||'2027-07-11',rows=s.records.slice().reverse();
-    const publicInfo='<p class="minor">58天压价目标22000元；完整路线分配参考24883元，差2883元需要真实压价或少买可选门票。49晚具名住宿搜索目标3925–6835元；目标预算中的3500元尚未实现。个人已保存预算与实付不会被这次更新覆盖。</p>';
+    const stay=window.TRIP_DATA?.accommodationSummary;
+    const stayText=stay?stay.paidNights+' 个住宿付费夜的具名候选询价区间为 '+stay.planCny.map(amount).join('–')+'，目标预算中的 ¥3,500 尚待落实。':'';
+    const publicInfo='<p class="minor">58 天压价目标 ¥22,000，原完整路线分配参考 ¥24,883。'+E(stayText)+'锡瓦住宿已计入住宿区间，也包含在 D52 住宿加观星的 ¥420 合并预留内，汇总时只计一次。</p>';
     if(!editable){
       el.innerHTML='<section class="planning-panel" aria-label="公开预算草案"><div class="day-highlights"><strong>'+amount(total.planned)+' 公开预算草案</strong></div>'+publicInfo+'<div class="planning-budget">'+defaults.map(c=>'<p>'+E(c.label)+'：'+amount(c.amount)+'</p>').join('')+'</div><p class="minor" role="status">'+E(isOpen?'正在读取本机加密预算……':'个人预算与实付记录已锁定。解锁后才能查看、编辑和迁移旧记录。')+'</p><button type="button" class="soft-button" data-guide="private">'+(isOpen?'打开本机私密区':'解锁本机私密区')+'</button><p class="planning-notice minor" role="status" aria-live="polite">'+E(notice)+'</p></section>';
       el.onchange=null;el.onsubmit=null;el.onclick=null;if(isOpen&&!loading)ensureLoaded().catch(()=>{});return {key:KEY,totals:total};

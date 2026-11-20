@@ -1,10 +1,10 @@
 # 地图坐标修复与来源
 
-更新于 2026-11-20。记录 v26 行程当前使用的地点。
+更新于 2026-11-21。记录 v27 行程当前使用的地点。
 
 ## 核对结果
 
-58 天、683 张行程卡、446 个地点对象。326 个按日地图站点，独立站点同坐标冲突为 0。D54 的迪拜机场 T3 和地铁换乘合为一个地图标记，地铁站仍可单独导航。
+58 天、686 张行程卡、455 个地点对象。328 个按日地图站点，独立站点同坐标冲突为 0。D55 的迪拜机场 T3 和地铁换乘合为一个地图标记，地铁站仍可单独导航。锡瓦镇有住宿地图点，D53 盐池、温泉、遗迹及夜巴站已上图。4×4 观星点等运营方确认。
 
 禁止使用城市中心兜底。早餐、取包、普通午餐、城市参考项不独立生成Pin。有多个活动时，地图将同址卡片合并显示。各地具名青旅已独立定位。
 
@@ -12,7 +12,7 @@
 
 ## 精度与核验边界
 
-OSM具名地点、建筑或景区几何中心不等于入口。保留的旧地标参考在卡片中单独标注。不能把小数位数当作实测精度，也不能保证所有建筑入口误差小于50米。未知坐标为null，不画假Pin。当天路线有 36 个不同搜索地点需核实（合计 45 次），可在地图“待核实”清单按名称搜索。
+OSM具名地点、建筑或景区几何中心不等于入口。保留的旧地标参考在卡片中单独标注。不能把小数位数当作实测精度，也不能保证所有建筑入口误差小于50米。未知坐标为null，不画假Pin。当天路线有 32 个不同搜索地点需核实（合计 40 次），可在地图“待核实”清单按名称搜索。
 
 ## 数据来源与复现
 
@@ -55,10 +55,6 @@ OSM具名地点、建筑或景区几何中心不等于入口。保留的旧地�
 | 渡轮返回东岸 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Aswan%20Corniche) |
 | 前往吉萨高原正式入口 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Giza%20Pyramids%20Ticket%20Office) |
 | 亚历山大→马特鲁 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Marsa%20Matrouh%20Bus%20Station) |
-| 阿吉巴→奥拜德白沙滩 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Al%20Obayed%20Beach%20Marsa%20Matrouh) |
-| 奥拜德白沙滩 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Al%20Obayed%20Beach) |
-| Magdy Seafood · Omar El-Mokhtar街店 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Magdy%20Seafood%20Omar%20El%20Mokhtar%20Mersa%20Matruh) |
-| 马特鲁→开罗 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Cairo%20Go%20Bus%20Station) |
+| 锡瓦大沙海 4×4 观星点待核 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Great%20Sand%20Sea%20Safari%20Siwa%20Oasis%20Egypt) |
 | 扎马雷克岛与尼罗河晚景 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Zamalek%20Cairo) |
-| 午餐、商场室内逛展与超市采购 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Carrefour%20Mall%20of%20the%20Emirates%20Dubai) |
 | 19号线→创景路换5号线→杭师大仓前站 | [搜索具体地点](https://www.google.com/maps/search/?api=1&query=Hangzhou%20Normal%20University%20Cangqian%20Campus%20South%20Gate) |

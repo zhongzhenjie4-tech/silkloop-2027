@@ -160,7 +160,7 @@ window.TRIP_BOOKING_DATA = {
         "flexibility": "8/27晚或8/28早均可检索，保住8/28开罗休整；改早班机须补8/27阿斯旺住宿",
         "checks": [
           "对比含税基础票+实际超限时才需要的加购+ASW/CAI两端接驳+额外住宿，与8/27夜巴+接驳+到店休息成本。",
-          "ASW→CAI到开罗国际机场，不是SPX；不把此国内段直接接9/2出境，仍保留开罗数日缓冲。",
+          "ASW→CAI到开罗国际机场，不是SPX；此段用于8月底抵达开罗，9/3出境前另有开罗缓冲。",
           "EGYPTAIR官方提供日期Timetable入口，本次没有取得2027-08-28具体航班和报价；不要复制第三方当前航班号。"
         ],
         "url": "https://www.egyptair.com/en/Pages/HomePage.aspx",
@@ -171,24 +171,28 @@ window.TRIP_BOOKING_DATA = {
       {
         "id": "cai-uae",
         "label": "EK928 开罗CAI T2 → 迪拜DXB T3 · 13:10–17:30",
-        "date": "2027-09-02",
-        "day": 54,
+        "date": "2027-09-03",
+        "day": 55,
         "airports": [
           "CAI",
           "DXB"
         ],
-        "priority": "用户确认已落实时刻；订单及实付仅本机保存",
+        "priority": "已出票并免费改签（本人确认）；凭新客票执行",
         "startWatching": "不再追原廉航替代线；留意航司航变通知。",
-        "recommendedDecision": "9/2按本人EK928客票执行；实际订单状态和退改条件保留本机。",
+        "recommendedDecision": "9/3按本人改签后的EK928客票执行；本次改签费 EGP 0。",
         "flexibility": "本路线为CAI，不是SPX；任何改签按本人票规处理。",
         "checks": [
           "CAI T2，不是SPX；按主行程09:30前到航站楼，具体值机和登机要求以本人客票为准。"
         ],
         "url": "https://www.emirates.com/english/manage-booking/",
         "compareUrls": [],
+        "flight": "EK928",
         "departureTime": "13:10",
         "arrivalTime": "17:30",
-        "status": "user-confirmed"
+        "departureTimezone": "Africa/Cairo",
+        "arrivalTimezone": "Asia/Dubai",
+        "status": "user-confirmed",
+        "bookingStatus": "booked-user-reported"
       },
       {
         "id": "uae-hgh",
@@ -204,7 +208,7 @@ window.TRIP_BOOKING_DATA = {
         "recommendedDecision": "9/5退房寄存，约21:30取包、约22:00进红线、目标22:45前抵DXB T3；9/6 04:35起飞。",
         "flexibility": "不自动顺延返校日期；改签先核本人退改条款。",
         "checks": [
-          "9/2、9/3、9/4三晚床位。9/5退房前确认寄存、最晚取包与洗浴；核实际进站点机场方向末班。",
+          "9/3、9/4两晚床位。9/5退房前确认寄存、最晚取包与洗浴；核实际进站点机场方向末班。",
           "9/6 17:05落地杭州；最后到校交通及校门/宿舍准入按本人情况核对。"
         ],
         "url": "https://www.emirates.com/english/manage-booking/",
@@ -287,13 +291,19 @@ window.TRIP_BOOKING_DATA = {
           "city": "开罗",
           "checkIn": "2027-08-28",
           "checkOut": "2027-08-30",
-          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
+          "action": "8/30退房前书面确认50L主包可寄存三天，9/2清晨取回。核收费、锁存、取件凭证和最早取包时间。"
+        },
+        {
+          "city": "锡瓦",
+          "checkIn": "2027-08-31",
+          "checkOut": "2027-09-01",
+          "action": "查镇上有空调的可取消床位，确认晚归进门和9/1退房后的寄存。每晚¥90–120为筛选目标，已计入D52含房观星预算。"
         },
         {
           "city": "开罗",
-          "checkIn": "2027-08-31",
-          "checkOut": "2027-09-02",
-          "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
+          "checkIn": "2027-09-02",
+          "checkOut": "2027-09-03",
+          "action": "锡瓦夜巴抵开罗后取50L，先核清晨接待及入住、寄存或付费洗浴。9/2住一晚，9/3乘改签后航班。"
         },
         {
           "city": "马特鲁",
@@ -303,7 +313,7 @@ window.TRIP_BOOKING_DATA = {
         },
         {
           "city": "迪拜",
-          "checkIn": "2027-09-02",
+          "checkIn": "2027-09-03",
           "checkOut": "2027-09-05",
           "action": "按新日期查可取消单人床位/房型；候选非已订，原日期私密订单不自动变更。"
         }
@@ -437,7 +447,7 @@ window.TRIP_BOOKING_DATA = {
           "平台当前列入住14:00–00:00、退房12:00前，钥匙卡100 AED可退押金；早餐不含。付款、押金退还时段和取包需确认。",
           "锁柜是否可上锁、空调夜间使用、洗衣收费、最新卫生和实际房号另核；不把官网模板中的餐厅/泳池/餐食当已含权益。",
           "确认9/5退房后寄存至约21:30的费用、接待与取回办法；退房后洗浴以青旅回复为准。",
-          "90–150元为每床每晚筛选目标，2027年9/2–9/5含税报价待核。超过目标再比同区候选。"
+          "90–150元为每床每晚筛选目标，2027年9/3–9/5含税报价待核。超过目标再比同区候选。"
         ],
         "planBedCny": [
           90,
@@ -476,7 +486,7 @@ window.TRIP_BOOKING_DATA = {
         ],
         "why": "协会宿舍为第二询价候选，便于按男性床位查价。位置在机场以北Al Qusais，适合DXB方向，但去老城、Dubai Mall的交通比Satwa需重新算。协会官网版权2015、平台资料亦偏旧，不能把仍可打开当作2027可订。",
         "verifyBeforeBooking": [
-          "先取得仍在经营、2027年9/2–9/5可接单的回复，再预订。",
+          "先取得仍在经营、2027年9/3–9/5可接单的回复，再预订。",
           "明确男性宿舍单床、21岁独自入住、原护照登记、最终含税总价和取消规则。",
           "旧官网列14:00后入住、12:00前退房及含早；早餐、夜间接待、锁柜与洗衣均需当期确认。",
           "旧平台另列15 AED/住宿/夜税，不能直接认定每床同额；请给整单最终价格。",
@@ -520,12 +530,12 @@ window.TRIP_BOOKING_DATA = {
     ],
     "branches": [
       {
-        "label": "58天主线：三晚床位＋9/5夜去机场",
+        "label": "58天主线：两晚床位＋9/5夜去机场",
         "default": true,
         "sequence": [
-          "9/2晚入住迪拜青旅",
-          "9/3迪拜相框、老城与辛达加，9/4阿布扎比",
-          "9/5退房寄存、蓝水岛日落，约21:30取包、22:00进红线、22:45前抵DXB T3",
+          "9/3乘改签后的EK928，晚入住迪拜青旅；有余量再看Dubai Mall与喷泉",
+          "9/4阿布扎比一日游，晚回迪拜",
+          "9/5退房寄存，逛辛达加、阿法迪和迪拜河，傍晚去JBR及蓝水岛；约21:30取包、22:00进红线、22:45前抵DXB T3",
           "9/6 04:35飞杭州，17:05落地，9/7开学"
         ],
         "conditions": [
@@ -969,9 +979,9 @@ window.TRIP_BOOKING_DATA = {
           "nights": 2
         },
         {
-          "checkIn": "2027-08-31",
-          "checkOut": "2027-09-02",
-          "nights": 2
+          "checkIn": "2027-09-02",
+          "checkOut": "2027-09-03",
+          "nights": 1
         }
       ],
       "previousCny": [
@@ -1001,6 +1011,27 @@ window.TRIP_BOOKING_DATA = {
       ]
     },
     {
+      "id": "siwa",
+      "city": "锡瓦",
+      "name": "Al-Manara Hostel Siwa Oasis",
+      "url": "https://www.booking.com/hotel/eg/al-manara-hostel-siwa-oasis-syw.html",
+      "planCny": [
+        90,
+        120
+      ],
+      "periods": [
+        {
+          "checkIn": "2027-08-31",
+          "checkOut": "2027-09-01",
+          "nights": 1
+        }
+      ],
+      "previousCny": [
+        90,
+        120
+      ]
+    },
+    {
       "id": "dubai",
       "city": "迪拜",
       "name": "Alphatel Hostel - Dubai World Trade Centre（Talal 2 Building店）",
@@ -1011,9 +1042,9 @@ window.TRIP_BOOKING_DATA = {
       ],
       "periods": [
         {
-          "checkIn": "2027-09-02",
+          "checkIn": "2027-09-03",
           "checkOut": "2027-09-05",
-          "nights": 3
+          "nights": 2
         }
       ],
       "previousCny": [
@@ -1023,14 +1054,14 @@ window.TRIP_BOOKING_DATA = {
     }
   ],
   "totalStayTargetCny": [
-    3965,
-    6885
+    3885,
+    6725
   ],
   "previousStayPlanCny": [
     5160,
     9095
   ],
-  "paidNights": 49,
-  "saveNightPaidNights": 49,
+  "paidNights": 48,
+  "saveNightPaidNights": 48,
   "quotesConfirmed": 0
 };

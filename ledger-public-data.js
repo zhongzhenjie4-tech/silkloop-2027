@@ -20,7 +20,7 @@ window.TRIP_LEDGER_PUBLIC={
         "中国"
       ],
       "tripDays": [
-        54,
+        55,
         58
       ],
       "kind": "expense",

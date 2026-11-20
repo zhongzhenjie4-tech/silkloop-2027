@@ -21,9 +21,8 @@
    const key=p.lat.toFixed(6)+','+p.lng.toFixed(6);let group=groups.get(key);
    if(!group){group={...p,name:p.mapName||p.name,members:[],memberNames:[]};groups.set(key,group);}group.members.push(id);group.memberNames.push(p.name);
   }
-  // D54 arrival and onward metro share one airport stop. Keep the metro's
-  // own coordinates for its directions link and the original itinerary row.
-  if(day.id==='day54'){
+  // Keep the arrival terminal and its metro station together when they share a route.
+  if(day.places.includes('rev58-d54-5')&&day.places.includes('rev58-d54-6')){
    const airport=[...groups.values()].find(p=>p.members.includes('rev58-d54-5'));
    const metro=[...groups.entries()].find(([,p])=>p.members.length===1&&p.id==='rev58-d54-6');
    if(airport&&metro){

@@ -12,6 +12,31 @@
   const nav=q=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);
   const unbooked='未预订候选';
   const boundary='名称、位置与可见房型已查资料；2027房态、含税总价及入住条件未确认。规划金额不是报价。';
+  const siwaBooking='https://www.booking.com/hotel/eg/al-manara-hostel-siwa-oasis-syw.html';
+  const siwaTrip='https://us.trip.com/hotels/siwa-oasis-hotel-detail-104500626/al-manara-hostel-siwa-oasis/';
+  const siwaPin='https://www.gujjutours.com/en/hotels/siwa-245635/al-manara-hostel-siwa-oasis-300053';
+  const siwaStay={
+    id:'siwa',city:'锡瓦',label:'锡瓦',country:'埃及',dayNumbers:[52],
+    coordinates:{lat:29.20064,lng:25.52076,source:siwaPin},
+    primary:{
+      name:'Al-Manara Hostel Siwa Oasis',
+      address:'The Old City Street (Shali), Second floor, Siwa 51714, Egypt',
+      query:'Al-Manara Hostel Siwa Oasis The Old City Street Shali Egypt',
+      url:siwaBooking,
+      planBedCny:[90,120],quote:null,
+      why:'镇中心沙利老城附近单人床位询价候选。先办入住、放 10L 小包，拼晚返 4×4 后回镇睡觉。¥90–120 已包含在当日住宿与观星合并预算中。',
+      verifyBeforeBooking:[
+        '比 8/31 入住、9/1 退房的 1 人含税总价，确认所选床位有可用空调、热水及可上锁储物。',
+        '确认下午能先入住或寄 10L 小包，夜间团约 22:30–23:30 回镇时可以进门；先拿好钥匙。',
+        '确认 9/1 早上能退房、白天能寄小包，并能在赶夜巴前及时取回。',
+        '核实为 Shali 老城的 Al-Manara Hostel Siwa Oasis，查看房东发的门口定位和楼层。'
+      ],
+      sources:[
+        {title:'Booking.com 房源与空调房型',url:siwaBooking,checked:'2026-11-20'},
+        {title:'Trip.com 地址与入住退房参考',url:siwaTrip,checked:'2026-11-20'}
+      ]
+    }
+  };
   const byId=Object.create(null),byDay=Object.create(null);
   let summary={paidNights:0,planCny:[0,0],originalBudgetCny:3860};
   const privateRoom=s=>s?.roomType?.includes('整间')||/整间|独住|每房/.test((s.chargeUnit||'')+' '+(s.priceBasis||''));
@@ -30,12 +55,12 @@
   }
   function budgetWarning(){
     const [lo,hi]=summary.planCny,base=summary.originalBudgetCny;
-    const delta=lo>base?'比原草案至少多预留 ¥'+(lo-base)+'。':'请据实际订单重算，原草案不等于可成交总价。';
-    return '<aside class="stay-budget-warning"><strong>'+summary.paidNights+' 个付费夜：经济主选目标 ¥'+lo+'–'+hi+'</strong><p>上版规划¥5160–9095，原稿草案¥'+base+'。新数额是逐夜搜索目标，不是2027含税可订报价，也不能当实际节省；私人预算不自动改写。</p><p>迪拜改查单人宿舍床位，9/2–9/4连住三晚。Kaş目标¥110–180，超¥150先比同区床位；条件不合不强订。夜车改飞机、早入住或返校深夜需要增住时另算。</p></aside>';
+    const delta=byId.siwa?'<p>v26 规划 ¥3965–6885。v27 少一晚开罗与一晚迪拜，加一晚锡瓦镇。D53 搭夜巴，不计酒店；迪拜 9/3、9/4 连住两晚。锡瓦住宿 ¥90–120 已含在当日合并预算内。</p>':'<p>迪拜 9/2、9/3、9/4 连住三晚。</p>';
+    return '<aside class="stay-budget-warning"><strong>'+summary.paidNights+' 个付费夜：经济主选目标 ¥'+lo+'–'+hi+'</strong><p>原稿住宿预算 ¥'+base+'。当前金额以逐夜询价为目标，实际价格以订单为准。</p>'+delta+'<p>Kaş目标 ¥110–180，超 ¥150 先比同区床位；早入住或临时增住另算。</p></aside>';
   }
   function staysGuide(){
     return '<h2>住哪里 · '+raw.cities.length+'城住宿候选</h2><p>'+E(boundary)+' 已核资料日期 '+E(raw.checkedDate)+'；按本人情况选匹配性别要求的宿舍，逐房型核空调、可上锁柜、洗衣和晚到接待。</p>'+budgetWarning()+
-      '<p>地图标记使用城市参考点，<strong>不是酒店门口</strong>；请点“按名称打开地图”。住宿变更后，重查机场／车站和景点之间的路程。</p>'+
+      '<p>地图标记参考公开房源位置，入口请按名称导航并向房东核对。住宿变更后，重查机场／车站和景点之间的路程。</p>'+
       '<div class="stay-city-list">'+raw.cities.map(c=>'<details class="stay-city" id="stay-guide-'+E(c.id)+'"><summary><span>'+E(c.label)+' · '+c.paidNights+'晚</span><small>'+E(price(c.primary))+'</small></summary>'+candidateHTML(c.primary,'经济主询价',true)+(c.backup?candidateHTML(c.backup,'备选，另比含税价',true):'<p class="stay-no-backup">本城暂未列第二家已核候选；主选满房或关键条件不符时，重新比价和核对。</p>')+'</details>').join('')+'</div>'+
       '<h3>按实际过夜安排汇总</h3><div class="stay-table-wrap"><table><thead><tr><th>城市</th><th>夜数</th><th>每晚规划</th><th>小计</th></tr></thead><tbody>'+raw.cities.map(c=>'<tr><td>'+E(c.label)+'</td><td>'+c.paidNights+'</td><td>'+E(price(c.primary))+'</td><td>¥'+c.primary.planBedCny[0]*c.paidNights+'–'+c.primary.planBedCny[1]*c.paidNights+'</td></tr>').join('')+'</tbody></table></div><p class="stay-boundary">'+E(boundary)+'</p><button class="soft-button" data-guide="handbook-audit">看原旅行手册的取舍与短链核查</button>';
   }
@@ -43,10 +68,10 @@
     return '<h2>原旅行手册 · 采用与更正</h2><p>保留原作者的路线启发、便利片区与比价思路，再按本次独行、学生预算和固定路线选择住宿。<strong>原作者亲测不等于本次实住，也不保证2027仍营业或符合个人体验。</strong></p>'+
       '<div class="stay-audit-intro"><h3>旧价格不能当这次报价</h3><p>手册大交通明确写为2024年6月出行记录，合计 ¥7234；例如达拉曼飞伊斯坦布尔 ¥252、迪拜酒店 ¥250／晚，只是历史体验。部分分享链接保留2025-06-08至09、2名成人的搜索参数，均不是本次2027日期和1人入住条件。</p><p>已解析的短链改给不带旧日期的稳定房源入口；未解析成功的保留“未核实”。整间、公寓和多人分摊价不当作单人床位预算。这里没有沿用旧评分。</p><p>原文涉及的签证、入境、门票及行李旧说法，不直接套用；请按独立资料页继续核对。'+['entry','tickets','luggage','transit'].map((id,i)=>'<button class="stay-text-button" data-guide="'+id+'">'+['入境与保险','票据与学生证','行李','跨境交通'][i]+'</button>').join('')+'</p></div>'+
       '<h3>'+raw.referenceAudit.length+'项住宿资料核查</h3>'+raw.referenceAudit.map(a=>'<details class="stay-audit-item"><summary>'+E(a.name)+'<small>'+E(a.verdict)+'</small></summary><p>'+E(a.reason)+'</p>'+sourceHTML(a.sources)+'</details>').join('')+
-      '<h3>本次路线如何取舍</h3><ul><li>新疆入境前、土耳其和巴尔干等未署名住宿建议，补成可检索的具体候选；没有把新选青旅说成原作者住过的酒店。</li><li>马特鲁已纳入北岸两天一晚；黑山与阿尔巴尼亚不在本次路线。阿布扎比默认一日往返，不自动加酒店夜数。</li><li>Can Mocamp 的音乐可能到01:00；早睡是硬要求时，跳过它并比较加预算的 Calba 私人房。安静房仍须店家确认。</li><li>付费夜按当前日历逐日计数：第比利斯'+byId.tbilisi.paidNights+'晚、伊斯坦布尔四晚，总计'+summary.paidNights+'晚；车上与返程夜不重复计酒店。</li></ul><p>'+E(boundary)+'</p><button class="soft-button" data-guide="stays">打开本次20城住宿候选</button>';
+      '<h3>本次路线如何取舍</h3><ul><li>新疆入境前、土耳其和巴尔干等未署名住宿建议，补成可检索的具体候选；没有把新选青旅说成原作者住过的酒店。</li><li>马特鲁已纳入北岸两天一晚；黑山与阿尔巴尼亚不在本次路线。阿布扎比默认一日往返，不自动加酒店夜数。</li><li>Can Mocamp 的音乐可能到01:00；早睡是硬要求时，跳过它并比较加预算的 Calba 私人房。安静房仍须店家确认。</li><li>付费夜按当前日历逐日计数：第比利斯'+byId.tbilisi.paidNights+'晚、伊斯坦布尔四晚，总计'+summary.paidNights+'晚；车上与返程夜不重复计酒店。</li></ul><p>'+E(boundary)+'</p><button class="soft-button" data-guide="stays">打开本次'+raw.cities.length+'城住宿候选</button>';
   }
   function ensureGuides(data=D){
-    const additions=[{id:'stays',title:'住哪里 · 20城住宿候选',subtitle:summary.paidNights+'晚 · 预算、地址与订前条件',html:staysGuide()},{id:'handbook-audit',title:'原旅行手册 · 采用与更正',subtitle:'短链身份、旧价与路线取舍',html:auditGuide()}];
+    const additions=[{id:'stays',title:'住哪里 · '+raw.cities.length+'城住宿候选',subtitle:summary.paidNights+'晚 · 预算、地址与订前条件',html:staysGuide()},{id:'handbook-audit',title:'原旅行手册 · 采用与更正',subtitle:'短链身份、旧价与路线取舍',html:auditGuide()}];
     data.guides=(data.guides||[]).filter(g=>!additions.some(a=>a.id===g.id)).concat(additions);
     return additions;
   }
@@ -109,7 +134,9 @@
       c.dayIds=c.dayNumbers.map(n=>'day'+n).filter(id=>days.some(d=>d.id===id));c.paidNights=c.dayIds.length;c.nights=c.paidNights;byId[c.id]=c;
       summary.paidNights+=c.paidNights;summary.planCny[0]+=c.paidNights*c.primary.planBedCny[0];summary.planCny[1]+=c.paidNights*c.primary.planBedCny[1];
       const first=days.find(d=>c.dayIds.includes(d.id)),id='stay-'+c.id;
-      data.places[id]={id,name:c.primary.name+' · 城市参考点',lat:c.cityReference[0],lng:c.cityReference[1],city:c.label,country:first?.country||c.country,countryCode:first?.countryCode||'',timezone:first?.timezone||'',kind:'lodging',address:c.primary.address+'；地图标记为城市参考点，非酒店门口，请按名称导航。',query:c.primary.query||c.primary.name+' '+c.primary.address,keywords:[c.primary.name,c.label,'住宿','青旅'],time:unbooked,coordinateType:'city-reference',coordinateAccuracy:'city-reference',coordinateNote:'城市参考点，非酒店精确坐标／入口',coordinateSource:'沿用行程城市参考点，仅作地区示意；酒店位置按名称导航核对',status:'unbooked',bookingURL:c.primary.url};
+      const location=c.coordinates;
+      const coordinateType=location?'listing-poi':'city-reference';
+      data.places[id]={id,name:c.primary.name+(location?'':' · 城市参考点'),lat:location?.lat??c.cityReference[0],lng:location?.lng??c.cityReference[1],city:c.label,country:first?.country||c.country,countryCode:first?.countryCode||'',timezone:first?.timezone||'',kind:'lodging',address:c.primary.address+(location?'；入口与楼层请向房东核对。':'；地图标记为城市参考点，非酒店门口，请按名称导航。'),query:c.primary.query||c.primary.name+' '+c.primary.address,keywords:[c.primary.name,c.label,'住宿','青旅'],time:unbooked,coordinateType,coordinateAccuracy:coordinateType,coordinateNote:location?'订房平台坐标，入口与楼层以房东提供定位为准。':'城市参考点，非酒店精确坐标／入口',coordinateSource:location?.source||'沿用行程城市参考点，仅作地区示意；酒店位置按名称导航核对',geoEntity:location?id:'',status:'unbooked',bookingURL:c.primary.url};
       for(const day of days.filter(d=>c.dayIds.includes(d.id))){
         if(day.lodgingOriginal===undefined)day.lodgingOriginal=day.lodging||'';
         byDay[day.id]=c;day.lodging=c.primary.name+' · '+unbooked;
@@ -121,14 +148,30 @@
     if(refreshRoutes)data.accommodationRouteUpdates=attachRoutes(data);
     ensureGuides(data);return summary;
   }
+  function applySiwaPlan(){
+    const cairo=raw.cities.find(c=>c.id==='cairo'),dubai=raw.cities.find(c=>c.id==='dubai');
+    cairo.dayNumbers=[...cairo.dayNumbers.filter(n=>n!==52&&n!==53&&n!==54),54].sort((a,b)=>a-b);
+    dubai.dayNumbers=dubai.dayNumbers.filter(n=>n!==54);
+    if(!raw.cities.some(c=>c.id==='siwa'))raw.cities.splice(raw.cities.indexOf(dubai),0,siwaStay);
+    for(const n of [52,53,54]){
+      const d=D.days[n-1];
+      const oldPlace=d.accommodation?.placeId;
+      if(oldPlace)d.places=d.places.filter(id=>id!==oldPlace);
+      delete d.lodgingOriginal;
+    }
+    D.days[51].lodging='锡瓦镇内一晚，晚返后可进门';
+    D.days[52].lodging='锡瓦→开罗夜巴候选；晚间无需另订住宿';
+    D.days[53].lodging='开罗青旅一晚，取回寄存三天的 50L 主包';
+    return attach(D,{refreshRoutes:false});
+  }
   function dayHTML(value){
     const day=typeof value==='object'?value:(D.days||[]).find(d=>d.id===value||d.id==='day'+value);if(!day)return '';
     const c=byDay[day.id];
     if(!c)return '<details class="stay-overview stay-transport"><summary><span class="stay-summary-title">今晚不另计酒店</span><small>'+E(day.lodging||'列车／夜巴／返程安排')+'</small></summary><p>按当前路线留在车上或返程。交通尚未落实；若改白天交通、取消夜车或增加停留，要补算住宿。</p></details>';
-    const caution=c.id==='kas'?'<p class="stay-critical">Ateş为镇中心4床混合间条件候选：锁柜、洗衣和安静情况先核。¥110–180仅搜索目标，超过¥150先比同区；Can Mocamp备选可能有夜间音乐。</p>':c.id==='dubai'?'<p class="stay-critical">改查Alphatel单人混合宿舍床位，¥90–150是搜索目标。100AED钥匙卡押金按规则可退，仍要预备现金/额度。9/2、9/3、9/4连住3晚；9/5退房寄存，深夜去机场。</p>':'';
+    const caution=c.id==='kas'?'<p class="stay-critical">Ateş为镇中心4床混合间条件候选：锁柜、洗衣和安静情况先核。¥110–180仅搜索目标，超过¥150先比同区；Can Mocamp备选可能有夜间音乐。</p>':c.id==='dubai'?'<p class="stay-critical">查询 Alphatel 单人混合宿舍床位，¥90–150 是搜索目标。100 AED 钥匙卡押金按规则可退，仍要预备现金或额度。'+(byId.siwa?'9/3、9/4 连住 2 晚':'9/2、9/3、9/4 连住 3 晚')+'，9/5 退房寄存，深夜去机场。</p>':'';
     const original=/若|分支/.test(day.lodgingOriginal||'')?'<p class="stay-boundary">原行程条件：'+E(day.lodgingOriginal)+'</p>':'';
     return '<details class="stay-overview"><summary><span class="stay-summary-top"><span class="stay-summary-title">今晚住宿 · '+E(c.label)+'</span><span class="stay-tag">'+unbooked+'</span></span><span class="stay-summary-name">'+E(c.primary.name)+'</span><small>'+E(price(c.primary))+' · 规划预留</small></summary>'+caution+candidateHTML(c.primary,'主选')+original+'<div class="stay-actions"><button class="soft-button" data-open-place="stay-'+E(c.id)+'">地图上的住宿参考点</button><button class="soft-button" data-guide="stays">全部住宿与备选</button></div><p class="stay-boundary">'+E(boundary)+'</p></details>';
   }
   attach(D);
-  window.TripStay={dayHTML,attach,ensureGuides,byId,byDay,get summary(){return summary;},checked:raw.checkedDate,boundary,nav};
+  window.TripStay={dayHTML,attach,applySiwaPlan,ensureGuides,byId,byDay,get summary(){return summary;},checked:raw.checkedDate,boundary,nav};
 })();
