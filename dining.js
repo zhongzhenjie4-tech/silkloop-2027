@@ -13,7 +13,8 @@
  const base={summary:F.summary,details:F.details,overview:F.overview};
  const pantry={china:[[8,12],[15,25],[20,30],[6,10]],kazakhstan:[[8,15],[18,28],[20,30],[7,12]],uzbekistan:[[7,12],[18,28],[20,30],[7,12]],azerbaijan:[[10,16],[20,30],[25,35],[7,12]],georgia:[[8,12],[18,28],[20,30],[7,12]],armenia:[[8,12],[15,25],[20,30],[7,12]],turkey:[[12,20],[25,40],[30,45],[10,18]],bosnia:[[10,18],[20,30],[25,35],[8,14]],serbia:[[10,18],[20,30],[25,35],[8,14]],egypt:[[6,12],[15,25],[20,30],[8,16]],uae:[[12,20],[25,40],[30,45],[10,20]]};
  function dailyBudget(day){const r=F.region(day),v=(pantry[r.id]||pantry.china).map(x=>[...x]);for(const m of dayMeals(day))v[m.meal==='午餐'?1:2]=[...shops[m.shop].budgetCny];return {breakfast:v[0],lunch:v[1],dinner:v[2],water:v[3],total:[0,1].map(i=>v.reduce((sum,p)=>sum+p[i],0))};}
- const totals=[0,1].map(i=>D.days.reduce((sum,d)=>sum+dailyBudget(d).total[i],0));
+ const totals=[0,0];
+ const retiredMeals=new Set();
  function sourcesHTML(s){return s.sources.map(x=>'<a href="'+E(x.url)+'" target="_blank" rel="noopener noreferrer">'+E(x.title)+' ↗</a>').join(' · ');}
  function restaurantHTML(s,{compact=false}={}){return '<article class="dining-card" data-dining-shop="'+E(s.id)+'"><div class="dining-top"><span class="food-tag">'+E(s.city)+' · '+(s.planRole?'先核再选':'具体分店参考')+'</span><b>'+E(range(s.budgetCny))+'</b></div><h4>'+E(s.name)+'</h4><p class="dining-address">'+E(s.address)+'</p>'+(s.selectionOrigin?'<p class="dining-small">'+E(s.selectionOrigin)+'</p>':'')+'<p><b>点单：</b>'+E(Array.isArray(s.dishes)?s.dishes.join('；'):s.dishes)+'</p><div class="food-links"><a class="soft-button" href="'+E(nav(s))+'" target="_blank" rel="noopener noreferrer">导航到这家店 ↗</a></div><details class="dining-evidence" '+(!compact?'open':'')+'><summary>菜单原币价、营业与来源</summary><p>'+E(s.menuEvidence)+'</p><p><b>营业参考：</b>'+E(s.hours||'尚未取得可靠时段，出发前复核')+'</p><p>'+E(s.verified)+'</p><ul>'+s.cautions.map(x=>'<li>'+E(x)+'</li>').join('')+'</ul><p class="dining-sources">'+sourcesHTML(s)+'</p></details></article>';}
  function mealHTML(m,compact=true){const s=shops[m.shop],r=getRow(m);return '<section class="dining-meal"><p class="dining-slot">'+E(m.meal)+' · '+E(r.time)+'</p>'+restaurantHTML(s,{compact})+'<p class="dining-route">'+E(m.note)+'</p>'+(m.backup?'<details class="dining-backup"><summary>备用：'+E(shops[m.backup].name)+'</summary>'+restaurantHTML(shops[m.backup],{compact:true})+'</details>':'')+'</section>';}
@@ -28,12 +29,39 @@
  if(r33){r33.title='Kuzguncuk → Üsküdar Kanaat餐厅';r33.detail='<p>16:45–17:30用公交/正规接驳返Üsküdar中心SelmaniPak9号Kanaat总店，按实时导航。先吃晚餐再去Salacak，不先到海岸再走回餐厅。</p>';r33.links=[{label:'前往Kanaat餐厅',url:'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent('Kuzguncuk Istanbul')+'&destination='+encodeURIComponent(shops['istanbul-kanaat-uskudar'].mapQuery)+'&travelmode=transit'}];}
  // Meal rows are separate activities; never rename a transfer, queue or night walk as dinner.
  for(const d of D.days)for(const r of d.rows)if(r.dining||r===r33)r.plain=r.title+' '+(r.originalDiningTitle||'')+' '+r.detail.replace(/<[^>]+>/g,' ')+(r.dining?' '+shops[r.dining.shop].address+' '+shops[r.dining.shop].dishes:'');
- F.summary=id=>{const m=mealsByRow[id];return m?'<p class="meal-hint">'+E(shops[m.shop].address)+' · 食物'+range(shops[m.shop].budgetCny)+'</p>':base.summary(id);};
- F.details=id=>{const m=mealsByRow[id];return m?'<section class="meal-block"><p class="dining-small">用餐安排：'+E(getRow(m).originalDiningTitle)+'</p>'+mealHTML(m,true)+'<p class="dining-small">现场自付，饮水与饮品另计；2027价格/营业须再核。未核冷气强度、插座与餐厅学生折扣。等位＋出餐超过15–20分钟换自备简餐，赶车更早放弃。</p></section>':base.details(id);};
+ F.summary=id=>{const m=mealsByRow[id];return m?'<p class="meal-hint">'+E(shops[m.shop].address)+' · 食物'+range(shops[m.shop].budgetCny)+'</p>':retiredMeals.has(id)?'':base.summary(id);};
+ F.details=id=>{const m=mealsByRow[id];return m?'<section class="meal-block"><p class="dining-small">用餐安排：'+E(getRow(m).originalDiningTitle)+'</p>'+mealHTML(m,true)+'<p class="dining-small">现场自付，饮水与饮品另计；2027价格/营业须再核。未核冷气强度、插座与餐厅学生折扣。等位＋出餐超过15–20分钟换自备简餐，赶车更早放弃。</p></section>':retiredMeals.has(id)?'':base.details(id);};
  F.overview=dayHTML;Object.assign(F.shops,shops);
- const g=D.guides.find(g=>g.id==='food');if(g){g.title='具体餐厅、三餐与饮水';g.html=guideHTML();}
+ function refresh(explicitMeals=new Set()){
+   for(const [id,m] of Object.entries(mealsByRow)){
+     if(!data.meals.some(item=>item.rowId===id&&item.shop===m.shop))retiredMeals.add(id);
+     delete mealsByRow[id];
+   }
+   for(let i=data.meals.length-1;i>=0;i--){
+     const m=data.meals[i],row=getRow(m),shop=shops[m.shop];
+     if(!row||(!explicitMeals.has(m)&&!row.title.includes(short(shop)))){
+       retiredMeals.add(m.rowId);
+       data.meals.splice(i,1);
+       if(row)delete row.dining;
+       continue;
+     }
+     mealsByRow[m.rowId]=m;
+     retiredMeals.delete(m.rowId);
+     row.originalDiningTitle ||= row.title;
+     row.title=m.meal+'：'+short(shop);
+     row.dining=m;
+     row.plain=row.title+' '+row.originalDiningTitle+' '+row.detail.replace(/<[^>]+>/g,' ')+' '+shop.address+' '+shop.dishes;
+     if(!row.links.some(l=>(l.url||'').includes(encodeURIComponent(shop.mapQuery))))
+       row.links.push({label:m.meal+'导航 · '+shop.name,url:nav(shop)});
+   }
+   data.meals.sort((a,b)=>a.day-b.day||D.days[a.day-1].rows.indexOf(getRow(a))-D.days[b.day-1].rows.indexOf(getRow(b)));
+   for(let i=0;i<totals.length;i++)totals[i]=D.days.reduce((sum,d)=>sum+dailyBudget(d).total[i],0);
+   const g=D.guides.find(g=>g.id==='food');
+   if(g){g.title='具体餐厅、三餐与饮水';g.html=guideHTML();}
+ }
+ refresh();
  const sourceGuide=D.guides.find(g=>g.id==='sources');if(sourceGuide)sourceGuide.html=sourceGuide.html.replace('本次制作没有新增网络查询、购票、投保或商家联系。','本次餐厅与明信片模块另有2026-11-05网络核查来源；没有购票、订餐、投保或联系商家。').replace('餐饮、水果与厕所仅为方向与现场准备，不是实时营业或卫生检查。','餐厅采用具体分店参考并逐家标注证据；水果与厕所仍为方向参考，均不是实地卫生检查。');
  D.dining={...data,totalBudgetCny:totals};
- window.TripDining={shops,mealsByRow,dayMeals,restaurantHTML,dayHTML,mapHTML,dailyBudget,totals};
+ window.TripDining={shops,mealsByRow,dayMeals,restaurantHTML,dayHTML,mapHTML,dailyBudget,totals,refresh};
  document.addEventListener('click',e=>{const b=e.target.closest('[data-dining-day]');if(b&&window.TripPocket){TripPocket.setDay(Number(b.dataset.diningDay)-1);TripPocket.setView('journey');window.scrollTo(0,0);}});
 })();

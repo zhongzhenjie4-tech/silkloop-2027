@@ -130,21 +130,19 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
 }
 ```
 
-## D13 · 2027-07-23 · 撒马尔罕
+## D12 · 2027-07-22 · 撒马尔罕
 ```json
 {
   "id": "samarkand",
   "country": "乌兹别克斯坦",
   "city": "撒马尔罕",
-  "day": 13,
-  "alternateDay": [
-    12
-  ],
+  "day": 12,
+  "alternateDay": [],
   "name": "UzPost Самаркандский Почтамт / Samarqand Pochtamt（140100）",
   "address": "Pochta ko'chasi 5 / Почтовая улица 5, Samarqand 140100（官网原文Почта кўчаси，门牌5）",
   "query": "UzPost Samarkand Central Post Office Pochtovaya 5 140100",
   "hours": {
-    "text": "当前官方地图记录：周一至周六；主时段09:00–17:00，另列09:00–15:00；周日休、无午休。D13周五计划使用09:00–17:00，但出发前仍核当天柜台。",
+    "text": "当前官方地图记录：周一至周六，列有09:00–17:00及09:00–15:00。D12周四出发前确认国际信函柜台。",
     "status": "official_current_map_fields_weekday_usable_saturday_second_slot_not_explicitly_mapped",
     "source": "https://new.pochta.uz/api/v1/maps/new/post/offices/detail/140100/",
     "statusLabel": "当前公开网点参考；2027行前复核"
@@ -201,9 +199,9 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
       "checked": "2026-11-05"
     }
   ],
-  "routeAdvice": "140100营业总局在Pochta街5，并非Rudaki3行政总部，也没有证据证明紧靠雷吉斯坦。D13天文台后10:35–12:00若导航动线合适，另留交通和15–30分钟柜台时间；保留15:30火车缓冲。D13约18:00才抵塔什干，不能把塔什干总局当可靠补寄。",
-  "decision": "保留D13上午为可选停留：具名总局和当前航空明信片价已核；先问中国大陆收寄，当日不能收或排队超过30分钟即跳过。",
-  "visitWindow": "D13约11:00–11:30（含柜台15–30分钟；到达须另计交通，当前周五09:00–17:00记录支持，2027复核）。若中午前无法办完即跳过。",
+  "routeAdvice": "140100总局在Pochta街5。D12天文台结束后可叫车，能在16:40前抵达且确认窗口营业时再去。D13早班铁路前不安排折返。",
+  "decision": "D12可选。若柜台不能收寄至中国大陆或会挤占下一段，略过这一站。",
+  "visitWindow": "D12 16:15以后按天文台实际结束时刻判断。当天官方营业复核后，至少预留15–30分钟柜台时间。",
   "backup": {
     "name": "UzPost第1邮政支局（140101）",
     "address": "Islom Karimov ko’chasi 36 / ул. И. Каримова 36, Samarkand",
@@ -213,17 +211,16 @@ JU851、PC292、PC2733＋PC620、EK928及EK310均按本人已购截图与时刻�
     "source": "https://new.pochta.uz/api/v1/maps/new/post/offices/detail/140101/",
     "status": "official_post_office_address_and_hours_fields_verified_international_card_acceptance_needs_confirmation",
     "notes": [
-      "官方地图标普通邮政支局，没有EMS/central_department标记；不据此推断不收卡片，也不把寄件业务视为已实测。",
-      "D12午间洗衣避暑保留，若排队或额外绕路则不去。"
+      "午间柜台休息13:00–14:00。D12上午若经过且窗口确认可收寄至中国大陆，可提前办理。"
     ]
   },
   "limitations": [
     "未实测导航、柜台收寄、卡片库存；2027资费与营业需行前复核。",
-    "当前官网地图两个时段字段无星期对应标签，周五可据主时段计划，周六不要直接承诺。",
-    "塔什干总局100000官方地址Shakhrisabz7，当前API时段为空；D13晚到不构成可靠补寄。"
+    "当前官网地图两个时段字段无星期对应标签，计划周四办理时仍应核对柜台营业。",
+    "塔什干总局100000官方地址Shakhrisabz7，当前API时段为空，不列为D13必去点。"
   ],
   "number": 2,
-  "alternateDayAdvice": "D12 · 2027-07-22 周四，仅不影响午间避暑洗衣时"
+  "alternateDayAdvice": ""
 }
 ```
 

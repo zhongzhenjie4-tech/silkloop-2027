@@ -9,8 +9,8 @@
     china:{name:'中国途中',match:/中国|杭州|乌鲁木齐|伊宁|国内/,budget:'¥35–60／日',meals:['早餐：鸡蛋、馒头或面包，出发前吃好。','午餐：车站周边能及时出餐的面、米饭套餐。','晚餐：正餐一份；长途车上用耐放主食、独立包装蛋白质与水果。'],order:'按一人份点主食，先问总价；车上不依赖每站都能补给。',kitchen:'列车日提前买够饮水、面包、坚果与一顿耐放简餐；不要靠方便面撑过两天。',query:'supermarket'},
     kazakhstan:{name:'哈萨克斯坦',match:/哈萨克|阿拉木图|Almaty/i,budget:'¥45–65／日',meals:['早餐：面包、熟鸡蛋、酸奶或粥。','午餐：食堂式套餐、汤面或抓饭，一人份即可。','晚餐：拉条子、汤或米饭配蔬菜，避免一天三餐都只吃肉。'],order:'尝 lagman（拉条子）或 plov（抓饭）；先问份量、是否含配菜。',kitchen:'顺路超市补面包、原味酸奶与水果；厨房允许时煮蛋或意面。',query:'canteen lagman'},
     uzbekistan:{name:'乌兹别克斯坦',match:/乌兹|塔什干|布哈拉|撒马尔罕|Tashkent|Bukhara|Samarkand/i,budget:'¥35–60／日',meals:['早餐：馕、熟蛋、酸奶；住宿含早则用含早。','午餐：plov 抓饭或汤面；沙拉需确认清洗与保存条件。','晚餐：samsa 烤包子配热汤，或青旅厨房做简单热食。'],order:'抓饭先点一小份，烤串按串计价先问清；饮料与服务费另看菜单。',kitchen:'买当天能吃完的馕和小份水果；跨城前补封口饮水。',query:'plov local food'},
-    azerbaijan:{name:'阿塞拜疆',match:/阿塞拜疆|巴库|Baku/i,budget:'¥45–70／日',meals:['早餐：面包、奶酪或蛋，配无糖茶。','午餐：qutab 馅饼、热汤或一人份米饭。','晚餐：家常炖菜配主食；夜车前吃好再上车。'],order:'qutab 可先点少量，确认馅料；茶壶、面包和桌上小菜先问是否另收费。',kitchen:'海滨游客区只作散步；顺路超市采购早餐与夜车简餐。',query:'qutab local restaurant'},
-    georgia:{name:'格鲁吉亚',match:/格鲁吉亚|第比利斯|卡兹别克|Tbilisi|Kazbegi/i,budget:'¥40–65／日',meals:['早餐：面包、熟蛋、酸奶或住宿早餐。','午餐：khinkali 汤包配蔬菜，小份起点。','晚餐：豆子炖菜 lobio、热汤或厨房热食。'],order:'汤包可能有最低起点数量，先问；khachapuri 奶酪饼一份可能很大，不必叠加多份主食。',kitchen:'夜车到达日先补水休息，超市采购后再安排观光。',query:'khinkali lobio'},
+    azerbaijan:{name:'阿塞拜疆',match:/阿塞拜疆|巴库|Baku/i,budget:'¥45–70／日',meals:['早餐：面包、奶酪或蛋，配无糖茶。','午餐：qutab 馅饼、热汤或一人份米饭；戈布斯坦拼团按返城时刻或自备餐执行。','晚餐：家常炖菜配主食；跨境出发较早就带便餐。'],order:'qutab 可先点少量，确认馅料；茶壶、面包和桌上小菜先问是否另收费。',kitchen:'离开巴库前补好封口饮水和耐放简餐，按当天确认的出发时刻留用餐时间。',query:'qutab local restaurant'},
+    georgia:{name:'格鲁吉亚',match:/格鲁吉亚|第比利斯|卡兹别克|Tbilisi|Kazbegi/i,budget:'¥40–65／日',meals:['早餐：面包、熟蛋、酸奶或住宿早餐。','午餐：khinkali 汤包配蔬菜，小份起点。','晚餐：豆子炖菜 lobio、热汤或厨房热食。'],order:'汤包可能有最低起点数量，先问；khachapuri 奶酪饼一份可能很大，不必叠加多份主食。',kitchen:'抵第比利斯后先补水。姆茨赫塔和卡兹别克当天按实际停靠点用餐，并备一份耐放简餐。',query:'khinkali lobio'},
     armenia:{name:'亚美尼亚',match:/亚美尼亚|埃里温|Yerevan|Garni/i,budget:'¥40–65／日',meals:['早餐：lavash 薄饼、熟蛋、酸奶。','午餐：一人份烤肉或烤蔬菜配主食。','晚餐：热汤、dolma 葡萄叶包饭或厨房简餐。'],order:'烤肉有时按重量点单，先确认一人份与克数；饮用水按瓶计价。',kitchen:'一日团前晚买便携早餐，确认团费是否含午餐。',query:'Armenian local food'},
     turkey:{name:'土耳其',match:/土耳其|格雷梅|卡帕|安塔利亚|Kaş|卡什|费特希耶|伊斯坦布尔|Istanbul|Antalya|Göreme|Fethiye/i,budget:'¥55–85／日',meals:['早餐：面包店 simit 芝麻圈、蛋、酸奶，或住宿含早。','午餐：lokanta 家常菜食堂，点一荤一菜或汤配饭。','晚餐：一人份 döner 卷饼、汤或青旅厨房。'],order:'先看有标价的菜单，问清堂食/打包、饮料与桌上小菜；船游午餐只有订单明确包含才算已含。',kitchen:'海边与景点区留餐费余量；夜巴前在车站附近解决正餐，车上备小食。',query:'lokanta affordable food'},
     bosnia:{name:'波黑',match:/波黑|萨拉热窝|莫斯塔尔|Sarajevo|Mostar/i,budget:'¥45–70／日',meals:['早餐：面包店 burek 肉馅饼或奶酪馅饼。','午餐：ćevapi 烤肉条小份，配水和蔬菜。','晚餐：热汤、家常菜或青旅厨房意面。'],order:'馅饼可能按重量售卖，先确认价格单位；烤肉条按份量数量点。',kitchen:'莫斯塔尔往返日自带饮水和便携午餐备选，不为找网红店错过回程。',query:'burek cevapi'},
@@ -19,7 +19,7 @@
     uae:{name:'阿联酋',match:/阿联酋|迪拜|阿布扎比|沙迦|Dubai|Abu Dhabi|Sharjah/i,budget:'¥65–100／日',meals:['早餐：超市面包、熟蛋、酸奶，利用室内空间避暑。','午餐：顺路印巴简餐套餐，先看是否含水。','晚餐：沙威玛或米饭套餐，配蔬菜与封口饮用水。'],order:'shawarma 一份或一人套餐；购物中心内先看含税总价，不假定食品街都便宜。',kitchen:'优先选允许做饭且有冰箱的住宿；小份采购，跨城日备冷链要求低的小食。',query:'Pakistani Indian affordable restaurant'}
   };
   const shops={},plans={};
-  const sourceNote='餐饮方向与导航搜索，不是已核验餐店清单。未查询2027分店、营业、菜单或Google评分；本页每日人民币区间是分日规划留量，不是报价，也不自动相加为原稿3340元餐费。现场菜单、饮水与税费另核。';
+  const sourceNote='这里提供当地餐食与超市方向。具名餐厅另见当日门店卡及证据日期。人民币区间只作分日规划留量，2027营业、菜单价格及服务费以现场为准。';
   function region(day){
     const candidates=[day.country,day.city,[day.label,day.note].filter(Boolean).join(' ')];
     for(const text of candidates){if(!text)continue;for(const [id,r] of Object.entries(regions))if(r.match.test(String(text)))return {id,...r};}
@@ -38,7 +38,7 @@
   function attach(data){
     for(const key of Object.keys(plans))delete plans[key];
     for(const day of data.days||[]){
-      const mealRows=(day.rows||[]).filter(row=>/早餐|午餐|晚餐|正餐|简餐|备餐|采购|补给/.test(row.title||''));
+      const mealRows=(day.rows||[]).filter(row=>/早餐|早饭|午餐|晚餐|正餐|简餐|便餐|备餐|轻食|用餐|餐厅|团餐|食物|超市|干粮|饮水/.test(row.title||''));
       const targets=mealRows.length?mealRows:(day.rows||[]).slice(0,1);
       for(const row of targets)plans[row.id]={dayId:day.id,label:'随行餐饮',summary:region(day).budget+' · 三餐方向与15–20分钟备选',note:sourceNote,ids:[]};
     }
@@ -106,7 +106,7 @@
       ['塞尔维亚','原稿30日方向；2027重核','核实际停留/住宿登记要求与离境票'],
       ['埃及','拟预办官方单次eVisa，目前30美元；HRG入境','提前核中国护照资格和材料，未签发前不标已办；不套用开罗数字落地签试点'],
       ['阿联酋','中国普通护照剩余有效期6个月以上；每180日总停留≤90日','删除30日旧说；按SHJ/AUH/DXB实际口岸与离境票准备']
-    ])+'<h3>保险仍未落实</h3><p>58天180元只是预算预留，没有具体产品、投保/承保或英文凭证。优先在离开中国前核实并购买覆盖全程实际日期与十国地域的医疗及意外险；逐条确认浮潜、海上活动、中暑、夜车、救援遣返、免赔额和子限额。不要把人民币医疗总额换算后就宣称全部合规。</p><p>格鲁吉亚本机复核要求：医疗及意外保险、至少30000GEL、英文或格文、覆盖实际入境至离境；D16夜车应从过境日7/26起覆盖。若只买分段险，未覆盖时段属于自担风险；购买前确认是否允许已离境起保。日期调整后同步改保单。</p><p>'+A('埃及官方eVisa','https://visa2egypt.gov.eg/eVisa/FAQ')+' · '+A('格鲁吉亚保险法令','https://manage.matsne.gov.ge/ka/document/view/6728816')+'</p>';
+    ])+'<h3>保险仍未落实</h3><p>58天180元只是预算预留，没有具体产品、投保/承保或英文凭证。离开中国前核实医疗及意外险的覆盖日期和地区，确认浮潜、海上活动、中暑、夜车、救援遣返、免赔额和子限额。</p><p>格鲁吉亚现行要求为医疗及意外保险，保额至少30,000 GEL，保单为英文或格文，覆盖实际入境和离境日期。D15（7月25日）从巴库出发，按7月25日起覆盖以兼容当晚航班或夜车，直到实际离境。班次有变时按保险条款同步调整。</p><p>'+A('埃及官方eVisa','https://visa2egypt.gov.eg/eVisa/FAQ')+' · '+A('格鲁吉亚使馆保险说明','https://switzerland.mfa.gov.ge/en/news/370174-saqartveloshi-mogzaurobis-msurvelta-sakuradghebod')+'</p>';
   }
   function luggageGuide(){
     return '<h2>20L轻装与行李逐单核对</h2><p>采用20L黑色皮质双肩包＋轻便单肩包；<strong>实装总重≤5.5kg是目标，还没有称重验收</strong>。容量、防水或外观不等于航空合规。将相机、电池、充电器、水瓶、证件全部装入后称两件总重并量外部尺寸，预留临时饮水和食品重量。</p>'+table(['航司','本机复核基线','执行动作'],[

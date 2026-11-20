@@ -43,7 +43,7 @@
     return '<h2>原旅行手册 · 采用与更正</h2><p>保留原作者的路线启发、便利片区与比价思路，再按本次独行、学生预算和固定路线选择住宿。<strong>原作者亲测不等于本次实住，也不保证2027仍营业或符合个人体验。</strong></p>'+
       '<div class="stay-audit-intro"><h3>旧价格不能当这次报价</h3><p>手册大交通明确写为2024年6月出行记录，合计 ¥7234；例如达拉曼飞伊斯坦布尔 ¥252、迪拜酒店 ¥250／晚，只是历史体验。部分分享链接保留2025-06-08至09、2名成人的搜索参数，均不是本次2027日期和1人入住条件。</p><p>已解析的短链改给不带旧日期的稳定房源入口；未解析成功的保留“未核实”。整间、公寓和多人分摊价不当作单人床位预算。这里没有沿用旧评分。</p><p>原文涉及的签证、入境、门票及行李旧说法，不直接套用；请按独立资料页继续核对。'+['entry','tickets','luggage','transit'].map((id,i)=>'<button class="stay-text-button" data-guide="'+id+'">'+['入境与保险','票据与学生证','行李','跨境交通'][i]+'</button>').join('')+'</p></div>'+
       '<h3>'+raw.referenceAudit.length+'项住宿资料核查</h3>'+raw.referenceAudit.map(a=>'<details class="stay-audit-item"><summary>'+E(a.name)+'<small>'+E(a.verdict)+'</small></summary><p>'+E(a.reason)+'</p>'+sourceHTML(a.sources)+'</details>').join('')+
-      '<h3>本次路线如何取舍</h3><ul><li>新疆入境前、土耳其和巴尔干等未署名住宿建议，补成可检索的具体候选；没有把新选青旅说成原作者住过的酒店。</li><li>马特鲁已纳入北岸两天一晚；黑山与阿尔巴尼亚不在本次路线。阿布扎比默认一日往返，不自动加酒店夜数。</li><li>Can Mocamp 的音乐可能到01:00；早睡是硬要求时，跳过它并比较加预算的 Calba 私人房。安静房仍须店家确认。</li><li>付费夜按当前日历逐日计数：第比利斯两晚、伊斯坦布尔四晚，总计'+summary.paidNights+'晚；车上与返程夜不重复计酒店。</li></ul><p>'+E(boundary)+'</p><button class="soft-button" data-guide="stays">打开本次20城住宿候选</button>';
+      '<h3>本次路线如何取舍</h3><ul><li>新疆入境前、土耳其和巴尔干等未署名住宿建议，补成可检索的具体候选；没有把新选青旅说成原作者住过的酒店。</li><li>马特鲁已纳入北岸两天一晚；黑山与阿尔巴尼亚不在本次路线。阿布扎比默认一日往返，不自动加酒店夜数。</li><li>Can Mocamp 的音乐可能到01:00；早睡是硬要求时，跳过它并比较加预算的 Calba 私人房。安静房仍须店家确认。</li><li>付费夜按当前日历逐日计数：第比利斯'+byId.tbilisi.paidNights+'晚、伊斯坦布尔四晚，总计'+summary.paidNights+'晚；车上与返程夜不重复计酒店。</li></ul><p>'+E(boundary)+'</p><button class="soft-button" data-guide="stays">打开本次20城住宿候选</button>';
   }
   function ensureGuides(data=D){
     const additions=[{id:'stays',title:'住哪里 · 20城住宿候选',subtitle:summary.paidNights+'晚 · 预算、地址与订前条件',html:staysGuide()},{id:'handbook-audit',title:'原旅行手册 · 采用与更正',subtitle:'短链身份、旧价与路线取舍',html:auditGuide()}];
@@ -99,8 +99,8 @@
       for(const d of data.days){for(const k of ['lodging','note','priority','extras'])if(d[k])d[k]=replace(d[k]);for(const r of d.rows){for(const k of ['title','detail','plain'])if(r[k])r[k]=replace(r[k]);for(const link of r.links||[]){let u;try{u=new URL(link.url||'');}catch{continue;}if(u.hostname!=='www.google.com'||!u.pathname.startsWith('/maps/dir/'))continue;let changed=false;for(const k of ['origin','destination']){const q=u.searchParams.get(k)||'';if(old.some(a=>normal(q).includes(normal(a)))||normal(q)===normal(c.previousPrimary.query)){u.searchParams.set(k,c.primary.query);changed=true;}}if(changed)link.url=u.href;}}}
     }
   }
-  function attach(data=D){
-    refreshNamedRoutes(data);
+  function attach(data=D,{refreshRoutes=true}={}){
+    if(refreshRoutes)refreshNamedRoutes(data);
     for(const k of Object.keys(byId))delete byId[k];for(const k of Object.keys(byDay))delete byDay[k];
     const days=data.days||[];
     summary={paidNights:0,planCny:[0,0],originalBudgetCny:3860,checkedDate:raw.checkedDate,quote:null};
@@ -118,7 +118,8 @@
     }
     for(const day of days)if(!byDay[day.id])day.accommodation={type:'transport-or-return',status:'not-booked-as-hotel',cityId:null,placeId:null,quote:null};
     data.accommodations=raw.cities;data.accommodationAudit=raw.referenceAudit;data.accommodationSummary=summary;
-    data.accommodationRouteUpdates=attachRoutes(data);ensureGuides(data);return summary;
+    if(refreshRoutes)data.accommodationRouteUpdates=attachRoutes(data);
+    ensureGuides(data);return summary;
   }
   function dayHTML(value){
     const day=typeof value==='object'?value:(D.days||[]).find(d=>d.id===value||d.id==='day'+value);if(!day)return '';

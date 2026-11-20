@@ -1,6 +1,6 @@
 window.TRIP_DINING_DATA = {
   "checked": "2026-11-10",
-  "reviewNote": "2026-11-10按反向路线重排餐厅日期与用餐卡；门店和菜单证据沿用各店原核查日，未声称重新实地核验或取得2027价格。",
+  "reviewNote": "2026-11-20按新版58天行程对齐餐厅日期与用餐卡。门店、菜单和营业证据沿用各店所列核查日，2027来访前复核。",
   "restaurants": [
     {
       "id": "yining-jiang-jianmian",
@@ -68,8 +68,7 @@ window.TRIP_DINING_DATA = {
       "mapQuery": "Qaganat Гоголя 39 Алматы",
       "days": [
         4,
-        5,
-        6
+        5
       ],
       "dishes": [
         "看当天价签选一份抓饭或热荤配主食；汤/熟蔬菜按预算加，不默认全套"
@@ -197,7 +196,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D8 14:30–15:15午餐优先考察此分店与实际DRIMIN入住点路线；不为拍大锅绕到北侧电视塔店。",
+        "D8 14:00–14:45午餐，按DRIMIN实际入住地点导航此分店，餐后去帖木儿历史博物馆。",
         "D13仅当返塔什干后已确认晚间仍有餐且顺路时备选；抓饭不保证晚到仍有。",
         "拍摄厨房须先问店员，不因公开明档就默认可以进入操作区。"
       ],
@@ -399,8 +398,7 @@ window.TRIP_DINING_DATA = {
       "mapQuery": "Firuze Restaurant Tarlan Aliyarbeyov 14 Baku",
       "days": [
         14,
-        15,
-        16
+        15
       ],
       "rowIds": [
         "d14v2-10",
@@ -432,9 +430,7 @@ window.TRIP_DINING_DATA = {
       "name": "Dolma Restaurant · 喷泉广场店",
       "address": "8 M. Rasulzade St., Sabail District, Baku",
       "mapQuery": "Dolma Restaurant 8 Mammadamin Rasulzade Baku",
-      "days": [
-        16
-      ],
+      "days": [],
       "rowIds": [
         "d16v2-08"
       ],
@@ -444,7 +440,7 @@ window.TRIP_DINING_DATA = {
         85
       ],
       "menuEvidence": "官网菜单明确账单另加10%服务费；动态菜品未返回可核金额，不能沿用原稿28/38元当实价。区间是单人食物规划并留服务费，饮品另计。",
-      "hours": "官网未取得可靠营业时段；D16建议12:40–13:30就餐，出门前核开门。",
+      "hours": "官网未取得可靠营业时段，出门前核开门。",
       "sources": [
         {
           "title": "Dolma官网：喷泉广场8号地址",
@@ -456,7 +452,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D16希尔万沙宫结束后往喷泉广场再回住宿，按实际青旅位置核步行；不是宫门口店。",
+        "从巴库老城向喷泉广场方向用餐时可选，按实际出口和住宿位置判断步行时间。",
         "13:30前离店，保留原下午安排与夜车核验；等位超过15分钟换Firuzə或现成简餐。",
         "空调、可借插座、Google评分数量未实证。"
       ],
@@ -469,6 +465,7 @@ window.TRIP_DINING_DATA = {
       "address": "7 Vakhtang Gorgasali Street, Tbilisi",
       "mapQuery": "Maspindzelo 7 Gorgasali Tbilisi",
       "days": [
+        16,
         17,
         18
       ],
@@ -494,9 +491,9 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D17老城/Narikala结束后先在此吃，再过桥回Avlabari；调整原晚餐文字，不新增跨城。",
+        "D16从圣三一大教堂回老城后用餐。D17姆茨赫塔返城较晚时，可直接在实际下车点附近吃。",
         "D18团返城很晚则不赶此店，原返城休息优先。",
-        "原稿Pasanauri Rustaveli46在地图平台有关闭冲突；Mafshalia Aghmashenebeli137离D17老城动线远，均不列为默认顺路店。",
+        "Pasanauri Rustaveli 46在地图平台有关闭信息冲突。Mafshalia Aghmashenebeli 137离本店所在的老城南段较远。",
         "空调强度、插座权限与Google评分数量未核。"
       ],
       "verified": "集团第一方菜单确认具名老城门店与菜价；电子菜单时段异常已标出。"
@@ -523,7 +520,7 @@ window.TRIP_DINING_DATA = {
         55
       ],
       "menuEvidence": "市官方旅游页证实店与地址，OddMenu链接可打开但未取得菜价正文；原稿500–800AMD和凌晨4点不能当本次已核。食物区间为规划，饮品与服务费看现场菜单。",
-      "hours": "店方营业时段待出发前确认；D19/D20/D21按当日日程就餐，D21已取消为旧凌晨航班而18:30强制早睡。",
+      "hours": "店方营业时段待出发前确认，D19晚餐与D21午餐前各核一次。",
       "sources": [
         {
           "title": "埃里温市官方旅游页：TunLahmajo位于23Teryan",
@@ -536,7 +533,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "D19从Cascade返回共和国广场途中可经Teryan吃，不再另跑远店。",
-        "D21在城内正常晚餐；8/1下午航班，不必为旧凌晨航班提前在17点吃晚饭。",
+        "D21古籍馆参观后、前往塞凡湖前安排12:00–12:45午餐。排队久就改便餐。",
         "官方旅游页23号与部分地图25号不一致，导航用完整店名；联系电话+37410538717。",
         "冷气、插座和Google评分未核。"
       ],
@@ -584,8 +581,8 @@ window.TRIP_DINING_DATA = {
       "address": "Kundurdžiluk 19, Baščaršija, Sarajevo",
       "mapQuery": "Cevabdzinica Zeljo Kundurdziluk 19 Sarajevo",
       "days": [
-        34,
-        35
+        26,
+        27
       ],
       "rowIds": [
         "d34v2-08",
@@ -597,7 +594,7 @@ window.TRIP_DINING_DATA = {
         50
       ],
       "menuEvidence": "旅游局确认Kundurdžiluk门店；本次未取得可靠现行数字菜单，原稿5根28元、10根45元未作为实价。",
-      "hours": "未取得店方营业表；D26约19:00或D27约20:00前先查当天营业。",
+      "hours": "未取得店方营业表。D26 18:00晚餐、D27 19:00晚餐前先查营业。",
       "sources": [
         {
           "title": "萨拉热窝旅游局：Željo位于Kundurdžiluk",
@@ -609,7 +606,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D26Sebilj附近晚餐可步行进入老城；D27黄堡下来再吃。",
+        "D26抵萨拉热窝后在Sebilj附近用餐。D27缆车回老城后吃晚餐，黄堡按时间可选。",
         "排队超过15分钟改Bravadžiluk21的Petica；不要把任意同名Željo店当成本店。",
         "冷气与插座均未核，不能当稳定充电站。"
       ],
@@ -622,8 +619,8 @@ window.TRIP_DINING_DATA = {
       "address": "Bravadžiluk 21, 71000 Sarajevo",
       "mapQuery": "Petica Ferhatovic Bravadziluk 21 Sarajevo",
       "days": [
-        34,
-        35
+        26,
+        27
       ],
       "rowIds": [
         "d35v2-06",
@@ -643,7 +640,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D27周五11:30老城午餐窗可用，距原老城参观方向近；等位超15分钟改Željo。",
+        "D27周五11:45–12:30老城午餐可选，等位超15分钟改Željo。",
         "同官网另有FAN Čizmedžiluk1，不能把FAN周日休息套到Petica。",
         "预算只含单人食物；酸奶、Kajmak及饮水另核。"
       ],
@@ -656,7 +653,7 @@ window.TRIP_DINING_DATA = {
       "address": "Onešćukova bb, 88000 Mostar",
       "mapQuery": "National restaurant Tima Irma Onescukova Mostar",
       "days": [
-        36
+        28
       ],
       "rowIds": [
         "d36v2-07"
@@ -667,7 +664,7 @@ window.TRIP_DINING_DATA = {
         60
       ],
       "menuEvidence": "官网证明老城店地址与烧烤品类，未提供可核数值价表；原稿未给本店单品实价，不能按28元套入。",
-      "hours": "官网未列可核营业表；D28周日12:15前先看当天开门，未开就用自带简餐，别拖到回程前。",
+      "hours": "官网未列可核营业表。D28周六约12:00用餐前先看当天是否开门，未开就用自带简餐。",
       "sources": [
         {
           "title": "Tima–Irma官网：Onešćukova地址与菜品",
@@ -688,8 +685,8 @@ window.TRIP_DINING_DATA = {
       "address": "Francuska 18, Beograd Stari Grad",
       "mapQuery": "Pizza Bucko Francuska 18 Belgrade",
       "days": [
-        38,
-        40
+        24,
+        25
       ],
       "rowIds": [
         "d38v2-06",
@@ -722,10 +719,9 @@ window.TRIP_DINING_DATA = {
       "address": "Strahinjića Bana 57, Belgrade",
       "mapQuery": "Walter Sarajevski Cevap Strahinjica Bana 57 Belgrade",
       "days": [
-        37,
-        38,
-        39,
-        40
+        23,
+        24,
+        25
       ],
       "rowIds": [
         "d37v2-08",
@@ -739,7 +735,7 @@ window.TRIP_DINING_DATA = {
         60
       ],
       "menuEvidence": "官网把塞尔维亚菜单分Central/Commercial/Regional/Tourist/Airport多档，本次未取得本分店对应价，不能全连锁统一报45元；人民币是单人食物规划，饮品另计。",
-      "hours": "官方分店页未给可靠营业时间；各日晚餐前核开门，D25须18:30前结束。",
+      "hours": "官方分店页未给可靠营业时间，各日晚餐前核开门。",
       "sources": [
         {
           "title": "Walter官方Dorćol店地址",
@@ -756,7 +752,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "从共和国广场/步行街向Dorćol有步行绕行，按实际青旅位置选用，不把它写作米哈伊洛大公街店。",
-        "D22长巴士晚到或D25早睡日不排队，必要时打包。",
+        "D25斯卡达利亚晚餐优先选沿街顺路店，Walter Dorćol可作步行备选。",
         "室内店不自动保证座位旁有插座；实时评分与冷气未核。"
       ],
       "verified": "官网确认具体分店与产品份量；价格须匹配分店菜单档。"
@@ -768,7 +764,7 @@ window.TRIP_DINING_DATA = {
       "address": "Magistralni trg 18, Zemun, Belgrade",
       "mapQuery": "Walter Zemun centar Magistralni trg 18",
       "days": [
-        39
+        23
       ],
       "rowIds": [
         "d39v2-07"
@@ -838,7 +834,7 @@ window.TRIP_DINING_DATA = {
       "address": "Aydınlı Mahallesi, Aydınlı Sokak No:1, Göreme 50180",
       "mapQuery": "Turkish Ravioli Restaurant Aydınlı Sokak No 1 Goreme",
       "days": [
-        23
+        39
       ],
       "dishes": "一份Mantı酸奶肉馅小饺子，或鸡肉陶盘饭；用叉勺。特色饮品Ayran另点。",
       "budgetCny": [
@@ -871,9 +867,9 @@ window.TRIP_DINING_DATA = {
       "address": "Hakkı Paşa Meydanı No:16, Merkez Camii karşısı, Göreme 50180",
       "mapQuery": "Cappadocia Pide House Restaurant Hakki Pasa Meydani 16 Goreme",
       "days": [
-        22,
-        23,
-        24
+        38,
+        39,
+        40
       ],
       "dishes": "先看价点一份Pide土耳其长船披萨，或扁豆汤加主食；Ayran另计。",
       "budgetCny": [
@@ -905,7 +901,9 @@ window.TRIP_DINING_DATA = {
       "name": "Piyazcı Ahmet · Altındağ店",
       "address": "Altındağ Mahallesi, 166 Sokak No:29/A, Muratpaşa, Antalya",
       "mapQuery": "Piyazcı Ahmet Altındağ 166 Sokak 29 A Antalya",
-      "days": [],
+      "days": [
+        36
+      ],
       "dishes": "安塔利亚芝麻酱白豆沙拉Tahinli Piyaz＋一份Şiş Köfte烤肉丸；先问小份与总价，用叉勺。",
       "budgetCny": [
         45,
@@ -936,8 +934,8 @@ window.TRIP_DINING_DATA = {
       "address": "Andifli, Uğur Mumcu Caddesi No:21, Kaş 07580, Antalya",
       "mapQuery": "Bi Lokma Restaurant Uğur Mumcu Caddesi 21 Kaş",
       "days": [
-        26,
-        27
+        34,
+        35
       ],
       "dishes": "Ev Mantısı酸奶小饺子或Etli Yaprak Sarma肉馅葡萄叶卷，选一份主食即可；Ayran或柠檬水另计。",
       "budgetCny": [
@@ -963,7 +961,7 @@ window.TRIP_DINING_DATA = {
       "cautions": [
         "旧资料另有Hükümet Caddesi花园店，不混用地址；导航锁Uğur Mumcu21号候选并核营业。",
         "D35船餐只有预订产品明确包含才可免去午餐外支出，不能保证菜单。",
-        "D34午餐后须按原时段取包转费特希耶，不为此店延迟出发。",
+        "D34先从费特希耶转到Kaş，再在Kaş就近用晚餐。",
         "空调及插座未核。"
       ],
       "verified": "官网搜索索引及补充地址资料可核到21号店，官网直接打开超时；现价和营业仍待核。"
@@ -977,7 +975,8 @@ window.TRIP_DINING_DATA = {
       "days": [
         29,
         30,
-        32
+        32,
+        33
       ],
       "dishes": "看明码柜台选一份Kuru Fasulye白豆炖菜＋Pilav米饭，或一份鸡肉饭；按需要加汤，不默认面包无限。",
       "budgetCny": [
@@ -1006,7 +1005,7 @@ window.TRIP_DINING_DATA = {
       "address": "Caferağa, Güneşlibahçe Sokak No:43, Kadıköy, İstanbul 34710",
       "mapQuery": "Çiya Sofrası Güneşlibahçe Sokak 43 Kadıköy Istanbul",
       "days": [
-        33
+        41
       ],
       "dishes": "选一份当日安纳托利亚炖菜＋米饭；看柜台计价，先问每份/按重量。可用叉勺。",
       "budgetCny": [
@@ -1040,8 +1039,8 @@ window.TRIP_DINING_DATA = {
       "address": "Sheraton Street, opposite Wahib Stores, Hurghada",
       "mapQuery": "Star Fish Restaurant Sheraton Street Wahib Stores Hurghada",
       "days": [
-        43,
-        42
+        42,
+        43
       ],
       "dishes": "先问海鲜汤价格，或问一份带米饭的鱼排/小鱼固定套餐；整鱼称重先核每公斤价、重量和加工费。",
       "budgetCny": [
@@ -1146,8 +1145,8 @@ window.TRIP_DINING_DATA = {
       "days": [
         49,
         50,
-        53,
-        52
+        52,
+        53
       ],
       "dishes": "一份小/中碗Koshary扁豆米饭通心粉；辣酱和蒜醋单独放，先少量。用勺吃，饮料另计。",
       "budgetCny": [
@@ -1168,8 +1167,8 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "只在开罗Downtown回宿方向复用，不能称吉萨金字塔/GEM门口顺路。",
-        "D51午餐优先馆内，不能为本店中途退出GEM。",
-        "D49夜巴后不为了网红店额外赶路。",
+        "D50午餐优先配合吉萨与GEM参观，按当天行程选择馆内或市区餐。",
+        "D49抵开罗后寄包再吃，晚到时留在住宿附近。",
         "Google评分数量、空调、插座未核。"
       ],
       "verified": "官方索引中的具名分店地址已核，实时菜单未取得；2027价与营业重核。"
@@ -1181,7 +1180,7 @@ window.TRIP_DINING_DATA = {
       "address": "Green Palace Hotel Ground Floor, Al Muraqqabat Road, Deira, Dubai",
       "mapQuery": "Aroos Damascus Green Palace Hotel Al Muraqqabat Deira Dubai",
       "days": [
-        56
+        55
       ],
       "dishes": "单份鸡肉Shawarma或小份烤鸡饭；先问配菜份量和单人价。特色无酒精饮品单独核价。",
       "budgetCny": [
@@ -1205,8 +1204,8 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D53仅在实际青旅住Deira且顺路时用，不把Creek/Bur Dubai等同Deira。",
-        "D55若全日在Dubai Mall不为本店绕行；留作回Deira住宿晚餐替代。",
+        "D55走迪拜河老城，若当天已经到Deira且分店顺路，可把本店作晚餐备选。",
+        "从Bur Dubai过河及从店返回住宿另计交通，当天核对返程末班。",
         "冷气与插座仍需问店，外部评分不复制。",
         "卷饼需上手，先收相机，用餐巾纸。"
       ],
@@ -1250,7 +1249,7 @@ window.TRIP_DINING_DATA = {
       "address": "Dubai Mall, Second Floor food court；靠P7 Cinema Parking",
       "mapQuery": "ALBAIK Dubai Mall Second Floor Food Court P7 Cinema Parking",
       "days": [
-        56
+        54
       ],
       "dishes": "选一份单人鸡肉餐/鸡块餐，优先按柜台套餐牌点，不额外叠多份小吃；用叉子或吃后洗手。",
       "budgetCny": [
@@ -1270,7 +1269,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "D55午餐可直接替换商场区域餐，排队超过15–20分钟就换同层具名连锁店，不跨城觅食。",
+        "D54抵达后若按计划到Dubai Mall，可在商场选作同区晚餐。排队超过15–20分钟改就近便餐。",
         "不从搜索广告进入不明ALBAIK优惠支付站。",
         "美食广场室内可休息，但空位和插座不保证；水另计。"
       ],
@@ -1283,15 +1282,15 @@ window.TRIP_DINING_DATA = {
       "address": "Louvre Abu Dhabi, Saadiyat Cultural District, Saadiyat Island, Abu Dhabi",
       "mapQuery": "Museum Cafe Louvre Abu Dhabi Saadiyat Island",
       "days": [
-        55
+        56
       ],
-      "dishes": "先看Grab & Go柜台的单份三明治/沙拉或轻食，不点酒；可直接把D54卢浮宫前午餐安排在此。",
+      "dishes": "先看Grab & Go柜台的单份三明治、沙拉或轻食。D56逛完卢浮宫后就近吃简餐。",
       "budgetCny": [
         90,
         140
       ],
       "menuEvidence": "官方确认Grab & Go及餐厅存在；当前可核菜单入口未取得明确新价，预算是馆内餐规划额，不能当平价食堂。",
-      "hours": "官网列周一–四10:00–19:00（末点18:15），周五–日10:00–21:00（末点20:00）。D54为周四，2027复核。",
+      "hours": "原核查时官网列周一–四10:00–19:00（末点18:15），周五–日10:00–21:00（末点20:00）。D56为周六，2027复核。",
       "sources": [
         {
           "title": "Louvre官方Museum Café与营业",
@@ -1300,8 +1299,8 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "位于卢浮宫，不是大清真寺地下商城。",
-        "若先检票才能进餐厅，应把检票前移，不先吃再重复检票；准入以馆方规则为准。",
-        "馆内价可能高，预算紧改清真寺Souq Al Jami McDonald's，须先吃后移动并调整时段。",
+        "Museum Café午餐列在卢浮宫入馆参观之后，准入以馆方规则为准。",
+        "馆内餐超预算时可自带便餐，在允许进食的区域用餐。",
         "不能把餐费算入博物馆门票。"
       ],
       "verified": "官方位置、轻食产品类型和营业可核，餐价未核；饮品另计。"
@@ -1312,8 +1311,10 @@ window.TRIP_DINING_DATA = {
       "name": "McDonald's / McCafé · Souq Al Jami清真寺游客中心店",
       "address": "Souq Al Jami food court, Sheikh Zayed Grand Mosque Visitor Centre, Al Maqtaa, Abu Dhabi",
       "mapQuery": "McDonald's McCafe Souq Al Jami Sheikh Zayed Grand Mosque Abu Dhabi",
-      "days": [],
-      "dishes": "在离开大清真寺前吃一份单人鸡肉汉堡餐或简餐；餐后再乘车到卢浮宫。",
+      "days": [
+        56
+      ],
+      "dishes": "大清真寺参观结束后，可选单人鸡肉汉堡餐或简餐。",
       "budgetCny": [
         35,
         60
@@ -1331,7 +1332,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "此为D54省钱替代，必须把午餐移到11:30左右再前往卢浮宫，不能12:15已到卢浮宫又返回此店。",
+        "D56大清真寺是当天最后一站。本店可作晚餐备选，按返中央车站及返迪拜巴士的时间决定是否堂食。",
         "是明确具名的便利补给店，不冒充当地必吃菜。",
         "空调商城环境可选，但座位/充电插座不保证。"
       ],
@@ -1381,7 +1382,7 @@ window.TRIP_DINING_DATA = {
       "address": "Balat Mahallesi, Fener Kireçhane Sokak No:13/A, Fatih, İstanbul",
       "mapQuery": "Forno Balat Fener Kireçhane Sokak 13 A Istanbul",
       "days": [
-        32
+        33
       ],
       "dishes": "一份Lahmacun肉末薄饼或Pide＋按需要加扁豆汤；单人不点整桌早餐。饮品Ayran另计。",
       "budgetCny": [
@@ -1389,7 +1390,7 @@ window.TRIP_DINING_DATA = {
         85
       ],
       "menuEvidence": "官网列扁豆汤、Lahmacun、各类Pide及Ayran等，当前文字页没有数字价，先看柜台/菜单图。",
-      "hours": "具体营业时段未取得；官网说明自助早餐仅周六日，D33周三不套用。",
+      "hours": "具体营业时段未取得。官网说明自助早餐仅周六日，D33周四只看当天午餐供应。",
       "sources": [
         {
           "title": "Forno Balat官网菜单与地图入口",
@@ -1414,7 +1415,7 @@ window.TRIP_DINING_DATA = {
       "address": "Sultantepe Mahallesi, Selmani Pak Caddesi No:9, Üsküdar, İstanbul 34674",
       "mapQuery": "Kanaat Lokantası Selmani Pak Caddesi 9 Üsküdar Istanbul",
       "days": [
-        33
+        32
       ],
       "dishes": "预算选一份蔬菜/豆类家常菜＋米饭，或汤＋一份主食；先问小份和总价，避开同时点烤肉甜品整套。",
       "budgetCny": [
@@ -1447,7 +1448,7 @@ window.TRIP_DINING_DATA = {
       "address": "Haşimişcan Mahallesi, Arık Caddesi, Akkaşoğlu Apartmanı No:4/A, Muratpaşa, Antalya 07100",
       "mapQuery": "Can Can Pide Yemek Salonu Arık Caddesi 4 A Antalya",
       "days": [
-        25
+        37
       ],
       "dishes": "省钱组合：一份Kıymalı Pide肉末船饼，或白豆炖菜＋米饭；需要时加扁豆汤。用刀叉，Ayran另计。",
       "budgetCny": [
@@ -1455,7 +1456,7 @@ window.TRIP_DINING_DATA = {
         65
       ],
       "menuEvidence": "餐厅电子菜单读取2026-11-05：扁豆汤110 TRY、白豆180 TRY、米饭110 TRY、肉末Pide280 TRY、肉末薄饼160 TRY、Ayran60 TRY。网页无明确生效日，2027复核。",
-      "hours": "餐厅电子菜单列10:00–23:30，周日休；D36周三、D37周四按现规则可用但须2027重核。",
+      "hours": "餐厅电子菜单原列10:00–23:30、周日休。D36为周日，计划用餐安排在D37周一，到访前复核。",
       "sources": [
         {
           "title": "Can Can餐厅电子菜单与时间",
@@ -1468,7 +1469,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "比AltındağPiyazcıAhmet更适合Kaleiçi东侧的行程，仍按实际住宿出口核步行。",
-        "D36用午/晚餐候选，D37只在去汽车站前窗口够时吃，不压报到余量。",
+        "D37上午逛完佩尔盖后回老城午餐，计划11:30–12:30。",
         "空调和插座未核，不把店家站列出的Google分数冒充独立实时Google核验。"
       ],
       "verified": "具名店与电子菜单原币价、营业可核，门牌由目录补充；饮品另计。"
@@ -1480,8 +1481,8 @@ window.TRIP_DINING_DATA = {
       "address": "Andifli Mahallesi, Hükümet Caddesi No:12, Kaymakamlığın karşısı, Kaş 07580",
       "mapQuery": "Kaşım Restaurant Ev Yemekleri Hükümet Caddesi 12 Kaş",
       "days": [
-        26,
-        27
+        34,
+        35
       ],
       "dishes": "家常热菜柜台选一份豆类/蔬菜炖菜＋米饭，或一份当日肉菜；问小份与份量，不按自助随取误结账。",
       "budgetCny": [
@@ -1503,7 +1504,7 @@ window.TRIP_DINING_DATA = {
       "cautions": [
         "Gemini的Özlem Lokantası在Kaş未能核到匹配店，搜索结果指向Bergama/İzmir或Kumluca，不应直接导入。改为已核12号Kaşım具名候选。",
         "价格、营业、空调插座均待核，不能保证比BiLokma便宜，区间是预算选择。",
-        "D34留足取包和上Ağullu接驳时段，排队超15分钟换外带。"
+        "D34晚餐在抵达Kaş并入住后安排，晚到或排队超15分钟就换外带。"
       ],
       "verified": "店家管理资料可核12号地址、电话及菜品类型，未取得官方现价；饮水另计。"
     },
@@ -1575,7 +1576,7 @@ window.TRIP_DINING_DATA = {
       ],
       "cautions": [
         "用作D8广场散步结束后的便餐备选，替换原本未具名的晚餐；不要从DRIMIN寄包后为此北上吃午餐，也不硬塞D13返城晚上。",
-        "D8仍须留时间从店返回Mirabad的DRIMIN办理登记；若导航不能在20:15前回到住宿，则不执行，已备简餐优先。",
+        "D8按19:00–20:00晚餐，随后视时间走帖木儿广场与百老汇步行街。排队久就打包。",
         "这是换口味、控制份量的便餐补充，保留Besh Qozon作乌兹别克抓饭体验；未核冷气和插座。"
       ],
       "verified": "2026-11-06：品牌单点菜单已读，具体分店地址经地图核对；2027营业和分店实价未锁定。",
@@ -1655,7 +1656,7 @@ window.TRIP_DINING_DATA = {
       "cautions": [
         "同在喷泉广场片区，可替D15重复Firuzə晚餐；若现价明显更高，继续原店，不为换店增支。",
         "第三方旧条目有İslamSafarli3号和旧名称，优先按当前官网1号、电话+994503180207核定位，不能只搜Araz后随机进店。",
-        "D16午餐需留采购夜车便餐时间；只在老城回喷泉广场原路上安排。未声称冷气或插座。"
+        "D15返巴库后随跨境车票时刻调整，接近出发就带便餐。冷气和插座未核实。"
       ],
       "verified": "2026-11-06：当前官网确认具体门牌、名称、菜单方向和服务费；未得到单菜现价，不作为已证低价食堂。",
       "selectionOrigin": "本次独立补充"
@@ -1804,8 +1805,8 @@ window.TRIP_DINING_DATA = {
       "address": "38 Sabry Abou Alam Street, off Talaat Harb Square, Downtown Cairo；部分平台写28/39号，订前/临行核门头",
       "mapQuery": "El Kazaz 38 Sabry Abou Alam Street Talaat Harb Cairo 16903",
       "days": [
-        53,
-        52
+        52,
+        53
       ],
       "rowIds": [
         "d49v2-06",
@@ -1838,7 +1839,7 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "让开罗四顿AbouTarek有豆餐/鸡肉变化，推荐替D51回市区晚餐或D52回宿午餐；不从GEM或金字塔为此午间返回市中心。",
+        "D52从马特鲁返回开罗后、或D53从南郊返回市区后，可作当日晚餐备选。按实际到店时刻确认是否仍营业。",
         "38号有两家独立目录支持，但MenuEgypt写28号、地图有39号；务必用Sabry街与16903核定位，不把Alwey2或AlBostan7分店当同一店。",
         "先问面包、配菜和服务费是否另收；Talabat配送与折扣不是2027堂食保证，不声称冷气/插座。"
       ],
@@ -1853,7 +1854,6 @@ window.TRIP_DINING_DATA = {
       "address": "Karachi Darbar Restaurant, 284 D90, Al Bada' / Al Satwa, Dubai；AlSatwa BusStand附近，电话+97143490202",
       "mapQuery": "Karachi Darbar Satwa 284 D90 Dubai 043490202",
       "days": [
-        54,
         57
       ],
       "rowIds": [
@@ -1885,9 +1885,9 @@ window.TRIP_DINING_DATA = {
         }
       ],
       "cautions": [
-        "适合D53取消迪拜湾短走、留在住宿西侧Satwa吃便餐的版本；若已在Deira且交通顺畅，保留Aroos，不为本店跨区折返。",
-        "AlphatelDWTC在DWTCSheikhZayedRoad大厦区，Satwa284D90在道路另一侧街区；没有核到酒店门口直达的可靠步行时长或公交班次，不能标成下楼/步行即到。按实际入口规划正规短程公交/车，餐费外另计往返交通和等车时间，不能19:30前结束就跳过。",
-        "本条不替换D55DubaiMall内两餐；午间不从商场跑Satwa，也不晚餐后再返回商场等喷泉。",
+        "D57从蓝水岛返住宿片区后，且实际取包路线经过Satwa时可选。",
+        "Alphatel DWTC在Sheikh Zayed Road大厦区，Satwa 284D90在道路另一侧。按实际入口计入交通、等车和取包，20:50后改便携晚餐。",
+        "傍晚返程较慢时优先取包、搭末班前地铁赴机场。",
         "不把Talabat51779的Karama店菜单误套Satwa51773；未核冷气和插座。"
       ],
       "verified": "2026-11-06：Satwa门牌、电话、经营与菜品方向交叉确认；官方单价和Alphatel末段实际交通尚未测得，条件性便餐备选。",
@@ -2080,7 +2080,7 @@ window.TRIP_DINING_DATA = {
       "address": "TerraCity Alışveriş Merkezi，Fener Mahallesi, Tekelioğlu Caddesi No:55, Muratpaşa, Antalya；以商场楼层导向找店",
       "mapQuery": "Tavuk Dunyasi TerraCity Antalya",
       "days": [
-        25
+        37
       ],
       "budgetCny": [
         35,
@@ -2116,7 +2116,7 @@ window.TRIP_DINING_DATA = {
       "address": "Erasta Fethiye AVM，一楼餐饮区；商场官网Taşyaka, 180.Sokak No:48，品牌表另写Ölüdeniz Caddesi No:56，按商场及店名找入口",
       "mapQuery": "Tavuk Dunyasi Erasta Fethiye AVM",
       "days": [
-        28
+        34
       ],
       "budgetCny": [
         35,
@@ -2528,7 +2528,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "goreme-pide-house",
       "backup": null,
-      "note": "航班转机后只在格雷梅镇吃一顿简餐，不为瓦罐肉拖到晚睡。"
+      "note": "前夜乘夜巴抵格雷梅，当天傍晚在镇上吃简餐，排队久就外带回青旅。"
     },
     {
       "day": 39,
@@ -2552,7 +2552,7 @@ window.TRIP_DINING_DATA = {
       "meal": "晚餐",
       "shop": "goreme-pide-house",
       "backup": null,
-      "note": "绿线返镇后，先在19:30前解决晚餐并取包；若团晚到，已备干粮直接去汽车站，不挤检票。"
+      "note": "绿线返镇后吃晚餐，随后回同一家青旅，确认D41凌晨接车。"
     },
     {
       "day": 41,
@@ -2560,7 +2560,7 @@ window.TRIP_DINING_DATA = {
       "meal": "午餐",
       "shop": "istanbul-ciya",
       "backup": null,
-      "note": "从Moda返回Kadıköy市集边吃；把这段12:15–13:30用作移动和午餐，餐后继续室内参观，预算高于食堂。"
+      "note": "12:30–13:30在Kadıköy市集旁吃午餐。若前段延误或未取得后段登机牌，则在机场吃。"
     },
     {
       "day": 41,
@@ -2725,8 +2725,8 @@ window.TRIP_DINING_DATA = {
   "corrections": [
     "反向路线逐行关联具名餐厅：贝尔格莱德与波黑提前，Kaş两晚后赴安塔利亚，格雷梅放最后。",
     "D36为周日：Can Can旧资料列周日休，移D37周一；D36按当天开放的备选店及实际菜单选择。",
-    "Kadıköy/Moda与Çiya午餐放D41长转半日；D32保欧洲侧考古馆与Üsküdar/Kuzguncuk，餐厅不在两个日期重复挂载。",
-    "绿线D40、Kekova D35、红海D43的团内午餐仅在订单明确含餐时扣除，不保证某道菜。",
+    "D32考古馆后过海到Üsküdar及Salacak，D41转机条件满足时去Kadıköy吃Çiya。",
+    "四景团D6、绿线D40、Kekova D35和红海D43先核产品餐食包含项，自费时带简餐和饮水。",
     "不照录未核评分、评论数、强冷气、插座、免费面包和固定出餐时间；每餐只留所需用餐时间，不把交通和夜游改成餐厅。",
     "所有人民币区间为规划留量；菜单原币与证据日期见店卡。学生证不自动获得餐饮优惠。",
     "当地日常饮水与特色饮品另计，密封饮用水优先；不加冰不能替代水源和卫生判断。"

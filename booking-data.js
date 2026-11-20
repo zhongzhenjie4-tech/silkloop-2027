@@ -1,14 +1,14 @@
 window.TRIP_BOOKING_DATA = {
-  "checked": "2026-11-10",
+  "checked": "2026-11-20",
   "calendar": {
-    "checked": "2026-11-10",
+    "checked": "2026-11-20",
     "planDates": "2027-07-11—2027-09-06；9月6日17:05到杭州，9月7日开学",
     "automaticMonitoringCreated": false,
     "bookingPerformed": false,
     "evidenceBoundary": "JU851、PC292、PC2733、PC620、EK928、EK310来自用户已购截图与确认；实际金额、乘机人及订单编号不公开。塔什干→巴库待购，住宿与地面交通仍按各自状态。未代用户下单或创建自动监控。",
     "saleWindow": {
       "emiratesDays": 328,
-      "daysUntilReturnFromCheckedDate": 300,
+      "daysUntilReturnFromCheckedDate": 290,
       "conclusion": "返程已按用户确认的2027-09-06 EK310时刻排，不再以旧9/4日期判断开售。售票窗口只说明可查日期范围，不保证库存或票价。",
       "url": "https://www.emirates.com/english/help/faq-topics/booking-with-emirates/"
     },
@@ -22,21 +22,21 @@ window.TRIP_BOOKING_DATA = {
           "TAS",
           "GYD"
         ],
-        "priority": "主链唯一待购：7/24塔什干→巴库；后段已购日期作为锚点",
+        "priority": "7/24 待购，优先 HY755 早班直飞含托运；07:35→09:30 为历史样例。",
         "startWatching": "现在开始记含税基准；主链改日先检查两端住宿和后续跨境交通。",
-        "recommendedDecision": "合适价格及完整行程可售时落实；2027春季仍未定则重新检查日期库存。",
-        "flexibility": "以7/24为计划日；可比较前后1日，但不能只改机票不改巴库、铁路及签证日期。",
+        "recommendedDecision": "单人含税和50L主包托运，目标 ≤¥1,100，可考虑至 ¥1,300；按出票页含税总价确认。",
+        "flexibility": "以7/24为计划日。若改日期，先重核巴库住宿、7/25跨境票和入境材料。",
         "checks": [
           "比较Uzbekistan Airways与AZAL承运/代码共享的含税单人总价，不只盯HY755号。",
-          "核实际TAS出发机场/航站楼与GYD抵达日；HY755当前官网出发板只证明现行样例，不证明7/24时刻。",
+          "07:35→09:30 是航司曾公布的周末早班，2027-07-24 实际时刻、航站楼和售票待核。",
           "把票种自带随身包、改退和支付手续费按同一口径比较，不默认加购8kg/10kg；票面承运方规则优先。"
         ],
-        "url": "https://www.azal.az/en/flights-from-tashkent-to-baku",
+        "url": "https://www.uzairways.com/en/schedule",
         "compareUrls": [
-          "https://www.uzairways.com/en/schedule",
-          "https://www.uzairways.com/en"
+          "https://www.azal.az/en/flights-from-tashkent-to-baku",
+          "https://www.uzairways.com/en/press-center/news/uzbekistan-airways-increases-regular-flights-number-tashkent-baku"
         ],
-        "timeReference": "12:30 塔什干 → 14:25 巴库·样例 · Uzbekistan Airways HY755：塔什干 → 巴库"
+        "timeReference": "HY755 07:35 塔什干 → 09:30 巴库 · 历史周末早班参考，2027-07-24 待核"
       },
       {
         "id": "evn-beg",
@@ -201,10 +201,10 @@ window.TRIP_BOOKING_DATA = {
         ],
         "priority": "用户确认已落实时刻；9/6到杭，9/7开学",
         "startWatching": "不继续追旧9/4日期；留意本人订单航变。",
-        "recommendedDecision": "9/5退房寄存，取包后22:30–23:00到DXB T3；9/6 04:35起飞。",
+        "recommendedDecision": "9/5退房寄存，约21:30取包、约22:00进红线、目标22:45前抵DXB T3；9/6 04:35起飞。",
         "flexibility": "不自动顺延返校日期；改签先核本人退改条款。",
         "checks": [
-          "9/2、9/3、9/4三晚床位；9/5默认不再付一夜房费，寄存及洗浴另外向住宿确认。",
+          "9/2、9/3、9/4三晚床位。9/5退房前确认寄存、最晚取包与洗浴；核实际进站点机场方向末班。",
           "9/6 17:05落地杭州；最后到校交通及校门/宿舍准入按本人情况核对。"
         ],
         "url": "https://www.emirates.com/english/manage-booking/",
@@ -220,6 +220,7 @@ window.TRIP_BOOKING_DATA = {
         "title": "落实剩余主链，保留已确认航班",
         "actions": [
           "主链只剩7/24 TAS→GYD待购，比较含所需包额的单人含税最终价。",
+          "落实7/25巴库→第比利斯夜车与过境要求。夜车无合适票再看GYD→TBS，按最终晚间落脚点调整住宿。",
           "JU851、PC292、PC2733＋PC620、EK928及EK310按本人已购时刻安排，只查航变和行前要求，不再重复订。",
           "继续核贝城→萨城跨境大巴、土耳其夜巴及马特鲁住宿，未创建自动盯价。"
         ]
@@ -239,7 +240,7 @@ window.TRIP_BOOKING_DATA = {
         "actions": [
           "核贝城→萨城、莫斯塔尔往返、伊城→费特希耶与安塔利亚→格雷梅具体出发站及班次。",
           "确认HRG预订8/20夜并接待8/21凌晨到店，夜巴日不重复计酒店。",
-          "9/5取包去DXB，22:30–23:00到T3；原日期私密酒店和票夹不会随公开换序自动改。"
+          "9/5取包去DXB，约22:00进红线，22:45前到T3；末班未确认就打车。原日期的酒店和票夹请自行核对。"
         ]
       }
     ],
@@ -435,8 +436,8 @@ window.TRIP_BOOKING_DATA = {
           "选择允许男性的6床混合宿舍单床，别选双人整间；21岁单独入住和原护照登记在订单中确认。",
           "平台当前列入住14:00–00:00、退房12:00前，钥匙卡100 AED可退押金；早餐不含。付款、押金退还时段和取包需确认。",
           "锁柜是否可上锁、空调夜间使用、洗衣收费、最新卫生和实际房号另核；不把官网模板中的餐厅/泳池/餐食当已含权益。",
-          "D55不住时须确认9/3退房后寄存至约20:30的费用、接待与取回办法，不默认能回房洗澡。",
-          "planBedCny仅为90–150元每床每晚筛选目标，未取得9/1–3或9/1–4的2027含税报价，quote=null。超过目标则比较另一具名候选，不假定该价能买到。"
+          "确认9/5退房后寄存至约21:30的费用、接待与取回办法；退房后洗浴以青旅回复为准。",
+          "90–150元为每床每晚筛选目标，2027年9/2–9/5含税报价待核。超过目标再比同区候选。"
         ],
         "planBedCny": [
           90,
@@ -475,7 +476,7 @@ window.TRIP_BOOKING_DATA = {
         ],
         "why": "协会宿舍为第二询价候选，便于按男性床位查价。位置在机场以北Al Qusais，适合DXB方向，但去老城、Dubai Mall的交通比Satwa需重新算。协会官网版权2015、平台资料亦偏旧，不能把仍可打开当作2027可订。",
         "verifyBeforeBooking": [
-          "先取得仍在经营、2027年9/1–3可接单的回复，再考虑预订；不凭旧网页直接付款。",
+          "先取得仍在经营、2027年9/2–9/5可接单的回复，再预订。",
           "明确男性宿舍单床、21岁独自入住、原护照登记、最终含税总价和取消规则。",
           "旧官网列14:00后入住、12:00前退房及含早；早餐、夜间接待、锁柜与洗衣均需当期确认。",
           "旧平台另列15 AED/住宿/夜税，不能直接认定每床同额；请给整单最终价格。",
@@ -493,11 +494,11 @@ window.TRIP_BOOKING_DATA = {
     },
     "airportFindings": [
       {
-        "claim": "2026-11-06官方DXB→HGH通用路线页当前显示EK310 11:00→23:00，A350；页面未选2027/9/4日期，亦提示季节/日期会变化。旧04:35→17:05不能继续作为唯一默认。",
+        "claim": "当期通用路线页可能显示其他时刻。当前行程按用户确认的2027/9/6 EK310 04:35→17:05执行，出发前查客票航变。",
         "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
       },
       {
-        "claim": "Emirates当前通用建议：通常提前3小时到机场，个别机场需4小时，以本人票面为准；00:15到T3是04:35起飞前4小时20分的保守规划。",
+        "claim": "Emirates通用建议通常提前3小时到机场，个别机场需4小时。当前方案9/5 22:45前到T3，按实际客票办理。",
         "url": "https://www.emirates.com/ae/english/manage-booking/check-in-options/"
       },
       {
@@ -515,10 +516,6 @@ window.TRIP_BOOKING_DATA = {
       {
         "claim": "Premier官网到DXB为约6–7km、约10–15分钟驾驶参考；叫车、酒店退房、进机场航站楼与行李/安检时间须另留，不写全流程10分钟。",
         "url": "https://mena.premierinn.com/en/hotel-directory/dubai/dubai-al-jaddaf-hotel/"
-      },
-      {
-        "claim": "2027/9/4真正航班尚未查到指定日期票面；旧04:35/17:05只作历史条件分支。若实际11:00/23:00，应保留9/3整夜床，预计9/5凌晨入境返校；宿舍夜间准入或机场附近休息需确认。",
-        "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/"
       }
     ],
     "branches": [
@@ -527,12 +524,13 @@ window.TRIP_BOOKING_DATA = {
         "default": true,
         "sequence": [
           "9/2晚入住迪拜青旅",
-          "9/3阿布扎比、9/4迪拜老城与Downtown",
-          "9/5退房寄存，晚上取包，22:30–23:00到DXB T3",
+          "9/3迪拜相框、老城与辛达加，9/4阿布扎比",
+          "9/5退房寄存、蓝水岛日落，约21:30取包、22:00进红线、22:45前抵DXB T3",
           "9/6 04:35飞杭州，17:05落地，9/7开学"
         ],
         "conditions": [
           "9/5退房后寄存、淋浴收费单独询问。",
+          "核实际车站机场方向末班，未确认或晚到则用正规出租车。",
           "未来改签是否收费看本人的票规；不承诺无限免费。"
         ]
       }
@@ -560,7 +558,7 @@ window.TRIP_BOOKING_DATA = {
     ],
     "sources": [
       {
-        "title": "Emirates官方DXB→HGH现行通用路线页：11:00→23:00",
+        "title": "Emirates官方DXB→HGH通用路线页",
         "url": "https://www.emirates.com/english/destinations/dxb/hgh/flights-from-dubai-to-hangzhou/",
         "checked": "2026-11-06"
       },
@@ -715,8 +713,8 @@ window.TRIP_BOOKING_DATA = {
       "periods": [
         {
           "checkIn": "2027-07-24",
-          "checkOut": "2027-07-26",
-          "nights": 2
+          "checkOut": "2027-07-25",
+          "nights": 1
         }
       ],
       "previousCny": [
@@ -735,9 +733,9 @@ window.TRIP_BOOKING_DATA = {
       ],
       "periods": [
         {
-          "checkIn": "2027-07-27",
+          "checkIn": "2027-07-26",
           "checkOut": "2027-07-29",
-          "nights": 2
+          "nights": 3
         }
       ],
       "previousCny": [
@@ -1025,8 +1023,8 @@ window.TRIP_BOOKING_DATA = {
     }
   ],
   "totalStayTargetCny": [
-    3935,
-    6845
+    3965,
+    6885
   ],
   "previousStayPlanCny": [
     5160,
